@@ -7,7 +7,7 @@
 	InputKey: 'Wprowadź klucz produktu', // Please input license key
 	InputMail: 'Wprowadź adres e-mail', // Please input Mail
 	InputName: 'Wprowadź imię i nazwisko', // Please input Name
-	InputPhone: 'Wprowadź numer telefonu', // Please input Phone
+	InputPhone: 'Wprowadź numer telefonu', // Please input Phone.
 	LicenseSettings: 'Klucz Produktu', // License Key
 	LoginAdminInfo: 'Nazwa użytkownika: admin, Hasło: admin', // User name: admin, Password: admin
 	LoginAsAdmin: 'Zaloguj się jako admin', // Please log in as built-in admin
