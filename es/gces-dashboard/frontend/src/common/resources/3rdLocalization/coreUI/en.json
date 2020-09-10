@@ -1,0 +1,16 @@
+{
+    "editorsLocalization": {
+        "collectionEditor": {
+            "closeBtnTitle": "Close",
+            "showBtnTitle": "Show Items",
+            "addBtnText": "Add",
+            "addBtnTitle": "Add Item",
+            "textEmpty": "Collection is empty",
+            "textItems": "items"
+        }
+    },
+    "unknownProperty": "Unknown Property",
+    "emptyListPlaceholder": "Empty List",
+    "gridSearchPlaceholder": "enter property name here...",
+    "closeSearchBtnTitle": "Close"
+}

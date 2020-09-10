@@ -1,0 +1,28 @@
+﻿{
+  "resources": [
+    {
+      "key": "CMC_BuiltInClaimMappingDeleteError",
+      "value": "Built-in claim mapping can not be deleted."
+    },
+    {
+      "key": "CMC_BuiltInClaimMappingModifyError",
+      "value": "Built-in claim mapping can not be modified."
+    },
+    {
+      "key": "CMC_ClaimMappingAlreadyExists",
+      "value": "Claim mapping already exists."
+    },
+    {
+      "key": "CMC_ClaimMappingNotExist",
+      "value": "Claim mapping does not exist."
+    },
+    {
+      "key": "CMC_CustomizePropertyNotExist",
+      "value": "Custom property does not exist."
+    },
+    {
+      "key": "CMC_InvalidClaimMappingName",
+      "value": "Invalid claim mapping name. The length of the claim mapping name should be between 1 and 64, and the name can not contains '<', '>', '/', '\\\\', '$' and some invalid keywords."
+    }
+  ]
+}

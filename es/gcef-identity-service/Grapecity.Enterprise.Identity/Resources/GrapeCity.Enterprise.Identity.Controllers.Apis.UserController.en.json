@@ -1,0 +1,172 @@
+﻿{
+  "resources": [
+    {
+      "key": "Email",
+      "value": "Email"
+    },
+    {
+      "key": "EmailDesp",
+      "value": "The unique email address for user, can not be empty."
+    },
+    {
+      "key": "Enabled",
+      "value": "Enabled"
+    },
+    {
+      "key": "EnabledDesp",
+      "value": "Indicate whether the user is enabled, can be \"true\" or \"false\", the default value is \"true\", can be empty."
+    },
+    {
+      "key": "ExportFileName",
+      "value": "users.xlsx"
+    },
+    {
+      "key": "FalseStr",
+      "value": "False"
+    },
+    {
+      "key": "FirstName",
+      "value": "FirstName"
+    },
+    {
+      "key": "FirstNameDesp",
+      "value": "The first name of user, can be empty."
+    },
+    {
+      "key": "FullName",
+      "value": "FullName"
+    },
+    {
+      "key": "FullNameDesp",
+      "value": "User full name."
+    },
+    {
+      "key": "Id",
+      "value": "Id"
+    },
+    {
+      "key": "IdDesp",
+      "value": "The unique identification for user, can be empty when the provider is \"local\"."
+    },
+    {
+      "key": "LastName",
+      "value": "LastName"
+    },
+    {
+      "key": "LastNameDesp",
+      "value": "The last name of user, can be empty."
+    },
+    {
+      "key": "Mobile",
+      "value": "Mobile"
+    },
+    {
+      "key": "MobileDesp",
+      "value": "The unique mobile number for user, can be empty."
+    },
+    {
+      "key": "Password",
+      "value": "Password"
+    },
+    {
+      "key": "PasswordDesp",
+      "value": "The password of user. Password can not be empty when the provider is \"local\"."
+    },
+    {
+      "key": "Provider",
+      "value": "Provider"
+    },
+    {
+      "key": "ProviderDesp",
+      "value": "The provider of user, the default value is 'local', can be empty."
+    },
+    {
+      "key": "Roles",
+      "value": "Roles"
+    },
+    {
+      "key": "RolesDesp",
+      "value": "The roles of user, these roles can be separated by ',' and must be defined, can be empty."
+    },
+    {
+      "key": "TemplateFileName",
+      "value": "user_template.xlsx"
+    },
+    {
+      "key": "TrueStr",
+      "value": "True"
+    },
+    {
+      "key": "UC_ImportUser_EmptyExternalUserId",
+      "value": "The id of external user can not be empty."
+    },
+    {
+      "key": "UC_ImportUser_EmptyPassword",
+      "value": "Password can not be empty."
+    },
+    {
+      "key": "UC_ImportUser_EmptyUserEmail",
+      "value": "User email can not be empty."
+    },
+    {
+      "key": "UC_ImportUser_EmptyUserName",
+      "value": "User name can not be emtpy."
+    },
+    {
+      "key": "UC_ImportUser_InvalidEmailAddress",
+      "value": "Invalid email address."
+    },
+    {
+      "key": "UC_ImportUser_InvalidEnabledValue",
+      "value": "Invalid value for field 'enabled'."
+    },
+    {
+      "key": "UC_ImportUser_InvalidPassword",
+      "value": "Invalid password format. Password must contain at least 1 lowercase letter, 1 uppercase letter and 1 number, and the length must be between 8-32."
+    },
+    {
+      "key": "UC_ImportUser_RoleNotExist",
+      "value": "Role ‘{0}’ does not exist."
+    },
+    {
+      "key": "UC_ImportUser_UserEmailAlreadyExists",
+      "value": "User email already exists."
+    },
+    {
+      "key": "UC_ImportUser_UserIdAlreadyExists",
+      "value": "User id already exists."
+    },
+    {
+      "key": "UC_ImportUser_UserMobileAlreadyExists",
+      "value": "User mobile already exists."
+    },
+    {
+      "key": "UC_ImportUser_UserNameAlreadyExists",
+      "value": "User name already exists."
+    },
+    {
+      "key": "UC_InvalidUserTemplateFormat",
+      "value": "Invalid user template format."
+    },
+    {
+      "key": "UC_LanguageNotSupport",
+      "value": "Not supported language."
+    },
+    {
+      "key": "UC_NoUserDetected",
+      "value": "No user detected."
+    },
+    {
+      "key": "UC_NoVisibleSpreadSheet",
+      "value": "No visible spread sheet found."
+    },
+    {
+      "key": "UserName",
+      "value": "UserName"
+    },
+    {
+      "key": "UserNameDesp",
+      "value": "The unique name for user, can not be empty."
+    }
+  ]
+}

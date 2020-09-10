@@ -1,0 +1,12 @@
+﻿{
+  "resources": [
+    {
+      "key": "InvalidParameter",
+      "value": "Invalid parameter detected."
+    },
+    {
+      "key": "ResourceNotFound",
+      "value": "Sorry, the request resource was not found."
+    }
+  ]
+}

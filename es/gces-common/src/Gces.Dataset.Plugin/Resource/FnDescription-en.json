@@ -1,0 +1,1587 @@
+﻿[
+	{
+		"name": "Abs",
+		"category": "Math",
+		"syntax": [
+			"Abs(number)"
+		],
+		"description": [
+			"Returns the absolute value of a specified number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Acos",
+		"category": "Math",
+		"syntax": [
+			"Acos(number)"
+		],
+		"description": [
+			"Returns the angle whose cosine is the specified number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Asin",
+		"category": "Math",
+		"syntax": [
+			"Asin(number)"
+		],
+		"description": [
+			"Returns the angle whose sine is the specified number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Atan",
+		"category": "Math",
+		"syntax": [
+			"Atan(number)"
+		],
+		"description": [
+			"Returns the angle whose tangent is the specified number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Atn2",
+		"category": "Math",
+		"syntax": [
+			"Atn2(y, x)"
+		],
+		"description": [
+			"Returns the angle whose tangent is the quotient of two specified numbers."
+		],
+		"link": ""
+	},
+	{
+		"name": "Ceiling",
+		"category": "Math",
+		"syntax": [
+			"Ceiling(number)"
+		],
+		"description": [
+			"Returns the smallest integer greater than or equal to the specified number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Cos",
+		"category": "Math",
+		"syntax": [
+			"Cos(number)"
+		],
+		"description": [
+			"Returns the cosine of the specified angle."
+		],
+		"link": ""
+	},
+	{
+		"name": "Cot",
+		"category": "Math",
+		"syntax": [
+			"Cot(number)"
+		],
+		"description": [
+			"Returns the trigonometric cotangent of the specified angle, in radians, in the specified float expression."
+		],
+		"link": ""
+	},
+	{
+		"name": "Degrees",
+		"category": "Math",
+		"syntax": [
+			"Degrees(radians)"
+		],
+		"description": [
+			"Returns the corresponding angle in degrees for an angle specified in radians."
+		],
+		"link": ""
+	},
+	{
+		"name": "Exp",
+		"category": "Math",
+		"syntax": [
+			"Exp(number)"
+		],
+		"description": [
+			"Returns e raised to the specified power."
+		],
+		"link": ""
+	},
+	{
+		"name": "Floor",
+		"category": "Math",
+		"syntax": [
+			"Floor(number)"
+		],
+		"description": [
+			"Returns the largest integer less than or equal to the specified decimal number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Log",
+		"category": "Math",
+		"syntax": [
+			"Log(number)",
+			"Log(number, newBase)"
+		],
+		"description": [
+			"Returns the natural (base e or base user-specified) logarithm of a specified number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Log10",
+		"category": "Math",
+		"syntax": [
+			"Log10(number)"
+		],
+		"description": [
+			"Returns the base 10 logarithm of a specified number."
+		],
+		"link": ""
+	},
+	{
+		"name": "PI",
+		"category": "Math",
+		"syntax": [
+			"PI()"
+		],
+		"description": [
+			"Represents the ratio of the circumference of a circle to its diameter, specified by the constant, π."
+		],
+		"link": ""
+	},
+	{
+		"name": "Power",
+		"category": "Math",
+		"syntax": [
+			"Power(x, y)"
+		],
+		"description": [
+			"Returns a specified number raised to the specified power."
+		],
+		"link": ""
+	},
+	{
+		"name": "Radians",
+		"category": "Math",
+		"syntax": [
+			"Radians(degrees)"
+		],
+		"description": [
+			"Returns radians when a numeric expression, in degrees, is entered."
+		],
+		"link": ""
+	},
+	{
+		"name": "Rand",
+		"category": "Math",
+		"syntax": [
+			"Rand()",
+			"Rand(maxValue)",
+			"Rand(minValue, maxValue)"
+		],
+		"description": [
+			"Returns a random integer that is within a specified range,",
+			"Or returns a random floating-point number that is greater than or equal to 0.0, and less than 1.0."
+		],
+		"link": ""
+	},
+	{
+		"name": "Round",
+		"category": "Math",
+		"syntax": [
+			"Round(number)",
+			"Round(number, digits)",
+			"Round(number, digits, MidpointRounding mode)"
+		],
+		"description": [
+			"Rounds a value to the nearest integer or to the specified number of fractional digits.",
+			"Available MidpointRounding enumeration values: ToEven, AwayFromZero."
+		],
+		"link": ""
+	},
+	{
+		"name": "Sign",
+		"category": "Math",
+		"syntax": [
+			"Sign(number)"
+		],
+		"description": [
+			"Returns an integer that indicates the sign of a number.",
+			"-1: value is less than zero.",
+			" 0: value is equal to zero.",
+			" 1: value is greater than zero."
+		],
+		"link": ""
+	},
+	{
+		"name": "Sin",
+		"category": "Math",
+		"syntax": [
+			"Sin(number)"
+		],
+		"description": [
+			"Returns the sine of the specified angle."
+		],
+		"link": ""
+	},
+	{
+		"name": "Sqrt",
+		"category": "Math",
+		"syntax": [
+			"Sqrt(number)"
+		],
+		"description": [
+			"Returns the square root of a specified number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Square",
+		"category": "Math",
+		"syntax": [
+			"Square(number)"
+		],
+		"description": [
+			"Returns the square of a specified number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Tan",
+		"category": "Math",
+		"syntax": [
+			"Tan(number)"
+		],
+		"description": [
+			"Returns the tangent of the specified angle."
+		],
+		"link": ""
+	},
+	{
+		"name": "DateAdd",
+		"category": "DateTime",
+		"syntax": [
+			"DateAdd(EDatePart ddatepart, number, dateTime)"
+		],
+		"description": [
+			"Adds a specified number value (as a signed integer) to a specified datepart of an input date value, and then returns that modified value.",
+			"Available EDatePart enumeration values: ",
+			"   Year, yyyy, yy,",
+			"   Quarter, qq, q,",
+			"   Month, mm, m,",
+			"   DayOfYear, dy, y",
+			"   Day, dd, d,",
+			"   WeekDay, dw,",
+			"   Week, ww, wk,",
+			"   Hour, hh,",
+			"   Minute, mi, n,",
+			"   Second, ss, s,",
+			"   MilliSecond, ms"
+		],
+		"link": ""
+	},
+	{
+		"name": "DateDiff",
+		"category": "DateTime",
+		"syntax": [
+			"DateDiff(EDatePart datepart, dateTime1, dateTime2)"
+		],
+		"description": [
+			"Returns the count (as a signed integer value) of the specified datepart boundaries crossed between the specified startdate and enddate.",
+			"Available EDatePart enumeration values: ",
+			"   Year, yyyy, yy,",
+			"   Quarter, qq, q,",
+			"   Month, mm, m,",
+			"   DayOfYear, dy, y",
+			"   Day, dd, d,",
+			"   WeekDay, dw,",
+			"   Week, ww, wk,",
+			"   Hour, hh,",
+			"   Minute, mi, n,",
+			"   Second, ss, s,",
+			"   MilliSecond, ms"
+		],
+		"link": ""
+	},
+	{
+		"name": "DateFromParts",
+		"category": "DateTime",
+		"syntax": [
+			"DateFromParts(year, month, day)"
+		],
+		"description": [
+			"Returns a date value that maps to the specified year, month, and day values."
+		],
+		"link": ""
+	},
+	{
+		"name": "DatePart",
+		"category": "DateTime",
+		"syntax": [
+			"DatePart(EDatePart datepart, dateTime)"
+		],
+		"description": [
+			"Returns an integer representing the specified datepart of the specified date.",
+			"Available EDatePart enumeration values: ",
+			"   Year, yyyy, yy,",
+			"   Quarter, qq, q,",
+			"   Month, mm, m,",
+			"   DayOfYear, dy, y",
+			"   Day, dd, d,",
+			"   WeekDay, dw,",
+			"   Week, ww, wk,",
+			"   Hour, hh,",
+			"   Minute, mi, n,",
+			"   Second, ss, s,",
+			"   MilliSecond, ms"
+		],
+		"link": ""
+	},
+	{
+		"name": "EOMonth",
+		"category": "DateTime",
+		"syntax": [
+			"EOMonth(dateTime, [int addMonth = 0])"
+		],
+		"description": [
+			"Returns the last day of the month containing a specified date, with an optional offset."
+		],
+		"link": ""
+	},
+	{
+		"name": "GetDate",
+		"category": "DateTime",
+		"syntax": [
+			"GetDate()"
+		],
+		"description": [
+			"Returns the current system timestamp as a datetime value without the time zone offset."
+		],
+		"link": ""
+	},
+	{
+		"name": "GetUtcDate",
+		"category": "DateTime",
+		"syntax": [
+			"GetUTCDate()"
+		],
+		"description": [
+			"Returns the current system timestamp as a UTC datetime value without the time zone offset."
+		],
+		"link": ""
+	},
+	{
+		"name": "Concat",
+		"category": "Text",
+		"syntax": [
+			"Concat([string1,string2...])"
+		],
+		"description": [
+			"Concatenates several strings together."
+		],
+		"link": ""
+	},
+	{
+		"name": "Format",
+		"category": "Text",
+		"syntax": [
+			"Format(value, format)"
+		],
+		"description": [
+			"Formats the given value to a string using the given format."
+		],
+		"link": ""
+	},
+	{
+		"name": "IndexOf",
+		"category": "Text",
+		"syntax": [
+			"IndexOf(value, search)",
+			"IndexOf(value, search, startIndex)"
+		],
+		"description": [
+			"Gets the location of a substring in a string, starting from the beginning or specified position."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsNull",
+		"category": "Text",
+		"syntax": [
+			"IsNull(value)",
+			"IsNull(value1, value2)"
+		],
+		"description": [
+			"Checks if the given value is null or DBNull;",
+			"Or gets an alternative value if the first value is null or DBNull."
+		],
+		"link": ""
+	},
+	{
+		"name": "Left",
+		"category": "Text",
+		"syntax": [
+			"Left(value, length)"
+		],
+		"description": [
+			"Gets the substring from the given string (starting from left)"
+		],
+		"link": ""
+	},
+	{
+		"name": "Len",
+		"category": "Text",
+		"syntax": [
+			"Len(value)"
+		],
+		"description": [
+			"Gets the length of the given string."
+		],
+		"link": ""
+	},
+	{
+		"name": "Lower",
+		"category": "Text",
+		"syntax": [
+			"Lower(value)"
+		],
+		"description": [
+			"Converts all the characters in the given string to lower case."
+		],
+		"link": ""
+	},
+	{
+		"name": "LTrim",
+		"category": "Text",
+		"syntax": [
+			"LTrim(value)"
+		],
+		"description": [
+			"Remove all the leading spaces from the given string."
+		],
+		"link": ""
+	},
+	{
+		"name": "Replace",
+		"category": "Text",
+		"syntax": [
+			"Replace(value, pattern, replacement)"
+		],
+		"description": [
+			"Replace a sequence of characters in the given string with another set of characters."
+		],
+		"link": ""
+	},
+	{
+		"name": "Replicate",
+		"category": "Text",
+		"syntax": [
+			"Replicate(value, times)"
+		],
+		"description": [
+			"Repeats the given string a specified number of times. "
+		],
+		"link": ""
+	},
+	{
+		"name": "Reverse",
+		"category": "Text",
+		"syntax": [
+			"REverse(value)"
+		],
+		"description": [
+			"Reverses the given string."
+		],
+		"link": ""
+	},
+	{
+		"name": "Right",
+		"category": "Text",
+		"syntax": [
+			"Right(value, length)"
+		],
+		"description": [
+			"Gets the substring from given string (starting from right)."
+		],
+		"link": ""
+	},
+	{
+		"name": "RTrim",
+		"category": "Text",
+		"syntax": [
+			"RTrim(value)"
+		],
+		"description": [
+			"Remove all the trailing spaces from the given string."
+		],
+		"link": ""
+	},
+	{
+		"name": "SubString",
+		"category": "Text",
+		"syntax": [
+			"SubString(value, startIndex, length)",
+			"SubString(value, startIndex)"
+		],
+		"description": [
+			"Extracts a substring from the given string."
+		],
+		"link": ""
+	},
+	{
+		"name": "ToString",
+		"category": "Text",
+		"syntax": [
+			"ToString(value)"
+		],
+		"description": [
+			"Returns a string that represents the given object."
+		],
+		"link": ""
+	},
+	{
+		"name": "Trim",
+		"category": "Text",
+		"syntax": [
+			"Trim(value)"
+		],
+		"description": [
+			"Remove all the leading and trailing spaces from the given string."
+		],
+		"link": ""
+	},
+	{
+		"name": "Upper",
+		"category": "Text",
+		"syntax": [
+			"Upper(value)"
+		],
+		"description": [
+			"Converts all the characters in the given string to upper case."
+		],
+		"link": ""
+	},
+	{
+		"name": "Array",
+		"category": "Misc",
+		"syntax": [
+			"Array([object1,object2...])"
+		],
+		"description": [
+			"Creates an array with given objects."
+		],
+		"link": ""
+	},
+	{
+		"name": "Category",
+		"category": "Misc",
+		"syntax": [
+			"Category(value, RangeOption rangeOption, OutsideRangeOption outsideRangeOption, min, max, step)"
+		],
+		"description": [
+			"Gets a text representing the range that the specified value is in.",
+			"Available RangeOption enumeration values: IncludeLeft_ExcludeRight, ExcludeLeft_IncludeRight.",
+			"Available OutsideRangeOption enumeration values: None, LessThanMin, GreaterThanMax, All"
+		],
+		"link": ""
+	},
+	{
+		"name": "CustomCategory",
+		"category": "Misc",
+		"syntax": [
+			"CustomCategory(value, RangeOption rangeOption, [categoryDefinition1, categoryDefinition2...])"
+		],
+		"description": [
+			"Gets a text repr esenting the range that the specified value is in.",
+			"Available RangeOption enumeration values: IncludeLeft_ExcludeRight, ExcludeLeft_IncludeRight."
+		],
+		"link": ""
+	},
+	{
+		"name": "FiscalYear",
+		"category": "Misc",
+		"syntax": [
+			"FiscalYear(dateTime, startMonthOfFiscalYear)"
+		],
+		"description": [
+			"Gets the fiscal year of specified date."
+		],
+		"link": ""
+	},
+	{
+		"name": "FiscalMonth",
+		"category": "Misc",
+		"syntax": [
+			"FiscalMonth(dateTime, startMonthOfFiscalYear)"
+		],
+		"description": [
+			"Gets the fiscal month of specified date."
+		],
+		"link": ""
+	},
+	{
+		"name": "FiscalQuarter",
+		"category": "Misc",
+		"syntax": [
+			"FiscalQuarter(dateTime, startMonthOfFiscalYear)"
+		],
+		"description": [
+			"Gets the fiscal quarter of specified date."
+		],
+		"link": ""
+	},
+	{
+		"name": "Asc",
+		"category": "Text",
+		"syntax": [
+			"Asc(string)"
+		],
+		"description": [
+			"Returns an Integer value representing the character code corresponding to a character."
+		],
+		"link": ""
+	},
+	{
+		"name": "AscW",
+		"category": "Text",
+		"syntax": [
+			"AscW(string)"
+		],
+		"description": [
+			"Returns an Integer value representing the character code corresponding to a Unicode character."
+		],
+		"link": ""
+	},
+	{
+		"name": "Chr",
+		"category": "Text",
+		"syntax": [
+			"Chr(CharCode)"
+		],
+		"description": [
+			"Returns the character associated with the specified character code."
+		],
+		"link": ""
+	},
+	{
+		"name": "ChrW",
+		"category": "Text",
+		"syntax": [
+			"ChrW(CharCode)"
+		],
+		"description": [
+			"Returns the Unicode character associated with the specified character code."
+		],
+		"link": ""
+	},
+	{
+		"name": "Filter",
+		"category": "Text",
+		"syntax": [
+			"Filter([source1,source2...], Match, [bool Include = True], [CompareMethod Compare = Binary])"
+		],
+		"description": [
+			"Returns a zero-based array containing a subset of a String array based on specified filter criteria.",
+			"Available CompareMethod enumeration values: Binary, Text."
+		],
+		"link": ""
+	},
+	{
+		"name": "FormatCurrency",
+		"category": "Text",
+		"syntax": [
+			"FormatCurrency(expression, [int NumDigitsAfterDecimal = -1], [TriState IncludeLeadingDigit = UseDefault], [TriState UseParensForNegativeNumbers = UseDefault], [TriState GroupDigits = UseDefault])"
+		],
+		"description": [
+			"Returns an expression formatted as a currency value using the currency symbol defined in the system control panel.",
+			"Available TriState enumeration values: True, False, UseDefault."
+		],
+		"link": ""
+	},
+	{
+		"name": "FormatDateTime",
+		"category": "Text",
+		"syntax": [
+			"FormatDateTime(expression, [DateFormat NamedFormat = GeneralDate])"
+		],
+		"description": [
+			"Returns a string expression representing a date/time value.",
+			"Available DateFormat enumeration values: GeneralDate, LongDate, ShortDate, LongTime, ShortTime."
+		],
+		"link": ""
+	},
+	{
+		"name": "FormatNumber",
+		"category": "Text",
+		"syntax": [
+			"FormatNumber(expression, [int NumDigitsAfterDecimal = -1], [TriState IncludeLeadingDigit = UseDefault], [TriState UseParensForNegativeNumbers = UseDefault], [TriState GroupDigits = UseDefault])"
+		],
+		"description": [
+			"Returns an expression formatted as a number.",
+			"Available TriState enumeration values: True, False, UseDefault."
+		],
+		"link": ""
+	},
+	{
+		"name": "FormatPercent",
+		"category": "Text",
+		"syntax": [
+			"FormatPercent(expression, numDigitsAfterDecimal = -1, TriState includeLeadingDigit = UseDefault, TriState useParensForNegativeNumbers = UseDefault, TriState groupDigits = TriState.UseDefault)"
+		],
+		"description": [
+			"Returns an expression formatted as a percentage (that is, multiplied by 100) with a trailing % character.",
+			"Available TriState enumeration values: True, False, UseDefault."
+		],
+		"link": ""
+	},
+	{
+		"name": "GetChar",
+		"category": "Text",
+		"syntax": [
+			"GetChar(str, Index)"
+		],
+		"description": [
+			"Returns a Char value representing the character from the specified index in the supplied string."
+		],
+		"link": ""
+	},
+	{
+		"name": "InStr",
+		"category": "Text",
+		"syntax": [
+			"InStr(string1, string2, [CompareMethod Compare = Binary])"
+		],
+		"description": [
+			"Returns an integer specifying the start position of the first occurrence of one string within another.",
+			"Available CompareMethod enumeration values: Binary, Text."
+		],
+		"link": ""
+	},
+	{
+		"name": "InStrRev",
+		"category": "Text",
+		"syntax": [
+			"InStrRev(stringCheck, stringMatch, [int start = -1], [CompareMethod compare = Binary])"
+		],
+		"description": [
+			"Returns the position of the first occurrence of one string within another, starting from the right side of the string.",
+			"Available CompareMethod enumeration values: Binary, Text."
+		],
+		"link": ""
+	},
+	{
+		"name": "Join",
+		"category": "Text",
+		"syntax": [
+			"Join([source1,source2...], [string delimiter = \" \"])"
+		],
+		"description": [
+			"Returns a string created by joining a number of substrings contained in an array."
+		],
+		"link": ""
+	},
+	{
+		"name": "LCase",
+		"category": "Text",
+		"syntax": [
+			"LCase(value)"
+		],
+		"description": [
+			"Returns a string or character converted to lowercase."
+		],
+		"link": ""
+	},
+	{
+		"name": "LSet",
+		"category": "Text",
+		"syntax": [
+			"LSet(str, length)"
+		],
+		"description": [
+			"Returns a left-aligned string containing the specified string adjusted to the specified length."
+		],
+		"link": ""
+	},
+	{
+		"name": "Mid",
+		"category": "Text",
+		"syntax": [
+			"Mid(str, start)",
+			"Mid(str, start, length)"
+		],
+		"description": [
+			"Returns a string containing a specified number of characters from a string."
+		],
+		"link": ""
+	},
+	{
+		"name": "RSet",
+		"category": "Text",
+		"syntax": [
+			"RSet(str, length)"
+		],
+		"description": [
+			"Returns a right-aligned string containing the specified string adjusted to the specified length."
+		],
+		"link": ""
+	},
+	{
+		"name": "Space",
+		"category": "Text",
+		"syntax": [
+			"Space(number)"
+		],
+		"description": [
+			"Returns a string consisting of the specified number of spaces."
+		],
+		"link": ""
+	},
+	{
+		"name": "Split",
+		"category": "Text",
+		"syntax": [
+			"Split(str, [string delimiter = \" \"], [int limit = -1], [CompareMethod compare = Binary])"
+		],
+		"description": [
+			"Returns a zero-based, one-dimensional array containing a specified number of substrings."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrComp",
+		"category": "Text",
+		"syntax": [
+			"StrComp(string1, string2, [CompareMethod compare = Binary])"
+		],
+		"description": [
+			"Returns -1, 0, or 1, based on the result of a string comparison."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrDup",
+		"category": "Text",
+		"syntax": [
+			"StrDup(number, character)"
+		],
+		"description": [
+			"Returns a string or object consisting of the specified character repeated the specified number of times."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrReverse",
+		"category": "Text",
+		"syntax": [
+			"StrReverse(str)"
+		],
+		"description": [
+			"Returns a string in which the character order of a specified string is reversed."
+		],
+		"link": ""
+	},
+	{
+		"name": "UCase",
+		"category": "Text",
+		"syntax": [
+			"UCase(str)"
+		],
+		"description": [
+			"Returns a string or character containing the specified string converted to uppercase."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrLike",
+		"category": "Text",
+		"syntax": [
+			"StrLike(str, pattern, CompareMethod compareOption)"
+		],
+		"description": [
+			"Compares the parameters Source and Pattern and returns the same results as the Like operator.",
+			"Available CompareMethod enumeration values: Binary, Text."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrLikeText",
+		"category": "Text",
+		"syntax": [
+			"StrLikeText(str, Pattern)"
+		],
+		"description": [
+			"Compares the parameters Source and Pattern and returns the same results as the Like operator, using text comparison."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrLikeBinary",
+		"category": "Text",
+		"syntax": [
+			"StrLikeBinary(str, Pattern)"
+		],
+		"description": [
+			"Compares the parameters Source and Pattern and returns the same results as the Like operator, using binary comparison."
+		],
+		"link": ""
+	},
+	{
+		"name": "DateSerial",
+		"category": "DateTime",
+		"syntax": [
+			"DateSerial(year, month, day)"
+		],
+		"description": [
+			"Returns a Date value representing a specified year, month, and day."
+		],
+		"link": ""
+	},
+	{
+		"name": "DateString",
+		"category": "DateTime",
+		"syntax": [
+			"DateString()"
+		],
+		"description": [
+			"Returns a String value representing the current date according to your system."
+		],
+		"link": ""
+	},
+	{
+		"name": "DateValue",
+		"category": "DateTime",
+		"syntax": [
+			"DateValue(stringDate)"
+		],
+		"description": [
+			"Returns a Date value containing the date information represented by a string, with the time information set to midnight (00:00:00)."
+		],
+		"link": ""
+	},
+	{
+		"name": "Day",
+		"category": "DateTime",
+		"syntax": [
+			"Day(dateValue)"
+		],
+		"description": [
+			"Returns an Integer value from 1 through 31 representing the day of the month."
+		],
+		"link": ""
+	},
+	{
+		"name": "Hour",
+		"category": "DateTime",
+		"syntax": [
+			"Hour(timeValue)"
+		],
+		"description": [
+			"Returns an Integer value from 0 through 23 representing the hour of the day."
+		],
+		"link": ""
+	},
+	{
+		"name": "Minute",
+		"category": "DateTime",
+		"syntax": [
+			"Minute(timeValue)"
+		],
+		"description": [
+			"Returns an Integer value from 0 through 59 representing the minute of the hour."
+		],
+		"link": ""
+	},
+	{
+		"name": "Month",
+		"category": "DateTime",
+		"syntax": [
+			"Month(dateValue)"
+		],
+		"description": [
+			"Returns an Integer value from 1 through 12 representing the month of the year"
+		],
+		"link": ""
+	},
+	{
+		"name": "MonthName",
+		"category": "DateTime",
+		"syntax": [
+			"MonthName(month, [bool abbreviate = false])"
+		],
+		"description": [
+			"Returns a String value containing the name of the specified month."
+		],
+		"link": ""
+	},
+	{
+		"name": "Now",
+		"category": "DateTime",
+		"syntax": [
+			"Now()"
+		],
+		"description": [
+			"Returns a Date value containing the current date and time according to your system."
+		],
+		"link": ""
+	},
+	{
+		"name": "Second",
+		"category": "DateTime",
+		"syntax": [
+			"Second(timeValue)"
+		],
+		"description": [
+			"Returns an Integer value from 0 through 59 representing the second of the minute."
+		],
+		"link": ""
+	},
+	{
+		"name": "TimeOfDay",
+		"category": "DateTime",
+		"syntax": [
+			"TimeOfDay()"
+		],
+		"description": [
+			"Returns or sets a Date value containing the current time of day according to your system."
+		],
+		"link": ""
+	},
+	{
+		"name": "Timer",
+		"category": "DateTime",
+		"syntax": [
+			"Timer()"
+		],
+		"description": [
+			"Returns a Double value representing the number of seconds elapsed since midnight."
+		],
+		"link": ""
+	},
+	{
+		"name": "TimeSerial",
+		"category": "DateTime",
+		"syntax": [
+			"TimeSerial(hour, minute, second)"
+		],
+		"description": [
+			"Returns a Date value representing a specified hour, minute, and second, with the date information set relative to January 1 of the year 1."
+		],
+		"link": ""
+	},
+	{
+		"name": "TimeString",
+		"category": "DateTime",
+		"syntax": [
+			"TimeString()"
+		],
+		"description": [
+			"Returns or sets a String value representing the current time of day according to your system."
+		],
+		"link": ""
+	},
+	{
+		"name": "TimeValue",
+		"category": "DateTime",
+		"syntax": [
+			"TimeValue(stringTime)"
+		],
+		"description": [
+			"Returns a Date value containing the time information represented by a string, with the date information set to January 1 of the year 1."
+		],
+		"link": ""
+	},
+	{
+		"name": "Today",
+		"category": "DateTime",
+		"syntax": [
+			"Today()"
+		],
+		"description": [
+			"Returns or sets a Date value containing the current date according to your system."
+		],
+		"link": ""
+	},
+	{
+		"name": "Weekday",
+		"category": "DateTime",
+		"syntax": [
+			"Weekday(dateValue, [FirstDayOfWeek dayOfWeek = Sunday])"
+		],
+		"description": [
+			"Returns an Integer value containing a number representing the day of the week.",
+			"Available FirstDayOfWeek enumeration values: System, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday."
+		],
+		"link": ""
+	},
+	{
+		"name": "WeekdayName",
+		"category": "DateTime",
+		"syntax": [
+			"WeekdayName(weekday, [bool abbreviate = false], [FirstDayOfWeek firstDayOfWeekValue = System])"
+		],
+		"description": [
+			"Returns a String value containing the name of the specified weekday.",
+			"Available FirstDayOfWeek enumeration values: System, Sunday, Monday,Tuesday, Wednesday, Thursday, Friday, Saturday."
+		],
+		"link": ""
+	},
+	{
+		"name": "Year",
+		"category": "DateTime",
+		"syntax": [
+			"Year(dateValue)"
+		],
+		"description": [
+			"Returns an Integer value from 1 through 9999 representing the year."
+		],
+		"link": ""
+	},
+	{
+		"name": "CBool",
+		"category": "Conversion",
+		"syntax": [
+			"CBool(value)"
+		],
+		"description": [
+			"Converts given value to 'bool' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "CByte",
+		"category": "Conversion",
+		"syntax": [
+			"CByte(value)"
+		],
+		"description": [
+			"Converts given value to 'byte' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "CChar",
+		"category": "Conversion",
+		"syntax": [
+			"CChar(value)"
+		],
+		"description": [
+			"Converts given value to 'char' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "CDate",
+		"category": "Conversion",
+		"syntax": [
+			"CDate(value)"
+		],
+		"description": [
+			"Converts given value to 'DateTime' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "CDbl",
+		"category": "Conversion",
+		"syntax": [
+			"CDbl(value)"
+		],
+		"description": [
+			"Converts given value to 'double' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "CDec",
+		"category": "Conversion",
+		"syntax": [
+			"CDec(value)"
+		],
+		"description": [
+			"Converts given value to 'decimal' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "CInt",
+		"category": "Conversion",
+		"syntax": [
+			"CInt(value)"
+		],
+		"description": [
+			"Converts given value to 'int' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "CLng",
+		"category": "Conversion",
+		"syntax": [
+			"CLng(value)"
+		],
+		"description": [
+			"Converts given value to 'long' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "CShort",
+		"category": "Conversion",
+		"syntax": [
+			"CShort(value)"
+		],
+		"description": [
+			"Converts given value to 'short' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "CSng",
+		"category": "Conversion",
+		"syntax": [
+			"CSng(value)"
+		],
+		"description": [
+			"Converts given value to 'float' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "CStr",
+		"category": "Conversion",
+		"syntax": [
+			"CStr(value)"
+		],
+		"description": [
+			"Converts given value to 'string' type."
+		],
+		"link": ""
+	},
+	{
+		"name": "Fix",
+		"category": "Conversion",
+		"syntax": [
+			"Fix(number)"
+		],
+		"description": [
+			"Return the integer portion of a number.",
+			"Differences between Int and Fix: Int converts -8.4 to -9, Fix converts -8.4 to -8."
+		],
+		"link": ""
+	},
+	{
+		"name": "Hex",
+		"category": "Conversion",
+		"syntax": [
+			"Hex(number)"
+		],
+		"description": [
+			"Returns a string representing the hexadecimal value of a number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Int",
+		"category": "Conversion",
+		"syntax": [
+			"Int(number)"
+		],
+		"description": [
+			"Return the integer portion of a number.",
+			"Differences between Int and Fix: Int converts -8.4 to -9, Fix converts -8.4 to -8."
+		],
+		"link": ""
+	},
+	{
+		"name": "Oct",
+		"category": "Conversion",
+		"syntax": [
+			"Oct(number)"
+		],
+		"description": [
+			"Returns a string representing the octal value of a number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Str",
+		"category": "Conversion",
+		"syntax": [
+			"Str(number)"
+		],
+		"description": [
+			"Returns a String representation of a number.",
+			"A leading space is always reserved for the sign of number."
+		],
+		"link": ""
+	},
+	{
+		"name": "Val",
+		"category": "Conversion",
+		"syntax": [
+			"Val(expression)"
+		],
+		"description": [
+			"Returns the numbers contained in a string as a numeric value of appropriate type."
+		],
+		"link": ""
+	},
+	{
+		"name": "Rnd",
+		"category": "Math",
+		"syntax": [
+			"Rnd()",
+			"Rnd(seed)"
+		],
+		"description": [
+			"Returns a random number of type Single."
+		],
+		"link": ""
+	},
+	{
+		"name": "Choose",
+		"category": "Interaction",
+		"syntax": [
+			"Choose(Index, [choice1,choice2...])"
+		],
+		"description": [
+			"Returns a value from the list of choices based on the value of index.",
+			"If index is 1, Choose returns the first choice in the list; if index is 2, it returns the second choice, and so on.",
+			"Syntax: Choose(index, choice-1 [, choice-2, ... [, choice-n ]] )"
+		],
+		"link": ""
+	},
+	{
+		"name": "IIF",
+		"category": "Interaction",
+		"syntax": [
+			"IIF(expression, TruePart, FalsePart)"
+		],
+		"description": [
+			"Returns one of two objects, depending on the evaluation of an expression."
+		],
+		"link": ""
+	},
+	{
+		"name": "Switch",
+		"category": "Interaction",
+		"syntax": [
+			"Switch([varExpr1,varExpr2...])"
+		],
+		"description": [
+			"Evaluates a list of expressions and returns a value or an expression associated with the first expression in the list that is True.",
+			"Syntax: Switch(expr-1, value-1 [ ,expr-2,value-2… [ ,expr-n,value-n ]] )"
+		],
+		"link": ""
+	},
+	{
+		"name": "Partition",
+		"category": "Interaction",
+		"syntax": [
+			"Partition(Number, Start, Stop, Interval)"
+		],
+		"description": [
+			"Returns a string indicating where a number occurs within a calculated series of ranges.",
+			"You can create a select query that shows how many orders fall within various ranges, for example, order values from 1 to 1000, 1001 to 2000, and so on."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsArray",
+		"category": "Information",
+		"syntax": [
+			"IsArray(exp)"
+		],
+		"description": [
+			"Returns a Boolean value indicating whether a variable is an array."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsDate",
+		"category": "Information",
+		"syntax": [
+			"IsDate(exp)"
+		],
+		"description": [
+			"Returns True if the expression is a date or is recognizable as a valid date or time."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsNothing",
+		"category": "Information",
+		"syntax": [
+			"IsNothing(exp)"
+		],
+		"description": [
+			"Returns a Boolean value indicating whether an expression has no object assigned to it."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsNumeric",
+		"category": "Information",
+		"syntax": [
+			"IsNumeric(exp)"
+		],
+		"description": [
+			"Returns a Boolean value indicating whether an expression can be evaluated as a number."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsError",
+		"category": "Information",
+		"syntax": [
+			"IsError(exp)"
+		],
+		"description": [
+			"Returns a Boolean value indicating whether an expression can be evaluated as an error (exception)."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsDBNull",
+		"category": "Information",
+		"syntax": [
+			"IsDBNull(exp)"
+		],
+		"description": [
+			"Returns a Boolean value indicating whether an object is null value or DBNull."
+		],
+		"link": ""
+	},
+	{
+		"name": "DDB",
+		"category": "Financial",
+		"syntax": [
+			"DDB(Cost, Salvage, Life, Period, [double Factor = 2.0])"
+		],
+		"description": [
+			"Returns a Double specifying the depreciation of an asset for a specific time period using the double-declining balance method or some other method you specify.",
+			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/ddb-function for details."
+		],
+		"link": ""
+	},
+	{
+		"name": "FV",
+		"category": "Financial",
+		"syntax": [
+			"FV(Rate, NPer, Pmt, [double PV = 0.0], [DueDate Due = EndOfPeriod])"
+		],
+		"description": [
+			"Returns a Double specifying the future value of an annuity based on periodic, fixed payments and a fixed interest rate.",
+			"Available DueDate enumeration values: EndOfPeriod, BegOfPeriod.",
+			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/fv-function for details."
+		],
+		"link": ""
+	},
+	{
+		"name": "IPMT",
+		"category": "Financial",
+		"syntax": [
+			"IPmt(Rate, Per, NPer, PV, [double FV = 0.0], [DueDate Due = EndOfPeriod])"
+		],
+		"description": [
+			"Returns a Double specifying the interest payment for a given period of an annuity based on periodic, fixed payments and a fixed interest rate.",
+			"Available DueDate enumeration values: EndOfPeriod, BegOfPeriod.",
+			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/ipmt-function for details."
+		],
+		"link": ""
+	},
+	{
+		"name": "NPER",
+		"category": "Financial",
+		"syntax": [
+			"NPer(Rate, Pmt, PV, [double FV = 0.0], [DueDate Due = EndOfPeriod])"
+		],
+		"description": [
+			"Returns a Double specifying the number of periods for an annuity based on periodic, fixed payments and a fixed interest rate.",
+			"Available DueDate enumeration values: EndOfPeriod, BegOfPeriod.",
+			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/nper-function for details."
+		],
+		"link": ""
+	},
+	{
+		"name": "PMT",
+		"category": "Financial",
+		"syntax": [
+			"Pmt(Rate, NPer, PV, [double FV = 0.0], [DueDate Due = EndOfPeriod)]"
+		],
+		"description": [
+			"Returns a Double specifying the payment for an annuity based on periodic, fixed payments and a fixed interest rate.",
+			"Available DueDate enumeration values: EndOfPeriod, BegOfPeriod.",
+			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/pmt-function for details."
+		],
+		"link": ""
+	},
+	{
+		"name": "PPMT",
+		"category": "Financial",
+		"syntax": [
+			"PPmt(Rate, Per, NPer, PV, [double FV = 0.0], [DueDate Due = EndOfPeriod])"
+		],
+		"description": [
+			"Returns a Double specifying the principal payment for a given period of an annuity based on periodic, fixed payments and a fixed interest rate.",
+			"Available DueDate enumeration values: EndOfPeriod, BegOfPeriod.",
+			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/ppmt-function for details."
+		],
+		"link": ""
+	},
+	{
+		"name": "PV",
+		"category": "Financial",
+		"syntax": [
+			"PV(Rate, NPer, Pmt, [double FV = 0.0], [DueDate Due = EndOfPeriod])"
+		],
+		"description": [
+			"Returns a Double specifying the present value of an annuity based on periodic, fixed payments to be paid in the future and a fixed interest rate.",
+			"Available DueDate enumeration values: EndOfPeriod, BegOfPeriod.",
+			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/pv-function for details."
+		],
+		"link": ""
+	},
+	{
+		"name": "RATE",
+		"category": "Financial",
+		"syntax": [
+			"Rate(NPer, Pmt, PV, [double FV = 0.0], [DueDate Due = EndOfPeriod], [double Guess = 0.1])"
+		],
+		"description": [
+			"Returns a Double specifying the interest rate per period for an annuity.",
+			"Available DueDate enumeration values: EndOfPeriod, BegOfPeriod.",
+			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/rate-function for details."
+		],
+		"link": ""
+	},
+	{
+		"name": "SLN",
+		"category": "Financial",
+		"syntax": [
+			"SLN(Cost, Salvage, Life)"
+		],
+		"description": [
+			"Returns a Double specifying the straight-line depreciation of an asset for a single period.",
+			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/sln-function for details."
+		],
+		"link": ""
+	},
+	{
+		"name": "SYD",
+		"category": "Financial",
+		"syntax": [
+			"SYD(Cost, Salvage, Life, Period)"
+		],
+		"description": [
+			"Returns a Double specifying the sum-of-years' digits depreciation of an asset for a specified period.",
+			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/syd-function for details."
+		],
+		"link": ""
+	}
+]
