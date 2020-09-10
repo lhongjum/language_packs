@@ -1,0 +1,16 @@
+﻿{
+  "resources": [
+    {
+      "key": "CPC_CustomizePropertyAlreadyExists",
+      "value": "Niestandardowy atrybut już istnieje."
+    },
+    {
+      "key": "CPC_CustomizePropertyNotExist",
+      "value": "Niestandardowy atrybut nie istnieje."
+    },
+    {
+      "key": "CPC_InvalidCustomizePropertyName",
+      "value": "Niepoprawna nazwa atrybutu. Długość nazwy atrybutu powinna wynosić od 1 do 64, a nazwa nie może zawierać '<', '>', '/', '\\\\', '$' oraz pewnych słów kluczowych."
+    }
+  ]
+}

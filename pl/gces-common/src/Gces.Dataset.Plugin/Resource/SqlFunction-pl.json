@@ -1,0 +1,662 @@
+﻿[
+	{
+		"name": "Concat",
+		"category": "Tekstowe",
+		"description": "Zwraca ciąg znaków będący połączeniem dwóch lub więcej wartości ciągów.",
+		"signature": "Concat(napis1, napis2 [, napisN])",
+		"parameters": [
+			{
+				"name": "napis1",
+				"value": "Pierwszy ciąg do połączenia."
+			},
+			{
+				"name": "napis2",
+				"value": "Drugi ciąg do połączenia."
+			},
+			{
+				"name": "*",
+				"value": "Opcjonalne dodatkowe ciągi znaków do połączenia."
+			}
+		]
+	},
+	{
+		"name": "Format",
+		"category": "Tekstowe",
+		"description": "Zwraca wartość w określonym formacie.",
+		"signature": "Format(wartość, format)",
+		"parameters": [
+			{
+				"name": "wartość",
+				"value": "Ciąg znaków do sformatowania."
+			},
+			{
+				"name": "format",
+				"value": "Ciąg znaków określający składnię daty lub formatu liczbowego."
+			}
+		]
+	},
+	{
+		"name": "Indexof",
+		"category": "Tekstowe",
+		"description": "Zwraca pozycję początkową określonego wyrażenia w ciągu znaków.",
+		"signature": "Indexof(przeszukaj, znajdź [, pozycja_początkowa])",
+		"parameters": [
+			{
+				"name": "przeszukaj",
+				"value": "Wyrażenie znakowe, zwykle kolumna, do przeszukania."
+			},
+			{
+				"name": "znajdź",
+				"value": "Wyrażenie do znalezienia."
+			},
+			{
+				"name": "pozycja_początkowa",
+				"value": "Opcjonalna pozycja początkowa w wyrażeniu 'przeszukaj' do rozpoczęcia przeszukiwania."
+			}
+		]
+	},
+	{
+		"name": "IsNull",
+		"category": "Tekstowe",
+		"description": "Zastępuje null określoną wartością.",
+		"signature": "IsNull(wyrażenie, zamiennik)",
+		"parameters": [
+			{
+				"name": "wyrażenie",
+				"value": "Wyrażenie, które ma zostać sprawdzone pod kątem wartości null."
+			},
+			{
+				"name": "zamiennik",
+				"value": "Wyrażenie, które ma zostać zwrócone, jeśli 'wyrażenie' ma wartość NULL."
+			}
+		]
+	},
+	{
+		"name": "Left",
+		"category": "Tekstowe",
+		"description": "Zwraca określoną liczbę znaków licząc od lewej strony ciągu.",
+		"signature": "Left(napis, n)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków."
+			},
+			{
+				"name": "n",
+				"value": "Dodatnia liczba całkowita określająca, ile znaków zostanie zwróconych, licząc od lewej strony wyrażenia."
+			}
+		]
+	},
+	{
+		"name": "Len",
+		"category": "Tekstowe",
+		"description": "Zwraca liczbę znaków określonego wyrażenia.",
+		"signature": "Len(napis)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków."
+			}
+		]
+	},
+	{
+		"name": "Lower",
+		"category": "Tekstowe",
+		"description": "Zwraca ciąg znaków przekonwertowany na małe litery.",
+		"signature": "Lower(napis)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków."
+			}
+		]
+	},
+	{
+		"name": "Ltrim",
+		"category": "Tekstowe",
+		"description": "Zwraca ciąg znaków z usuniętymi odstępami początkowymi.",
+		"signature": "Ltrim(napis)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków."
+			}
+		]
+	},
+	{
+		"name": "Replace",
+		"category": "Tekstowe",
+		"description": "Zamienia wszystkie wystąpienia ciągu znaków na inny.",
+		"signature": "Replace(napis, wzór, zamiennik)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Przeszukiwane wyrażenie ciągu. Może być ciągiem znaków lub typem danych binarnych."
+			},
+			{
+				"name": "wzór",
+				"value": "Podciąg do zastąpienia. Nie może być pusty."
+			},
+			{
+				"name": "zamiennik",
+				"value": "Ciąg zastępujący."
+			}
+		]
+	},
+	{
+		"name": "Replicate",
+		"category": "Tekstowe",
+		"description": "Powtarza ciąg znaków określoną liczbę razy.",
+		"signature": "Replicate(napis, n)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków do replikacji."
+			},
+			{
+				"name": "n",
+				"value": "Liczba powtórzeń."
+			}
+		]
+	},
+	{
+		"name": "Reverse",
+		"category": "Tekstowe",
+		"description": "Zwraca ciąg znaków w odwrotnej kolejności.",
+		"signature": "Reverse(napis)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków."
+			}
+		]
+	},
+	{
+		"name": "Right",
+		"category": "Tekstowe",
+		"description": "Zwraca określoną liczbę znaków licząc od prawej strony ciągu.",
+		"signature": "Right(napis, n)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków."
+			},
+			{
+				"name": "n",
+				"value": "Dodatnia liczba całkowita określająca, ile znaków zostanie zwróconych, licząc od prawej strony wyrażenia."
+			}
+		]
+	},
+	{
+		"name": "Rtrim",
+		"category": "Tekstowe",
+		"description": "Zwraca ciąg znaków po usunięciu spacji końcowych.",
+		"signature": "Rtrim(napis)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków."
+			}
+		]
+	},
+	{
+		"name": "Substring",
+		"category": "Tekstowe",
+		"description": "Zwraca część ciągu o określonej długości zaczynając od określonego indeksu.",
+		"signature": "Substring(napis, start, n)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków."
+			},
+			{
+				"name": "start",
+				"value": "Dodatnia liczba całkowita określająca indeks początkowy znaków do zwrócenia."
+			},
+			{
+				"name": "n",
+				"value": "Dodatnia liczba całkowita określająca, ile znaków zostanie zwróconych."
+			}
+		]
+	},
+	{
+		"name": "Tostring",
+		"category": "Tekstowe",
+		"description": "Konwertuje wartość do typu tekstowego.",
+		"signature": "Tostring(wartość)",
+		"parameters": [
+			{
+				"name": "wartość",
+				"value": "Wartość do konwersji."
+			}
+		]
+	},
+	{
+		"name": "Trim",
+		"category": "Tekstowe",
+		"description": "Zwraca ciąg znaków z usuniętymi początkowymi i końcowymi odstępami.",
+		"signature": "Trim(napis)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków."
+			}
+		]
+	},
+	{
+		"name": "Upper",
+		"category": "Tekstowe",
+		"description": "Zwraca ciąg znaków z danymi przekonwertowany na wielkie litery.",
+		"signature": "Upper(napis)",
+		"parameters": [
+			{
+				"name": "napis",
+				"value": "Ciąg znaków."
+			}
+		]
+	},
+	{
+		"name": "DateAdd",
+		"category": "Data i godzina",
+		"description": "Zwraca wartość daty/godziny, która wynika z dodania określonej liczby całkowitej do określonej części daty.",
+		"signature": "DateAdd(część_daty, liczba, data [, format_daty])",
+		"parameters": [
+			{
+				"name": "część_daty",
+				"value": "Część daty, do której należy dodać określoną liczbę. Prawidłowe wartości i skróty to: rok (yy, yyyy), kwartał (qq, q), miesiąc (mm, m), dzień roku (dy, y) , dzień (dd, d), tydzień (wk, ww), dzień tygodnia (dw), godzina (hh), minuta (mi, n), sekunda (ss, s) i milisekunda (ms)."
+			},
+			{
+				"name": "liczba",
+				"value": "Liczba do dodania."
+			},
+			{
+				"name": "data",
+				"value": "Wyrażenie daty typu DataCzas."
+			},
+			{
+				"name": "format_daty",
+				"value": "Opcjonalny format daty wyjściowej."
+			}
+		]
+	},
+	{
+		"name": "Datediff",
+		"category": "Data i godzina",
+		"description": "Zwraca różnicę (w postaci liczby całkowitej) określonego przedziału czasu między datą końcową a początkową.",
+		"signature": "Datediff (część_daty, data_początkowa, data_końcowa)",
+		"parameters": [
+			{
+				"name": "część_daty",
+				"value": "Jednostki, w jakich obliczona zostanie różnica. Prawidłowe wartości i skróty to: rok (yy, yyyy), kwartał (qq, q), miesiąc (mm, m), dzień roku (dy, y) , dzień (dd, d), tydzień (wk, ww), dzień tygodnia (dw), godzina (hh), minuta (mi, n), sekunda (ss, s) i milisekunda (ms)."
+			},
+			{
+				"name": "data_początkowa",
+				"value": "Wyrażenie daty typu DataCzas które zostanie odjęte od daty końcowej."
+			},
+			{
+				"name": "data_końcowa",
+				"value": "Wyrażenie daty typu DataCzas od którego odjęta zostanie data początkowa."
+			}
+		]
+	},
+	{
+		"name": "Datefromparts",
+		"category": "Data i godzina",
+		"description": "Zwraca wartość daty dla określonego roku, miesiąca i dnia.",
+		"signature": "Datefromparts(rok, miesiąc, dzień)",
+		"parameters": [
+			{
+				"name": "rok",
+				"value": "Liczba całkowita określająca rok."
+			},
+			{
+				"name": "miesiąc",
+				"value": "Liczba całkowita określająca miesiąc."
+			},
+			{
+				"name": "dzień",
+				"value": "Liczba całkowita określająca dzień."
+			}
+		]
+	},
+	{
+		"name": "Datepart",
+		"category": "Data i godzina",
+		"description": "Zwraca ciąg znaków reprezentujący określoną część daty.",
+		"signature": "Datepart(część_daty, data [, pierwszy_dzień_tygodnia])",
+		"parameters": [
+			{
+				"name": "część_daty",
+				"value": "Część daty do zwrócenia. Prawidłowe wartości i skróty to: rok (yy, yyyy), kwartał (qq, q), miesiąc (mm, m), dzień roku (dy, y) , dzień (dd, d), tydzień (wk, ww), dzień tygodnia (dw), godzina (hh), minuta (mi, n), sekunda (ss, s) i milisekunda (ms)), mikrosekunda (mcs), nanosekunda (ns), przesunięcie strefy czasowej (tz) oraz ISO_WEEK (isowk,isoww)."
+			},
+			{
+				"name": "data",
+				"value": "Data."
+			},
+			{
+				"name": "pierwszy_dzień_tygodnia",
+				"value": "Opcjonalna liczba całkowita reprezentująca pierwszy dzień tygodnia. Wartość domyślna to 7 (niedziela)."
+			}
+		]
+	},
+	{
+		"name": "Eomonth",
+		"category": "Data i godzina",
+		"description": "Zwraca ostatni dzień miesiąca wskazanej daty z opcjonalnym przesunięciem.",
+		"signature": "Eomonth(data [, dodaj_miesiące ])",
+		"parameters": [
+			{
+				"name": "data",
+				"value": "Wyrażenie daty i godziny typu DataCzas do znalezienia ostatniego dnia miesiąca."
+			},
+			{
+				"name": "dodaj_miesiące",
+				"value": " Opcjonalna liczba całkowita określająca liczbę miesięcy, które należy dodać do daty."
+			}
+		]
+	},
+	{
+		"name": "GetDate",
+		"category": "Data i godzina",
+		"description": "Zwraca bieżący znacznik czasu bazy danych jako wartość daty i godziny typu DataCzas. Wartość ta jest równa CURRENT_TIMESTAMP i SYSDATETIME.",
+		"signature": "GetDate()",
+		"parameters": []
+	},
+	{
+		"name": "GetUtcDate",
+		"category": "Data i godzina",
+		"description": "Zwraca bieżący znacznik czasu bazy danych jako wartość daty i godziny typu DataCzas w formacie UTC. Wartość ta jest równa SYSUTCDATETIME.",
+		"signature": "GetUtcDate()",
+		"parameters": []
+	},
+	{
+		"name": "Abs",
+		"category": "Matematyczne",
+		"description": "Zwraca wartość bezwzględną (dodatnią) określonego wyrażenia liczbowego.",
+		"signature": "Abs(liczba)",
+		"parameters": [
+			{
+				"name": "liczba",
+				"value": "Wyrażenie nieokreślonego liczbowego typu danych, z wyjątkiem typu danych bitowych."
+			}
+		]
+	},
+	{
+		"name": "Acos",
+		"category": "Matematyczne",
+		"description": "Zwraca arcus cosinus wartości. ",
+		"signature": "Acos(wartość)",
+		"parameters": [
+			{
+				"name": "wartość",
+				"value": "Wyrażenie zmiennoprzecinkowe określające cosinus kąta, który ma zostać zwrócony. Wartości spoza zakresu od -1 do 1 zwracają wartość zerową."
+			}
+		]
+	},
+	{
+		"name": "Asin",
+		"category": "Matematyczne",
+		"description": "Zwraca arcus sinus wartości. ",
+		"signature": "Asin(wartość)",
+		"parameters": [
+			{
+				"name": "wartość",
+				"value": "Wyrażenie zmiennoprzecinkowe określające sinus kąta, który ma zostać zwrócony. Wartości spoza zakresu od -1 do 1 zwracają wartość zerową."
+			}
+		]
+	},
+	{
+		"name": "Atan",
+		"category": "Matematyczne",
+		"description": "Zwraca arcus tangens wartości.",
+		"signature": "Atan(wartość)",
+		"parameters": [
+			{
+				"name": "wartość",
+				"value": "Wyrażenie zmiennoprzecinkowe określające tangens kąta, który ma zostać zwrócony."
+			}
+		]
+	},
+	{
+		"name": "Atan2",
+		"category": "Matematyczne",
+		"description": "Zwraca kąt w radianach między osią x a odcinkiem od punktu (0, 0) do punktu (y, x), gdzie x i y są wartościami dwóch określonych wyrażeń zmiennoprzecinkowych.",
+		"signature": "Atan2(y, x)",
+		"parameters": [
+			{
+				"name": "y",
+				"value": "Współrzędna y."
+			},
+			{
+				"name": "x",
+				"value": "Współrzędna x."
+			}
+		]
+	},
+	{
+		"name": "Ceiling",
+		"category": "Matematyczne",
+		"description": "Zwraca najmniejszą liczbę całkowitą większą lub równą podanemu wyrażeniu liczbowemu",
+		"signature": "Ceiling(liczba)",
+		"parameters": [
+			{
+				"name": "liczba",
+				"value": "Wyrażenie nieokreślonego liczbowego typu danych, z wyjątkiem typu danych bitowych."
+			}
+		]
+	},
+	{
+		"name": "Cos",
+		"category": "Matematyczne",
+		"description": "Zwraca cosinus trygonometryczny kąta podanego w radianach.",
+		"signature": "Cos(radiany)",
+		"parameters": [
+			{
+				"name": "radiany",
+				"value": "Wartość zmiennoprzecinkowa kąta w radianach."
+			}
+		]
+	},
+	{
+		"name": "Cot",
+		"category": "Matematyczne",
+		"description": "Zwraca cotangens trygonometryczny kąta podanego w radianach.",
+		"signature": "Cot(radiany)",
+		"parameters": [
+			{
+				"name": "radiany",
+				"value": "Wartość zmiennoprzecinkowa kąta w radianach."
+			}
+		]
+	},
+	{
+		"name": "Degrees",
+		"category": "Matematyczne",
+		"description": "Zwraca kąt w stopniach dla kąta określonego w radianach.",
+		"signature": "Degrees(radiany)",
+		"parameters": [
+			{
+				"name": "radiany",
+				"value": "Wartość zmiennoprzecinkowa kąta w radianach."
+			}
+		]
+	},
+	{
+		"name": "Exp",
+		"category": "Matematyczne",
+		"description": "Zwraca liczbę e poniesioną do określonej potęgi.",
+		"signature": "Exp(potęga)",
+		"parameters": [
+			{
+				"name": "potęga",
+				"value": "Potęga liczby e."
+			}
+		]
+	},
+	{
+		"name": "Floor",
+		"category": "Matematyczne",
+		"description": "Zwraca największą liczbę całkowitą mniejszą lub równą wyrażeniu liczbowemu.",
+		"signature": "Floor(liczba)",
+		"parameters": [
+			{
+				"name": "liczba",
+				"value": "Wyrażenie nieokreślonego liczbowego typu danych, z wyjątkiem typu danych bitowych."
+			}
+		]
+	},
+	{
+		"name": "Log",
+		"category": "Matematyczne",
+		"description": "Zwraca logarytm naturalny (lub o określonej podstawie) określonego wyrażenia zmiennoprzecinkowego.",
+		"signature": "Floor(liczba, [, podstawa])",
+		"parameters": [
+			{
+				"name": "liczba",
+				"value": "Wyrażenie zmiennoprzecinkowe."
+			},
+			{
+				"name": "podstawa",
+				"value": "Opcjonalny argument określający podstawę logarytmu."
+			}
+		]
+	},
+	{
+		"name": "Log10",
+		"category": "Matematyczne",
+		"description": "Zwraca logarytm dziesiętny podanego wyrażenia zmiennoprzecinkowego.",
+		"signature": "Log10(liczba)",
+		"parameters": [
+			{
+				"name": "liczba",
+				"value": "Wyrażenie zmiennoprzecinkowe."
+			}
+		]
+	},
+	{
+		"name": "PI",
+		"category": "Matematyczne",
+		"description": "Zwraca wartość liczby pi.",
+		"signature": "PI()"
+	},
+	{
+		"name": "Power",
+		"category": "Matematyczne",
+		"description": "Zwraca wartość wyrażenia podniesioną do określonej potęgi.",
+		"signature": "Power(liczba, y)",
+		"parameters": [
+			{
+				"name": "liczba",
+				"value": "Wyrażenie zmiennoprzecinkowe."
+			},
+			{
+				"name": "y",
+				"value": "Wykładnik potęgi."
+			}
+		]
+	},
+	{
+		"name": "Radians",
+		"category": "Matematyczne",
+		"description": "Zwraca kąt w radianach kąta w stopniach.",
+		"signature": "Radians(stopnie)",
+		"parameters": [
+			{
+				"name": "stopnie",
+				"value": "Stopnie kąta jako wyrażenie zmiennoprzecinkowe."
+			}
+		]
+	},
+	{
+		"name": "Rand",
+		"category": "Matematyczne",
+		"description": "Zwraca pseudolosową wartość zmiennoprzecinkową od 0 do 1 (wyłącznie).",
+		"signature": "Rand(ziarno)",
+		"parameters": [
+			{
+				"name": "ziarno",
+				"value": "Opcjonalne wyrażenie całkowite określające ziarno losowania. Jeśli nie określono początkowej wartości, zostanie przypisana losowa wartość ziarna."
+			}
+		]
+	},
+	{
+		"name": "Round",
+		"category": "Matematyczne",
+		"description": "Zwraca wartość liczbową zaokrągloną do określonej długości lub precyzji. ",
+		"signature": "Round(liczba, długość_całkowita [, funkcja])",
+		"parameters": [
+			{
+				"name": "liczba",
+				"value": " Wyrażenie liczbowego typu danych."
+			},
+			{
+				"name": "długość_całkowita",
+				"value": "Precyzja zaokrąglania."
+			},
+			{
+				"name": "funkcja",
+				"value": "Opcjonalny typ operacji do wykonania. Gdy parametr funkcji zostanie pominięty lub ma wartość 0 (domyślnie), wyrażenie numeryczne jest zaokrąglane. Gdy podana jest wartość inna niż 0, wyrażenie numeryczne jest obcinane."
+			}
+		]
+	},
+	{
+		"name": "Sign",
+		"category": "Matematyczne",
+		"description": "Zwraca znak dodatni (1), 0 lub znak ujemny (-1) określonego wyrażenia.",
+		"signature": "Sign(liczba)",
+		"parameters": [
+			{
+				"name": "liczba",
+				"value": "Wyrażenie nieokreślonego typu danych, z wyjątkiem typu danych bitowych."
+			}
+		]
+	},
+	{
+		"name": "Sin",
+		"category": "Matematyczne",
+		"description": "Zwraca sinus trygonometryczny kąta podanego w radianach.",
+		"signature": "Sin(radiany)",
+		"parameters": [
+			{
+				"name": "radiany",
+				"value": "Wyrażenie zmiennoprzecinkowe określające kąt w radianach."
+			}
+		]
+	},
+	{
+		"name": "Sqrt",
+		"category": "Matematyczne",
+		"description": "Zwraca pierwiastek kwadratowy z określonej wartości zmiennoprzecinkowej.",
+		"signature": "Sqrt(liczba)",
+		"parameters": [
+			{
+				"name": "liczba",
+				"value": "Wyrażenie zmiennoprzecinkowe."
+			}
+		]
+	},
+	{
+		"name": "Square",
+		"category": "Matematyczne",
+		"description": "Zwraca kwadrat określonej wartości zmiennoprzecinkowej.",
+		"signature": "Square(liczba)",
+		"parameters": [
+			{
+				"name": "float_expression",
+				"value": "Wyrażenie zmiennoprzecinkowe."
+			}
+		]
+	},
+	{
+		"name": "Tan",
+		"category": "Matematyczne",
+		"description": "Zwraca tangens wyrażenia.",
+		"signature": "Tan(liczba)",
+		"parameters": [
+			{
+				"name": "liczba",
+				"value": "Wyrażenie zmiennoprzecinkowe."
+			}
+		]
+	}
+]

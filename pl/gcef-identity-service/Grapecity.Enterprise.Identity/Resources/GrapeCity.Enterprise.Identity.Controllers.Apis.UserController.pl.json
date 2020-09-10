@@ -1,0 +1,172 @@
+﻿{
+  "resources": [
+    {
+      "key": "Email",
+      "value": "Email"
+    },
+    {
+      "key": "EmailDesp",
+      "value": "Unikalny adres e-mail użytkownika, nie może być pusty."
+    },
+    {
+      "key": "Enabled",
+      "value": "Włączone"
+    },
+    {
+      "key": "EnabledDesp",
+      "value": "Wskaż, czy użytkownik jest akrtwny. Może mieć wartość „prawda” lub „fałsz”. Wartość domyślna to „prawda”, może być pusta."
+    },
+    {
+      "key": "ExportFileName",
+      "value": "users.xlsx"
+    },
+    {
+      "key": "FalseStr",
+      "value": "Fałsz"
+    },
+    {
+      "key": "FirstName",
+      "value": "Imię"
+    },
+    {
+      "key": "FirstNameDesp",
+      "value": "Imię użytkownika, może być puste."
+    },
+    {
+      "key": "FullName",
+      "value": "Pełne imię"
+    },
+    {
+      "key": "FullNameDesp",
+      "value": "Pełne imię użytkownika."
+    },
+    {
+      "key": "Id",
+      "value": "Id"
+    },
+    {
+      "key": "IdDesp",
+      "value": "Unikalny identyfikator użytkownika. Może być pusty, gdy dostawca jest „lokalny”."
+    },
+    {
+      "key": "LastName",
+      "value": "Nazwisko"
+    },
+    {
+      "key": "LastNameDesp",
+      "value": "Nazwisko użytkownika, może być puste."
+    },
+    {
+      "key": "Mobile",
+      "value": "Numer telefonu"
+    },
+    {
+      "key": "MobileDesp",
+      "value": "Unikalny numer telefonu komórkowego dla użytkownika, może być pusty."
+    },
+    {
+      "key": "Password",
+      "value": "Hasło"
+    },
+    {
+      "key": "PasswordDesp",
+      "value": "Hasło użytkownika. Hasło nie może być puste, gdy dostawca jest „lokalny”."
+    },
+    {
+      "key": "Provider",
+      "value": "Dostawca"
+    },
+    {
+      "key": "ProviderDesp",
+      "value": "Dostawca użytkownika, domyślnie „lokalny”, może być pusty."
+    },
+    {
+      "key": "Roles",
+      "value": "Role"
+    },
+    {
+      "key": "RolesDesp",
+      "value": "Role użytkownika. Można je oddzielić znakiem „,” i należy je zdefiniować, mogą być puste."
+    },
+    {
+      "key": "TemplateFileName",
+      "value": "user_template.xlsx"
+    },
+    {
+      "key": "TrueStr",
+      "value": "Prawda"
+    },
+    {
+      "key": "UC_ImportUser_EmptyExternalUserId",
+      "value": "Identyfikator użytkownika zewnętrznego nie może być pusty."
+    },
+    {
+      "key": "UC_ImportUser_EmptyPassword",
+      "value": "Hasło nie może być puste."
+    },
+    {
+      "key": "UC_ImportUser_EmptyUserEmail",
+      "value": "Adres e-mail użytkownika nie może być pusty."
+    },
+    {
+      "key": "UC_ImportUser_EmptyUserName",
+      "value": "Nazwa użytkownika nie może być pusta."
+    },
+    {
+      "key": "UC_ImportUser_InvalidEmailAddress",
+      "value": "Niepoprawny adres email."
+    },
+    {
+      "key": "UC_ImportUser_InvalidEnabledValue",
+      "value": "Niepoprawna wartość dla pola „włączone”."
+    },
+    {
+      "key": "UC_ImportUser_InvalidPassword",
+      "value": "Niepoprawny format hasła. Hasło musi zawierać co najmniej 1 małą literę, 1 wielką literę i 1 cyfrę, a długość musi wynosić od 8 do 32."
+    },
+    {
+      "key": "UC_ImportUser_RoleNotExist",
+      "value": "Rola ‘{0}’ nie istnieje."
+    },
+    {
+      "key": "UC_ImportUser_UserEmailAlreadyExists",
+      "value": "Adres email użytkownika już istnieje."
+    },
+    {
+      "key": "UC_ImportUser_UserIdAlreadyExists",
+      "value": "Identyfikator użytkownika już istnieje."
+    },
+    {
+      "key": "UC_ImportUser_UserMobileAlreadyExists",
+      "value": "Numer telefonu już istnieje."
+    },
+    {
+      "key": "UC_ImportUser_UserNameAlreadyExists",
+      "value": "Nazwa użytkownika już istnieje."
+    },
+    {
+      "key": "UC_InvalidUserTemplateFormat",
+      "value": "Niepoprawny format szablonu użytkownika."
+    },
+    {
+      "key": "UC_LanguageNotSupport",
+      "value": "Nieobsługiwany język."
+    },
+    {
+      "key": "UC_NoUserDetected",
+      "value": "Nie wykryto użytkownika."
+    },
+    {
+      "key": "UC_NoVisibleSpreadSheet",
+      "value": "Nie znaleziono widocznego arkusza kalkulacyjnego."
+    },
+    {
+      "key": "UserName",
+      "value": "Nazwa użytkownika"
+    },
+    {
+      "key": "UserNameDesp",
+      "value": "Unikalna nazwa użytkownika, nie może być pusta."
+    }
+  ]
+}

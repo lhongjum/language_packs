@@ -1,0 +1,28 @@
+﻿{
+  "resources": [
+    {
+      "key": "CMC_BuiltInClaimMappingDeleteError",
+      "value": "Nie można usunąć wbudowanego mapowania poświadczeń."
+    },
+    {
+      "key": "CMC_BuiltInClaimMappingModifyError",
+      "value": "Nie można modyfikować wbudowanego mapowania poświadczeń."
+    },
+    {
+      "key": "CMC_ClaimMappingAlreadyExists",
+      "value": "Mapowanie poświadczeń już istnieje."
+    },
+    {
+      "key": "CMC_ClaimMappingNotExist",
+      "value": "Mapowanie poświadczeń nie istnieje."
+    },
+    {
+      "key": "CMC_CustomizePropertyNotExist",
+      "value": "Niestandardowy atrybut nie istnieje."
+    },
+    {
+      "key": "CMC_InvalidClaimMappingName",
+      "value": "Niepoprawna nazwa mapowania poświadczeń. Długość nazwy mapowania poświadczeń powinna wynosić od 1 do 64, a nazwa nie może zawierać '<', '>', '/', '\\\\', '$' oraz pewnych słów kluczowych."
+    }
+  ]
+}

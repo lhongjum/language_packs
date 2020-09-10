@@ -1,0 +1,12 @@
+﻿{
+  "resources": [
+    {
+      "key": "InvalidParameter",
+      "value": "Wykryto nieprawidłowy parametr."
+    },
+    {
+      "key": "ResourceNotFound",
+      "value": "Nie znaleziono zasobu."
+    }
+  ]
+}

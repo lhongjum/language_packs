@@ -1,0 +1,1585 @@
+﻿[
+	{
+		"name": "Abs",
+		"category": "Matematyczne",
+		"syntax": [
+			"Abs(liczba)"
+		],
+		"description": [
+			"Zwraca wartość bezwzględną określonej liczby."
+		],
+		"link": ""
+	},
+	{
+		"name": "Acos",
+		"category": "Matematyczne",
+		"syntax": [
+			"Acos(liczba)"
+		],
+		"description": [
+			"Zwraca kąt, którego cosinus jest określoną liczbą."
+		],
+		"link": ""
+	},
+	{
+		"name": "Asin",
+		"category": "Matematyczne",
+		"syntax": [
+			"Asin(liczba)"
+		],
+		"description": [
+			"Zwraca kąt, którego sinus jest określoną liczbą."
+		],
+		"link": ""
+	},
+	{
+		"name": "Atan",
+		"category": "Matematyczne",
+		"syntax": [
+			"Atan(liczba)"
+		],
+		"description": [
+			"Zwraca kąt, którego tangens jest określoną liczbą."
+		],
+		"link": ""
+	},
+	{
+		"name": "Atn2",
+		"category": "Matematyczne",
+		"syntax": [
+			"Atn2(y, x)"
+		],
+		"description": [
+			"Zwraca kąt, którego tangens jest ilorazem dwóch określonych liczb."
+		],
+		"link": ""
+	},
+	{
+		"name": "Ceiling",
+		"category": "Matematyczne",
+		"syntax": [
+			"Ceiling(liczba)"
+		],
+		"description": [
+			"Zwraca najmniejszą liczbę całkowitą większą lub równą podanej liczbie."
+		],
+		"link": ""
+	},
+	{
+		"name": "Cos",
+		"category": "Matematyczne",
+		"syntax": [
+			"Cos(liczba)"
+		],
+		"description": [
+			"Zwraca cosinus kąta."
+		],
+		"link": ""
+	},
+	{
+		"name": "Cot",
+		"category": "Matematyczne",
+		"syntax": [
+			"Cot(liczba)"
+		],
+		"description": [
+			"Zwraca cotangens kąta w radianach."
+		],
+		"link": ""
+	},
+	{
+		"name": "Degrees",
+		"category": "Matematyczne",
+		"syntax": [
+			"Degrees(radiany)"
+		],
+		"description": [
+			"Zwraca kąt w stopniach dla kąta określonego w radianach."
+		],
+		"link": ""
+	},
+	{
+		"name": "Exp",
+		"category": "Matematyczne",
+		"syntax": [
+			"Exp(liczba)"
+		],
+		"description": [
+			"Zwraca liczbę e podniesioną do określonej potęgi."
+		],
+		"link": ""
+	},
+	{
+		"name": "Floor",
+		"category": "Matematyczne",
+		"syntax": [
+			"Floor(liczba)"
+		],
+		"description": [
+			"Zwraca największą liczbę całkowitą mniejszą lub równą określonej liczbie dziesiętnej."
+		],
+		"link": ""
+	},
+	{
+		"name": "Log",
+		"category": "Matematyczne",
+		"syntax": [
+			"Log(liczba)",
+			"Log(liczba, nowaBaza)"
+		],
+		"description": [
+			"Zwraca logarytm naturalny (lub o wskazanej podstawie) z określonej liczby."
+		],
+		"link": ""
+	},
+	{
+		"name": "Log10",
+		"category": "Matematyczne",
+		"syntax": [
+			"Log10(liczba)"
+		],
+		"description": [
+			"Zwraca logarytm dziesiętny z określonej liczby."
+		],
+		"link": ""
+	},
+	{
+		"name": "PI",
+		"category": "Matematyczne",
+		"syntax": [
+			"PI()"
+		],
+		"description": [
+			"Reprezentuje stosunek obwodu koła do jego średnicy, określony przez stałą π."
+		],
+		"link": ""
+	},
+	{
+		"name": "Power",
+		"category": "Matematyczne",
+		"syntax": [
+			"Power(x, y)"
+		],
+		"description": [
+			"Zwraca określoną liczbę podniesioną do określonej potęgi."
+		],
+		"link": ""
+	},
+	{
+		"name": "Radians",
+		"category": "Matematyczne",
+		"syntax": [
+			"Radians(stopnie)"
+		],
+		"description": [
+			"Przekształca stopnie na radiany."
+		],
+		"link": ""
+	},
+	{
+		"name": "Rand",
+		"category": "Matematyczne",
+		"syntax": [
+			"Rand()",
+			"Rand(max)",
+			"Rand(min, max)"
+		],
+		"description": [
+			"Zwraca losową liczbę całkowitą, która znajduje się w określonym zakresie,",
+			"Lub zwraca losową liczbę zmiennoprzecinkową, która jest większa lub równa 0 i mniejsza niż 1."
+		],
+		"link": ""
+	},
+	{
+		"name": "Round",
+		"category": "Matematyczne",
+		"syntax": [
+			"Round(liczba)",
+			"Round(liczba, liczba_cyfr)",
+			"Round(liczba, liczba_cyfr, MidpointRounding rodzaj)"
+		],
+		"description": [
+			"Zaokrągla wartość do najbliższej liczby całkowitej lub do określonej liczby cyfr ułamkowych..",
+			"Dostępne rodzaje zaokrąglania: ToEven, AwayFromZero."
+		],
+		"link": ""
+	},
+	{
+		"name": "Sign",
+		"category": "Matematyczne",
+		"syntax": [
+			"Sign(liczba)"
+		],
+		"description": [
+			"Zwraca liczbę całkowitą wskazującą znak liczby.",
+			"-1: wartość jest mniejsza niż zero.",
+			" 0: wartość jest równa zero.",
+			" 1: wartość jest większa od zera."
+		],
+		"link": ""
+	},
+	{
+		"name": "Sin",
+		"category": "Matematyczne",
+		"syntax": [
+			"Sin(liczba)"
+		],
+		"description": [
+			"Zwraca sinus podanego kąta."
+		],
+		"link": ""
+	},
+	{
+		"name": "Sqrt",
+		"category": "Matematyczne",
+		"syntax": [
+			"Sqrt(liczba)"
+		],
+		"description": [
+			"Zwraca pierwiastek kwadratowy z określonej liczby."
+		],
+		"link": ""
+	},
+	{
+		"name": "Square",
+		"category": "Matematyczne",
+		"syntax": [
+			"Square(liczba)"
+		],
+		"description": [
+			"Zwraca kwadrat podanej liczby."
+		],
+		"link": ""
+	},
+	{
+		"name": "Tan",
+		"category": "Matematyczne",
+		"syntax": [
+			"Tan(liczba)"
+		],
+		"description": [
+			"Zwraca tangens podanego kąta."
+		],
+		"link": ""
+	},
+	{
+		"name": "DateAdd",
+		"category": "Data i godzina",
+		"syntax": [
+			"DateAdd(EDatePart czesc_daty, wartość, data)"
+		],
+		"description": [
+			"Dodaje określoną wartość liczbową (jako liczbę całkowitą ze znakiem) do określonej części podanej daty.",
+			"Dozwolone wartości EDatePart: ",
+			"   Year, yyyy, yy,",
+			"   Quarter, qq, q,",
+			"   Month, mm, m,",
+			"   DayOfYear, dy, y",
+			"   Day, dd, d,",
+			"   WeekDay, dw,",
+			"   Week, ww, wk,",
+			"   Hour, hh,",
+			"   Minute, mi, n,",
+			"   Second, ss, s,",
+			"   MilliSecond, ms"
+		],
+		"link": ""
+	},
+	{
+		"name": "DateDiff",
+		"category": "Data i godzina",
+		"syntax": [
+			"DateDiff(EDatePart czesc_daty, data1, data2)"
+		],
+		"description": [
+			"Zwraca liczbę określonych okresów (jako liczbę całkowitą ze znakiem) pomiędzy wskazanymi datami.",
+			"Dozwolone wartości EDatePart: ",
+			"   Year, yyyy, yy,",
+			"   Quarter, qq, q,",
+			"   Month, mm, m,",
+			"   DayOfYear, dy, y",
+			"   Day, dd, d,",
+			"   WeekDay, dw,",
+			"   Week, ww, wk,",
+			"   Hour, hh,",
+			"   Minute, mi, n,",
+			"   Second, ss, s,",
+			"   MilliSecond, ms"
+		],
+		"link": ""
+	},
+	{
+		"name": "DateFromParts",
+		"category": "Data i godzina",
+		"syntax": [
+			"DateFromParts(rok, miesiac, dzien)"
+		],
+		"description": [
+			"Zwraca wartość daty złożoną z określonych wartości roku, miesiąca i dnia."
+		],
+		"link": ""
+	},
+	{
+		"name": "DatePart",
+		"category": "Data i godzina",
+		"syntax": [
+			"DatePart(EDatePart czesc_daty, data)"
+		],
+		"description": [
+			"Zwraca liczbę całkowitą reprezentującą określoną część wskazanej daty.",
+			"Dozwolone wartości EDatePart: ",
+			"   Year, yyyy, yy,",
+			"   Quarter, qq, q,",
+			"   Month, mm, m,",
+			"   DayOfYear, dy, y",
+			"   Day, dd, d,",
+			"   WeekDay, dw,",
+			"   Week, ww, wk,",
+			"   Hour, hh,",
+			"   Minute, mi, n,",
+			"   Second, ss, s,",
+			"   MilliSecond, ms"
+		],
+		"link": ""
+	},
+	{
+		"name": "EOMonth",
+		"category": "Data i godzina",
+		"syntax": [
+			"EOMonth(data, [int dodajMiesiace = 0])"
+		],
+		"description": [
+			"Zwraca ostatni dzień miesiąca dla określonej daty z opcjonalnym przesunięciem."
+		],
+		"link": ""
+	},
+	{
+		"name": "GetDate",
+		"category": "Data i godzina",
+		"syntax": [
+			"GetDate()"
+		],
+		"description": [
+			"Zwraca bieżący systemowy znacznik czasu bez przesunięcia strefy czasowej."
+		],
+		"link": ""
+	},
+	{
+		"name": "GetUtcDate",
+		"category": "Data i godzina",
+		"syntax": [
+			"GetUTCDate()"
+		],
+		"description": [
+			"Zwraca bieżący systemowy znacznik czasu UTC bez przesunięcia strefy czasowej.."
+		],
+		"link": ""
+	},
+	{
+		"name": "Concat",
+		"category": "Tekstowe",
+		"syntax": [
+			"Concat([tekst1, tekst2...])"
+		],
+		"description": [
+			"Łączy wskazane ciągi tekstowe."
+		],
+		"link": ""
+	},
+	{
+		"name": "Format",
+		"category": "Tekstowe",
+		"syntax": [
+			"Format(wartość, format)"
+		],
+		"description": [
+			"Formatuje podaną wartość do tekstu przy użyciu podanego formatu."
+		],
+		"link": ""
+	},
+	{
+		"name": "IndexOf",
+		"category": "Tekstowe",
+		"syntax": [
+			"IndexOf(wartość, przeszukiwanynapis)",
+			"IndexOf(wartość, przeszukiwanyTekst, indeksStartowy)"
+		],
+		"description": [
+			"Pobiera lokalizację napisu w tekście, zaczynając od początku lub określonej pozycji."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsNull",
+		"category": "Tekstowe",
+		"syntax": [
+			"IsNull(wartość)",
+			"IsNull(wartość1, wartość2)"
+		],
+		"description": [
+			"Sprawdza, czy podana wartość to Null lub DBNull;",
+			"Lub zwraca alternatywną wartość, jeśli pierwsza wartość to null lub DBNull."
+		],
+		"link": ""
+	},
+	{
+		"name": "Left",
+		"category": "Tekstowe",
+		"syntax": [
+			"Left(napis, długość)"
+		],
+		"description": [
+			"Pobiera podciąg z podanego ciągu (zaczynając od lewej)"
+		],
+		"link": ""
+	},
+	{
+		"name": "Len",
+		"category": "Tekstowe",
+		"syntax": [
+			"Len(napis)"
+		],
+		"description": [
+			"Zwraca długość wskazanego tekstu."
+		],
+		"link": ""
+	},
+	{
+		"name": "Lower",
+		"category": "Tekstowe",
+		"syntax": [
+			"Lower(napis)"
+		],
+		"description": [
+			"Konwertuje wszystkie znaki w danym ciągu na małe litery."
+		],
+		"link": ""
+	},
+	{
+		"name": "LTrim",
+		"category": "Tekstowe",
+		"syntax": [
+			"LTrim(napis)"
+		],
+		"description": [
+			"Usuń wszystkie spacje wiodące z podanego ciągu."
+		],
+		"link": ""
+	},
+	{
+		"name": "Replace",
+		"category": "Tekstowe",
+		"syntax": [
+			"Replace(napis, wzór, zamiennik)"
+		],
+		"description": [
+			"Zamień sekwencję znaków w danym ciągu na inny zestaw znaków."
+		],
+		"link": ""
+	},
+	{
+		"name": "Replicate",
+		"category": "Tekstowe",
+		"syntax": [
+			"Replicate(napis, n)"
+		],
+		"description": [
+			"Powtarza podany ciąg znaków n razy. "
+		],
+		"link": ""
+	},
+	{
+		"name": "Reverse",
+		"category": "Tekstowe",
+		"syntax": [
+			"REverse(napis)"
+		],
+		"description": [
+			"Odwraca podany ciąg znaków."
+		],
+		"link": ""
+	},
+	{
+		"name": "Right",
+		"category": "Tekstowe",
+		"syntax": [
+			"Right(napis, długość)"
+		],
+		"description": [
+			"Pobiera podciąg z podanego ciągu (zaczynając od prawej)."
+		],
+		"link": ""
+	},
+	{
+		"name": "RTrim",
+		"category": "Tekstowe",
+		"syntax": [
+			"RTrim(napis)"
+		],
+		"description": [
+			"Usuń wszystkie końcowe spacje z podanego ciągu."
+		],
+		"link": ""
+	},
+	{
+		"name": "SubString",
+		"category": "Tekstowe",
+		"syntax": [
+			"SubString(napis, indeksStartowy, długość)",
+			"SubString(napis, indeksStartowy)"
+		],
+		"description": [
+			"Zwraca podciąg podanego ciągu znaków."
+		],
+		"link": ""
+	},
+	{
+		"name": "ToString",
+		"category": "Tekstowe",
+		"syntax": [
+			"ToString(wartość)"
+		],
+		"description": [
+			"Zwraca ciąg znaków reprezentujący dany obiekt."
+		],
+		"link": ""
+	},
+	{
+		"name": "Trim",
+		"category": "Tekstowe",
+		"syntax": [
+			"Trim(napis)"
+		],
+		"description": [
+			"Usuń wszystkie spacje wiodące i końcowe z podanego ciągu."
+		],
+		"link": ""
+	},
+	{
+		"name": "Upper",
+		"category": "Tekstowe",
+		"syntax": [
+			"Upper(napis)"
+		],
+		"description": [
+			"Konwertuje wszystkie znaki w danym ciągu na wielkie litery."
+		],
+		"link": ""
+	},
+	{
+		"name": "Array",
+		"category": "Różne",
+		"syntax": [
+			"Array([obiekt1, obiekt2...])"
+		],
+		"description": [
+			"Tworzy Zakres z podanymi obiektami."
+		],
+		"link": ""
+	},
+	{
+		"name": "Category",
+		"category": "Różne",
+		"syntax": [
+			"Category(wartość, RangeOption rangeOption, OutsideRangeOption outsideRangeOption, min, max, krok)"
+		],
+		"description": [
+			"Zwraca tekst reprezentujący zakres, w którym znajduje się określona wartość.",
+			"Dostępne wartości RangeOption: IncludeLeft_ExcludeRight, ExcludeLeft_IncludeRight.",
+			"Dostępne wartości OutsideRangeOption: None, LessThanMin, GreaterThanMax, All"
+		],
+		"link": ""
+	},
+	{
+		"name": "CustomCategory",
+		"category": "Różne",
+		"syntax": [
+			"CustomCategory(wartość, RangeOption rangeOption, [kategoria1, kategoria2...])"
+		],
+		"description": [
+			"Zwraca tekst reprezentujący zakres, w którym znajduje się określona wartość.",
+			"Dostępne wartości RangeOption: IncludeLeft_ExcludeRight, ExcludeLeft_IncludeRight."
+		],
+		"link": ""
+	},
+	{
+		"name": "FiscalYear",
+		"category": "Różne",
+		"syntax": [
+			"FiscalYear(data, miesiącPoczątkowy)"
+		],
+		"description": [
+			"Zwraca rok podatkowy określonej daty."
+		],
+		"link": ""
+	},
+	{
+		"name": "FiscalMonth",
+		"category": "Misc",
+		"syntax": [
+			"FiscalMonth(dateTime, startMonthOfFiscalYear)"
+		],
+		"description": [
+			"Gets the fiscal month of specified date."
+		],
+		"link": ""
+	},
+	{
+		"name": "FiscalQuarter",
+		"category": "Misc",
+		"syntax": [
+			"FiscalQuarter(dateTime, startMonthOfFiscalYear)"
+		],
+		"description": [
+			"Gets the fiscal quarter of specified date."
+		],
+		"link": ""
+	},
+	{
+		"name": "Asc",
+		"category": "Tekstowe",
+		"syntax": [
+			"Asc(napis)"
+		],
+		"description": [
+			"Zwraca wartośc liczbową odpowiadającą wskazanemu znakowi."
+		],
+		"link": ""
+	},
+	{
+		"name": "AscW",
+		"category": "Tekstowe",
+		"syntax": [
+			"AscW(napis)"
+		],
+		"description": [
+			"Zwraca wartośc liczbową odpowiadającą wskazanemu znakowi Unicode."
+		],
+		"link": ""
+	},
+	{
+		"name": "Chr",
+		"category": "Tekstowe",
+		"syntax": [
+			"Chr(kodZnaku)"
+		],
+		"description": [
+			"Zwraca znak powiązany z określonym kodem znaku."
+		],
+		"link": ""
+	},
+	{
+		"name": "ChrW",
+		"category": "Tekstowe",
+		"syntax": [
+			"ChrW(kodZnaku)"
+		],
+		"description": [
+			"Zwraca znak Unicode powiązany z określonym kodem znaku."
+		],
+		"link": ""
+	},
+	{
+		"name": "Filter",
+		"category": "Tekstowe",
+		"syntax": [
+			"Filter([źródło1, źródło2...], Dopasuj, [bool Zawieraj = True], [CompareMethod RodzajPorównania = Binary])"
+		],
+		"description": [
+			"Zwraca zakres rozpoczynający się indeksem 0 z podzbiorem ciągu znaków w oparciu o określone kryteria filtru.",
+			"Dostępne wartości CompareMethod: Binary, Text."
+		],
+		"link": ""
+	},
+	{
+		"name": "FormatCurrency",
+		"category": "Tekstowe",
+		"syntax": [
+			"FormatCurrency(wyrażenie, [int CyfryPoPrzecinku = -1], [TriState ZawierajWiodącąLiczbę = UseDefault], [TriState NawiasyDlaLiczbUjemnych = UseDefault], [TriState GrupujCyfry = UseDefault])"
+		],
+		"description": [
+			"Zwraca wyrażenie sformatowane jako waluta z wykorzystaniem symbolu waluty zdefiniowanego w systemowym panelu sterowania.",
+			"Dostępne wartości TriState True, False, UseDefault."
+		],
+		"link": ""
+	},
+	{
+		"name": "FormatDateTime",
+		"category": "Tekstowe",
+		"syntax": [
+			"FormatDateTime(wyrażenie, [DateFormat NazwaFormatu = GeneralDate])"
+		],
+		"description": [
+			"Zwraca tekst reprezentujący datę i czas w określonym formacie.",
+			"Dostępne wartości DateFormat: GeneralDate, LongDate, ShortDate, LongTime, ShortTime."
+		],
+		"link": ""
+	},
+	{
+		"name": "FormatNumber",
+		"category": "Tekstowe",
+		"syntax": [
+			"FormatNumber(wyrażenie, [int CyfryPoPrzecinku = -1], [TriState ZawierajWiodącąLiczbę = UseDefault], [TriState NawiasyDlaLiczbUjemnych = UseDefault], [TriState GrupujCyfry = UseDefault])"
+		],
+		"description": [
+			"Zwraca wyrażenie sformatowane jako liczba.",
+			"Dostępne wartości TriState: True, False, UseDefault."
+		],
+		"link": ""
+	},
+	{
+		"name": "FormatPercent",
+		"category": "Tekstowe",
+		"syntax": [
+			"FormatPercent(wyrażenie, CyfryPoPrzecinku = -1, TriState ZawierajWiodącąLiczbę = UseDefault, TriState NawiasyDlaLiczbUjemnych = UseDefault, TriState GrupujCyfry = TriState.UseDefault)"
+		],
+		"description": [
+			"Zwraca wyrażenie sformatowane jako wartość procentowa (pomnożona przez 100) ze znakiem % na końcu.",
+			"Dostępne wartości TriState: True, False, UseDefault."
+		],
+		"link": ""
+	},
+	{
+		"name": "GetChar",
+		"category": "Tekstowe",
+		"syntax": [
+			"GetChar(napis, indeks)"
+		],
+		"description": [
+			"Zwraca znak znajdujący się na wskazanej pozycji w ciągu."
+		],
+		"link": ""
+	},
+	{
+		"name": "InStr",
+		"category": "Tekstowe",
+		"syntax": [
+			"InStr(napis1, napis2, [CompareMethod RodzajPorównania = Binary])"
+		],
+		"description": [
+			"Zwraca liczbę całkowitą określającą pozycję początkową pierwszego wystąpienia jednego ciągu znaków w innym.",
+			"Dostępne wartości CompareMethod: Binary, Text."
+		],
+		"link": ""
+	},
+	{
+		"name": "InStrRev",
+		"category": "Tekstowe",
+		"syntax": [
+			"InStrRev(napis1, napis2, [int start = -1], [CompareMethod RodzajPorównania = Binary])"
+		],
+		"description": [
+			"Zwraca pozycję pierwszego wystąpienia jednego ciągu znaków w drugim, zaczynając od prawej strony.",
+			"Dostępne wartości CompareMethod: Binary, Text."
+		],
+		"link": ""
+	},
+	{
+		"name": "Join",
+		"category": "Tekstowe",
+		"syntax": [
+			"Join([źródło1, źródło2...], [string ogranicznik = \" \"])"
+		],
+		"description": [
+			"Zwraca napis utworzony przez połączenie ciągów znaków zawartych w tablicy."
+		],
+		"link": ""
+	},
+	{
+		"name": "LCase",
+		"category": "Tekstowe",
+		"syntax": [
+			"LCase(napis)"
+		],
+		"description": [
+			"Zwraca tekst przekonwertowany na małe litery."
+		],
+		"link": ""
+	},
+	{
+		"name": "LSet",
+		"category": "Tekstowe",
+		"syntax": [
+			"LSet(napis, długość)"
+		],
+		"description": [
+			"Zwraca wyrównany do lewej ciąg znaków, ucięty do określonej długości."
+		],
+		"link": ""
+	},
+	{
+		"name": "Mid",
+		"category": "Tekstowe",
+		"syntax": [
+			"Mid(napis, start)",
+			"Mid(napis, start, długość)"
+		],
+		"description": [
+			"Returns a string containing a specified number of characters from a string."
+		],
+		"link": ""
+	},
+	{
+		"name": "RSet",
+		"category": "Tekstowe",
+		"syntax": [
+			"RSet(napis, długość)"
+		],
+		"description": [
+			"Zwraca wyrównany do prawej ciąg znaków, ucięty do określonej długości."
+		],
+		"link": ""
+	},
+	{
+		"name": "Space",
+		"category": "Tekstowe",
+		"syntax": [
+			"Space(liczba)"
+		],
+		"description": [
+			"Zwraca ciąg znaków składający się z określonej liczby spacji."
+		],
+		"link": ""
+	},
+	{
+		"name": "Split",
+		"category": "Tekstowe",
+		"syntax": [
+			"Split(napis, [string ogranicznik = \" \"], [int limit = -1], [CompareMethod RodzajPorównania = Binary])"
+		],
+		"description": [
+			"Zwraca jednowymiarowy Zakres z indeksem początkowym 0 powstały poprzez podzielenie wskazanego ciągu znaków."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrComp",
+		"category": "Tekstowe",
+		"syntax": [
+			"StrComp(napis1, napis2, [CompareMethod RodzajPorównania = Binary])"
+		],
+		"description": [
+			"Zwraca -1, 0 lub 1, w zależności od wyniku porównania ciągów."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrDup",
+		"category": "Tekstowe",
+		"syntax": [
+			"StrDup(n, znak)"
+		],
+		"description": [
+			"Zwraca ciąg znaków składający się ze wskazanego znaku powtórzonego określoną liczbę razy."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrReverse",
+		"category": "Tekstowe",
+		"syntax": [
+			"StrReverse(napis)"
+		],
+		"description": [
+			"Zwraca ciąg, z odwróconą kolejnością znaków."
+		],
+		"link": ""
+	},
+	{
+		"name": "UCase",
+		"category": "Tekstowe",
+		"syntax": [
+			"UCase(napis)"
+		],
+		"description": [
+			"Zwraca tekst przekonwertowany na małe litery."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrLike",
+		"category": "Tekstowe",
+		"syntax": [
+			"StrLike(napis, wzór, CompareMethod compareOption)"
+		],
+		"description": [
+			"Porównuje napis ze wzorem i zwraca takie same wyniki jak operator Like.",
+			"Dostępne wartości CompareMethod: Binary, Text."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrLikeText",
+		"category": "Tekstowe",
+		"syntax": [
+			"StrLikeText(napis, wzór)"
+		],
+		"description": [
+			"Porównuje napis ze wzorem i zwraca takie same wyniki jak operator Like, używając porównania tekstowego."
+		],
+		"link": ""
+	},
+	{
+		"name": "StrLikeBinary",
+		"category": "Tekstowe",
+		"syntax": [
+			"StrLikeBinary(napis, wzór)"
+		],
+		"description": [
+			"Porównuje napis ze wzorem i zwraca takie same wyniki jak operator Like, używając porównania, używając porównania binarnego."
+		],
+		"link": ""
+	},
+	{
+		"name": "DateSerial",
+		"category": "Data i godzina",
+		"syntax": [
+			"DateSerial(rok, miesiąc, dzień)"
+		],
+		"description": [
+			"Zwraca Datę reprezentującą określony rok, miesiąc i dzień."
+		],
+		"link": ""
+	},
+	{
+		"name": "DateString",
+		"category": "Data i godzina",
+		"syntax": [
+			"DateString()"
+		],
+		"description": [
+			"Zwraca ciąg znaków reprezentujący bieżącą datę systemową."
+		],
+		"link": ""
+	},
+	{
+		"name": "DateValue",
+		"category": "Data i godzina",
+		"syntax": [
+			"DateValue(tekstDaty)"
+		],
+		"description": [
+			"Konwertuje ciąg znaków na wartość Daty, z czasem ustawionym na północ (00:00:00)."
+		],
+		"link": ""
+	},
+	{
+		"name": "Day",
+		"category": "Data i godzina",
+		"syntax": [
+			"Day(data)"
+		],
+		"description": [
+			"Zwraca wartość całkowitą od 1 do 31 reprezentującą dzień miesiąca."
+		],
+		"link": ""
+	},
+	{
+		"name": "Hour",
+		"category": "Data i godzina",
+		"syntax": [
+			"Hour(czas)"
+		],
+		"description": [
+			"Zwraca wartość całkowitą od 0 do 23 reprezentującą godzinę dnia."
+		],
+		"link": ""
+	},
+	{
+		"name": "Minute",
+		"category": "Data i godzina",
+		"syntax": [
+			"Minute(czas)"
+		],
+		"description": [
+			"Zwraca liczbę całkowitą od 0 do 59, reprezentującą minutę godziny."
+		],
+		"link": ""
+	},
+	{
+		"name": "Month",
+		"category": "Data i godzina",
+		"syntax": [
+			"Month(czas)"
+		],
+		"description": [
+			"Zwraca wartość całkowitą od 1 do 12 reprezentującą miesiąc roku"
+		],
+		"link": ""
+	},
+	{
+		"name": "MonthName",
+		"category": "Data i godzina",
+		"syntax": [
+			"MonthName(miesiąc, [bool skrócony = false])"
+		],
+		"description": [
+			"Zwraca nazwę określonego miesiąca."
+		],
+		"link": ""
+	},
+	{
+		"name": "Now",
+		"category": "Data i godzina",
+		"syntax": [
+			"Now()"
+		],
+		"description": [
+			"Zwraca wartość Daty zawierającą bieżącą datę i godzinę systemową."
+		],
+		"link": ""
+	},
+	{
+		"name": "Second",
+		"category": "Data i godzina",
+		"syntax": [
+			"Second(czas)"
+		],
+		"description": [
+			"Zwraca liczbę całkowitą od 0 do 59, reprezentującą sekundę minuty."
+		],
+		"link": ""
+	},
+	{
+		"name": "TimeOfDay",
+		"category": "Data i godzina",
+		"syntax": [
+			"TimeOfDay()"
+		],
+		"description": [
+			"Zwraca wartość Daty zawierającą aktualny czas systemowy."
+		],
+		"link": ""
+	},
+	{
+		"name": "Timer",
+		"category": "Data i godzina",
+		"syntax": [
+			"Timer()"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą liczbę sekund, które upłynęły od północy."
+		],
+		"link": ""
+	},
+	{
+		"name": "TimeSerial",
+		"category": "Data i godzina",
+		"syntax": [
+			"TimeSerial(godzina, minuta, sekunda)"
+		],
+		"description": [
+			"Zwraca wartość Daty reprezentującą określoną godzinę, minutę i sekundę, datą 01.01.01"
+		],
+		"link": ""
+	},
+	{
+		"name": "TimeString",
+		"category": "Data i godzina",
+		"syntax": [
+			"TimeString()"
+		],
+		"description": [
+			"Zwraca ciąg znaków reprezentujący godzinę systemową."
+		],
+		"link": ""
+	},
+	{
+		"name": "TimeValue",
+		"category": "Data i godzina",
+		"syntax": [
+			"TimeValue(tekstCzasu)"
+		],
+		"description": [
+			"Zwraca wartość Daty zawierającą informację o czasie reprezentowaną przez ciąg znaków, z datą ustawioną na 01.01.01"
+		],
+		"link": ""
+	},
+	{
+		"name": "Today",
+		"category": "Data i godzina",
+		"syntax": [
+			"Today()"
+		],
+		"description": [
+			"Zwraca wartość Daty zawierającą bieżącą datę systemową."
+		],
+		"link": ""
+	},
+	{
+		"name": "Weekday",
+		"category": "Data i godzina",
+		"syntax": [
+			"Weekday(data, [FirstDayOfWeek PierwszyDzieńTygodnia = Sunday])"
+		],
+		"description": [
+			"Zwraca liczbę całkowitą reprezentującą dzień tygodnia.",
+			"Dostępne wartości FirstDayOfWeek: System, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday."
+		],
+		"link": ""
+	},
+	{
+		"name": "WeekdayName",
+		"category": "Data i godzina",
+		"syntax": [
+			"WeekdayName(dzieńTygonia, [bool skrócony = false], [FirstDayOfWeek PierwszyDzieńTygodnia = System])"
+		],
+		"description": [
+			"Zwraca nazwę określonego dnia tygodnia.",
+			"Dostępne wartości FirstDayOfWeek: System, Sunday, Monday,Tuesday, Wednesday, Thursday, Friday, Saturday."
+		],
+		"link": ""
+	},
+	{
+		"name": "Year",
+		"category": "Data i godzina",
+		"syntax": [
+			"Year(data)"
+		],
+		"description": [
+			"Zwraca liczbę całkowitą od 1 do 9999 reprezentującą rok."
+		],
+		"link": ""
+	},
+	{
+		"name": "CBool",
+		"category": "Konwersje",
+		"syntax": [
+			"CBool(wartośc)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ logiczny 'bool'."
+		],
+		"link": ""
+	},
+	{
+		"name": "CByte",
+		"category": "Konwersje",
+		"syntax": [
+			"CByte(wartość)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ bajtowy 'byte'."
+		],
+		"link": ""
+	},
+	{
+		"name": "CChar",
+		"category": "Konwersje",
+		"syntax": [
+			"CChar(wartość)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ znaku 'char'."
+		],
+		"link": ""
+	},
+	{
+		"name": "CDate",
+		"category": "Konwersje",
+		"syntax": [
+			"CDate(wartość)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ 'DateTime' (DataCzas)."
+		],
+		"link": ""
+	},
+	{
+		"name": "CDbl",
+		"category": "Konwersje",
+		"syntax": [
+			"CDbl(wartość)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ liczbowy 'double'."
+		],
+		"link": ""
+	},
+	{
+		"name": "CDec",
+		"category": "Konwersje",
+		"syntax": [
+			"CDec(wartość)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ liczbowy 'decimal'."
+		],
+		"link": ""
+	},
+	{
+		"name": "CInt",
+		"category": "Konwersje",
+		"syntax": [
+			"CInt(wartość)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ liczbowy 'int'."
+		],
+		"link": ""
+	},
+	{
+		"name": "CLng",
+		"category": "Konwersje",
+		"syntax": [
+			"CLng(wartość)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ liczbowy 'long'."
+		],
+		"link": ""
+	},
+	{
+		"name": "CShort",
+		"category": "Konwersje",
+		"syntax": [
+			"CShort(wartość)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ liczbowy 'short'."
+		],
+		"link": ""
+	},
+	{
+		"name": "CSng",
+		"category": "Konwersje",
+		"syntax": [
+			"CSng(wartość)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ liczbowy 'float'."
+		],
+		"link": ""
+	},
+	{
+		"name": "CStr",
+		"category": "Konwersje",
+		"syntax": [
+			"CStr(wartość)"
+		],
+		"description": [
+			"Konwertuje podaną wartość na typ tekstowy 'string' (napis)."
+		],
+		"link": ""
+	},
+	{
+		"name": "Fix",
+		"category": "Konwersje",
+		"syntax": [
+			"Fix(liczba)"
+		],
+		"description": [
+			"Zwraca część całkowitą liczby.",
+			"Różnice między Int i Fix: Int konwertuje -8.4 na -9, Fix konwertuje -8.4 na -8."
+		],
+		"link": ""
+	},
+	{
+		"name": "Hex",
+		"category": "Konwersje",
+		"syntax": [
+			"Hex(liczba)"
+		],
+		"description": [
+			"Zwraca wartość liczby w systemie szesnastkowym."
+		],
+		"link": ""
+	},
+	{
+		"name": "Int",
+		"category": "Konwersje",
+		"syntax": [
+			"Int(liczba)"
+		],
+		"description": [
+			"Zwraca część całkowitą liczby.",
+			"Różnice między Int i Fix: Int konwertuje -8.4 na -9, Fix konwertuje -8.4 na -8."
+		],
+		"link": ""
+	},
+	{
+		"name": "Oct",
+		"category": "Konwersje",
+		"syntax": [
+			"Oct(liczba)"
+		],
+		"description": [
+			"Zwraca wartość liczby w systemie ósemkowym."
+		],
+		"link": ""
+	},
+	{
+		"name": "Str",
+		"category": "Konwersje",
+		"syntax": [
+			"Str(liczba)"
+		],
+		"description": [
+			"Zwraca ciąg znaków reprezentujący liczbę.",
+			"Wiodąca spacja jest zawsze zarezerwowana dla znaku liczby."
+		],
+		"link": ""
+	},
+	{
+		"name": "Val",
+		"category": "Konwersje",
+		"syntax": [
+			"Val(wyrażenie)"
+		],
+		"description": [
+			"Zwraca liczby zawarte w ciągu jako wartość liczbową odpowiedniego typu."
+		],
+		"link": ""
+	},
+	{
+		"name": "Rnd",
+		"category": "Matematyczne",
+		"syntax": [
+			"Rnd()",
+			"Rnd(seed)"
+		],
+		"description": [
+			"Zwraca losową liczbę typu Single."
+		],
+		"link": ""
+	},
+	{
+		"name": "Choose",
+		"category": "Interakcje",
+		"syntax": [
+			"Choose(Indeks, wybór1 [, wybór2...])"
+		],
+		"description": [
+			"Zwraca wartość z listy opcji na podstawie indeksu.",
+			"Jeśli indeks wynosi 1, funkcja zwraca pierwszy wybór z listy; jeśli indeks wynosi 2, zwraca drugi wybór i tak dalej."
+		],
+		"link": ""
+	},
+	{
+		"name": "IIF",
+		"category": "Interakcje",
+		"syntax": [
+			"IIF(wyrażenie, JeśliPrawda, JeśliFałsz)"
+		],
+		"description": [
+			"Zwraca jeden z dwóch obiektów, w zależności od oceny wyrażenia."
+		],
+		"link": ""
+	},
+	{
+		"name": "Switch",
+		"category": "Interakcje",
+		"syntax": [
+			"Syntax: Switch(wyrażenie1, wartość1 [, wyrażenie2, wartość2… [, wyrażenieN, wartośćN]] )"
+		],
+		"description": [
+			"Oszacowuje wyrażenia z listy i zwraca wartość lub wyrażenie powiązane z pierwszym wyrażeniem, które jest Prawdą."
+		],
+		"link": ""
+	},
+	{
+		"name": "Partition",
+		"category": "Interakcje",
+		"syntax": [
+			"Partition(Liczba, Start, Stop, interwał)"
+		],
+		"description": [
+			"Zwraca ciąg wskazujący, gdzie występuje liczba w obliczonej serii przedziałów.",
+			"Pozwala m.in. na utworzenie zapytania, które pokazuje, ile zamówień mieści się w różnych zakresach, na przykład wartości zamówień od 1 do 1000, 1001 do 2000 itd."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsArray",
+		"category": "Informacyjne",
+		"syntax": [
+			"IsArray(wyrażenie)"
+		],
+		"description": [
+			"Zwraca wartość logiczną wskazującą, czy zmienna jest Zakresem."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsDate",
+		"category": "Informacyjne",
+		"syntax": [
+			"IsDate(wyrażenie)"
+		],
+		"description": [
+			"Zwraca wartość Prawda, jeśli wyrażenie jest datą lub można je rozpoznać jako prawidłową datę lub godzinę."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsNothing",
+		"category": "Informacyjne",
+		"syntax": [
+			"IsNothing(wyrażenie)"
+		],
+		"description": [
+			"Zwraca wartość logiczną wskazującą, czy wyrażenie ma przypisany obiekt."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsNumeric",
+		"category": "Informacyjne",
+		"syntax": [
+			"IsNumeric(wyrażenie)"
+		],
+		"description": [
+			"Zwraca wartość logiczną wskazującą, czy wyrażenie może zostać przedstawione jako wartość liczbowa."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsError",
+		"category": "Informacyjne",
+		"syntax": [
+			"IsError(wyrażenie)"
+		],
+		"description": [
+			"Zwraca wartość logiczną wskazującą, czy wyrażenie może zostać przedstawione jako błąd (wyjątek)."
+		],
+		"link": ""
+	},
+	{
+		"name": "IsDBNull",
+		"category": "Informacyjne",
+		"syntax": [
+			"IsDBNull(wyrażenie)"
+		],
+		"description": [
+			"Zwraca wartość logiczną wskazującą, czy obiekt ma wartość pustą, czy DBNull."
+		],
+		"link": ""
+	},
+	{
+		"name": "DDB",
+		"category": "Finansowe",
+		"syntax": [
+			"DDB(Koszt, Deprecjacja, Żywotność, Okres, [double Współczynnik = 2.0])"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą amortyzację środka trwałego dla wskazanego okresu przy użyciu metody malejącego salda lub innej określonej metody.",
+			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/ddb-function."
+		],
+		"link": ""
+	},
+	{
+		"name": "FV",
+		"category": "Finansowe",
+		"syntax": [
+			"FV(r, NPer, Pmt, [double PV = 0.0], [DueDate OkresKońcowy = EndOfPeriod])"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą przyszłą wartość renty na podstawie okresowych, stałych płatności i stałej stopy procentowej.",
+			"Dostępne wartości DueDate: EndOfPeriod, BegOfPeriod.",
+			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/fv-function."
+		],
+		"link": ""
+	},
+	{
+		"name": "IPMT",
+		"category": "Finansowe",
+		"syntax": [
+			"IPmt(r, Per, NPer, PV, [double FV = 0.0], [DueDate OkresKońcowy = EndOfPeriod])"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą wartość odsetek za dany okres renty na podstawie okresowych, stałych płatności i stałej stopy procentowej.",
+			"Dostępne wartości DueDate: EndOfPeriod, BegOfPeriod.",
+			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/ipmt-function."
+		],
+		"link": ""
+	},
+	{
+		"name": "NPER",
+		"category": "Finansowe",
+		"syntax": [
+			"NPer(r, Pmt, PV, [double FV = 0.0], [DueDate OkresKońcowy = EndOfPeriod])"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą liczbę okresów dożywotniej na podstawie okresowych, stałych płatności i stałej stopy procentowej.",
+			"Dostępne wartości DueDate: EndOfPeriod, BegOfPeriod.",
+			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/nper-function."
+		],
+		"link": ""
+	},
+	{
+		"name": "PMT",
+		"category": "Finansowe",
+		"syntax": [
+			"Pmt(r, NPer, PV, [double FV = 0.0], [DueDate OkresKońcowy = EndOfPeriod)]"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą płatność dożywotnią na podstawie okresowych, stałych płatności i stałej stopy procentowej.",
+			"Dostępne wartości DueDate: EndOfPeriod, BegOfPeriod.",
+			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/pmt-function."
+		],
+		"link": ""
+	},
+	{
+		"name": "PPMT",
+		"category": "Finansowe",
+		"syntax": [
+			"PPmt(r, Per, NPer, PV, [double FV = 0.0], [DueDate OkresKońcowy = EndOfPeriod])"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą płatność główną za dany okres renty na podstawie okresowych, stałych płatności i stałej stopy procentowej.",
+			"Dostępne wartości DueDate: EndOfPeriod, BegOfPeriod.",
+			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/ppmt-function."
+		],
+		"link": ""
+	},
+	{
+		"name": "PV",
+		"category": "Finansowe",
+		"syntax": [
+			"PV(r, NPer, Pmt, [double FV = 0.0], [DueDate OkresKońcowy = EndOfPeriod])"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą bieżącą wartość renty na podstawie okresowych, stałych płatności do zapłaty w przyszłości i stałej stopy procentowej.",
+			"Dostępne wartości DueDate: EndOfPeriod, BegOfPeriod.",
+			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/pv-function."
+		],
+		"link": ""
+	},
+	{
+		"name": "RATE",
+		"category": "Finansowe",
+		"syntax": [
+			"Rate(NPer, Pmt, PV, [double FV = 0.0], [DueDate OkresKońcowy = EndOfPeriod], [double Guess = 0.1])"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą stopę procentową dla okresu dla renty rocznej.",
+			"Dostępne wartości DueDate: EndOfPeriod, BegOfPeriod.",
+			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/rate-function."
+		],
+		"link": ""
+	},
+	{
+		"name": "SLN",
+		"category": "Finansowe",
+		"syntax": [
+			"SLN(Koszt, Deprecjacja, Żywotność)"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą amortyzację metodą liniową środka trwałego dla pojedynczego okresu.",
+			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/sln-function."
+		],
+		"link": ""
+	},
+	{
+		"name": "SYD",
+		"category": "Finansowe",
+		"syntax": [
+			"SYD(Koszt, Deprecjacja, Żywotność, Okres)"
+		],
+		"description": [
+			"Zwraca wartość Double reprezentującą amortyzację metodą sumy cyfr rocznych środka trwałego za określony okres.",
+			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/syd-function."
+		],
+		"link": ""
+	}
+]

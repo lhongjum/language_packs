@@ -1,0 +1,15 @@
+{
+  "SystemReserved": [
+    "Brak kategorii",
+    "Zasoby",
+    "Ulubione",
+    "Obrazy",
+    "Motywy",
+    "Szablony"
+  ],
+  "DatasetPlugin": [
+    "Zestawy danych",
+    "Źródła danych",
+    "Model konceptualny"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  // general
+  "subject": "Zadanie dokumentu <{{document}}> nie powiodło się",
+  "body": "Nazwa dokumentu: {{documentName}};\r\nTyp dokumentu:{{documentType}};\r\nKomunikat błędu:{{errorMessage}}\r\n",
+
+  // documentTypeName
+  "dbd!name": "Dashboardy",
+  "rdl!name": "Raporty",
+  "dataset!name": "Zestawy danych",
+  "dsc!name": "Źródła danych",
+
+  // executionException Common
+  "executionErr_10001": "[Błąd wykonania] Nieznany status zadania.",
+  "executionErr_10002": "[Błąd wykonania] Nie znaleziono zadania.",
+  "executionErr_10003": "[Błąd wykonania] Nie utworzono zadania.",
+  "executionErr_10004": "[Błąd wykonania] Błąd IO: {{errorMessage}}.",
+
+  // executionException DataSourceTask
+  "executionErr_11001": "[Błąd wykonania] Wskazany katalog nie został znaleziony.",
+  "executionErr_11002": "[Błąd wykonania] Brak uprawnień dostępu do źródła danych.",
+  "executionErr_11003": "[Błąd wykonania] Plik: {{ errorUsing }} jest w użyciu a pliku: { { errorDestroy } } nie można wyodrębnić. Sprawdź format pliku.",
+  "executionErr_11004": "[Błąd wykonania] Plik: {{ errorUsing }} jest w użyciu.",
+  "executionErr_11005": "[Błąd wykonania] Pliku: {{ errorDestroy }} nie można wyodrębnić. Sprawdź format pliku lub hasło.",
+  "executionErr_11006": "[Błąd wykonania] Operacja nadpisania nie jest wspierana dla wielu plików jednocześnie.",
+  "executionErr_11007": "[Błąd wykonania] Nie można uzyskać poprawnej odpowiedzi z Cot API.",
+
+  // executionException DatasetRefresh
+  "executionErr_12001": "[Błąd wykonania] Wyjątek RefreshCot: {{errorMessage}}.",
+
+  // executionException DashboardExport
+  "executionErr_13001": "[Błąd wykonania] {{errorMessage}}.",
+
+  // refreshTokenException
+  "securityErr_10001": "[Błąd zabezpieczeń] Discovery Client otrzymał błąd dokumentu.",
+  "securityErr_10002": "[Błąd zabezpieczeń] Otrzymano błąd dokumentu.",
+  "securityErr_10003": "[Błąd zabezpieczeń] Błąd przy odświeżaniu tokena. \r\nException:{{errorMessage}}. \r\nStackTracke:{{stackTrace}}.",
+  "securityErr_10004": "[Błąd zabezpieczeń] {{errorMessage}}.",
+
+  // deploymentException
+  "deploymentErr_10001": "[Błąd wdrożenia] Błąd domeny: adres odbiorcy spoza organizacji.",
+  "deploymentErr_10002": "[Błąd wdrożenia] Błąd przy wysyłce wiadomości: {{errorMessage}}.",
+  "deploymentErr_10003": "[Błąd wdrożenia] Błąd przy wysyłce wiadomości: {{errorMessage}}.",
+  "deploymentErr_10004": "[Błąd wdrożenia] Błąd przy wysyłce wiadomości: {{errorMessage}}.",
+  "deploymentErr_10005": "[Błąd wdrożenia] Błąd przy udostępnianiu pliku: {{errorMessage}}",
+  "deploymentErr_10006": "[Błąd wdrożenia] Minął termin ważności dokumentu.",
+  "deploymentErr_10007": "[Błąd wdrożenia] Nie dostarczono ponieważ raport jest pusty.",
+  "deploymentErr_10008": "[Deployment Error] Access to the path \"{{filePath}}\" is denied.",
+  "deploymentErr_10009": "[Deployment Error] Could not find a part of the path \"{{filePath}}\"."
+}
