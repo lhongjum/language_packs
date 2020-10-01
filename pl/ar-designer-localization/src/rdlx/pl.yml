@@ -555,7 +555,7 @@ adorners:
     groupsLabel: Grupy
     newGroupLabel: "<Nowa grupa>"
   tableOfContents:
-    addItem: Dodaj element
+    addItem: Dodaj
 captions:
   barcodeInvalidText: 'Wartość albo ustawienia [{symbology}] ''{itemName}'' są nieprawidłowe.'
   barcodeUnsupportedSymbology: 'Podgląd [{symbology}] ''{itemName}'' jest ograniczony podczas pojektowania'
@@ -609,7 +609,7 @@ contextActions:
   dvchart:
     addAxis: Dodaj oś Y
     addCategoryField: Dodaj pole kategorii
-    addDataField: Dodatj pole danych
+    addDataField: Dodaj pole danych
     addSeriesField: Dodaj pole serii
     insertAfter: Wstaw pole za
     insertBefore: Wstaw pole przed
@@ -696,7 +696,7 @@ contextActions:
     removeGroupFooter: Usuń stopkę grupy
     removeGroupHeader: Usuń nagłówek grupy
     removeHeader: Usuń nagłówek
-    rowTitle: Wiesz
+    rowTitle: Wiersz
     splitCells: Rozdziel komórki
     title: Tabela
   tablix:
@@ -1865,6 +1865,38 @@ expressionEditor:
   reportItems: Elementy raportu
   saveLabel: Zapisz
   title: "Edytor wyrażenia: {propertyLabel}"
+filters:
+  add: Add...
+  addCriterion: Add Criterion
+  addGroup: Add Group
+  addItem: Add Item
+  allOf: All Of
+  anyOf: Any Of
+  edit: Edit...
+  expressionText: Expression...
+  filterPanelText: Select a Data Region to edit its filters
+  filtersText: Filters
+  newParameter: New Parameter
+  operators:
+    beginsWith: Begins With
+    between: Between
+    bottomN: Bottom N
+    bottomPercent: Bottom Percent
+    contains: Contains
+    doesNotBeginWith: Does Not Begin With
+    doesNotContain: Does Not Contain
+    equalTo: Equal To
+    greaterThan: Greater Than
+    greaterThanOrEqualTo: Greater Than Or Equal To
+    in: In
+    lessThan: Less Than
+    lessThanOrEqualTo: Less Than Or Equal To
+    like: Like
+    notEqualTo: Not Equal To
+    notIn: Not In
+    topN: Top N
+    topPercent: Top Percent
+  reset: Reset
 groupEditor:
   addGroup:
     adjacentAfter: Przylegający za
@@ -2073,7 +2105,7 @@ parametersViewEditor:
     dateRangeEditor: Edytor Zakresu Dat
     dateRangeParameter: Parametr ZakresDat
     dateRangeParameterLabels:
-      monthYearOrder: M-Y
+      monthYearOrder: M-R
       placeholderDateEnd: Koniec
       placeholderDateStart: Początek
       shortcuts:
@@ -2091,7 +2123,7 @@ parametersViewEditor:
     dateTimeEditor: Edytor DataCzas
     dateTimeParameter: Parametr DataCzas
     dateTimeParameterLabels:
-      monthYearOrder: M-Y
+      monthYearOrder: M-R
       textBack: Powrót do Kalendarza
       textClear: Wyczyść
       textToday: Dzisiaj
@@ -2121,7 +2153,7 @@ parametersViewEditor:
     listParameter: Parametr listy
     locationAndSize: Lokalizacja i Rozmiar
     multivalueParameter: Parametr Wielowartościowy
-    nullText: null
+    nullText: 'Null'
     numberEditor: Edytor Liczb
     numberParameter: Parmetr Liczbowy
     numberRangeParameter: Parametr ZakresLiczbowy
@@ -2249,7 +2281,7 @@ properties:
     international: Międzynarodowe
     labelStyle: Styl etykiety
     labels: Etykiety
-    layout: Layout
+    layout: Układ
     line: Linia
     majorGrid: Główna siatka
     majorTicks: Główne znaczniki osi
@@ -2277,7 +2309,7 @@ properties:
     threeDProperties: Właściwości 3D
     tickStyle: Styl zaznaczenia
     title: Tytuł
-    userSort: Sortowanie użytkowników
+    userSort: Sortowanie
     valueStyle: Styl wartości
     visibility: Widoczność
   editors:
@@ -2533,12 +2565,12 @@ properties:
       expressionLabel: Wyrażenie...
       resetLabel: Reset
     queryFilter:
-      addItem: Dodaj element
+      addItem: Dodaj
       addParent: Dodaj nadrzędne
       chooseField: Wybierz atrybut lub parametr
       chooseFunction: Wybierz funkcję
       close: Zamknij
-      deleteItem: Usuń element
+      deleteItem: Usuń
       deleteParent: Usuń nadrzędne
       dropdowns:
         functions:
@@ -2619,6 +2651,7 @@ properties:
       expression:
         errorPosition: "w wierszu {line}, kolumnie {column}"
         incorrect: Nieprawidłowe wyrażenie
+        parseError: "Syntax error: It is not possible to convert this interpolation syntax expression to rdl syntax"
         syntaxError: "Błąd składni: nieoczekiwany token '{token}' {positionInfo}"
         unknownField: "Uwaga: nieznana nazwa pola w '{token}' {positionInfo}"
         unknownParameter: "Uwaga: nieznana nazwa parametru w '{token}' {positionInfo}"
@@ -2754,7 +2787,7 @@ properties:
       worstValue: Najniższa wartość
     checkBox:
       checkAlignment: Sprawdź wyrównanie
-      checked: Sprawdzono
+      checked: Zaznaczone
       text: Tekst
     container:
       consumeWhiteSpace: Usuń zbędne odstępy
@@ -2783,7 +2816,7 @@ properties:
       boundFields: Pola zakresu
       calculatedFields: Pola obliczeniowe
       caseSensitivity: Rozróżnianie wielkości liter
-      collation: Kolacja znaków
+      collation: Porównywanie znaków
       commandType: Rodzaj polecenia
       fields: Pola
       filters: Filtry
@@ -2841,20 +2874,20 @@ properties:
         startingValue: Wartość początkowa
       visualizerType: Typ wizualizatora
     dimensions:
-      bottom: Dół
+      bottom: Odległość od dołu
       endPointX: Punkt końcowy osi X
       endPointY: Punkt końcowy osi Y
-      fixedHeight: Stała wysokość
-      fixedSize: Stały rozmiar
-      fixedWidth: Stała szerokość
+      fixedHeight: Maksymalna wysokość
+      fixedSize: Maksymalny rozmiar
+      fixedWidth: Maksymalna szerokość
       height: Wysokość
-      left: Lewa
+      left: Odległość od lewej
       location: Lokalizacja
-      right: Prawa
+      right: Odległość od prawej
       size: Rozmiar
       startPointX: Punkt początkowy osi X
       startPointY: Punkt początkowy osi Y
-      top: Góra
+      top: Odległość od góry
       width: Szerokość
     dvchart:
       bar:
@@ -2869,6 +2902,8 @@ properties:
       legendPosition: Pozycja
       legendWrapping: Zawijanie
       palette: Paleta
+      plotTemplate: Plot Template
+      plotTemplateDropdown: Select...
       plots: Wykresy
     dvchartAxis:
       axisType: Typ osi
@@ -3008,7 +3043,7 @@ properties:
     inputField:
       checkSize: Sprawdź rozmiar
       checkStyle: Sprawdź styl
-      checked: Sprawdzono
+      checked: Zaznaczone
       fieldName: Nazwa pola
       inputType: Typ
       maxLength: Maksymalna długość
@@ -3108,7 +3143,7 @@ properties:
       multivalue: Wielowartościowy
       name: Nazwa
       parameterValues: Wartości parametru
-      prompt: Podpowiedź
+      prompt: Etykieta
       selectAllValue: Wybierz wszystkie wartośći
       selectAllValue_help:
         text: 'Jeśli określono, determinuje przekazanie wartości do parametru w przypadku gdy "Wybierz wszystkie" jest ustawione na parametr Wielowartościowy'
@@ -3164,7 +3199,7 @@ properties:
         text: Określna minimalną stopę poziomego zmniejszania tekstu w procentach. Powinien być pomiędzy 10 a 100.
       numeralLanguage: Język liczb
       numeralVariant: Wariant liczb
-      padding: Padding
+      padding: Marginesy
       shapeStyle: Styl kształtu
       shrinkToFit: Zmniejszaj, aby dopasować
       textAlign: Wyrównanie tekstu
@@ -3193,7 +3228,7 @@ properties:
       frozenColumns: Zablokowane kolumny
       frozenRows: Zablokowane wiersze
       groupsBeforeRowHeaders: Grupy przed nagłówkami wierszy
-      layoutDirection: Kierunek layoutu
+      layoutDirection: Kierunek układu
       repeatColumnHeaders: Powtarzaj nagłówki kolumn
       repeatRowHeaders: Powtarzaj nagłówki wierszy
     tablixBodyCell:
@@ -3229,6 +3264,7 @@ romLabels:
   tablix: Tablix
 tablixWizard:
   addDataSet: Najpier dodaj zestaw danych do raportu
+  addValue: Please add at least a single value to create a Tablix.
   aggregate: Agregacja
   aggregates:
     avg: Avg
@@ -3237,9 +3273,12 @@ tablixWizard:
     min: Min
     none: None
     sum: Sum
+  asRows: As Rows
   cannotEditInWizard: Tablix ma złożoną strukturę i nie może być edytowany w Wizardzie. Użyj Edytor Grup.
-  columns: Kolumny
+  collapsedGroups: Collapsed Groups
+  columns: Column Groups
   dataSets: Zestawy danych
+  delete: Delete
   expandCollapse: "Rozwiń/Zwiń grupy"
   format: Format
   formats:
@@ -3251,29 +3290,44 @@ tablixWizard:
     percent: Procentowy
   frozenColumns: Zablokuj kolumny
   frozenRows: Zablokuj wiersze
-  layoutDesign: Design Layoutu
-  layoutOptions: Opcje Layoutu
+  layoutDesign: Design Układu
+  layoutOptions: Opcje Układu
+  makeTablix:
+    total: Total
+    values: Values
   noDataSets: Raport nie ma zestawu danych
+  noFieldPlaceholder: no field
+  noValues: There are no values specified.
   none: Brak
   openWizard: Otwórz Wziard Tablixa
   organization: Organizacja
-  rows: Wiersze
+  rows: Row Groups
   showTotalsBeforeGroup: Pokaż sumy przed grupą
+  showValuesAsRows: Show Values as Rows
   sorting: "Sortowanie: {sorting}"
   sortings:
     Ascending: Rosnąco
     Descending: Malejąco
     None: Brak
+  steppedRowGroups: Stepped Row Groups
   styling: Stylizacja
-  subTotalsForColumns: Podsumy dla kolumn
-  subTotalsForRows: Podsumy dla wierszy
+  subTotalsForColumns: Subtotals for Column Groups
+  subTotalsForRows: Subtotals for Row Groups
+  swap: Swap
   swapRowColumnGroups: Zamień grupy wierszy i kolumn
-  title: "Tablix Wizard - {name}"
+  title: Tablix Wizard
   totals: Sumy
-  totalsForColumns: Sumy dla kolumn
-  totalsForRows: Sumy dla wierszy
+  totalsForColumns: Totals for Column Groups
+  totalsForRows: Totals for Row Groups
   userSortEnabled: Włącz sortowanie użytkownika
   values: Wartości
+  warning:
+    changedStructure: Tablix Wizard cannot edit the Tablix as its structure has been changed.
+    confirmReverting: Please confirm reverting to the previous Tablix state editable by Wizard.
+    otherwiseCannotEdit: Otherwise, it will not be possible to continue editing within Tablix Wizard.
+    quit: Quit
+    revert: Revert
+    title: Warning
 warning:
   embeddedImage:
     badFile: "Wybrany plik '{name}' nie jest obrazem."
