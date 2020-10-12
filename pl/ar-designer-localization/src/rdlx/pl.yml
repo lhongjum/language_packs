@@ -1866,37 +1866,37 @@ expressionEditor:
   saveLabel: Zapisz
   title: "Edytor wyrażenia: {propertyLabel}"
 filters:
-  add: Add...
-  addCriterion: Add Criterion
-  addGroup: Add Group
-  addItem: Add Item
-  allOf: All Of
-  anyOf: Any Of
-  edit: Edit...
-  expressionText: Expression...
-  filterPanelText: Select a Data Region to edit its filters
-  filtersText: Filters
-  newParameter: New Parameter
+  add: Dodaj... #Add...
+  addCriterion: Dodaj Kryterium #Add Criterion
+  addGroup: Dodaj Grupę #Add Group
+  addItem: Dodaj Przedmiot #Add Item
+  allOf: Wszystkie Z #All Of
+  anyOf: Którykolwiek Z #Any Of
+  edit: Edytuj #Edit...
+  expressionText: Wyrażenie... #Expression...
+  filterPanelText: Wybierz Region Danych, aby edytować jego filtry #Select a Data Region to edit its filters
+  filtersText: Filtry #Filters
+  newParameter: Nowy Parametr #New Parameter
   operators:
-    beginsWith: Begins With
-    between: Between
-    bottomN: Bottom N
-    bottomPercent: Bottom Percent
-    contains: Contains
-    doesNotBeginWith: Does Not Begin With
-    doesNotContain: Does Not Contain
-    equalTo: Equal To
-    greaterThan: Greater Than
-    greaterThanOrEqualTo: Greater Than Or Equal To
-    in: In
-    lessThan: Less Than
-    lessThanOrEqualTo: Less Than Or Equal To
-    like: Like
-    notEqualTo: Not Equal To
-    notIn: Not In
-    topN: Top N
-    topPercent: Top Percent
-  reset: Reset
+    beginsWith: Zaczyna Się Z #Begins With
+    between: Pomiędzy #Between
+    bottomN: Dolne N #Bottom N
+    bottomPercent: Dolny Procent #Bottom Percent
+    contains: Zawiera #Contains
+    doesNotBeginWith: Nie Zaczyna Się Z #Does Not Begin With
+    doesNotContain: Nie Zawiera #Does Not Contain
+    equalTo: Równy Do #Equal To
+    greaterThan: Większy Od #Greater Than
+    greaterThanOrEqualTo: Większy Od lub Równy Do #Greater Than Or Equal To
+    in: W #In
+    lessThan: Mniej Niż #Less Than
+    lessThanOrEqualTo: Mniejszy Od lub Równy Do #Less Than Or Equal To
+    like: Jak #Like
+    notEqualTo: Nie Równy Do #Not Equal To
+    notIn: Nie W #Not In
+    topN: Górne N #Top N
+    topPercent: Górny Procent #Top Percent
+  reset: Reset #Reset
 groupEditor:
   addGroup:
     adjacentAfter: Przylegający za
@@ -2153,7 +2153,7 @@ parametersViewEditor:
     listParameter: Parametr listy
     locationAndSize: Lokalizacja i Rozmiar
     multivalueParameter: Parametr Wielowartościowy
-    nullText: 'Null'
+    nullText: 'Pusty' #'Null'
     numberEditor: Edytor Liczb
     numberParameter: Parmetr Liczbowy
     numberRangeParameter: Parametr ZakresLiczbowy
@@ -2651,7 +2651,7 @@ properties:
       expression:
         errorPosition: "w wierszu {line}, kolumnie {column}"
         incorrect: Nieprawidłowe wyrażenie
-        parseError: "Syntax error: It is not possible to convert this interpolation syntax expression to rdl syntax"
+        parseError: "Błąd składniowy: nie można przekonwertować tego wyrażenia składni interpolacji na składnię rdl" #"Syntax error: It is not possible to convert this interpolation syntax expression to rdl syntax"
         syntaxError: "Błąd składni: nieoczekiwany token '{token}' {positionInfo}"
         unknownField: "Uwaga: nieznana nazwa pola w '{token}' {positionInfo}"
         unknownParameter: "Uwaga: nieznana nazwa parametru w '{token}' {positionInfo}"
@@ -2902,8 +2902,8 @@ properties:
       legendPosition: Pozycja
       legendWrapping: Zawijanie
       palette: Paleta
-      plotTemplate: Plot Template
-      plotTemplateDropdown: Select...
+      plotTemplate: Szablon wykresu #Plot Template
+      plotTemplateDropdown: Wybierz... #Select...
       plots: Wykresy
     dvchartAxis:
       axisType: Typ osi
@@ -3264,7 +3264,7 @@ romLabels:
   tablix: Tablix
 tablixWizard:
   addDataSet: Najpier dodaj zestaw danych do raportu
-  addValue: Please add at least a single value to create a Tablix.
+  addValue: Proszę dodać przynamniej jedną wartość aby stworzyć Tablix. #Please add at least a single value to create a Tablix.
   aggregate: Agregacja
   aggregates:
     avg: Avg
@@ -3273,12 +3273,12 @@ tablixWizard:
     min: Min
     none: None
     sum: Sum
-  asRows: As Rows
+  asRows: Jako Wiersze #As Rows
   cannotEditInWizard: Tablix ma złożoną strukturę i nie może być edytowany w Wizardzie. Użyj Edytor Grup.
-  collapsedGroups: Collapsed Groups
-  columns: Column Groups
+  collapsedGroups: Zwinięte Grupy #Collapsed Groups
+  columns: Grupy Kolumn #Column Groups
   dataSets: Zestawy danych
-  delete: Delete
+  delete: Usuń #Delete
   expandCollapse: "Rozwiń/Zwiń grupy"
   format: Format
   formats:
@@ -3293,41 +3293,41 @@ tablixWizard:
   layoutDesign: Design Układu
   layoutOptions: Opcje Układu
   makeTablix:
-    total: Total
-    values: Values
+    total: Całkowity #Total
+    values: Wartości #Values
   noDataSets: Raport nie ma zestawu danych
-  noFieldPlaceholder: no field
-  noValues: There are no values specified.
+  noFieldPlaceholder: brak pola #no field
+  noValues: Brak określonych wartości. #There are no values specified.
   none: Brak
   openWizard: Otwórz Wziard Tablixa
   organization: Organizacja
-  rows: Row Groups
+  rows: Grupy Wierszy #Row Groups
   showTotalsBeforeGroup: Pokaż sumy przed grupą
-  showValuesAsRows: Show Values as Rows
+  showValuesAsRows: Pokaż Wartości jako Wiersze #Show Values as Rows
   sorting: "Sortowanie: {sorting}"
   sortings:
     Ascending: Rosnąco
     Descending: Malejąco
     None: Brak
-  steppedRowGroups: Stepped Row Groups
+  steppedRowGroups: Wystąpienie Grupy Wierszy #Stepped Row Groups
   styling: Stylizacja
-  subTotalsForColumns: Subtotals for Column Groups
-  subTotalsForRows: Subtotals for Row Groups
-  swap: Swap
+  subTotalsForColumns: Sumy pośrednie dla Grup Kolumn #Subtotals for Column Groups
+  subTotalsForRows: Sumy pośrednie dla Grup Wierszy #Subtotals for Row Groups
+  swap: Zamiana #Swap
   swapRowColumnGroups: Zamień grupy wierszy i kolumn
-  title: Tablix Wizard
+  title: Kreator Tablix #Tablix Wizard
   totals: Sumy
-  totalsForColumns: Totals for Column Groups
-  totalsForRows: Totals for Row Groups
+  totalsForColumns: Sumy dla Grup Kolumn #Totals for Column Groups
+  totalsForRows: Sumy dla Grup Wierszy #Totals for Row Groups
   userSortEnabled: Włącz sortowanie użytkownika
   values: Wartości
   warning:
-    changedStructure: Tablix Wizard cannot edit the Tablix as its structure has been changed.
-    confirmReverting: Please confirm reverting to the previous Tablix state editable by Wizard.
-    otherwiseCannotEdit: Otherwise, it will not be possible to continue editing within Tablix Wizard.
-    quit: Quit
-    revert: Revert
-    title: Warning
+    changedStructure: Kreator Tablix nie może edytować Tablix, ponieważ jego struktura została zmieniona. #Tablix Wizard cannot edit the Tablix as its structure has been changed.
+    confirmReverting: Potwierdź powrót do poprzedniego stanu Tablix, który może być edytowany przez kreatora. #Please confirm reverting to the previous Tablix state editable by Wizard.
+    otherwiseCannotEdit: W przeciwnym razie nie będzie można kontynuować edycji w Kreatorze Tablix. #Otherwise, it will not be possible to continue editing within Tablix Wizard.
+    quit: Zamknij #Quit
+    revert: Wróć do poprzedniego stanu #Revert
+    title: Ostrzeżenie #Warning
 warning:
   embeddedImage:
     badFile: "Wybrany plik '{name}' nie jest obrazem."
@@ -3335,16 +3335,16 @@ warning:
     badImageFile: "Wybrany plik obrazu '{name}' jest nieprawidłowy."
     badImageSize: "Wybrany plik obrazu '{name}' przekracza limit {limit} MB."
   margins:
-    caption: The specified margins cannot be set
-    info: "- '{name}' cannot be greater than {value}."
+    caption: Nie można ustawić określonych marginesów #The specified margins cannot be set
+    info: "- '{name}' nie może być większe od {value}." #"- '{name}' cannot be greater than {value}."
     labels:
-      bottom: Bottom Margin
-      left: Left Margin
-      right: Right Margin
-      top: Top Margin
+      bottom: Dolny Margines #Bottom Margin
+      left: Lewy Margines #Left Margin
+      right: Prawy Margines #Right Margin
+      top: Górny Margines #Top Margin
   pageSize:
-    caption: The specified page size cannot be set
-    info: "- '{name}' cannot be less than {value}."
+    caption: Nie można ustawić określonego rozmiaru strony #The specified page size cannot be set
+    info: "- '{name}' nie może być mniejsze od {value}." #"- '{name}' cannot be less than {value}."
     labels:
-      height: Page Height
-      width: Page Width
+      height: Wysokość strony #Page Height
+      width: Szerokość strony #Page Width
