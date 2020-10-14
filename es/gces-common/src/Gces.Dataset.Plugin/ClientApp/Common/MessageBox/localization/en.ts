@@ -1,4 +1,4 @@
 export const mbLocaleEN = {
-    OK: 'OK',
+    OK: 'OK!',
     MessageBox: 'Message',
 };
