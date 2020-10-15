@@ -1,0 +1,19 @@
+{
+  "SystemReserved": [
+    "No Category",
+    "Resources",
+    "Favorites",
+    "Images",
+    "Themes",
+    "Templates"
+  ],
+  "DatasetPlugin": [
+    "Dataset",
+    "Datasets",
+    "DataSource",
+    "Data Source",
+    "Data Sources",
+    "SemanticModel",
+    "Semantic Model"
+  ]
+}

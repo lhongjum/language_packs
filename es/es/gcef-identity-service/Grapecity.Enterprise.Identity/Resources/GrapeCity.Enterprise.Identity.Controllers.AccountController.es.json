@@ -1,0 +1,12 @@
+﻿{
+  "resources": [
+    {
+      "key": "ResetPasswordMailBody",
+      "value": "Hi {0},\n\nYou requested to reset the password of your “{1}” account, click the following link to reset it,\n\n{2}/Account/ResetPassword?Id={3}&Code={4}\n\nThanks,\n{1}"
+    },
+    {
+      "key": "ResetPasswordMailSubject",
+      "value": "Reset Password"
+    }
+  ]
+}
