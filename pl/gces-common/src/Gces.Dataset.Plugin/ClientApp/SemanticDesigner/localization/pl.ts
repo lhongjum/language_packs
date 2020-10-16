@@ -1,4 +1,5 @@
 ﻿export const resPL: LanguageKeyValueMap = {
+	'createSemanticModel!name': 'Stwórz Model Semantyczny', // Create Semantic Model
 
 	specifyDatasource: 'Określ źródło danych', // Specify a data source
 	configDatasource: 'Konfiguruj źródło danych', // Config data source
@@ -179,17 +180,6 @@
 	ppsLoading: '[...wczytywanie...]', // [...loading...]
 	ppsPleaseSelectTargetEntity: 'wybierz encję docelową', // please select target entity
 
-	'createSemanticModel!name': 'Stwórz Model Semantyczny', // Create Semantic Model
-	'createSemanticModel!description': 'Stwórz Model Semantyczny', // Stwórz Model Semantyczny
-	'editSemanticModel!name': 'Edytuj...', // Edit...
-	'editSemanticModel!description': 'Edytuj Model Semantyczny', // Edit Semantic Model
-	'revert!name': 'Przywróć', // Revert
-	'revert!description': 'Przywróć do tej wersji', // Revert to this version
-	revertError: 'Przywracanie modelu nie powiodło się', // Model revert failed
-	revertSuccess: 'Model został przywrócony prawidłowo', // Model reverted successfully
-	revertErrorMsg: 'Nie można przywrócić modelu do obecnej wersji.', // Can not revert model to current version.
-	revertSuccessMsg: 'Model został poprawnie przywrócony do wersji {{revision}}.', // Model reverted to version No.{{revision}} successfully.
-
 	// Entity Props Title
 	entityIdTitle: 'Unikalny identyfikator encji', // A unique identifier for the entity.
 	entityNameTitle: 'Nazwa encji', // The name of the entity.
@@ -284,11 +274,6 @@
 	getDatabasesFailed: 'Pobieranie baz danych nie powiodło się. Serwer nie został znaleziony lub jest niedostęny. Zweryfikuj ustawienia i upewnij się, że serwer zezwala na połączenia zdalne.', // Get databases failed. The server is not found or is not accessible. Please verify your settings and make sure the server allows remote connections.
 	modelBreakingChanges: 'Część Zmian Psuje Model', // Model Breaking Changes
 	publishBrokenReport: 'Raport \'{{name}}\' został uszkodzony przez wprowadzone zmiany, dlatego nadal jest powiązany z poprzednią wersją modelu, tak aby mógł być wyświetlany bez błędów.', // The \'{{name}}\' report was broken by your changes, therefore it is still bound to the old version of this model so that users can view this report without errors.
-
-	// Sidebar Share
-	'psSemExecute!name': 'Wykonaj', // Execute
-	'psSemExecuteAndCreateDataset!name': 'Wykonaj / Stwórz Zestaw Danych', // Execute / Create Dataset
-	'psSemReadWrite!name': 'Otwórz / Zapisz', // Read / Write
 
 	// MessageBox
 	MessageBox: 'Komunikat', // Message

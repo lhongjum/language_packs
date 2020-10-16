@@ -1,7 +1,7 @@
 import { WatermarkColor } from "./common/WatermarkColor";
 import { WatermarkFontFamily } from "./common/WatermarkFontFamily";
 
-export const image = {
+export default {
   "friendlyName": "Obraz",
   "tooltipName": "Obraz PNG",
   "settings": {
@@ -96,6 +96,10 @@ export const image = {
     "WatermarkFontUnderline": {
       "label": "PodkreślenieCzionkiZnakuWodnego",
       "category": "Różne"
+    },
+    "AddTimestamp": {
+      "label": "Add Timestamp to filename",
+      "category": "Filename"
     }
   }
 }

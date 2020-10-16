@@ -1,7 +1,7 @@
 import { WatermarkColor } from "./common/WatermarkColor";
 import { WatermarkFontFamily } from "./common/WatermarkFontFamily";
 
-export const pdf = {
+export default {
   "friendlyName": "PDF",
   "tooltipName": "Dokument PDF",
   "settings": {
@@ -221,6 +221,10 @@ export const pdf = {
     "UserPassword": {
       "label": "HasłoUżytkownika",
       "category": "UstawieniaZabezpieczeń"
+    },
+    "AddTimestamp": {
+      "label": "Add Timestamp to filename",
+      "category": "Filename"
     }
   }
 }

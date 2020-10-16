@@ -86,6 +86,7 @@ export const userPL: LanguageKeyValueMap = {
 	NoOrganizations: '[No Organization]',
 	NoRoles: '[No Role]',
 	onlyNoMemberOfSubOrg: 'remove user from organization can only be used when not show the members of sub-organization',
+	ecNoMemberTip: 'No Users in the organization. Please click',
 
 	Error: 'Error',
 	umError_1028: 'User "admin" can not be deleted.',

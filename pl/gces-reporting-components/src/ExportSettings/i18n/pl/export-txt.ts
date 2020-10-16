@@ -1,4 +1,4 @@
-export const txt = {
+export default {
   "friendlyName": "TXT",
   "tooltipName": "TXT Document",
   "settings": {
@@ -9,6 +9,10 @@ export const txt = {
     "FontHeight": {
       "label": "RozmiarCzcionki",
       "category": "Różne"
+    },
+    "AddTimestamp": {
+      "label": "Add Timestamp to filename",
+      "category": "Filename"
     }
   }
 }

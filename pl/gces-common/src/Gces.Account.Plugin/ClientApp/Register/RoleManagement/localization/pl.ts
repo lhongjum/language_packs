@@ -23,6 +23,7 @@ export const rolePL: LanguageKeyValueMap = {
 	ecMembers: '({{count}} members)',
 	ecDeleteUser: 'Delete User',
 	ecDeleteUserConfirmMessage: 'Are you sure you want to remove the user "{{UserName}}" from the role?',
+	ecNoMemberTip: 'No users under the role, to add, please click',
 
 	rmError_2001: 'Role "{{name}}" already exists.',
 	rmError_2004: 'Can not update the members of role "everyone".',

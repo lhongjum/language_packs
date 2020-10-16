@@ -95,7 +95,7 @@ export const portalPL: LanguageKeyValueMap = {
 	pcDurationOfNotifications: 'Duration of Notifications(s)',
 
 	// SMTP
-	emailSettingsTitle: 'Email Settings',
+	emailSettingsTitle: 'Wiadomości email',
 	smtpDialogTitle: 'Test ustawień wiadomości email', // Email Settings Test
 	smtpSendTestMail: 'Wyślij', // Send
 	smtpSendTestMailTitle: 'Wyślij wiadomość testową', // Send Test Email
@@ -107,21 +107,21 @@ export const portalPL: LanguageKeyValueMap = {
 	smtpSendTestMailSuccess: 'Poprawnie wysłano wiadomość testową', // Send test email successfully
 	smtpTestMailSubject: 'Wiadomość testowa Wyn Server', // Wyn Server test e-mail
 	smtpTestMailBody: 'Ta wiadomość testowa została wysłana przez Wyn Server', // This test message was sent by the Wyn Server system
-	emailDomainValidationTitle: 'Email Domain Validation',
+	emailDomainValidationTitle: 'Sprawdzanie poprawności domeny',
 	enableDomainValidation: 'Enable Domain Validation',
 	validEmailDomains: 'Valid Email Domains',
 	enable: 'Enable',
 	disable: 'Disable',
-	mailProtocol: 'Mail Protocol',
+	mailProtocol: 'Protokół pocztowy',
 	googleClientID: 'Client ID',
-	googleClientSecret: 'Client Secret',
-	senderName: 'Sender Name',
-	senderEmail: 'Sender E-Mail',
-	serverAddress: 'SMTP Server Address',
-	serverPort: 'SMTP Server Port',
-	enableSsl: 'Enable SSL',
-	login: 'Login',
-	password: 'Password',
+	googleClientSecret: 'Sekret Klienta',
+	senderName: 'Nazwa nadawcy',
+	senderEmail: 'Email nadawcy',
+	serverAddress: 'Adres serwera SMTP',
+	serverPort: 'Port serwera SMTP',
+	enableSsl: 'Włącz SSL',
+	login: 'Logowania',
+	password: 'Hasło',
 	useParentSettings: 'Use Parent Organization Settings',
 
 	// Tags
@@ -167,7 +167,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'smtp!serverAddress': 'Adres serwera SMTP', // SMTP Server Address
 	'smtp!serverPort': 'Port serwera SMTP', // SMTP Server Port
 	'smtp!enableSsl': 'Włącz SSL', // Enable SSL
-	'smtp!login': 'Login',
+	'smtp!login': 'Logowania',
 	'smtp!password': 'Hasło', // Password
 	'smtp!senderName': 'Nazwa nadawcy', // Sender name
 	'smtp!senderEmail': 'Email nadawcy', // Sender e-mail
@@ -321,6 +321,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'previewPagesSettings_limitPreviewPages': 'Limit stron podglądu', // Limit preview pages
 	'previewPagesSettings_previewPages': 'Strony podglądu', // Preview pages
 	'previewPagesSettings_hint': 'Ustawienie liczby stron podglądu ogranicza liczbę stron, która zostanie wygenerowana w podglądzie raportu. Pełny raport może zostać wygenerowany poprzez „Uruchom pełny raport.',
+	'reporting!disableFocusTimer': 'Wyłącz zegar zaznaczenia',
 
 	'scheduleSettings!title': 'Ustawienia planowania', // Schedule Settings
 	'scheduleSettings!description': 'Zarządzanie ustawieniami planowania', // Schedule Settings management
@@ -353,7 +354,8 @@ export const portalPL: LanguageKeyValueMap = {
 	storageIntervalSettingsUnitForever: 'Beztermionowo', // Forever
 	storageIntervalSettingsLabel: 'Maks. interwał przechowywania', // Max. storage interval
 
-	'UpdateNotificationTips': 'There is a new version {{newestVersion}} to update, and click to view more info...',
+	'UpdateNotificationTips': 'There is a new version "Version {{newestVersion}}" to update.',
+	'UpdateNotificationTipsViewMore': 'Click here to view more info...',
 	'UpdateNotificationSkip': 'Skip this version',
 	'UpdateNotificationSkipTips': 'Skip until another version published',
 	'UpdateNotificationSkipVersionError': 'Failed to skip the version',

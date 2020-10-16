@@ -6,9 +6,9 @@ export const commonPL: LanguageKeyValueMap = {
 	ecSelectMembers: 'Select Members',
 	ecMembers: '({{count}} members)',
 
-	rn_orgadmin: 'Organization Admin',
+	rn_orgadmin: 'Organization Administrator',
 	rn_administrator: 'Administrator',
-	rn_everyone: 'Everyone',
+	rn_Everyone: 'Everyone',
 	globalOrgName: 'Global',
 
 	'create-dataset': 'Utwórz zestaw danych', // Create Dataset

@@ -1,5 +1,4 @@
-
-export const datasetPL = {
+export const incrementalUpdateCotPL = {
 	OK: 'OK', // OK
 	Cancel: 'Anuluj', // Cancel
 	Close: 'Zamknij', // Close
@@ -11,6 +10,7 @@ export const datasetPL = {
 	IncrementalUpdateComplete: 'Incremental Update Complete',
 	NoNeedIncrementalUpdate: 'No need to incremental update this dataset.',
 	IncrementalUpdateDatasetFailed: 'Incremental Update dataset failed',
+	IncrementalUpdateDatasetConfirmMsg: 'Do you want to incremental update the current dataset cache?',
 	DocumentInOperation: 'Ten dokument jest aktualizowany przez inną operację. Spróbuj później', // This document is being updated by another operation. Please try later.
 
 	// update error
@@ -27,6 +27,7 @@ export const datasetPL = {
 	err_100022: 'Nie masz uprawnień do aktualizacji zestawu danych.', // You don\'t have permission to update the data set.
 	err_100023: 'Brak dostępnego pracownika COT.',  // No available COT worker
 	err_100018_desc: 'Error trying to resolve datasource "{{ids}}"',
+	err_400001: 'Please check parameter "{{propertyName}}" with orgnization context. The organization of the current user does not have this context.',
 
 	// dataset manager error message
 	'err_3000': 'The calculation failed due to exceptions or the calculation was canceled by administrator.'

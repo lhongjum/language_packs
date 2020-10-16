@@ -1,6 +1,6 @@
 import { PaperSize } from './common/PaperSize';
 
-export const excel = {
+export default {
   "friendlyName": "Excel",
   "tooltipName": "Arkusz Excel",
   "settings": {
@@ -61,6 +61,10 @@ export const excel = {
       "label": "RozmiarPapieru",
       "category": "UstawieniaStrony",
       "enum": PaperSize
+    },
+    "AddTimestamp": {
+      "label": "Add Timestamp to filename",
+      "category": "Filename"
     }
   }
 }

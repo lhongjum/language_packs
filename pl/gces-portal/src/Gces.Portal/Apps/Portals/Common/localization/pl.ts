@@ -110,7 +110,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'psReadWrite!name': 'Odczyt / Zapis', // Read / Write
 	psCancel: 'Anuluj', // Cancel
 	psSave: 'Zapisz', // Save
-	psNoRolesTip: 'no matched roes found', // no matched roes found
+	psNoRolesTip: 'no matched roles found', // no matched roles found
 	psPermissionInfo: 'Permission Information',
 	psApplyMinNeededPermission: 'Apply Minimum Needed Permission',
 	psApplyMinNeededPermissionTip: 'You will grant the \"Execute\" permission to the referenced documents.',
@@ -157,6 +157,8 @@ export const portalPL: LanguageKeyValueMap = {
 	'dsc!description': 'Data Source',
 	'dataset!name': 'Dataset',
 	'dataset!description': 'Dataset',
+	'smdsc!name': 'Modele semantyczne', // Semantic Models
+	'smdsc!description': 'Modele semantyczne', // Semantic Models
 
 	'image!name': 'Obrazy', // Images
 	'image/bmp!name': 'Obraz BMP', // BMP Image

@@ -67,6 +67,13 @@ export const gcExceptionLocalePL = {
     E_50004: 'Nie można znaleźć własciwego SourceLoader.', // Can\'t find proper SourceLoader.
     E_70000: 'Nie udało się zdobyć tokena dostępu.', // Failed to acquire access token
     E_70001: 'Błąd sieci.', // Network error.
+    E_70002: '401 Unauthorized Error. The request has not been applied because it lacks valid authentication credentials for the target resource.',
+    E_70003: '404 Not Found Error. The server can\'t find the requested resource.',
+    E_70004: 'No data returned from the remote server. Please make sure that the remote server has data returned.',
+    E_70005: '400 Bad Request Error. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).',
+    E_70006: '403 Forbidden Error. The server understood the request but refuses to authorize it.',
+    E_70007: '405 Method Not Allowed. The request method is known by the server but is not supported by the target resource.',
+    E_70008: '500 Internal Server Error. The server encountered an unexpected condition that prevented it from fulfilling the request.',
     E_40001: 'SqlOptimizer nie udało się wykonać pierwontej kwerendy SQL do źródła danych.', // SqlOptimizer failed on executing primitive sql on data source.
     E_40002: 'Nie można odnaleźć określonej tabeli.', // Cannot find the specified table in context.
     E_40003: 'Nie można odnaleźć określonej kolumny \'{ColumnName}\'.', // Cannot find the specified column \'{ColumnName}\' in context.
@@ -168,4 +175,12 @@ export const gcExceptionLocalePL = {
     E_80079: 'Table-valued function is undefined.',
     E_80080: 'Start month of fiscal year is invalid.',
     E_60053: 'PreQuery must use @source parameter.',
+};
+
+export const documentSectionRegisterLocalePL = {
+    dlDatasetType: 'Typ zestawu danych', // Dataset Type
+    dlDashboardDataset: 'Na potrzeby dashboardu', // For Dashboard
+    dlReportDataset: 'Na potrzeby raportu', // For Report
+    dlDataProvider: 'Dostawca danych', // Data Provider
+    dlDataSource: 'Źrodło danych', // Data Source
 };

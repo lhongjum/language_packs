@@ -15,6 +15,7 @@ export const portalPL: LanguageKeyValueMap = {
 	naDocumentPortal: 'Portal dokumentów', // Document Portal
 	naResourcePortal: 'Portal zasobów', // Resource Portal
 	naAdminPortal: 'Portal administratora', // Admin Portal
+	naFetchDocumentsFailed: 'Nie udało się pozyskać dokumentów', // Fetch documents failed.
 
 	// Upload
 	naUploading: 'Ładowanie...', // Uploading...

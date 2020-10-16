@@ -54,6 +54,9 @@ export const pl =  {
 	E_60201: 'Arkusz Excel nie powinien być pusty', // Excel sheet should not be empty.
 	E_70000: 'Nie udało się zdobyć tokena dostępu.', // Failed to acquire access token
 	E_70001: 'Błąd sieci.', // Network error.
+	E_70002: '401 Unauthorized Error. Please use the correct authmode.',
+	E_70003: '404 Not Found Error. Please use the correct request source.',
+	E_70004: 'No data returned from the remote server. Please make sure that the remote server has data returned.',
 	E_80001: 'Nie można znaleźć określonej kolumny \'{TargetColumnName}\'.', // Cannot find the specified column \'{TargetColumnName}\'.
 	E_80002: 'Znaleziono zduplikowane nazwy kolumn.', // Duplicated column names found.
 	E_80024: 'Nie można znaleźć określonego parametru.', // Cannot find the specified parameter

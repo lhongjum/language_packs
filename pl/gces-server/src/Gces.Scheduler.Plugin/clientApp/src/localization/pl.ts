@@ -211,6 +211,9 @@ export const schedulingPL: LanguageKeyValueMap = {
 	taskErr_30019: 'Your cannot create or update manual and one time task due to settings by administrator.',
 	taskErr_30020: 'Delivery cannot be file share due to settings by administrator.',
 	taskErr_30021: 'Portal URI is required when creating tasks for report. Please contact the Administrator',
+	taskErr_30022: 'Portal URI is required when creating tasks for data source. Please contact the Administrator.',
+	taskErr_30023: 'Portal URI is required when creating tasks for dataset. Please contact the Administrator.',
+	taskErr_30024: 'Duplicate schedule task.',
 
 	// SAGA: enable/disable task
 	sagaTextErrorUpdatingTaskList: 'Błąd podczas aktualizowania listy zadań', // Error updating task list

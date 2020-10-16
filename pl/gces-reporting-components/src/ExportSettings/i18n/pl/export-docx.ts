@@ -1,6 +1,6 @@
 import { PaperSize } from './common/PaperSize';
 
-export const docx = {
+export default {
   "friendlyName": "Word",
   "tooltipName": "Dokument Word(.docx)",
   "settings": {
@@ -62,6 +62,10 @@ export const docx = {
       "label": "RozmiarPapieru",
       "category": "UstawieniaStrony",
       "enum": PaperSize
+    },
+    "AddTimestamp": {
+      "label": "Add Timestamp to filename",
+      "category": "Filename"
     }
   }
 }

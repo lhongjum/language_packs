@@ -1,4 +1,6 @@
 export const tenantPL: LanguageKeyValueMap = {
+	Yes: 'Dodaj', // Yes
+	Close: 'Zamknij', // Close
 	tntTenantSchema: 'Schemat Organizacji', // Organization Schema
 	tntAddTenant: 'Dodaj Organizację', // Add Organization
 	tntEditTenant: 'Edytuj Organizację', // Edit Organization
@@ -65,4 +67,9 @@ export const tenantPL: LanguageKeyValueMap = {
 	error_5004: 'Atrybut organizacji o nazwie "{{TenantPropName}}" już istnieje', // Organization property with name "{{TenantPropName}}" already exists
 	error_5005: 'Nazwa atrybutu "{{TenantPropName}}" jest zarezerwowana', // The tenant property name "{{TenantPropName}}" is reserved.
 	error_5006: 'Wartość z adresu email już istnieje', // The from email "{{FromEmail}}" already exists.
+};
+
+export const portalPL: LanguageKeyValueMap = {
+	'account-management-organization!title': 'Organizacje', // Organizations
+	'account-management-organization!description': 'Zarządzanie Organizacjami', // Organization Management
 };

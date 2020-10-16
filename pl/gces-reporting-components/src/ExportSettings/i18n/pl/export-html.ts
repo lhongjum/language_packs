@@ -1,4 +1,4 @@
-export const html = {
+export default {
   "friendlyName": "HTML",
   "tooltipName": "Dokument HTML",
   "settings": {
@@ -41,6 +41,10 @@ export const html = {
     "EndPage": {
       "label": "StronaKońcowa",
       "category": "Różne"
+    },
+    "AddTimestamp": {
+      "label": "Add Timestamp to filename",
+      "category": "Filename"
     }
   }
 }

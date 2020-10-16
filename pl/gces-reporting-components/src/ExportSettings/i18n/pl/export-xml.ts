@@ -1,26 +1,30 @@
-export const xml = {
+export default {
   "friendlyName": "XML",
-  "tooltipName": "XML Document",
+  "tooltipName": "Dokument XML",
   "settings": {
     "Formatted": {
-      "label": "Formatted",
-      "category": "Misc"
+      "label": "Sformatowany",
+      "category": "Różne"
     },
     "WriteEmptyAttributes": {
-      "label": "WriteEmptyAttributes",
-      "category": "Misc"
+      "label": "ZapiszPusteAtrybuty",
+      "category": "Różne"
     },
     "OutputHiddenMatrixMembers": {
-      "label": "OutputHiddenMatrixMembers",
-      "category": "Misc"
+      "label": "ZwróćUkryteElementyMacierzy",
+      "category": "Różne"
     },
     "OutputTextboxConstantValues": {
-      "label": "OutputTextboxConstantValues",
-      "category": "Misc"
+      "label": "ZwróćStałeWartościPolaTekstowego",
+      "category": "Różne"
     },
     "DefaultDateFormat": {
-      "label": "DefaultDateFormat",
-      "category": "Misc"
+      "label": "DomyślnyFormatDaty",
+      "category": "Różne"
+    },
+    "AddTimestamp": {
+      "label": "Add Timestamp to filename",
+      "category": "Filename"
     }
   }
 }

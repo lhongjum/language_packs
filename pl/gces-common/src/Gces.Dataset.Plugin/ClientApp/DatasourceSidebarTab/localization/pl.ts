@@ -65,6 +65,8 @@
 	sagaTextErrorInvalidLocation_30015: 'Location does not exist',
 	sagaTextErrorInvalidLocation_30016: 'Each schedule should correspond to a separate directory',
 	sagaTextErrorInvalidLocation_30017: 'Read permission is denied',
+	sagaTextSuccessVerifyLocation: 'The location inputted is valid',
+	sagaTextSuccessMessageVerifyLocation: 'The location inputted is valid',
 
 	// Recurrence Editor
 	recEditorHeaderRepeat: 'Powtórz', // Repeat

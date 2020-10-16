@@ -65,7 +65,7 @@ export const accountPL = {
 	error_100003: 'Nie znaleziono tokena integracji {{id}}', // Integration token not found {{id}}
 	error_100004: 'Błąd unieważnienia tokena: {{message}}', // Revoke token error: {{message}}
 	error_100005: 'Please confirm that the "Portal URI" in "UI Settings" is already provided before you generate the Integration URL.', // Please confirm that the "Portal URI" in "UI Settings" is already provided before you generate the Integration URL.
-	error_100006: 'Request user claims failed.',
+	error_100006: 'Request authentication failed on Portal URI "{{url}}". Could not request user claims.',
 	gtExpireTimeInvalid: 'Czas wygaśnięcia jest nieprawidłowy', // The expiry time is invalid
 	gtExpireTimeLessThanNow: 'Czas wygaśnięcia nie może być wcześniejszy od lub równy aktualnemu czasowi', // The expiry time cannot be less than or equal current time
 	gtState: 'Stan', // State
@@ -318,7 +318,7 @@ export const portalPL = {
 	'shortcut-user!props!text': 'Użytkownicy', // Users
 	'shortcut-user!title': 'Skrót do użytkowników', // Users Shortcut
 	'shortcut-role!description': '',
-	'shortcut-role!props!text': 'Role', // Roles
+	'shortcut-role!props!text': 'ról', // Roles
 	'shortcut-role!title': 'Skrót do ról', // Roles Shortcut
 	'shortcut-locked!description': '',
 	'shortcut-locked!props!text': 'Zablokowani', // Locked

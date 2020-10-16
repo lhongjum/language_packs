@@ -1,4 +1,4 @@
-export const json = {
+export default {
   "friendlyName": "JSON",
   "tooltipName": "JSON",
   "settings": {
@@ -9,6 +9,10 @@ export const json = {
     "QuotePropertyNames": {
       "label": "CytujNazwyWłaściwości",
       "category": "Różne"
+    },
+    "AddTimestamp": {
+      "label": "Add Timestamp to filename",
+      "category": "Filename"
     }
   }
 }

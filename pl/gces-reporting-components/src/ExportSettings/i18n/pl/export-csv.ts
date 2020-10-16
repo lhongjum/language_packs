@@ -1,6 +1,6 @@
 import { Encoding } from "./common/Encoding";
 
-export const csv = {
+export default {
   "friendlyName": "CSV",
   "tooltipName": "Dokument CSV",
   "settings": {
@@ -32,6 +32,10 @@ export const csv = {
         "csv": ".csv",
         "txt": ".txt"
       }
+    },
+    "AddTimestamp": {
+      "label": "Add Timestamp to filename",
+      "category": "Filename"
     }
   }
 }
