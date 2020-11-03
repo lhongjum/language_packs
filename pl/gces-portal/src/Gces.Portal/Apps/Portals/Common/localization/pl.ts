@@ -9,6 +9,8 @@ export const portalPL: LanguageKeyValueMap = {
 	EmptyPage: 'Empty Page',
 	SearchCategory: 'Select category',
 	cmEmptyResult: 'empty result',
+	fakeComponent: 'Fake component',
+	fakeComponentDescription: 'Used to prevent the browser from automatically filling the username and password.',
 
 	// Nav App
 	naDocumentPortal: 'Portal dokumentów', // Document Portal
@@ -84,6 +86,8 @@ export const portalPL: LanguageKeyValueMap = {
 	ntfShowDetails: 'Pokaż szczegóły', // Show Details
 	ntfShowAll: 'Pokaż wszystko', // Show All
 	ntfCancelTask: 'Anuluj to zadanie', // Cancel this task
+	ntfPrevious: 'Previous',
+	ntfNext: 'Next',
 
 	// Document Error Message
 	documentNotDeleted: 'Dokument nie został usunięty', // Document was NOT deleted
@@ -149,6 +153,10 @@ export const portalPL: LanguageKeyValueMap = {
 	'rdlx-template!description': 'Szablon raportu', // Report template
 	'rdlx-master!name': 'Master Report',
 	'rdlx-master!description': 'Master Report',
+	'report!name': 'Raport',
+	'report!description': 'Raport',
+	'report-master!name': 'Master Report',
+	'report-master!description': 'Master Report',
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
 	'dbd!name': 'Dashboard',
@@ -268,6 +276,7 @@ export const portalPL: LanguageKeyValueMap = {
 	uploadErr_10008: 'Maksymalna liczba dokumentów z licencją w została osiągnięta.', // The number of licensed documents in the system has reached limit.
 	uploadErr_10009: 'Nie można rozwiązać powiązanego zasobu $t({{documentType}})  o nazwie "{{DocumentName}}".', // Cannot resolve referenced $t({{documentType}}) resource with name {{DocumentName}}.
 	documentType_rdl: 'Raport',
+	documentType_report: 'Raport',
 	documentType_dbd: 'Dashboard',
 	documentType_dsc: 'Źródło danych', // data source
 	documentType_dataset: 'Zestaw danych', // dataset
@@ -308,6 +317,8 @@ export const portalPL: LanguageKeyValueMap = {
 	// force delete document
 	forceDeleteTitle: 'Force Delete',
 	forceDeleteContent: 'The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.\nAre you sure to force delete?',
+	forceDeleteContentPrefix: 'The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.',
+	forceDeleteContentSuffix: 'Are you sure to force delete?',
 	forceDeleteTip: 'Force Delete',
 
 	// page title

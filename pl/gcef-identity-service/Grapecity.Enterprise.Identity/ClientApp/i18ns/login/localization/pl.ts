@@ -54,4 +54,6 @@
 	// login to tenant
 	Ok: 'OK',
 	SelectOrganization: 'Please select organization',
+	TenantDoesNotExist: 'The specified organization does not exist, please log in again.',
+	UserDoesNotBelongToTenant: 'User does not belong the specified organization, please log in again.',
 }

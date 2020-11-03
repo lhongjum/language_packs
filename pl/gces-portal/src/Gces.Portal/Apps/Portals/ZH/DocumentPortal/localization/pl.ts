@@ -27,6 +27,8 @@
 	ntfShowDetails: 'Pokaż szczegóły', // Show Details
 	ntfShowAll: 'Pokaż wszystko', // Show All
 	ntfCancelTask: 'Anuluj to zadanie', // Cancel this task
+	ntfPrevious: 'Previous',
+	ntfNext: 'Next',
 
 	// Documents View
 	docViewHeaderCategories: 'Kategorie', // Categories
@@ -220,6 +222,10 @@
 	'rdlx-template!description': 'Szablon raportu', // Report template
 	'rdlx-master!name': 'Master Report',
 	'rdlx-master!description': 'Master Report',
+	'report!name': 'Raport', // Report
+	'report!description': 'Raport', // Report
+	'report-master!name': 'Master Report',
+	'report-master!description': 'Master Report',
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
 	'dbd!name': 'Dashboard',

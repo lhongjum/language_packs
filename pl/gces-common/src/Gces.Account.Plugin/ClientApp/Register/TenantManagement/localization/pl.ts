@@ -61,6 +61,9 @@ export const tenantPL: LanguageKeyValueMap = {
 	tntErrorInvalidCharInName: 'Organization name could not contain characters: < > / \\ $',
 	tntErrorFromPropNull: 'Property value is required.',
 
+	tntErrorOrganizationPropNameNull: 'Organization property name is required.',
+	tntErrorOrganizationPropNameDuplicated: 'Organization property name is duplicated.',
+
 	error_5001: 'Nazwa organizacji nie może być pusta.', // Organization name can not be empty.
 	error_5002: 'Organizacja o nazwie "{{TenantName}}" już istnieje.', // Organization with name "{{TenantName}}" already exists.
 	error_5003: 'Atrybut organizacji nie może być pusty', // Organization property name can not be empty.

@@ -359,7 +359,8 @@ export const portalPL: LanguageKeyValueMap = {
 	'UpdateNotificationSkip': 'Skip this version',
 	'UpdateNotificationSkipTips': 'Skip until another version published',
 	'UpdateNotificationSkipVersionError': 'Failed to skip the version',
-	'UpdateNotificationSkipVersionSuccessDetail': 'Failed to skip the version "Version {{version}}"',
+	'UpdateNotificationSkipVersionSuccess': ' Skipped version successfully',
+	'UpdateNotificationSkipVersionSuccessDetail': 'Success to skip the version "Version {{version}}"',
 
 	err_20015: 'Nazwa kategorii "{{tagName}}" nie można zaczynać się od \"$\".', // Category name "{{tagName}}" cannot start with \"$\".
 	err_20016: 'Nie można odnaleźć kategorii o ID "{{tagId}}".', // Category with the id "{{tagId}}" not found.

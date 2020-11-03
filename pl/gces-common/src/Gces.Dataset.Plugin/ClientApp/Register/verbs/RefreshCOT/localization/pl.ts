@@ -27,7 +27,27 @@ export const refreshCotPL = {
 	err_100022: 'Nie masz uprawnień do aktualizacji zestawu danych.', // You don\'t have permission to update the data set.
 	err_100023: 'Brak dostępnego pracownika COT.',  // No available COT worker
 	err_100018_desc: 'Error trying to resolve datasource "{{ids}}"',
-	err_400001: 'Please check parameter "{{propertyName}}" with orgnization context. The organization of the current user does not have this context.',
+	err_400001: 'Refresh failed. Please check parameter "{{propertyName}}" with orgnization context. The organization of the current user does not have this context.',
+
+	err_410511: 'Refresh failed: Failed to execute create/update/delete/copy sql (redirected to server) on remote analysis database.',
+	err_410512: 'Refresh failed: Failed to calculate dataset due to runtime error.',
+	err_410003: 'Refresh failed: Logical data type is not supported.',
+	err_410005: 'Refresh failed: Invalid dataset calculation result.',
+	err_410006: 'Refresh failed: Access denied to temp data file directory.',
+	err_410014: 'Refresh failed: Failed to convert value to target data type.',
+	err_410102: 'Refresh failed: Unknown runtime errors occurred.',
+	err_410105: 'Refresh failed: Failed to execute command on analysis database.',
+	err_410125: 'Refresh failed: Internal error. The code line should not be reached.',
+	err_410137: 'Refresh failed: Invalid analysis database info.',
+	err_410138: 'Refresh failed: Failed to create entry for cached data.',
+	err_410139: 'Refresh failed: Failed to append data to cached data.',
+	err_410140: 'Refresh failed: Failed to write binary data to analysis database.',
+	err_410141: 'Refresh failed: Failed to delete inserted rows.',
+
+	err_DataSourceAccessDenied: 'Nie masz uprawnień do dostępu do źródła danych. \nNazwa źródła danych: {{datasourceName}}.', // You do not have permission to access datasource. \nDatasource Name: {{datasourceName}}.
+	err_DataSourceNotFound: 'Specified datasource document "{{datasourceId}}" is not found.',
+	err_DataSourceIntegrityCheck: 'Błąd sprawdzania integralności źródła danych o ID {{documentId}}', // Data source with id {{documentId}} integrity check error.
+	err_UserNotInOrgnization: 'Tego użytkownika nie ma w żadnej organizacji. Sprawdź parametr "{{propertyName}}" z kontekstem organizacji.', // Current user is not in any organization. Please check parameter "{{propertyName}}" with organization context.
 
 	// dataset manager error message
 	'err_3000': 'The calculation failed due to exceptions or the calculation was canceled by administrator.'

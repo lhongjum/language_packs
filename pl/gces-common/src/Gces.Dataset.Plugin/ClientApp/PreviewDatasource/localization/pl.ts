@@ -54,9 +54,13 @@ export const pl =  {
 	E_60201: 'Arkusz Excel nie powinien być pusty', // Excel sheet should not be empty.
 	E_70000: 'Nie udało się zdobyć tokena dostępu.', // Failed to acquire access token
 	E_70001: 'Błąd sieci.', // Network error.
-	E_70002: '401 Unauthorized Error. Please use the correct authmode.',
-	E_70003: '404 Not Found Error. Please use the correct request source.',
+	E_70002: '401 Unauthorized Error. The request has not been applied because it lacks valid authentication credentials for the target resource.',
+	E_70003: '404 Not Found Error. The server can\'t find the requested resource.',
 	E_70004: 'No data returned from the remote server. Please make sure that the remote server has data returned.',
+	E_70005: '400 Bad Request Error. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).',
+	E_70006: '403 Forbidden Error. The server understood the request but refuses to authorize it.',
+	E_70007: '405 Method Not Allowed. The request method is known by the server but is not supported by the target resource.',
+	E_70008: '500 Internal Server Error. The server encountered an unexpected condition that prevented it from fulfilling the request.',
 	E_80001: 'Nie można znaleźć określonej kolumny \'{TargetColumnName}\'.', // Cannot find the specified column \'{TargetColumnName}\'.
 	E_80002: 'Znaleziono zduplikowane nazwy kolumn.', // Duplicated column names found.
 	E_80024: 'Nie można znaleźć określonego parametru.', // Cannot find the specified parameter

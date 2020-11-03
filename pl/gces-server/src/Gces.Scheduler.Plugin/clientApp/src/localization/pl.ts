@@ -167,8 +167,8 @@ export const schedulingPL: LanguageKeyValueMap = {
 	// Security Error Message
 	securityErr_10001: '[Błąd zabezpieczeń] Discovery Client otrzymał błąd dokumentu.', // [Security Error] Discovery Client Retrieves discovery document error. ### Discovery Document i Client tak zostawiamy?
 	securityErr_10002: '[Błąd zabezpieczeń] Otrzymano błąd dokumentu.', // [Security Error] Get discovery document error. ### jw.
-	securityErr_10003: '[Błąd zabezpieczeń] Błąd przy odświeżaniu tokena. \r\nException:{{errorMessage}}. \r\nStackTracke:{{stackTrace}}.', // [Security Error] Request refresh token error. \r\nException:{{errorMessage}}. \r\nStackTracke:{{stackTrace}}.
-	securityErr_10004: '[Błąd zabezpieczeń] {{errorMessage}}.', // [Security Error] {{errorMessage}}.
+	securityErr_10003: '[Błąd zabezpieczeń] Błąd przy odświeżaniu tokena.', // [Security Error] Request refresh token error..
+	securityErr_10004: '[Błąd zabezpieczeń] Get access token error: \n1, The organization in which the task is created does not exist.\n2, The user who creates the task is not in the specified organization.\n3, The user who creates the task does not exist.',
 
 	// Execution Error Message
 	executionErr_10001: '[Błąd wykonania] Nieznany status zadania', // [Execution Error] Unknown cot task status.
@@ -213,7 +213,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	taskErr_30021: 'Portal URI is required when creating tasks for report. Please contact the Administrator',
 	taskErr_30022: 'Portal URI is required when creating tasks for data source. Please contact the Administrator.',
 	taskErr_30023: 'Portal URI is required when creating tasks for dataset. Please contact the Administrator.',
-	taskErr_30024: 'Duplicate schedule task.',
+	taskErr_30024: 'Failed to create task, the current dataset has already created the task in other organization.',
 
 	// SAGA: enable/disable task
 	sagaTextErrorUpdatingTaskList: 'Błąd podczas aktualizowania listy zadań', // Error updating task list

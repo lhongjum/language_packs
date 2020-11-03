@@ -27,14 +27,26 @@
   // executionException DatasetRefresh
   "executionErr_12001": "[Błąd wykonania] Wyjątek RefreshCot: {{errorMessage}}.",
 
+  "executionErr_17002": "[Execution Error] Access denied to the dataset.",
+  "executionErr_17005": "[Execution Error] No available COT worker threads.",
+  "executionErr_17006": "[Execution Error] Dataset task manager reported an error.  \r\n{{errorMessage}}",
+  "executionErr_17111": "[Execution Error] CotWorker reported an error.  \r\n{{errorMessage}}",
+  "executionErr_17200": "[Execution Error] Unexpected runtime error.  \r\n{{errorMessage}}",
+
+  "executionErr_18002": "[Execution Error] [Organization:{{organization}}] Access denied to the dataset.",
+  "executionErr_18005": "[Execution Error] [Organization:{{organization}}] No available COT worker threads.",
+  "executionErr_18006": "[Execution Error] [Organization:{{organization}}] Dataset task manager reported an error.  \r\n{{errorMessage}}",
+  "executionErr_18111": "[Execution Error] [Organization:{{organization}}] CotWorker reported an error.  \r\n{{errorMessage}}",
+  "executionErr_18200": "[Execution Error] [Organization:{{organization}}] Unexpected runtime error.  \r\n{{errorMessage}}",
+
   // executionException DashboardExport
   "executionErr_13001": "[Błąd wykonania] {{errorMessage}}.",
 
   // refreshTokenException
   "securityErr_10001": "[Błąd zabezpieczeń] Discovery Client otrzymał błąd dokumentu.",
   "securityErr_10002": "[Błąd zabezpieczeń] Otrzymano błąd dokumentu.",
-  "securityErr_10003": "[Błąd zabezpieczeń] Błąd przy odświeżaniu tokena. \r\nException:{{errorMessage}}. \r\nStackTracke:{{stackTrace}}.",
-  "securityErr_10004": "[Błąd zabezpieczeń] {{errorMessage}}.",
+  "securityErr_10003": "[Błąd zabezpieczeń] Błąd przy odświeżaniu tokena..",
+  "securityErr_10004": "[Błąd zabezpieczeń] Get access token error: \n1, The organization in which the task is created does not exist.\n2, The user who creates the task is not in the specified organization.\n3, The user who creates the task does not exist.",
 
   // deploymentException
   "deploymentErr_10001": "[Błąd wdrożenia] Błąd domeny: adres odbiorcy spoza organizacji.",
