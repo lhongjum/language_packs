@@ -22,4 +22,7 @@ export const datasetES: LanguageKeyValueMap = {
 	'onlyShowFailed': 'Only show failed dataset cache',
 	'noCotTip': 'No matching dataset cache',
 	'emptyCot': 'There is no dataset cache in the current system',
+	'copy': 'Copy Error Message',
+	gtClipboardError: 'Cannot write data to clipboard',
+	gtClipboardSuccess: 'Successfully copied to clipboard',
 };

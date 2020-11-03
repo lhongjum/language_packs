@@ -167,8 +167,8 @@ export const schedulingES: LanguageKeyValueMap = {
 	// Security Error Message
 	securityErr_10001: '[Security Error] Discovery Client Retrieves discovery document error.',
 	securityErr_10002: '[Security Error] Get discovery document error.',
-	securityErr_10003: '[Security Error] Request refresh token error. \r\nException:{{errorMessage}}. \r\nStackTracke:{{stackTrace}}.',
-	securityErr_10004: '[Security Error] {{errorMessage}}.',
+	securityErr_10003: '[Security Error] Request refresh token error',
+	securityErr_10004: '[Security Error] Get access token error: \n1, The organization in which the task is created does not exist.\n2, The user who creates the task is not in the specified organization.\n3, The user who creates the task does not exist.',
 
 	// Execution Error Message
 	executionErr_10001: '[Execution Error] Unknown cot task status.',
@@ -213,7 +213,7 @@ export const schedulingES: LanguageKeyValueMap = {
 	taskErr_30021: 'Portal URI is required when creating tasks for report. Please contact the Administrator',
 	taskErr_30022: 'Portal URI is required when creating tasks for data source. Please contact the Administrator.',
 	taskErr_30023: 'Portal URI is required when creating tasks for dataset. Please contact the Administrator.',
-	taskErr_30024: 'Duplicate schedule task.',
+	taskErr_30024: 'Failed to create task, the current dataset has already created the task in other organization.',
 
 	// SAGA: enable/disable task
 	sagaTextErrorUpdatingTaskList: 'Error updating task list',

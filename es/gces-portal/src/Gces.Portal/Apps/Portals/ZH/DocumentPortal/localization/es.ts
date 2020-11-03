@@ -27,6 +27,8 @@
 	ntfShowDetails: 'Show Details',
 	ntfShowAll: 'Show All',
 	ntfCancelTask: 'Cancel this task',
+	ntfPrevious: 'Previous',
+	ntfNext: 'Next',
 
 	// Documents View
 	docViewHeaderCategories: 'Categories',
@@ -218,6 +220,10 @@
 	'rdl!description': 'Report',
 	'rdlx-template!name': 'Report template',
 	'rdlx-template!description': 'Report template',
+	'report!name': 'Report',
+	'report!description': 'Report',
+	'report-master!name': 'Master Report',
+	'report-master!description': 'Master Report',
 	'theme!name': 'Theme',
 	'theme!description': 'Theme',
 	'dbd!name': 'Dashboard',

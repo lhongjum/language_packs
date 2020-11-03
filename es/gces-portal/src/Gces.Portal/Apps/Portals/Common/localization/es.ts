@@ -9,6 +9,8 @@ export const portalES: LanguageKeyValueMap = {
 	EmptyPage: 'Empty Page',
 	SearchCategory: 'Select category',
 	cmEmptyResult: 'empty result',
+	fakeComponent: 'Fake component',
+	fakeComponentDescription: 'Used to prevent the browser from automatically filling the username and password.',
 
 	// Nav App
 	naDocumentPortal: 'Document Portal',
@@ -84,6 +86,8 @@ export const portalES: LanguageKeyValueMap = {
 	ntfShowDetails: 'Show Details',
 	ntfShowAll: 'Show All',
 	ntfCancelTask: 'Cancel this task',
+	ntfPrevious: 'Previous',
+	ntfNext: 'Next',
 
 	// Document Error Message
 	documentNotDeleted: 'Document was NOT deleted',
@@ -147,6 +151,10 @@ export const portalES: LanguageKeyValueMap = {
 	'rdlx!description': 'Report',
 	'rdlx-template!name': 'Report template',
 	'rdlx-template!description': 'Report template',
+	'report!name': 'Report',
+	'report!description': 'Report',
+	'report-master!name': 'Master Report',
+	'report-master!description': 'Master Report',
 	'theme!name': 'Theme',
 	'theme!description': 'Theme',
 	'dbd!name': 'Dashboard',
@@ -266,6 +274,7 @@ export const portalES: LanguageKeyValueMap = {
 	uploadErr_10008: 'The number of licensed documents in the system has reached limit.',
 	uploadErr_10009: 'Cannot resolve referenced $t({{documentType}}) resource with name "{{DocumentName}}".',
 	documentType_rdl: 'report',
+	documentType_report: 'report',
 	documentType_dbd: 'dashboard',
 	documentType_dsc: 'data source',
 	documentType_dataset: 'dataset',
@@ -306,6 +315,8 @@ export const portalES: LanguageKeyValueMap = {
 	// force delete document
 	forceDeleteTitle: 'Force Delete',
 	forceDeleteContent: 'The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.\nAre you sure to force delete?',
+	forceDeleteContentPrefix: 'The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.',
+	forceDeleteContentSuffix: 'Are you sure to force delete?',
 	forceDeleteTip: 'Force Delete',
 
 	// page title

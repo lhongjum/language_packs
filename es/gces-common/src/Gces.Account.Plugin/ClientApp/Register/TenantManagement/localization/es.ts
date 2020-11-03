@@ -61,6 +61,9 @@ export const tenantES: LanguageKeyValueMap = {
 	tntErrorInvalidCharInName: 'Organization name could not contain characters: < > / \\ $',
 	tntErrorFromPropNull: 'Property value is required.',
 
+	tntErrorOrganizationPropNameNull: 'Organization property name is required.',
+	tntErrorOrganizationPropNameDuplicated: 'Organization property name is duplicated.',
+
 	error_5001: 'Organization name can not be empty.',
 	error_5002: 'Organization with name "{{TenantName}}" already exists.',
 	error_5003: 'Organization property name can not be empty.',

@@ -185,3 +185,7 @@ export const documentSectionRegisterLocaleES = {
     dlDataProvider: 'Data Provider',
     dlDataSource: 'Data Source',
 };
+
+export const previewParameterRegisterLocaleES = {
+	Preview: 'Preview',
+};
