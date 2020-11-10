@@ -825,7 +825,7 @@ dataPanel:
   noDataSources: Raport nie ma źródeł danych
   noParameters: Raport nie ma parametrów
   parametersLabel: Parametry
-  selectFields: Select Fields...
+  selectFields: Wybierz Pola...
   semantic:
     multipleAttributes: "{count} atrybutów"
     multipleRelations: "{count} relacji"
@@ -945,12 +945,12 @@ expressionEditor:
         aggregate:
           aggregateIf:
             description: Oblicza agregację wartości określonego wyrażenia, jeżeli wyrażenie Boolean spełnia podane kryteria.
-            example: '=AggregateIf(Fields!Discontinued.Value = True, Sum, Fields!InStock.Value)'
+            example: '=AggregateIf(Fields!Discontinued.Value = True, "Sum", Fields!InStock.Value)'
             label: AggregateIf
             syntax: "AggregateIf(<Condition>, <AggregateFunction>, <AggregateArguments>)"
           aggregateIfWithScope:
             description: Oblicza agregację wartości określonego wyrażenia, jeżeli wyrażenie Boolean spełnia podane kryteria w określonym zakresie.
-            example: '=AggregateIf(Fields!Discontinued.Value = True, Sum, Fields!InStock.Value, "Category")'
+            example: '=AggregateIf(Fields!Discontinued.Value = True, "Sum", Fields!InStock.Value, "Category")'
             label: AggregateIf (with scope)
             syntax: "AggregateIf(<Condition>, <AggregateFunction>, <AggregateArguments>, <Scope>)"
           avg:
@@ -995,7 +995,7 @@ expressionEditor:
             syntax: "Count(<Values>, <Scope>)"
           cumulativeTotal:
             description: Calculates the sum of page-level aggregates returned by the expression for current and previous pages.
-            example: '=CumulativeTotal(Fields!OrderID.Value, Count)'
+            example: '=CumulativeTotal(Fields!OrderID.Value, "Count")'
             label: CumulativeTotal
             syntax: "CumulativeTotal(<Expression>, <Aggregate>)"
           distinctSum:
@@ -1070,12 +1070,12 @@ expressionEditor:
             syntax: "Mode(<Values>, <Scope>)"
           runningValue:
             description: Oblicza dynamiczną agregację spośród wszystkich niepustych wartości z okreslonego wyrażenia, przy wykorzystaniu funkcji agregującej jako parametr.
-            example: '=RunningValue(Fields!Price.Value, Sum)'
+            example: '=RunningValue(Fields!Price.Value, "Sum")'
             label: RunningValue
             syntax: "RunningValue(<Values>, <AggregateFunction>)"
           runningValueWithScope:
             description: Oblicza dynamiczną agregację spośród wszystkich niepustych wartości z okreslonego wyrażenia, w określonym zakresie, przy wykorzystaniu funkcji agregującej jako parametr.
-            example: '=RunningValue(Fields!Price.Value, Sum, "Nwind")'
+            example: '=RunningValue(Fields!Price.Value, "Sum", "Nwind")'
             label: RunningValue (with scope)
             syntax: "RunningValue(<Values>, <AggregateFunction>, <Scope>)"
           stDev:
@@ -1217,7 +1217,7 @@ expressionEditor:
             syntax: "UserContext.getValue(<String>)"
           numberToWords:
             description: 'Konwertuje wartość liczbową na tekst. Opcjonalny drugi argument określa język (wspierane wartości: "zh-cn", "en-us", "ja-jp"). Domyślnie wybierany jest aktualny język portalu.'
-            example: '=UserContext.NumberToWords(123.5), =UserContext.NumberToWords(981, "zh-CN")'
+            example: '=UserContext.NumberToWords(123.5); =UserContext.NumberToWords(981, "zh-CN")'
             label: NumberToWords
             syntax: "UserContext.NumberToWords(<Number>, <String>)"
         dateTime:
@@ -1308,7 +1308,7 @@ expressionEditor:
             syntax: "Month(<DateTime>)"
           monthName:
             description: Zwraca nazwę miesiąca z określonej daty jako Napis.
-            example: '=MonthName(Fields!SaleDate.Value)'
+            example: '=MonthName(Fields!MonthNumber.Value)'
             label: MonthName
             syntax: 'MonthName(<Month Number>[, <Abbreviate>])'
           now:
@@ -1577,6 +1577,7 @@ expressionEditor:
           item:
             description: "Zwraca element po nazwie z Pola/Parametery/ElementyRaportu."
             example: '=Fields.Item("Company Name").Name, =Parameters.Item("Parameter1").Name, =ReportItems.Item("TextBox1").Value'
+            example_i11n: '{Fields.Item("Company Name").Name}; {Parameters.Item("Parameter1").Name}; {ReportItems.Item("TextBox1").Value}'
             label: Item
             syntax: '<Object | Record>.Item(<String>)'
           join:
@@ -1815,6 +1816,7 @@ expressionEditor:
           concat:
             description: Zwraca Napis z dwóch wyrażeń, z których każde jest Napisyem.
             example: '=Fields!FirstName.Value & " " & Fields!LastName.Value'
+            example_i11n: '{FirstName & " " & LastName}'
             label: &
             syntax: "<String1> & <String2>"
         logicalBitwise:
@@ -1865,6 +1867,38 @@ expressionEditor:
   reportItems: Elementy raportu
   saveLabel: Zapisz
   title: "Edytor wyrażenia: {propertyLabel}"
+filters:
+  add: Dodaj... #Add...
+  addCriterion: Dodaj Kryterium #Add Criterion
+  addGroup: Dodaj Grupę #Add Group
+  addItem: Dodaj Przedmiot #Add Item
+  allOf: Wszystkie Z #All Of
+  anyOf: Którykolwiek Z #Any Of
+  edit: Edytuj #Edit...
+  expressionText: Wyrażenie... #Expression...
+  filterPanelText: Wybierz Region Danych, aby edytować jego filtry #Select a Data Region to edit its filters
+  filtersText: Filtry #Filters
+  newParameter: Nowy Parametr #New Parameter
+  operators:
+    beginsWith: Zaczyna Się Z #Begins With
+    between: Pomiędzy #Between
+    bottomN: Dolne N #Bottom N
+    bottomPercent: Dolny Procent #Bottom Percent
+    contains: Zawiera #Contains
+    doesNotBeginWith: Nie Zaczyna Się Z #Does Not Begin With
+    doesNotContain: Nie Zawiera #Does Not Contain
+    equalTo: Równy Do #Equal To
+    greaterThan: Większy Od #Greater Than
+    greaterThanOrEqualTo: Większy Od lub Równy Do #Greater Than Or Equal To
+    in: W #In
+    lessThan: Mniej Niż #Less Than
+    lessThanOrEqualTo: Mniejszy Od lub Równy Do #Less Than Or Equal To
+    like: Jak #Like
+    notEqualTo: Nie Równy Do #Not Equal To
+    notIn: Nie W #Not In
+    topN: Górne N #Top N
+    topPercent: Górny Procent #Top Percent
+  reset: Reset #Reset
 groupEditor:
   addGroup:
     adjacentAfter: Przylegający za
@@ -2121,7 +2155,7 @@ parametersViewEditor:
     listParameter: Parametr listy
     locationAndSize: Lokalizacja i Rozmiar
     multivalueParameter: Parametr Wielowartościowy
-    nullText: null
+    nullText: 'Pusty' #'Null'
     numberEditor: Edytor Liczb
     numberParameter: Parmetr Liczbowy
     numberRangeParameter: Parametr ZakresLiczbowy
@@ -2277,7 +2311,7 @@ properties:
     threeDProperties: Właściwości 3D
     tickStyle: Styl zaznaczenia
     title: Tytuł
-    userSort: Sortowanie
+    userSort: Sortowanie użytkowników
     valueStyle: Styl wartości
     visibility: Widoczność
   editors:
@@ -2619,6 +2653,7 @@ properties:
       expression:
         errorPosition: "w wierszu {line}, kolumnie {column}"
         incorrect: Nieprawidłowe wyrażenie
+        parseError: "Błąd składniowy: nie można przekonwertować tego wyrażenia składni interpolacji na składnię rdl" #"Syntax error: It is not possible to convert this interpolation syntax expression to rdl syntax"
         syntaxError: "Błąd składni: nieoczekiwany token '{token}' {positionInfo}"
         unknownField: "Uwaga: nieznana nazwa pola w '{token}' {positionInfo}"
         unknownParameter: "Uwaga: nieznana nazwa parametru w '{token}' {positionInfo}"
@@ -2754,7 +2789,7 @@ properties:
       worstValue: Najniższa wartość
     checkBox:
       checkAlignment: Sprawdź wyrównanie
-      checked: Zaznaczone
+      checked: Sprawdzono
       text: Tekst
     container:
       consumeWhiteSpace: Usuń zbędne odstępy
@@ -2783,7 +2818,7 @@ properties:
       boundFields: Pola zakresu
       calculatedFields: Pola obliczeniowe
       caseSensitivity: Rozróżnianie wielkości liter
-      collation: Porównywanie znaków
+      collation: Kolacja znaków
       commandType: Rodzaj polecenia
       fields: Pola
       filters: Filtry
@@ -2841,20 +2876,20 @@ properties:
         startingValue: Wartość początkowa
       visualizerType: Typ wizualizatora
     dimensions:
-      bottom: Odległość od dołu
+      bottom: Dół
       endPointX: Punkt końcowy osi X
       endPointY: Punkt końcowy osi Y
-      fixedHeight: Maksymalna wysokość
-      fixedSize: Maksymalny rozmiar
-      fixedWidth: Maksymalna szerokość
+      fixedHeight: Stała wysokość
+      fixedSize: Stały rozmiar
+      fixedWidth: Stała szerokość
       height: Wysokość
-      left: Odległość od lewej
+      left: Lewa
       location: Lokalizacja
-      right: Odległość od prawej
+      right: Prawa
       size: Rozmiar
       startPointX: Punkt początkowy osi X
       startPointY: Punkt początkowy osi Y
-      top: Odległość od góry
+      top: Góra
       width: Szerokość
     dvchart:
       bar:
@@ -2869,6 +2904,8 @@ properties:
       legendPosition: Pozycja
       legendWrapping: Zawijanie
       palette: Paleta
+      plotTemplate: Szablon wykresu #Plot Template
+      plotTemplateDropdown: Wybierz... #Select...
       plots: Wykresy
     dvchartAxis:
       axisType: Typ osi
@@ -3008,7 +3045,7 @@ properties:
     inputField:
       checkSize: Sprawdź rozmiar
       checkStyle: Sprawdź styl
-      checked: Zaznaczone
+      checked: Sprawdzono
       fieldName: Nazwa pola
       inputType: Typ
       maxLength: Maksymalna długość
@@ -3108,7 +3145,7 @@ properties:
       multivalue: Wielowartościowy
       name: Nazwa
       parameterValues: Wartości parametru
-      prompt: Etykieta
+      prompt: Podpowiedź
       selectAllValue: Wybierz wszystkie wartośći
       selectAllValue_help:
         text: 'Jeśli określono, determinuje przekazanie wartości do parametru w przypadku gdy "Wybierz wszystkie" jest ustawione na parametr Wielowartościowy'
@@ -3229,6 +3266,7 @@ romLabels:
   tablix: Tablix
 tablixWizard:
   addDataSet: Najpier dodaj zestaw danych do raportu
+  addValue: Proszę dodać przynamniej jedną wartość aby stworzyć Tablix. #Please add at least a single value to create a Tablix.
   aggregate: Agregacja
   aggregates:
     avg: Avg
@@ -3237,9 +3275,12 @@ tablixWizard:
     min: Min
     none: None
     sum: Sum
+  asRows: Jako Wiersze #As Rows
   cannotEditInWizard: Tablix ma złożoną strukturę i nie może być edytowany w Wizardzie. Użyj Edytor Grup.
-  columns: Kolumny
+  collapsedGroups: Zwinięte Grupy #Collapsed Groups
+  columns: Grupy Kolumn #Column Groups
   dataSets: Zestawy danych
+  delete: Usuń #Delete
   expandCollapse: "Rozwiń/Zwiń grupy"
   format: Format
   formats:
@@ -3253,27 +3294,42 @@ tablixWizard:
   frozenRows: Zablokuj wiersze
   layoutDesign: Design Układu
   layoutOptions: Opcje Układu
+  makeTablix:
+    total: Całkowity #Total
+    values: Wartości #Values
   noDataSets: Raport nie ma zestawu danych
+  noFieldPlaceholder: brak pola #no field
+  noValues: Brak określonych wartości. #There are no values specified.
   none: Brak
   openWizard: Otwórz Wziard Tablixa
   organization: Organizacja
-  rows: Wiersze
+  rows: Grupy Wierszy #Row Groups
   showTotalsBeforeGroup: Pokaż sumy przed grupą
+  showValuesAsRows: Pokaż Wartości jako Wiersze #Show Values as Rows
   sorting: "Sortowanie: {sorting}"
   sortings:
     Ascending: Rosnąco
     Descending: Malejąco
     None: Brak
+  steppedRowGroups: Wystąpienie Grupy Wierszy #Stepped Row Groups
   styling: Stylizacja
-  subTotalsForColumns: Podsumy dla kolumn
-  subTotalsForRows: Podsumy dla wierszy
+  subTotalsForColumns: Sumy pośrednie dla Grup Kolumn #Subtotals for Column Groups
+  subTotalsForRows: Sumy pośrednie dla Grup Wierszy #Subtotals for Row Groups
+  swap: Zamiana #Swap
   swapRowColumnGroups: Zamień grupy wierszy i kolumn
-  title: "Tablix Wizard - {name}"
+  title: Kreator Tablix #Tablix Wizard
   totals: Sumy
-  totalsForColumns: Sumy dla kolumn
-  totalsForRows: Sumy dla wierszy
+  totalsForColumns: Sumy dla Grup Kolumn #Totals for Column Groups
+  totalsForRows: Sumy dla Grup Wierszy #Totals for Row Groups
   userSortEnabled: Włącz sortowanie użytkownika
   values: Wartości
+  warning:
+    changedStructure: Kreator Tablix nie może edytować Tablix, ponieważ jego struktura została zmieniona. #Tablix Wizard cannot edit the Tablix as its structure has been changed.
+    confirmReverting: Potwierdź powrót do poprzedniego stanu Tablix, który może być edytowany przez kreatora. #Please confirm reverting to the previous Tablix state editable by Wizard.
+    otherwiseCannotEdit: W przeciwnym razie nie będzie można kontynuować edycji w Kreatorze Tablix. #Otherwise, it will not be possible to continue editing within Tablix Wizard.
+    quit: Zamknij #Quit
+    revert: Wróć do poprzedniego stanu #Revert
+    title: Ostrzeżenie #Warning
 warning:
   embeddedImage:
     badFile: "Wybrany plik '{name}' nie jest obrazem."
@@ -3281,16 +3337,16 @@ warning:
     badImageFile: "Wybrany plik obrazu '{name}' jest nieprawidłowy."
     badImageSize: "Wybrany plik obrazu '{name}' przekracza limit {limit} MB."
   margins:
-    caption: The specified margins cannot be set
-    info: "- '{name}' cannot be greater than {value}."
+    caption: Nie można ustawić określonych marginesów #The specified margins cannot be set
+    info: "- '{name}' nie może być większe od {value}." #"- '{name}' cannot be greater than {value}."
     labels:
-      bottom: Bottom Margin
-      left: Left Margin
-      right: Right Margin
-      top: Top Margin
+      bottom: Dolny Margines #Bottom Margin
+      left: Lewy Margines #Left Margin
+      right: Prawy Margines #Right Margin
+      top: Górny Margines #Top Margin
   pageSize:
-    caption: The specified page size cannot be set
-    info: "- '{name}' cannot be less than {value}."
+    caption: Nie można ustawić określonego rozmiaru strony #The specified page size cannot be set
+    info: "- '{name}' nie może być mniejsze od {value}." #"- '{name}' cannot be less than {value}."
     labels:
-      height: Page Height
-      width: Page Width
+      height: Wysokość strony #Page Height
+      width: Szerokość strony #Page Width

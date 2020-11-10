@@ -1,0 +1,10 @@
+cancelLabel: Cancel
+commentLabel: Comment
+report:
+  saveLabel: Save Report
+  saving: Saving Report...
+  title: "Save Report - {name}"
+template:
+  saveLabel: Save Template
+  saving: Saving Template...
+  title: "Save Template - {name}"

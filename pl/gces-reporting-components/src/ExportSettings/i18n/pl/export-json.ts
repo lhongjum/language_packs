@@ -11,8 +11,8 @@ export default {
       "category": "Różne"
     },
     "AddTimestamp": {
-      "label": "Add Timestamp to filename",
-      "category": "Filename"
+      "label": "Dodaj sygnaturę czasową do nazwy pliku",
+      "category": "Nazwa pliku"
     }
   }
 }

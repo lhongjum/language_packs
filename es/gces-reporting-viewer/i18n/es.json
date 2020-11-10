@@ -1,0 +1,169 @@
+[
+  {
+    "ns": "jsviewer",
+    "lng": "es",
+    "resources": {
+      "errors": {
+        "bad-response-delayed": "Bad response delayed content",
+        "bad-response-doc": "Bad response export content",
+        "bad-response-report": "Bad response export content",
+        "commandTextIsEmpty": "Command text is empty.",
+        "dataSetNotFound": "A DataSet {{dataSetName}} referenced in the report could not be found.",
+        "dataSetNotSpecified": "DataSet name needs to be specified in the Fixed Page Layout settings.",
+        "datasourceMissingElement": "Missing a required element in {{datasourceName}} shared data source XML document.",
+        "infinitePages": "Endless loop detected.",
+        "invalidColumnSpacing": "When Page (width is set in report PageSize) is divided into columns, the width of the column must be greater than zero and the column spacing.",
+        "invalidKeyInConnectionString": "Invalid key in connection string:{{invalidKey}}",
+        "InvalidReportFormat": "Report format is Invalid",
+        "invalidSharedDataSource": "The shared data source no longer exists or its content is invalid.",
+        "jsonDataSourceNotFound": "The json data source has not been found.",
+        "no-fmt": "Invalid format key or module for {{format}} is not loaded.",
+        "no-params-refresh": "Refresh failed (not all parameters specified)",
+        "noDataSets": "No data sets",
+        "render-doc": "Failed rendering document",
+        "resourceNotFound": "Unable to load resource from:{{uri}}",
+        "scriptCompilationFailed": "Script compilation failed.",
+        "subreportNotFoundError": "Unable to locate subreport: {{subName}}",
+        "subreportNotSpecified": "Subreport name is not specified for a subreport report item {{itemName}}",
+        "unknown-display": "Unknown display type {{displayType}}",
+        "unknown-format": "Unsupported export type: '{{exportType}}'",
+        "unknown-response": "Unknown server response.",
+        "UnsupportedReportType": "Requested report type is unsupported"
+      },
+      "panels": {
+        "export": "Export",
+        "parameters": "Parameters",
+        "reports": "Report list",
+        "toc": "Table of Contents"
+      },
+      "toolbar": {
+        "galley-mode": "Galley Mode",
+        "item-exist": "The item with the same key (\"{{itemKey}}\") already exists.",
+        "mode-continious": "Continuous View",
+        "mode-single": "Single Page View",
+        "print-btn": "Print",
+        "print-preparing": "Preparing print...",
+        "resume-rendering": "Partial Data: Run Full Report"
+      }
+    }
+  },
+  {
+    "ns": "viewer",
+    "lng": "es",
+    "resources": {
+      "error": {
+        "details": "Details",
+        "dismiss": "Dismiss",
+        "dismiss-all": "Dismiss All"
+      },
+      "sidebar": {
+        "expand-btn": "Expand",
+        "collapse-btn": "Collapse"
+      },
+      "cancel-btn": "Cancel",
+      "toolbar": {
+        "zoom-fitwidth": "Fit to Width",
+        "zoom-fitpage": "Fit Page",
+        "zoom-zoomout": "Zoom Out",
+        "zoom-zoomin": "Zoom In",
+        "zoom-menu-header": "Zoom Mode",
+        "gotofirst": "Go To First",
+        "gotoprevious": "Go To Previous",
+        "gotonext": "Go To Next",
+        "gotolast": "Go To Last",
+        "hist-parent": "Back To Parent",
+        "hist-back": "Go Back",
+        "hist-fwd": "Go Forward",
+        "movetool": "Move Tool",
+        "fullscreen": "Toggle Fullscreen",
+        "refresh": "Refresh",
+        "cancel": "Cancel"
+      },
+      "errors": {
+        "noHostElement": "Cannot find the host element."
+      },
+      "progress": {
+        "page": "Page"
+      },
+      "search": {
+        "match-case": "Match Case",
+        "whole-word": "Whole word",
+        "cancel-btn": "Cancel",
+        "start-search-btn": "Search",
+        "clear-btn": "Clear",
+        "more-results-btn": "More Results",
+        "search-results": "Search Results",
+        "search-cancelled-msg": "Search cancelled on page {{page}}",
+        "didn-find-msg": "Didn't find anything.",
+        "paneltitle": "Search"
+      }
+    }
+  },
+  {
+    "ns": "viewererror",
+    "lng": "es",
+    "resources": {
+      "title": {
+        "open-report": "Failed to open report",
+        "set-parameters": "Set parameters error",
+        "get-toc": "Get TOC error",
+        "render-report": "Failed rendering report",
+        "export-report": "Export report error",
+        "print-report": "Print report error"
+      },
+      "details": {
+        "report-info": "Cannot obtain report info",
+        "rendering-info": "Cannot obtain rendering info",
+        "job-info": "Cannot obtain job info",
+        "no-report": "Report not found: {{reportId}}",
+        "no-document-loaded": "No document loaded.",
+        "no-current-document": "No current document!",
+        "no-toc": "No TOC content.",
+        "bad-response-toc": "Failed getting table of contents",
+        "no-params-render": "Not all parameters specified.",
+        "params-hidden": "Some hidden parameters are invalid.",
+        "ignore-disposition": "It is expected that the content will be displayed as embedded in the browser, but this will be ignored.",
+        "empty-response-header": "Response header '{{header}}' is empty. Probably the header is not allowed by the CORS policy.",
+        "unknown-event": "Unknown event was not processed",
+        "job-canceled": "Job was canceled by administrator",
+        "job-not-found": "Job not found",
+        "unexpected-job-error-info": "Unexpected job error info.",
+        "unexpected-job-state": "Unexpected job state.",
+        "ie-no-pdf-addon": "To enable printing for IE, please install and enable a PDF reader add-on."
+      },
+      "reporting_plugin": {
+        "lrt": "An LRT exception occured in reporting plugin",
+        "bad_response": "Worker responded with error",
+        "streaming": "An error occured during streaming from worker",
+        "response_verification": "An error have been revealed after streaming result from worker",
+        "unknown": "An unknown error occured during task execution"
+      },
+      "reporting_worker": {
+        "export": {
+          "invalid_parameters": "Invalid report parameters",
+          "unknown_rendering_ext": "Unknown rendering extension {{0}}"
+        },
+        "task_init": {
+          "file_not_found": "File {{0}} not found",
+          "unable_to_load_file": "Unable to load file {{0}}",
+          "unknown": "An unknown error occured during worker task execution: {{0}}"
+        },
+        "fail_check": {
+          "invalid_parameters": "Invalid report parameters",
+          "no_dataset": "Dataset not specified",
+          "data_not_found": "Specified {{0}} document with id '{{1}}' not found",
+          "data_not_allowed": "Specified {{0}} '{{1}}' inaccessible due to insufficient permissions",
+          "data_unknown": "Specified data inaccessible: {{0}}",
+          "unknown": "An unknown error occured during worker task execution: {{0}}"
+        },
+        "rendering": {
+          "unknown": "An unknown error occured during worker task execution: {{0}}"
+        },
+        "report": {
+          "cyclic_parameter_references": "Cyclic report parameter references detected",
+          "unknown": "An unknown error occured when getting report info: {{0}}"
+        }
+      }
+    }
+  }
+]

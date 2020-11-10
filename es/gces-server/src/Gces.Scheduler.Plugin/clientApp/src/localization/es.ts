@@ -410,4 +410,18 @@ export const schedulingES: LanguageKeyValueMap = {
 	reportingWorkerReportCyclicParameterReferences: 'Cyclic report parameter references detected',
 	// TODO, please move to report plugin in future.
 	'reporting_worker_fail_check_no_dataset': 'An error occurred during report fail check procedure: Dataset not specified',
+
+	// Relative Dates
+	tbSpecificDate: 'Specific date',
+	tbRelativeDate: 'Relative date',
+	rdDay: 'day',
+	rdWeek: 'week',
+	rdMonth: 'month',
+	rdQuarter: 'quarter',
+	rdYear: 'year',
+	rdCurrent: 'current',
+	rdPrevious: 'previous',
+	rdNext: 'next',
+	rdBeginning: 'beginnig',
+	rdEnd: 'end'
 };

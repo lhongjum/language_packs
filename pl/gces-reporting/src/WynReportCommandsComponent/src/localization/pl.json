@@ -1,0 +1,26 @@
+{
+  "commands": {
+    "fullscreen": "Fullscreen",
+    "history": "History",
+    "mousemode": "Mouse Mode",
+    "navigation": "Navigation",
+    "print": "Print",
+    "refresh": "Refresh",
+    "singlepagemode": "Single Page View",
+    "continuousmode": "Continuous View",
+    "galleymode": "Galley Mode",
+	"zoom": "Zoom",
+	"pdf": "PDF",
+	"excel": "Excel",
+	"docx": "Word",
+	"image": "Image",
+	"html": "HTML",
+	"csv": "CSV",
+	"json": "JSON",
+	"txt": "TXT",
+	"xml": "XML"
+  },
+  "commandsTitle": "Commands",
+  "saveCommandsError": "An error occurred while saving report commands",
+  "getCommandsError": "An error occurred while getting report commands"
+}

@@ -1,4 +1,4 @@
-export const reportingPL: LanguageKeyValueMap = {
+export default {
 	// Designer
 	
 	drApplicationTitle: 'Kreator WynReports', // WynReports Designer
