@@ -3146,7 +3146,7 @@ properties:
       name: Nazwa
       parameterValues: Wartości parametru
       prompt: Podpowiedź
-      selectAllValue: Wybierz wszystkie wartośći
+      selectAllValue: Wybierz wszystkie wartości
       selectAllValue_help:
         text: 'Jeśli określono, determinuje przekazanie wartości do parametru w przypadku gdy "Wybierz wszystkie" jest ustawione na parametr Wielowartościowy'
       value: Wartość
