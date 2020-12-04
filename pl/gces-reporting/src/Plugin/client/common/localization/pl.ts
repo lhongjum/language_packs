@@ -49,8 +49,8 @@ export default {
 	tpDetailsModified: 'Zmodyfikowany', // Modified
 	tpDetailsModifiedBy: 'Zmodyfikowany przez', // Modified By
 
-	tpWizardBlankPage: 'Pusty raport', // Blank Page Report
-	tpWizardBlankRDL: 'Pusty raport RDL', // Blank RDL Report
+	tpWizardBlankPage: 'Pusty raport stronicowy', // Blank Page Report
+	tpWizardBlankRDL: 'Pusty raport regularny', // Blank RDL Report
 
 	sysTagNoCategory: 'Brak kategorii', // No Category 
 	sysTagResources: 'Zasoby', // Resources

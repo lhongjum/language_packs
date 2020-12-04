@@ -5,7 +5,7 @@ editors:
     expression: Wyrażenie...
     reset: Reset
   collection:
-    addItem: Dodatj element
+    addItem: Dodaj element
     close: Zamknij
     collectionIsEmpty: Zbiór jest pusty
     itemsCountLabel: "{itemsCount} elementów"

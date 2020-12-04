@@ -2,7 +2,7 @@
   "resources": [
     {
       "key": "ResetPasswordMailBody",
-      "value": "Hi {0},\n\nPoprosiłeś o zresetowanie hasła do konta “{1}” Kliknij poniższy link, aby je zresetować.\n\n{2}/Account/ResetPassword?Id={3}&Code={4}\n\nThanks,\n{1}"
+      "value": "Witaj {0},\n\nPoprosiłeś o zresetowanie hasła do konta “{1}” Kliknij poniższy link, aby je zresetować.\n\n{2}/Account/ResetPassword?Id={3}&Code={4}\n\nThanks,\n{1}"
     },
     {
       "key": "ResetPasswordMailSubject",

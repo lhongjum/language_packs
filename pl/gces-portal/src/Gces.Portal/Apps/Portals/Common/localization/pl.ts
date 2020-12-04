@@ -6,11 +6,11 @@ export const portalPL: LanguageKeyValueMap = {
 	Close: 'Zamknij', // Close
 	Logo: 'Logo',
 	Avatar: 'Avatar',
-	EmptyPage: 'Empty Page',
-	SearchCategory: 'Select category',
-	cmEmptyResult: 'empty result',
-	fakeComponent: 'Fake component',
-	fakeComponentDescription: 'Used to prevent the browser from automatically filling the username and password.',
+	EmptyPage: 'Pusta Strona', // Empty Page
+	SearchCategory: 'Wybierz kategorię', // Select category
+	cmEmptyResult: 'pusty wynik', // empty result
+	fakeComponent: 'Fałszywy komponent', // Fake component
+	fakeComponentDescription: 'Służy do zapobiegania automatycznemu wypełnianiu nazwy użytkownika i hasła przez przeglądarkę.', // Used to prevent the browser from automatically filling the username and password.
 
 	// Nav App
 	naDocumentPortal: 'Portal dokumentów', // Document Portal
@@ -22,14 +22,14 @@ export const portalPL: LanguageKeyValueMap = {
 	naCategories: 'Kategorie', // Categories
 	naCategorySettingsTitle: 'Zarządzaj własnymi kategoriami', // Manage personal Categories
 	naUpload: 'Załaduj', // Upload
-	naOrganization: 'Switch Organization',
+	naOrganization: 'Zmień Organizację', // Switch Organization
 	naOk: 'OK',
-	naCancel: 'Cancel',
+	naCancel: 'Anuluj', // Cancel
 	// Nav Toolbar
 	switchPortal: 'Zmień portal', // Switch Portal
 	globalOrgName: 'Global',
-	switchOrganization: 'Switch Organization',
-	editProfileSetting: 'Edit Profile Setting',
+	switchOrganization: 'Zmień Organizację', // Switch Organization
+	editProfileSetting: 'Edytuj Ustawienia Profilu', // Edit Profile Setting
 
 	// Document List
 	dlName: 'Nazwa', // Name
@@ -39,7 +39,7 @@ export const portalPL: LanguageKeyValueMap = {
 	dlDelete: 'Usuń', // Delete
 	dlNoDocumentTip: 'brak wyników', // no results
 	dlPreview: 'Podgląd', // Preview
-	dlOpenInNewWindow: 'View {{type}} in new window',
+	dlOpenInNewWindow: 'Obejrzyj {{type}} w nowym oknie', // View {{type}} in new window
 	dlDownload: 'Pobieranie', // Download
 	dlDatasetType: 'Typ zestawu danych', // Dataset Type
 	dlDashboardDataset: 'Na potrzeby dashboardu', // For Dashboard
@@ -69,7 +69,7 @@ export const portalPL: LanguageKeyValueMap = {
 	docFilterByDocumentType: 'Filtruj wg typu dokumentu', // Filter by document type
 	docItemCopyURL: 'Kopiuj link', // Copy URL
 	docItemCopyURLDescription: 'Kopiuj link dokumentu', // Copy Document URL
-	docCreateDocument: 'Create', // 'Create'
+	docCreateDocument: 'Stwórz', // 'Create'
 
 	// Delete Confirm Dialog
 	dcdTitle: 'Usuń dokument', // Delete Document
@@ -78,7 +78,7 @@ export const portalPL: LanguageKeyValueMap = {
 	dcdDeleteDocumentError: 'Błąd podczas usuwania dokumentu', // Error deleting document
 	dcdOK: 'OK',
 	dcdCancel: 'Anuluj', // Cancel
-	dcdClose: 'Close',
+	dcdClose: 'Zamknij', // Close
 
 	// Notifications
 	ntfDismiss: 'Odrzuć', // Dismiss
@@ -86,8 +86,8 @@ export const portalPL: LanguageKeyValueMap = {
 	ntfShowDetails: 'Pokaż szczegóły', // Show Details
 	ntfShowAll: 'Pokaż wszystko', // Show All
 	ntfCancelTask: 'Anuluj to zadanie', // Cancel this task
-	ntfPrevious: 'Previous',
-	ntfNext: 'Next',
+	ntfPrevious: 'Poprzedni', // Previous
+	ntfNext: 'Następny', // Next
 
 	// Document Error Message
 	documentNotDeleted: 'Dokument nie został usunięty', // Document was NOT deleted
@@ -100,10 +100,10 @@ export const portalPL: LanguageKeyValueMap = {
 	err_AccessDenied: 'Dokument nie może zostać zduplikowany. Nie masz uprawnień do edycji niektórych dokumentów powiązanych z tym dokumentem', // The document can not be duplicated, you do not have permission to edit some of the documents referenced in this document.
 	previewDocumentError: 'Błąd podglądu', // Preview Error
 	errorAccessDenied: 'Nie masz uprawnień dostępu do niektórych dokumentów powiązanych z tym dokumentem.', // You do not have permission to access some of the documents referenced in this document.
-	updateDocumentHideInDocumentPortalError: 'Show document on portal failed.',
-	insufficientReferenceDocNames: '\nInsufficient permission documents: ',
-	docOrRefDocNotFound: 'The document or the referenced document with id {{id}} not found.',
-	downloadFailed: 'Download failed',
+	updateDocumentHideInDocumentPortalError: 'Pokaż dokument w portalu nie powiodło się.', // Show document on portal failed.
+	insufficientReferenceDocNames: 'Niewystarczające dokumenty uprawnień: ', // \nInsufficient permission documents: 
+	docOrRefDocNotFound: 'Dokument lub dokument powiązany z id {{id}} nie znaleziony', // The document or the referenced document with id {{id}} not found.
+	downloadFailed: 'Pobieranie nie udane', // Download failed
 
 	// Permissions
 	psPermissions: 'Uprawnienia', // Premissions
@@ -115,17 +115,17 @@ export const portalPL: LanguageKeyValueMap = {
 	psCancel: 'Anuluj', // Cancel
 	psSave: 'Zapisz', // Save
 	psNoRolesTip: 'no matched roles found', // no matched roles found
-	psPermissionInfo: 'Permission Information',
-	psApplyMinNeededPermission: 'Apply Minimum Needed Permission',
-	psApplyMinNeededPermissionTip: 'You will grant the \"Execute\" permission to the referenced documents.',
-	psInsufficientPermission: 'The checked role/organization does not have sufficient permissions on the referenced documents to perform the action. You can apply minimum needed permission to make sure users can preview this document normally.',
-	psReferencedDocuments: 'Referenced documents:',
-	expandAll: 'Expand All',
-	collapseAll: 'Collapse All',
+	psPermissionInfo: 'Informacje o Uprawnieniach', // Permission Information
+	psApplyMinNeededPermission: 'Nadaj minimalne wymagane uprawnienia', // Apply Minimum Needed Permission
+	psApplyMinNeededPermissionTip: 'Przyznasz uprawnienie \ "Wykonaj \" do dokumentów, do których istnieją odniesienia.', // You will grant the \"Execute\" permission to the referenced documents.
+	psInsufficientPermission: 'Zaznaczona rola / organizacja nie ma wystarczających uprawnień do dokumentów, do których się odwołuje, aby wykonać działanie. Możesz zastosować minimalne wymagane uprawnienia, aby użytkownicy mogli normalnie wyświetlać podgląd tego dokumentu.', // The checked role/organization does not have sufficient permissions on the referenced documents to perform the action. You can apply minimum needed permission to make sure users can preview this document normally.
+	psReferencedDocuments: 'Powiązane dokumenty:', // Referenced documents:
+	expandAll: 'Rozwiń Wszystko', // Expand All
+	collapseAll: 'Zwiń Wszystko', // Collapse All
 	// permission role display name
-	roleName_Everyone: 'Everyone',
+	roleName_Everyone: 'Wszyscy', // Everyone
 	roleName_administrator: 'Administrator',
-	roleName_orgadmin: 'Organization Administrator',
+	roleName_orgadmin: 'Administrator Organizacji', // Organization Administrator
 
 	// Doc Info Tab
 	docInfoProps: 'Właściwości', // Properties
@@ -140,9 +140,9 @@ export const portalPL: LanguageKeyValueMap = {
 	docInfoRead: 'Odczyt', // Read
 	docInfoWrite: 'Zapis', // Write
 	docInfoEdit: 'Edytuj', // Edit
-	hideInDocumentPortalHideStateLabel: 'Hide In Document Portal',
-	hideInDocumentPortalTrueLabel: 'True',
-	hideInDocumentPortalFalseLabel: 'False',
+	hideInDocumentPortalHideStateLabel: 'Ukryj W Portalu Dokumentów', // Hide In Document Portal
+	hideInDocumentPortalTrueLabel: 'Prawda', // True
+	hideInDocumentPortalFalseLabel: 'Fałsz', // False
 
 	// Document Types
 	'rdl!name': 'Raport', // Report
@@ -159,12 +159,12 @@ export const portalPL: LanguageKeyValueMap = {
 	'report-master!description': 'Master Report',
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
-	'dbd!name': 'Dashboard',
-	'dbd!description': 'Dashboard',
-	'dsc!name': 'Data Source',
-	'dsc!description': 'Data Source',
-	'dataset!name': 'Dataset',
-	'dataset!description': 'Dataset',
+	'dbd!name': 'Pulpit Nawigacyjny', // Dashboard
+	'dbd!description': 'Pulpit Nawigacyjny', // Dashboard
+	'dsc!name': 'Źródło Danych', // Data Source
+	'dsc!description': 'Źródło Danych', // Data Source
+	'dataset!name': 'Zestaw Danych', // Dataset
+	'dataset!description': 'Zestaw Danych', // Dataset
 	'smdsc!name': 'Modele semantyczne', // Semantic Models
 	'smdsc!description': 'Modele semantyczne', // Semantic Models
 
@@ -253,7 +253,7 @@ export const portalPL: LanguageKeyValueMap = {
 	err_20021: 'ToTagId nie może być puste, gdy updateParent ustawiono na "nie"', // ToTagId cannot be null when updateParent is false.
 	err_20025: 'Nie można skasować dokumentu "{{documentTitle}}": {{internalErrorMessage}}.', // Cannot delete the document "{{documentTitle}}": {{internalErrorMessage}}.
 	err_20026: 'Dokument nie może zostać zduplikowany, nie masz uprawnień do edycji powiązanych dokumentów. Dokument jest powiązany z następującymi dokumentami :\n{{noPermissionDocRefNames}}', // The document can not be duplicated, you do not have permission to edit referenced documents. It is referenced the following documents:\n{{noPermissionDocRefNames}}
-	err_20027: 'Docement nie został znaleziony, odśwież listę dokumentów.', // Docement not found, please refresh the document list.
+	err_20027: 'Dokument nie został znaleziony, odśwież listę dokumentów.', // Docement not found, please refresh the document list.
 	err_20028: 'Tag nie został znaleziony', //  Tag not found.
 	err_20029: 'Nie można użyć systemowej nazwy znacznika "{{name}}".', // Can not use system reserved tag name "{{name}}".
 
@@ -277,7 +277,7 @@ export const portalPL: LanguageKeyValueMap = {
 	uploadErr_10009: 'Nie można rozwiązać powiązanego zasobu $t({{documentType}})  o nazwie "{{DocumentName}}".', // Cannot resolve referenced $t({{documentType}}) resource with name {{DocumentName}}.
 	documentType_rdl: 'Raport',
 	documentType_report: 'Raport',
-	documentType_dbd: 'Dashboard',
+	documentType_dbd: 'Pulpit Nawigacyjny', // Dashboard
 	documentType_dsc: 'Źródło danych', // data source
 	documentType_dataset: 'Zestaw danych', // dataset
 	documentType_smdsc: 'Model semantyczny', // smeantic model
@@ -315,35 +315,35 @@ export const portalPL: LanguageKeyValueMap = {
 	updateShowWelcomeFail: 'Błąd aktualizacji ustawień', // Update Settings Error
 
 	// force delete document
-	forceDeleteTitle: 'Force Delete',
-	forceDeleteContent: 'The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.\nAre you sure to force delete?',
-	forceDeleteContentPrefix: 'The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.',
-	forceDeleteContentSuffix: 'Are you sure to force delete?',
-	forceDeleteTip: 'Force Delete',
+	forceDeleteTitle: 'Wymuś Usunięcie', // Force Delete
+	forceDeleteContent: 'Dokument \"{{documentTitle}}\" jest używany przez następujący dokument:\n{{documentRefNames}}.\nJesteś pewny aby wymusić usunięcie?', // The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.\nAre you sure to force delete?
+	forceDeleteContentPrefix: 'Dokument \"{{documentTitle}}\" jest używany przez następujący dokument:\n{{documentRefNames}}.', // The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.
+	forceDeleteContentSuffix: 'Jesteś pewny aby wymusić usunięcie?', // Are you sure to force delete?
+	forceDeleteTip: 'Wymuś Usunięcie', // Force Delete
 
 	// page title
-	'create-dsc!title': 'Create Data Source',
-	'edit-dsc!title': 'Edit Data Source',
-	'preview-dsc!title': 'Data Source Preview',
-	'create-dataset!title': 'Create Dataset',
-	'edit-dataset!title': 'Edit Dataset',
-	'preview-dataset!title': 'Dataset Preview',
-	'create-smdsc!title': 'Create Semantic Model',
-	'edit-smdsc!title': 'Edit Semantic Model',
-	'preview-smdsc!title': 'Semantic Model Preview',
+	'create-dsc!title': 'Stwórz Źródło Danych', // Create Data Source
+	'edit-dsc!title': 'Edytuj Źródło Danych', // Edit Data Source
+	'preview-dsc!title': 'Podgląd Źródło Danych', // Data Source Preview
+	'create-dataset!title': 'Utwórz Zbiór Danych', // Create Dataset
+	'edit-dataset!title': 'Edytuj Zbiór Danych', // Edit Dataset
+	'preview-dataset!title': 'Przeglądaj Zbiór Danych', // Dataset Preview
+	'create-smdsc!title': 'Stwórz Model Semantyczny', // Create Semantic Model
+	'edit-smdsc!title': 'Edytuj Model Semantyczny', // Edit Semantic Model
+	'preview-smdsc!title': 'Podgląd Modelu Semantycznego', // Semantic Model Preview
 	'create-floorPlan!title': 'Stwórz Plan Budynku', // Create Floor Plan
 	'edit-floorPlan!title': 'Edytuj Plan Budynku', // Edit this Floor Plan
-	'preview-floorPlan!title': 'Floor Plan Preview',
-	'preview-theme!title': 'Theme Preview',
-	'preview-rdl!title': 'Report Preview',
-	'preview-rdlx-template!title': 'Report Template Preview',
-	'preview-image!title': 'Image Preview',
-	'preview-image/jpeg!title': 'Image Preview',
-	'preview-image/bmp!title': 'Image Preview',
-	'preview-image/gif!title': 'Image Preview',
-	'preview-image/png!title': 'Image Preview',
-	'create-dbd!title': 'Create Dashboard',
-	'edit-dbd!title': 'Edit Dashboard',
-	'preview-dbd!title': 'Dashboard Preview',
-	'searchResult!title': 'Search Results',
+	'preview-floorPlan!title': 'Przeglądaj Plan Budynku', // Floor Plan Preview
+	'preview-theme!title': 'Podgląd Motywu', // Theme Preview
+	'preview-rdl!title': 'Podgląd Raportu', // Report Preview
+	'preview-rdlx-template!title': 'Podgląd Szablonu Raportu', // Report Template Preview
+	'preview-image!title': 'Podgląd Obrazu', // Image Preview
+	'preview-image/jpeg!title': 'Podgląd Obrazu', // Image Preview
+	'preview-image/bmp!title': 'Podgląd Obrazu', // Image Preview 
+	'preview-image/gif!title': 'Podgląd Obrazu', // Image Preview
+	'preview-image/png!title': 'Podgląd Obrazu', // Image Preview
+	'create-dbd!title': 'Utwórz Pulpit Nawigacyjny', // Create Dashboard
+	'edit-dbd!title': 'Edytuj Pulpit Nawigacyjny', // Edit Dashboard
+	'preview-dbd!title': 'Podgląd Pulpitu Nawigacyjnego', // Dashboard Preview
+	'searchResult!title': 'Wyniki Wyszukiwania', // Search Results
 };
