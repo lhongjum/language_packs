@@ -9,12 +9,12 @@ export const tenantPL: LanguageKeyValueMap = {
 	tntAddTenantProp: 'Dodaj Atrybut Organizacji', // Add Organization Property
 	tntEditTenantProp: 'Edytuj Atrybut Organizacji', // Edit Organization Property
 	tntPropName: 'Nazwa Atrybutu', // Property Name
-	tntPropVlue: 'Property Value',
+	tntPropVlue: 'Wartość Atrybutu', // Property Value
 	tntRequired: 'Wymagana', // Required
 	tntMultivalued: 'Wielowartościowa', // Multivalued
 	tntClose: 'Zamknij', // Close
-	tntDelete: 'Delete Forever',
-	tntEdit: 'Edit',
+	tntDelete: 'Usuń Trwale', // Delete Forever
+	tntEdit: 'Edytuj', // Edit
 	tntName: 'Nazwa', // Name
 	tntFromEmail: 'Z adresu email', // From Email
 	tntMultiLineTip: 'Jedna wartość na linię', // One value per line
@@ -35,31 +35,31 @@ export const tenantPL: LanguageKeyValueMap = {
 	tntNoMemberTip: 'Brak Użykowników w organizacji.', // No Users in the organization. Please click
 	tntAddMember: 'Dodaj.', // Add
 
-	tntTenantBasicInformation: 'Basic Information',
-	tntTenantRoles: 'Organization Roles',
-	tntSelectRoles: 'Select Roles',
-	tntTenantMoveUp: 'Move Up',
-	tntTenantMoveDown: 'Move Down',
-	tntExpandAll: 'Expand All',
-	tntCollapseAll: 'Collapse All',
-	tntActions: 'Actions',
+	tntTenantBasicInformation: 'Podstawowe Informacje', // Basic Information
+	tntTenantRoles: 'Role Organizacji', // Organization Roles
+	tntSelectRoles: 'Wybierz Role', // Select Roles
+	tntTenantMoveUp: 'W Górę', // Move Up
+	tntTenantMoveDown: 'W Dół', // Move Down
+	tntExpandAll: 'Rozwiń Wszystkie', // Expand All
+	tntCollapseAll: 'Zwiń wszystkie', // Collapse All
+	tntActions: 'Akcje', // Actions
 	tntGlobal: 'Global',
-	tntRoleName: 'Role Name',
-	tntUsersNumber: 'Users Number',
-	tntNewOrganization: 'NewOrganization',
-	tntTenantPermissions: 'Permissions',
-	tntNoRolesTip: 'No Roles in the organization.',
-	tntNoPermissionsTip: 'No Roles in the organization.',
-	tntPermissionsName: 'Name',
-	tntPermissionsDescription: 'Description',
-	tntInvisible: 'Invisible',
+	tntRoleName: 'Nazwa Roli', // Role Name
+	tntUsersNumber: 'Numer Użytkownika', // Users Number
+	tntNewOrganization: 'NowaOrganizacja', // NewOrganization
+	tntTenantPermissions: 'Uprawnienia', // Permissions
+	tntNoRolesTip: 'Brak Ról w organizacji.', // No Roles in the organization.
+	tntNoPermissionsTip: 'Brak Ról w organizacji.', // No Roles in the organization.
+	tntPermissionsName: 'Nazwa', // Name
+	tntPermissionsDescription: 'Opis', // Description
+	tntInvisible: 'Niewidoczny', // Invisible
 	tntDisableSubView: 'Disable sub-organization view　value',
 	tntDisableSubEdit: 'Disable Sub-organization edit　value',
 
-	tntErrorOrganizationNameNull: 'Organization name is required.',
-	tntErrorOrganizationNameDuplicated: 'Organization name is duplicated.',
-	tntErrorInvalidCharInName: 'Organization name could not contain characters: < > / \\ $',
-	tntErrorFromPropNull: 'Property value is required.',
+	tntErrorOrganizationNameNull: 'Nazwa organizacji jest wymagana.', // Organization name is required.
+	tntErrorOrganizationNameDuplicated: 'Nazwa organizacji powtarza się.', // Organization name is duplicated.
+	tntErrorInvalidCharInName: 'Nazwa organizacji nie może zawierać znaków: < > / \\ $', // Organization name could not contain characters: < > / \\ $
+	tntErrorFromPropNull: 'Wartość atrybutu jest wymagana.', // Property value is required.
 
 	tntErrorOrganizationPropNameNull: 'Organization property name is required.',
 	tntErrorOrganizationPropNameDuplicated: 'Organization property name is duplicated.',

@@ -1,16 +1,16 @@
 {
     "editorsLocalization": {
         "collectionEditor": {
-            "closeBtnTitle": "Close",
-            "showBtnTitle": "Show Items",
-            "addBtnText": "Add",
-            "addBtnTitle": "Add Item",
-            "textEmpty": "Collection is empty",
-            "textItems": "items"
+            "closeBtnTitle": "Zamknij",
+            "showBtnTitle": "Pokaż przedmioty",
+            "addBtnText": "Dodaj",
+            "addBtnTitle": "Dodaj przedmiot",
+            "textEmpty": "Kolekcja jest pusta",
+            "textItems": "przedmioty"
         }
     },
-    "textUnknownProperty": "Unknown Property",
-    "emptyListPlaceholder": "Empty List",
-    "gridSearchPlaceholder": "enter property name here...",
-    "closeSearchBtnTitle": "Close"
+    "textUnknownProperty": "Nieznana właściwość",
+    "emptyListPlaceholder": "Pusta Lista",
+    "gridSearchPlaceholder": "wpisz tutaj nazwe właściwości...",
+    "closeSearchBtnTitle": "Zamknij"
 }
