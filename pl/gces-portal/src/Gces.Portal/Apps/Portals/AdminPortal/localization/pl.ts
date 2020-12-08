@@ -322,6 +322,8 @@ export const portalPL: LanguageKeyValueMap = {
 	'previewPagesSettings_previewPages': 'Strony podglądu', // Preview pages
 	'previewPagesSettings_hint': 'Ustawienie liczby stron podglądu ogranicza liczbę stron, która zostanie wygenerowana w podglądzie raportu. Pełny raport może zostać wygenerowany poprzez „Uruchom pełny raport.',
 	'reporting!disableFocusTimer': 'Wyłącz zegar zaznaczenia',
+	'reporting!hideBlankRDLReport': 'Ukryj pusty raport RDL',
+	'reporting!hideBlankPageReport': 'Ukryj raport z pustymi stronami',
 
 	'scheduleSettings!title': 'Ustawienia planowania', // Schedule Settings
 	'scheduleSettings!description': 'Zarządzanie ustawieniami planowania', // Schedule Settings management
@@ -361,6 +363,9 @@ export const portalPL: LanguageKeyValueMap = {
 	'UpdateNotificationSkipVersionError': 'Nie udało się pominąć wersji', // Failed to skip the version
 	'UpdateNotificationSkipVersionSuccess': 'Pomyślnie pominięto wersję', // Skipped version successfully
 	'UpdateNotificationSkipVersionSuccessDetail': 'Pomyślnie pominięto wersję "Version {{version}}"', // Success to skip the version "Version {{version}}"
+	'vsReleaseTime': 'Release Date:',
+	'vsSummary': 'Summary:',
+	'vsViewDetail': 'View Detail',
 
 	err_20015: 'Nazwa kategorii "{{tagName}}" nie można zaczynać się od \"$\".', // Category name "{{tagName}}" cannot start with \"$\".
 	err_20016: 'Nie można odnaleźć kategorii o ID "{{tagId}}".', // Category with the id "{{tagId}}" not found.
