@@ -25,8 +25,8 @@ export const datasetPL = {
 	Comment: 'Komentarz', // Comment
 	Yes: 'Tak', // Yes
 	No: 'Nie', // No
-	Expand: 'Expand',
-	Collapse: 'Collapse',
+	Expand: 'Rozwiń', //Expand
+	Collapse: 'Zwiń', //Collapse
 	MessageBox: 'Wiadomość', // Message
 	RefreshDataSet: 'Odśwież zestaw danych', // Refresh Dataset
 	Refreshing: 'Odświeżanie', // Refreshing
