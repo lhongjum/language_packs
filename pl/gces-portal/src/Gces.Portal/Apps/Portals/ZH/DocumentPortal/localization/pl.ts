@@ -1,7 +1,7 @@
 ﻿export const portalPL: LanguageKeyValueMap = {
 	// Common
-	more: 'More...',
-
+	more: 'Więcej', // More...
+	
 	// Layout
 	layoutGettingReady: 'Przygotowywanie', // Getting Ready
 	layoutPortCanNotStart: 'Portal nie może wystartować', // Portal couldn\'t start, sorry...
@@ -19,7 +19,7 @@
 	pluginDataSource: 'Źródła danych', // Data Sources
 	pluginSemanticModel: 'Model semantyczny', // Semantic Model
 	pluginTemplates: 'Szablony', // Templates
-	pluginMasters: 'Master Report',
+	pluginMasters: 'Raport Główny', // Master Report
 
 	// Notifications
 	ntfDismiss: 'Odrzuć', // Dismiss
@@ -27,8 +27,8 @@
 	ntfShowDetails: 'Pokaż szczegóły', // Show Details
 	ntfShowAll: 'Pokaż wszystko', // Show All
 	ntfCancelTask: 'Anuluj to zadanie', // Cancel this task
-	ntfPrevious: 'Previous',
-	ntfNext: 'Next',
+	ntfPrevious: 'Poprzedni', // Previous
+	ntfNext: 'Następny', // Next
 
 	// Documents View
 	docViewHeaderCategories: 'Kategorie', // Categories
@@ -58,7 +58,7 @@
 	cbCritDateCreated: 'Data utworzenia', // Date Created
 	cbSort: 'Sortowanie', // Sort
 	cbFilterByDocumentType: 'Filtruj wg typu dokumentu', // Filter by document type
-	cbSearch: 'Search',
+	cbSearch: 'Szukaj', // Search
 
 	cbViewModeList: 'Lista', // List
 	cbViewModeTree: 'Drzewo', // Tree
@@ -112,7 +112,7 @@
 
 	udBtnTextCommit: 'Zatwierdź', // Commit
 	udBtnTextCancel: 'Anuluj', // Cancel
-	udBtnTextClose: 'Close',
+	udBtnTextClose: 'Zamknij', // Close
 
 	udDNDTextDropFiles: 'Przeciągnij i upuść pliki tutaj', // Drag & Drop Files Here
 	udDNDTextClickHere: 'lub kliknij tutaj, aby wybrać pliki', // or click here to select files
@@ -139,13 +139,13 @@
 	infoPanelPermissions: 'Uprawnienia', // Permissions
 	infoPanelCategories: 'Kategorie', // Categories
 	infoPanelDescription: 'Opis', // Description
-	infoPanelDescriptionPlaceholder: 'Please enter a document description',
+	infoPanelDescriptionPlaceholder: 'Wprowadź opis dokumentu', // Please enter a document description
 	infoPanelMobileVisible: 'Dostępny na urządzeniach mobilnych', // Mobile Visible
 	infoPanelMobileVisibleShow: 'Pokaż', // Show
 	infoPanelMobileVisibleHide: 'Ukryj', // Hide
-	infoPanelHideInDocumentPortal: 'Hide In Document Portal',
-	infoPanelHideInDocumentPortalShowStateLabel: 'False',
-	infoPanelHideInDocumentPortalHideStateLabel: 'True',
+	infoPanelHideInDocumentPortal: 'Ukryj w Portalu Dokumentów', // Hide In Document Portal
+	infoPanelHideInDocumentPortalShowStateLabel: 'Fałsz', // False
+	infoPanelHideInDocumentPortalHideStateLabel: 'Prawda', // True
 
 	// Document info
 	docInfoRevisions: 'Wersje', // Revisions
@@ -195,14 +195,14 @@
 	deleteDocumentConfirmMsg: 'Usunąć dokument "{{name}}" na zawsze?', // Delete document "{{name}}" forever?
 	ok: 'OK',
 	cancel: 'Anuluj', // Cancel
-	close: 'Close',
-	back: 'Back',
+	close: 'Zamknij', // Close
+	back: 'Wróć', // Back
 
 	// Workspace
 	workspaceInfo: 'Informacje', // Info
 	workspaceRefresh: 'Odśwież', // Refresh
 	workspaceFullscreen: 'Pełny ekran', // Fullscreen
-	workspaceNewWindow: 'View {{type}} in new window',
+	workspaceNewWindow: 'Obejrzyj {{type}} w nowym oknie', // View {{type}} in new window
 	workspaceNoDocumentTip: 'Niczego tu nie ma', // It\'s lonely here :(
 	workspaceNoHomeTip: 'Nie ustawiono strony startowej. Rozpocznij wybierając dokument z lewej strony', // You have not set up a homepage, please start using the document from the left menu.
 	workspaceOpenSomeDocuments: 'Otwórz dokumenty', // Open some documents
@@ -220,12 +220,12 @@
 	'rdl!description': 'Raport', // Report
 	'rdlx-template!name': 'Szablon raportu', // Report template
 	'rdlx-template!description': 'Szablon raportu', // Report template
-	'rdlx-master!name': 'Master Report',
-	'rdlx-master!description': 'Master Report',
+	'rdlx-master!name': 'Raport Główny', // Master Report
+	'rdlx-master!description': 'Raport Główny', // Master Report
 	'report!name': 'Raport', // Report
 	'report!description': 'Raport', // Report
-	'report-master!name': 'Master Report',
-	'report-master!description': 'Master Report',
+	'report-master!name': 'Raport Główny', // Master Report
+	'report-master!description': 'Raport Główny', // Master Report
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
 	'dbd!name': 'Dashboard',

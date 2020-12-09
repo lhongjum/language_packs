@@ -109,12 +109,12 @@ export const portalPL: LanguageKeyValueMap = {
 	psPermissions: 'Uprawnienia', // Premissions
 	psShare: 'Udostępnij', // Share
 	psNoSharing: 'Nie udostępniaj', // no sharing
-	'psExecute!name': 'Execute', // Execute
+	'psExecute!name': 'Wykonaj', // Execute
 	'psRead!name': 'Odczyt', // Read
 	'psReadWrite!name': 'Odczyt / Zapis', // Read / Write
 	psCancel: 'Anuluj', // Cancel
 	psSave: 'Zapisz', // Save
-	psNoRolesTip: 'no matched roles found', // no matched roles found
+	psNoRolesTip: 'nie znaleziono pasujących ról', // no matched roles found
 	psPermissionInfo: 'Informacje o Uprawnieniach', // Permission Information
 	psApplyMinNeededPermission: 'Nadaj minimalne wymagane uprawnienia', // Apply Minimum Needed Permission
 	psApplyMinNeededPermissionTip: 'Przyznasz uprawnienie \ "Wykonaj \" do dokumentów, do których istnieją odniesienia.', // You will grant the \"Execute\" permission to the referenced documents.
@@ -151,12 +151,12 @@ export const portalPL: LanguageKeyValueMap = {
 	'rdlx!description': 'Raport', // Report
 	'rdlx-template!name': 'Szablon raportu', // Report template
 	'rdlx-template!description': 'Szablon raportu', // Report template
-	'rdlx-master!name': 'Master Report',
-	'rdlx-master!description': 'Master Report',
+	'rdlx-master!name': 'Raport Główny', // Master Report
+	'rdlx-master!description': 'Raport Główny', // Master Report
 	'report!name': 'Raport',
 	'report!description': 'Raport',
-	'report-master!name': 'Master Report',
-	'report-master!description': 'Master Report',
+	'report-master!name': 'Raport Główny', // Master Report
+	'report-master!description': 'Raport Główny', // Master Report
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
 	'dbd!name': 'Pulpit Nawigacyjny', // Dashboard

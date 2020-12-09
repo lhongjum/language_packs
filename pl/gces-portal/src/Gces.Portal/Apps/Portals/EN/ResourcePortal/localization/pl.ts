@@ -2,9 +2,9 @@ export const portalPL: LanguageKeyValueMap = {
 	// Common
 	Logo: 'Logo',
 	Avatar: 'Avatar',
-	Expand: 'Expand',
-	Collapse: 'Collapse',
-	More: 'More...',
+	Expand: 'Rozwiń', //Expand
+	Collapse: 'Zwiń', //Collapse
+	More: 'Więcej', // More...
 
 	// Nav APP
 	naData: 'Dane', // Data
@@ -21,11 +21,11 @@ export const portalPL: LanguageKeyValueMap = {
 	naUploading: 'Ładowanie...', // Uploading...
 	naCommit: 'Zatwierdź', // Commit
 	naCancel: 'Anuluj', // Cancel
-	naClose: 'Close',
+	naClose: 'Zamknij', // Close
 	naReadyToCommit: 'Gotowy aby zatwierdzić', // Ready To Commit
 	naInvalidFiles: 'Nieprawidłowy', // Invalid
 	naUnresolvedFiles: 'Nierozwiązane', // Unresolved
-	naReferenceUnresolvedFiles: 'Missing reference',
+	naReferenceUnresolvedFiles: 'Brak odniesienia', // Missing reference
 	naUploading2: 'Ładowanie', // Uploading
 	naAlreadyExists: 'Już istnieje', // Already exist
 	ufiBtnTitleKeepBoth: 'Zachowaj oba dokumenty', // Keep both documents
@@ -51,7 +51,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'doc-info!description': '',
 	docInfoNoComment: 'Brak komentarza', // no comment
 	commentWithVersion: 'Wersja {{no}}: {{comment}}', // Version {{no}}: {{comment}}
-	infoPanelDescriptionPlaceholder: 'Please enter a document description',
+	infoPanelDescriptionPlaceholder: 'Wprowadź opis dokumentu', // Please enter a document description
 
 	// InfoTabSection
 	'themePreview!name': 'Podgląd', // Preview
