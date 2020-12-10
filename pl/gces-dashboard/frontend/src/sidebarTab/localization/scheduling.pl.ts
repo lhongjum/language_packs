@@ -67,7 +67,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	dailyEditorTextUnits: 'godzinie', // hour(s)
 
 	// Weekly Editor
-	weeklyEditorTextEvery: 'Every', // Every
+	weeklyEditorTextEvery: 'Każda/y', // Every
 	weeklyEditorTextUnits: 'tygodnia', // week(s)
 
 	// Monthly Editor
@@ -81,12 +81,12 @@ export const schedulingPL: LanguageKeyValueMap = {
 	monthlyEditorTextLastWeekday: 'Dnia powszedniego', // Weekday
 
 	// Delivery Editor
-	delEditorHeader: 'Dostawa', // Delivery 
+	delEditorHeader: 'Dostarczanie', // Delivery 
 	delEditorMenuEmail: 'Email',
 	delEditorMenuLocal: 'Lokalny magazyn', // Local Storage
 	delEditorMenuWFS: 'Udostępnienie pliku', // File Share
 
-	delEditorLocalStoreForever: 'Przechowuj na zawsze', // Store forever
+	delEditorLocalStoreForever: 'Przechowuj bezterminowo', // Store forever
 	delEditorLocalStoreUntil: 'Przechowuj do ...', // Store until...
 	delEditorLocalDeleteAfter: 'Czas wygaśnięcia ...', // Expiry Duration...
 	delEditorLocalTextOnDayUnits: 'Dni', // Day(s)
@@ -103,13 +103,13 @@ export const schedulingPL: LanguageKeyValueMap = {
 	delEditorMailDeleteAfter: 'Czas wygaśnięcia ...', // Expiry Duration...
 	delEditorMailAllowAnonymous: 'Zezwalaj na anonimowość', // Allow anonymous
 
-	expiryTimeUnitHour: 'Godziny', // Hours
-	expiryTimeUnitDay: 'Dni', // Days
-	expiryTimeUnitWeek: 'Tygodnie', // Weeks
-	expiryTimeUnitMonth: 'Miesiące', // Months
-	expiryTimeUnitYear: 'Lata', // Years
+	expiryTimeUnitHour: 'Godzinach', // Hours
+	expiryTimeUnitDay: 'Dniach', // Days
+	expiryTimeUnitWeek: 'Tygodniach', // Weeks
+	expiryTimeUnitMonth: 'Miesiącach', // Months
+	expiryTimeUnitYear: 'Latach', // Years
 
-	delEditorMailLabelEmailTo: 'Wyślij E-mail Do', // Email To
+	delEditorMailLabelEmailTo: 'Wyślij mailem do', // Email to
 	delEditorMailLabelEmailToLabel: 'Wpisz adres E-mail Do', // Please enter email to
 	delEditorMailLabelEmailToIsInvalid: 'Format adresu E-mail jest nieprawidłowy', // Email format is invalid
 	delEditorMailLabelInvalidDomainTip: 'Nieprawidłowa domena adresu E-mail', // Invalid Email Domain
@@ -161,7 +161,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	histTabNoHistory: 'Nie ma historii zadań dla tego dokumentu', // There is no task history for this document
 
 	// History & Job Items
-	hiStatusCancelled: 'Anulowany', // Cancelled
+	hiStatusCancelled: 'Anulowano', // Cancelled
 	hiStatusFailed: 'Niepowodzenie', // Failed
 	hiStatusCompleted: 'Zakończony', // Completed
 	hiStatusAccomplished: 'Zakończony', // Completed
