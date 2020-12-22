@@ -412,6 +412,7 @@ export const schedulingES: LanguageKeyValueMap = {
 	'reporting_worker_fail_check_no_dataset': 'An error occurred during report fail check procedure: Dataset not specified',
 
 	// Relative Dates
+	dtTextBack: 'Back to Calendar',
 	tbSpecificDate: 'Specific date',
 	tbRelativeDate: 'Relative date',
 	rdDay: 'day',

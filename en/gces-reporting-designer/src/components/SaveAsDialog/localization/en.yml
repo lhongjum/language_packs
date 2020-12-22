@@ -1,0 +1,34 @@
+cancelLabel: Cancel
+category: Category
+commentLabel: Comment
+report:
+  emptyNameTooltip: Report name cannot contain space-like symbols only.
+  getting: Getting Reports...
+  invalidName: Report name is not valid.
+  invalidNameTooltip: 'Please do not use restricted symbols ''<'', ''>'', ''\'', '':'', ''?'', ''*'', ''/'', ''|'', ''"'' and do not use ''.'' as the first symbol.'
+  nameLabel: Report Name
+  namePlaceholder: Enter report name here...
+  saveLabel: Save Report
+  saving: Saving Report...
+  tileLabel: Report
+  willBeOverwritten: Report will be overwritten.
+rolesSelector:
+  permission:
+    read: Read
+    readWrite: Read and Write
+  permissionTooltip: Select Permission Level...
+  roleTooltip: Role
+  shareLabel: Share
+saveAsTemplate: Save As Template
+template:
+  emptyNameTooltip: Template name cannot contain space-like symbols only.
+  getting: Getting Templates...
+  invalidName: Template name is not valid.
+  invalidNameTooltip: 'Please do not use restricted symbols ''<'', ''>'', ''\'', '':'', ''?'', ''*'', ''/'', ''|'', ''"'' and do not use ''.'' as the first symbol.'
+  nameLabel: Template Name
+  namePlaceholder: Enter template name here...
+  saveLabel: Save Template
+  saving: Saving Template...
+  tileLabel: Template
+  willBeOverwritten: Template will be overwritten.
+title: Save As

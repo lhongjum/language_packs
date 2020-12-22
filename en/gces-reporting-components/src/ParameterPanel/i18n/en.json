@@ -1,0 +1,76 @@
+[
+  {
+    "ns": "params",
+    "lng": "en",
+    "resources": {
+      "bool-true-label": "True",
+      "bool-false-label": "False",
+      "paramsTextInvalidValue": "Invalid Value",
+      "datePlaceholder": "Select Date..",
+      "daysViewHeaderFormat": "MMMM YYYY",
+      "ddpTextNull": "(null)",
+      "ddpTextSelectValue": "(select value)",
+      "ddpTextSelectAllValues": "(select all)",
+      "null": "Null",
+      "preview-btn-title": "Preview"
+    }
+  },
+  {
+    "ns": "rdlxparams",
+    "lng": "en",
+    "resources": {
+      "TextHasOutstandingDependencies": "* Parameter has outstanding dependencies",
+      "TextNeedBoolean": "* Wrong value. Make sure that you enter a valid boolean",
+      "TextNoEmptyStrings": "* Wrong value. Empty strings are not allowed",
+      "TextMaxInteger": "* Value cannot exceed 32-bit integer",
+      "TextNeedInteger": "* Wrong value. Make sure that you enter a valid integer",
+      "TextNeedFloat": "* Wrong value. Make sure that you enter a valid float",
+      "TextNeedDateTime": "* Wrong value. Make sure that you enter a valid date",
+      "TextUnknownError": "! Unknown validation error",
+      "TextValueExpected": "* Value Expected",
+      "TextPickFromList": "* Wrong value. Pick the right one from the list",
+      "TextSingleValueExpected": "* Single value expected",
+      "TextNoNull": "* Value cannot be null"
+    }
+  },
+  {
+    "ns": "paramsView",
+    "lng": "en",
+    "resources": {
+      "boolTextTrue": "True",
+      "boolTextFalse": "False",
+      "boolTextUnspecified": "Unspecified",
+      "btnTextPreview": "Preview",
+      "btnTextReset": "Reset",
+      "btnTextClear": "Clear",
+      "drDaysViewHeaderFormat": "MMMM YYYY",
+      "drTabLabelDaily": "Daily",
+      "drTabLabelMonthly": "Monthly",
+      "drTabLabelAnnually": "Annually",
+      "drTextBack": "Back to Calendar",
+      "drTextShortcutsList": "Common Ranges",
+      "drPlaceholderDateStart": "Start",
+      "drPlaceholderDateEnd": "End",
+      "drShortcutsLabelLastWeek": "Last week",
+      "drShortcutsLabelLastMonth": "Last month",
+      "drShortcutsLabelLastYear": "Last year",
+      "drShortcutsLabelWeekToDate": "Week to date",
+      "drShortcutsLabelMonthToDate": "Month to date",
+      "drShortcutsLabelYearToDate": "Year to date",
+      "drMonthYearOrder": "M-Y",
+      "dtTextSelectDate": "Select Date...",
+      "dtDaysViewHeaderFormat": "MMMM YYYY",
+      "dtMonthYearOrder": "M-Y",
+      "dtTextBack": "Back to Calendar",
+      "dtTextClear": "Clear",
+      "dtTextToday": "Today",
+      "ddeTextNull": "(null)",
+      "ddeTextSelectValue": "(select value)",
+      "ddeTextSelectAllValues": "(select all)",
+      "lblTextInvalidValue": "Invalid Value",
+      "listTextSelectAllValues": "(select all)",
+      "nwrpTextNull": "Null",
+      "btnTextSetDefaultValues": "Set default values"
+    }
+  }
+]

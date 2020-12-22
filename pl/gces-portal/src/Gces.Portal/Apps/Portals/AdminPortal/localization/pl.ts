@@ -61,6 +61,8 @@ export const portalPL: LanguageKeyValueMap = {
 	pcHideActions: 'Ukryj Akcje', // Hide Actions
 	pcHideActionsTip: 'Działa tylko, gdy opcja \'ukryjAkcje\' w URL jest wyłączona', // Only works when Allow \'hideActions\' In Url option is off
 	pcHideActionsPlaceHolder: 'Ustaw Ukryte Akcje (oddzielane przecinkami)', // Please Set Hide Actions(Separated by commas)
+	pcHideDocumentListColumns: 'Ukryj kolumny listy dokumentów', // Hide Document List Columns
+	pcHideDocumentListColumnsPlaceHolder: 'Ustaw ukrycie kolumny (oddzielone przecinkami)', // Please Set Hide columns(separated by commas)
 	pcEditPersonalInfo: 'Zarządzaj', // Manage Item
 	pcEditPersonalInfoTooltip: 'Zarządzaj niestandardowym atrybutem', // Manage Custom Property
 	pcLargeLogo: 'Duże logo', // Large Logo

@@ -1,4 +1,4 @@
 export const mbLocalePL = {
-    OK: 'OK', // OK
-    MessageBox: 'Wiadomość', // Message
+	OK: 'OK', // OK
+	MessageBox: 'Wiadomość', // Message
 };

@@ -11,7 +11,7 @@ export const rolePL: LanguageKeyValueMap = {
 	otCollapseAll: 'Zwiń Wszystko', // Collapse All
 	otOrganizationRoot: 'Global',
 	cmAddRole: 'Dodaj Rolę', // Add Role
-	rcDeleteRole: 'Usuń Rolę', //Delete Role
+	rcDeleteRole: 'Usuń Rolę', // Delete Role
 	rcDeleteRoleConfirmMessage: 'Czy jesteś pewien, że chcesz usunąć rolę "{{RoleName}}"?', // Are you sure you want to delete the role "{{RoleName}}"?
 	rcRoleName: 'Nazwa Roli', // Role Name
 	ecRoleMembers: 'Użytkownicy Roli', // Role Members

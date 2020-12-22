@@ -186,5 +186,5 @@ export const documentSectionRegisterLocalePL = {
 };
 
 export const previewParameterRegisterLocalePL = {
-	Preview: 'Podgląd', // Preview
+    Preview: 'Podgląd', // Preview
 };

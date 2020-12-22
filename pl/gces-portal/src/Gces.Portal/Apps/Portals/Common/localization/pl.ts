@@ -101,7 +101,7 @@ export const portalPL: LanguageKeyValueMap = {
 	previewDocumentError: 'Błąd podglądu', // Preview Error
 	errorAccessDenied: 'Nie masz uprawnień dostępu do niektórych dokumentów powiązanych z tym dokumentem.', // You do not have permission to access some of the documents referenced in this document.
 	updateDocumentHideInDocumentPortalError: 'Pokaż dokument w portalu nie powiodło się.', // Show document on portal failed.
-	insufficientReferenceDocNames: 'Niewystarczające dokumenty uprawnień: ', // \nInsufficient permission documents: 
+	insufficientReferenceDocNames: '\nNiewystarczające dokumenty uprawnień: ', // Insufficient permission documents:
 	docOrRefDocNotFound: 'Dokument lub dokument powiązany z id {{id}} nie znaleziony', // The document or the referenced document with id {{id}} not found.
 	downloadFailed: 'Pobieranie nie udane', // Download failed
 
@@ -109,12 +109,12 @@ export const portalPL: LanguageKeyValueMap = {
 	psPermissions: 'Uprawnienia', // Premissions
 	psShare: 'Udostępnij', // Share
 	psNoSharing: 'Nie udostępniaj', // no sharing
-	'psExecute!name': 'Wykonaj', // Execute
+	'psExecute!name': 'Execute', // Execute
 	'psRead!name': 'Odczyt', // Read
 	'psReadWrite!name': 'Odczyt / Zapis', // Read / Write
 	psCancel: 'Anuluj', // Cancel
 	psSave: 'Zapisz', // Save
-	psNoRolesTip: 'nie znaleziono pasujących ról', // no matched roles found
+	psNoRolesTip: 'no matched roles found', // no matched roles found
 	psPermissionInfo: 'Informacje o Uprawnieniach', // Permission Information
 	psApplyMinNeededPermission: 'Nadaj minimalne wymagane uprawnienia', // Apply Minimum Needed Permission
 	psApplyMinNeededPermissionTip: 'Przyznasz uprawnienie \ "Wykonaj \" do dokumentów, do których istnieją odniesienia.', // You will grant the \"Execute\" permission to the referenced documents.
@@ -151,12 +151,12 @@ export const portalPL: LanguageKeyValueMap = {
 	'rdlx!description': 'Raport', // Report
 	'rdlx-template!name': 'Szablon raportu', // Report template
 	'rdlx-template!description': 'Szablon raportu', // Report template
-	'rdlx-master!name': 'Raport Główny', // Master Report
-	'rdlx-master!description': 'Raport Główny', // Master Report
+	'rdlx-master!name': 'Master Report',
+	'rdlx-master!description': 'Master Report',
 	'report!name': 'Raport',
 	'report!description': 'Raport',
-	'report-master!name': 'Raport Główny', // Master Report
-	'report-master!description': 'Raport Główny', // Master Report
+	'report-master!name': 'Master Report',
+	'report-master!description': 'Master Report',
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
 	'dbd!name': 'Pulpit Nawigacyjny', // Dashboard
@@ -214,6 +214,10 @@ export const portalPL: LanguageKeyValueMap = {
 	'sysconfig-allowed-cors-origins!description': 'Dozwolone źródła dla polityki CORS.', // The allowed origins for CORS policy.
 	'sysconfig-exposed-headers!name': 'Wystawione Nagłówki(jeden Header na linię)', // Exposed Headers (one Header per line)
 	'sysconfig-exposed-headers!description': 'Nagłówki wystawione dla polityki CORS.', // The exposed headers for CORS policy.
+	'sysconfig-use-appinsights!name': 'Zezwól na Statystyki Aplikacji', // Allow Application Insights
+	'sysconfig-use-appinsights!description': 'Zezwól na Statystyki Aplikacji', // Allow Application Insights
+	'sysconfig-appinsights-instrumentation-key!name': 'Klucz oprzyrządowania', // Instrumentation Key
+	'sysconfig-appinsights-instrumentation-key!description': 'Klucz oprzyrządowania', // Instrumentation Key
 	EmptyConfigName: 'Nazwa konfiguracji systemu nie może być pusta.', // The system configuration name can not be empty.
 	GetConfigFailed: "Nie udało się pobrać wartości elementu konfiguracji systemu '{{name}}'.", // Failed to get the value of system configuration item '{{name}}'.
 	SetConfigFailed: "Nie udało się ustawić wartości elementu konfiguracji systemu '{{name}}'.", // Failed to set the value of system configuration item
@@ -339,7 +343,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'preview-rdlx-template!title': 'Podgląd Szablonu Raportu', // Report Template Preview
 	'preview-image!title': 'Podgląd Obrazu', // Image Preview
 	'preview-image/jpeg!title': 'Podgląd Obrazu', // Image Preview
-	'preview-image/bmp!title': 'Podgląd Obrazu', // Image Preview 
+	'preview-image/bmp!title': 'Podgląd Obrazu', // Image Preview
 	'preview-image/gif!title': 'Podgląd Obrazu', // Image Preview
 	'preview-image/png!title': 'Podgląd Obrazu', // Image Preview
 	'create-dbd!title': 'Utwórz Pulpit Nawigacyjny', // Create Dashboard

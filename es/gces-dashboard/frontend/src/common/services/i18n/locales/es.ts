@@ -1,4 +1,4 @@
-export const localeES = {
+export const localeES: any = {
   common: {
     nullDisplay: '[NULL]',
     emptyDisplay: '[Blank]',
@@ -24,6 +24,7 @@ export const localeES = {
     reload: 'Reload',
     builtIn: 'Built-in',
     edit: 'Edit',
+    others: 'Others',
   },
   documentType: {
     Unknown: 'Unknown',
@@ -35,6 +36,7 @@ export const localeES = {
     MapHierarchy: 'MapHierarchy',
     GeoJson: 'GeoJson',
     Report: 'Report',
+    FloorPlan: 'FloorPlan',
   },
   actions: {
     copy: 'Copy',
@@ -224,10 +226,16 @@ export const localeES = {
       },
       slicers: {
         title: 'Slicers',
+        builtInTitle: 'Built-in Slicers',
+        customTitle: 'Custom Slicers',
       },
       visuals: {
         title: 'Custom Visualization',
         placeholder: 'No custom visualization available',
+        searchPlaceholder: 'Search...',
+        smallIcons: 'Small Icons',
+        largeIcons: 'Large Icons',
+        list: 'List',
       },
     },
   },
@@ -888,6 +896,8 @@ export const localeES = {
         floorPlan: 'FloorPlan',
         areaBorderColor: 'Area Border',
         reverseColor: 'Reverse Color',
+        showTopN: 'Top N Grouping',
+        topN: 'Show',
         trellis: {
           padding: 'Trellis Padding',
           borderColor: 'Trellis Border Color',
@@ -984,7 +994,7 @@ export const localeES = {
         useAlternateRowStyle: 'Use Alternate Row Style',
         treatLastRowHeaderAsData: 'Last Row Header As Data',
         baseCustomStyleTemplate: 'Custom Style',
-        colHeaderVisible: 'Column Header Visible',
+        colHeaderVisible: 'Show Column Header',
         enableWordWrap: 'Word Wrap',
         scrollPattern: 'Smooth Scroll',
         enableUiFilter: 'Show Quick Filter',
@@ -992,6 +1002,24 @@ export const localeES = {
           label: 'AutoFit Column Width',
           useColHeader: 'Fit To Header',
           useContent: 'Fit To Content',
+        },
+        showRowNumber: 'Show Row Number',
+        rowNumberInsertPosition: {
+          title: 'Number Rows For',
+          first: 'Top Row Group',
+          last: 'Detail Rows',
+          all: 'All',
+        },
+        rowNumberCountRule: {
+          title: 'Row Number Scope',
+          global: 'Global',
+          region: 'Row Group',
+          page: 'Page',
+        },
+        rowNumberAdjoin: {
+          title: 'Row Number Position',
+          before: 'Before',
+          after: 'After',
         },
       },
       slicers: {
@@ -1213,6 +1241,11 @@ export const localeES = {
       hint: 'There is no conditional format setting added for this component. Please click the button above to add a new one.',
       bindData: 'No data bound to the component.',
       targetValue: 'Target Value',
+      appliedOnEntireRow: 'Apply on Entire Row',
+      applied2Row: 'True',
+      applied2Col: 'False',
+      pickUpCFStyle: 'Pick up a style',
+      rowNumber: 'Row Number',
     },
     conditionalFiltering: {
       title: 'Conditional Visualization Settings',
@@ -2011,8 +2044,8 @@ export const localeES = {
     docWithoutAccess: {
       title: 'Some used documents without access or not found.',
       content: {
-        enVersion: '{{dashboardCount}} dashboard, {{reportCount}} report, {{datasetCount}} dataset, {{imageCount}} image, {{geoJsonCount}} geoJson, {{mapHierarchyCount}} mapHierarchy, {{visualCount}} visualization and {{docThemeCount}} theme without access.',
-        cnVersion: '{{dashboardCount}} dashboard, {{reportCount}} report, {{datasetCount}} dataset, {{imageCount}} image, {{geoJsonCount}} geoJson, {{visualCount}} visualization and {{docThemeCount}} theme without access.',
+        enVersion: '{{dashboardCount}} dashboard, {{reportCount}} report, {{datasetCount}} dataset, {{imageCount}} image, {{geoJsonCount}} geoJson, {{mapHierarchyCount}} mapHierarchy, {{visualCount}} visualization, {{floorPlanCount}} floorPlan and {{docThemeCount}} theme without access.',
+        cnVersion: '{{dashboardCount}} dashboard, {{reportCount}} report, {{datasetCount}} dataset, {{imageCount}} image, {{geoJsonCount}} geoJson, {{visualCount}} visualization, {{floorPlanCount}} floorPlan and {{docThemeCount}} theme without access.',
       },
     },
     statusCode: {

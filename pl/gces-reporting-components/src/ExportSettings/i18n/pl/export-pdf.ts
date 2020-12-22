@@ -63,21 +63,6 @@ export default {
       "label": "Aplikacja",
       "category": "Różne"
     },
-    "Permissions": {
-      "label": "Uprawnienia",
-      "category": "Różne",
-      "enum": {
-        "None": "Brak",
-        "AllowPrint": "Drukowanie",
-        "AllowModifyContents": "Modyfikacja",
-        "AllowCopy": "Kopiowanie",
-        "AllowModifyAnnotations": "ModyfikacjaAdnotacji",
-        "AllowFillIn": "Wypełnianie",
-        "AllowAccessibleReaders": "DostępCzytnikówEkranu",
-        "AllowAssembly": "WstawianieStron",
-        "Default": "Domyślne"
-      }
-    },
     "Use128Bit": {
       "label": "Use128Bit",
       "category": "Różne"
@@ -221,6 +206,21 @@ export default {
     "UserPassword": {
       "label": "HasłoUżytkownika",
       "category": "UstawieniaZabezpieczeń"
+    },
+    "Permissions": {
+      "label": "Uprawnienia",
+      "category": "UstawieniaZabezpieczeń",
+      "enum": {
+        "None": "Brak",
+        "AllowPrint": "Drukowanie",
+        "AllowModifyContents": "Modyfikacja",
+        "AllowCopy": "Kopiowanie",
+        "AllowModifyAnnotations": "ModyfikacjaAdnotacji",
+        "AllowFillIn": "Wypełnianie",
+        "AllowAccessibleReaders": "DostępCzytnikówEkranu",
+        "AllowAssembly": "WstawianieStron",
+        "Default": "Domyślne"
+      }
     },
     "AddTimestamp": {
       "label": "Dodaj sygnaturę czasową do nazwy pliku",

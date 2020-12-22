@@ -32,7 +32,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	taskItemTextNever: 'Nigdy', // Never
 
 	// Task Editor
-	taskNoScheduleTemplateTip: 'Brak szablonu harmonogramu', // no schedule template  ### wielka litera
+	taskNoScheduleTemplateTip: 'Brak szablonu planowania', // no schedule template  ### wielka litera
 	taskEditorHeaderDetails: 'Szczegóły', // Details
 	taskEditorInputPlaceholderDescription: 'Opis zadania', // Task description
 	taskEditorLabelExecution: 'Wykonanie', // Execution  ### tutaj zależnie od kontekstu bardziej może pasować "Wykonanie"
@@ -53,18 +53,18 @@ export const schedulingPL: LanguageKeyValueMap = {
 	recEditorCloneFromTemplate: 'Użyj szablonu', // Use Template
 	recEditorChooseTemplate: 'Wybierz szablon', // Choose Template
 	recEditorTemplateHasBeenDeleted: 'Szablon został skasowany', // Template has been deleted
-	recEditorHeaderRepeat: 'Powtarzaj', // Repeat
+	recEditorHeaderRepeat: 'Powtórz', // Repeat
 	recEditorLabelStart: 'Start', // Start
-	recEditorLabelEnd: 'Zakończ', // End
-	recEditorPlaceholderNoEndDate: 'Brak Daty Zakończenia', // No End Date
-	recEditorDailyEditor: 'Codziennie', // Daily
-	recEditorWeeklyEditor: 'Co Tydzień', // Weekly
-	recEditorMonthlyEditor: 'Co Miesiąc', // Monthly
+	recEditorLabelEnd: 'Koniec', // End
+	recEditorPlaceholderNoEndDate: 'Brak daty końcowej', // No End Date
+	recEditorDailyEditor: 'Dziennie', // Daily
+	recEditorWeeklyEditor: 'Tygodniowo', // Weekly
+	recEditorMonthlyEditor: 'Miesięcznie', // Monthly
 	// UWAGA! Tu jest masakra, póki co zrobiłem skróty, bo w polskim trudniej niż w angielskim. Nie mogę tego znaleźć w apce.
 	// Daily Editor
 	dailyEditorTextAt: 'O {{time}}', // At {{time}}
-	dailyEditorTextEvery: 'Każdej', // Every
-	dailyEditorTextUnits: 'godzinie', // hour(s)
+	dailyEditorTextEvery: 'Co', // Every
+	dailyEditorTextUnits: 'godzin', // hour(s)
 
 	// Weekly Editor
 	weeklyEditorTextEvery: 'Każda/y', // Every
@@ -83,13 +83,13 @@ export const schedulingPL: LanguageKeyValueMap = {
 	delEditorHeader: 'Dostarczanie', // Delivery
 	delEditorMenuEmail: 'Email', // Email
 	delEditorMenuLocal: 'Lokalny magazyn', // Local Storage
-	delEditorMenuWFS: 'Udostępnienie pliku', // File Share
+	delEditorMenuWFS: 'Udostępnianie plików', // File Share
 
 	delEditorLocalStoreForever: 'Przechowuj bezterminowo', // Store forever
 	delEditorLocalStoreUntil: 'Przechowuj do...', // Store until...
-	delEditorLocalDeleteAfter: 'Czas wygaśnięcia ...', // Expiry Duration... ### a może wygaśnięcia / wygaszenia?
-	delEditorLocalTextOnDayUnits: 'Dni', // Day(s)
-	delEditorLocalAllowAnonymous: 'Zezwalaj na anonimowość', // Allow anonymous
+	delEditorLocalDeleteAfter: 'Usuń po...', // Expiry Duration... ### a może wygaśnięcia / wygaszenia?
+	delEditorLocalTextOnDayUnits: 'Dniach', // Day(s)
+	delEditorLocalAllowAnonymous: 'Dostęp anonimowy', // Allow anonymous
 
 	delEditorWFSLabelFileName: 'Nazwa pliku', // File Name
 	delEditorWFSLabelPath: 'Ścieżka', // Path
@@ -97,10 +97,10 @@ export const schedulingPL: LanguageKeyValueMap = {
 	delEditorWFSLabelUser: 'Użytkownik', // User
 	delEditorWFSLabelPassword: 'Hasło', // Password
 
-	delEditorMailStoreForever: 'Przechowuj na zawsze', // Store forever
-	delEditorMailStoreUntil: 'Przechowuj do ...', // Store until...
-	delEditorMailDeleteAfter: 'Czas wygaśnięcia ...', // Expiry Duration...
-	delEditorMailAllowAnonymous: 'Zezwalaj na anonimowość', // Allow anonymous
+	delEditorMailStoreForever: 'Przechowuj bezterminowo', // Store forever
+	delEditorMailStoreUntil: 'Przechowuj do...', // Store until...
+	delEditorMailDeleteAfter: 'Usuń po...', // Expiry Duration...
+	delEditorMailAllowAnonymous: 'Dostęp anonimowy', // Allow anonymous
 
 	expiryTimeUnitHour: 'Godzinach', // Hours
 	expiryTimeUnitDay: 'Dniach', // Days
@@ -109,11 +109,11 @@ export const schedulingPL: LanguageKeyValueMap = {
 	expiryTimeUnitYear: 'Latach', // Years
 
 	delEditorMailLabelEmailTo: 'Wyślij mailem do', // Email to
-	delEditorMailLabelEmailToLabel: 'Wpisz adres E-mail Do', // Please enter email to
-	delEditorMailLabelEmailToIsInvalid: 'Format adresu E-mail jest nieprawidłowy', // Email format is invalid
+	delEditorMailLabelEmailToLabel: 'Please enter email to',
+	delEditorMailLabelEmailToIsInvalid: 'Email format is invalid',
 	delEditorMailLabelInvalidDomainTip: 'Niepoprawna domena', // Invalid Email Domain
 	delEditorMailLabelReplyTo: 'Odpowiedz do', // Reply To
-	delEditorMailLabelReplyToLabel: 'Wpisz Odpowiedz Do', // Please enter reply to
+	delEditorMailLabelReplyToLabel: 'Please enter reply to',
 	delEditorMailLabelSubject: 'Temat', // Subject
 	delEditorMailLabelSubjectToolTip: 'Możesz odnieść się do dowolnego parametru w temacie, korzystając ze znaku zapytania (?), po którym podasz nazwę parametru. Nazwa raportu może zostać dodana poprzez &ReportName. Czas uruchomienia raportu może zostać dodany poprzez &ExecutionTime.', // You can reference any parameter in the subject by entering a question mark (?) followed by the parameter\'s name.The report\'s name can be referenced with the special placeholder &ReportName. The time the report was run can be referenced with the special placeholder &ExecutionTime.
 	delEditorMailLabelBody: 'Treść', // Body
@@ -127,38 +127,38 @@ export const schedulingPL: LanguageKeyValueMap = {
 
 	// Reporting Editor
 	reportingEditorHeaderExportFormat: 'Format eksportu', // Export Format
-	reportingEditorAdvancedExportSettings: 'Ustawienia Zaawansowane', // Advanced Settings
+	reportingEditorAdvancedExportSettings: 'Zaawansowane', // Advanced Settings
 	reportingEditorHeaderParameters: 'Parametry', // Parameters
-	reportingEditorParametersStateInitializing: 'Inicjowanie...', // Initializing...
-	reportingEditorParametersStateValidating: 'Weryfikuję...', // Validating... ### Ewentualnie po prostu "Sprawdzanie..."
-	reportingEditorParametersStateValid: 'Prawidłowe Parametry', // Valid Parameters
-	reportingEditorParametersStateinvalid: 'Nieprawidłowe Parametry', // Invalid Parameters
+	reportingEditorParametersStateInitializing: 'Rozpoczynanie...', // Initializing...
+	reportingEditorParametersStateValidating: 'Sprawdzanie poprawności...', // Validating... ### Ewentualnie po prostu "Sprawdzanie..."
+	reportingEditorParametersStateValid: 'Poprawne parametry', // Valid Parameters
+	reportingEditorParametersStateinvalid: 'Niepoprawne parametry', // Invalid Parameters
 	reportingEditorTextNoParameters: 'Raport nie ma parametrów', // report has no parameters
 
 	// Job Editor Saga
-	jeSagaQueueErrorTaskFailed: 'Zadanie nie powiodło się', // Task Failed  ### Tutaj do ustalenia jak tłumaczymy Failed
-	jeSagaQueueErrorExecFailed: 'Nie można wykonać zadania', // Unable to execute task'
-	jeSagaQueueErrorNoWorkers: 'Brak dostępnych workerów', // No workers available
+	jeSagaQueueErrorTaskFailed: 'Nie udało się wykonać zadania', // Task Failed  ### Tutaj do ustalenia jak tłumaczymy Failed
+	jeSagaQueueErrorExecFailed: 'Nie udało się uruchomić zadania', // Unable to execute task'
+	jeSagaQueueErrorNoWorkers: 'Usługi Raportowe niedostępne', // No workers available
 	jeSagaQueueErrorUnknown: 'Nieznany błąd', // Unknown Error
 
 	jeSagaTextJobEditorError: 'Błąd edytora zadań', // Job Editor Error ### Do ustalenia czy Job chcemy tak zostawić -- być może jako "zadanie", ale wtedy może się mieszać z Task
 	jeSagaTextParametersError: 'Nie można pobrać parametrów raportu', // Unable to get report parameters
 	jeSagaTextParameterValuesError: 'Nie można pobrać wartości parametrów', // Unable to get parameter values
 
-	jeSagaFail: 'Reporting Job Editor: Nieznany Błąd', // Reporting Job Editor: Unknown Error ### jw.
+	jeSagaFail: 'Edytor zadań: Nieznany błąd', // Reporting Job Editor: Unknown Error ### jw.
 
 	// History Tab
-	histTabHeaderRunning: 'W trakcie', // Running ### Uruchomiony? - do ustalenia
-	histTabHeaderResults: 'Rezultat', // Results
+	histTabHeaderRunning: 'Przetwarzanie', // Running ### Uruchomiony? - do ustalenia
+	histTabHeaderResults: 'Wyniki', // Results
 	histTabNoHistory: 'Nie ma historii zadań dla tego dokumentu', // There is no task history for this document
 
 	// History & Job Items
 	hiStatusCancelled: 'Anulowano', // Cancelled
 	hiStatusFailed: 'Niepowodzenie', // Failed ### Tutaj do ustalenia jak tłumaczymy Failed -- w tym miejscu lepiej mogłoby pasować Niepowodzenie
-	hiStatusCompleted: 'Zakończony', // Completed
-	hiStatusAccomplished: 'Zakończony', // Completed
+	hiStatusCompleted: 'Ukończono', // Completed
+	hiStatusAccomplished: 'Ukończono', // Completed
 	jiStatusQueued: 'W kolejce', // Queued
-	jiStatusRunning: 'W trakcie', // Running  ### Uruchomiony?
+	jiStatusRunning: 'Przetwarzanie', // Running  ### Uruchomiony?
 
 	hiTitleDownload: 'Pobieranie', // Download
 	hiTitleShowError: 'Pokaż szczegóły błędu', // Show error details
@@ -412,6 +412,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	'reporting_worker_fail_check_no_dataset': 'Wystąpił błąd podczas sprawdzania raportu: nie wskazano Zestawu Danych', // An error occurred during report fail check procedure: Dataset not specified
 
 	// Relative Dates
+	dtTextBack: 'Powrót do kalendarza',
 	tbSpecificDate: 'Konkretna Data',
 	tbRelativeDate: 'Data Względna',
 	rdDay: 'dzień',

@@ -185,11 +185,11 @@ export const portalES: LanguageKeyValueMap = {
 	pvTitle: 'Document preview',
 
 	// License Notification
-	messageGracePeriod: "Note: This server's license has expired on {{alertDate}}. Please renew immediately by contacting GrapeCity Sales at US.Sales@grapecity.com. The server will stop working on {{expireDate}}.",
-	messageTrial: 'Note: You are running an evaluation version. Please contact GrapeCity Sales at US.Sales@grapecity.com to activate a full license.',
-	messageTrialWillExpire: 'Note: You are running an evaluation version. Your evaluation is due to expire in {{remainDays}} days. Please contact GrapeCity Sales at US.Sales@grapecity.com to activate a full license and prevent loss of functionality.',
-	messageTrialExpired: 'Note: Your evaluation has expired on {{expireDate}}. Please contact GrapeCity Sales at US.Sales@grapecity.com to purchase a full license.',
-	messageKeyExpired: "Note: This server's license has expired on {{expireDate}}. Please renew immediately by contacting GrapeCity Sales at US.Sales@grapecity.com.",
+	messageGracePeriod: "Note: This server's license has expired on {{alertDate}}. Please renew immediately by contacting GrapeCity Sales at Wyn.Sales@grapecity.com. The server will stop working on {{expireDate}}.",
+	messageTrial: 'Note: You are running an evaluation version. Please contact GrapeCity Sales at Wyn.Sales@grapecity.com to activate a full license.',
+	messageTrialWillExpire: 'Note: You are running an evaluation version. Your evaluation is due to expire in {{remainDays}} days. Please contact GrapeCity Sales at Wyn.Sales@grapecity.com to activate a full license and prevent loss of functionality.',
+	messageTrialExpired: 'Note: Your evaluation has expired on {{expireDate}}. Please contact GrapeCity Sales at Wyn.Sales@grapecity.com to purchase a full license.',
+	messageKeyExpired: "Note: This server's license has expired on {{expireDate}}. Please renew immediately by contacting GrapeCity Sales at Wyn.Sales@grapecity.com.",
 	messageKeyVersionNotMatched: 'Note: License is not valid for this version of Wyn.',
 
 	// Toolbar
@@ -212,6 +212,10 @@ export const portalES: LanguageKeyValueMap = {
 	'sysconfig-allowed-cors-origins!description': 'The allowed origins for CORS policy.',
 	'sysconfig-exposed-headers!name': 'Exposed Headers (one Header per line)',
 	'sysconfig-exposed-headers!description': 'The exposed headers for CORS policy.',
+	'sysconfig-use-appinsights!name': 'Allow Application Insights',
+	'sysconfig-use-appinsights!description': 'Allow Application Insights',
+	'sysconfig-appinsights-instrumentation-key!name': 'Instrumentation Key',
+	'sysconfig-appinsights-instrumentation-key!description': 'Instrumentation Key',
 	EmptyConfigName: 'The system configuration name can not be empty.',
 	GetConfigFailed: "Failed to get the value of system configuration item '{{name}}'.",
 	SetConfigFailed: "Failed to set the value of system configuration item '{{name}}'.",

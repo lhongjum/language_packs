@@ -143,7 +143,8 @@ export const datasetES = {
 	TableNameCanNotBeEmpty: 'The table name can not be empty',
 	ReplaceTable: 'Replace Table',
 	ConfirmReplace: 'Confirm to replace {{source}} with {{target}}?',
-	GenerateAliasDescription: 'Generate alias by MS_Description',
+	GenerateAliasSqlDescription: 'Generate alias by MS_Description',
+	GenerateAliasPostgreDescription: 'Generate alias by Comment',
 
 	// custom sql table
 	ChooseDataConnection: 'Choose Data Connection',
@@ -155,6 +156,7 @@ export const datasetES = {
 	QueryType: 'Query Type',
 	QueryType_Text: 'Text',
 	QueryType_StoredProcedure: 'Stored Procedure',
+	QueryType_NativeQuery: 'Native Query',
 	DeleteCustomSqlTableTitle: 'Delete Custom Sql Table',
 	DeleteCustomSqlTableConfirmMsg: 'Delete Custom Sql Table "{{name}}" forever?',
 	Procedures: 'Procedures',

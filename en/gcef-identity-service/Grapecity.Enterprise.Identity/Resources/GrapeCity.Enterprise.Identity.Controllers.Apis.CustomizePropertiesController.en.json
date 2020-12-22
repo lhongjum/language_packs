@@ -1,0 +1,16 @@
+﻿{
+  "resources": [
+    {
+      "key": "CPC_CustomizePropertyAlreadyExists",
+      "value": "Customize property already exists."
+    },
+    {
+      "key": "CPC_CustomizePropertyNotExist",
+      "value": "Customize property does not exist."
+    },
+    {
+      "key": "CPC_InvalidCustomizePropertyName",
+      "value": "Invalid customize property name. The length of customize property name should be between 1 and 64, and the name can not contains '<', '>', '/', '\\\\', '$' and some invalid keywords."
+    }
+  ]
+}

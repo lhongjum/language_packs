@@ -12,7 +12,7 @@ $settings:
   snapToGrid: false
   snapToGuides: false
 about:
-  applicationVersion: "Application Ver: {applicationVersion}"
+  applicationVersion: "Application version: {applicationVersion}"
   close: Close
   coreVersion: "Core version: {coreVersion}"
   title: "About {applicationTitle}"

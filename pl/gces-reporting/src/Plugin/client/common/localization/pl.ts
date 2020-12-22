@@ -49,8 +49,8 @@ export default {
 	tpDetailsModified: 'Zmodyfikowany', // Modified
 	tpDetailsModifiedBy: 'Zmodyfikowany przez', // Modified By
 
-	tpWizardBlankPage: 'Pusty raport stronicowy', // Blank Page Report
-	tpWizardBlankRDL: 'Pusty raport regularny', // Blank RDL Report
+	tpWizardBlankPage: 'Pusty raport', // Blank Page Report
+	tpWizardBlankRDL: 'Pusty raport RDL', // Blank RDL Report
 
 	sysTagNoCategory: 'Brak kategorii', // No Category 
 	sysTagResources: 'Zasoby', // Resources
@@ -89,8 +89,8 @@ export default {
 	'report!description': 'Raport', // Report
 	'template!name': 'Szablon', // Template
 	'template!description': 'Szablon', // Template
-	'masterReport!name': 'Master Report',
-	'masterReport!description': 'Master Report',
+	'masterReport!name': 'Raport główny',
+	'masterReport!description': 'Raport główny',
 
 	// Verbs
 	'createReport!name': 'Stwórz raport', // Create Report

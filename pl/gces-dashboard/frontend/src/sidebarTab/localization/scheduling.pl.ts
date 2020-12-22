@@ -67,7 +67,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	dailyEditorTextUnits: 'godzinie', // hour(s)
 
 	// Weekly Editor
-	weeklyEditorTextEvery: 'Każda/y', // Every
+	weeklyEditorTextEvery: 'Every', // Every
 	weeklyEditorTextUnits: 'tygodnia', // week(s)
 
 	// Monthly Editor
@@ -81,12 +81,12 @@ export const schedulingPL: LanguageKeyValueMap = {
 	monthlyEditorTextLastWeekday: 'Dnia powszedniego', // Weekday
 
 	// Delivery Editor
-	delEditorHeader: 'Dostarczanie', // Delivery 
+	delEditorHeader: 'Dostawa', // Delivery 
 	delEditorMenuEmail: 'Email',
 	delEditorMenuLocal: 'Lokalny magazyn', // Local Storage
 	delEditorMenuWFS: 'Udostępnienie pliku', // File Share
 
-	delEditorLocalStoreForever: 'Przechowuj bezterminowo', // Store forever
+	delEditorLocalStoreForever: 'Przechowuj na zawsze', // Store forever
 	delEditorLocalStoreUntil: 'Przechowuj do ...', // Store until...
 	delEditorLocalDeleteAfter: 'Czas wygaśnięcia ...', // Expiry Duration...
 	delEditorLocalTextOnDayUnits: 'Dni', // Day(s)
@@ -103,13 +103,13 @@ export const schedulingPL: LanguageKeyValueMap = {
 	delEditorMailDeleteAfter: 'Czas wygaśnięcia ...', // Expiry Duration...
 	delEditorMailAllowAnonymous: 'Zezwalaj na anonimowość', // Allow anonymous
 
-	expiryTimeUnitHour: 'Godzinach', // Hours
-	expiryTimeUnitDay: 'Dniach', // Days
-	expiryTimeUnitWeek: 'Tygodniach', // Weeks
-	expiryTimeUnitMonth: 'Miesiącach', // Months
-	expiryTimeUnitYear: 'Latach', // Years
+	expiryTimeUnitHour: 'Godziny', // Hours
+	expiryTimeUnitDay: 'Dni', // Days
+	expiryTimeUnitWeek: 'Tygodnie', // Weeks
+	expiryTimeUnitMonth: 'Miesiące', // Months
+	expiryTimeUnitYear: 'Lata', // Years
 
-	delEditorMailLabelEmailTo: 'Wyślij mailem do', // Email to
+	delEditorMailLabelEmailTo: 'Wyślij E-mail Do', // Email To
 	delEditorMailLabelEmailToLabel: 'Wpisz adres E-mail Do', // Please enter email to
 	delEditorMailLabelEmailToIsInvalid: 'Format adresu E-mail jest nieprawidłowy', // Email format is invalid
 	delEditorMailLabelInvalidDomainTip: 'Nieprawidłowa domena adresu E-mail', // Invalid Email Domain
@@ -161,7 +161,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	histTabNoHistory: 'Nie ma historii zadań dla tego dokumentu', // There is no task history for this document
 
 	// History & Job Items
-	hiStatusCancelled: 'Anulowano', // Cancelled
+	hiStatusCancelled: 'Anulowany', // Cancelled
 	hiStatusFailed: 'Niepowodzenie', // Failed
 	hiStatusCompleted: 'Zakończony', // Completed
 	hiStatusAccomplished: 'Zakończony', // Completed
@@ -194,7 +194,6 @@ export const schedulingPL: LanguageKeyValueMap = {
 	executionErr_12001: '[Błąd wykonania] Wyjątek RefreshCot {{errorMessage}}.', // [Execution Error] RefreshCot exception. {{errorMessage}}.
 	executionErr_13001: '[Błąd wykonania] {{errorMessage}}.', // [Execution Error] {{errorMessage}}.
 
-
 	// Deployment Error Message
 	deploymentErr_10001: '[Błąd wdrożenia] Błąd domeny: adres odbiorcy spoza Twojej organizacji', // [Deployment Error] Email domain error: Recipients email address outside your organization.
 	deploymentErr_10002: '[Błąd wdrożenia] Błąd przy wysyłce wiadomości: {{errorMessage}}.', // [Deployment Error] Mailing error: {{errorMessage}}.
@@ -221,9 +220,6 @@ export const schedulingPL: LanguageKeyValueMap = {
 	taskErr_30019: 'Nie możesz tworzyć ani aktualizować zadań ręcznych i jednorazowych ze względu na ustawienia wprowadzone przez administratora.', // Your cannot create or update manual and one time task due to settings by administrator.
 	taskErr_30020: 'Nie można udostępniać plików z powodu ustawień administratora.', // Delivery cannot be file share due to settings by administrator.
 	taskErr_30021: 'Identyfikator URI portalu jest wymagany podczas tworzenia zadań do raportu. Prosimy o kontakt z Administratorem', // Portal URI is required when creating tasks for report. Please contact the Administrator
-	taskErr_30022: 'Identyfikator URI portalu jest wymagany podczas tworzenia zadań dla źródła danych. Prosimy o kontakt z Administratorem.', // Portal URI is required when creating tasks for data source. Please contact the Administrator.
-	taskErr_30023: 'Identyfikator URI portalu jest wymagany podczas tworzenia zadań dla zestawu danych. Prosimy o kontakt z Administratorem.', // Portal URI is required when creating tasks for dataset. Please contact the Administrator.
-	taskErr_30024: 'Nie udało się utworzyć zadania, bieżący zbiór danych utworzył już zadanie w innej organizacji.', // Failed to create task, the current dataset has already created the task in other organization.
 
 	// SAGA: enable/disable task
 	sagaTextErrorUpdatingTaskList: 'Błąd podczas aktualizowania listy zadań', // Error updating task list

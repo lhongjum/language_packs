@@ -5,6 +5,7 @@ export const es = {
 	err_10021: 'Exceeded max column\'s count, limit count: 1024.\nCurrent count: {{currentCount}}.',
 	FetchDataFailed: 'Fetch data failed.',
 	DataSourcePreview: 'Data Source Preview',
+	EmptySchemaTip: 'Can not get the datasource schema',
 
 	err_100001: 'Invalid parameter: {{name}}.',
 	err_100002: 'Internal server error: {{message}}.',

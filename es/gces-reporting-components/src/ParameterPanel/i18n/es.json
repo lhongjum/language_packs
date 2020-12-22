@@ -69,7 +69,8 @@
       "ddeTextSelectAllValues": "(select all)",
       "lblTextInvalidValue": "Invalid Value",
       "listTextSelectAllValues": "(select all)",
-      "nwrpTextNull": "Null"
+      "nwrpTextNull": "Null",
+      "btnTextSetDefaultValues": "Set default values"
     }
   }
 ]

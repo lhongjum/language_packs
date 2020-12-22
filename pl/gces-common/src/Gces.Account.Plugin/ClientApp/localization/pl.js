@@ -110,6 +110,9 @@ export const accountPL = {
 	Register: 'Zarejestruj', // Register
 	Deregister: 'Wyrejestruj', // Deregister
 	Refresh: 'Odśwież', // Refresh
+	ForceOfflineRegister: 'Rejestracja Offline', // Offline Register
+	ForceOfflineDeregister: 'Wyrejestrowanie Offline', // Offline Deregister
+	ForceOfflineRefresh: 'Odświeżenie Offline', // Offline Refresh
 	Summary: 'Podsumowanie', // Summary
 	DeregisterConfirm: 'Potwierdź wyrejestrowanie licencji', // Confirm Licence Deregister
 	DeregisterConfirmMessage: 'Czy jesteś pewien, że chcesz wyrejestrować licencję "{{license}}"?', // Are you sure you want to deregister license "{{license}}"?

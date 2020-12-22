@@ -25,8 +25,8 @@ export const datasetPL = {
 	Comment: 'Komentarz', // Comment
 	Yes: 'Tak', // Yes
 	No: 'Nie', // No
-	Expand: 'Rozwiń', //Expand
-	Collapse: 'Zwiń', //Collapse
+	Expand: 'Expand',
+	Collapse: 'Collapse',
 	MessageBox: 'Wiadomość', // Message
 	RefreshDataSet: 'Odśwież zestaw danych', // Refresh Dataset
 	Refreshing: 'Odświeżanie', // Refreshing
@@ -142,7 +142,8 @@ export const datasetPL = {
 	TableNameCanNotBeEmpty: 'Nazwa tabeli nie może być pusta', // The table name can not be empty
 	ReplaceTable: 'Replace Table',
 	ConfirmReplace: 'Confirm to replace {{source}} with {{target}}?',
-	GenerateAliasDescription: 'Generate alias by MS_Description',
+	GenerateAliasSqlDescription:  'Genereuj alias według MS_Description', // Generate alias by MS_Description
+	GenerateAliasPostgreDescription: 'Generuj alias według Komentarza', // Generate alias by Comment
 
 	// custome sql table
 	ChooseDataConnection: 'Wybierz połączenie danych', // Choose Data Connection
@@ -155,6 +156,7 @@ export const datasetPL = {
 	QueryType: 'Zawartość zapytania', // QueryType
 	QueryType_Text: 'Tekst', // Text
 	QueryType_StoredProcedure: 'Procedura składowana', // Stored procedure
+	QueryType_NativeQuery: 'Zapytanie Natywne', // Native Query
 	DeleteCustomSqlTableTitle: 'Usuń własną tabelę SQL', // Delete Custom Sql Table
 	DeleteCustomSqlTableConfirmMsg: 'Usunąć własną tabelę SQL "{{name}}" na zawsze?', // Delete Custom Sql Table "{{name}}" forever?
 

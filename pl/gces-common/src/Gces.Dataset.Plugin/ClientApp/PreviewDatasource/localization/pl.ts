@@ -1,10 +1,12 @@
 
-export const pl =  {
+export const pl = {
 	OK: 'OK', // OK
 	MessageBox: 'Wiadomość', // Message
 	PreviewDataLimitation: 'Podgląd danych, pokaż maksymalnie 100 linijek', // Preview data, show 100 lines at most.
 	err_10021: 'Przekroczono maksymalną liczbę kolumn, limit wynosi: 1024.\nAktualna liczba: {{currentCount}}.', // Exceeded max column\'s count, limit count: 1024.\nCurrent count: {{currentCount}}.
 	FetchDataFailed: 'Pozyskanie danych nie powiodło się.', // Fetch data failed.
+	EmptySchemaTip: 'Nie można pobrać schematu źródła danych', // Can not get the datasource schema
+
 	err_100001: 'Nieprawidłowy parametr: {name}.', // Invalid parameter: {name}.
 	err_100002: 'Błąd wewnętrzny serwera: {message}.', // Internal server error: {message}.
 	err_100005: 'Dostawca danych "{name}" nie został znaleziony.', // Data provider "{name}" not found.

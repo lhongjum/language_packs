@@ -60,6 +60,8 @@ export const portalES: LanguageKeyValueMap = {
 	pcHideActions: 'Hide Actions',
 	pcHideActionsTip: 'Only works when Allow \'hideActions\' In Url option is off',
 	pcHideActionsPlaceHolder: 'Please Set Hide Actions(Separated by commas)',
+	pcHideDocumentListColumns: 'Hide Document List Columns',
+	pcHideDocumentListColumnsPlaceHolder: 'Please Set Hide columns(Separated by commas)',
 	pcEditPersonalInfo: 'Manage',
 	pcEditPersonalInfoTooltip: 'Manage Custom Property',
 	pcLargeLogo: 'Large Logo',
@@ -319,6 +321,8 @@ export const portalES: LanguageKeyValueMap = {
 	'previewPagesSettings_previewPages': 'Preview pages',
 	'previewPagesSettings_hint': 'Limit preview pages setting limits number of report pages to be rendered in viewer. You can render a full report by clicking \'Run Full Report\'. This won\'t affect scheduling and exporting.',
 	'reporting!disableFocusTimer': 'Focus always visible',
+	'reporting!hideBlankRDLReport': 'Hide blank RDL report',
+	'reporting!hideBlankPageReport': 'Hide blank Page report',
 
 	'scheduleSettings!title': 'Schedule Settings',
 	'scheduleSettings!description': 'Schedule Settings management',
@@ -358,6 +362,9 @@ export const portalES: LanguageKeyValueMap = {
 	'UpdateNotificationSkipVersionError': 'Failed to skip the version',
 	'UpdateNotificationSkipVersionSuccess': ' Skipped version successfully',
 	'UpdateNotificationSkipVersionSuccessDetail': 'Success to skip the version "Version {{version}}"',
+	'vsReleaseTime': 'Release Date:',
+	'vsSummary': 'Summary:',
+	'vsViewDetail': 'View Detail',
 
 	err_20015: 'Category name "{{tagName}}" cannot start with \"$\".',
 	err_20016: 'Category with the id "{{tagId}}" not found.',
