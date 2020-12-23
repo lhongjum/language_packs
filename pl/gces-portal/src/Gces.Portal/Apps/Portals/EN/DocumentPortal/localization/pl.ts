@@ -1,7 +1,7 @@
 export const portalPL: LanguageKeyValueMap = {
 	// common
 	close: 'Close',
-	more: 'More...',
+	more: 'Więcej...', //More...
 
 	// Nav APP
 	naServerIsUnavailable: 'Serwer jest niedostępny', // Server is unavailable.
