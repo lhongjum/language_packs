@@ -4,7 +4,7 @@ export const portalPL: LanguageKeyValueMap = {
 	Avatar: 'Avatar',
 	Expand: 'Expand',
 	Collapse: 'Collapse',
-	More: 'More...',
+	More: 'Więcej...', //More...
 
 	// Nav APP
 	naData: 'Dane', // Data
