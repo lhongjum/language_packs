@@ -3,7 +3,7 @@ export const datasetPL = {
 
 	// common
 	Save: 'Zapisz', // Save
-	SaveAndCreateAnother: 'Save And Create Another',
+	SaveAndCreateAnother: 'Zapisz i Stwórz Kolejny', // Save And Create Another
 	OK: 'OK', // OK
 	Cancel: 'Anuluj', // Cancel
 	Close: 'Zamknij', // Close
@@ -25,8 +25,8 @@ export const datasetPL = {
 	Comment: 'Komentarz', // Comment
 	Yes: 'Tak', // Yes
 	No: 'Nie', // No
-	Expand: 'Expand',
-	Collapse: 'Collapse',
+	Expand: 'Rozwiń', // Expand
+	Collapse: 'Zwiń', // Collapse
 	MessageBox: 'Wiadomość', // Message
 	RefreshDataSet: 'Odśwież zestaw danych', // Refresh Dataset
 	Refreshing: 'Odświeżanie', // Refreshing
@@ -40,9 +40,9 @@ export const datasetPL = {
 	TableCanNotFound: 'Tabela ({{table}}) nie została znaleziona.', // Table({{table}}) can not found.
 	cgridMore: 'Więcej', // More
 	tooManyFieldsWarning: '{{count}}(więcej niż 30) pól jest obecnie wybranych jako wyjście, co może wpłynąć na wydajność obliczeń.', // {{count}}(more than 30) fields are currently selected for output, which may affect calculation performance.
-	datasourceUnknown: 'Deleted',
-	Parameters: 'Parameters',
-	Validating: 'Validating...',
+	datasourceUnknown: 'Usunięty', // Deleted
+	Parameters: 'Parametry', // Parameters
+	Validating: 'Sprawdzanie...', // Validating...
 
 	// designer mode modal
 	SelectCreateMode: 'Wybierz tryb towrzenia zestawu danych', // Please select create dataset mode
