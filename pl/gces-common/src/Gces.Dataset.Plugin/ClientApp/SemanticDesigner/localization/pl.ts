@@ -19,7 +19,7 @@
 	back: 'Wstecz', // Back
 	next: 'Następny', // Next
 	done: 'Zrobione', // Done
-	close: 'Close',
+	close: 'Zamknij', // Close
 	CreateSemanticIframeTitle: 'Create Semantic Model',
 	EditSemanticIframeTitle: 'Edit Semantic Model',
 

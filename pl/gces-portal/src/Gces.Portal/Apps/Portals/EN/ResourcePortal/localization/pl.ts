@@ -21,7 +21,7 @@ export const portalPL: LanguageKeyValueMap = {
 	naUploading: 'Ładowanie...', // Uploading...
 	naCommit: 'Zatwierdź', // Commit
 	naCancel: 'Anuluj', // Cancel
-	naClose: 'Close',
+	naClose: 'Zamknij', // Close
 	naReadyToCommit: 'Gotowy aby zatwierdzić', // Ready To Commit
 	naInvalidFiles: 'Nieprawidłowy', // Invalid
 	naUnresolvedFiles: 'Nierozwiązane', // Unresolved
@@ -51,7 +51,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'doc-info!description': '',
 	docInfoNoComment: 'Brak komentarza', // no comment
 	commentWithVersion: 'Wersja {{no}}: {{comment}}', // Version {{no}}: {{comment}}
-	infoPanelDescriptionPlaceholder: 'Please enter a document description',
+	infoPanelDescriptionPlaceholder: 'Dodaj opis dokumentu', // Please enter a document description
 
 	// InfoTabSection
 	'themePreview!name': 'Podgląd', // Preview

@@ -19,7 +19,7 @@ export const designerResourcePL: LanguageKeyValueMap = {
 	Yes: 'Tak', // Yes
 	No: 'Nie', // No
 	OK: 'OK',
-	Close: 'Close',
+	Close: 'Zamknij', // Close
 	EditName: 'Edytuj nazwę', // Edit Name
 	Name: 'Nazwa', // Name
 	Description: 'Komentarz', // Comment
