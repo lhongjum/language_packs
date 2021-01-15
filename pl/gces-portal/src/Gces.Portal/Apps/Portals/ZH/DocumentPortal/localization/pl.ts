@@ -139,13 +139,13 @@
 	infoPanelPermissions: 'Uprawnienia', // Permissions
 	infoPanelCategories: 'Kategorie', // Categories
 	infoPanelDescription: 'Opis', // Description
-	infoPanelDescriptionPlaceholder: 'Please enter a document description',
+	infoPanelDescriptionPlaceholder: 'Dodaj opis dokumentu', // Please enter a document description
 	infoPanelMobileVisible: 'Dostępny na urządzeniach mobilnych', // Mobile Visible
 	infoPanelMobileVisibleShow: 'Pokaż', // Show
 	infoPanelMobileVisibleHide: 'Ukryj', // Hide
-	infoPanelHideInDocumentPortal: 'Hide In Document Portal',
-	infoPanelHideInDocumentPortalShowStateLabel: 'False',
-	infoPanelHideInDocumentPortalHideStateLabel: 'True',
+	infoPanelHideInDocumentPortal: 'Ukryj W Portalu Dokumentów', // Hide In Document Portal
+	infoPanelHideInDocumentPortalShowStateLabel: 'Fałsz', // False
+	infoPanelHideInDocumentPortalHideStateLabel: 'Prawda', // True
 
 	// Document info
 	docInfoRevisions: 'Wersje', // Revisions
@@ -195,8 +195,8 @@
 	deleteDocumentConfirmMsg: 'Usunąć dokument "{{name}}" na zawsze?', // Delete document "{{name}}" forever?
 	ok: 'OK',
 	cancel: 'Anuluj', // Cancel
-	close: 'Close',
-	back: 'Back',
+	close: 'Zamknij', // Close
+	back: 'Wróć', // Back
 
 	// Workspace
 	workspaceInfo: 'Informacje', // Info

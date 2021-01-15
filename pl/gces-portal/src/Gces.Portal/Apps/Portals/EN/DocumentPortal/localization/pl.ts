@@ -1,6 +1,6 @@
 export const portalPL: LanguageKeyValueMap = {
 	// common
-	close: 'Close',
+	close: 'Zamknij', // Close
 	more: 'Więcej...', //More...
 
 	// Nav APP

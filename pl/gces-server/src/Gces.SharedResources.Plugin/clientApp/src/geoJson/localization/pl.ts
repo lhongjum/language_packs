@@ -74,7 +74,7 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	name: 'Nazwa', // Name
 	description: 'Opis', // Description
 	OK: 'OK',
-	Close: 'Close',
+	Close: 'Zamknij', // Close
 	messageBox: 'Wiadomość', // Message Box
 	hierarchyEditorTitle: 'Edytor hierarchii', // Hierarchy Editor
 	geoJsonSearchPlaceHolder: 'Szukaj GeoJSON', // search geojson
