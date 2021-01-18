@@ -5,7 +5,7 @@ export const portalPL: LanguageKeyValueMap = {
 	GettingReady: 'Przygotowanie', // Getting Ready
 	Close: 'Zamknij', // Close
 	Logo: 'Logo',
-	Avatar: 'Avatar',
+	Avatar: 'Awatar',
 	EmptyPage: 'Pusta Strona', // Empty Page
 	SearchCategory: 'Wybierz kategorię', // Select category
 	cmEmptyResult: 'pusty wynik', // empty result
@@ -22,14 +22,14 @@ export const portalPL: LanguageKeyValueMap = {
 	naCategories: 'Kategorie', // Categories
 	naCategorySettingsTitle: 'Zarządzaj własnymi kategoriami', // Manage personal Categories
 	naUpload: 'Załaduj', // Upload
-	naOrganization: 'Zmień Organizację', // Switch Organization
+	naOrganization: 'Zmień organizację', // Switch Organization
 	naOk: 'OK',
 	naCancel: 'Anuluj', // Cancel
 	// Nav Toolbar
 	switchPortal: 'Zmień portal', // Switch Portal
 	globalOrgName: 'Global',
-	switchOrganization: 'Zmień Organizację', // Switch Organization
-	editProfileSetting: 'Edytuj Ustawienia Profilu', // Edit Profile Setting
+	switchOrganization: 'Zmień organizację', // Switch Organization
+	editProfileSetting: 'Edytuj ustawienia profilu', // Edit Profile Setting
 
 	// Document List
 	dlName: 'Nazwa', // Name
@@ -120,12 +120,12 @@ export const portalPL: LanguageKeyValueMap = {
 	psApplyMinNeededPermissionTip: 'Przyznasz uprawnienie \ "Wykonaj \" do dokumentów, do których istnieją odniesienia.', // You will grant the \"Execute\" permission to the referenced documents.
 	psInsufficientPermission: 'Zaznaczona rola / organizacja nie ma wystarczających uprawnień do dokumentów, do których się odwołuje, aby wykonać działanie. Możesz zastosować minimalne wymagane uprawnienia, aby użytkownicy mogli normalnie wyświetlać podgląd tego dokumentu.', // The checked role/organization does not have sufficient permissions on the referenced documents to perform the action. You can apply minimum needed permission to make sure users can preview this document normally.
 	psReferencedDocuments: 'Powiązane dokumenty:', // Referenced documents:
-	expandAll: 'Rozwiń Wszystko', // Expand All
-	collapseAll: 'Zwiń Wszystko', // Collapse All
+	expandAll: 'Rozwiń wszystko', // Expand All
+	collapseAll: 'Zwiń wszystko', // Collapse All
 	// permission role display name
 	roleName_Everyone: 'Wszyscy', // Everyone
 	roleName_administrator: 'Administrator',
-	roleName_orgadmin: 'Administrator Organizacji', // Organization Administrator
+	roleName_orgadmin: 'Administrator organizacji', // Organization Administrator
 
 	// Doc Info Tab
 	docInfoProps: 'Właściwości', // Properties
@@ -133,14 +133,14 @@ export const portalPL: LanguageKeyValueMap = {
 	docInfoDescription: 'Opis', // Description
 	docInfoUpdated: 'Zaktualizowane', // Updated
 	docInfoUpdatedBy: 'Zaktualizowane przez', // Updated By
-	docInfoCreated: 'Utworzone', // Cretaed
+	docInfoCreated: 'Utworzone', // Created
 	docInfoCreatedBy: 'Utworzone przez', // Created By
 	docInfoCategories: 'Kategorie', // Categories
 	docInfoPermissions: 'Uprawnienia', // Permissions
 	docInfoRead: 'Odczyt', // Read
 	docInfoWrite: 'Zapis', // Write
 	docInfoEdit: 'Edytuj', // Edit
-	hideInDocumentPortalHideStateLabel: 'Ukryj W Portalu Dokumentów', // Hide In Document Portal
+	hideInDocumentPortalHideStateLabel: 'Ukryj w portalu dokumentów', // Hide In Document Portal
 	hideInDocumentPortalTrueLabel: 'Prawda', // True
 	hideInDocumentPortalFalseLabel: 'Fałsz', // False
 
@@ -151,20 +151,20 @@ export const portalPL: LanguageKeyValueMap = {
 	'rdlx!description': 'Raport', // Report
 	'rdlx-template!name': 'Szablon raportu', // Report template
 	'rdlx-template!description': 'Szablon raportu', // Report template
-	'rdlx-master!name': 'Master Report',
-	'rdlx-master!description': 'Master Report',
+	'rdlx-master!name': 'Raport Główny', // Master Report
+	'rdlx-master!description': 'Raport Główny', // Master Report
 	'report!name': 'Raport',
 	'report!description': 'Raport',
-	'report-master!name': 'Master Report',
-	'report-master!description': 'Master Report',
+	'report-master!name': 'Raport Główny', // Master Report
+	'report-master!description': 'Raport Główny', // Master Report
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
-	'dbd!name': 'Pulpit Nawigacyjny', // Dashboard
-	'dbd!description': 'Pulpit Nawigacyjny', // Dashboard
-	'dsc!name': 'Źródło Danych', // Data Source
-	'dsc!description': 'Źródło Danych', // Data Source
-	'dataset!name': 'Zestaw Danych', // Dataset
-	'dataset!description': 'Zestaw Danych', // Dataset
+	'dbd!name': 'Dashboard', // Dashboard
+	'dbd!description': 'Dashboard', // Dashboard
+	'dsc!name': 'Źródło danych', // Data Source
+	'dsc!description': 'Źródło danych', // Data Source
+	'dataset!name': 'Zestaw danych', // Dataset
+	'dataset!description': 'Zestaw danych', // Dataset
 	'smdsc!name': 'Modele semantyczne', // Semantic Models
 	'smdsc!description': 'Modele semantyczne', // Semantic Models
 
@@ -212,10 +212,10 @@ export const portalPL: LanguageKeyValueMap = {
 	'sysconfig-allowed-urls!description': 'Autoryzowane aplikacje sieciowe dla serwera tożsamości', // The authorized web application urls for identity server.
 	'sysconfig-allowed-cors-origins!name': 'Dozowolone źródła CORS (jeden URL na linię)', // Allowed CORS Origins (one URL per line)
 	'sysconfig-allowed-cors-origins!description': 'Dozwolone źródła dla polityki CORS.', // The allowed origins for CORS policy.
-	'sysconfig-exposed-headers!name': 'Wystawione Nagłówki(jeden Header na linię)', // Exposed Headers (one Header per line)
+	'sysconfig-exposed-headers!name': 'Wystawione nagłówki(jeden Header na linię)', // Exposed Headers (one Header per line)
 	'sysconfig-exposed-headers!description': 'Nagłówki wystawione dla polityki CORS.', // The exposed headers for CORS policy.
-	'sysconfig-use-appinsights!name': 'Zezwól na Statystyki Aplikacji', // Allow Application Insights
-	'sysconfig-use-appinsights!description': 'Zezwól na Statystyki Aplikacji', // Allow Application Insights
+	'sysconfig-use-appinsights!name': 'Zezwól na statystyki aplikacji', // Allow Application Insights
+	'sysconfig-use-appinsights!description': 'Zezwól na statystyki aplikacji', // Allow Application Insights
 	'sysconfig-appinsights-instrumentation-key!name': 'Klucz oprzyrządowania', // Instrumentation Key
 	'sysconfig-appinsights-instrumentation-key!description': 'Klucz oprzyrządowania', // Instrumentation Key
 	EmptyConfigName: 'Nazwa konfiguracji systemu nie może być pusta.', // The system configuration name can not be empty.
@@ -281,7 +281,7 @@ export const portalPL: LanguageKeyValueMap = {
 	uploadErr_10009: 'Nie można rozwiązać powiązanego zasobu $t({{documentType}})  o nazwie "{{DocumentName}}".', // Cannot resolve referenced $t({{documentType}}) resource with name {{DocumentName}}.
 	documentType_rdl: 'Raport',
 	documentType_report: 'Raport',
-	documentType_dbd: 'Pulpit Nawigacyjny', // Dashboard
+	documentType_dbd: 'Dashboard',
 	documentType_dsc: 'Źródło danych', // data source
 	documentType_dataset: 'Zestaw danych', // dataset
 	documentType_smdsc: 'Model semantyczny', // smeantic model
@@ -319,35 +319,35 @@ export const portalPL: LanguageKeyValueMap = {
 	updateShowWelcomeFail: 'Błąd aktualizacji ustawień', // Update Settings Error
 
 	// force delete document
-	forceDeleteTitle: 'Wymuś Usunięcie', // Force Delete
+	forceDeleteTitle: 'Wymuś usunięcie', // Force Delete
 	forceDeleteContent: 'Dokument \"{{documentTitle}}\" jest używany przez następujący dokument:\n{{documentRefNames}}.\nJesteś pewny aby wymusić usunięcie?', // The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.\nAre you sure to force delete?
 	forceDeleteContentPrefix: 'Dokument \"{{documentTitle}}\" jest używany przez następujący dokument:\n{{documentRefNames}}.', // The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.
 	forceDeleteContentSuffix: 'Jesteś pewny aby wymusić usunięcie?', // Are you sure to force delete?
-	forceDeleteTip: 'Wymuś Usunięcie', // Force Delete
+	forceDeleteTip: 'Wymuś usunięcie', // Force Delete
 
 	// page title
-	'create-dsc!title': 'Stwórz Źródło Danych', // Create Data Source
-	'edit-dsc!title': 'Edytuj Źródło Danych', // Edit Data Source
-	'preview-dsc!title': 'Podgląd Źródło Danych', // Data Source Preview
-	'create-dataset!title': 'Utwórz Zbiór Danych', // Create Dataset
-	'edit-dataset!title': 'Edytuj Zbiór Danych', // Edit Dataset
-	'preview-dataset!title': 'Przeglądaj Zbiór Danych', // Dataset Preview
-	'create-smdsc!title': 'Stwórz Model Semantyczny', // Create Semantic Model
-	'edit-smdsc!title': 'Edytuj Model Semantyczny', // Edit Semantic Model
-	'preview-smdsc!title': 'Podgląd Modelu Semantycznego', // Semantic Model Preview
-	'create-floorPlan!title': 'Stwórz Plan Budynku', // Create Floor Plan
-	'edit-floorPlan!title': 'Edytuj Plan Budynku', // Edit this Floor Plan
-	'preview-floorPlan!title': 'Przeglądaj Plan Budynku', // Floor Plan Preview
-	'preview-theme!title': 'Podgląd Motywu', // Theme Preview
-	'preview-rdl!title': 'Podgląd Raportu', // Report Preview
-	'preview-rdlx-template!title': 'Podgląd Szablonu Raportu', // Report Template Preview
-	'preview-image!title': 'Podgląd Obrazu', // Image Preview
-	'preview-image/jpeg!title': 'Podgląd Obrazu', // Image Preview
-	'preview-image/bmp!title': 'Podgląd Obrazu', // Image Preview
-	'preview-image/gif!title': 'Podgląd Obrazu', // Image Preview
-	'preview-image/png!title': 'Podgląd Obrazu', // Image Preview
-	'create-dbd!title': 'Utwórz Pulpit Nawigacyjny', // Create Dashboard
-	'edit-dbd!title': 'Edytuj Pulpit Nawigacyjny', // Edit Dashboard
-	'preview-dbd!title': 'Podgląd Pulpitu Nawigacyjnego', // Dashboard Preview
-	'searchResult!title': 'Wyniki Wyszukiwania', // Search Results
+	'create-dsc!title': 'Stwórz źródło danych', // Create Data Source
+	'edit-dsc!title': 'Edytuj źródło danych', // Edit Data Source
+	'preview-dsc!title': 'Podgląd źródło danych', // Data Source Preview
+	'create-dataset!title': 'Utwórz zbiór danych', // Create Dataset
+	'edit-dataset!title': 'Edytuj zbiór danych', // Edit Dataset
+	'preview-dataset!title': 'Przeglądaj zbiór danych', // Dataset Preview
+	'create-smdsc!title': 'Stwórz model semantyczny', // Create Semantic Model
+	'edit-smdsc!title': 'Edytuj model semantyczny', // Edit Semantic Model
+	'preview-smdsc!title': 'Podgląd modelu semantycznego', // Semantic Model Preview
+	'create-floorPlan!title': 'Stwórz plan budynku', // Create Floor Plan
+	'edit-floorPlan!title': 'Edytuj plan budynku', // Edit this Floor Plan
+	'preview-floorPlan!title': 'Przeglądaj plan budynku', // Floor Plan Preview
+	'preview-theme!title': 'Podgląd motywu', // Theme Preview
+	'preview-rdl!title': 'Podgląd raportu', // Report Preview
+	'preview-rdlx-template!title': 'Podgląd szablonu raportu', // Report Template Preview
+	'preview-image!title': 'Podgląd obrazu', // Image Preview
+	'preview-image/jpeg!title': 'Podgląd obrazu', // Image Preview
+	'preview-image/bmp!title': 'Podgląd obrazu', // Image Preview
+	'preview-image/gif!title': 'Podgląd obrazu', // Image Preview
+	'preview-image/png!title': 'Podgląd obrazu', // Image Preview
+	'create-dbd!title': 'Utwórz pulpit nawigacyjny', // Create Dashboard
+	'edit-dbd!title': 'Edytuj pulpit nawigacyjny', // Edit Dashboard
+	'preview-dbd!title': 'Podgląd pulpitu nawigacyjnego', // Dashboard Preview
+	'searchResult!title': 'Wyniki wyszukiwania', // Search Results
 };

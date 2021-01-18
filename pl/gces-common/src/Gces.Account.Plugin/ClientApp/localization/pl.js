@@ -316,7 +316,7 @@ export const accountPL = {
 export const portalPL = {
 	'shortcut-org!description': '',
 	'shortcut-org!props!text': 'Organizacje', // Organizations
-	'shortcut-org!title': 'Skrót Ogranizacji', // Organizations Shortcut
+	'shortcut-org!title': 'Skrót ogranizacji', // Organizations Shortcut
 	'shortcut-user!description': '',
 	'shortcut-user!props!text': 'Użytkownicy', // Users
 	'shortcut-user!title': 'Skrót do użytkowników', // Users Shortcut

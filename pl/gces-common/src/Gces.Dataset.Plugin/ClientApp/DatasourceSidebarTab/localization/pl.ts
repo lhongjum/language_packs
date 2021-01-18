@@ -92,7 +92,7 @@
 	monthlyEditorTextOnDay: 'W dniu', // On day
 	monthlyEditorTextOnDayUnits: '',
 	monthlyEditorTextOnTheLast: 'W ostatni', // On the last
-	monthlyEditorTextOnTheFirst: 'On the first', // W pierwszy
+	monthlyEditorTextOnTheFirst: 'W pierwszy', // On the first
 	monthlyEditorTextLastDay: 'Dzień', // Day
 	monthlyEditorTextLastWeekday: 'Dzień roboczy', // Weekday
 

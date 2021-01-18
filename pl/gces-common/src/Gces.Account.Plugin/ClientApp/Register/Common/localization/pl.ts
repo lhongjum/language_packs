@@ -1,14 +1,14 @@
 export const commonPL: LanguageKeyValueMap = {
-	cmAdd: 'Add',
-	cmSave: 'Save',
-	cmCancel: 'Cancel',
-	cmEmptyResult: 'empty result',
-	ecSelectMembers: 'Select Members',
-	ecMembers: '({{count}} members)',
+	cmAdd: 'Dodaj', // Add
+	cmSave: 'Zapisz', // Save
+	cmCancel: 'Anuluj', // Cancel
+	cmEmptyResult: 'pusty wynik', // empty result
+	ecSelectMembers: 'Wybierz Użytkowników', // Select Members
+	ecMembers: '({{count}} Użytkowników)',
 
-	rn_orgadmin: 'Organization Administrator',
+	rn_orgadmin: 'Administrator Organizacji', // Organization Administrator
 	rn_administrator: 'Administrator',
-	rn_Everyone: 'Everyone',
+	rn_Everyone: 'Wszyscy', // Everyone
 	globalOrgName: 'Global',
 
 	'create-dataset': 'Utwórz zestaw danych', // Create Dataset
