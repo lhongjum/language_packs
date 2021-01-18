@@ -14,19 +14,19 @@ export const schedulingPL: LanguageKeyValueMap = {
 	// Tasks Tab
 	tasksTabHeader: 'Zaplanowane zadania', // Scheduled Tasks
 	tasksTabNoTasks: 'Nie ma zaplanowanych zadań dla tego dokumentu', // There are no scheduled tasks for this document
-	tasksTabBtnAddTask: 'Dodaj Zadanie', // Add Task
+	tasksTabBtnAddTask: 'Dodaj zadanie', // Add Task
 
 	// Task Item
-	taskItemRunBtnTitle: 'Uruchom Zadania', // Run Task
+	taskItemRunBtnTitle: 'Uruchom zadania', // Run Task
 	taskItemMenuBtnTitle: 'Działania', // Actions
 	taskItemMenuEnableText: 'Włącz', // Enable
-	taskItemMenuEnableTitle: 'Włącz Zadanie', // Enable Task
+	taskItemMenuEnableTitle: 'Włącz zadanie', // Enable Task
 	taskItemMenuDisableText: 'Wyłącz', // Disable
-	taskItemMenuDisableTitle: 'Wyłącz Zadanie', // Disable Task
+	taskItemMenuDisableTitle: 'Wyłącz zadanie', // Disable Task
 	taskItemMenuEditText: 'Edytuj', // Edit
-	taskItemMenuEditTitle: 'Edytuj Zadanie', // Edit Task
+	taskItemMenuEditTitle: 'Edytuj zadanie', // Edit Task
 	taskItemMenuDeleteText: 'Usuń', // Delete
-	taskItemMenuDeleteTitle: 'Usuń Zadanie', // Delete Task
+	taskItemMenuDeleteTitle: 'Usuń zadanie', // Delete Task
 	taskItemTextNextRun: 'Następne uruchomienie:', // Next run:
 	taskItemTextManually: 'Ręcznie', // Manually
 	taskItemTextNever: 'Nigdy', // Never
@@ -40,26 +40,26 @@ export const schedulingPL: LanguageKeyValueMap = {
 	taskEditorExecutionOneTime: 'Jeden raz', // One-Time
 	taskEditorExecutionScheduled: 'Planowy', // Scheduled
 	taskEditorLabelStart: 'Start',
-	taskEditorBtnCreateText: 'Utwórz Zadanie', // Create Task
-	taskEditorBtnUpdateText: 'Aktualizuj Zadanie', // Update Task
+	taskEditorBtnCreateText: 'Utwórz zadanie', // Create Task
+	taskEditorBtnUpdateText: 'Aktualizuj zadanie', // Update Task
 	taskEditorBtnCancelText: 'Anuluj', // Cancel
 	oneTimeStartTimeLimit: 'Czas rozpoczęcia nie może być ustawiony na czas mniejszy niż 5 minut od teraz', // The start time cannot be set to any time less than 5 minutes from now
-	oneTimeStartTimeLimitTitle: 'Nieprawidłowy zzas', // Invalid time
+	oneTimeStartTimeLimitTitle: 'Nieprawidłowy czas', // Invalid time
 	taskEditorDescriptionError: 'Opis zadania nie powinien być pusty', // Task description should not be empty
 	fileNameError: 'Nazwa pliku nie powinna być pusta', // File name should not be empty
 	fullPathError: 'Ścieżka do pliku nie powinna być pusta', // File path should not be empty
 
 	// Recurrence Editor
-	recEditorCloneFromTemplate: 'Użyj Szablonu', // Use Template
-	recEditorChooseTemplate: 'Wybierz Szablon', // Choose Template
+	recEditorCloneFromTemplate: 'Użyj szablonu', // Use Template
+	recEditorChooseTemplate: 'Wybierz szablon', // Choose Template
 	recEditorTemplateHasBeenDeleted: 'Szablon został usunięty', // Template has been deleted
 	recEditorHeaderRepeat: 'Powtarzaj', // Repeat
 	recEditorLabelStart: 'Start', // Start
 	recEditorLabelEnd: 'Zakończ', // End
-	recEditorPlaceholderNoEndDate: 'Brak Daty Zakończenia', // No End Date
+	recEditorPlaceholderNoEndDate: 'Brak daty zakończenia', // No End Date
 	recEditorDailyEditor: 'Codziennie', // Daily
-	recEditorWeeklyEditor: 'Co Tydzień', // Weekly
-	recEditorMonthlyEditor: 'Co Miesiąc', // Monthly
+	recEditorWeeklyEditor: 'Co tydzień', // Weekly
+	recEditorMonthlyEditor: 'Co miesiąc', // Monthly
 
 	// Daily Editor
 	dailyEditorTextAt: 'O {{time}}', // At {{time}}
@@ -67,7 +67,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	dailyEditorTextUnits: 'godzinie', // hour(s)
 
 	// Weekly Editor
-	weeklyEditorTextEvery: 'Every', // Every
+	weeklyEditorTextEvery: 'Każdego', // Every
 	weeklyEditorTextUnits: 'tygodnia', // week(s)
 
 	// Monthly Editor
@@ -127,13 +127,13 @@ export const schedulingPL: LanguageKeyValueMap = {
 	delEditorMailBody: 'Oto pulpit nawigacyjny &DashboardName. Czas aktualizacji przywoływanych zestawów danych to &DataRefreshTime. Pulpit nawigacyjny jest połączony poniżej. &Link', // Here is the &DashboardName dashboard. The update time of referenced datasets is &DataRefreshTime. The dashboard is linked below. &Link
 
 	// Reporting Editor
-	reportingEditorHeaderExportFormat: 'Format Eksportu', // Export Format
-	reportingEditorAdvancedExportSettings: 'Ustawienia Zaawansowane', // Advanced Settings
+	reportingEditorHeaderExportFormat: 'Format eksportu', // Export Format
+	reportingEditorAdvancedExportSettings: 'Ustawienia zaawansowane', // Advanced Settings
 	reportingEditorHeaderParameters: 'Parametry', // Parameters
 	reportingEditorParametersStateInitializing: 'Inicjowanie...', //Initializing...
 	reportingEditorParametersStateValidating: 'Weryfikuję...', // Validating...
-	reportingEditorParametersStateValid: 'Prawidłowe Parametry', // Valid Parameters
-	reportingEditorParametersStateinvalid: 'Nieprawidłowe Parametry', // Invalid Parameters
+	reportingEditorParametersStateValid: 'Prawidłowe parametry', // Valid Parameters
+	reportingEditorParametersStateinvalid: 'Nieprawidłowe parametry', // Invalid Parameters
 	reportingEditorTextNoParameters: 'pulpit nawigacyjny nie ma parametrów', // dashboard has no parameters
 	reportingEditorFormatPdf: 'PDF',
 	reportingEditorFormatExcel: 'Excel',

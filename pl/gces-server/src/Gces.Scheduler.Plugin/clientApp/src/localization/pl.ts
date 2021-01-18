@@ -413,8 +413,8 @@ export const schedulingPL: LanguageKeyValueMap = {
 
 	// Relative Dates
 	dtTextBack: 'Powrót do kalendarza',
-	tbSpecificDate: 'Konkretna Data',
-	tbRelativeDate: 'Data Względna',
+	tbSpecificDate: 'Konkretna data',
+	tbRelativeDate: 'Data względna',
 	rdDay: 'dzień',
 	rdWeek: 'tydzień',
 	rdMonth: 'miesiąc',

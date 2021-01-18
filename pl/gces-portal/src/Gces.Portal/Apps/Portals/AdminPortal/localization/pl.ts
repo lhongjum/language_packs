@@ -32,7 +32,7 @@ export const portalPL: LanguageKeyValueMap = {
 	Yes: 'Tak', // Yes
 	No: 'Nie', // No
 	Logo: 'Logo',
-	Avatar: 'Avatar',
+	Avatar: 'Awatar',
 
 	// Collection Headers
 	title: 'Nazwa', // Name
@@ -56,7 +56,7 @@ export const portalPL: LanguageKeyValueMap = {
 	pcAllowEditPersonalInformation: 'Zezwól użytkownikowi nad edycję informacji personalnych', // Allow User To Edit Personal Information
 	pcAllowEditPersonalTheme: 'Zezwól użytkownikowi na edycję osobistego motywu', // Allow User To Edit Personal Theme
 	pcHideWelcomeScreen: 'Ukryj ekran powitalny w portalu dokumentów', // Hide Welcome Screen On Document Portal
-	pcShowGlobalOrganization: 'Show Global Organization',
+	pcShowGlobalOrganization: 'Pokaż Globalną Organizację', // Show Global Organization
 	pcAllowUrlHideActions: 'Zezwól na \'ukryjAkcje\' w URL', // Allow \'hideActions\' In Url
 	pcHideActions: 'Ukryj Akcje', // Hide Actions
 	pcHideActionsTip: 'Działa tylko, gdy opcja \'ukryjAkcje\' w URL jest wyłączona', // Only works when Allow \'hideActions\' In Url option is off
@@ -94,7 +94,7 @@ export const portalPL: LanguageKeyValueMap = {
 	pcLoginPreview: 'Podgląd Logowania', // Login Preview
 	pcWCAGCompatibility: 'WCAG Compatibility',
 	pcAutoDismissNotifications: 'Automatyczne Odrzucanie Powiadomień', // Auto Dismiss Notifications
-	pcDurationOfNotifications: 'Duration of Notifications(s)',
+	pcDurationOfNotifications: 'Czas trwania powiadomień' , // 'Duration of Notifications(s)'
 
 	// SMTP
 	emailSettingsTitle: 'Wiadomości email',
@@ -110,10 +110,10 @@ export const portalPL: LanguageKeyValueMap = {
 	smtpTestMailSubject: 'Wiadomość testowa Wyn Server', // Wyn Server test e-mail
 	smtpTestMailBody: 'Ta wiadomość testowa została wysłana przez Wyn Server', // This test message was sent by the Wyn Server system
 	emailDomainValidationTitle: 'Sprawdzanie poprawności domeny',
-	enableDomainValidation: 'Enable Domain Validation',
-	validEmailDomains: 'Valid Email Domains',
-	enable: 'Enable',
-	disable: 'Disable',
+	enableDomainValidation: 'Włącz weryfikację domeny' , // Enable Domain Validation
+	validEmailDomains: 'Prawidłowe domeny e-mail', // Valid Email Domains
+	enable: 'Włącz', // Enable
+	disable: 'Wyłącz', // Disable
 	mailProtocol: 'Protokół pocztowy',
 	googleClientID: 'Client ID',
 	googleClientSecret: 'Sekret Klienta',
@@ -124,7 +124,7 @@ export const portalPL: LanguageKeyValueMap = {
 	enableSsl: 'Włącz SSL',
 	login: 'Logowania',
 	password: 'Hasło',
-	useParentSettings: 'Use Parent Organization Settings',
+	useParentSettings: 'Użyj ustawień organizacji nadrzędnej', // Use Parent Organization Settings
 
 	// Tags
 	tagsAddTag: 'Dodaj kategorię', // Add Category
@@ -151,11 +151,11 @@ export const portalPL: LanguageKeyValueMap = {
 	'sharedResources!description': 'Moduł udostępnionych zasobów dla GCES', // Shared resources module for GCES
 	'smtp!title': 'Wiadomości email', // Email Settings
 	'smtp!description': 'Ustawienia serwera usługi mailowej', // Settings for the server mailing service
-	'queue!title': 'Kolejka Usługi Raportowej', // Worker queue settings
-	'queue!description': 'Ustawienia kolejki Usługi Raportowej', // Settings for the worker queue
+	'queue!title': 'Kolejka usługi raportowej', // Worker queue settings
+	'queue!description': 'Ustawienia kolejki usługi raportowej', // Settings for the worker queue
 
-	'semanticModeling!title': 'Semantic Model Settings',
-	'semanticModeling!description': 'Semantic Model Settings',
+	'semanticModeling!title': 'Ustawienia modeli semantycznych', // Semantic Model Settings
+	'semanticModeling!description': 'Ustawienia modeli semantycznych', // Semantic Model Settings
 
 	'documents!title': 'Dokumenty', // Documents
 	'documents!description': 'Zarządzanie dokumentami', // Documents Management
@@ -307,9 +307,9 @@ export const portalPL: LanguageKeyValueMap = {
 	'theme!description': 'Motywy', // Themes
 	'geoJson!title': 'Mapy', // Map Data
 	'geoJson!description': 'Mapy', // Map Data
-	'floorPlan!title': 'Plan Budynku', // Floor Plan
-	'floorPlan!name': 'Plan Budynku', // Floor Plan
-	'floorPlan!description': 'Plan Budynku', // Floor Plan
+	'floorPlan!title': 'Plan budynku', // Floor Plan
+	'floorPlan!name': 'Plan budynku', // Floor Plan
+	'floorPlan!description': 'Plan budynku', // Floor Plan
 
 	'visual!title': 'Wizualizacja', // Visualization
 	'visual!description': 'Wizualizacja', // Visualization
@@ -332,8 +332,8 @@ export const portalPL: LanguageKeyValueMap = {
 
 	// Nav Toolbar
 	globalOrgName: 'Global',
-	switchOrganization: 'Zmień Organizację', // Switch Organization
-	editProfileSetting: 'Edytuj Ustawienia Profilu', // Edit Profile Setting
+	switchOrganization: 'Zmień organizację', // Switch Organization
+	editProfileSetting: 'Edytuj ustawienia profilu', // Edit Profile Setting
 
 	// Version Info
 	'productVersion': 'Wyn Enterprise',
@@ -341,11 +341,11 @@ export const portalPL: LanguageKeyValueMap = {
 	'portalVersion': 'Portal',
 	'pluginTitle': 'Pluginy', // Plugins
 	'Portal': 'Plugin portalu', // Portal Plugin
-	'Scheduler': 'Plugin Planera', // Scheduler Plugin
-	'Shared Resources': 'Plugin Wspólnych Zasobów', // Shared Resources Plugin
-	'Server plugin': 'Plugin Serwera', // Server Plugin
-	'Account Management Plugin': 'Plugin Zarządzania Kontem', // Account Management Plugin
-	'Dataset Management Plugin': 'Plugin Zarządzania Zestawem Danych', // Dataset Management Plugin
+	'Scheduler': 'Plugin planera', // Scheduler Plugin
+	'Shared Resources': 'Plugin wspólnych zasobów', // Shared Resources Plugin
+	'Server plugin': 'Plugin serwera', // Server Plugin
+	'Account Management Plugin': 'Plugin zarządzania kontem', // Account Management Plugin
+	'Dataset Management Plugin': 'Plugin zarządzania zestawem danych', // Dataset Management Plugin
 	'GCES Dashboards': 'Plugin WynDashboards', // WynDashboards Plugin
 	'GCES Reporting': 'Plugin WynReports', //  WynReports Plugin
 	DeleteDocumentError: 'Błąd podczas usuwania dokumentu', // Error deleting document

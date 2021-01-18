@@ -1980,49 +1980,49 @@ labels:
   tablixColumn: Kolumna
   tablixMember: Człon Tablixa
   tablixRow: Wiersz
-  textbox: PoleTekstowe
+  textbox: Pole tekstowe
   total: Suma
 nameTemplates:
-  bandedList: ListaGrupowana
+  bandedList: Lista grupowana
   bandedListGroup: Grupa
-  barcode: WykresSlupkowy
+  barcode: Wykres Słupkowy
   bullet: Punktor
-  calculatedField: PoleObliczeniowe
-  categoryGroup: GrupaKategorii
+  calculatedField: Pole obliczeniowe
+  categoryGroup: Grupa kategorii
   chart: Wykres
-  checkbox: PoleWyboru
-  columnGroup: GrupaKolumn
+  checkbox: Pole wyboru
+  columnGroup: Grupa kolumn
   container: Kontener
-  dataset: ZestawDanych
-  detailsGroup: GrupaSzczegółów
+  dataset: Zestaw danych
+  detailsGroup: Grupa szczegółów
   dvchart: Wykres
   dvchartEncodingField: Pole
   dvchartPlot: Wykres
   field: Pole
-  fixedPage: StałaStrona
-  formattedText: TekstSformatowany
+  fixedPage: Stała strona
+  formattedText: Tekst sformatowany
   group: Grupa
   image: Obraz
-  inputField: PoleWprowadzania
+  inputField: Pole wprowadzania
   layer: Warstwa
   line: Linia
   list: Lista
   mailMergeField: Pole
-  overflowPlaceholder: SymbolZastępczyPrzepływu
+  overflowPlaceholder: Symbol zastępczy przepływu
   parameter: Parametr
   reportParameter: Parametr
-  rowGroup: GrupaWierszy
-  seriesGroup: GrupaSerii
+  rowGroup: Grupa wierszy
+  seriesGroup: Grupa serii
   seriesValue: Wartość
   shape: Kształt
-  sparkline: WykresPrzebiegu
+  sparkline: Wykres przebiegu
   subreport: Podraport
   table: Tabela
-  tableDetailsGroup: GrupaSzczegółów
-  tableGroup: GrupaTabeli
-  tableOfContents: TabelaZawartości
+  tableDetailsGroup: Grupa szczegółów
+  tableGroup: Grupa tabeli
+  tableOfContents: Tabela zawartości
   tablix: Tablix
-  textbox: PoleTekstowe
+  textbox: Pole tekstowe
   tocLevel: Poziom
   unknown: Element
 notifications:
@@ -2105,7 +2105,7 @@ parametersViewEditor:
       preview: Podgląd
       reset: Resetuj
     checkRangeTypeText: Parametry powinny mieć ten sam typ danych
-    dateRangeEditor: Edytor Zakresu Dat
+    dateRangeEditor: Edytor zakresu dat
     dateRangeParameter: Parametr ZakresDat
     dateRangeParameterLabels:
       monthYearOrder: M-R
@@ -2121,8 +2121,8 @@ parametersViewEditor:
       tabLabelAnnually: Rocznie
       tabLabelDaily: Dziennie
       tabLabelMonthly: Miesięcznie
-      textBack: Powrót do Kalendarza
-      textShortcutsList: Wspólne Zakresy
+      textBack: Powrót do kalendarza
+      textShortcutsList: Wspólne zakresy
     dateTimeEditor: Edytor DataCzas
     dateTimeParameter: Parametr DataCzas
     dateTimeParameterLabels:
@@ -2140,7 +2140,7 @@ parametersViewEditor:
       none: Brak
       warning: Ostrzeżenie
       years: Lata
-    dropdownEditor: Edytor Listy Rozwijanej
+    dropdownEditor: Edytor listy rozwijanej
     dropdownParameter: Parametr rozwijany
     fieldsProperties:
       addBtnText: Dodaj
@@ -2155,13 +2155,13 @@ parametersViewEditor:
     listEditor: Edytor Listy
     listParameter: Parametr listy
     locationAndSize: Lokalizacja i Rozmiar
-    multivalueParameter: Parametr Wielowartościowy
+    multivalueParameter: Parametr wielowartościowy
     nullText: Pusty
-    numberEditor: Edytor Liczb
-    numberParameter: Parmetr Liczbowy
+    numberEditor: Edytor liczb
+    numberParameter: Parmetr liczbowy
     numberRangeParameter: Parametr ZakresLiczbowy
     numberReangeEditor: Edytor Zakresu Liczbowego
-    plainText: Zwykły Tekst
+    plainText: Zwykły tekst
     properties:
       action: Akcja
       alignment: Wyrównanie
@@ -2169,10 +2169,10 @@ parametersViewEditor:
       color: Kolor
       columns: Kolumny
       common: Zwykły
-      daysHeaderFormat: Format Nagłówka Dni
+      daysHeaderFormat: Format nagłówka dni
       details: Szczegóły
       display: Wyświetlanie
-      dropdown: Lista Rozwijana
+      dropdown: Lista rozwijana
       falseText: '"Fałsz"'
       fields: Pola
       from: Z
@@ -2201,7 +2201,7 @@ parametersViewEditor:
       type: Typ
       upDownEditor: Edytor Góra-Dół
       value: Wartość
-      viewMode: Tryb Podglądu
+      viewMode: Tryb podglądu
       width: Szerokość
     propertyGrid:
       closeSearchBtn: Zamknij
@@ -2209,10 +2209,10 @@ parametersViewEditor:
       gridSearchPlaceholder: wprowadź nazwę atrybutu tutaj...
       noCommonProperties: Brak wspólnych atrybutów
       textUnknownProperty: "Nieznany atrybut:"
-    removeDefaultValue: Usuń Wartość Domyślną
-    singleLineParameter: Parametr Jednoliniowy
-    textEditor: Edytor Tekstu
-    treeView: Widok Drzewa
+    removeDefaultValue: Usuń wartość domyślną
+    singleLineParameter: Parametr jednoliniowy
+    textEditor: Edytor tekstu
+    treeView: Widok drzewa
     unspecified: Nieokreślony
   msgString:
     controlNotSupportParameters: Ten element sterujący nie obsługuje parametrów ze zdefiniowanymi wartościami
@@ -2220,10 +2220,10 @@ parametersViewEditor:
     notSupControl: nie jest wspierany przez ten element sterujący
   multipleValues: "<Wiele wartości>"
   propertiesText: Właściwości
-  removeView: Usuń Widok
-  resetView: Resetuj Widok
+  removeView: Usuń widok
+  resetView: Resetuj widok
   surface:
-    autoGenerate: Generować Automatycznie
+    autoGenerate: Generować automatycznie
     emptySurfaceBlock:
       descriptionButtonAfter: z dostępnych parametrów, lub rozpocząć od nowa z wykorzystaniem elementów z przybornika.
       descriptionButtonBefore: Możesz
@@ -2238,7 +2238,7 @@ parametersViewEditor:
       messagesOne: Parametry będą wyglądały w ten sposób na pasku bocznym użytkownika.
       messagesTwo: Możesz zmienić kolejność przez przeciąganie elementów.
   title: Parametry
-  verticalLayout: Układ Pionowy
+  verticalLayout: Układ pionowy
 properties:
   categories:
     action: Akcja
@@ -2609,7 +2609,7 @@ properties:
       dataVisualizerLabel: Wizualizator danych...
       expressionLabel: Wyrażenie...
       resetLabel: Reset
-      specifyDataSetLabel: Określ Zestaw Danych, aby zobaczyć listę dostępnych atrybutów
+      specifyDataSetLabel: Określ zestaw danych, aby zobaczyć listę dostępnych atrybutów
       warnings:
         groupingByAggregate: nie zaleca się grupowania wg atrybutów agregacji
         groupingIsDiscouraged: nie zaleca się grupowania wg tego atrybutu
@@ -3240,7 +3240,7 @@ properties:
     tablixBodyCell:
       autoMergeMode: Tryb automatycznego scalania
       autoMergeMode_help:
-        text: Wskazuje czy dwie lub więcej następujących po sobie w kolumnie komórek mających tę samę zawartość powinny podlegać scaleniu. Będzie działać tylko dla komórki PoleTekstowe.
+        text: Wskazuje czy dwie lub więcej następujących po sobie w kolumnie komórek mających tę samę zawartość powinny podlegać scaleniu. Będzie działać tylko dla komórki Pole tekstowe.
     tablixMember:
       groupEnabled: Włączone
       keepWithGroup: Trzymaj z grupą
