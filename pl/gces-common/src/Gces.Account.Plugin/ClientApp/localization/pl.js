@@ -321,7 +321,7 @@ export const portalPL = {
 	'shortcut-user!props!text': 'Użytkownicy', // Users
 	'shortcut-user!title': 'Skrót do użytkowników', // Users Shortcut
 	'shortcut-role!description': '',
-	'shortcut-role!props!text': 'ról', // Roles
+	'shortcut-role!props!text': 'Role', // Roles
 	'shortcut-role!title': 'Skrót do ról', // Roles Shortcut
 	'shortcut-locked!description': '',
 	'shortcut-locked!props!text': 'Zablokowani', // Locked
