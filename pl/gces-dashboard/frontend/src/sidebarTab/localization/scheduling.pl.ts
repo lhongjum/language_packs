@@ -92,7 +92,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	delEditorLocalTextOnDayUnits: 'Dni', // Day(s)
 	delEditorLocalAllowAnonymous: 'Zezwalaj na anonimowość', // Allow anonymous
 
-	delEditorWFSLabelFileName: 'Nazwa Pliku', // File Name
+	delEditorWFSLabelFileName: 'Nazwa pliku', // File Name
 	delEditorWFSLabelPath: 'Ścieżka', // Path
 	delEditorWFSLabelOverwrite: 'Nadpisz istniejące', // Overwrite existing
 	delEditorWFSLabelUser: 'Użytkownik', // User
@@ -109,12 +109,12 @@ export const schedulingPL: LanguageKeyValueMap = {
 	expiryTimeUnitMonth: 'Miesiące', // Months
 	expiryTimeUnitYear: 'Lata', // Years
 
-	delEditorMailLabelEmailTo: 'Wyślij E-mail Do', // Email To
-	delEditorMailLabelEmailToLabel: 'Wpisz adres E-mail Do', // Please enter email to
-	delEditorMailLabelEmailToIsInvalid: 'Format adresu E-mail jest nieprawidłowy', // Email format is invalid
-	delEditorMailLabelInvalidDomainTip: 'Nieprawidłowa domena adresu E-mail', // Invalid Email Domain
-	delEditorMailLabelReplyTo: 'Odpowiedz Do', // Reply To
-	delEditorMailLabelReplyToLabel: 'Wpisz Odpowiedz Do', // Please enter reply to
+	delEditorMailLabelEmailTo: 'Wyślij e-mail do', // Email To
+	delEditorMailLabelEmailToLabel: 'Wpisz adres e-mail do', // Please enter email to
+	delEditorMailLabelEmailToIsInvalid: 'Format adresu e-mail jest nieprawidłowy', // Email format is invalid
+	delEditorMailLabelInvalidDomainTip: 'Nieprawidłowa domena adresu e-mail', // Invalid Email Domain
+	delEditorMailLabelReplyTo: 'Odpowiedz do', // Reply To
+	delEditorMailLabelReplyToLabel: 'Wpisz odpowiedź do', // Please enter reply to
 	delEditorMailLabelSubject: 'Temat', // Subject
 	delEditorMailLabelSubjectToolTip:  'Możesz odwołać się do dowolnego parametru w temacie wprowadzając znak zapytania (?) a następnie nazwę parametru. Do nazwy pulpitu nawigacyjnego można się odwołać za pomocą symbolu zastępczego &DashboardName. Do czasu aktualizacji zestawów danych używanych na pulpicie nawigacyjnym można się odwołać za pomocą specjalnego symbolu zastępczego &DataRefreshTime.', // You can reference any parameter in the subject by entering a question mark (?) followed by the parameter\'s name.The dashboard\'s name can be referenced with the special placeholder &DashboardName. The update time of datasets used in the dashboard can be referenced with the special placeholder &DataRefreshTime.
 	delEditorMailLabelBody: 'Treść', // Body
@@ -123,7 +123,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	delEditorMailAttachmentFile: 'Załącznik', // File Attachment
 	delEditorMailAttachmentLink: 'Link do pobrania', // Download Link
 	delEditorMailAttachmentBody: 'Wyślij panel jako treść', // Send Dashboard as Body
-	delEditorMailSubject: 'Zaplanowany Pulpit Nawigacyjny', // Scheduled Dashboard
+	delEditorMailSubject: 'Zaplanowany pulpit nawigacyjny', // Scheduled Dashboard
 	delEditorMailBody: 'Oto pulpit nawigacyjny &DashboardName. Czas aktualizacji przywoływanych zestawów danych to &DataRefreshTime. Pulpit nawigacyjny jest połączony poniżej. &Link', // Here is the &DashboardName dashboard. The update time of referenced datasets is &DataRefreshTime. The dashboard is linked below. &Link
 
 	// Reporting Editor
@@ -147,9 +147,9 @@ export const schedulingPL: LanguageKeyValueMap = {
 	jeSagaQueueErrorTaskFailed: 'Zadanie nie powiodło się', // Task Failed
 	jeSagaQueueErrorExecFailed: 'Nie można wykonać zadania', // Unable to execute task
 	jeSagaQueueErrorNoWorkers: 'Brak dostępnych workerów', // No workers available
-	jeSagaQueueErrorUnknown: 'Nieznany Błąd', // Unknown Error
+	jeSagaQueueErrorUnknown: 'Nieznany błąd', // Unknown Error
 
-	jeSagaTextJobEditorError: 'Błąd Edytora Zadań', // Job Editor Error
+	jeSagaTextJobEditorError: 'Błąd edytora zadań', // Job Editor Error
 	jeSagaTextParametersError: 'Nie można pobrać parametrów panelu', // Unable to get dashboard parameters
 	jeSagaTextParameterValuesError: 'Nie można pobrać wartości parametrów', // Unable to get parameter values
 

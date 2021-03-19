@@ -2150,17 +2150,17 @@ parametersViewEditor:
       items: elementów
       showItem: Pokaż pozycje
     heading: Nagłówek
-    headingText: Tekst Nagłówka
+    headingText: Tekst nagłówka
     hierarchicalParameter: Parametr hierarchiczny
-    listEditor: Edytor Listy
+    listEditor: Edytor listy
     listParameter: Parametr listy
-    locationAndSize: Lokalizacja i Rozmiar
+    locationAndSize: Lokalizacja i rozmiar
     multivalueParameter: Parametr wielowartościowy
     nullText: Pusty
     numberEditor: Edytor liczb
     numberParameter: Parmetr liczbowy
-    numberRangeParameter: Parametr ZakresLiczbowy
-    numberReangeEditor: Edytor Zakresu Liczbowego
+    numberRangeParameter: Parametr zakres liczbowy
+    numberReangeEditor: Edytor zakresu liczbowego
     plainText: Zwykły tekst
     properties:
       action: Akcja

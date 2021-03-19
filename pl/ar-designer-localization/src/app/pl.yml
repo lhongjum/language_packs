@@ -94,7 +94,7 @@ info:
   sharedDataSet:
     addedFields: '✔ Dodano pola: {fieldNames}'
     changed: Część zbiorów danych na serwerze została zmieniona. Zapisz raport aby zatwierdzić zmiany.
-    name: 'Zbiór Danych "{dataSetName}":'
+    name: 'Zbiór danych "{dataSetName}":'
     parameter:
       newDataSetParameters: '✔ Dodano parametry zbioru danych: {paramNames}'
       newReportParameters: '✔ Dodano parametry raportu: {paramNames}'

@@ -7,17 +7,17 @@ export const rolePL: LanguageKeyValueMap = {
 	cmMessageBox: 'Wiadomość', // Message
 	cmOK: 'OK',
 
-	otExpandAll: 'Rozwiń Wszystko', // Expand All
-	otCollapseAll: 'Zwiń Wszystko', // Collapse All
-	otOrganizationRoot: 'Global',
-	cmAddRole: 'Dodaj Rolę', // Add Role
-	rcDeleteRole: 'Usuń Rolę', // Delete Role
+	otExpandAll: 'Rozwiń wszystko', // Expand All
+	otCollapseAll: 'Zwiń wszystko', // Collapse All
+	otOrganizationRoot: 'Ogólny', // Global
+	cmAddRole: 'Dodaj rolę', // Add Role
+	rcDeleteRole: 'Usuń rolę', // Delete Role
 	rcDeleteRoleConfirmMessage: 'Czy jesteś pewien, że chcesz usunąć rolę "{{RoleName}}"?', // Are you sure you want to delete the role "{{RoleName}}"?
-	rcRoleName: 'Nazwa Roli', // Role Name
-	ecRoleMembers: 'Użytkownicy Roli', // Role Members
+	rcRoleName: 'Nazwa roli', // Role Name
+	ecRoleMembers: 'Użytkownicy roli', // Role Members
 	ecPermissions: 'Uprawnienia', // Permissions
-	ecSelectMembers: 'Wybierz Użytkowników', // Select Members
-	ecUsername: 'Nazwa Użytkownika', // Username
+	ecSelectMembers: 'Wybierz użytkowników', // Select Members
+	ecUsername: 'Nazwa użytkownika', // Username
 	ecEmail: 'Email', // Email
 	ecProvider: 'Dostawca', // Provider
 	ecMembers: '({{count}} members)',
