@@ -56,9 +56,9 @@ export const portalPL: LanguageKeyValueMap = {
 	pcAllowEditPersonalInformation: 'Zezwól użytkownikowi nad edycję informacji personalnych', // Allow User To Edit Personal Information
 	pcAllowEditPersonalTheme: 'Zezwól użytkownikowi na edycję osobistego motywu', // Allow User To Edit Personal Theme
 	pcHideWelcomeScreen: 'Ukryj ekran powitalny w portalu dokumentów', // Hide Welcome Screen On Document Portal
-	pcShowGlobalOrganization: 'Pokaż Globalną Organizację', // Show Global Organization
+	pcShowGlobalOrganization: 'Wyświetl główną organizację', // Show Global Organization
 	pcAllowUrlHideActions: 'Zezwól na \'ukryjAkcje\' w URL', // Allow \'hideActions\' In Url
-	pcHideActions: 'Ukryj Akcje', // Hide Actions
+	pcHideActions: 'Ukryj akcje', // Hide Actions
 	pcHideActionsTip: 'Działa tylko, gdy opcja \'ukryjAkcje\' w URL jest wyłączona', // Only works when Allow \'hideActions\' In Url option is off
 	pcHideActionsPlaceHolder: 'Ustaw Ukryte Akcje (oddzielane przecinkami)', // Please Set Hide Actions(Separated by commas)
 	pcHideDocumentListColumns: 'Ukryj kolumny listy dokumentów', // Hide Document List Columns
@@ -365,9 +365,9 @@ export const portalPL: LanguageKeyValueMap = {
 	'UpdateNotificationSkipVersionError': 'Nie udało się pominąć wersji', // Failed to skip the version
 	'UpdateNotificationSkipVersionSuccess': 'Pomyślnie pominięto wersję', // Skipped version successfully
 	'UpdateNotificationSkipVersionSuccessDetail': 'Pomyślnie pominięto wersję "Version {{version}}"', // Success to skip the version "Version {{version}}"
-	'vsReleaseTime': 'Data Wydania:', // Release Date:
+	'vsReleaseTime': 'Data wydania:', // Release Date:
 	'vsSummary': 'Podsumowanie:', // Summary:
-	'vsViewDetail': 'Pokaż Szczegóły', // View Detail
+	'vsViewDetail': 'Pokaż szczegóły', // View Detail
 
 	err_20015: 'Nazwa kategorii "{{tagName}}" nie można zaczynać się od \"$\".', // Category name "{{tagName}}" cannot start with \"$\".
 	err_20016: 'Nie można odnaleźć kategorii o ID "{{tagId}}".', // Category with the id "{{tagId}}" not found.

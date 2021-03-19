@@ -1,9 +1,9 @@
 ﻿export const portalResourcePL: LanguageKeyValueMap = {
-	'createFloorPlan!name': 'Stwórz Plan Budynku', // Create Floor Plan
-	'createFloorPlan!description': 'Stwórz Plan Budynku', // Create Floor Plan
+	'createFloorPlan!name': 'Stwórz plan budynku', // Create Floor Plan
+	'createFloorPlan!description': 'Stwórz plan budynku', // Create Floor Plan
 	'modifyFloorPlan!name': 'Edytuj...', // Edit...
-	'modifyFloorPlan!description': 'Edytuj Plan Budynku', // Edit this Floor Plan
-	'floorPlan!name': 'Plan Budynku', // Floor Plan
+	'modifyFloorPlan!description': 'Edytuj plan budynku', // Edit this Floor Plan
+	'floorPlan!name': 'Plan budynku', // Floor Plan
 };
 
 export const shareResourcePL: LanguageKeyValueMap = {
@@ -11,7 +11,7 @@ export const shareResourcePL: LanguageKeyValueMap = {
 
 export const designerResourcePL: LanguageKeyValueMap = {
 	// common
-	FloorPlanDesigner: 'Projektant Planu Budynku', // Floor Plan Designer
+	FloorPlanDesigner: 'Projektant planu budynku', // Floor Plan Designer
 	Save: 'Zapisz', // Save
 	Untitled: 'Bez tytułu', // Untitled
 	Apply: 'Zastosuj', // Apply
@@ -48,13 +48,13 @@ export const designerResourcePL: LanguageKeyValueMap = {
 	// error info
 	EmptyName: 'Pusta nazwa', // Empty Name
 	AreaNameExist: '"{{name}}" już istnieje.', // "{{name}}" already exists.
-	FloorPlanSaveError: 'Zapis Planu Budynku nie powiódł się', // Floor plan save failed
-	PleaseInputName: 'Proszę wprowadzić nazwę Planu Budynku.', // Please input floor plan name.
-	FloorPlanNameOnlySapcesError: 'Nazwa Planu Budynku jest nieprawidłowa. Nazwa nie może zawierać samych spacji.', // The floor plan name is invalid. Please do not use spaces only as floor plan name.
-	FloorPlanGraphEmptyError: 'Wykres Planu Budynku nie może być pusty.', // Floor plan graph can not empty.
-	updateFloorError: 'Aktualizacja Planu Budynku nie powiodła się', // Update floor plan failed
-	loadFloorError: 'Wczytywanie Planu Budynku nie powiodło się', // Load floor plan failed
-	createFloorError: 'Dodawanie Planu Budynku nie powiodło się', // Add floor plan failed
+	FloorPlanSaveError: 'Zapis planu budynku nie powiódł się', // Floor plan save failed
+	PleaseInputName: 'Proszę wprowadzić nazwę planu budynku.', // Please input floor plan name.
+	FloorPlanNameOnlySapcesError: 'Nazwa planu budynku jest nieprawidłowa. Nazwa nie może zawierać samych spacji.', // The floor plan name is invalid. Please do not use spaces only as floor plan name.
+	FloorPlanGraphEmptyError: 'Wykres planu budynku nie może być pusty.', // Floor plan graph can not empty.
+	updateFloorError: 'Aktualizacja planu budynku nie powiodła się', // Update floor plan failed
+	loadFloorError: 'Wczytywanie planu budynku nie powiodło się', // Load floor plan failed
+	createFloorError: 'Dodawanie planu budynku nie powiodło się', // Add floor plan failed
 	err_300000: 'Wystąpił nieoczekiwany błąd: {{message}}', // Unexpected error occurs, error message: {{message}}
 	err_300001: 'Dokument z nazwą "{{Title}}" już istnieje.', // Document with name "{{Title}}" already exists.
 	err_300002: 'Inne dokumenty odnoszą się do tego dokumentu.', // Document is referred by other documents.

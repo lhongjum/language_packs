@@ -6,38 +6,38 @@
 
 	// Tabs
 	tasksTabCaption: 'Zadania', // Tasks
-	tasksTabDescription: 'Zadania zaplanowane dla tego dokumentu', // Scheduled tasks for the document
+	tasksTabDescription: 'Zadania zaplanowane dla dokumentu', // Scheduled tasks for the document
 
 	historyTabCaption: 'Historia', // History
-	historyTabDescription: 'Historia wykonania zaplanowanych zadań', // Scheduled task execution history
+	historyTabDescription: 'Historia zaplanowanych zadań', // Scheduled task execution history
 
 	// Tasks Tab
-	tasksTabHeader: 'Zaplanowane Zadania', // Scheduled Tasks
+	tasksTabHeader: 'Zaplanowane zadania', // Scheduled Tasks
 	tasksTabNoTasks: 'Brak zaplanowanych zadań dla tego dokumentu', // There are no scheduled tasks for this document
-	tasksTabBtnAddTask: 'Dodaj Zadanie', // Add Task
+	tasksTabBtnAddTask: 'Dodaj zadanie', // Add Task
 
 	// Task Item
-	taskItemRunBtnTitle: 'Uruchom Zadanie', // Run Task
-	taskItemMenuBtnTitle: 'Operacje', // Actions
+	taskItemRunBtnTitle: 'Uruchom zadanie', // Run Task
+	taskItemMenuBtnTitle: 'Akcje', // Actions
 	taskItemMenuEnableText: 'Włącz', // Enable
-	taskItemMenuEnableTitle: 'Włącz Zadanie', // Enable Task
+	taskItemMenuEnableTitle: 'Włącz zadanie', // Enable Task
 	taskItemMenuDisableText: 'Wyłącz', // Disable
-	taskItemMenuDisableTitle: 'Wyłącz Zadanie', // Disable Task
+	taskItemMenuDisableTitle: 'Wyłącz zadanie', // Disable Task
 	taskItemMenuEditText: 'Edytuj', // Edit
-	taskItemMenuEditTitle: 'Edytuj Zadanie', // Edit Task
+	taskItemMenuEditTitle: 'Edytuj zadanie', // Edit Task
 	taskItemMenuDeleteText: 'Usuń', // Delete
-	taskItemMenuDeleteTitle: 'Usuń Zadanie', // Delete Task
+	taskItemMenuDeleteTitle: 'Usuń zadanie', // Delete Task
 	taskItemTextNextRun: 'Następne uruchomienie:', // Next run:
 	taskItemTextManually: 'Ręcznie', // Manually
 	taskItemTextNever: 'Nigdy', // Never
 
 	// Task Editor
-	taskNoScheduleTemplateTip: 'brak szablonu harmonogramu', // no schedule template
-	taskEditorCloneFromTemplate: 'Użyj Szablonu', // Use Template
-	taskEditorChooseTemplate: 'Wybierz Szablon', // Choose Template
+	taskNoScheduleTemplateTip: 'brak szablonu planowania', // no schedule template
+	taskEditorCloneFromTemplate: 'Użyj szablonu', // Use Template
+	taskEditorChooseTemplate: 'Wybierz szablon', // Choose Template
 	taskEditorTemplateHasBeenDeleted: 'Szablon został usunięty', // Template has been deleted
 	taskEditorHeaderDetails: 'Szczegóły', // Details
-	taskEditorInputPlaceholderDescription: 'Opis Zadania', // Task description
+	taskEditorInputPlaceholderDescription: 'Opis zadania', // Task description
 	taskEditorLabelDateUpdateMode: 'Data Update Mode',
 	taskEditorExecutionOverride: 'Override',
 	taskEditorExecutionIncrementalUpdate: 'Incremental Update',
@@ -46,10 +46,10 @@
 	taskEditorExecutionOneTime: 'Jednorazowo', // One-Time
 	taskEditorExecutionScheduled: 'Zaplanowane', // Scheduled
 	taskEditorLabelStart: 'Start',
-	taskEditorBtnCreateText: 'Utwórz Zadanie', // Create Task
-	taskEditorBtnUpdateText: 'Zaktualizuj Zadanie', // Update Task
+	taskEditorBtnCreateText: 'Utwórz zadanie', // Create Task
+	taskEditorBtnUpdateText: 'Zaktualizuj zadanie', // Update Task
 	taskEditorBtnCancelText: 'Anuluj', // Cancel
-	taskEditorLabelMail: 'Powiadomienie Email', // Email Notification
+	taskEditorLabelMail: 'Powiadomienie email', // Email Notification
 	taskEditorLabelMailLabel: 'Please enter email notification',
 	taskEditorLabelMailTooltip: 'Wyślij wiadomość na określoną skrzynkę pocztową jeśli zadanie zakończy się niepowodzeniem', // Send the failure message to the specified mailbox when the task execute fail
 	taskEditorMailLabelInvalidDomainTip: 'Nieprawidłowa domena email', // Invalid Email Domain
@@ -60,7 +60,7 @@
 	recEditorHeaderRepeat: 'Powtarzaj', // Repeat
 	recEditorLabelStart: 'Start',
 	recEditorLabelEnd: 'Koniec', // End
-	recEditorPlaceholderNoEndDate: 'Brak Daty Końcowej', // No End Date
+	recEditorPlaceholderNoEndDate: 'Brak daty końcowej', // No End Date
 	recEditorDailyEditor: 'Dziennie', // Daily
 	recEditorWeeklyEditor: 'Tygodniowo', // Weekly
 	recEditorMonthlyEditor: 'Miesięcznie', // Monthly

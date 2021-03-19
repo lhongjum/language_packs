@@ -1,24 +1,24 @@
 
 export const portalPL = {
-	'createDataset!name': 'Stwórz Zestaw Danych',
-	'createDataset!description': 'Stwórz Zestaw Danych',
+	'createDataset!name': 'Stwórz zestaw danych',
+	'createDataset!description': 'Stwórz zestaw danych',
 
-	'createDatasource!name': 'Stwórz Źródło Danych',
-	'createDatasource!description': 'Stwórz Źródło Danych',
+	'createDatasource!name': 'Stwórz źródło danych',
+	'createDatasource!description': 'Stwórz źródło danych',
 
-	'dsc!name': 'Źródło Danych',
-	'dsc!description': 'Źródło Danych',
+	'dsc!name': 'Źródło danych',
+	'dsc!description': 'Źródło danych',
 
-	'dataset!name': 'Zestaw Danych',
-	'dataset!description': 'Zestaw Danych',
+	'dataset!name': 'Zestaw danych',
+	'dataset!description': 'Zestaw danych',
 
 	'modifyDataSource!name': 'Edytuj...',
 	'modifyDataSource!description': 'Edytuj ten dokument',
 	'reconfigDataSource!name': 'Konfiguruj',
 	'reconfigDataSource!description': 'Konfiguruj ten dokument',
 
-	'modifyDataset!name': 'Edit...',
-	'modifyDataset!description': 'Edit this document',
+	'modifyDataset!name': 'Edytuj...',
+	'modifyDataset!description': 'Edytuj ten dokument',
 
 	'refreshDataset!name': 'Odśwież pamięć podręczną...',
 	'refreshDataset!description': 'Odśwież pamięć podręczną',
@@ -30,7 +30,7 @@ export const portalPL = {
 	'copyDataset!description': 'Duplikuj ten dokument', // Duplicate this document
 
 	'psExecute!name': 'Wykonaj',
-	'psExecuteAndCreateDataset!name': 'Wykonaj / Stwórz Zestaw Danych',
-	'appendData!name': 'Dołącz Dane',
-	'appendData!description': 'Dołącz dane dla wybranego Źródła Danych',
+	'psExecuteAndCreateDataset!name': 'Wykonaj / Stwórz zestaw danych',
+	'appendData!name': 'Dołącz dane',
+	'appendData!description': 'Dołącz dane dla wybranego źródła danych',
 };

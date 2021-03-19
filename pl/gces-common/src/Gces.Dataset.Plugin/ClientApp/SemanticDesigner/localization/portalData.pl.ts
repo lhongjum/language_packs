@@ -1,16 +1,16 @@
 ﻿export const portalDataPL: LanguageKeyValueMap = {
-	'smdsc!name': 'Model Semantyczny',
-	'smdsc!description': 'Model Semantyczny',
+	'smdsc!name': 'Model semantyczny',
+	'smdsc!description': 'Model semantyczny',
 
 	// Sidebar Share
 	'psSemExecute!name': 'Wykonaj', // Execute
-	'psSemExecuteAndCreateDataset!name': 'Wykonaj / Stwórz Zestaw Danych', // Execute / Create Dataset
+	'psSemExecuteAndCreateDataset!name': 'Wykonaj / Stwórz zestaw danych', // Execute / Create Dataset
 	'psSemReadWrite!name': 'Otwórz / Zapisz', // Read / Write
 
-	'createSemanticModel!name': 'Stwórz Model Semantyczny', // Create Semantic Model
-	'createSemanticModel!description': 'Stwórz Model Semantyczny', // Stwórz Model Semantyczny
+	'createSemanticModel!name': 'Stwórz model semantyczny', // Create Semantic Model
+	'createSemanticModel!description': 'Stwórz model semantyczny', // Stwórz Model Semantyczny
 	'editSemanticModel!name': 'Edytuj...', // Edit...
-	'editSemanticModel!description': 'Edytuj Model Semantyczny', // Edit Semantic Model
+	'editSemanticModel!description': 'Edytuj model semantyczny', // Edit Semantic Model
 
 	'revert!name': 'Przywróć', // Revert
 	'revert!description': 'Przywróć do tej wersji', // Revert to this version

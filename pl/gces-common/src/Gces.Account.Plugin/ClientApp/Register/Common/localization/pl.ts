@@ -3,10 +3,10 @@ export const commonPL: LanguageKeyValueMap = {
 	cmSave: 'Zapisz', // Save
 	cmCancel: 'Anuluj', // Cancel
 	cmEmptyResult: 'pusty wynik', // empty result
-	ecSelectMembers: 'Wybierz Użytkowników', // Select Members
-	ecMembers: '({{count}} Użytkowników)',
+	ecSelectMembers: 'Wybierz użytkowników', // Select Members
+	ecMembers: '({{count}} użytkowników)',
 
-	rn_orgadmin: 'Administrator Organizacji', // Organization Administrator
+	rn_orgadmin: 'Administrator organizacji', // Organization Administrator
 	rn_administrator: 'Administrator',
 	rn_Everyone: 'Wszyscy', // Everyone
 	globalOrgName: 'Global',

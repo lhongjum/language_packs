@@ -9,6 +9,6 @@ export default {
 	"start-btn": "Eksport",
 	"emptyListPlaceholder":"Brak dostępnych ustawień",
 	"emptyFormatsPlaceholder": "Brak dostępnych formatów",
-	"exportType": "Typ Eksportu",
+	"exportType": "Typ eksportu",
 	"preparingExport": "Przygotowuję eksport...",
 }

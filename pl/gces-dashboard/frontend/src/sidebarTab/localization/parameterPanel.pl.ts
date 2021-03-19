@@ -14,9 +14,9 @@ export const parameterPanelPL: LanguageKeyValueMap = {
   sagaValidationTextPickFromList: '* Nieprawidłowa wartość. Wybierz właściwą z listy', // * Wrong value. Pick the right one from the list
   sagaValidationTextMaxInteger: '* Wartość nie może przekraczać 32-bitowej liczby całkowitej', // * Value cannot exceed 32-bit integer
   // All Parameters
-  paramsTextInvalidValue: 'Niewłaściwa Wartość', // Invalid Value
+  paramsTextInvalidValue: 'Niewłaściwa wartość', // Invalid Value
   // MultiValueParameter
-  mvpTextAllValues: 'Wszystkie Wartości', // All Values
+  mvpTextAllValues: 'Wszystkie wartości', // All Values
   mvpTextSelectValue: '(wybierz wartość)', // (select value)
   mvpTextSelectAll: '(wybierz wszystkie)', // (select all)
   mvpTextResetAll: '(zresetuj wszystkie)', // (reset all)

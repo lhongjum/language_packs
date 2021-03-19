@@ -31,7 +31,7 @@
         "UnsupportedReportType": "Typ raportu z zapytania nie jest obsługiwany"
       },
       "export": {
-        "export-preparing": "Preparing export..."
+        "export-preparing": "Przygotowuję eksport..."
       },
       "panels": {
         "export": "Eksport", 
@@ -46,7 +46,7 @@
         "mode-single": "Widok jednej strony", 
         "print-btn": "Wydruk", 
         "print-preparing": "Przygotowywanie wydruku..." ,
-        "resume-rendering": "Częściowe dane: Uruchom Pełny raport"
+        "resume-rendering": "Częściowe dane: Uruchom pełny raport"
       }
     }
   },

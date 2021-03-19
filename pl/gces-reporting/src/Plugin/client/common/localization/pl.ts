@@ -137,7 +137,7 @@ export default {
 	'commands$navigation': 'Nawigacja',
 	'commands$refresh': 'Odśwież',
 	'commands$history': 'Historia',
-	'commands$mousemode': 'Tryb Myszy',
+	'commands$mousemode': 'Tryb myszy',
 	'commands$zoom': 'Powiększenie',
 	'commands$fullscreen': 'Pełny ekran',
 	'commands$print': 'Drukuj',

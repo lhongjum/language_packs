@@ -114,8 +114,8 @@ export const portalPL: LanguageKeyValueMap = {
 	'psReadWrite!name': 'Odczyt / Zapis', // Read / Write
 	psCancel: 'Anuluj', // Cancel
 	psSave: 'Zapisz', // Save
-	psNoRolesTip: 'no matched roles found', // no matched roles found
-	psPermissionInfo: 'Informacje o Uprawnieniach', // Permission Information
+	psNoRolesTip: 'Nie znaleziono pasujących roli', // no matched roles found
+	psPermissionInfo: 'Informacje o uprawnieniach', // Permission Information
 	psApplyMinNeededPermission: 'Nadaj minimalne wymagane uprawnienia', // Apply Minimum Needed Permission
 	psApplyMinNeededPermissionTip: 'Przyznasz uprawnienie \ "Wykonaj \" do dokumentów, do których istnieją odniesienia.', // You will grant the \"Execute\" permission to the referenced documents.
 	psInsufficientPermission: 'Zaznaczona rola / organizacja nie ma wystarczających uprawnień do dokumentów, do których się odwołuje, aby wykonać działanie. Możesz zastosować minimalne wymagane uprawnienia, aby użytkownicy mogli normalnie wyświetlać podgląd tego dokumentu.', // The checked role/organization does not have sufficient permissions on the referenced documents to perform the action. You can apply minimum needed permission to make sure users can preview this document normally.
@@ -151,12 +151,12 @@ export const portalPL: LanguageKeyValueMap = {
 	'rdlx!description': 'Raport', // Report
 	'rdlx-template!name': 'Szablon raportu', // Report template
 	'rdlx-template!description': 'Szablon raportu', // Report template
-	'rdlx-master!name': 'Raport Główny', // Master Report
-	'rdlx-master!description': 'Raport Główny', // Master Report
+	'rdlx-master!name': 'Raport główny', // Master Report
+	'rdlx-master!description': 'Raport główny', // Master Report
 	'report!name': 'Raport',
 	'report!description': 'Raport',
-	'report-master!name': 'Raport Główny', // Master Report
-	'report-master!description': 'Raport Główny', // Master Report
+	'report-master!name': 'Raport główny', // Master Report
+	'report-master!description': 'Raport główny', // Master Report
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
 	'dbd!name': 'Dashboard', // Dashboard

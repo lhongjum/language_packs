@@ -17,7 +17,7 @@ export const datasetPL = {
 	DatasetNameOnlySpacesError: 'Nazwa zestawu danych jest nieprawidłowa. Nie używaj samych spacji jako nazwy.', // The dataset name is invalid. Please do not use spaces only as dataset name.
 	DatasourceNameError: 'Nazwa źródła danych jest nieprawidłowa. Nie używaj ograniczonych symboli < > \ : ? * / | " oraz nie używaj . (kropka) jako pierwszego symbolu w nazwie', // The datasource name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the datasource name.
 	NewDataset: 'Nowy zestaw danych', // New Dataset
-	TableName: 'NazwaTabeli', // TableName
+	TableName: 'Nazwa tabeli', // TableName
 	DatasetDesigner: 'Kreator zestawu danych', // Dataset Designer
 	Untitled: 'Brak tytułu', // Untitled
 	Categories: 'Kategorie', // Categories
@@ -79,7 +79,7 @@ export const datasetPL = {
 	WebURIFilters: 'Filtry sieciowe URI', // Web URI Filters
 	Options: 'Opcje', // Options
 	Field: 'Pole', // Field
-	DataType: 'TypDanych', // DataType
+	DataType: 'Typ danych', // DataType
 	Multivalue: 'Multiwartość', // Multivalue
 
 	// relationships tab
@@ -146,10 +146,10 @@ export const datasetPL = {
 	DeleteCustomSqlTableConfirmMsg: 'Usunąć własną tabelę SQL "{{name}}" na zawsze?', // Delete Custom Sql Table "{{name}}" forever?
 
 	Procedures: 'Procedury', // Procedures
-	ProcedureParameterName: 'Nazwa Parametru', // Parameter Name
-	ProcedureParameterType: 'Typ Danych', // Data Type
-	ProcedureParameterValueType: 'Typ Wartości', // Value Type
-	ProcedureParameterDefaultValue: 'Wartość Domyślna', // Default Value
+	ProcedureParameterName: 'Nazwa parametru', // Parameter Name
+	ProcedureParameterType: 'Typ danych', // Data Type
+	ProcedureParameterValueType: 'Typ wartości', // Value Type
+	ProcedureParameterDefaultValue: 'Wartość domyślna', // Default Value
 	InParam: 'Parametr W',
 	ResultSet: 'Zestaw wynikowy', // Result Set
 	CustomTableBindedParameterNotFound: 'Bieżąca niestandardowa tabela Sql jest uszkodzona. Nie znaleziono następujących powiązanych parametrów: {{invalidParametersName}}.', // The current custom Sql table is corrupted, the following bound parameters are not found:
@@ -255,9 +255,9 @@ export const datasetPL = {
 	orFilter: 'Lub', // Or
 	addRule: 'Dodaj regułę', // Add rule
 	addGroup: 'Dodaj grupę', // Add group
-	UserContextParameter: 'Parametr Kontekstu Użytkownika', // User Context Parameter
-	OrganizationContextParameter: 'Parametr Kontekstu Organizacji', // Organization Context Parameter
-	ConstantParameter: 'Stały Parametr', // Constant Parameter
+	UserContextParameter: 'Parametr kontekstu użytkownika', // User Context Parameter
+	OrganizationContextParameter: 'Parametr kontekstu organizacji', // Organization Context Parameter
+	ConstantParameter: 'Stały parametr', // Constant Parameter
 
 	// options tab
 	ConnectDbType: 'Podłącz typ bazy danych', // Connect Database Type
@@ -274,17 +274,17 @@ export const datasetPL = {
 	ParameterType: 'Typ parametru', // Parameter Type
 	UserInput: 'Dane wejściowe użytkownika', // User Input
 	UseCacheTip: 'Zestaw danych dla dashboardu będzie przeliczany i cache\'owany przy zapisie', // The dataset for dashboard will be calculated and cached when it is saved.
-	DirectConnectionTip: 'Zetsaw danych dla raportu będzie przeliczany za każdym razem, gdy będzie używany.', // The dataset for report will be calculated every time when it is consumed.
+	DirectConnectionTip: 'Zestaw danych dla raportu będzie przeliczany za każdym razem, gdy będzie używany.', // The dataset for report will be calculated every time when it is consumed.
 	AddParameter: 'Dodaj parametr', // Add Parameter
 	CanNotSaveAlertAboutUseCache: 'Nie można używać trybu \'$t(UseCache)\', gdy zestaw danych ma parametr typu \'$t(UserInput)\'.', // Can not use \'$t(UseCache)\' mode when dataset has \'$t(UserInput)\' type parameter.
-	InvalidParameterNameError: 'nazwa parametru może zawierać tylko litery, liczby oraz _. Pierwszy znak nie może być liczbą, a długość powinna znajdować się w przedziale 1-32.', // Parameter name can only contains letter, number and _, the first character can not be a number, and the length should be between 1-32.
+	InvalidParameterNameError: 'Nazwa parametru może zawierać tylko litery, liczby oraz _. Pierwszy znak nie może być liczbą, a długość powinna znajdować się w przedziale 1-32.', // Parameter name can only contains letter, number and _, the first character can not be a number, and the length should be between 1-32.
 	ParameterAlreadyExistsError: 'Parametr "{{parameter}}" już istnieje.', // Parameter "{{parameter}}" already exists.
 	user_context_userid: 'ID użytkownika', // user id
 	user_context_name: 'nazwa użytkownika', // user name
 	user_context_email: 'email', // email
 	user_context_phone_number: 'numer telefonu komórkowego', // mobile phone
 	user_context_given_name: 'Imię', // given name
-	user_context_family_name: 'nazwisko rodowe', // family name
+	user_context_family_name: 'Nazwisko rodowe', // family name
 	user_context_full_name: 'Imię i nazwisko', // full name
 	user_context_role: 'rola', // role
 	user_context_tenant$Name: 'Nazwa organizacji', // organization-Name
@@ -301,7 +301,7 @@ export const datasetPL = {
 	NoConfigedDatabase: 'No configured database',
 	Create: 'Utwórz', // Create
 	EditDatasource: 'Edytuj źródło danych', // Edit Data Source
-	ReconfigDatasource: 'Konfiguruj Źródło Danych', // Reconfigure Data Source
+	ReconfigDatasource: 'Konfiguruj źródło danych', // Reconfigure Data Source
 	Update: 'Zaktualizuj', // Update
 	Local: 'Lokalnie', // Local
 	Embed: 'Osadź', // Embed
@@ -311,10 +311,10 @@ export const datasetPL = {
 	Name: 'Nazwa', // Name
 	User: 'Użytkownik', // User
 	SecurityToken: 'Token zabezpieczeń', // Security Token
-	CacheExpiration: 'Wygaśnięcie Cache', // Cache Expiration
-	CacheExpirationMode: 'Tryb wygaśnięcia Cache', // Cache Expiration Mode
+	CacheExpiration: 'Wygaśnięcie cache', // Cache Expiration
+	CacheExpirationMode: 'Tryb wygaśnięcia cache', // Cache Expiration Mode
 	Password: 'Hasło', // Password
-	FilePassword: 'HasłoPliku', // FilePassword
+	FilePassword: 'Hasło pliku', // FilePassword
 	Server: 'Serwer', // Server
 	Host: 'Host', // Host
 	Port: 'Port', // Port
@@ -390,7 +390,7 @@ export const datasetPL = {
 	next: 'Następny', // Next
 	back: 'Poprzedni', // Previous
 	cancel: 'Anuluj', // Cancel
-	workSheet: 'ArkuszRoboczy', // WorkSheet
+	workSheet: 'Arkusz roboczy', // WorkSheet
 	renameWorkSheet: 'Nazwa nowego arkusza', // New Sheet Name
 	renameColumnName: 'Zmień nazwę', // Rename
 	textType: 'Tekst', // Text

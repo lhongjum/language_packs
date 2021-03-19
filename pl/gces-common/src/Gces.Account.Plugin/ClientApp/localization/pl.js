@@ -36,9 +36,9 @@ export const accountPL = {
 	gtWelcomeScreen: 'Ukryj ekran powitalny', // Hide welcome screen
 	gtGenerateToken: 'Wygeneruj token', // Generate Token
 	gtToken: 'Token',
-	gtTitle: 'Tytuł', // Title
+	gtTitle: 'Nazwa', // Title
 	gtDescription: 'Opis', // Description
-	gtOrgPath: 'Organization Path',
+	gtOrgPath: 'Ścieżka organizacji', // Organization Path
 	gtCreatedTime: 'Czas utworzenia', // Created Time
 	gtTokenList: 'Tokeny', // Tokens
 	gtIntegratePortalUrl: 'Zintegruj link portalu', // Integrate Portal URL
@@ -88,7 +88,7 @@ export const accountPL = {
 	NoCustomizePropertiesTip: 'Brak rozszerzonych atrybutów w systemie. Kliknij, aby dodać.', // No extended properties in the system.To add,please click
 	AllowEdit: 'Zezwól użytkownikowi na edycję', // Allow User To Edit
 	Multivalued: 'Wielowartościowy', // Multivalued
-	ShowInProfile: 'Wyświetlaj w Profilu Użytkownika', // Display In User Profile Page
+	ShowInProfile: 'Wyświetlaj w profilu użytkownika', // Display In User Profile Page
 	MultivaluedChangedWarning: 'Uwaga: modyfikacja wielowartościowego atrybutu zmieni wartości niestandardowych atrybutów dla wszystkich ról w systemie.', // Modifying the value of multivalued property of the custom property will cause the value of the custom property of all roles in the system to change, please be careful!
 
 	// Locked  user management
@@ -104,15 +104,15 @@ export const accountPL = {
 	// License
 	RegistrationDate: 'Data rejestracji', // Registration Date
 	LicenseKey: 'KluczLicencji', // LicenseKey
-	ServerGeneratedInfo: 'Informacje Wygenerowane Przez Serwer', // ServerGeneratedInfo
-	ExpiryDate: 'Data Wygaśnięcia', // Expiry Date
-	LicenseInfo: 'Informacja o Licencji', // License Info
+	ServerGeneratedInfo: 'Informacje wygenerowane przez serwer', // ServerGeneratedInfo
+	ExpiryDate: 'Data wygaśnięcia', // Expiry Date
+	LicenseInfo: 'Informacja o licencji', // License Info
 	Register: 'Zarejestruj', // Register
 	Deregister: 'Wyrejestruj', // Deregister
 	Refresh: 'Odśwież', // Refresh
-	ForceOfflineRegister: 'Rejestracja Offline', // Offline Register
-	ForceOfflineDeregister: 'Wyrejestrowanie Offline', // Offline Deregister
-	ForceOfflineRefresh: 'Odświeżenie Offline', // Offline Refresh
+	ForceOfflineRegister: 'Rejestracja offline', // Offline Register
+	ForceOfflineDeregister: 'Wyrejestrowanie offline', // Offline Deregister
+	ForceOfflineRefresh: 'Odświeżenie offline', // Offline Refresh
 	Summary: 'Podsumowanie', // Summary
 	DeregisterConfirm: 'Potwierdź wyrejestrowanie licencji', // Confirm Licence Deregister
 	DeregisterConfirmMessage: 'Czy jesteś pewien, że chcesz wyrejestrować licencję "{{license}}"?', // Are you sure you want to deregister license "{{license}}"?

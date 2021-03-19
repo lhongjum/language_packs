@@ -889,13 +889,13 @@ marker_type:
   - Kwadrat #Square
   - Trójkąt #Triangle
 operator: 
-  - Equal
-  - Like
-  - NotEqual
-  - GreaterThan
-  - GreaterThanOrEqual
-  - LessThan
-  - LessThanOrEqual
+  - Równy #Equal
+  - Jak #Like
+  - NieRówny #NotEqual
+  - WiększyOd #GreaterThan
+  - WiększyLubRównyOd #GreaterThanOrEqual
+  - MniejszyOd #LessThan
+  - MniejszyLubRównyOd #LessThanOrEqual
   - TopN
   - BottomN
   - TopPercent
