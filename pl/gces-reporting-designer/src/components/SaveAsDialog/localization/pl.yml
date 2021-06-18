@@ -1,34 +1,72 @@
 cancelLabel: Anuluj
 category: Kategoria
+commandsSelector:
+  commands:
+    continuousmode: Widok ciągły
+    csv: CSV
+    docx: Word
+    excel: Excel
+    exceldata: Dane programu Excel
+    fullscreen: Pełny ekran
+    galleymode: Tryb szpalty
+    history: Historia
+    html: HTML
+    image: Image
+    json: JSON
+    mousemode: Tryb myszy
+    navigation: Nawigacja
+    pdf: PDF
+    print: Drukuj
+    refresh: Odśwież
+    search: Szukaj
+    singlepagemode: Widok pojedynczej strony
+    txt: TXT
+    xml: XML
+    zoom: Powiększenie
+  title: Polecenia
 commentLabel: Komentarz
+errors:
+  loadCategories: Lista kategorii nie może zostać załadowana.
+  loadCommands: Lista komend nie może zostać załadowana.
+  loadRoles: Lista ról nie może zostać załadowana.
+  saveCategories: Kategorie nie mogły zostać zapisane.
+  saveCommands: Polecenia nie mogły zostać zapisane.
+  savePermissions: Określone uprawnienia nie mogły zostać zapisane.
+okLabel: OK
+permissionsSelector:
+  permissions:
+    execute: Wykonaj
+    read: Odczyt
+    readWrite: Odczyt i zapis
+  roleName_Everyone: Wszyscy
+  roleName_administrator: Administrator
+  roleName_orgadmin: Administrator organizacji
+  title: Uprawnienia
 report:
   emptyNameTooltip: Nazwa raportu nie może zawierać samych spacji
+  errors:
+    loadDocuments: Lista raportów nie może zostać załadowana.
+    saveDocument: Raport nie mógł zostać zapisany.
   getting: Pobieranie raportów...
   invalidName: Nazwa raportu jest nieprawidłowa.
   invalidNameTooltip: 'Nie używaj zastrzeżonych symboli ''<'', ''>'', ''\'', '':'', ''?'', ''*'', ''/'', ''|'', ''"'' oraz nie używaj ''.'' jako pierwszego symbolu.'
-  nameLabel: Nazwa raportów
+  nameLabel: Nazwa
   namePlaceholder: Wprowadź nazwę raportu tutaj...
-  saveLabel: Zapisz raport
+  saveLabel: Zapisz
   saving: Zapisywanie raportu...
-  tileLabel: Raport
   willBeOverwritten: Raport zostanie nadpisany
-rolesSelector:
-  permission:
-    read: Odczyt
-    readWrite: Odczyt i zapis
-  permissionTooltip: Wybierz poziom uprawnienia
-  roleTooltip: Rola
-  shareLabel: Udostępnianie
 saveAsTemplate: Zapisz jako szablon
 template:
   emptyNameTooltip: Nazwa szablonu nie może zawierać samych spacji
+  errors:
+    loadDocuments: Lista szablonów nie może zostać załadowana.
+    saveDocument: Szablon nie mógł zostać zapisany.
   getting: Pobieranie szablonów...
   invalidName: Nazwa szablonu jest nieprawidłowa.
   invalidNameTooltip: 'Nie używaj zastrzeżonych symboli ''<'', ''>'', ''\'', '':'', ''?'', ''*'', ''/'', ''|'', ''"'' oraz nie używaj ''.'' jako pierwszego symbolu.'
-  nameLabel: Nazwa szablonu
+  nameLabel: Nazwa
   namePlaceholder: Wprowadź nazwę szablonu tutaj...
-  saveLabel: Zapisz szablon
+  saveLabel: Zapisz
   saving: Zapisywanie szablonu...
-  tileLabel: Szablon
   willBeOverwritten: Szablon zostanie nadpisany.
 title: Zapisz jako

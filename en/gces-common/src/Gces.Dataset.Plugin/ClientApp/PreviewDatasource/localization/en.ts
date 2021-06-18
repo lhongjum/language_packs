@@ -17,6 +17,7 @@ export const en = {
 	err_100019: 'You don not have permission to access the document.',
 	err_100020: 'Wrong document type.',
 	err_100021: 'Can not connect to datasource {{name}}.',
+	err_100030: 'The mapped datasource connection string has used the context field for name mapping, and the datasource schema does not match the name mapping schema.',
 	err_100018_desc: 'Error trying to resolve datasource "{{ids}}"',
 
 	E_40001: 'SqlOptimizer failed on executing primitive sql on data source.',
@@ -70,6 +71,10 @@ export const en = {
 	E_80048: 'Context not registered.',
 	E_80059: 'No proper data type converters found between types.',
 	E_80062: 'Can not convert null value to a value type.',
+	E_110001: 'JDBC proxy is not alive.',
+	E_110002: 'Get schema from JDBC proxy error.',
+	E_110003: 'An error occurred when executing primitive query in JDBC proxy. \n{{message}}',
+	E_110004: 'Connection time out.',
 
 	err_DataSourceAccessDenied: 'You do not have permission to access datasource. \nDatasource Name: {{datasourceName}}.',
 	err_DataSourceNotFound: 'Specified datasource document "{{datasourceId}}" is not found.',

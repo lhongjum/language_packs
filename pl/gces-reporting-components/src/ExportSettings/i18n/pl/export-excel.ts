@@ -5,11 +5,11 @@ export default {
   "tooltipName": "Arkusz Excel",
   "settings": {
     "UseCompression": {
-      "label": "UżyjKompresji",
+      "label": "Użyj kompresji",
       "category": "Różne"
     },
     "OutputFormat": {
-      "label": "StandardOpenXML",
+      "label": "Standard OpenXML",
       "category": "Różne",
       "enum": {
         "OpenXmlTransitional": "Przejściowy",
@@ -17,7 +17,7 @@ export default {
       }
     },
     "EnableToggles": {
-      "label": "WłączPrzełącznik",
+      "label": "Włącz przełącznik",
       "category": "Różne"
     },
     "Pagination": {
@@ -25,32 +25,32 @@ export default {
       "category": "Różne"
     },
     "UseDefaultPalette": {
-      "label": "UżyjDomyślnejPalety",
+      "label": "Użyj domyślnej palety",
       "category": "Różne"
     },
     "MultiSheet": {
-      "label": "MultiArkusz",
+      "label": "Multi arkusz",
       "category": "Różne"
     },
     "SheetName": {
-      "label": "NazwaArkusza",
+      "label": "Nazwa arkusza",
       "category": "Różne"
     },
     "ProtectedBy": {
-      "label": "ChronionyPrzez",
+      "label": "Chroniony przez",
       "category": "Bezpieczeństwo"
     },
     "WritePassword": {
-      "label": "WpiszHasło",
+      "label": "Wpisz hasło",
       "category": "Bezpieczeństwo"
     },
     "ReadOnlyRecommended": {
-      "label": "ZalecanyTylkoOdczyt",
+      "label": "Zalecany tylko odczyt",
       "category": "Bezpieczeństwo"
     },
     "Orientation": {
-      "label": "OrientacjaStrony",
-      "category": "UstawieniaStrony",
+      "label": "Orientacja strony",
+      "category": "Ustawienia strony",
       "enum": {
         "Default": "Domyślnie",
         "Portrait": "Portret",
@@ -58,8 +58,8 @@ export default {
       }
     },
     "PaperSize": {
-      "label": "RozmiarPapieru",
-      "category": "UstawieniaStrony",
+      "label": "Rozmiar papieru",
+      "category": "Ustawienia strony",
       "enum": PaperSize
     },
     "AddTimestamp": {

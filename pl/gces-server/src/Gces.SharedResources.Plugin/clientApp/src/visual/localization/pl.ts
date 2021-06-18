@@ -9,7 +9,8 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	'setConfiguration': 'Ustawianie konfiguracji', // Setting configuration
 	'noConfiguration': 'Brak dostępnych konfiguracji', // No configuration available
 	'rename': 'Zmień nazwę dokumentu',
-	'isTrusted': 'Is Trusted',
-	'switchTrue': 'True',
-	'switchFalse': 'False',
+	'useSandboxRestriction': 'Użyj ograniczeń Sandbox', // Use Sandbox Restriction
+	'runInIframe': 'Uruchom w Iframe', // Run In Iframe
+	'switchTrue': 'Prawda', // True
+	'switchFalse': 'Fałsz', // False
 };

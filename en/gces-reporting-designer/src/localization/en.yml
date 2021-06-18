@@ -34,11 +34,11 @@ appBar:
     insertLabel: Insert
     parameters: Parameters
 common:
-  copyright: 'Copyright © 2020 GrapeCity'
+  copyright: 'Copyright © 2021 GrapeCity'
   madeInWebDesigner: "Made in {applicationTitle}"
   untitledReportName: Untitled
-  webDesignerTitle: ActiveReports Web Designer
-  webDesignerTitleCompact: ActiveReports Web Designer
+  webDesignerTitle: Report Designer
+  webDesignerTitleCompact: Report Designer
 dataTab:
   gettingSemanticModelContent: Getting semantic model content...
   title: Data
@@ -63,7 +63,7 @@ error:
   loadReportVersionError: 'The report  "{reportName}" (version: {reportVersion}) could not be opened.'
   theme:
     cannotLoad: Report theme cannot be loaded
-    noThemes: Please note there are no other themes available so now the report has no theme specfied.
+    noThemes: Please note there are no other themes available so now the report has no theme specified.
     notFound: "The theme '{theme}' used in this report is not found."
     notFoundOrInvalid: "The theme '{theme}' used in this report either is not found or has invalid content."
     useDefault: "The default theme '{theme}' will be used instead."
@@ -175,6 +175,12 @@ units:
     $id: in
     fullName: Inches
     shortName: in
+unsavedChanges:
+  close: Close
+  no: No
+  text: Would you like to leave designer and discard these changes?
+  title: The report has unsaved changes
+  yes: Yes
 warning:
   reportConversion: "There have been issues while opening this report:"
   reportParameters: Could not load report parameters.

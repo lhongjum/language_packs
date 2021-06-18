@@ -2,7 +2,7 @@ export const errorPL: LanguageKeyValueMap = {
 	err_default: 'Podczas procesowania zapytania wystąpił błąd', // An error occurred while processing your request
 	err_invalid_license: 'Nieprawidłowa licencja', // Invalid License
 	err_invalid_license_desc: 'Nieprawidłowa licencja. Skontaktuj się z administratorem', // The license is invalid. Please contact your administrator
-	err_invalid_license_verion_not_match_desc: 'The license and product version did match. Please Try refresh  license to solve.',
+	err_invalid_license_verion_not_match_desc: 'Licencja i wersja produktu nie są zgodne. Proszę spróbować odświeżyć licencję, aby rozwiązać problem', // The license and product version did match. Please Try refresh  license to solve.
 	adminPortal: 'Portal administratora', // Admin Portal
 
 	// Reports

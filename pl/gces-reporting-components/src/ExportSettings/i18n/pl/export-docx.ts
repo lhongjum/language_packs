@@ -21,7 +21,7 @@ export default {
       "category": "Różne"
     },
     "DocumentCompatibilityVersion": {
-      "label": "WersjaKompatybilnościDokumentu",
+      "label": "Wersja kompatybilności dokumentu",
       "category": "Różne",
       "enum": {
         "Word2007": "Word2007",
@@ -30,28 +30,28 @@ export default {
       }
     },
     "TOCAutoUpdate": {
-      "label": "TOCAutomatycznaAktualizacja",
+      "label": "TOC automatyczna aktualizacja",
       "category": "Różne"
     },
     "CompanyName": {
-      "label": "NazwaFirmy",
+      "label": "Nazwa firmy",
       "category": "Różne"
     },
     "WritePassword": {
-      "label": "WpiszHasło",
-      "category": "UstawieniaZabezpieczeń"
+      "label": "Wpisz hasło",
+      "category": "Ustawienia zabezpieczeń"
     },
     "Password": {
       "label": "Hasło",
-      "category": "UstawieniaZabezpieczeń"
+      "category": "Ustawienia zabezpieczeń"
     },
     "ReadOnlyRecommended": {
-      "label": "ZalecanyTylkoOdczyt",
-      "category": "UstawieniaZabezpieczeń"
+      "label": "Zalecany tylko odczyt",
+      "category": "Ustawienia zabezpieczeń"
     },
     "Orientation": {
-      "label": "OrientacjaStrony",
-      "category": "UstawieniaStrony",
+      "label": "Orientacja strony",
+      "category": "Ustawienia strony",
       "enum": {
         "Default": "Domyślnie",
         "Portrait": "Portret",
@@ -59,8 +59,8 @@ export default {
       }
     },
     "PaperSize": {
-      "label": "RozmiarPapieru",
-      "category": "UstawieniaStrony",
+      "label": "Rozmiar papieru",
+      "category": "Ustawienia strony",
       "enum": PaperSize
     },
     "AddTimestamp": {

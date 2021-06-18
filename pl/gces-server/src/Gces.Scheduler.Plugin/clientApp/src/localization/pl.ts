@@ -27,9 +27,12 @@ export const schedulingPL: LanguageKeyValueMap = {
 	taskItemMenuEditTitle: 'Edytuj zadanie', // Edit Task
 	taskItemMenuDeleteText: 'Skasuj', // Delete
 	taskItemMenuDeleteTitle: 'Skasuj zadanie', // Delete Task
+	taskItemMenuDuplicateText: 'Duplikuj', // Duplicate
+	taskItemMenuDuplicateTitle: 'Duplikuj zadanie', // Duplicate Task
 	taskItemTextNextRun: 'Następne uruchomienie', // Next run: ### dwukropek
 	taskItemTextManually: 'Ręcznie', // Manually
 	taskItemTextNever: 'Nigdy', // Never
+	taskDuplicateSuffix: '-Kopia', // -Copy
 
 	// Task Editor
 	taskNoScheduleTemplateTip: 'Brak szablonu planowania', // no schedule template  ### wielka litera
@@ -45,9 +48,9 @@ export const schedulingPL: LanguageKeyValueMap = {
 	taskEditorBtnCancelText: 'Anuluj', // Cancel
 	oneTimeStartTimeLimit: 'Czas rozpoczęcia nie może zostać ustawiony na mniej niż 5 minut od teraz', // The start time cannot be set to any time less than 5 minutes from now
 	oneTimeStartTimeLimitTitle: 'Niewłaściwy czas', // Invalid time
-	taskEditorDescriptionError: 'Task description should not be empty',
-	fileNameError: 'File name should not be empty',
-	fullPathError: 'File path should not be empty',
+	taskEditorDescriptionError: 'Opis zadania nie może być pusty', // Task description should not be empty
+	fileNameError: 'Nazwa pliku nie może być pusta', // File name should not be empty
+	fullPathError: 'Ścieżka do pliku nie może być pusta', // File path should not be empty
 
 	// Recurrence Editor
 	recEditorCloneFromTemplate: 'Użyj szablonu', // Use Template
@@ -109,11 +112,11 @@ export const schedulingPL: LanguageKeyValueMap = {
 	expiryTimeUnitYear: 'Latach', // Years
 
 	delEditorMailLabelEmailTo: 'Wyślij mailem do', // Email to
-	delEditorMailLabelEmailToLabel: 'Please enter email to',
-	delEditorMailLabelEmailToIsInvalid: 'Email format is invalid',
+	delEditorMailLabelEmailToLabel: 'Wpisz adres e-mail do', // Please enter email to
+	delEditorMailLabelEmailToIsInvalid: 'Niepoprawny format email', // Email format is invalid
 	delEditorMailLabelInvalidDomainTip: 'Niepoprawna domena', // Invalid Email Domain
 	delEditorMailLabelReplyTo: 'Odpowiedz do', // Reply To
-	delEditorMailLabelReplyToLabel: 'Please enter reply to',
+	delEditorMailLabelReplyToLabel: 'Wpisz odpowiedź do', // Please enter reply to
 	delEditorMailLabelSubject: 'Temat', // Subject
 	delEditorMailLabelSubjectToolTip: 'Możesz odnieść się do dowolnego parametru w temacie, korzystając ze znaku zapytania (?), po którym podasz nazwę parametru. Nazwa raportu może zostać dodana poprzez &ReportName. Czas uruchomienia raportu może zostać dodany poprzez &ExecutionTime.', // You can reference any parameter in the subject by entering a question mark (?) followed by the parameter\'s name.The report\'s name can be referenced with the special placeholder &ReportName. The time the report was run can be referenced with the special placeholder &ExecutionTime.
 	delEditorMailLabelBody: 'Treść', // Body
@@ -124,6 +127,25 @@ export const schedulingPL: LanguageKeyValueMap = {
 	delEditorMailAttachmentBody: 'Wyślij raport jako treść', // Send Report as Body
 	delEditorMailSubject: 'Raport od Wyn Enterprise', // Report from Wyn Enterprise
 	delEditorMailBody: 'Oto raport &ReportName. Ten raport został wykonany o &ExecutionTime. Raport znajduje się w załączniku lub jest podlinkowany. &Link', // Here is the &ReportName report. This report was run at &ExecutionTime. The report is linked or attached below. &Link
+
+	delEditorMenuAppMsg: 'Wiadomość aplikacji', // Application Message
+	delEditorAppMsgSubject: 'Zaplanowany raport', // Scheduled Report
+	delEditorAppMsgBody: 'Zaplanuj zadanie dla raportu "&ReportName" zostało zakończone o godzinie &ExecutionTime', // Schedule task for the report "&ReportName" has been finished at &ExecutionTime, please review it.
+	delEditorAppMsgLabelAppName: 'Nazwa aplikacji', // Application Name
+	delEditorAppMsgLabelAppNameToolTip: 'Nazwa aplikacji, do której zostanie wysłana wiadomość', // The application name which will send message to
+	delEditorAppMsgLabelSubject: 'Temat wiadomości', // Message Subject
+	delEditorAppMsgLabelSubjectToolTip: 'Możesz odnieść się do dowolnego parametru w temacie, korzystając ze znaku zapytania (?), po którym podasz nazwę parametru. Nazwa raportu może zostać dodana poprzez &ReportName. Czas uruchomienia raportu może zostać dodany poprzez &ExecutionTime.', // 'You can reference any parameter in the subject by entering a question mark (?) followed by the parameter\'s name. The report\'s name can be referenced with the special placeholder &ReportName. The time the report was run can be referenced with the special placeholder &ExecutionTime.
+	delEditorAppMsgLabelBody: 'Treść wiadomości', // Message Body
+	delEditorAppMsgLabelBodyToolTip: 'Możesz odwołać się do dowolnego parametru w treści wiadomości, wprowadzając znak zapytania (?), A następnie nazwę parametru. Do nazwy raportu można się odwołać za pomocą specjalnego symbolu zastępczego &ReportName. Do czasu uruchomienia raportu można się odwołać za pomocą specjalnego symbolu zastępczego &ExecutionTime. Jeśli typ załącznika to „Wyślij raport jako treść”, do załącznika w treści wiadomości e-mail można się odwołać za pomocą specjalnego symbolu zastępczego &ExportResult.', // You can reference any parameter in the message body by entering a question mark (?) followed by the parameter\'s name. The report\'s name can be referenced with the special placeholder &ReportName. The time the report was run can be referenced with the special placeholder &ExecutionTime. If attachment type is \'Send Report as Body\', the attachment in the email body can be referenced with the special placeholder &ExportResult.
+	delEditorAppMsgLabelRecipients: 'Odbiorcy wiadomości', // Message Recipients
+	delEditorAppMsgLabelRecipientsToolTip: 'Odbiorcy wiadomości. Należy pamiętać, że wszyscy użytkownicy w organizacjach podrzędnych mogą również otrzymywać wiadomości, jeśli organizacja nadrzędna jest zaznaczona', // The recipients of the message. Note that all the users in the sub-organizations can also receive the messages if the parent organization is checked
+	WeChat4Work: 'Enterprise WeChat',
+	DingTalk: 'Ding Ding',
+	appMsgOrgs: 'Organizacje', // Organizations
+	appMsgRoles: 'Role', // Roles
+	appMsgUsers: 'Użytkownicy', // Users
+	delEditorAppMsgOnlineLink: 'Online Link', // Online Link
+	delEditorAppMsgDownloadLink: 'Pobierz link', // Download Link
 
 	// Reporting Editor
 	reportingEditorHeaderExportFormat: 'Format eksportu', // Export Format
@@ -175,7 +197,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	executionErr_10002: '[Błąd wykonania] Nie znaleziono zadania', // [Execution Error] Cot task not found.
 	executionErr_10003: '[Błąd wykonania] Zadanie nie zostało utworzone', // [Execution Error] Cot task not created.
 	executionErr_10004: '[Błąd wykonania] Wystąpił błąd IO: {{errorMessage}}.', // [Execution Error] An IO error occured: {{errorMessage}}.
-	executionErr_11001: '[Błąd wykonania] Wskazany katalog nie został znaleziony.', // [Execution Error] The specified directory is not found.
+	executionErr_11001: '[Execution Error] The specified directory is not found or permission deny.', // [Execution Error] The specified directory is not found or permission deny.
 	executionErr_11002: '[Błąd wykonania] Nie masz uprawnień dostępu do źródła danych.', // [Execution Error] You don\"t have permission to access datasource.
 	executionErr_11003: '[Błąd wykonania] Plik: {{ errorUsing }} jest w użyciu a pliku: { { errorDestroy } } nie można wyodrębnić. Sprawdź format pliku.', // File: {{ errorUsing }} is being used and file: { { errorDestroy } } can\"t be extracted,please check the file format.
 	executionErr_11004: '[Błąd wykonania] Plik: {{ errorUsing }} jest w użyciu', // [Execution Error] File: {{ errorUsing }} is being used.',
@@ -208,12 +230,14 @@ export const schedulingPL: LanguageKeyValueMap = {
 	taskErr_30010: 'Nie można dołączyć danych do źródła <{docEnv.Value.Title}>.', // Datasorce <{docEnv.Value.Title}> is unable to append data.
 	taskErr_30011: 'Lokalizacja <{taskInfoDto.Location }> nie istnieje.', // Location <{taskInfoDto.Location }> not exists
 	taskErr_30012: 'Nieprawidłowa operacja: <{taskInfoDto.OperationType}>.', // Invalid operation: <{taskInfoDto.OperationType}>.
-	taskErr_30019: 'Your cannot create or update manual and one time task due to settings by administrator.',
-	taskErr_30020: 'Delivery cannot be file share due to settings by administrator.',
-	taskErr_30021: 'Portal URI is required when creating tasks for report. Please contact the Administrator',
-	taskErr_30022: 'Portal URI is required when creating tasks for data source. Please contact the Administrator.',
-	taskErr_30023: 'Portal URI is required when creating tasks for dataset. Please contact the Administrator.',
-	taskErr_30024: 'Failed to create task, the current dataset has already created the task in other organization.',
+	taskErr_30019: 'Nie możesz utworzyć lub zaktualizować zadania ręcznego i jednorazowego, ze względu na ustawienia wprowadzone przez administratora.', // Your cannot create or update manual and one time task due to settings by administrator.
+	taskErr_30020: 'Nie można udostępniać plików ze względu na ustawienia wprowadzone przez administratora.', // Delivery cannot be file share due to settings by administrator.
+	taskErr_30021: 'Identyfikator URI portalu jest wymagany podczas tworzenia zadań do raportu. Prosimy o kontakt z administratorem.', // Portal URI is required when creating tasks for report. Please contact the Administrator.
+	taskErr_30022: 'Identyfikator URI portalu jest wymagany podczas tworzenia zadań dla źródła danych. Prosimy o kontakt z administratorem.', // Portal URI is required when creating tasks for data source. Please contact the Administrator.
+	taskErr_30023: 'Identyfikator URI portalu jest wymagany podczas tworzenia zadań dla zestawu danych. Prosimy o kontakt z administratorem.', // Portal URI is required when creating tasks for dataset. Please contact the Administrator.
+	taskErr_30024: 'Nie można utworzyć zadania, bieżący zbiór danych utworzył już zadanie w innej organizacji.', // Failed to create task, the current dataset has already created the task in other organization.
+	taskErr_30025: 'Nie udało się zaktualizować zadania w magazynie DB i trwałości wykonywania: pod warunkiem, że zadanie jest nieaktualne.', // Failed to update task in DB storage and execution persistence: provided task is outdated.
+	taskErr_30027: 'Template used in this task did not exist.',
 
 	// SAGA: enable/disable task
 	sagaTextErrorUpdatingTaskList: 'Błąd podczas aktualizowania listy zadań', // Error updating task list
@@ -224,6 +248,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	sagaTextErrorUpdatingTask: 'Nie zaktualizowano zadania', // Task was NOT updated
 	sagaTextErrorDeletingTask: 'Nie skasowano zadania', // Task was NOT deleted
 	sagaTextErrorStartingTask: 'Nie uruchomiono zadania', // Task was NOT started
+	sagaTextErrorDuplicatingTask: 'Nie zdluplikowano zadania', // Task was not duplicated
 	sagaToggleNotification: 'Obecny status zadania: {{status, lowercase}}', // Task is now {{status, lowercase}}
 
 	sagaFailed: 'Wtyczka planująca: Nieznany błąd', // Scheduling Plugin: Unknown Error
@@ -405,16 +430,20 @@ export const schedulingPL: LanguageKeyValueMap = {
 	reportingWorkerRenderingDatasetNotFound: 'Wybrany zestaw danych nie został znaleziony, bądź jest niedstępny z powodu braku wystarczających uprawnień', // Specified dataset not found or inaccessible due to insufficient permissions
 	reportingWorkerRenderingDatasourceNotFound: 'Wybrane źródło dancyh nie zostało znalezione, bądź jest niedostępne z powodu braku wystarczającyh uprawnień', // Specified datasource not found or inaccessible due to insufficient permissions
 	reportingWorkerRenderingUnknown: 'Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {0}', // An unknown error occured during worker task execution: {0}
+	reportingWorkerFailCheckDataNotAllowed: 'Określony jako {0} \"{1}"  niedostępny z powodu niewystarczających uprawnień', // 'Specified {0} \'{1}\' inaccessible due to insufficient permissions',
+	reportingWorkerRenderingCancelled: 'Zadanie zostało anulowane przez administratora lub zadanie jest automatycznie anulowane, ponieważ upłynął limit czasu zadania lub zadanie zostało przerwane', // 'The task is canceled by administrator or the task is automatically canceled because the task has timed out or the task is aborted.',
 
 	reportingWorkerReportUnknown: 'Nieznany błąd podczas pobierania informacji o raporcie: {0}', // An unknown error occured when getting report info: {0}
 	reportingWorkerReportCyclicParameterReferences: 'Wykryto cykliczne odwołania parametrów raportu', // Cyclic report parameter references detected
 	// TODO, please move to report plugin in future.
 	'reporting_worker_fail_check_no_dataset': 'Wystąpił błąd podczas sprawdzania raportu: nie wskazano Zestawu Danych', // An error occurred during report fail check procedure: Dataset not specified
+	reportingWorkerJobCancelled: 'Zadanie zostało anulowane przez administratora lub zadanie jest automatycznie anulowane, ponieważ upłynął limit czasu zadania lub zadanie zostało przerwane', // 'The task is canceled by administrator or the task is automatically canceled because the task has timed out or the task is aborted.',
 
 	// Relative Dates
 	dtTextBack: 'Powrót do kalendarza',
-	tbSpecificDate: 'Konkretna data',
-	tbRelativeDate: 'Data względna',
+	tbSpecificDate: 'Konkretna Data',
+	tbRelativeDate: 'Data Względna',
+	rdOf: 'na',
 	rdDay: 'dzień',
 	rdWeek: 'tydzień',
 	rdMonth: 'miesiąc',

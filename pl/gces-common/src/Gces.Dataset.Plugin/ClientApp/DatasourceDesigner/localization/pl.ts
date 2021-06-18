@@ -1,4 +1,3 @@
-
 export const datasetPL = {
 
 	// common
@@ -16,16 +15,18 @@ export const datasetPL = {
 	DatasetNameError: 'Nazwa zestawu danych jest nieprawidłowa. Nie używaj ograniczonych symboli < > \ : ? * / | " oraz nie używaj . (kropka) jako pierwszego symbolu w nazwie', // The dataset name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the dataset name.
 	DatasetNameOnlySpacesError: 'Nazwa zestawu danych jest nieprawidłowa. Nie używaj samych spacji jako nazwy.', // The dataset name is invalid. Please do not use spaces only as dataset name.
 	DatasourceNameError: 'Nazwa źródła danych jest nieprawidłowa. Nie używaj ograniczonych symboli < > \ : ? * / | " oraz nie używaj . (kropka) jako pierwszego symbolu w nazwie', // The datasource name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the datasource name.
+	DatasourceUnavailable: 'Sterownik źródła danych nie jest zainstalowany, postępuj zgodnie z dokumentem, aby zainstalować i używać.', // The datasource driver is not installed, please follow the document to install and use.
+	DatasourceUnavailableEditHint: 'Wskazówka o błędzie: sterownik źródła danych nie jest zainstalowany, nie można edytować tego źródła danych.', // Error hint: the datasource driver is not installed, could not edit this datasource.
 	NewDataset: 'Nowy zestaw danych', // New Dataset
-	TableName: 'Nazwa tabeli', // TableName
+	TableName: 'NazwaTabeli', // TableName
 	DatasetDesigner: 'Kreator zestawu danych', // Dataset Designer
 	Untitled: 'Brak tytułu', // Untitled
 	Categories: 'Kategorie', // Categories
 	Comment: 'Komentarz', // Comment
 	Yes: 'Tak', // Yes
 	No: 'Nie', // No
-	Expand: 'Expand',
-	Collapse: 'Collapse',
+	Expand: 'Rozwiń', // Expand
+	Collapse: 'Zwiń', // Collapse
 	MessageBox: 'Wiadomość', // Message
 	RefreshDataSet: 'Odśwież zestaw danych', // Refresh Dataset
 	Refreshing: 'Odświeżanie', // Refreshing
@@ -39,7 +40,7 @@ export const datasetPL = {
 	TableCanNotFound: 'Tabela ({{table}}) nie została znaleziona.', // Table({{table}}) can not found.
 	cgridMore: 'Więcej', // More
 	tooManyFieldsWarning: '{{count}}(więcej niż 30) pól jest obecnie wybranych jako wyjście, co może wpłynąć na wydajność obliczeń.', // {{count}}(more than 30) fields are currently selected for output, which may affect calculation performance.
-	datasourceUnknown: 'Deleted',
+	datasourceUnknown: 'Usunięty', // Deleted
 
 	// designer mode modal
 	SelectCreateMode: 'Wybierz tryb towrzenia zestawu danych', // Please select create dataset mode
@@ -49,10 +50,10 @@ export const datasetPL = {
 	CloseDatasetDesignerConfirm: 'Czy chcesz opuścić kreator zestawu danych i odrzucić zmiany?', // Do you want to leave dataset designer and discard the changes?
 	ChangeUseCacheConfirm: 'W zestawie danych dashboardu, nieobsługiwane elementy będą odrzucane. Jesteś pewien, że chcesz przełączyć?', // In dashboard dataset, the followings that are not supported will be discarded, Are you sure to switch?
 	DeleteFieldConfirm: 'Czy chcesz usunąć to {{fieldType}} pole ({{fieldName}})?', // Do you want to delete this {{fieldType}} Field({{fieldName}})?
-	CreateDataSetIframeTitle: 'Create DataSet',
-	EditDataSetIframeTitle: 'Edit DataSet',
-	CreateDataSourceIframeTitle: 'Create DataSource',
-	EditDataSourceIframeTitle: 'Edit DataSource',
+	CreateDataSetIframeTitle: 'Utwórz zestaw danych', // Create DataSet
+	EditDataSetIframeTitle: 'Edytuj zbiór danych', // Edit DataSet
+	CreateDataSourceIframeTitle: 'Utwórz źródło danych', // Create DataSource
+	EditDataSourceIframeTitle: 'Edytuj źródło danych', // Edit DataSource
 	// choose dataset type
 	ChooseDatasetTypeTitle: 'Wybierz typ zestawu danych', // Please select dataset type
 	ChooseReportDataset: 'Dla raportu', // For Report
@@ -61,13 +62,13 @@ export const datasetPL = {
 	IntroduceDashboard: 'Zestaw danych dla dashboardu będzie pzeliczany podczas zapisu.', // The dataset for dashboard will be calculated and cached when it is saved.
 
 	// data type
-	Number: 'Number',
-	Integer: 'Integer',
-	Float: 'Float',
-	String: 'String',
-	DateTime: 'DateTime',
-	Date: 'Date',
-	Boolean: 'Boolean',
+	Number: 'Number', // Number
+	Integer: 'Integer', // Integer
+	Float: 'Float', // Float
+	String: 'String', // String
+	DateTime: 'DateTime', // DateTime
+	Date: 'Date', // Date
+	Boolean: 'Boolean', // Boolean
 	Guid: 'GUID', // Guid
 	Unknown: 'Nieobsługiwany', // Unsupported
 
@@ -79,7 +80,7 @@ export const datasetPL = {
 	WebURIFilters: 'Filtry sieciowe URI', // Web URI Filters
 	Options: 'Opcje', // Options
 	Field: 'Pole', // Field
-	DataType: 'Typ danych', // DataType
+	DataType: 'TypDanych', // DataType
 	Multivalue: 'Multiwartość', // Multivalue
 
 	// relationships tab
@@ -101,7 +102,7 @@ export const datasetPL = {
 	DropTablesHere: 'Upuść tabele tutaj', // Drop Tables Here
 	Join: 'JOIN', // Join
 	Union: 'UNION', // Union
-	Replace: 'REPLACE',
+	Replace: 'REPLACE', // REPLACE
 	Operator: 'Operator', // Operator
 	InnerJoin: 'INNER JOIN', // Inner Join
 	LeftJoin: 'LEFT JOIN', // Left Join
@@ -114,10 +115,10 @@ export const datasetPL = {
 	NameCanNotBeEmpty: 'Nazwa nie może być pusta.', // Name can not be empty.
 	NameAlreadyExist: 'Nazwa {{name}} już istnieje.',  // Name {{name}} already exist.
 	CanNotRemove: '{{datasource}} jest używane i nie może zostać usunięte w tym momencie', // {{datasource}} is being used and cannot be removed at the moment.
-	ConfirmRemoveDataSource: '{{datasource}} is being used in the dataset, are you sure to remove?',
+	ConfirmRemoveDataSource: 'W zbiorze danych używane jest {{datasource}}. Czy na pewno chcesz usunąć?', // {{datasource}} is being used in the dataset, are you sure to remove?
 	CustomTableCanNotRemove: '{{datasource}} jest używane w zestawie danych i nie może zostać usunięte w tym momencie', // {{datasource}} is being used in the dataset and cannot be removed at the moment.
 	CustomTableCanNotEdit: '{{datasource}} jest używane w zestawie danych i nie może zostać zmodyfikowane w tym momencie', // {{datasource}} is being used in the dataset and cannot be modified at the moment.
-	ConfirmEditCustomTable: '{{datasource}} is being used in the dataset, are you sure to edit?',
+	ConfirmEditCustomTable: 'W zbiorze danych używane jest {{datasource}}. Czy na pewno chcesz edytować?', // {{datasource}} is being used in the dataset, are you sure to edit?
 	AddJoinCondition: 'Dodaj warunek JOIN', // Add Join Condition
 	AddUnionCondition: 'Dodaj warunek UNION', // Add Union Condition
 	CustomTables: 'Własne tabele', // Custom Tables
@@ -129,10 +130,11 @@ export const datasetPL = {
 	TableHasBeenUsedTip: 'Ustaw alias dla wykorzystanej tabeli', // Table has been used, please set table alias
 	PleaseEnterAlias: 'Wprowadź alias tabeli', // Please enter table alias
 	Confirm: 'Potwierdź', // Confirm
-	TableNameAlreadyExists: 'Nazwa tabeli {{name}} już istnieje', // The table name {{name}} already exists
+	TableNameAlreadyExists: 'Nazwa tabeli "{{name}}" już istnieje', // The table name {{name}} already exists
+	ColumnNameAlreadyExists: 'Nazwa kolumny "{{name}}" już istnieje', // The column name "{{name}}" already exists
 	TableNameCanNotBeEmpty: 'Nazwa tabeli nie może być pusta', // The table name can not be empty
-	ReplaceTable: 'Replace Table',
-	ConfirmReplace: 'Confirm to replace {{source}} with {{target}}?',
+	ReplaceTable: 'Zastąp tabelę', // Replace Table
+	ConfirmReplace: 'Czy potwierdzić, że chcesz zamienić {{source}} na {{target}}?', // Confirm to replace {{source}} with {{target}}?
 
 	// custome sql table
 	ChooseDataConnection: 'Wybierz połączenie danych', // Choose Data Connection
@@ -146,10 +148,10 @@ export const datasetPL = {
 	DeleteCustomSqlTableConfirmMsg: 'Usunąć własną tabelę SQL "{{name}}" na zawsze?', // Delete Custom Sql Table "{{name}}" forever?
 
 	Procedures: 'Procedury', // Procedures
-	ProcedureParameterName: 'Nazwa parametru', // Parameter Name
-	ProcedureParameterType: 'Typ danych', // Data Type
-	ProcedureParameterValueType: 'Typ wartości', // Value Type
-	ProcedureParameterDefaultValue: 'Wartość domyślna', // Default Value
+	ProcedureParameterName: 'Nazwa Parametru', // Parameter Name
+	ProcedureParameterType: 'Typ Danych', // Data Type
+	ProcedureParameterValueType: 'Typ Wartości', // Value Type
+	ProcedureParameterDefaultValue: 'Wartość Domyślna', // Default Value
 	InParam: 'Parametr W',
 	ResultSet: 'Zestaw wynikowy', // Result Set
 	CustomTableBindedParameterNotFound: 'Bieżąca niestandardowa tabela Sql jest uszkodzona. Nie znaleziono następujących powiązanych parametrów: {{invalidParametersName}}.', // The current custom Sql table is corrupted, the following bound parameters are not found:
@@ -255,9 +257,9 @@ export const datasetPL = {
 	orFilter: 'Lub', // Or
 	addRule: 'Dodaj regułę', // Add rule
 	addGroup: 'Dodaj grupę', // Add group
-	UserContextParameter: 'Parametr kontekstu użytkownika', // User Context Parameter
-	OrganizationContextParameter: 'Parametr kontekstu organizacji', // Organization Context Parameter
-	ConstantParameter: 'Stały parametr', // Constant Parameter
+	UserContextParameter: 'Parametr Kontekstu Użytkownika', // User Context Parameter
+	OrganizationContextParameter: 'Parametr Kontekstu Organizacji', // Organization Context Parameter
+	ConstantParameter: 'Stały Parametr', // Constant Parameter
 
 	// options tab
 	ConnectDbType: 'Podłącz typ bazy danych', // Connect Database Type
@@ -274,17 +276,17 @@ export const datasetPL = {
 	ParameterType: 'Typ parametru', // Parameter Type
 	UserInput: 'Dane wejściowe użytkownika', // User Input
 	UseCacheTip: 'Zestaw danych dla dashboardu będzie przeliczany i cache\'owany przy zapisie', // The dataset for dashboard will be calculated and cached when it is saved.
-	DirectConnectionTip: 'Zestaw danych dla raportu będzie przeliczany za każdym razem, gdy będzie używany.', // The dataset for report will be calculated every time when it is consumed.
+	DirectConnectionTip: 'Zetsaw danych dla raportu będzie przeliczany za każdym razem, gdy będzie używany.', // The dataset for report will be calculated every time when it is consumed.
 	AddParameter: 'Dodaj parametr', // Add Parameter
 	CanNotSaveAlertAboutUseCache: 'Nie można używać trybu \'$t(UseCache)\', gdy zestaw danych ma parametr typu \'$t(UserInput)\'.', // Can not use \'$t(UseCache)\' mode when dataset has \'$t(UserInput)\' type parameter.
-	InvalidParameterNameError: 'Nazwa parametru może zawierać tylko litery, liczby oraz _. Pierwszy znak nie może być liczbą, a długość powinna znajdować się w przedziale 1-32.', // Parameter name can only contains letter, number and _, the first character can not be a number, and the length should be between 1-32.
+	InvalidParameterNameError: 'nazwa parametru może zawierać tylko litery, liczby oraz _. Pierwszy znak nie może być liczbą, a długość powinna znajdować się w przedziale 1-32.', // Parameter name can only contains letter, number and _, the first character can not be a number, and the length should be between 1-32.
 	ParameterAlreadyExistsError: 'Parametr "{{parameter}}" już istnieje.', // Parameter "{{parameter}}" already exists.
 	user_context_userid: 'ID użytkownika', // user id
 	user_context_name: 'nazwa użytkownika', // user name
 	user_context_email: 'email', // email
 	user_context_phone_number: 'numer telefonu komórkowego', // mobile phone
 	user_context_given_name: 'Imię', // given name
-	user_context_family_name: 'Nazwisko rodowe', // family name
+	user_context_family_name: 'nazwisko rodowe', // family name
 	user_context_full_name: 'Imię i nazwisko', // full name
 	user_context_role: 'rola', // role
 	user_context_tenant$Name: 'Nazwa organizacji', // organization-Name
@@ -298,23 +300,25 @@ export const datasetPL = {
 	TestConnection: 'Testuj połączenie', // Test Connection
 	ConnectError: 'Błąd połączenia', // Connection error
 	ConnectSuccess: 'Poprawnie połączono', // Connect successfully.
-	NoConfigedDatabase: 'No configured database',
+	NoConfigedDatabase: 'Brak skonfigurowanej bazy danych', // No configured database
 	Create: 'Utwórz', // Create
 	EditDatasource: 'Edytuj źródło danych', // Edit Data Source
-	ReconfigDatasource: 'Konfiguruj źródło danych', // Reconfigure Data Source
+	ReconfigDatasource: 'Konfiguruj Źródło Danych', // Reconfigure Data Source
 	Update: 'Zaktualizuj', // Update
 	Local: 'Lokalnie', // Local
 	Embed: 'Osadź', // Embed
 	Web: 'Sieć', // Web
 	FileSystem: 'System plików', // File System
-	Account: 'Account',
+	Account: 'Konto', // Account
 	Name: 'Nazwa', // Name
 	User: 'Użytkownik', // User
+	user: 'Użytkownik', // user
 	SecurityToken: 'Token zabezpieczeń', // Security Token
-	CacheExpiration: 'Wygaśnięcie cache', // Cache Expiration
-	CacheExpirationMode: 'Tryb wygaśnięcia cache', // Cache Expiration Mode
+	CacheExpiration: 'Wygaśnięcie Cache', // Cache Expiration
+	CacheExpirationMode: 'Tryb wygaśnięcia Cache', // Cache Expiration Mode
 	Password: 'Hasło', // Password
-	FilePassword: 'Hasło pliku', // FilePassword
+	password: 'Hasło', // Password
+	FilePassword: 'HasłoPliku', // FilePassword
 	Server: 'Serwer', // Server
 	Host: 'Host', // Host
 	Port: 'Port', // Port
@@ -342,27 +346,31 @@ export const datasetPL = {
 	DataSourceParameterDefaultValue: 'Domyślna wartość', // Default value
 	DataSourceParameterLabel: 'Parametr', // Parameter
 	DataSourceParameterAdd: 'Dodaj parametr', // Add Parameter
-	HttpHeaderKey: 'Key',
-	HttpHeaderValue: 'Value',
-	HttpHeadersLabel: 'Http Headers',
-	AddHttpHeader: 'Add HttpHeader',
-	UseHttpHeaders: 'Use Http Headers(Advanced)',
+	HttpHeaderKey: 'Klucz', // Key
+	HttpHeaderValue: 'Wartość', // Value
+	HttpHeadersLabel: 'Nagłówki HTTP', // Http Headers
+	AddHttpHeader: 'Dodaj nagłówek HTTP', // Add HttpHeader
+	UseHttpHeaders: 'Użyj nagłówków HTTP (zaawansowane)', // Use Http Headers(Advanced)
 	LineDelimiter: 'Ogranicznik linii', // Line Delimiter
 	ColumnDelimiter: 'Ogranicznik kolumn', // Column Delimiter
 	CodePage: 'Strona kodu', // Code Page
 	AuthMode: 'Tryb autentykacji', // AuthMode
-	GrantType: 'GrantType',
-	GrantType_password: 'password',
-	GrantType_client_credentials: 'client_credentials',
+	GrantType: 'Typ udzielenia', // GrantType
+	GrantType_password: 'Hasło', // password
+	GrantType_client_credentials: 'poświadczenia_klienta', // client_credentials
 	AutoColumnName: 'Używaj pierwszego wiersza jako nagłówka', // Use First Row as Header
 	OAuthTokenEndpoint: 'Punkt końcowy tokenu', // Token Endpoint
 	OAuthClientId: 'ID klienta', // Client Id
 	OAuthClientSecret: 'Sekret klienta', // Client Secret
 	OAuthUserName: 'NazwaUżytkownika', // UserName
 	OAuthPassword: 'Hasło', // Password
-	OAuthScope: 'Scope',
+	OAuthScope: 'Zakres', // Scope
 	SelectFile: 'Wybierz plik...', // Select File...
 	SourceType: 'TypŹródła', // SourceType
+	Endpoints: 'Punkty końcowe', // Endpoints
+	BaseAddress: 'Adres bazowy', // Base Address
+	endpointName: 'Nazwa', // Name
+	endpointUrl: 'API Url', // API Url
 	UseConfigString: 'Użyj parametrów połączenia (Zaawansowane)', // Use Configuration String(Advanced)
 	UseURIParameters: 'Użyj parametrów URI (Zaawansowane)', // Use URI Parameters(Advanced)
 	FileReady: '{{file}} jest gotowy do wgrania', // {{file}} is ready to upload
@@ -390,13 +398,14 @@ export const datasetPL = {
 	next: 'Następny', // Next
 	back: 'Poprzedni', // Previous
 	cancel: 'Anuluj', // Cancel
-	workSheet: 'Arkusz roboczy', // WorkSheet
+	workSheet: 'ArkuszRoboczy', // WorkSheet
 	renameWorkSheet: 'Nazwa nowego arkusza', // New Sheet Name
 	renameColumnName: 'Zmień nazwę', // Rename
 	textType: 'Tekst', // Text
 	numberType: 'Number', // Number
 	datetimeType: 'DateTime', // DateTime
 	booleanType: 'Boolean', // Boolean
+	dateType: 'Date', // Date
 	selectSheetToImport: 'Wybierz/Zmień nazwę arkuszy', // Select / Rename Sheets
 	create_excel_datasource_error1: 'Musisz wybrać co najmniej jeden arkusz', // You must select one sheet at least
 	create_excel_datasource_error2: 'Nazwy następujących arkuszy nie powinny zawierać więcej niż 30 znaków:\n{{msg}}', // The following sheet names should be no more than 30 characters:\n{{msg}}
@@ -404,16 +413,44 @@ export const datasetPL = {
 	create_excel_datasource_error3_msg_prefix: 'Arkusz', // Sheet
 	'reconfigDataSource!name': 'Konfiguruj', // Reconfigure
 	'reconfigDataSource!description': 'Konfiguruj ten dokument', // Reconfigure this document
-	RequestMethod: 'Request Method',
-	ParameterName: 'Name',
-	Payload: 'Payload',
-	AddUrlParameter: 'Add Parameter',
-	UrlHeaderKey: 'Key',
-	UrlHeaderValue: 'Value',
-	UrlEmptyTip: 'This request does not have a body.',
-	AuthEmptyTip: 'This request does not ues any authorization.',
-	preQueryPlaceHolder: 'You can write TABLE-VALUED function here(UnwindJson,UnwindArray).\nFor example:\nselect * from UnwindJson(@source, \'JsonPath\') tmp\n"source" is a pre-defined parameter, "@source" retrieves the data from the data source, it must be used.\n"tmp" is the table name retrieved by the TABLE-VALUED function, it must be added.',
-	create_datasource_parameter_error1: 'Please enter a correct Integer type.',
+	RequestMethod: 'Metoda żądania', // Request Method
+	ParameterName: 'Nazwa', // Name
+	Payload: 'Ładowność', // Payload
+	AddUrlParameter: 'Dodaj parametr', // Add Parameter
+	UrlHeaderKey: 'Klucz', // Key
+	UrlHeaderValue: 'Wartość', // Value
+	UrlEmptyTip: 'To żądanie nie ma treści.', // This request does not have a body.
+	AuthEmptyTip: 'To żądanie nie wykorzystuje żadnej autoryzacji.', // This request does not use any authorization.
+	preQueryPlaceHolder: 'Możesz tutaj napisać funkcję zwracającą tabelę (UnwindJson, UnwindArray). \ NNa przykład: \ nselect * from UnwindJson (@source, \ "JsonPath \") tmp \ n "source" to wstępnie zdefiniowany parametr, "@source" pobiera dane ze źródła danych, musi być użyte. \ n "tmp" to nazwa tabeli pobrana przez funkcję zwracającą tabelę, musi zostać dodana.', // You can write TABLE-VALUED function here(UnwindJson,UnwindArray).\nFor example:\nselect * from UnwindJson(@source, \'JsonPath\') tmp\n"source" is a pre-defined parameter, "@source" retrieves the data from the data source, it must be used.\n"tmp" is the table name retrieved by the TABLE-VALUED function, it must be added.
+	create_datasource_parameter_error1: 'Wprowadź prawidłowy typ liczby całkowitej.', // Please enter a correct Integer type.
+	HeaderKeyIsContentType: 'Typ zawartości może być generowany tylko przez ustawienie ładunku.', // Content-Type can only be generated by the payload setting.
+	HeaderKeyCanNotEmpty: 'Klucz nagłówka żądania nie może być pusty.', // Request Header key cannot be empty.
+	HeaderAlreadyExistsError: 'Nagłówek żądania „{{headerKey}}” już istnieje.', // Request Header "{{headerKey}}" key already exists.
+	UpdateDatasourceSuccess: 'Pomyślnie zaktualizowano źródło danych', // Update Data Source successfully
+
+	// json datasource
+	DataSourceHeaderKey: 'Klucz nagłówka', // Header Key
+	DataSourceHeaderValue: 'Wartość nagłówka', // Header Value
+	Header: 'Nagłówki żądań', // Request Headers
+	DataSourceHeaderAdd: 'Dodaj nagłówek', // Add Header
+	Authorization: 'Autoryzacja', // Authorization
+	AddEndpoint: 'Dodaj punkt końcowy', // Add Endpoint
+	EditEndpoint: 'Edytuj punkt końcowy', // Edit Endpoint
+	RawType: 'Surowy typ zawartości', // Raw Content Type
+	PayloadParameter: 'Parametr ładunku', // Payload Parameter
+	AuthCanNotBeDelete: 'Autoryzacji „{{auth}}” nie można usunąć, ponieważ jest używana przez następujące punkty końcowe: \ n {{endpoints}}.', // Authorization "{{auth}}" cannot be delete because it is used by the following endpoints: \n{{endpoints}}.
+	EditAuthItem: 'Edytuj uprawnienia', // Edit Authorization
+	AddAuthItem: 'Dodaj autoryzację', // Add Authorization
+	PayloadWarningWithEndpoint: 'Typ zawartości z ładunku różni się od wartości typu zawartości z nagłówka bieżącego punktu końcowego.', // The content-type from payload is different from the content-type value from the header of the current endpoint.
+	PayloadWarningWithWebConfig: 'Typ zawartości z ładunku różni się od wartości typu treści z nagłówka żądania źródła danych.', // The content-type from payload is different from the content-type value from datasource request header.
+	PreviewEndpoint: 'Podgląd danych', // Data Preview
+	Validate: 'Sprawdź poprawność', // Validate
+	validateStatus: 'Status walidacji', // Validation Status
+	success: 'Sukces', // Success
+	failed: 'Niepowodzenie', // Failed
+	'not-validate': 'Nie potwierdzone', // Not Validated
+	validateSuccess: 'Pomyślnie zweryfikowano', // validate successfully
+	validateSuccessDetail: 'punkt końcowy „{{endpointName}}” został pomyślnie zweryfikowany', // endpoint "{{endpointName}}" validate successfully
 
 	// Document List
 	dlDatasetType: 'Typ zestawu danych', // Dataset Type
@@ -448,6 +485,7 @@ export const datasetPL = {
 	err_10034: 'Wyrażenie SQL odnosi się do niezdefiniowanego parametru "{{referredParameter}}".', // Sql expression is referencing an undefined parameter "{{referredParameter}}".
 	err_10035: 'W trybie \'Dla dashboardu\' wyrażenie Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".', // In \'For Dashboard\' mode,Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".
 	err_10036: 'Następujące powiązane parametry nie zostały znalezione w niestandardowej tabeli SQL: "{{referredParameters}}".', // The following bound parameters are not found in custom Sql table: "{{referredParameters}}".
+	err_10037: '{{option}} option cannot be empty.',
 
 	// update datasource error
 	err_20001: 'Dokument rozszerzenia źródła danych nie został znaleziony', // Datasource extension document not found.
@@ -483,8 +521,16 @@ export const datasetPL = {
 	err_100021: 'Nie można połączyć się ze źródłem danych {{name}}.', // Can not connect to datasource {{name}}.
 	err_100022: 'Nie masz uprawnień do aktualizacji zestawu danych.', // You don\'t have permission to update the data set.
 	err_100023: 'Brak dostępnego pracownika COT.',  // No available COT worker
+	err_100027: 'Plik mapowania źródła danych jest nieprawidłowy', // The datasource mapping file is invalid
+	err_100028: 'Plik odwzorowania źródła danych zawiera nieprawidłową nazwę tabeli.', // The datasource mapping file contains invalid table name.
+	err_100029: 'Plik mapowania źródła danych zawiera nieprawidłową nazwę kolumny.', // The datasource mapping file contains invalid column name.
+	err_100030: 'Parametry połączenia zamapowanego źródła danych wykorzystały pole kontekstu do mapowania nazw, a schemat źródła danych nie jest zgodny ze schematem mapowania nazw.', // The mapped datasource connection string has used the context field for name mapping, and the datasource schema does not match the name mapping schema.
+	err_100031: 'Pobieranie pliku szablonu mapowania nie powiodło się.', // Get mapping template file failed.
+	err_100032: 'Nieznana baza danych {{databaseName}}.', // Unknown database {{databaseName}}.
+	err_100033: 'Opcja bazy danych nie może być pusta.', // Database option cannot be empty.
+	err_100034: 'Pobieranie schematu nie powiodło się. Upewnij się, że: \ n1, Twoje ustawienia są prawidłowe. \ N2, Serwer umożliwia połączenia zdalne. \ N3, Źródło danych jest dostępne. \ n4, parametry URI są prawidłowe.', // Get schema failed. Please make sure: \n1, Your settings are valid.\n2, The server allows remote connections.\n3, The data source is available. \n4, The URI parameters are valid.
 
-	err_100018_desc: 'Error trying to resolve datasource "{{ids}}"',
+	err_100018_desc: 'Błąd podczas próby rozwiązania źródła danych "{{ids}}"', // Error trying to resolve datasource "{{ids}}"
 
 	err_DataSourceAccessDenied: 'Nie masz uprawnień do dostępu do źródła danych. \nNazwa źródła danych: {{datasourceName}}.', // You do not have permission to access datasource. \nDatasource Name: {{datasourceName}}.
 	err_DataSourceIntegrityCheck: 'Błąd sprawdzania integralności źródła danych o ID {{documentId}}', // Data source with id {{documentId}} integrity check error.
@@ -525,8 +571,49 @@ export const datasetPL = {
 	'DataSourceDisplayName!ODBC': 'ODBC',
 	'DataSourceDisplayName!OData': 'OData',
 
+	'DataSourceDisplayName!SparkSQL': 'SparkSQL',
+	'DataSourceDisplayName!Hive': 'Hive',
+	'DataSourceDisplayName!GBase8s': 'GBase8s',
+	'DataSourceDisplayName!GBase8a': 'GBase8a',
+	'DataSourceDisplayName!ElasticSearch': 'ElasticSearch',
+	'DataSourceDisplayName!DM': 'DM',
+	'DataSourceDisplayName!TimeScale': 'TimeScale',
+	'DataSourceDisplayName!GreenPlum': 'GreenPlum',
+	'DataSourceDisplayName!TiDB': 'TiDB',
+	'DataSourceDisplayName!ALIAnalyticDBMySql': 'ALIAnalyticDBMySql',
+	'DataSourceDisplayName!Kingbase': 'Kingbase',
+	'DataSourceDisplayName!Hana': 'Hana',
+
 	// dataset manager error message
-	'err_3000': 'The calculation failed due to exceptions or the calculation was canceled by administrator.'
+	'err_3000': 'Obliczenie nie powiodło się z powodu wyjątków lub obliczenia zostały anulowane przez administratora.', // The calculation failed due to exceptions or the calculation was canceled by administrator.
+
+	// JDBC proxy error message
+	'err_5001': 'Nie można połączyć się z serwerem proxy JDBC.', // Can not connect to JDBC proxy.
+	'err_5002': 'Dostawca i parametry połączenia nie są zgodne.', // The provider and the connection string do not match.
+	'err_5003': 'Połączenie testowe nie powiodło się. Sprawdź parametry połączenia. \nErrorMessage: \n{{errorMessage}}', // Test connection failed. Please check the connection string.\nErrorMessage:\n{{errorMessage}}
+
+	// keys used in descriptors
+	UID: 'Użytkownik', // User
+	Uid: 'Użytkownik', // User
+	UserName: 'Nazwa użytkownika', // UserName
+	'User ID': 'Użytkownik', // User
+	Pwd: 'Password', // Password
+	'ServerPort(eg localhost39013))': 'Serwer:Port(e.g. localhost:39013)', // Server:Port(e.g. localhost:39013)
+	ALIAnalyticDBMySql: 'AnalyticDB for MySQL',
+
+	// mapping
+	UseMappingConfig: 'Użyj mapowania nazw tabel / pól', // Use Table/Field Name Mapping
+	TableFieldNameMapping: 'Mapowanie nazw tabel / pól', // Table/Field Name Mapping
+	Mapping: 'Mapowanie', // Mapping
+	MappingTables: 'Tabele', // Tables
+	MappingColumns: 'Kolumny', // Columns
+	LoadFromFile: 'Załaduj z pliku', // Load From File
+	OriginalName: 'Oryginalna nazwa', // Original Name
+	DisplayName: 'Nowa nazwa', // New Name
+	DownloadMappingTemplateFile: 'Pobierz plik szablonu', // Download Template File
+	MappingWarning: 'Konfiguracja źródła danych została zmieniona, mapowanie może być nieprawidłowe.', // Data Source configuration changed, Mapping may invalid.
+	TableNameIsInvalid: 'Nieprawidłowa nazwa tabeli. proszę nie używać symboli zastrzeżonych <> \\:? * / | \ "[], tylko pojedyncza . (kropka) może być używana i nie może być używana . (kropka) jako pierwszy symbol w nazwie tabeli.', // Invalid table name. please do not use restricted symbols < > \\ : ? * / | \ " [ ], only single .(dot) can be used and do not use . (dot) as the first symbol in the table name.
+	SchemaNotFound: 'Nie znaleziono prawidłowej definicji schematu w parametrach połączenia źródeł danych.', // No valid schema definition found in datasource connection string.
 };
 
 export const gridDataPL = {

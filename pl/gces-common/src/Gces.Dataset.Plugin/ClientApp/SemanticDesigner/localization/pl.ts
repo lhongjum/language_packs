@@ -1,6 +1,7 @@
 ﻿export const resPL: LanguageKeyValueMap = {
-	'createSemanticModel!name': 'Stwórz Model Semantyczny', // Create Semantic Model
+	'createSemanticModel!name': 'Utwórz model danych', // Create Data Model
 
+	selectModelType: 'Wybierz typ modelu', // Select Model Type
 	specifyDatasource: 'Określ źródło danych', // Specify a data source
 	configDatasource: 'Konfiguruj źródło danych', // Config data source
 	selectTableAndView: 'Wybierz tabele i widoki', // Select tables and views
@@ -8,25 +9,25 @@
 	filterItems: 'Filtruj po nazwie:', // Filter items by name:
 	findAdditionRelations: 'Znajdź dodatkowe relacje:', // Find additional relations:
 	selectOrClearAllItems: 'Wybierz lub wyczyść wszystkie', // Select or clear all items:
-	modelAlreadyExist: "Model semantyczny '{{name}}' już istnieje.", // Semantic model '{{name}}' already exist.
-	invalidSemanticModelName: 'Nazwa modelu semantycznego jest nieprawidłowa. Nie używaj ograniczonych symboli < > \ : ? * / | " oraz nie używaj . (kropka) jako pierwszego symbolu w nazwie', // The semantic model name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the semantic model name.
+	modelAlreadyExist: "Model danych '{{name}}' już istnieje.", // Data model '{{name}}' already exist.
+	invalidSemanticModelName: 'Nazwa modelu danych jest nieprawidłowa. Prosimy nie używać symboli zastrzeżonych <> \:? * / | ” i nie używaj . (kropki) jako pierwszego symbolu w nazwie modelu danych.', // The data model name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the data model name.
 
 	connectError: 'Błąd połączenia', // Connection error
 	connectSuccess: 'Poprawnie połączono', // Connect successfully
 	connectionErrorCode_100012: 'Nieprawidłowy kontekst użytkownika: {{claimName}}.', // Invalid user context: {{claimName}}.
 
-	dataSource: 'Źródło danych', // Data Source
+	dataSource: 'Źródło Danych', // Data Source
 	back: 'Wstecz', // Back
 	next: 'Następny', // Next
 	done: 'Zrobione', // Done
-	close: 'Zamknij', // Close
-	CreateSemanticIframeTitle: 'Stwórz model semantyczny', // Create Semantic Model
-	EditSemanticIframeTitle: 'Edytuj model semantyczny', // Edit Semantic Model
+	close: 'Close',
+	CreateSemanticIframeTitle: 'Utwórz model danych', // Create Data Model
+	EditSemanticIframeTitle: 'Edytuj model danych', // Edit Data Model
 
 	// Designer
 	// App Bar
-	abSave: 'Zapisz wersję roboczą', // Save Draft
-	abSaveAndPublish: 'Zapisz i publikuj', // Save And Publish
+	abSave: 'Zapisz Wersję Roboczą', // Save Draft
+	abSaveAndPublish: 'Zapisz i Publikuj', // Save And Publish
 	abValidate: 'Sprawdź poprawność', // Validate
 	abProperties: 'Właściwości', // Properties
 
@@ -39,35 +40,35 @@
 	wsEntities: 'Encje', // Entities
 	wsAttributes: 'Atrybuty', // Attributes
 	wsRelations: 'Relacje', // Relations
-	searchNoResult: 'Brak wyników', // no items
+	searchNoResult: 'brak wyników', // no items
 	wsAttribute: 'Atrybut', // Attribute
 	wsType: 'Typ', // Type
 	wsDescription: 'Opis', // Description
 
-	wsRelatedRelation: 'Powiązana relacja', // Related Relation
+	wsRelatedRelation: 'Powiązana Relacja', // Related Relation
 	wsRelatedEntity: 'Powiązane encje', // Related Entity
 
 	// Props
-	ppsModel: 'Model',
+	ppsModel: 'Model', // Model
 	ppsConnection: 'Połączenie', // Connection
-	ppsModelName: 'Nazwa modelu', // Model Name
-	ppsCommandTimeout: 'Limit czasu polecenia (s)', // Command Timeout(s)
+	ppsModelName: 'Nazwa Modelu', // Model Name
+	ppsCommandTimeout: 'Limit Czasu Polecenia (s)', // Command Timeout(s)
 	ppsCommandTimeoutLimitation: 'Limit czasu musi być liczbą całkowitą', // Command timeout must be an integer value
-	ppsConnectionString: 'Parametry połączenia', // Connection String
+	ppsConnectionString: 'Parametry Połączenia', // Connection String
 	ppsAdd: 'Dodaj', // Add
 	ppsCancel: 'Anuluj', // Cancel
 	ppsDelete: 'Usuń', // Delete
 
 	ppsEntity: 'Encja', // Entity
-	ppsAddEntity: 'Dodaj encję', // Add Entity
+	ppsAddEntity: 'Dodaj Encję', // Add Entity
 	ppsInformation: 'Informacje', // Information
 	ppsParameters: 'Parametry', // Parameters
 	ppsNaming: 'Nazwy', // Naming
 	ppsAppearance: 'Wygląd', // Appearance
 	ppsAttributes: 'Atrybuty', // Attributes
-	ppsId: 'ID',
-	ppsBindingMode: 'Tryb wiązania', // Binding Mode
-	ppsTableOrView: 'Tabela lub widok', // Table or View
+	ppsId: 'ID', // ID
+	ppsBindingMode: 'Tryb Wiązania', // Binding Mode
+	ppsTableOrView: 'Tabela lub Widok', // Table or View
 	ppsBinding: 'Wiązanie', // Binding
 	ppsQuery: 'Zapytanie', // Query
 	ppsProcedure: 'Procedura', // Procedure
@@ -75,51 +76,51 @@
 	ppsPrompt: 'Podpowiedź', // Prompt
 	ppsPromptDescription: 'Wprowadź tekst aby poprosić użytkowników raportu o wybranie wartości.', // Enter text to prompt consumers of the report to select a value.
 	ppsStatic: 'Statyczny', // Static
-	ppsPromptMode: 'Dozwolone wartości', // Allow Values
+	ppsPromptMode: 'Dozwolone Wartości', // Allow Values
 	ppsPromptModeDescription: '"Dowolna wartość" pozwala użytkownikowi na wprowadzenie dowolnej dozwolonej wartości. "Z bazy danych" pozwala na wybór atrybutu z bazy danych do pobrania wartości. Lista różnych wartości z wybranego atrybutu będzie pokazana użytkownikowi jako lista możliwych wartości do wyboru. "Z listy" pozwala na wprowadzenie listy wartości, z której użytkownik będzie mógł wybrać odpowiednie pozycje.', // "Any value" allows the user to enter any value. They must know what values are permissible. "From the database" allows you to choose an attribute in the database to get values from. The list of distinct values from the selected attribute will be shown to the user as the values they can select as input. "From a list" allows you to enter a list of values that will be shown to the user as the values they can select from as input.
-	ppsDefaultValue: 'Wartość domyślna', // With Default
+	ppsDefaultValue: 'Wartość Domyślna', // With Default
 	ppsPromptDefaultValueDescription: 'Wprowadź wartość domyślną. Wybierz wartość \'(pusty)\' z listy, aby domyślną wartością był \'null\'.', // Enter default value here. Select the \'(null)\' value from the list to make the default value \'null\'.
-	ppsValidValues: 'Dozwolone wartości', // Valid Values
+	ppsValidValues: 'Dozwolone Wartości', // Valid Values
 	ppsAs: 'jako', // as
 	ppsValidValuesDescription: 'Wprowadź zestaw wartości do utworzenia listy. Dla każdego wiersza z lewej strony wprowadź wartość, która zostanie przekazana do procedury składowanej. Z prawej strony należy wprowadzić etykietę, która zostanie wyświetlona użytkownikowi przeglądającemu raport.', // Enter a set of values that make up the list. For each row, enter a value on the left used as input into the stored procedure, and a corresponding label on the right that will be displayed to the user viewing the report.
 	ppsAttributeBinding: 'Atrybut', // Attribute
 	ppsAttributeBindingDescription: 'Lista różnych wartości dla tego atrybutu zostanie przedstawiona użytkownikowi jako możliwe opcje do przekazania do procedury składowanej.', // The list of distinct values from this attribute will be shown to the user as available options that they can select from as input into the stored procedure.
-	ppsAnyValue: 'Dowolna wartość', // Any Value
-	ppsFromTheDatabase: 'Z bazy danych', // From The Database
-	ppsFromAList: 'Z listy', // From A List
+	ppsAnyValue: 'Dowolna Wartość', // Any Value
+	ppsFromTheDatabase: 'Z Bazy Danych', // From The Database
+	ppsFromAList: 'Z Lisrt', // From A List
 	ppsAllowNull: 'Zezwól na puste', // Allow Null
 	ppsPromptAllowNullDescription: 'Określa, czy użytkownik może wprowadzić pustą wartość.', // Determines if the user can enter a null value for the prompt.
-	ppsDataType: 'Typ danych', // Data Type
-	ppsLogicalDataType: 'Jako data', // As Date Type
+	ppsDataType: 'Typ Danych', // Data Type
+	ppsLogicalDataType: 'Jako Data', // As Date Type
 	ppsName: 'Nazwa', // Name
 	ppsActAs: 'Jak', // Act As
-	ppsCollectionName: 'Nazwa kolekcji', // Collection Name
+	ppsCollectionName: 'Nazwa Kolekcji', // Collection Name
 	ppsDescription: 'Opis', // Description
 	ppsHidden: 'Ukryty', // Hidden
-	ppsFormat: 'Format',
-	ppsCollapseInRelations: 'Zwiń w relacjach', // Collapse In Relations
-	ppsDefaultAggregateAttributes: 'Domyślne atrybuty agregacji', // Default Aggregate Attributes
-	ppsDefaultDetailAttributes: 'Domyślne atrybuty szczegółów', // Default Detail Attributes
-	ppsIdentifyingAttributes: 'Atrybuty identyfikujące', // Identifying Attributes
+	ppsFormat: 'Format', // Format
+	ppsCollapseInRelations: 'Zwiń w Relacjach', // Collapse In Relations
+	ppsDefaultAggregateAttributes: 'Domyślne Atrybuty Agregacji', // Default Aggregate Attributes
+	ppsDefaultDetailAttributes: 'Domyślne Atrybuty Szczegółów', // Default Detail Attributes
+	ppsIdentifyingAttributes: 'Atrybuty Identyfikujące', // Identifying Attributes
 	ppsCommon: 'Zwykłe', // Common
-	ppsDiscourageGrouping: 'Odradzaj grupowanie', // Discourage Grouping
-	ppsIsAggregate: 'Jest agregatem', // Is Aggregate
-	ppsNullable: 'Może być pusty', // Nullable
-	ppsSupportsBlank: 'Wspiera puste wartości', // Support Blank Values
-	ppsSupportsNull: 'Wspiera wartości null', // Support Null Values
-	ppsValueSelection: 'Wybór wartości', // Value Selection
+	ppsDiscourageGrouping: 'Odradzaj Grupowanie', // Discourage Grouping
+	ppsIsAggregate: 'Jest Agregatem', // Is Aggregate
+	ppsNullable: 'Może Być Pusty', // Nullable
+	ppsSupportsBlank: 'Wspiera Puste Wartości', // Support Blank Values
+	ppsSupportsNull: 'Wspiera Wartości null', // Support Null Values
+	ppsValueSelection: 'Wybór Wartości', // Value Selection
 	'valueSelection!0': 'Brak', // None
-	'valueSelection!1': 'Lista rozwijana', // Dropdown
+	'valueSelection!1': 'Lista Rozwijana', // Dropdown
 	'valueSelection!2': 'Lista', // List
 	ppsVariationOf: 'Wariacja', // Variation Of
 	ppsType: 'Typ', // Type
 	ppsExpression: 'Wyrażenie', // Expression
 	'dataType!0': 'Null',
 	'dataType!1': 'DataCzas', // DateTime
-	'dataType!2': 'Float',
-	'dataType!4': 'Decimal',
-	'dataType!8': 'Integer',
-	'dataType!16': 'Boolean',
+	'dataType!2': 'Float', // Float
+	'dataType!4': 'Decimal', // Decimal
+	'dataType!8': 'Integer', // Integer
+	'dataType!16': 'Boolean', // Boolean
 	'dataType!32': 'Napis', // String
 	'dataType!64': 'Binarny', // Binary
 	'dataType!127': 'Wszystkie', // All
@@ -127,21 +128,21 @@
 
 	// Security Filter Editor
 	ppsSecurityFilter: 'Filtr bezpieczeństwa', // Security Filter
-	ppsFilterExpress: 'Filtruj wyrażenie', // Filter Expression
-	ppsUseExistingFilter: 'Użyj istniejącego filtru', // Use Existing Filter
+	ppsFilterExpress: 'Filtruj Wyrażenie', // Filter Expression
+	ppsUseExistingFilter: 'Użyj Istniejącego Filtru', // Use Existing Filter
 	'ppsSecurityFilterOperation!EqualTo': 'Równy', // Equals
 	'ppsSecurityFilterOperation!NotEqualTo': 'Różny od', // Not Equals
 	'ppsSecurityFilterOperation!In': 'W', // In
 	'ppsSecurityFilterOperation!NotIn': 'Nie W', // Not In
 	ppsSecurityFilterDeleteConfirmTitle: 'Potwierdź usunięcie atrybutu filtru', // Confirm removing filter attribute
 	ppsSecurityFilterDeleteConfirmMessage: 'To wyrażenie jest również używane jako filtr w następujących encjach:({{entities}}). Czy chcesz usunąć wszystkie filtry, które odnoszą się do tego atrybutu?', // This expression defined for this filter is also used as a filter in the following entities:({{entities}}). Do you want to delete all the filters that reference this attribute?
-	ppsSecurityFilterDeleteAll: 'Usuń wszystko', // Delete All
-	ppsSecurityFilterDeleteOne: 'Usuń tylko ten atrybut', // Only Delete This
+	ppsSecurityFilterDeleteAll: 'Usuń Wszystko', // Delete All
+	ppsSecurityFilterDeleteOne: 'Usuń Tylko Ten Atrybut', // Only Delete This
 	ppsNoExistingSecurityFilter: 'brak istniejącego filtru', // no existing filter
 	ppsSecurityFilterClickToSelect: 'Klik...', // Click...
 
-	ppsEntityTree: 'Drzewko encji', // Entity Tree
-	ppsAttributeTree: 'Drzewko atrybutów', // Attribute Tree
+	ppsEntityTree: 'Drzewko Encji', // Entity Tree
+	ppsAttributeTree: 'Drzewko Atrybutów', // Attribute Tree
 
 	// Items Editor
 	ppsEdit: 'Edytuj', // Edit
@@ -154,10 +155,10 @@
 	ppsCollectionIsEmpty: 'Kolekcja jest pusta', // Collection is empty
 
 	ppsAttribute: 'Atrybut', // Attribute
-	ppsAddAttribute: 'Dodaj atrybut', // Add Attribute
+	ppsAddAttribute: 'Dodaj Atrybut', // Add Attribute
 	ppsRelation: 'Relacja', // Relation
-	ppsAddRelation: 'Dodaj relację', // Add Relation
-	ppsCardinality: 'Rodzaj relacji', // Cardinality
+	ppsAddRelation: 'Dodaj Relację', // Add Relation
+	ppsCardinality: 'Rodzaj Relacji', // Cardinality
 	'cardinality!0': 'Jeden', // One
 	'cardinality!1': 'Wiele', // Many
 	'cardinality!2': 'JedenOpcjonalna', // OptionalOne
@@ -168,15 +169,15 @@
 	'cardinality!hint!3': 'Każdy {{target}} ma zero lub więcej {{sources}}.', // Each {{target}} has zero or more {{sources}}
 	ppsRecursive: 'Rekurencyjna', // Recursive
 	ppsIncludeSelf: 'Zwrotna', // Include Self
-	ppsHiddenFields: 'Ukryte pola', // Hidden Fields
+	ppsHiddenFields: 'Ukryte Pola', // Hidden Fields
 	ppsView: 'Widok', // View
-	ppsAttributeList: 'Lista atrybutów', // Attribute List
-	ppsRelationList: 'Lista relacji', // Relation List
+	ppsAttributeList: 'Lista Atrybutów', // Attribute List
+	ppsRelationList: 'Lista Relacji', // Relation List
 	ppsCondition: 'Warunek', // Condition
-	ppsSourceEntity: 'Encja źródłowa', // Source Entity
-	ppsTargetEntity: 'Encja docelowa', // Target Entity
-	ppsSourceColumns: 'Kolumny źródłowe', // Source Columns
-	ppsTargetColumns: 'Kolumny docelowe', // Target Columns
+	ppsSourceEntity: 'Encja Źródłowa', // Source Entity
+	ppsTargetEntity: 'Encja Docelowa', // Target Entity
+	ppsSourceColumns: 'Kolumny Źródłowe', // Source Columns
+	ppsTargetColumns: 'Kolumny Docelowe', // Target Columns
 	ppsLoading: '[...wczytywanie...]', // [...loading...]
 	ppsPleaseSelectTargetEntity: 'wybierz encję docelową', // please select target entity
 
@@ -239,27 +240,27 @@
 	deleteEntityConfirmMsg: 'Czy chcesz usunąć encję({{name}}) na stałe?', // Do you want to delete entity({{name}}) permanently?
 	deleteAttributeConfirmMsg: 'Czy chcesz usunąć atrybut({{name}}) na stałe?', // Do you want to delete attribute({{name}}) permanently?
 	deleteRelationConfirmMsg: 'Czy chcesz usunąć relację({{name}}) na stałe?', // Do you want to delete relation({{name}}) permanently?
-	closeDesignerConfirm: 'Czy chcesz opuścić projektanta modelu semantycznego i odrzucić zmiany?', // Do you want to leave semantic model designer and discard the changes?
+	closeDesignerConfirm: 'Do you want to leave data model designer and discard the changes?',
 	comment: 'Komentarz', // Comment
 	commentDesc: 'Komentarz (ten komentarz pojawi się w historii wersji modelu)', // Comment(This comment appears in the model version history.)
 
 	// Add Property
-	databaseColumn: 'Pole bazy danych', // Database Field
+	databaseColumn: 'Pole Bazy Danych', // Database Field
 	databaseColumnDesp: 'Wybierz tę opcję, aby utworzyć nową bazę atrybutów w polu w bazie danych.', // Choose this option to create a new attribute base on a field in the database.
-	relatedEntity: 'Powiązana encja', // Related Entity
+	relatedEntity: 'Powiązana Encja', // Related Entity
 	relatedEntityDesp: 'Użyj tej opcji aby wybrać atrybut z powiązanej encji, który powinien pojawić się bezpośrednio na tej encji.', // Use this option to choose an attribute from a related entity which will then appear directly on this entity.
 	expression: 'Wyrażenie SQL', // SQL Expression
 	expressionDesp: 'Wybierz tę opcję aby stworzyć nowy atrybut bazujący na wyrażeniu SQL.', // Choose this option to create a new attribute based on a SQL expression.
-	attributeSource: 'Źródło atrybutu', // Attribute Source
-	attributeType: 'Typ atrybutu', // Attribute Type
-	expressionDefinition: 'Definicja wyrażenia', // Expression Definition
+	attributeSource: 'Źródło Atrybutu', // Attribute Source
+	attributeType: 'Typ Atrybutu', // Attribute Type
+	expressionDefinition: 'Definicja Wyrażenia', // Expression Definition
 	preview: 'Podgląd', // Preview
-	selectDatabaseField: 'Wybierz pole bazy danych', // Select Database Field
+	selectDatabaseField: 'Wybierz Pole Bazy Danych', // Select Database Field
 	emptyAttributeName: 'Nazwa atrybuti nie może być pusta.', // Attribute name can not be empty.
 	emptySQLExpression: 'Wyrażenie SQL nie może być puste podczas dodawania atrybutu wyrażenia SQL.', // The SQL expression can not be empty when adding a SQL expression attribute.
 	expressionValidate: 'Sprawdź poprawność', // Validate
-	expressionPreviewSchema: 'Podgląd schematu', // Preview Schema
-	expressionPreviewData: 'Podgląd danych', // Preview Data
+	expressionPreviewSchema: 'Podgląd Schematu', // Preview Schema
+	expressionPreviewData: 'Podgląd Danych', // Preview Data
 	validSQLExpression: 'Sprawdź poprawność wyrażenia SQL przed zapisaniem', // Please verify the SQL expression before saving
 	cannotRemoveAttr: 'Atrybut ({{name}}) istnieje w ustawieniu ({{setting}}) i nie może zostać usunięty', // The attribute ({{name}}) exists in ({{setting}}) setting and cannot be removed
 	'Column Name': 'Nazwa kolumny', // Column Name
@@ -277,17 +278,18 @@
 
 	// MessageBox
 	MessageBox: 'Komunikat', // Message
-	OK: 'OK',
+	OK: 'OK', // OK
 	Yes: 'Tak', // Yes
 	No: 'Nie', // No
 
 	// build in user context
 	name: 'nazwa', // name
-	email: 'email',
+	email: 'email', // email
 	phone_number: 'nr telefonu', // phone number
 	given_name: 'imię', // given name
 	family_name: 'nazwisko', // family name
 	role: 'rola', // role
+	full_name: 'full name', // full name
 
 	// Storage Exception
 	SemanticModelError_EntityNotFound: 'Encja nie została znaleziona lub brakuje uprawnień do wykonania tej akcji.', // Entity not found (or You do not have sufficient permissions on this document to perform the action).
@@ -310,4 +312,8 @@
 	'DataSourceDisplayName!SqlServer': 'SQL Server',
 	'DataSourceDisplayName!MySql': 'Mysql',
 	'DataSourceDisplayName!Postgres': 'Postgres',
+
+	// model type selector
+	'modelType!report': 'For Report', // For Report
+	'modelType!dashboard': 'For Dashboard', // For Dashboard
 };

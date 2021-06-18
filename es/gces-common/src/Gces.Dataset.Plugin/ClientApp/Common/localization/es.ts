@@ -176,6 +176,10 @@ export const gcExceptionLocaleES = {
     E_80079: 'Table-valued function is undefined.',
     E_80080: 'Start month of fiscal year is invalid.',
     E_60053: 'PreQuery must use @source parameter.',
+    E_110001: 'JDBC proxy is not alive.',
+    E_110002: 'Get schema from JDBC proxy error.',
+    E_110003: 'An error occurred when executing primitive query in JDBC proxy. \n[{{Provider}}]: {{message}}',
+    E_110004: 'Connection time out.',
 };
 
 export const documentSectionRegisterLocaleES = {

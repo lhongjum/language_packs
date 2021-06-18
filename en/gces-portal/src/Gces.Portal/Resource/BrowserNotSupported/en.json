@@ -1,0 +1,14 @@
+[
+	{
+		"Key": "FirstSentence",
+		"Value": "The current browser is not compatible,"
+	},
+	{
+		"Key": "SecondSentence",
+		"Value": "please use the recommended browser to run the product."
+	},
+	{
+		"Key": "ThirdSentence",
+		"Value": "Recommended Browser"
+	}
+]

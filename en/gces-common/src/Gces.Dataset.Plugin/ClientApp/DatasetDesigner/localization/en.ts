@@ -145,6 +145,8 @@ export const datasetEN = {
 	ConfirmReplace: 'Confirm to replace {{source}} with {{target}}?',
 	GenerateAliasSqlDescription: 'Generate alias by MS_Description',
 	GenerateAliasPostgreDescription: 'Generate alias by Comment',
+	GenerateAliasDescriptionOrMappingConfig: 'Generate alias by description or datasource mapping configuration',
+	NoSchema: '(No Schema)',
 
 	// custom sql table
 	ChooseDataConnection: 'Choose Data Connection',
@@ -190,6 +192,7 @@ export const datasetEN = {
 	Syntax: 'Syntax',
 	DatasetFields: 'Dataset Fields',
 	Aggregation: 'Aggregation',
+	Calculated: 'Calculated',
 	GroupRules: 'Group Rules',
 	GroupSize: 'Group Size',
 	RangeOfValues: 'Range Of Values',
@@ -221,6 +224,7 @@ export const datasetEN = {
 	EmptyFieldsSearchResultTip: 'There is no field match the search.',
 	DragColumnToGroup: 'Drop Column Here to do group.',
 	DragColumnToAggregation: 'Drop Column Here to do aggregation.',
+	ClickPlugButtonToAdd: 'Click "+" button to add calculated field.',
 	FieldDetailTitle: 'In this mode, you could select and modify some fields to used as output',
 	FieldGroupTitle: 'In this mode, you could group some field and do the aggregation same time',
 	FieldColumnLabel: 'Field',
@@ -247,6 +251,7 @@ export const datasetEN = {
 	CategoryNameAlreadyExist: 'Category name \'{{name}}\' already exist',
 	CalculateCategoryAll: 'All',
 	SearchForFields: 'Search for fields',
+	CreateFieldSuccessfully: 'Field \'{{fieldName}}\' created successfully',
 
 	// filters tab
 	MoveUp: 'Move Up',
@@ -417,6 +422,7 @@ export const datasetEN = {
 	numberType: 'Number',
 	datetimeType: 'DateTime',
 	booleanType: 'Boolean',
+	dateType: 'Date',
 	selectSheetToImport: 'Select / Rename Sheets',
 	create_excel_datasource_error1: 'You must select one sheet at least',
 	create_excel_datasource_error2: 'The following sheet names should be no more than 30 characters:\n{{msg}}',
@@ -443,9 +449,9 @@ export const datasetEN = {
 	err_10015: 'Filter "{{filter}}" is referencing an undefined parameter "{{referredParameter}}".',
 	err_10016: 'Runtime error occurred: {{message}}',
 	err_10017: 'Filter with BETWEEN operator requires 2 parameters.',
-	err_10018: 'In \'For Dashboard\' mode,CustomSql can not reference an {{context}} parameter "{{referredParameter}}".',
-	err_10019: 'In \'For Dashboard\' mode,Calculated field "{{calculatedField}}" can not reference an {{context}} parameter "{{referredParameter}}".',
-	err_10020: 'In \'For Dashboard\' mode,Sql expression "{{sqlExpression}}" on table "{{table}}" can\'t reference an {{context}} parameter "{{referredParameter}}".',
+	err_10018: 'In \'For Dashboard\' mode, CustomSql can not reference an {{context}} parameter "{{referredParameter}}".',
+	err_10019: 'In \'For Dashboard\' mode, Calculated field "{{calculatedField}}" can not reference an {{context}} parameter "{{referredParameter}}".',
+	err_10020: 'In \'For Dashboard\' mode, Sql expression "{{sqlExpression}}" on table "{{table}}" can\'t reference an {{context}} parameter "{{referredParameter}}".',
 	err_10021: 'Exceeded max column\'s count, limit count: 1024.\nCurrent count: {{currentCount}}.',
 	err_10022: 'Calculated field "{{calculatedField}}" can not reference itself.',
 	err_10023: 'Calculated field contains cycle reference.',
@@ -459,6 +465,8 @@ export const datasetEN = {
 	err_10034: 'Sql expression is referencing an undefined parameter "{{referredParameter}}".',
 	err_10035: 'In \'For Dashboard\' mode,Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".',
 	err_10036: 'The following bound parameters are not found in custom Sql table: "{{referredParameters}}".',
+	err_10037: '{{option}} option cannot be empty.',
+
 	err_40001: 'MultiDatasource is not supported in incremental update.',
 	err_40002: 'Custom SQL table is not supported in incremental update.',
 	err_40003: 'Group fields is not allowed to use in incremental update.',
@@ -500,6 +508,10 @@ export const datasetEN = {
 	err_100021: 'Can not connect to datasource {{name}}.',
 	err_100022: 'You don\'t have permission to update the data set.',
 	err_100023: 'No available COT worker.',
+	err_100030: 'The mapped datasource connection string has used the context field for name mapping, and the datasource schema does not match the name mapping schema.',
+	err_100032: 'Unknown database {{databaseName}}.',
+	err_100033: 'Database option cannot be empty.',
+	err_100034: 'Get schema failed. Please make sure: \n1, Your settings are valid.\n2, The server allows remote connections.\n3, The data source is available. \n4, The URI parameters are valid.',
 
 	err_100018_desc: 'Error trying to resolve datasource "{{ids}}"',
 
@@ -542,6 +554,26 @@ export const datasetEN = {
 	'DataSourceDisplayName!MongoDB': 'MongoDB',
 	'DataSourceDisplayName!ODBC': 'ODBC',
 	'DataSourceDisplayName!OData': 'OData',
+
+	'DataSourceDisplayName!SparkSQL': 'SparkSQL',
+	'DataSourceDisplayName!Hive': 'Hive',
+	'DataSourceDisplayName!GBase8s': 'GBase8s',
+	'DataSourceDisplayName!GBase8a': 'GBase8a',
+	'DataSourceDisplayName!ElasticSearch': 'ElasticSearch',
+	'DataSourceDisplayName!DM': 'DM',
+	'DataSourceDisplayName!TimeScale': 'TimeScale',
+	'DataSourceDisplayName!GreenPlum': 'GreenPlum',
+	'DataSourceDisplayName!TiDB': 'TiDB',
+	'DataSourceDisplayName!ALIAnalyticDBMySql': 'ALIAnalyticDBMySql',
+	'DataSourceDisplayName!Kingbase': 'Kingbase',
+	'DataSourceDisplayName!Hana': 'Hana',
+
+	// keys used in descriptors
+	'UID': 'User',
+	'UserName': 'UserName',
+	'User ID': 'User',
+	'Server:Port(e.g. localhost:39013))': 'Server:Port(e.g. localhost:39013))',
+	'ALIAnalyticDBMySql': 'AnalyticDB for MySQL',
 
 	// dataset manager error message
 	'err_3000': 'The calculation failed due to exceptions or the calculation was canceled by administrator.'

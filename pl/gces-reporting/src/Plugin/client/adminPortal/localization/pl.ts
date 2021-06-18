@@ -1,7 +1,7 @@
 export default {
 
      // Tile
-	tTextNoWorkers: 'Brak wolnych Usług Raportowych', //No Workers Available 
+	tTextNoWorkers: 'Brak wolnych usług raportowych', //No Workers Available 
 	tStatusIdle: 'Nieaktywny', //Idle
 
 	tBtnTitleEnable: 'Włącz aktualizację kafelka', //Enable Tile Updates 

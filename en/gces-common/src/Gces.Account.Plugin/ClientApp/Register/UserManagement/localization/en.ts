@@ -89,6 +89,7 @@ export const userEN: LanguageKeyValueMap = {
 	ecNoMemberTip: 'No Users in the organization. Please click',
 
 	Error: 'Error',
+	umError_1024: 'Mobile Number already exists',
 	umError_1028: 'User "admin" can not be deleted.',
 	umError_5010: 'You cannot remove yourself from the current organization.',
 };

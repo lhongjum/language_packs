@@ -1,7 +1,7 @@
 {
   // general
   "subject": "Document <{{document}}> Task failed",
-  "body": "Doucment Name: {{documentName}};\r\nDocument type:{{documentType}};\r\nError Message:{{errorMessage}}\r\n",
+  "body": "Document Name: {{documentName}};\r\nDocument type: {{documentType}};\r\nExecution Time: {{executionTime}}\r\nError Message: {{errorMessage}}\r\n",
 
   // documentTypeName
   "dbd!name": "Dashboards",
@@ -16,7 +16,7 @@
   "executionErr_10004": "[Execution Error] An IO error occurred: {{errorMessage}}.",
 
   // executionException DataSourceTask
-  "executionErr_11001": "[Execution Error] The specified directory is not found.",
+  "executionErr_11001": "[Execution Error] The specified directory is not found or permission deny.",
   "executionErr_11002": "[Execution Error] You don\"t have permission to access datasource.",
   "executionErr_11003": "[Execution Error] File:{{errorUsing}} is being used and file:{{errorDestroy}} can\\'t be extracted,please check the file format.",
   "executionErr_11004": "[Execution Error] File:{{errorUsing}} is being used.",
@@ -41,6 +41,12 @@
 
   // executionException DashboardExport
   "executionErr_13001": "[Execution Error] {{errorMessage}}.",
+  "executionErr_13002": "[Execution Error] the \"Portal URI\" in \"UI Settings\" is empty.",
+  "executionErr_13003": "[Execution Error] Invalid token, Please re-edit this task to get a valid token.",
+  "executionErr_13004": "[Execution Error] Can't navigate to target dashboard, Please re-check the \"Portal URI\" in \"UI Settings\".",
+  "executionErr_13005": "[Execution Error] Please enable PDF Export to execute this task.",
+  "executionErr_13006": "[Execution Error] Please install a Chrome to continue.",
+  "executionErr_13007": "[Execution Error] Failed to launch Chrome, make sure the Chrome is executable.",
 
   // refreshTokenException
   "securityErr_10001": "[Security Error] Discovery Client Retrieves discovery document error.",

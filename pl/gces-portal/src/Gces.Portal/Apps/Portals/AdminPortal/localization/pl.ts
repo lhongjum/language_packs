@@ -11,7 +11,7 @@ export const portalPL: LanguageKeyValueMap = {
 
 	// Common
 	Save: 'Zapisz', // Save
-	Ok: 'OK',
+	Ok: 'OK', // OK
 	Close: 'Zamknij', // Close
 	Cancel: 'Anuluj', // Cancel
 	Reset: 'Resetuj', // Reset
@@ -31,8 +31,8 @@ export const portalPL: LanguageKeyValueMap = {
 	HidePassword: 'Ukryj hasło', // Hide password
 	Yes: 'Tak', // Yes
 	No: 'Nie', // No
-	Logo: 'Logo',
-	Avatar: 'Awatar',
+	Logo: 'Wyn Logo', // Wyn Logo
+	Avatar: 'Avatar', // Avatar
 
 	// Collection Headers
 	title: 'Nazwa', // Name
@@ -53,12 +53,13 @@ export const portalPL: LanguageKeyValueMap = {
 	pcTagsModel: 'Wzór tagów', // Tags Model
 	pcTagsDisplay: 'Wyświetl puste kategorie', // Display Empty System Categories
 	pcAllowCustomSchedule: 'Zezwól użytkownikowi tworzyć własne harmonogramy', // Allow User To Create Custom Schedule
+	pcEnableWebPageDocument: 'Enable webpage documents',
 	pcAllowEditPersonalInformation: 'Zezwól użytkownikowi nad edycję informacji personalnych', // Allow User To Edit Personal Information
 	pcAllowEditPersonalTheme: 'Zezwól użytkownikowi na edycję osobistego motywu', // Allow User To Edit Personal Theme
 	pcHideWelcomeScreen: 'Ukryj ekran powitalny w portalu dokumentów', // Hide Welcome Screen On Document Portal
 	pcShowGlobalOrganization: 'Wyświetl główną organizację', // Show Global Organization
 	pcAllowUrlHideActions: 'Zezwól na \'ukryjAkcje\' w URL', // Allow \'hideActions\' In Url
-	pcHideActions: 'Ukryj akcje', // Hide Actions
+	pcHideActions: 'Ukryj Akcje', // Hide Actions
 	pcHideActionsTip: 'Działa tylko, gdy opcja \'ukryjAkcje\' w URL jest wyłączona', // Only works when Allow \'hideActions\' In Url option is off
 	pcHideActionsPlaceHolder: 'Ustaw Ukryte Akcje (oddzielane przecinkami)', // Please Set Hide Actions(Separated by commas)
 	pcHideDocumentListColumns: 'Ukryj kolumny listy dokumentów', // Hide Document List Columns
@@ -92,12 +93,13 @@ export const portalPL: LanguageKeyValueMap = {
 	pcLoginTip: 'Podpowiedź logowania', // Login Tip
 	pcLoginTipDescription: 'Podpowiedź będzie wyświetlana na stronie logowania', // This tip message will be displayed in the login page
 	pcLoginPreview: 'Podgląd Logowania', // Login Preview
-	pcWCAGCompatibility: 'WCAG Compatibility',
+	pcWCAGCompatibility: 'Zgodność z WCAG', // WCAG Compatibility
+	pcEnableNewCreationPanel: 'Enable New Creation Panel',
 	pcAutoDismissNotifications: 'Automatyczne Odrzucanie Powiadomień', // Auto Dismiss Notifications
-	pcDurationOfNotifications: 'Czas trwania powiadomień' , // 'Duration of Notifications(s)'
+	pcDurationOfNotifications: 'Czas trwania powiadomień', // Duration of Notifications(s)
 
 	// SMTP
-	emailSettingsTitle: 'Wiadomości email',
+	emailSettingsTitle: 'Wiadomości email', // Email Settings
 	smtpDialogTitle: 'Test ustawień wiadomości email', // Email Settings Test
 	smtpSendTestMail: 'Wyślij', // Send
 	smtpSendTestMailTitle: 'Wyślij wiadomość testową', // Send Test Email
@@ -109,21 +111,21 @@ export const portalPL: LanguageKeyValueMap = {
 	smtpSendTestMailSuccess: 'Poprawnie wysłano wiadomość testową', // Send test email successfully
 	smtpTestMailSubject: 'Wiadomość testowa Wyn Server', // Wyn Server test e-mail
 	smtpTestMailBody: 'Ta wiadomość testowa została wysłana przez Wyn Server', // This test message was sent by the Wyn Server system
-	emailDomainValidationTitle: 'Sprawdzanie poprawności domeny',
-	enableDomainValidation: 'Włącz weryfikację domeny' , // Enable Domain Validation
+	emailDomainValidationTitle: 'Sprawdzanie poprawności domeny', // Email Domain Validation
+	enableDomainValidation: 'Włącz weryfikację domeny', // Enable Domain Validation
 	validEmailDomains: 'Prawidłowe domeny e-mail', // Valid Email Domains
 	enable: 'Włącz', // Enable
 	disable: 'Wyłącz', // Disable
-	mailProtocol: 'Protokół pocztowy',
-	googleClientID: 'Client ID',
-	googleClientSecret: 'Sekret Klienta',
-	senderName: 'Nazwa nadawcy',
-	senderEmail: 'Email nadawcy',
-	serverAddress: 'Adres serwera SMTP',
-	serverPort: 'Port serwera SMTP',
-	enableSsl: 'Włącz SSL',
-	login: 'Logowania',
-	password: 'Hasło',
+	mailProtocol: 'Protokół pocztowy', // 'Mail Protocol
+	googleClientID: 'Client ID', // Client ID
+	googleClientSecret: 'Sekret Klienta', // Client Secret
+	senderName: 'Nazwa nadawcy', // Sender Name
+	senderEmail: 'Email nadawcy', // Sender E-Mail
+	serverAddress: 'Adres serwera SMTP', // SMTP Server Address
+	serverPort: 'Port serwera SMTP', // SMTP Server Port
+	enableSsl: 'Włącz SSL',  // Enable SSL
+	login: 'Logowania', // Login
+	password: 'Hasło', // Password
 	useParentSettings: 'Użyj ustawień organizacji nadrzędnej', // Use Parent Organization Settings
 
 	// Tags
@@ -142,7 +144,7 @@ export const portalPL: LanguageKeyValueMap = {
 	tagsDeleteTag: 'Usuń kategorię', // Delete Category
 
 	// Section Item
-	dashHeaderDashboard: 'Dashboard',
+	dashHeaderDashboard: 'Dashboard', // Dashboard
 	'portal!title': 'Interfejs użytkownika', // UI Settings
 	'portal!description': 'Skonfiguruj portale administratora i dokumentów', // Configure Document and Admin portals
 	'scheduler!title': 'Planer', // Scheduler
@@ -151,11 +153,11 @@ export const portalPL: LanguageKeyValueMap = {
 	'sharedResources!description': 'Moduł udostępnionych zasobów dla GCES', // Shared resources module for GCES
 	'smtp!title': 'Wiadomości email', // Email Settings
 	'smtp!description': 'Ustawienia serwera usługi mailowej', // Settings for the server mailing service
-	'queue!title': 'Kolejka usługi raportowej', // Worker queue settings
-	'queue!description': 'Ustawienia kolejki usługi raportowej', // Settings for the worker queue
+	'queue!title': 'Kolejka Usługi Raportowej', // Worker queue settings
+	'queue!description': 'Ustawienia kolejki Usługi Raportowej', // Settings for the worker queue
 
-	'semanticModeling!title': 'Ustawienia modeli semantycznych', // Semantic Model Settings
-	'semanticModeling!description': 'Ustawienia modeli semantycznych', // Semantic Model Settings
+	'semanticModeling!title': 'Ustawienia modelu danych', // Data Model Settings
+	'semanticModeling!description': 'Ustawienia modelu danych', // Data Model Settings
 
 	'documents!title': 'Dokumenty', // Documents
 	'documents!description': 'Zarządzanie dokumentami', // Documents Management
@@ -169,16 +171,16 @@ export const portalPL: LanguageKeyValueMap = {
 	'smtp!serverAddress': 'Adres serwera SMTP', // SMTP Server Address
 	'smtp!serverPort': 'Port serwera SMTP', // SMTP Server Port
 	'smtp!enableSsl': 'Włącz SSL', // Enable SSL
-	'smtp!login': 'Logowania',
+	'smtp!login': 'Logowania', // Login
 	'smtp!password': 'Hasło', // Password
 	'smtp!senderName': 'Nazwa nadawcy', // Sender name
 	'smtp!senderEmail': 'Email nadawcy', // Sender e-mail
 	'smtp!emailDomainValidation': 'Sprawdzanie poprawności domeny', // Email Domain Validation
 	'smtp!emailDomains': 'Domeny', // Email Domains
 	'smtp!mailProtocol': 'Protokół pocztowy', // Mail Protocol
-	'smtp!mailProtocol!SMTP': 'SMTP',
-	'smtp!mailProtocol!GoogleAPI': 'Google API',
-	'smtp!googleClientID': 'Client ID',
+	'smtp!mailProtocol!SMTP': 'SMTP', // SMTP
+	'smtp!mailProtocol!GoogleAPI': 'Google API', // Google API
+	'smtp!googleClientID': 'Client ID', // Client ID
 	'smtp!googleClientSecret': 'Sekret Klienta', // Client Secret
 	'googleAPIAuthTitle': 'Autoryzacja', // Authorization
 	'googleAPIAuth': 'Autoryzuj', // Authorize
@@ -200,7 +202,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'queue!defaultExecLimit': 'Domyślny limit czasu wykonania (s)', // Default exec time limit (s)
 	'queue!maxExecLimit': 'Maksymalny czas wykonania (s)', // Maximal exec time (s)
 
-	'semanticModeling!alwaysDiscourageDistinct': 'Prevent generating DISTINCT',
+	'semanticModeling!alwaysDiscourageDistinct': 'Prevent generating DISTINCT(for Report)',
 
 	'portal!theme': 'Motyw', // Theme
 	'portal!theme!Default': 'Domyślny', // Default
@@ -212,6 +214,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'portal!theme!Dark Forest': 'Leśny ciemny', // Dark Forest
 	'portal!theme!Green': 'Zielony', // Green
 	'portal!theme!Warm Light': 'Ciepły jasny', // Warm Light
+	'portal!theme!Minimal Blue': 'Minimal Blue',
 	'portal!defaultTagsMode': 'Wzór tagów', // Tags Model
 	'portal!defaultTagsMode!List': 'Lista', // List
 	'portal!defaultTagsMode!TreeView': 'Widok drzewa', // Tree View
@@ -242,6 +245,11 @@ export const portalPL: LanguageKeyValueMap = {
 	'sysconfig-external-provider!description': 'Zarządzanie zewnętrznymi dostawcami', // External provider management
 	'sysconfig-client!title': 'Klient', // Client
 	'sysconfig-client!description': 'Zarządzanie klientem', // Client management
+
+	'security-settings!title': 'Security',
+	'system-management!title': 'Zarządzanie systemem', // System Management
+	'search!title': 'Szukaj', // Search
+	EmptySearchResult: 'Brak wyników', // empty result
 
 	'resources!title': 'Zasoby', // Resources
 
@@ -281,17 +289,17 @@ export const portalPL: LanguageKeyValueMap = {
 	'Configuration!title': 'Konfiguracja', // Configuration
 	'dbd!title': 'Dashboardy', // Dashboards
 	'dbd!description': 'Dashboardy', // Dashboards
-	'dbd!name': 'Dashboard',
+	'dbd!name': 'Dashboard', // Dashboard
 	'rdl!title': 'Raporty', // Reports
 	'rdl!name': 'Raport', // Report
 	'rdl!description': 'Raporty', // Reports
-	'smdsc!title': 'Modele semantyczne', // Semantic Models
-	'smdsc!name': 'Modele semantyczne', // Semantic Models
-	'smdsc!description': 'Modele semantyczne', // Semantic Models
+	'smdsc!title': 'Modele danych', // Data Models
+	'smdsc!name': 'Modele danych', // Data Models
+	'smdsc!description': 'Modele danych', // Data Models
 	'rdlx-template!title': 'Szablony raportów', // Report Templates
 	'rdlx-template!description': 'Szablony raportów', // Report Templates
-	'rdlx-master!title': 'Master Report',
-	'rdlx-master!description': 'Master Report',
+	'rdlx-master!title': 'Raport główny', // Master Report
+	'rdlx-master!description': 'Raport główny', // Master Report
 	'dataset!title': 'Zestawy danych', // Datasets
 	'dataset!name': 'Zestawy danych', // Datasets
 	'dataset!description': 'Zestawy danych', // Datasets
@@ -299,53 +307,67 @@ export const portalPL: LanguageKeyValueMap = {
 	'dsc!title': 'Źródła danych', // Data Sources
 	'dsc!name': 'Źródła danych', // Data Sources
 	'dsc!description': 'Źródła danych', // Data Sources
-	'image/jpeg,image/bmp,image/gif,image/png!title': 'Obrazy', // Images
-	'image/jpeg,image/bmp,image/gif,image/png!name': 'Obraz', // Image
-	'image/jpeg,image/bmp,image/gif,image/png!description': 'Obrazy', // Images
+	'image/jpeg,image/bmp,image/gif,image/png,image/svg!title': 'Obrazy', // Images
+	'image/jpeg,image/bmp,image/gif,image/png,image/svg!name': 'Obraz', // Image
+	'image/jpeg,image/bmp,image/gif,image/png,image/svg!description': 'Obrazy', // Images
+	'font/ttf,font/otf,font/woff,font/woff2,font/svg,font/eot,font/webfont!title': 'czcionka', // Font
+	'font/ttf,font/otf,font/woff,font/woff2,font/svg,font/eot,font/webfont!name': 'czcionka', // Font
+	'font/ttf,font/otf,font/woff,font/woff2,font/svg,font/eot,font/webfont!description': 'czcionka', // Font
 	'theme!title': 'Motywy', // Themes
 	'theme!name': 'Motywy', // Themes
 	'theme!description': 'Motywy', // Themes
 	'geoJson!title': 'Mapy', // Map Data
 	'geoJson!description': 'Mapy', // Map Data
-	'floorPlan!title': 'Plan budynku', // Floor Plan
-	'floorPlan!name': 'Plan budynku', // Floor Plan
-	'floorPlan!description': 'Plan budynku', // Floor Plan
+	'floorPlan!title': 'Plan Budynku', // Floor Plan
+	'floorPlan!name': 'Plan Budynku', // Floor Plan
+	'floorPlan!description': 'Plan Budynku', // Floor Plan
+	'wbp!title': 'Strona internetowa', // Web Page
+	'wbp!name': 'Strona internetowa', // Web Page
+	'wbp!description': 'Strona internetowa', // Web Page
 
 	'visual!title': 'Wizualizacja', // Visualization
 	'visual!description': 'Wizualizacja', // Visualization
 
-	'reporting!title': 'Ustawienia WynReports', // WynReports Settings
+	'reporting!title': 'Ustawienia funkcji', // Feature Settings
 	'reporting!name': 'Raport', // Report
 	'reporting!description': 'Konfiguruj WynReports', // Configure WynReports
 	'reporting!parametersPanelPosition': 'Pozycja panelu parametrów', // Parameter panel position
 	'reporting!parametersPanelPosition!Top': 'Góra', // Top
 	'reporting!parametersPanelPosition!Right': 'Prawo', // Right
+	'reporting!showParametersPanelByDefault': 'Domyślnie pokazuj panel parametrów', // Show parameters panel by default
 	'previewPagesSettings_limitPreviewPages': 'Limit stron podglądu', // Limit preview pages
 	'previewPagesSettings_previewPages': 'Strony podglądu', // Preview pages
-	'previewPagesSettings_hint': 'Ustawienie liczby stron podglądu ogranicza liczbę stron, która zostanie wygenerowana w podglądzie raportu. Pełny raport może zostać wygenerowany poprzez „Uruchom pełny raport.',
-	'reporting!disableFocusTimer': 'Wyłącz zegar zaznaczenia',
-	'reporting!hideBlankRDLReport': 'Ukryj szablon raportu regularnego',
-	'reporting!hideBlankPageReport': 'Ukryj szablon raportu stronicowego',
+	'previewPagesSettingsTooltip': 'Ustawienie liczby stron podglądu ogranicza liczbę stron, która zostanie wygenerowana w podglądzie raportu. Pełny raport może zostać wygenerowany poprzez „Uruchom pełny raport.', // Limit preview pages setting limits number of report pages to be rendered in viewer. You can render a full report by clicking \'Run Full Report\'. This won\'t affect scheduling and exporting.
+	'reporting!disableFocusTimer': 'Wyłącz zegar zaznaczenia', // Focus always visible
+	'reporting!hideBlankRDLReport': 'Ukryj szablon raportu regularnego', // Hide blank RDL report
+	'hideBlankRDLReportTooltip': 'Ukryj wbudowany szablon raportu regularnego przy tworzeniu raportów.', // Hide the built-in Blank RDL Report template while creating reports.
+	'reporting!hideBlankPageReport': 'Ukryj szablon raportu stronicowego', // Hide blank Page report
+	'hideBlankPageReportTooltip': 'Ukryj wbudowany szablon raportu stronicowego przy tworzeniu raportów.', // Hide the built-in Blank Page Report template while creating reports.
 
 	'scheduleSettings!title': 'Ustawienia planowania', // Schedule Settings
 	'scheduleSettings!description': 'Zarządzanie ustawieniami planowania', // Schedule Settings management
 
+	'report-settings!title': 'Ustawienia WynReports', // WynReports Settings
+	'report-settings!description': 'Ustawienia WynReports', // WynReports Settings
+	'schedule-settings!title': 'Planowanie', // Scheduling
+	'schedule-settings!description': 'Planowanie', // Scheduling
+
 	// Nav Toolbar
-	globalOrgName: 'Global',
-	switchOrganization: 'Zmień organizację', // Switch Organization
-	editProfileSetting: 'Edytuj ustawienia profilu', // Edit Profile Setting
+	globalOrgName: 'Ogólny', // Global
+	switchOrganization: 'Zmień Organizację', // Switch Organization
+	editProfileSetting: 'Edytuj Ustawienia Profilu', // Edit Profile Setting
 
 	// Version Info
-	'productVersion': 'Wyn Enterprise',
+	'productVersion': 'Wyn Enterprise', // Wyn Enterprise
 	'serverVersion': 'Serwer', // Server
-	'portalVersion': 'Portal',
+	'portalVersion': 'Portal', // Portal
 	'pluginTitle': 'Pluginy', // Plugins
 	'Portal': 'Plugin portalu', // Portal Plugin
-	'Scheduler': 'Plugin planera', // Scheduler Plugin
-	'Shared Resources': 'Plugin wspólnych zasobów', // Shared Resources Plugin
-	'Server plugin': 'Plugin serwera', // Server Plugin
-	'Account Management Plugin': 'Plugin zarządzania kontem', // Account Management Plugin
-	'Dataset Management Plugin': 'Plugin zarządzania zestawem danych', // Dataset Management Plugin
+	'Scheduler': 'Plugin Planera', // Scheduler Plugin
+	'Shared Resources': 'Plugin Wspólnych Zasobów', // Shared Resources Plugin
+	'Server plugin': 'Plugin Serwera', // Server Plugin
+	'Account Management Plugin': 'Plugin Zarządzania Kontem', // Account Management Plugin
+	'Dataset Management Plugin': 'Plugin Zarządzania Zestawem Danych', // Dataset Management Plugin
 	'GCES Dashboards': 'Plugin WynDashboards', // WynDashboards Plugin
 	'GCES Reporting': 'Plugin WynReports', //  WynReports Plugin
 	DeleteDocumentError: 'Błąd podczas usuwania dokumentu', // Error deleting document
@@ -365,9 +387,36 @@ export const portalPL: LanguageKeyValueMap = {
 	'UpdateNotificationSkipVersionError': 'Nie udało się pominąć wersji', // Failed to skip the version
 	'UpdateNotificationSkipVersionSuccess': 'Pomyślnie pominięto wersję', // Skipped version successfully
 	'UpdateNotificationSkipVersionSuccessDetail': 'Pomyślnie pominięto wersję "Version {{version}}"', // Success to skip the version "Version {{version}}"
-	'vsReleaseTime': 'Data wydania:', // Release Date:
+	'vsReleaseTime': 'Data Wydania:', // Release Date:
 	'vsSummary': 'Podsumowanie:', // Summary:
-	'vsViewDetail': 'Pokaż szczegóły', // View Detail
+	'vsViewDetail': 'Pokaż Szczegóły', // View Detail
+
+	// AdminUploadPanel
+	dzDragDrop: 'Przeciągnij i upuść', // Drag & Drop
+	dzFiles: 'Pliki', // Files
+	dzClickToSelect: 'lub kliknij tutaj, aby wybrać', // or click here to select
+	dzUpload: 'Prześlij', // Upload
+	Commit: 'Zatwierdź', // Commit
+	UploadModeTitle: 'Gdy dokument już istnieje, Twój tryb wysyłania', // When document already exists, your upload mode:
+	UploadModeTitleVisual: 'Jeśli wizualizacja już istnieje (bez id), tryb wgrywania: (jeśli wizualizacja ma to samo id co istniejąca, tryb zostanie zignorowany)', // When visualization already exists(without id), your upload mode:(for visualization which has same id with existing, the mode will be ignored)
+	Overwrite: 'Nadpisanie dokumentu', // Overwrite document
+	KeepBoth: 'Zachowaj oba dokumenty', // Keep both documents
+	Collapse: 'Zwiń', // Collapse
+	Expand: 'Rozwiń', // Expand
+	ReadyToCommit: 'Gotowe do zatwierdzenia', // 'Ready To Commit
+	UploadError: 'Przesyłanie nie powiodło się', // Upload Failed
+	uploadErr_200_001: 'Nieobsługiwany typ dokumentu', // Unsupported document type
+	uploadErr_200_002: 'Nie znaleziono wtyczki SharedResource', // SharedResource plugin not found
+	uploadErr_200_003: 'Przesyłanie nie powiodło się', // Uploading failed
+	uploadErr_200_004: 'Niewspierana "OverwritePolicy"', // Unsupported "OverwritePolicy"
+	uploadErr_200_005: 'Błąd', // Something wrong.
+	uploadErr_200_006: 'Pusty plik', // Empty file
+	uploadErr_200_007: 'Błąd zatwierdzenia', // Validation error
+	uploadErr_200_008: 'Odmowa dostępu', // Permission denied
+	uploadErr_200_009: 'Dokument zarezerwowany przez system nie może zostać nadpisany', // Document reserved by system cannot be overwritten.
+	uploadErr_200_010: 'Wersja ({{newVersion}}) jest niższa lub równa obecnej', // The version({{newVersion}}) is lower than or equal to current({{existingVersion}}).
+	UploadSuccess: 'Przesłano pomyślnie', // Upload successfully
+	UploadErrors: 'Przesyłanie nie powiodło się', // Upload failed
 
 	err_20015: 'Nazwa kategorii "{{tagName}}" nie można zaczynać się od \"$\".', // Category name "{{tagName}}" cannot start with \"$\".
 	err_20016: 'Nie można odnaleźć kategorii o ID "{{tagId}}".', // Category with the id "{{tagId}}" not found.

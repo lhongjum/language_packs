@@ -27,9 +27,12 @@ export const datasourceSchedulingEN: LanguageKeyValueMap = {
 	taskItemMenuEditTitle: 'Edit Task',
 	taskItemMenuDeleteText: 'Delete',
 	taskItemMenuDeleteTitle: 'Delete Task',
+	taskItemMenuDuplicateText: 'Duplicate',
+	taskItemMenuDuplicateTitle: 'Duplicate Task',
 	taskItemTextNextRun: 'Next run:',
 	taskItemTextManually: 'Manually',
 	taskItemTextNever: 'Never',
+	taskDuplicateSuffix: '-Copy',
 
 	// Task Editor
 	taskNoScheduleTemplateTip: 'no schedule template',
@@ -105,11 +108,27 @@ export const datasourceSchedulingEN: LanguageKeyValueMap = {
 	sagaTextErrorUpdatingTask: 'Task was NOT updated',
 	sagaTextErrorDeletingTask: 'Task was NOT deleted',
 	sagaTextErrorStartingTask: 'Task was NOT started',
+	sagaTextErrorDuplicatingTask: 'Task was not duplicated',
 	sagaToggleNotification: 'Task is now {{status, lowercase}}',
 
 	sagaTextErrorGetDataset: 'Error loading dataset',
 
 	sagaFailed: 'Scheduling Plugin: Unknown Error',
+
+	// AppMsg
+	selectTaskFailInformType: 'Notification Type',
+	Email: 'Email',
+	AppMsg: 'Application Message',
+	appMsgProvider: 'Application Message Provider',
+	WeChat4Work: 'Enterprise WeChat',
+	DingTalk: 'Ding Ding',
+	delEditorAppMsgLabelRecipients: 'Message Recipients',
+	delEditorAppMsgLabelRecipientsToolTip: 'The recipients of the message. Note that all the users in the sub-organizations can also receive the messages if the parent organization is checked',
+	appMsgOrgs: 'Organizations',
+	appMsgRoles: 'Roles',
+	appMsgUsers: 'Users',
+	delEditorMenuEmail: 'Email',
+	delEditorMenuAppMsg: 'Application Message',
 
 	// Tabs
 	'scheduleTasks!name': 'Tasks',

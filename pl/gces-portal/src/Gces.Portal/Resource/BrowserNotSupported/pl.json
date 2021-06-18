@@ -1,0 +1,14 @@
+﻿[
+	{
+		"Key": "FirstSentence",
+		"Value": "Bieżąca przeglądarka nie jest kompatybilna,"
+	},
+	{
+		"Key": "SecondSentence",
+		"Value": "Do uruchomienia produktu użyj zalecanej przeglądarki."
+	},
+	{
+		"Key": "ThirdSentence",
+		"Value": "Zalecana przeglądarka"
+	}
+]

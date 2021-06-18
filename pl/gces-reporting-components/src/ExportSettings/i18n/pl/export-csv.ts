@@ -10,19 +10,19 @@ export default {
       "enum": Encoding
     },
     "NoHeader": {
-      "label": "BrakNagłówka",
+      "label": "Brak nagłówka",
       "category": "Różne"
     },
     "ColumnsDelimiter": {
-      "label": "OgranicznikKolumn",
+      "label": "Ogranicznik kolumn",
       "category": "Różne"
     },
     "RowsDelimiter": {
-      "label": "OgranicznikWierszy",
+      "label": "Ogranicznik wierszy",
       "category": "Różne"
     },
     "QuotationSymbol": {
-      "label": "SymbolCytowania",
+      "label": "Symbol cytowania",
       "category": "Różne"
     },
     "Extension": {
@@ -32,6 +32,14 @@ export default {
         "csv": ".csv",
         "txt": ".txt"
       }
+    },
+    "DateTimeFormat": {
+      "label": "Format data czas",
+      "category": "Różne"
+    },
+    "NumericFormat": {
+      "label": "Format numeryczny",
+      "category": "Różne"
     },
     "AddTimestamp": {
       "label": "Dodaj sygnaturę czasową do nazwy pliku",

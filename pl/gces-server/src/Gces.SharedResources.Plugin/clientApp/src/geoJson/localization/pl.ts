@@ -73,7 +73,7 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	cancel: 'Anuluj', // Cancel
 	name: 'Nazwa', // Name
 	description: 'Opis', // Description
-	OK: 'OK',
+	OK: 'OK', // OK
 	Close: 'Zamknij', // Close
 	messageBox: 'Wiadomość', // Message Box
 	hierarchyEditorTitle: 'Edytor hierarchii', // Hierarchy Editor

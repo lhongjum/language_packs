@@ -25,16 +25,19 @@
 	taskItemMenuDisableTitle: 'Wyłącz zadanie', // Disbale Task
 	taskItemMenuEditText: 'Edytuj', // Edit
 	taskItemMenuEditTitle: 'Edytuj zadanie', // Edit Task
-	taskItemMenuDeleteText: 'Usuń', // Delete
-	taskItemMenuDeleteTitle: 'Usuń zadanie', // Delete Task
-	taskItemTextNextRun: 'Następne uruchomienie:', // Next run:
+	taskItemMenuDeleteText: 'Skasuj', // Delete
+	taskItemMenuDeleteTitle: 'Skasuj zadanie', // Delete Task
+	taskItemMenuDuplicateText: 'Duplikuj', // Duplicate
+	taskItemMenuDuplicateTitle: 'Duplicate Task',
+	taskItemTextNextRun: 'Następne uruchomienie', // Next run:
 	taskItemTextManually: 'Ręcznie', // Manually
 	taskItemTextNever: 'Nigdy', // Never
+	taskDuplicateSuffix: '-Kopia', // -Copy
 
 	// Task Editor
 	taskNoScheduleTemplateTip: 'Brak szablonu planowania', // no schedule template
-	taskEditorCloneFromTemplate: 'Użyj szablonu', // Use Template
-	taskEditorChooseTemplate: 'Wybierz szablon', // Choose Template
+	taskEditorCloneFromTemplate: 'Użyj Szablonu', // Use Template
+	taskEditorChooseTemplate: 'Wybierz Szablon', // Choose Template
 	taskEditorTemplateHasBeenDeleted: 'Szablon został usunięty', // Template has been deleted
 	taskEditorHeaderDetails: 'Szczegóły', // Details
 	taskEditorInputPlaceholderDescription: 'Opis zadania', // Task description
@@ -46,27 +49,27 @@
 	taskEditorBtnCreateText: 'Utwórz zadanie', // Create Task
 	taskEditorBtnUpdateText: 'Zaktualizuj zadanie', // Update Task
 	taskEditorBtnCancelText: 'Anuluj', // Cancel
-	taskEditorLabelMail: 'Powiadomienie email', // Email Notification
+	taskEditorLabelMail: 'Powiadomienie Email', // Email Notification
 	taskEditorLabelMailTooltip: 'Wyślij komunikat o błędzie do określonej skrzynki pocztowej, gdy wykonanie zadania nie powiedzie się', // Send the failure message to the specified mailbox when the task execution failed
-	taskEditorLabelFolderLocation: 'Lokalizacja folderu', // Folder Location
+	taskEditorLabelFolderLocation: 'Lokalizacja Folderu', // Folder Location
 	taskEditorLabelMailLabel: 'Please enter email notification',
 	taskEditorLabelFolderLocationToolTip: 'Upewnij się, że uprawnienia do odczytu i zapisu są dostępne dla określonej lokalizacji folderu', // Please ensure that Read and Write permissions are given for the specified folder location
 	locationPlaceholder: 'Podaj lokalizację folderu', // Please input the folder location
 	taskEditorLabelAction: 'Akcja', // Action
-	taskEditorMailLabelInvalidDomainTip: 'Nieprawidłowa domena email', // Invalid Email Domain
-	taskEditorEmailFormatError: 'Email format is invalid',
-	taskEditorDescriptionError: 'Task description should not ben empty',
+	taskEditorMailLabelInvalidDomainTip: 'Nieprawidłowa Domena Email', // Invalid Email Domain
+	taskEditorEmailFormatError: 'Format e-maila jest nieprawidłowy', // Email format is invalid
+	taskEditorDescriptionError: 'Opis zadania nie powinien być pusty', // Task description should not ben empty
 	validate: 'Weryfikuj', // Verify
 	overwrite: 'Nadpisz', // OverWrite
-	append: 'Dołącz dane', // Append Data
-	sagaTextErrorInvalidLocation: 'Invalid Location',
-	sagaTextErrorInvalidLocation_30013: 'Write permission is denied',
-	sagaTextErrorInvalidLocation_30014: 'Delete permission is denied',
-	sagaTextErrorInvalidLocation_30015: 'Location does not exist',
-	sagaTextErrorInvalidLocation_30016: 'Each schedule should correspond to a separate directory',
-	sagaTextErrorInvalidLocation_30017: 'Read permission is denied',
-	sagaTextSuccessVerifyLocation: 'The location inputted is valid',
-	sagaTextSuccessMessageVerifyLocation: 'The location inputted is valid',
+	append: 'Dołącz Dane', // Append Data
+	sagaTextErrorInvalidLocation: 'Nieprawidłowa lokalizacja', // Invalid Location
+	sagaTextErrorInvalidLocation_30013: 'Odmowa uprawnienia na zapis', // Write permission is denied
+	sagaTextErrorInvalidLocation_30014: 'Odmowa uprawnienia do usuwania', // Delete permission is denied
+	sagaTextErrorInvalidLocation_30015: 'Lokalizacja nie istnieje', // Location does not exist
+	sagaTextErrorInvalidLocation_30016: 'Każdy harmonogram powinien odpowiadać oddzielnemu katalogowi', // Each schedule should correspond to a separate directory
+	sagaTextErrorInvalidLocation_30017: 'Odmowa uprawnienia do odczytu', // Read permission is denied
+	sagaTextSuccessVerifyLocation: 'Wprowadzona lokalizacja jest prawidłowa', // The location inputted is valid
+	sagaTextSuccessMessageVerifyLocation: 'Wprowadzona lokalizacja jest prawidłowa', // The location inputted is valid
 
 	// Recurrence Editor
 	recEditorHeaderRepeat: 'Powtórz', // Repeat
@@ -83,8 +86,8 @@
 	dailyEditorTextUnits: 'godzin', // hour(s)
 
 	// Weekly Editor
-	weeklyEditorTextEvery: 'Powtórz co', // Every
-	weeklyEditorTextUnits: 'tygodni', // week(s)
+	weeklyEditorTextEvery: 'Każda/y', // Every
+	weeklyEditorTextUnits: 'tygodnia', // week(s)
 
 	// Monthly Editor
 	monthlyEditorTextEvery: 'Powtórz co', // Every
@@ -92,7 +95,7 @@
 	monthlyEditorTextOnDay: 'W dniu', // On day
 	monthlyEditorTextOnDayUnits: '',
 	monthlyEditorTextOnTheLast: 'W ostatni', // On the last
-	monthlyEditorTextOnTheFirst: 'W pierwszy', // On the first
+	monthlyEditorTextOnTheFirst: 'On the first', // W pierwszy
 	monthlyEditorTextLastDay: 'Dzień', // Day
 	monthlyEditorTextLastWeekday: 'Dzień roboczy', // Weekday
 
@@ -105,10 +108,26 @@
 	sagaTextErrorUpdatingTask: 'Nie zaktualizowano zadania', // Task was NOT updated
 	sagaTextErrorDeletingTask: 'Nie skasowano zadania', // Task was NOT deleted
 	sagaTextErrorStartingTask: 'Nie uruchomiono zadania', // Task was NOT started
+	sagaTextErrorDuplicatingTask: 'Zadanie nie zostało zduplikowane', // Task was not duplicated
 	sagaToggleNotification: 'Obecny status zadania: {{status, lowercase}}', // Task is now {{status, lowercase}}
 
 	sagaTextErrorGetDataset: 'Błąd wczytywania zestawu danych', // Error loading dataset
 	sagaFailed: 'Wtyczka planująca: Nieznany błąd', // Scheduling Plugin: Unknown Error
+
+	// AppMsg
+	selectTaskFailInformType: 'Typ powiadomienia', // Notification Type
+	Email: 'Email', // Email
+	AppMsg: 'Komunikat aplikacji', // Application Message
+	appMsgProvider: 'Dostawca wiadomości aplikacji', // Application Message Provider
+	WeChat4Work: 'Enterprise WeChat', // Enterprise WeChat
+	DingTalk: 'Ding Ding', // Ding Ding
+	delEditorAppMsgLabelRecipients: 'Odbiorcy wiadomości', // Message Recipients
+	delEditorAppMsgLabelRecipientsToolTip: 'Odbiorcy wiadomości. Należy pamiętać, że wszyscy użytkownicy w organizacjach podrzędnych mogą również otrzymywać wiadomości, jeśli zaznaczona jest organizacja nadrzędna', // The recipients of the message. Note that all the users in the sub-organizations can also receive the messages if the parent organization is checked
+	appMsgOrgs: 'Organizacje', // Organizations
+	appMsgRoles: 'Role', // Roles
+	appMsgUsers: 'Użytkownicy', // Users
+	delEditorMenuEmail: 'Email', // Email
+	delEditorMenuAppMsg: 'Komunikat aplikacji', // Application Message
 
 	// Tabs
 	'scheduleTasks!name': 'Zadania', // Tasks

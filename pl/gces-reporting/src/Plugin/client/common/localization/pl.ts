@@ -1,12 +1,4 @@
 export default {
-	// Designer
-	
-	drApplicationTitle: 'Kreator WynReports', // WynReports Designer
-	drYes: 'Tak', // Yes
-	drNo: 'Nie', // No
-	drUnsavedChangesTitle: 'Niezapisane zmiany w raporcie', // The report has unsaved changes
-	drUnsavedChangesText: 'Czy chcesz opuścić kreator bez zapisania zmian?', // Would you like to leave designer and discard these changes?
-
 	// Export Dialog
 	edTextFormat: 'Format eksportu', // Export Format
 	edTextParams: 'Parametry raportu', // Report Parameters
@@ -63,7 +55,7 @@ export default {
 	sagaQueueErrorTaskFailed: 'Zadanie nie powiodło się', // Task Failed
 	sagaQueueErrorExecFailed: 'Nie można wykonać zadania', // Unable to execute task
 
-	sagaQueueErrorNoWorkers: 'Brak dostępnych Usług Raportowych', // No workers available 
+	sagaQueueErrorNoWorkers: 'Brak dostępnych usług raportowych', // No workers available 
 	sagaQueueErrorUnknown: 'Nieznany błąd', // Unknown Error 
 	sagaTaskStatusExporting: 'Eksport {{doc}} do {{type}}', // Exporting {{doc}} to {{type}}
 	sagaTaskStarting: 'Rozpoczynanie...', // Starting...
@@ -79,7 +71,7 @@ export default {
 	sagaQueueError1Content: 'Zadanie zostało anulowane', // Task has been cancelled
 	sagaQueueError2Content: 'Przetwarzanie zadania nie powiodło się', // Task processing failed
 	sagaQueueError3Content: 'Nieznany błąd wewnętrzny', // Unknown internal error
-	sagaQueueError4Content: 'Nie znaleziono odpowiednich Usług Raportowych do wykonania zadania', // No suitable workers found to process the task 
+	sagaQueueError4Content: 'Nie znaleziono odpowiednich usług raportowych do wykonania zadania', // No suitable workers found to process the task 
 	sagaQueueError5Content: 'Wymagany pełny bądź skrócony link', // Expected a task with an absolute or relative URL
 
 	updateTemplateListError: 'Błąd podczas aktualizacji listy szablonów', // Error updating templates list
@@ -115,15 +107,21 @@ export default {
 	'copyAsTemplate!description': 'Kopiuj raport jako szablon', // Copy report as template 
 	copyDocumentSuffix: '-Szablon', // -Template
 
-	'editTemplate!name': 'Edytuj Szablon...', // Edit Template...
+	'editTemplate!name': 'Edytuj szablon...', // Edit Template...
 	'editTemplate!description': 'Edytuj ten szablon', // Edit this template
 
 	// Revision Verbs
-	'previewRevision!name': 'Podgląd...', // Preview...
-	'previewRevision!description': 'Podgląd poprawek tego raportu', // Preview this report revision
+	'previewReportRevision!name': 'Podgląd...', // Preview...
+	'previewReportRevision!description': 'Podgląd poprawek tego raportu', // Preview this report revision
 
-	'editRevision!name': 'Edytuj...', // Edit...
-	'editRevision!description': 'Edytuj poprawki tego raportu', // Edit this report revision
+	'previewTemplateRevision!name': 'Podgląd szablonu...',
+	'previewTemplateRevision!description': 'Wyświetl podgląd tej wersji szablonu',
+
+	'editReportRevision!name': 'Edytuj...', // Edit...
+	'editReportRevision!description': 'Edytuj poprawki tego raportu', // Edit this report revision
+
+	'editTemplateRevision!name': 'Edytuj szablon...',
+	'editTemplateRevision!description': 'Edytuj tę wersję szablonu',
 
 	// Commands Dialog
 	'commands!name': 'Polecenia',
@@ -144,8 +142,10 @@ export default {
 	'commands$singlepagemode': 'Widok pojedynczej strony',
 	'commands$continuousmode': 'Widok ciągły',
 	'commands$galleymode': 'Tryb szpalty',
+	'commands$search': 'Szukaj',
 	'commands$pdf': 'PDF',
 	'commands$excel': 'Excel',
+	'commands$exceldata': 'Excel Data',
 	'commands$docx': 'Word',
 	'commands$image': 'Image',
 	'commands$html': 'HTML',
@@ -169,15 +169,15 @@ export default {
 	// Reporting Plugin Exceptions
 	reportingPluginUnknown: 'Nieznany błąd podczas wykonywania zadania', // An unknown error occured during task execution
 	reportingPluginLrt: 'Wystąpił wyjątek LRT we wtyczce raportującej', //An LRT exception occured in reporting plugin 
-	reportingPluginBadResponse: 'Usługa Raportowa odpowiedziała z błędem', // Worker responded with error 
-	reportingPluginStreaming: 'Wystąpił błąd podczas transmisji z Usługi Raportowej', // An error occured during streaming from worker 
-	reportingPluginResponseVerification: 'Wystąpił błąd po transmisji wyników z Usługi Raportowej', // An error have been revealed after streaming result from worker
+	reportingPluginBadResponse: 'Usługa raportowa odpowiedziała z błędem', // Worker responded with error 
+	reportingPluginStreaming: 'Wystąpił błąd podczas transmisji z usługi raportowej', // An error occured during streaming from worker 
+	reportingPluginResponseVerification: 'Wystąpił błąd po transmisji wyników z usługi raportowej', // An error have been revealed after streaming result from worker
 
 	// Worker Exceptions
 	reportingWorkerExportInvalidParameters: 'Niewłaściwe parametry raportu', // Invalid report parameters
 	reportingWorkerExportUnknownRenderingExt: 'Nieznane rozszerzenie przetwarzania {0}', // Unknown rendering extension {0}
 
-	reportingWorkerTaskInitUnknown: 'Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {0}', // An unknown error occured during worker task execution: {0}
+	reportingWorkerTaskInitUnknown: 'Nieznany błąd podczas wykonywania zadania przez usługę raportową: {0}', // An unknown error occured during worker task execution: {0}
 	reportingWorkerTaskInitFileNotFound: 'Plik {0} nie został znaleziony', // File {0} not found
 	reportingWorkerTaskInitUnableToLoadFile: 'Nie można załadować pliku {0}', // Unable to load file {0}
 
@@ -191,6 +191,8 @@ export default {
 
 	reportingWorkerReportUnknown: 'Nieznany błąd podczas pobierania informacji o raporcie: {0}', // An unknown error occured when getting report info: {0}
 	reportingWorkerReportCyclicParameterReferences: 'Wykryto cykliczne odwołania parametrów raportu', // Cyclic report parameter references detected
+
+	reportingWorkerFailCheckDataNotFound: 'Nie znaleziono określonego dokumentu {0} o id {1}', // 'Specified {0} document with id {1} not found',
 
 	// Document Section
 	referencedDataDocuments: 'Dokument danych referencyjnych', // Referenced Data Document 

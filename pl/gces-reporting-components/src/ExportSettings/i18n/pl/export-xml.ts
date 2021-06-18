@@ -7,19 +7,19 @@ export default {
       "category": "Różne"
     },
     "WriteEmptyAttributes": {
-      "label": "ZapiszPusteAtrybuty",
+      "label": "Zapisz puste atrybuty",
       "category": "Różne"
     },
     "OutputHiddenMatrixMembers": {
-      "label": "ZwróćUkryteElementyMacierzy",
+      "label": "Zwróć ukryte elementy macierzy",
       "category": "Różne"
     },
     "OutputTextboxConstantValues": {
-      "label": "ZwróćStałeWartościPolaTekstowego",
+      "label": "Zwróć stałe wartości pola tekstowego",
       "category": "Różne"
     },
     "DefaultDateFormat": {
-      "label": "DomyślnyFormatDaty",
+      "label": "Domyślny format daty",
       "category": "Różne"
     },
     "AddTimestamp": {

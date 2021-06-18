@@ -7,9 +7,16 @@ auto_merge_mode:
   - Nigdy #Never
   - Zawsze #Always
   - Ograniczone #Restricted
+auto_width:
+  - Brak #None
+  - Proporcjonalnie #Proportional
 axis_location:
   - Z lewej #Left
   - Z prawej #Right
+axis_mode:
+  - Kartezjański #Cartesian
+  - Promieniowy #Radial
+  - Wielokątny #Polygonal
 barcode_caption_location:
   - Brak #None
   - Powyżej #Above
@@ -237,18 +244,18 @@ bullet_tick_marks:
   - Wewnątrz #Inside
   - Zewnątrz #Outside
 calendar:
-  - Gregoriański #Gregorian
-  - Gregoriański arabski #Gregorian Arabic
-  - Gregoriański Środkowy Wschód-Francja #Gregorian Middle East French
-  - Gregoriański angielski transliterowany #Gregorian Transliterated English
-  - Gregoriański francuski transliterowany #Gregorian Transliterated French
-  - Gregoriański amerykański angielski #Gregorian US English
-  - Hebrajski #Hebrew
-  - Hijri
-  - Japoński #Japanese
-  - Koreański #Korean
-  - Tajwański #Taiwan
-  - Tajski buddyjski #Thai Buddhist
+  - Gregorian: Gregoriański #Gregorian
+  - GregorianArabic: Gregoriański arabski #Gregorian Arabic
+  - GregorianMiddleEastFrench: Gregoriański Środkowy Wschód-Francja #Gregorian Middle East French
+  - GregorianTransliteratedEnglish: Gregoriański angielski transliterowany #Gregorian Transliterated English
+  - GregorianTransliteratedFrench: Gregoriański francuski transliterowany #Gregorian Transliterated French
+  - GregorianUSEnglish: Gregoriański amerykański angielski #Gregorian US English
+  - Hebrew: Hebrajski #Hebrew
+  - Hijri: Hidżry #Hijri
+  - Japanese: Japoński #Japanese
+  - Korean: Koreański #Korean
+  - Taiwan: Tajwański #Taiwan
+  - ThaiBuddhist: Tajski buddyjski #Thai Buddhist
 check_alignment:
   - GóraLewo #TopLeft
   - GóraŚrodek #TopCenter
@@ -338,7 +345,7 @@ data_label_position:
   - Prawo #Right
   - DółLewo #BottomLeft
   - Dół #Bottom
-  - DółPrawo BottomRight
+  - DółPrawo #BottomRight
 data_visualizer_color_type:
   - colorScale: Skala kolorów #Color Scale
 data_visualizer_gradient_type:
@@ -401,7 +408,7 @@ data_visualizer_hatch_style:
   - Fala #Wave
   - Splot #Weave
   - SzerokoWDółPrzekątnie #WideDownwardDiagonal
-  - SzerokoWGórkę Przekątnie #WideUpwardDiagonal
+  - SzerokoWGóręPrzekątnie #WideUpwardDiagonal
   - ZygZak #ZigZag
 data_visualizer_icon_set_type:
   - PoleWyboru #Checkbox
@@ -521,6 +528,17 @@ dvchart_orientation:
 dvchart_overlapping_labels:
   - Automatycznie #Auto
   - Pokaż #Show
+dvchart_plot_rule_properties:
+  - KolorTła #BackgroundColor
+  - SzablonEtykiety #LabelTemplate
+  - KolorLinii #LineColor
+  - StylLinii #LineStyle
+  - SzerokośćLinii #LineWidth
+  - KolorTłaSymbolu #SymbolBackgroundColor
+  - KolorLiniiSymbolu #SymbolLineColor
+  - StylLiniiSymbolu #SymbolLineStyle
+  - SzerokośćLiniiSymbolu #SymbolLineWidth
+  - SzablonPodpowiedzi #TooltipTemplate
 dvchart_plot_type:
   - Słupkowy #Bar
   - Liniowy #Line
@@ -873,7 +891,7 @@ legend_position:
   - DółŚrodek #BottomCenter
   - DółLewo #BottomLeft
 line_control_style:
-  - Przezroczysta #Transparent
+  - Brak #None
   - Ciągła #Solid
   - Przerywana #Dashed  
   - Kropkowana #Dotted
@@ -897,11 +915,11 @@ operator:
   - MniejszyOd #LessThan
   - MniejszyLubRównyOd #LessThanOrEqual
   - TopN
-  - BottomN
-  - TopPercent
-  - BottomPercent
-  - In
-  - Between
+  - DolneN #BottomN
+  - NajwyższyProcent #TopPercent
+  - NajniższyProcent #BottomPercent
+  - W #In
+  - Pomiędzy #Between
 orientation:
   - Pozioma #Horizontal
   - Pionowa #Vertical
@@ -945,7 +963,6 @@ size_type:
   - Default: Domyślny #Default
   - FitToPage: Dopasuj do strony #Fit To Page
   - FitToWidth: Dopasuj do szerokości #Fit To Width
-  - Stretch: Rozciągnij #Stretch
 sparkline_type:
   - Linia #Line
   - Kolumny #Columns

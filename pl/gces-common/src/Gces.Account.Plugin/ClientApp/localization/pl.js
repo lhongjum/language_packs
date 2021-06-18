@@ -35,10 +35,10 @@ export const accountPL = {
 	gtAvatarMenu: 'Ukryj menu awatara', // Hide avatar menu
 	gtWelcomeScreen: 'Ukryj ekran powitalny', // Hide welcome screen
 	gtGenerateToken: 'Wygeneruj token', // Generate Token
-	gtToken: 'Token',
-	gtTitle: 'Nazwa', // Title
+	gtToken: 'Token', // Token
+	gtTitle: 'Tytuł', // Title
 	gtDescription: 'Opis', // Description
-	gtOrgPath: 'Ścieżka organizacji', // Organization Path
+	gtOrgPath: 'Ścieżka organizacyjna', // Organization Path
 	gtCreatedTime: 'Czas utworzenia', // Created Time
 	gtTokenList: 'Tokeny', // Tokens
 	gtIntegratePortalUrl: 'Zintegruj link portalu', // Integrate Portal URL
@@ -58,14 +58,14 @@ export const accountPL = {
 	gtRevokeToken: 'Unieważnij token', // Revoke token
 	gtRevokeTokenConfirmMessage: "Czy chcesz unieważnić token '{{title}}'?", // o you want to revoke token '{{title}}'?
 	gtCopyUrl: 'Kopiuj link', // Copy URL
-	gtCopyOfflineLicenseString: 'Copy Offline license string',
+	gtCopyOfflineLicenseString: 'Skopiuj ciąg licencji offline', // Copy Offline license string
 	gtExpiryTime: 'Czas wygaśnięcia', // Expiry Time
 	error_100001: 'Niepoprawny parametr: {{name}}', // Invalid parameter: {{name}}
 	error_100002: 'Nieznany błąd: {{message}}', // Unknown error: {{message}}
 	error_100003: 'Nie znaleziono tokena integracji {{id}}', // Integration token not found {{id}}
 	error_100004: 'Błąd unieważnienia tokena: {{message}}', // Revoke token error: {{message}}
 	error_100005: 'Please confirm that the "Portal URI" in "UI Settings" is already provided before you generate the Integration URL.', // Please confirm that the "Portal URI" in "UI Settings" is already provided before you generate the Integration URL.
-	error_100006: 'Request authentication failed on Portal URI "{{url}}". Could not request user claims.',
+	error_100006: 'Żądanie uwierzytelnienia nie powiodło się dla identyfikatora URI portalu „{{url}}”. Nie udało się zażądać roszczeń użytkowników.', // Request authentication failed on Portal URI "{{url}}". Could not request user claims.
 	gtExpireTimeInvalid: 'Czas wygaśnięcia jest nieprawidłowy', // The expiry time is invalid
 	gtExpireTimeLessThanNow: 'Czas wygaśnięcia nie może być wcześniejszy od lub równy aktualnemu czasowi', // The expiry time cannot be less than or equal current time
 	gtState: 'Stan', // State
@@ -88,7 +88,7 @@ export const accountPL = {
 	NoCustomizePropertiesTip: 'Brak rozszerzonych atrybutów w systemie. Kliknij, aby dodać.', // No extended properties in the system.To add,please click
 	AllowEdit: 'Zezwól użytkownikowi na edycję', // Allow User To Edit
 	Multivalued: 'Wielowartościowy', // Multivalued
-	ShowInProfile: 'Wyświetlaj w profilu użytkownika', // Display In User Profile Page
+	ShowInProfile: 'Wyświetlaj w Profilu Użytkownika', // Display In User Profile Page
 	MultivaluedChangedWarning: 'Uwaga: modyfikacja wielowartościowego atrybutu zmieni wartości niestandardowych atrybutów dla wszystkich ról w systemie.', // Modifying the value of multivalued property of the custom property will cause the value of the custom property of all roles in the system to change, please be careful!
 
 	// Locked  user management
@@ -97,6 +97,7 @@ export const accountPL = {
 	// Concurrence management
 	Ban: 'Zablokuj użytkownika', // Ban User
 	IpAddress: 'Adres IP', // IP Address
+	BrowserCount: 'Liczba przeglądarek', // BrowserCount
 	UserAgent: 'UserAgent', // UserAgent
 	loginDate: 'Data logowania', // Login Date
 	NoLoginUserTip: 'Brak zalogowanych użytkowników w systemie', // No Logged-in user in the system
@@ -104,15 +105,15 @@ export const accountPL = {
 	// License
 	RegistrationDate: 'Data rejestracji', // Registration Date
 	LicenseKey: 'KluczLicencji', // LicenseKey
-	ServerGeneratedInfo: 'Informacje wygenerowane przez serwer', // ServerGeneratedInfo
-	ExpiryDate: 'Data wygaśnięcia', // Expiry Date
-	LicenseInfo: 'Informacja o licencji', // License Info
+	ServerGeneratedInfo: 'Informacje Wygenerowane Przez Serwer', // ServerGeneratedInfo
+	ExpiryDate: 'Data Wygaśnięcia', // Expiry Date
+	LicenseInfo: 'Informacja o Licencji', // License Info
 	Register: 'Zarejestruj', // Register
 	Deregister: 'Wyrejestruj', // Deregister
 	Refresh: 'Odśwież', // Refresh
-	ForceOfflineRegister: 'Rejestracja offline', // Offline Register
-	ForceOfflineDeregister: 'Wyrejestrowanie offline', // Offline Deregister
-	ForceOfflineRefresh: 'Odświeżenie offline', // Offline Refresh
+	ForceOfflineRegister: 'Rejestracja Offline', // Offline Register
+	ForceOfflineDeregister: 'Wyrejestrowanie Offline', // Offline Deregister
+	ForceOfflineRefresh: 'Odświeżenie Offline', // Offline Refresh
 	Summary: 'Podsumowanie', // Summary
 	DeregisterConfirm: 'Potwierdź wyrejestrowanie licencji', // Confirm Licence Deregister
 	DeregisterConfirmMessage: 'Czy jesteś pewien, że chcesz wyrejestrować licencję "{{license}}"?', // Are you sure you want to deregister license "{{license}}"?
@@ -132,25 +133,21 @@ export const accountPL = {
 	Datasource: 'Liczba źródeł danych', // Datasource count
 	YouAreOffline: 'Nie można połączyć się do sieci, jesteś w trybie offline. Prosimy o kontakt', // Could not connect to net, you are in offline mode, pleaset contact us.
 	OfflineLicenseString: 'Klucz licencji offline', // Offline license string:
-	OfflineLicensePathBaseUS: 'https://wyn-licensing.grapecity.com/', // https://wyn-licensing.grapecity.com/
 	OfflineRegisterLineUS1: 'Wyn Server nie może połączyć się z Internetem. Aby zarejestrować licencję w trybie offline, postępuj według poniższych wskazówek:', // Wyn Server could not connect to internet.To register license in offline mode follow the below steps:
 	OfflineRegisterLineUS2_1: '1. Otwórz rejestrację licencji offline', // 1. Open our offline license registration
 	OfflineRegisterLineUS2_2: 'strona', // page
-	OfflineRegisterUS_Address: 'aktywacja', // activation
 	OfflineRegisterLineUS2_3: ' na urządzeniu z dostępem do Internetu i użyj klucz licencji offline wyświetlany powyżej, aby wygenerować klucz rejestracji licencji z serwera.', //  on a machine with internet access and use the offline license string displayed above to generate a licence registration string from server.
 	OfflineRegisterLineUS3: '2. Wklej klucz wygenerowany w poprzednim kroku w polu InformacjeWygenerowanePrzezSerwer i kliknij przycisk Zarejestruj', // 2. Paste the string generated from previous step in ServerGeneratedInfo field and click Register button.
 
 	OfflineRefreshLineUS1: 'Wyn Server nie może połączyć się z Internetem. Aby odświeżyć licencję w trybie offline, postępuj według poniższych wskazówek:', // Wyn Server could not connect to internet.To refresh license in offline mode follow the below steps:
 	OfflineRefreshLineUS2_1: '1. Otwórz odświeżanie licencji offline', // 1. Open our offline license refresh
 	OfflineRefreshLineUS2_2: 'strona', // page
-	OfflineRefreshUS_Address: 'odśwież', // refresh
 	OfflineRefreshLineUS2_3: ' na urządzeniu z dostępem do Internetu i użyj klucz licencji offline wyświetlany powyżej, aby wygenerować klucz odświeżania licencji z serwera.', //  on a machine with internet access and use the offline license string displayed above to generate a licence refresh string from server.
 	OfflineRefreshLineUS3: '2. Wklej klucz wygenerowany w poprzednim kroku w polu InformacjeWygenerowanePrzezSerwer i kliknij przycisk Odśwież', // 2. Paste the string generated from previous step in ServerGeneratedInfo field and click refresh button.
 
 	OfflineDeregisterLineUS1: 'Wyn Server nie może połączyć się z Internetem. Aby wyrejestrować licencję w trybie offline, postępuj według poniższych wskazówek:', // Wyn Server could not connect to internet.To deregister license in offline mode follow the below steps:
 	OfflineDeregisterLineUS2_1: '1. Otwórz wyrejestrowywanie licencji offline', // 1. Open our offline license deactivation
 	OfflineDeregisterLineUS2_2: 'strona', // page
-	OfflineDeregisterUS_Address: 'wyrejestrowanie', // deactivation
 	OfflineDeregisterLineUS2_3: ' na urządzeniu z dostępem do Internetu i użyj klucz licencji offline wyświetlany powyżej, aby wygenerować klucz wyrejestrowywania licencji z serwera.', //  on a machine with internet access and use the offline license string displayed above to deregister the licence.
 	OfflineDeregisterLineUS3: '2. Kliknij przycisk zamknij, kiedy licencja zostanie poprawnie wyrejestrowana.', // 2. Click Close button when license is deactivated successfully.
 
@@ -204,10 +201,109 @@ export const accountPL = {
 
 	NoSecurityProviderTip: 'Aktualnie używasz trybu wbudowanego konta do logowania.', // You are currently using the built-in account mode for login
 	NoExternalProviderTip: 'Obecnie nie ma żadnego zewnętrznego dostawcy', // Enterprise users are not added currently -- po zmiennej i tym co powyżej wnioskuje
-	NoAvailableSecurityProvidersTip: 'There is no any Providers available',
+	NoAvailableSecurityProvidersTip: 'Brak dostępnych dostawców', // There is no any Providers available
 
 	'ShowPassword': 'Pokaż hasło', // Show password
 	'HidePassword': 'Ukryj hasło', // Hide password
+
+	EnableExternalLoginProviderExplainText: 'Aby włączyć zewnętrznego dostawcę logowania, musisz poprawnie wypełnić obowiązkowe pozycje ustawień (gwiazdką), a następnie możesz zsynchronizować dane od zewnętrznego dostawcy logowania i włączyć inne funkcje (takie jak logowanie jednokrotne, skanowanie kodu QR logowanie i automatyczna synchronizacja danych.', // To enable the external login provider, you need to fill in the mandatory setting items(With an asterisk) correctly, then you can synchronize the data from the external login provider and enable the other functions(such as single sign-on, scan QR code login and automatic data synchronization.
+	DataSyncingExplainText: 'Funkcja synchronizacji danych zsynchronizuje wszystkie autoryzowane organizacje, role i użytkowników w zewnętrznym dostawcy logowania do Wyn, oryginalne dane zostaną nadpisane, a niektóre znaki specjalne („/”, „\\”, „<”, „>” i „$”) w nazwie organizacji i nazwa roli zostaną usunięte po zsynchronizowaniu danych.', // The data syncing function will synchronize all the authorized organizations, roles and users in the external login provider to Wyn, the original data will be overwritten and some special characters('/', '\\', '<', '>' and '$') in the organization name and the role name will be removed after the data synchronized.
+	DataSyncingFailsExplainText: 'Uwagi: Synchronizacja danych nie powiedzie się, jeśli na tym samym poziomie struktury organizacyjnej istnieją zduplikowane nazwy użytkowników, zduplikowane nazwy ról lub zduplikowane nazwy organizacji.', // Notes: The data syncing will fail if there are duplicated user names, duplicated role names, or duplicated organization names at the same level of the organization structure.
+
+	SyncData: 'Synchronizuj dane', // Sync Data
+	SyncingData: 'Synchronizuję dane...', // Syncing Data...
+	SyncDataSuccessTitle: 'Dane zsynchronizowane pomyślnie.', // Data synchronized successfully.
+	SyncDataSuccess: 'Dane zewnętrznego dostawcy logowania zostały pomyślnie zsynchronizowane.', // External login provider's data synchronized successfully.
+	SyncDataDesc: 'Oryginalne dane zostaną nadpisane, a znaki specjalne („/”, „\\”, „<”, „>” i „$”) z nazwy organizacji i roli zostaną usunięte po zsynchronizowaniu danych.', // The original data will be overwritten, and the special characters('/', '\\', '<', '>' and '$') in the organization name and the role name will be removed after the data synchronized.
+
+	SPTestDefaultResult: 'Brak wyniku testu.', // No test result.
+	SPTestSuccessResult: 'Test logowania powiódł się.', // Login test successful.
+	SPTestFailResult: 'Test logowania nie powiódł się.', // Login test failed.
+	LoginTest: 'Test logowania', // Login Test
+	UserId: 'Id użytkownika', // User Id
+	UserName: 'Nazwa użytkownika', // User Name
+	UserContext: 'Kontekst użytkownika', // User Context
+	Exception: 'Wyjątek', // Exception
+	ErrorMessage: 'Komunikat o błędzie', // Error Message
+	SPShowDetail: 'Pokaż szczegóły', // Show Details
+	SPHideDetail: 'Ukryj szczegóły', // Hide Details
+	Password: 'Hasło', // Password
+	Test: 'Test', // Test
+	Testing: 'Testowanie', // Testing
+	CustomParam: 'Custom Parameter',
+	CustomParamDescribe: 'The custom parameter is made up of some key-value pairs, one key-value pair per line, and the key and value split by ":".',
+
+	'setting_item_name!ad security provider!server url': 'Server URL',
+	'setting_item_desc!ad security provider!server url': 'Server URL',
+	'setting_item_name!ad security provider!admin user': 'Admin User',
+	'setting_item_desc!ad security provider!admin user': 'Admin User',
+	'setting_item_name!ad security provider!admin password': 'Admin Password',
+	'setting_item_desc!ad security provider!admin password': 'Admin Password',
+	'setting_item_name!ad security provider!admin groups': 'Admin Groups',
+	'setting_item_desc!ad security provider!admin groups': 'Admin Groups',
+	'setting_item_name!ad security provider!use ssl/tls': 'Use SSL/TLS',
+	'setting_item_desc!ad security provider!use ssl/tls': 'Use SSL/TLS',
+	'setting_item_name!ad security provider!user context': 'User Context',
+	'setting_item_desc!ad security provider!user context': 'User Context',
+
+	'setting_item_name!open ldap security provider!server url': 'Server URL',
+	'setting_item_desc!open ldap security provider!server url': 'Server URL',
+	'setting_item_desc!open ldap security provider!admin user': 'Admin User',
+	'setting_item_name!open ldap security provider!admin user': 'Admin User',
+	'setting_item_desc!open ldap security provider!admin password': 'Admin Password',
+	'setting_item_name!open ldap security provider!admin password': 'Admin Password',
+	'setting_item_desc!open ldap security provider!admin groups': 'Admin Groups',
+	'setting_item_name!open ldap security provider!admin groups': 'Admin Groups',
+	'setting_item_desc!open ldap security provider!user name': 'User Name',
+	'setting_item_name!open ldap security provider!user name': 'User Name',
+	'setting_item_desc!open ldap security provider!user display name': 'User Display Name',
+	'setting_item_name!open ldap security provider!user display name': 'User Display Name',
+	'setting_item_desc!open ldap security provider!use member chain rule group search': 'Use member chain rule group search',
+	'setting_item_name!open ldap security provider!use member chain rule group search': 'Use member chain rule group search',
+	'setting_item_desc!open ldap security provider!use ssl/tls': 'Use SSL/TLS',
+	'setting_item_name!open ldap security provider!use ssl/tls': 'Use SSL/TLS',
+	'setting_item_desc!open ldap security provider!user context': 'User Context',
+	'setting_item_name!open ldap security provider!user context': 'User Context',
+
+	'setting_item_name!dingtalk!corpid': 'CorpId',
+	'setting_item_desc!dingtalk!corpid': 'CorpId',
+	'setting_item_name!dingtalk!appkey': 'AppKey',
+	'setting_item_desc!dingtalk!appkey': 'AppKey',
+	'setting_item_name!dingtalk!appsecret': 'AppSecret',
+	'setting_item_desc!dingtalk!appsecret': 'AppSecret',
+	'setting_item_name!dingtalk!agentid': 'AgentId',
+	'setting_item_desc!dingtalk!agentid': 'AgentId',
+	'setting_item_name!dingtalk!maxconcurrentrequests': 'Max Concurrent Requests',
+	'setting_item_desc!dingtalk!maxconcurrentrequests': 'Allowed max number of the concurrent requests when syncing data',
+	'setting_item_name!dingtalk!qrcodeappid': 'ScanCodeAppId',
+	'setting_item_desc!dingtalk!qrcodeappid': 'The id of the scanning code login application',
+	'setting_item_name!dingtalk!qrcodeappsecret': 'ScanCodeAppSecret',
+	'setting_item_desc!dingtalk!qrcodeappsecret': 'The secret of the scanning code login application',
+	'setting_item_name!dingtalk!enableqrcodelogin': 'EnableScanCodeLogin',
+	'setting_item_desc!dingtalk!enableqrcodelogin': 'Enable logging in by scanning QR code',
+	'setting_item_name!dingtalk!enablesendingmessage': 'EnableSendingMessage',
+	'setting_item_desc!dingtalk!enablesendingmessage': 'Enable sending messages to DingDing',
+	'setting_item_name!dingtalk!enableautomaticsynchronization': 'EnableAutomaticSynchronization',
+	'setting_item_desc!dingtalk!enableautomaticsynchronization': 'Enable automatically synchronize the data of DingDing',
+	'setting_item_name!dingtalk!automaticsynchronizationinterval': 'AutomaticSynchronizationInterval',
+	'setting_item_desc!dingtalk!automaticsynchronizationinterval': 'The interval of the automatic data synchronization, in hours, the valid minimum value is 1 hour',
+
+	'setting_item_name!wechat4work!corpid': 'CorpId',
+	'setting_item_desc!wechat4work!corpid': 'CorpId',
+	'setting_item_name!wechat4work!secret': 'Secret',
+	'setting_item_desc!wechat4work!secret': 'Secret',
+	'setting_item_name!wechat4work!agentid': 'AgentId',
+	'setting_item_desc!wechat4work!agentid': 'AgentId',
+	'setting_item_name!wechat4work!maxconcurrentrequests': 'Max Concurrent Requests',
+	'setting_item_desc!wechat4work!maxconcurrentrequests': 'Allowed max number of the concurrent requests when syncing data',
+	'setting_item_name!wechat4work!enableqrcodelogin': 'EnableScanCodeLogin',
+	'setting_item_desc!wechat4work!enableqrcodelogin': 'Enable logging in by scanning QR code',
+	'setting_item_name!wechat4work!enablesendingmessage': 'EnableSendingMessage',
+	'setting_item_desc!wechat4work!enablesendingmessage': 'Enable sending messages to Enterprise WeChat',
+	'setting_item_name!wechat4work!enableautomaticsynchronization': 'EnableAutomaticSynchronization',
+	'setting_item_desc!wechat4work!enableautomaticsynchronization': 'Enable automatically synchronize the data of Enterprise WeChat',
+	'setting_item_name!wechat4work!automaticsynchronizationinterval': 'AutomaticSynchronizationInterval',
+	'setting_item_desc!wechat4work!automaticsynchronizationinterval': 'The interval of the automatic data synchronization, in hours, the valid minimum value is 1 hour',
 
 	// Security Settings
 	EnableStrongPasswordPolicy: 'Włącz zasadę silnego hasła', // Enable strong password policy
@@ -292,6 +388,22 @@ export const accountPL = {
 	error_5004: "Atrybut tenanta '{{tenantPropName}}' already exists.", // Tenant property '{{tenantPropName}}' already exists.
 	error_5005: "Atrybut tenanta '{{tenantPropName}}' jest zarezerwowana.", // Tenant property '{{tenantPropName}}' is reserved.
 	error_5006: "Tenant z emaila '{{fromEmail}}' już istnieje.", // Tenant from email '{{fromEmail}}' already exists.
+	// External Login Provider Errors
+	error_6001: "The external login provider '{{providerName}}' does not exist.",
+	error_6002: "The sending message function is disabled for the external login provider '{{providerName}}'.",
+	error_6003: "Sending message to external login provider '{{providerName}}' failed, error code: {{errCode}}, error message: {{errMsg}}.",
+	error_6004: "No valid message recipients found.",
+	error_6005: "Duplicated user name '{{userName}}' detected.",
+	error_6006: "Duplicated role name '{{roleName}}' detected.",
+	error_6007: "Duplicated organization name '{{organizationName}}' detected.",
+	error_6008: "Syncing data failed, the original error is: {{errMsg}}",
+	// Security Provider Errors
+	error_7001: "Dostawca zabezpieczeń „{{providerName}}” nie jest włączony.", // The security provider '{{providerName}}' is not enabled.
+	error_7002: "Załadowanie dostawcy zabezpieczeń „{{providerName}}” nie powiodło się.", // Load security provider '{{providerName}}' failed.
+	error_7003: 'Nieprawidłowa nazwa użytkownika lub hasło.', // Invalid user name or password.
+	error_7004: 'Wymagana jest nazwa użytkownika i hasło.', // User name and password are required.
+	error_7005: 'Podano nieprawidłowy parametr.', // Invalid parameter was passed.
+	error_7006: 'Logowanie z dostawcą zabezpieczeń nie powiodło się.', // Login with the security provider failed.
 
 	// LicenseActiveResult
 	LicenseOprateResultCode_: '',
@@ -316,12 +428,12 @@ export const accountPL = {
 export const portalPL = {
 	'shortcut-org!description': '',
 	'shortcut-org!props!text': 'Organizacje', // Organizations
-	'shortcut-org!title': 'Skrót ogranizacji', // Organizations Shortcut
+	'shortcut-org!title': 'Skrót Ogranizacji', // Organizations Shortcut
 	'shortcut-user!description': '',
 	'shortcut-user!props!text': 'Użytkownicy', // Users
 	'shortcut-user!title': 'Skrót do użytkowników', // Users Shortcut
 	'shortcut-role!description': '',
-	'shortcut-role!props!text': 'Role', // Roles
+	'shortcut-role!props!text': 'ról', // Roles
 	'shortcut-role!title': 'Skrót do ról', // Roles Shortcut
 	'shortcut-locked!description': '',
 	'shortcut-locked!props!text': 'Zablokowani', // Locked

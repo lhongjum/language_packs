@@ -4,6 +4,7 @@
 	'modifyFloorPlan!name': 'Edit...',
 	'modifyFloorPlan!description': 'Edit this Floor Plan',
 	'floorPlan!name': 'Floor Plan',
+	'other!name': 'OTHER',
 };
 
 export const shareResourceEN: LanguageKeyValueMap = {

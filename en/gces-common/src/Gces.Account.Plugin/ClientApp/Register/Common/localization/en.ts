@@ -15,8 +15,8 @@ export const commonEN: LanguageKeyValueMap = {
 	'create-dataset-description': 'Create, view, edit and delete datasets.',
 	'create-data-source': 'Create Data Source',
 	'create-data-source-description': 'Create, view, edit and delete data sources.',
-	'create-semantic-model': 'Create Semantic Model',
-	'create-semantic-model-description': 'Create, view, edit and delete semantic models.',
+	'create-semantic-model': 'Create Data Model',
+	'create-semantic-model-description': 'Create, view, edit and delete data models.',
 	'create-dashboard': 'Create Dashboard',
 	'create-dashboard-description': 'Create, view, edit and delete dashboards.',
 	'view-dashboard': 'View Dashboard',
@@ -37,4 +37,6 @@ export const commonEN: LanguageKeyValueMap = {
 	'view-revision-description': 'View revision logs.',
 	'allow-sharing': 'Allow Sharing',
 	'allow-sharing-description': 'Allow user to share documents to others.',
+	'create-web-page': 'Create Webpage',
+	'create-web-page-description': 'Allow user to Create Webpage.',
 };

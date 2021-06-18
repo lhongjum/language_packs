@@ -1,34 +1,72 @@
 cancelLabel: Cancel
 category: Category
+commandsSelector:
+  commands:
+    continuousmode: Continuous View
+    csv: CSV
+    docx: Word
+    excel: Excel
+    exceldata: Excel Data
+    fullscreen: Fullscreen
+    galleymode: Galley Mode
+    history: History
+    html: HTML
+    image: Image
+    json: JSON
+    mousemode: Mouse Mode
+    navigation: Navigation
+    pdf: PDF
+    print: Print
+    refresh: Refresh
+    search: Search
+    singlepagemode: Single Page View
+    txt: TXT
+    xml: XML
+    zoom: Zoom
+  title: Commands
 commentLabel: Comment
+errors:
+  loadCategories: Categories list could not be loaded.
+  loadCommands: Commands list could not be loaded.
+  loadRoles: Roles list could not be loaded.
+  saveCategories: Categories could not be saved.
+  saveCommands: Commands could not be saved.
+  savePermissions: Specified permissions could not be saved.
+okLabel: OK
+permissionsSelector:
+  permissions:
+    execute: Execute
+    read: Read
+    readWrite: Read and Write
+  roleName_Everyone: Everyone
+  roleName_administrator: Administrator
+  roleName_orgadmin: Organization Administrator
+  title: Permissions
 report:
   emptyNameTooltip: Report name cannot contain space-like symbols only.
+  errors:
+    loadDocuments: Reports list could not be loaded.
+    saveDocument: Report could not be saved.
   getting: Getting Reports...
   invalidName: Report name is not valid.
   invalidNameTooltip: 'Please do not use restricted symbols ''<'', ''>'', ''\'', '':'', ''?'', ''*'', ''/'', ''|'', ''"'' and do not use ''.'' as the first symbol.'
-  nameLabel: Report Name
+  nameLabel: Name
   namePlaceholder: Enter report name here...
-  saveLabel: Save Report
+  saveLabel: Save
   saving: Saving Report...
-  tileLabel: Report
   willBeOverwritten: Report will be overwritten.
-rolesSelector:
-  permission:
-    read: Read
-    readWrite: Read and Write
-  permissionTooltip: Select Permission Level...
-  roleTooltip: Role
-  shareLabel: Share
 saveAsTemplate: Save As Template
 template:
   emptyNameTooltip: Template name cannot contain space-like symbols only.
+  errors:
+    loadDocuments: Templates list could not be loaded.
+    saveDocument: Template could not be saved.
   getting: Getting Templates...
   invalidName: Template name is not valid.
   invalidNameTooltip: 'Please do not use restricted symbols ''<'', ''>'', ''\'', '':'', ''?'', ''*'', ''/'', ''|'', ''"'' and do not use ''.'' as the first symbol.'
-  nameLabel: Template Name
+  nameLabel: Name
   namePlaceholder: Enter template name here...
-  saveLabel: Save Template
+  saveLabel: Save
   saving: Saving Template...
-  tileLabel: Template
   willBeOverwritten: Template will be overwritten.
 title: Save As

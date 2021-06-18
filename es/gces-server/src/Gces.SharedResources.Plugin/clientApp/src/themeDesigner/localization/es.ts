@@ -10,6 +10,7 @@ export const shareResourceES: LanguageKeyValueMap = {
 	// common
 	ThemeDesigner: 'Theme Designer',
 	Save: 'Save',
+	Close: 'Close',
 	Untitled: 'Untitled',
 	Apply: 'Apply',
 	Cancel: 'Cancel',
@@ -20,7 +21,7 @@ export const shareResourceES: LanguageKeyValueMap = {
 	'edit-theme!title': 'Edit Theme',
 
 	// recommend theme
-	recommendTitle: 'Start from an existing theme',
+	recommendTitle: 'Start from a sample theme',
 
 	// designer modal
 	loadThemeError: 'Load theme failed',
@@ -36,8 +37,8 @@ export const shareResourceES: LanguageKeyValueMap = {
 	ThemeNameError: 'The theme name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the theme name.',
 
 	// Visual Designer
-	colorsSetting: 'Colors Setting',
-	fontsSetting: 'Fonts Setting',
+	colorsSetting: 'Colors Settings',
+	fontsSetting: 'Fonts Settings',
 	majorFont: 'Major Font',
 	minorFont: 'Minor Font',
 	accent1: 'Accent1',
@@ -52,6 +53,8 @@ export const shareResourceES: LanguageKeyValueMap = {
 	light2: 'Light2',
 	hyperlink: 'Hyperlink',
 	hyperlinkFollowed: 'Hyperlink Followed',
+	scrollbarThumb: 'Scrollbar Thumb',
+	scrollbarTrack: 'Scrollbar Track',
 	majorFontFamily: 'Font Family',
 	minorFontFamily: 'Font Family',
 	majorFontStyle: 'Style',

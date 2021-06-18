@@ -3,7 +3,7 @@ export default {
   "tooltipName": "Dokument HTML",
   "settings": {
     "EmbedImages": {
-      "label": "OsadźObrazy",
+      "label": "Osadź obrazy",
       "category": "Wyjście"
     },
     "Fragment": {
@@ -15,7 +15,7 @@ export default {
       "category": "Wyjście"
     },
     "OutputTOC": {
-      "label": "WyjścieTOC",
+      "label": "Wyjście TOC",
       "category": "Wyjście"
     },
     "RenderMode": {
@@ -27,7 +27,7 @@ export default {
       }
     },
     "RenderingEngine": {
-      "label": "SilnikRenderowania",
+      "label": "Silnik renderowania",
       "category": "Renderowanie",
       "enum": {
         "Html": "Html",
@@ -35,11 +35,11 @@ export default {
       }
     },
     "LinkTarget": {
-      "label": "CelLinku",
+      "label": "Cel linku",
       "category": "Przetwarzanie"
     },
     "EndPage": {
-      "label": "StronaKońcowa",
+      "label": "Strona końcowa",
       "category": "Różne"
     },
     "AddTimestamp": {

@@ -1,0 +1,3279 @@
+{
+  "common": {
+    "nullDisplay": "[NULL]",
+    "emptyDisplay": "[Pusty]",
+    "currencyFormat": "$#,##0.00",
+    "max": "Max",
+    "min": "Min",
+    "maxValue": "Maksymalna wartość",
+    "minValue": "Minimalna wartość",
+    "infinity": "Nieskończoność",
+    "negativeInfinity": "-Nieskończoność",
+    "NaN": "To nie jest liczba",
+    "on": "Włącz",
+    "off": "Wyłącz",
+    "yes": "Tak",
+    "no": "Nie",
+    "true": "Prawda",
+    "false": "Fałsz",
+    "asc": "Rosnąco",
+    "desc": "Malejąco",
+    "noSort": "Nie sortuj",
+    "dateFormat": "MM/DD/YYYY",
+    "default": "Domyślny",
+    "reload": "Przeładuj",
+    "builtIn": "Wbudowany",
+    "edit": "Edytuj",
+    "others": "Inne"
+  },
+  "documentType": {
+    "Unknown": "nieznany",
+    "Dashboard": "Dashboard",
+    "Dataset": "Zestaw danych",
+    "DataSource": "Źródło danych",
+    "Image": "Obraz",
+    "Theme": "Motyw",
+    "MapHierarchy": "Hierarchia",
+    "GeoJson": "GeoJson",
+    "Report": "Raport",
+    "FloorPlan": "",
+    "AnalysisModel": "Model danych"
+  },
+  "actions": {
+    "copy": "Kopiuj",
+    "cut": "Wytnij",
+    "paste": "Wklej",
+    "rename": "Zmień nazwę…",
+    "duplicate": "Duplikuj",
+    "delete": "Skasuj",
+    "remove": "Usuń",
+    "hide": "Ukryj",
+    "unhide": "Pokaż",
+    "undo": "Cofnij",
+    "redo": "Przerób",
+    "save": "Zapisz",
+    "edit": "Edytuj",
+    "reset": "Reset",
+    "export": "Eksport"
+  },
+  "aggregationMethods": {
+    "sum": "Sum",
+    "cnt": "Count",
+    "avg": "Average",
+    "max": "Max",
+    "min": "Min",
+    "dst": "Distinct Count",
+    "none": "None",
+    "list": "List",
+    "fst": "First"
+  },
+  "aggregationAreas": {
+    "trellisTable": "Wykres całkowity",
+    "trellisRow": "Rząd krat",
+    "trellisColumn": "Kolumna krat",
+    "trellisCell": "Komórka krat",
+    "advanced": "Zaawansowane",
+    "dataRole": "Rola danych"
+  },
+  "conditions": {
+    "equal": "Równy do",
+    "notEqual": "Nie równy do",
+    "greater": "Większy od",
+    "equalOrGreater": "Większy lub Równy do",
+    "less": "Mniejszy od",
+    "equalOrLess": "Mniejszy lub Równy do",
+    "between": "Pomiędzy",
+    "notBetween": "Nie pomiędzy",
+    "and": "~",
+    "or": "Lub",
+    "aboveAverage":"Powyżej średniej",
+    "belowAverage":"Poniżej średniej",
+    "aboveMax":"Powyżej maksimum",
+    "belowMin":"Poniżej minimum"
+  },
+  "chartTypes": {
+    "column": "Wykres kolumnowy",
+    "rangeColumn": "Wykres kolumnowy zakresu",
+    "rangeBar": "Wykres słupkowy zakresu",
+    "rangeArea": "Wykres warstwowy zakresu",
+    "stackedColumn": "Skumulowany wykres kolumnowy",
+    "percentStackedColumn": "Procentowy skumulowany wykres kolumnowy",
+    "bar": "Wykres słupkowy",
+    "stackedBar": "Skumulowany wykres słupkowy",
+    "percentStackedBar": "Procentowy skumulowany wykres słupkowy",
+    "line": "Wykres liniowy",
+    "area": "Wykres warstwowy",
+    "stackedArea": "Skumulowany wykres warstwowy",
+    "percentStackedArea": "Skumulowany procentowy wykres warstwowy",
+    "pie": "Wykres kołowy",
+    "donut": "Wykres pierścieniowy",
+    "rose": "Wykres różany",
+    "sunburst": "Wykres Sunburst",
+    "barInPolar": "Wykres słupkowy we współrzędnych biegunowych",
+    "stackedBarInPolar": "Skumulowany wykres słupkowy we współrzędnych biegunowych",
+    "radialStackedBar": "Wykres słupkowy skumulowany promieniowy",
+    "radar": "Wykres radarowy",
+    "filledRadar": "Wypełniony wykres radarowy",
+    "scatter": "Rozproszony",
+    "bubble": "Wykres bąbelkowy",
+    "combined": "Schemat łączony",
+    "map": "Mapa",
+    "treeMap": "Mapa drzewa",
+    "funnel": "Lejek",
+    "gauge": "Miernik",
+    "indicator": "Wskaźnik",
+    "kpi": "Wykres KPI",
+    "floorPlan": "Plan budynku",
+    "pivotTable": "Pivot Table",
+    "spreadSource": "Wykres rozproszony",
+    "multiSource": "Wykres wieloźródłowy"
+  },
+  "components": {
+    "pivotTable": "Pivot Table",
+    "rawDataTable": "Tabela danych",
+    "kpiMatrix": "Macierz KPI",
+    "webContent": "Wbudowana zawartość internetowa",
+    "embeddedReport": "Wbudowany raport",
+    "embeddedDashboard": "Wbudowany dashboard",
+    "container": "Kontener",
+    "tabContainer": "Pojemnik kontenerowy",
+    "image": "Obraz",
+    "richText": "Tekst sformatowany",
+    "labelSlicer": "Fragmentator etykiet",
+    "treeSlicer": "Wielowymiarowa fragmentator",
+    "comboSlicer": "Wielowymiarowy fragmentator listy rozwijanej",
+    "dateRangeSlicer": "Fragmentator zakresu dat",
+    "relativeDateSlicer": "Fragmentator dat względnych",
+    "dataRangeSlicer": "Fragmentator zakresu danych",
+    "group": "Grupa",
+    "devTools": "Narzędzia deweloperskie"
+  },
+  "sortTypes": {
+    "auto": "Auto",
+    "value": "Wartość",
+    "manual": "Ręczne",
+    "column": "Pole"
+  },
+  "lineTypes": {
+    "solid": "Pełny",
+    "dashed": "Przerywany"
+  },
+  "linkTypes": {
+    "inner": "Link wewnętrzny",
+    "outer": "Link zewnętrzny",
+    "none": "Brak Linku"
+  },
+  "fontTypes": {
+    "default": "Domyślny",
+    "serif": "Szeryf",
+    "sansSerif": "Sans-Szeryf"
+  },
+  "appBar": {
+    "defaultTitle": "Niezatytułowany",
+    "unsaved": "Niezapisany",
+    "crossFilter": "Filtr krzyżowy",
+    "crossFilter_pattern": "Filtr krzyżowy: {{state}}",
+    "togglePageTab": "Pokaż / ukryj zakładkę strony",
+    "displayMode": {
+      "auto": "Auto",
+      "custom": "Niestandardowy",
+      "fitToScreen": "Dopasuj do ekranu",
+      "fitToContainer": "Dopasuj do kontenera",
+      "fitToWidth": "Dopasuj do szerokości",
+      "fitToHeight": "Dopasuj do wysokości",
+      "fitToPage": "Dopasuj do strony"
+    },
+    "slideShow": "Pokaz slajdów",
+    "refresh": "Odświerz",
+    "preview": "Podgląd",
+    "documentSetting": "Ustawienia dokumentu",
+    "autoLayout": "Układ automatyczny",
+    "customLayout": "Układ niestandardowy",
+    "stretch_pattern": "Rozciągnij treść: {{state}}",
+    "dataBinding": "Wiązanie danych",
+    "inspector": "Inspektor",
+    "scenarioList": "Lista scenariuszy",
+    "scenarioList_empty": "Wszystkie elementy są na stronie.",
+    "support": "Pomoc & Wsparcie",
+    "back": "Powrót",
+    "exit": "Wyjście",
+    "interactionSetting": "Ustawienia interakcji",
+    "showGridLine": "Pokaż linię siatki",
+    "hideGridLine": "Ukryj linię siatki",
+    "mobileDesigner": "Projektant mobilny",
+    "webDesigner": "Projektant stron internetowych",
+    "pageBack": "Powrót",
+    "enableOverlap": "Włącz nakładanie się",
+    "disableOverlap": "Wyłącz nakładanie się",
+    "expand": "Rozwiń inspektor",
+    "collapse": "Zwiń inspektor",
+    "crossFilterMode": {
+      "off": "Wyłącz",
+      "singleSource": "Pojedyncze źródło",
+      "multiSource": "Wiele źródeł"
+    }
+  },
+  "menuBar": {
+    "title": "Dashboard",
+    "categories": {
+      "charts": {
+        "title": "Wizualizacja danych",
+        "groups": {
+          "charts": "Wykresy",
+          "tables": "Tabele",
+          "maps": "Mapy",
+          "advanced": "Zaawansowane"
+        }
+      },
+      "components": {
+        "title": "Komponenty",
+        "groups": {
+          "containers": "Kontenery",
+          "components": "Komponenty",
+          "embeddedComponents": "Wbudowane komponenty"
+        }
+      },
+      "slicers": {
+        "title": "Fragmentatory",
+        "builtInTitle": "Wbudowane fragmentatory",
+        "customTitle": "Niestandardowe fragmentatory"
+      },
+      "visuals": {
+        "title": "Niestandardowa wizualizacja",
+        "placeholder": "Brak niestandardowej wizualizacji",
+        "searchPlaceholder": "Szukaj...",
+        "smallIcons": "Małe ikony",
+        "largeIcons": "Duże ikony",
+        "list": "Lista"
+      }
+    }
+  },
+  "dataBindingPanel": {
+    "chooseDataset": "Wybierz zbiór danych",
+    "loadingDatasetList": "Ładowanie listy zbiorów danych z serwera ...",
+    "loadDatasetListFailed": "Nie udało się załadować listy zbiorów danych z serwera!",
+    "searchField": "Szukaj...",
+    "measures": "Miary",
+    "dimensions": "Wymiary",
+    "bindingHint": "Wybierz zbiór danych z powyższej listy do powiązania danych.",
+    "values": "Wartości",
+    "lower": "Niższa wartość",
+    "upper": "Wyższa wartość",
+    "leftValue": "Lewa oś wartości",
+    "rightValue": "Prawa oś wartości",
+    "axis": "Oś (kategoria)",
+    "axis_x": "Oś X",
+    "axis_y": "Oś Y",
+    "legend": "Legenda (seria)",
+    "category": "Kategoria",
+    "details": "Detale",
+    "rows": "Wiersze",
+    "columns": "Kolumny",
+    "location": "Region",
+    "latitude": "Szerokość",
+    "longtitude": "Długość",
+    "layers": "Warstwy",
+    "mapTiles": "Regiony",
+    "scatter": "Punkty",
+    "color": "Kolor",
+    "size": "Rozmiar",
+    "shape": "Kształt",
+    "trellisRows": "Wiersze kratowe",
+    "trellisColumns": "Kolumny kratowe",
+    "tooltip": "Etykietka",
+    "mainValue": "Aktualna wartość",
+    "comparisonValue": "Docelowa wartość",
+    "forecastValue": "Prognozowana wartość",
+    "imageSource": "Źródło obrazu",
+    "pivotSettingHint": "Przeciągnij tutaj pola danych.",
+    "pivotSettingHintRunTime": "Kliknij + aby dodać pola tutaj.",
+    "aggregationMethod": "Metoda agregacji",
+    "editName": "Zmień nazwę…",
+    "editFormat": "Edytuj Format…",
+    "deleteFormat": "Usuń Format",
+    "createHierarchy": "Utwórz pole hierarchii…",
+    "editHierarchy": "Edytuj pole hierarchii…",
+    "deleteHierarchy": "Usuń pole hierarchii",
+    "editNameHierarchyItem": "Zmień nazwę…",
+    "deleteHierarchyItem": "Usuń",
+    "exactDate": "Dokładna data",
+    "ymd": "Rok/Miesiąc/Dzień",
+    "yq": "Rok/Kwartał",
+    "ym": "Rok/Miesiąc",
+    "yw": "Rok/Tydzień",
+    "runningCalculation": "Trwa obliczanie…",
+    "movingCalculation": "Przenoszę obliczenia…",
+    "origin": "Oryginalna wartość",
+    "addMoMCalculation": "Obliczanie z miesiąca na miesiąc",
+    "addYoYCalculation": "Obliczanie z roku na rok",
+    "accountingCalculation": "Obliczanie percentyla…",
+    "rankingCalculation": "Obliczanie rankingu…",
+    "addAccountingCalculation": "Obliczanie percentyla",
+    "addRankingCalculation": "Obliczanie rankingu",
+    "totalRanking": "Całkowity ranking",
+    "groupRanking": "Ranking grupowy",
+    "totalAccounting": "Całkowity percentyl",
+    "groupAccounting": "Percentyl grupy",
+    "dateCalcualtionHint": "Aby to włączyć, potrzebna jest kolumna z datą.",
+    "advanced": "Zaawansowane…",
+    "filter": "Filtr…",
+    "value": "Wartość",
+    "ratio": "Stosunek",
+    "difference": "Różnica",
+    "percentDifference": "Różnica procentowa",
+    "slicerColumn": "Kolumny",
+    "search": "Szukaj...",
+    "loadFinished": "Zakończono",
+    "loadWaiting": "Czekanie",
+    "loadFailed": "Niepowodzenie",
+    "seriesAxisLabel": "Oś",
+    "seriesAxis": {
+      "both": "Obie osie",
+      "left": "Lewa oś",
+      "right": "Prawa oś"
+    },
+    "quickFunction": "Szybkie funkcje",
+    "pastValue": "Wartość przeszła",
+    "pastYear": "Poprzedni rok",
+    "pastQuarter": "Poprzedni kwartał",
+    "pastMonth": "Poprzedni miesiąc",
+    "pastWeek": "Poprzedni tydzień",
+    "changeOverTime": "Zmienia się w czasie",
+    "growthRate": "Tempo wzrostu",
+    "fromPreviousPeriod": "Z poprzedniego okresu",
+    "fromSamePeriodPreviousYear": "Ten sam okres, rok po roku",
+    "fromSamePeriodPreviousQuarter": "Ten sam okres, kwartał po kwartale",
+    "fromSamePeriodPreviousMonth": "Ten sam okres, miesiąc po miesiącu",
+    "fromSamePeriodPreviousWeek": "Ten sam okres, tydzień po tygodniu",
+    "fromSamePeriodPreviousYearPercent": "en sam okres, rok po roku %",
+    "fromSamePeriodPreviousQuarterPercent": "Ten sam okres, kwartał po kwartale %",
+    "fromSamePeriodPreviousMonthPercent": "Ten sam okres, miesiąc po miesiącu %",
+    "fromSamePeriodPreviousWeekPercent": "Ten sam okres, tydzień po tygodniu %",
+    "changeOverTimePercent": "% Zmienia się w czasie",
+    "dateBasedFunctions": "Funkcje oparte na datach ...",
+    "growth": "Wzrost",
+    "singleValue": "Numer",
+    "Image": "Obraz",
+    "bulletGraph": "Wykres punktowy",
+    "paretoGraph": "Wykres Pareto",
+    "hBarGraph": "Wykres HBar",
+    "diagram": "Diagram",
+    "trend": "Tendencja",
+    "bar": "Belka",
+    "area": "Obszar",
+    "winLoss": "Wygrana-Przegrana",
+    "number": "Numer",
+    "editText": "Edytuj",
+    "alignmentSetting": "Wyrównanie tekstu",
+    "sparklineSetting": "Opcje…",
+    "moveUp": "W górę",
+    "moveDown": "W dół",
+    "collapse": "Zwiń",
+    "expand": "Rozwiń",
+    "floorPlanArea": "Obszar",
+    "floorPlanColor": "Kolor",
+    "renderSetting": "Ustawienia renderowania",
+    "multiDimensions": "Wiele wymiarów",
+    "parentChild": "Parent-Child",
+    "pid": "ParentId",
+    "id": "Id",
+    "hierarchy": "Hierarchia",
+    "display": "Pokaz",
+    "rootId": "Root Id",
+    "separator": "Separator",
+    "separatorEG": "na przykład, \"-\", \",\" lub \"\" między poziomami",
+    "missMatchedNode": "Niedopasowany węzeł",
+    "addToRoot": "Dodaj do katalogu głównego",
+    "ignore": "Ignoruj",
+    "separateType": "Oddzielny typ",
+    "length": "Długość",
+    "pivotSettingItemTitlePattern": "{{ itemDisplay }} z `{{ entityName }}`"
+  },
+  "inspector": {
+    "searchBoxPlaceholder": "Wpisz tutaj nazwę nieruchomości ...",
+    "warning": "Konfiguracja właściwości jest nieprawidłowa, sprawdź capabilities.options",
+    "categories": {
+      "general": "Ogólne",
+      "layout": "Układ",
+      "appearance": "Wygląd",
+      "documentAppearance": "Wygląd dokumentu",
+      "globalSettings": "Ustawienia ogólne",
+      "title": "Tytuł",
+      "dataLabel": "Etykiety danych",
+      "legend": "Legenda",
+      "axis_category": "Oś (kategoria)",
+      "axis_value": "Oś wartości",
+      "axis_value1": "Oś wartości 1",
+      "axis_value2": "Oś wartości 2",
+      "axis_x": "Oś-X",
+      "axis_y": "Oś-Y",
+      "chartStyle": "Styl wykresu",
+      "content": "Zawartość",
+      "grandTotal": "Sumy całkowite",
+      "subTotal": "Sumy pośrednie",
+      "rowHeader": "Nagłówki wierszy",
+      "columnHeader": "Nagłówki kolumn",
+      "header": "Nagłówek",
+      "tabStrip": "Pasek kart",
+      "activeTab": "Aktywna karta",
+      "link": "Link",
+      "mapStyle": "Styl mapy",
+      "interaction": "Interakcja",
+      "labelStyle": "Styl etykiety",
+      "dataLabelStyle": "Styl etykiety danych",
+      "deltaLabelStyle": "Porównanie stylu etykiety",
+      "percentageLabelStyle": "Styl etykiety wartości procentowej",
+      "subTitleLabelStyle": "Styl podtytułu",
+      "valueSetting": "Ustawienie wartości",
+      "rangeSetting": "Ustawienie zakresu",
+      "webContent": "Zawartość sieci",
+      "switchMap": "Przełącz mapę",
+      "switchFloorPlan": "Zmień plan budynku",
+      "carousel": "Karuzela",
+      "datePickerDefaultSetting": "Ustawienie domyślne selektora dat",
+      "tableSetting": "Ustawienie tabeli",
+      "tableStyleTemplate": "Styl szablonu",
+      "tables": {
+        "corner": "Obszar narożny",
+        "columnHeader": "Nagłówki kolumn",
+        "rowHeader": "Nagłówki wierszy",
+        "subTotals": "Obszar sum podrzędnych",
+        "grandTotals": "Obszar sum całkowitych",
+        "firstDataStripe": "Pierwszy pasek danych",
+        "secondDataStripe": "Drugi pasek danych"
+      },
+      "activeTabSetting": "Ustawienie aktywnej karty",
+      "inactiveTabSetting": "Ustawienie nieaktywnej karty",
+      "values": "Wartości",
+      "menuSetting": "Ustawienia menu",
+      "data": "Dane",
+      "dataVisualization": "Wizualizacja danych",
+      "devConfig": "Ustawienia narzędzi deweloperskich",
+      "trellis": "Krata",
+      "tooltip": "Etykietka",
+      "series": "Seria"
+    },
+    "properties": {
+      "common": {
+        "fontNotFound": "Nie znaleziono czcionki",
+        "add": "Dodaj",
+        "edit": "Edytuj...",
+        "dashboardFilters": "Filtry ogólne",
+        "parameters": "Parametry",
+        "crossFilter": "Filtr krzyżowy",
+        "crossFilterMode": "Tryb filtra krzyżowego",
+        "jumpToDocuments": "Skocz do",
+        "foregroundColor": "Kolor pierwszego planu",
+        "backgroundColor": "Kolor tła",
+        "backgroundImage": {
+          "src": "Zdjęcie w tle",
+          "repeat": "Powtórz",
+          "size": "Rozmiar",
+          "hAlign": "Wyrównaj w poziomie",
+          "vAlign": "Wyrównaj w pionie"
+        },
+        "imageRepeat": {
+          "none": "Nie powtarzaj",
+          "repeat": "Powtarzaj",
+          "x": "Powtarzaj X",
+          "y": "Powtarzaj Y",
+          "space": "Przestrzeń",
+          "round": "Okrągły"
+        },
+        "imageSize": {
+          "original": "Oryginał",
+          "contain": "Zawiera",
+          "cover": "Pokrywa",
+          "stretch": "Rozciągnięty"
+        },
+        "autoPlay": "Automatyczne odtwarzanie",
+        "autoPlayInterval": "Interwał automatycznego odtwarzania (sekundy)",
+        "pageSwitchAnimation": "Animacja zmiany strony",
+        "autoRefresh": "Automatyczne odświeżanie",
+        "autoRefreshInterval": "Częstotliwość odświeżania",
+        "autoRefreshType": {
+          "none": "Żaden",
+          "polling": "Ankieta",
+          "realTime": "Czas rzeczywisty"
+        },
+        "promptUsingMobileView": "Monituj za pomocą widoku mobilnego",
+        "showTitle": "Pokaż Tytuł",
+        "autoTitle": "Tytuł automatyczny",
+        "title": "Tytuł",
+        "alignment": "Wyrównanie",
+        "titleTextStyle": "Ustawienie czcionki tytułu",
+        "legendTextStyle": "Ustawienie czcionki legendy",
+        "hAlign": {
+          "left": "Lewo",
+          "center": "Środek",
+          "right": "Prawo"
+        },
+        "vAlign": {
+          "top": "Góra",
+          "middle": "Środek",
+          "bottom": "Dół"
+        },
+        "position": "Pozycja",
+        "surroundingPosition": {
+          "top": "Góra",
+          "right": "Prawo",
+          "bottom": "Dół",
+          "left": "Lewa"
+        },
+        "showSizeLegend": "Pokaż rozmiar legendy",
+        "border": {
+          "label": "Obramowanie",
+          "color": "Kolor obramowania",
+          "type": {
+            "label": "Typ obramowania",
+            "none": "Brak",
+            "default": "Domyślnie",
+            "roundCorner": "Zaokroąglony róg",
+            "thickCorner": "Gruby róg",
+            "doubleBorder": "Podwójne obramowanie",
+            "stylishBorder_1": "Stylowe obramowanie 1",
+            "stylishBorder_2": "Stylowe obramowanie 2"
+          },
+          "size": {
+            "label": "Rozmiar obramowania",
+            "thin": "Thin",
+            "medium": "Medium",
+            "thick": "Thick"
+          }
+        },
+        "font": {
+          "title": "Czcionka"
+        },
+        "contentTextStyle": "Ustawienie czcionki zawartości",
+        "headerTextStyle": "Ustawienie czcionki nagłówka",
+        "tabStripTextStyle": "Ustawienie czcionki",
+        "padding": "Podszycie",
+        "margin": "Margines",
+        "style": "Styl",
+        "linkType": "Typ linku",
+        "url": "Url",
+        "targetPage": "Strona docelowa",
+        "format": "Format",
+        "orientation": {
+          "title": "Orientacja",
+          "horizontal": "Poziomo",
+          "vertical": "Pionowo",
+          "diagonal": "Przekątna",
+          "auto": "Automatyczny"
+        },
+        "auto": "Automatyczny",
+        "shadow": {
+          "label": "Cień",
+          "color": "Kolor cienia",
+          "type": {
+            "label": "Typ cienia",
+            "none": "Brak",
+            "both": "Oba",
+            "inner": "Wewnętrzny",
+            "outer": "Zewnętrzny"
+          },
+          "size": {
+            "label": "Rozmiar cienia",
+            "thin": "Cienki",
+            "medium": "Średni",
+            "thick": "Gruby"
+          }
+        },
+        "scenarioStyle": {
+          "batchSetting": "Styl ustawień wsadowych",
+          "label": "Szablon stylu"
+        },
+        "connectingLineColor": "Kolor linii łączącej",
+        "scrollbarMode": "Tryb paska przewijania",
+        "tableAlignment": "Wyrównanie tekstu",
+        "fontStyle": {
+          "title": "Styl czcionki",
+          "Normal": "Normalna",
+          "Italic": "Italic"
+        },
+        "fontWeight": {
+          "title": "Grubość czcionki",
+          "Normal": "Normalna",
+          "Bold": "Pogrubienie",
+          "Heavy": "Ciężki",
+          "Light": "Lekki"
+        },
+        "fontColor": "Kolor czcionki",
+        "fontLabelOfTitle": "Ustawienie czcionki tytułu",
+        "fontLabelOfContent": "Ustawienie czcionki zawartości",
+        "fontSize": "Rozmiar czcionki",
+        "fontFamily": "Rodzina czcionek",
+        "pinAnnotation": "Przypnij adnotację",
+        "visibleMenuItems": "Widoczne elementy menu",
+        "scenarioName": "Nazwa scenariusza",
+        "clickAction": "Kliknij opcję Akcja",
+        "contextMenuActions": "Działania menu kontekstowego",
+        "mouseEventAction": {
+          "showTooltip": "Pokaż etykietę",
+          "none": "Brak",
+          "keep": "Trzymaj",
+          "exclude": "Wyklucz",
+          "drillTo": "Przejdź niżej",
+          "jumpTo": "Skocz"
+        },
+        "includeAllDimensions": "Uwzględnij wszystkie wymiary",
+        "scrollbarThumbBackColor": "Kciuk na pasku przewijania",
+        "scrollbarTrackBackColor": "Ścieżka paska przewijania",
+        "defaultViewer": {
+          "label": "Domyślna przeglądarka",
+          "standard": "Standard",
+          "lite": "Lite"
+        }
+      },
+      "dashboard": {
+        "theme": "Motyw",
+        "autoFontSize": "Samodostosowujący się rozmiar czcionki",
+        "scenarioBackgroundColor": "Kolor tła scenariusza",
+        "border": "Obramowanie",
+        "shadow": "Cień",
+        "pageTabStripVisible": "Widoczność paginacji",
+        "pageTabStripStyle": {
+          "title": "Styl paginacji",
+          "tabs": "Zakładki",
+          "navigator": "Nawigator"
+        },
+        "animationType": {
+          "fadeIn": "Pojawianie się",
+          "slide": "Wślizg"
+        },
+        "pageTabStripPosition": "Pozycja paginacji",
+        "showPageBorder": "Pokaż obramowanie strony",
+        "documentRatio": "Współczynnik dokumentu",
+        "stretch": "Rozciągnij, aby dopasować współczynnik",
+        "pageFitMode": "Rozmiar strony",
+        "fixedSize": "Stały rozmiar",
+        "pageWidth": "Szerokość strony",
+        "pageHeight": "Wysokość strony",
+        "palette": "Paleta",
+        "cornerRadius": "Promień narożnika",
+        "snapToGrid": "Przyciągaj do siatki",
+        "snap2Guides": "Przyciągaj do prowadnic",
+        "graphOpacity": "Krycie wykresu",
+        "snap": "Przyciągaj",
+        "autoGradient": "Auto gradient",
+        "toolbar": {
+          "setting": "Ustawienia paska narzędzi",
+          "show": "Pokaż pasek narzędzi",
+          "auto": "Automatyczne ukrywanie paska narzędzi",
+          "hide": "Ukryj pasek narzędzi"
+        }
+      },
+      "charts": {
+        "dataLabel": {
+          "showDataLabel": "Pokaż etykietę danych",
+          "displayUnit": "Wyświetlacz",
+          "value": "Wartość",
+          "size": "Rozmiar",
+          "color": "Kolor",
+          "shape": "Kształt",
+          "location": "Lokalizacja",
+          "series": "Nazwa serii",
+          "category": "Nazwa kategorii",
+          "displayMode": {
+            "title": "Tryb wyświetlania",
+            "auto": "Automatyczny",
+            "all": "Wszystko",
+            "smart": "Smart"
+          },
+          "position": {
+            "around": "Na około",
+            "onSlice": "Na plastrach",
+            "auto": "Automatyczny"
+          },
+          "percentageDisplay": "Wartość jako procent",
+          "details": "Szczegóły",
+          "dataLabelTextStyle": "Ustawienie czcionki etykiety danych",
+          "area": "Obszar",
+          "yPlacement": {
+            "title": "Względne położenie względem kategorii",
+            "near": "Blisko",
+            "center": "Środek",
+            "far": "Daleko"
+          },
+          "xPlacement": {
+            "title": "Położenie względem osi wartości",
+            "near": "Blisko",
+            "center": "Środek",
+            "far": "Daleko"
+          },
+          "angle": {
+            "title": "Kierunek",
+            "horizontal": "Poziomy",
+            "perpendicularToY": "Prostopadle do osi wartości",
+            "parallelToY": "Równolegle do osi wartości"
+          },
+          "connectingLineMode": {
+            "title": "Podłączanie trybu linii",
+            "none": "Brak",
+            "always": "Zawsze",
+            "auto": "Automatycznie"
+          },
+          "connectingLineWidth": {
+            "title": "Szerokość linii",
+            "thin": "Cienka",
+            "medium": "Średnia",
+            "thick": "Gruba"
+          },
+          "xOffset": "Odsunięcie wzdłuż kategorii",
+          "yOffset": "Odsunięcie wzdłuż osi wartości",
+          "showShape": "Pokaż kształt",
+          "shapeImage": "Kształt obrazu",
+          "shapeXCenter": "Kształt środka X",
+          "shapeYCenter": "Kształt środka Y",
+          "shapeXScale": "Kształt skali X",
+          "shapeYScale": "Kształt skali Y"
+        },
+        "showLegend": "Pokaż legendę",
+        "legendWrap": "Zwiń legendę",
+        "legendAutoSize": "Automatyczny rozmiar",
+        "legendHAlign": "Wyrównanie w poziomie",
+        "legendVAlign": "Wyrównanie w pionie",
+        "legendWidth": "Szerokość",
+        "legendHeight": "Wysokość",
+        "axis": {
+          "showAxis": "Pokaż osie",
+          "showAxisLine": "Pokaż linię osi",
+          "showGridLine": "Pokaż linie siatki",
+          "gridLineColor": "Kolor linii siatki",
+          "showTickLabel": "Pokaż etykiety znaczników",
+          "showTickMark": "Pokaż znaczniki",
+          "lableDirection": "Kierunek etykiety",
+          "categoryOrigin": "Przecięcie",
+          "maxValue": "Maksymalna wartość",
+          "minValue": "Minimalna wartość",
+          "interval": "Interwał",
+          "dataFormat": "Format danych…",
+          "displayUnit": "Wyświetlacz",
+          "showUnitsLabel": "Pokaż etykietę jednostek",
+          "unitsLabelPosition": "Pozycja etykiety jednostki",
+          "labelPosition": {
+            "onTitle": "Na tytuł",
+            "onScale": "Na skalę"
+          },
+          "formats": {
+            "general": "Ogólny",
+            "number": "Numer",
+            "currency": "Waluta",
+            "percentage": "Procent",
+            "custom": "Niestandardowy"
+          },
+          "scaleType": "Skala",
+          "scaleTypes": {
+            "Linear": "Liniowy",
+            "Ordinal": "Porządkowy",
+            "Percentage": "Procentowy",
+            "Logarithmic": "Logarytmiczny"
+          },
+          "axisTextStyle": "Ustawienie czcionki osi"
+        },
+        "displayUnit": {
+          "auto": "Automatyczny",
+          "none": "Brak",
+          "e2": "Setki",
+          "e3": "Tysiące",
+          "e4": "10K",
+          "e5": "100K",
+          "e6": "Miliony",
+          "e7": "10M",
+          "e8": "100M",
+          "e9": "Miliardy",
+          "e12": "Biliony"
+        },
+        "autoGapWidth": "Automatyczna szerokość szczeliny",
+        "categoryGapWidth": "Luka w kategorii %",
+        "seriesGapWidth": "Luka w serii %",
+        "showTooltip": "Pokaż podpowiedź",
+        "tooltipMode": {
+          "title": "Tryb podpowiedzi",
+          "none": "Brak",
+          "dataPointTooltip": "Punkt danych",
+          "categoryTooltip": "Kategoria"
+        },
+        "showCategoryTrackingArea": "Pokaż obszar śledzenia kategorii",
+        "categoryTrackingAreaColor": "Kolor obszaru śledzenia",
+        "showCategoryTrackingLine": "Pokaż linię śledzenia kategorii",
+        "categoryTrackingLineColor": "Kolor linii śledzenia",
+        "categoryTrackingLineType": "Typ linii śledzenia",
+        "categoryTrackingLineWidth": "Szerokość linii śledzenia",
+        "showPointTrackingCrossX": "Pokaż oś wartości punktów",
+        "pointTrackingCrossXWidth": "Szerokość linii osi wartości poprzecznej",
+        "pointTrackingCrossXType": "Typ linii osi wartości poprzecznej",
+        "pointTrackingCrossXColor": "Kolor linii osi wartości przecięcia",
+        "showPointTrackingCrossY": "Pokaż punkt przecięcia osi kategorii",
+        "pointTrackingCrossYWidth": "Szerokość linii osi poprzecznej kategorii",
+        "pointTrackingCrossYType": "Typ linii osi poprzecznej kategorii",
+        "pointTrackingCrossYColor": "Kolor linii osi poprzecznej kategorii",
+        "showDots": "Pokaż kropki",
+        "innerRadias": "Promień wewnętrzny",
+        "startAngle": "Kąt początkowy",
+        "sweep": "Czyszczenie",
+        "axisMode": {
+          "title": "Tryb osi",
+          "cartesian": "Kartezjański",
+          "radial": "Radialny",
+          "polygonal": "Wielokątny"
+        },
+        "lineStyle": {
+          "title": "Styl linii",
+          "default": "Domyślny",
+          "spline": "Klin",
+          "step": "Krok"
+        },
+        "showNull": {
+          "title": "Pokaż wartości null jako",
+          "connect": "Połączony",
+          "gap": "Luki",
+          "zero": "Zero"
+        },
+        "showNullItems": "Pokaż null",
+        "showEmptyStringItems": "Pokaż puste",
+        "gradientColor": "Kolor podstawowy",
+        "graphColorPreference": "Preferowany kolor wykresu",
+        "gradientColorGroupNumber": "Liczba zakresów",
+        "topWidth": "Górna szerokość",
+        "bottomWidth": "Dolna szerokość",
+        "neckHeight": "Wysokość szyi",
+        "regionalBorderColor": "Regionalne obramowanie",
+        "palette": "Paleta",
+        "themeColor": "Motyw",
+        "standardColor": "Standardowy",
+        "customColor": "Niestandardowy",
+        "customPalette": {
+          "create": "Utwórz nową paletę",
+          "customPaletteMode": {
+            "customColor": "Niestandardowy kolor",
+            "fromGradientColor": "Seria gradientowa",
+            "gradientColor": "Kolor gradientu"
+          },
+          "paletteColor": "Paleta kolorów",
+          "mode": "Tryb",
+          "gradientColor": "Kolor gradientu",
+          "color": "Kolor",
+          "paletteColorNumber": "Numer koloru palety",
+          "paletteColorPreview": "Podgląd kolorów palety",
+          "style": "Styl"
+        },
+        "calibrationType": {
+          "title": "Typ kalibracji",
+          "complete": "Kompletny",
+          "boundary": "Graniczny",
+          "hide": "Ukryj"
+        },
+        "pointerColor": "Kolor wskaźnika",
+        "valueCustomUnit": "Jednostka niestandardowa",
+        "valueCustomUnitTextStyle": "Niestandardowe ustawienie czcionki jednostki",
+        "valueSource": "Rzeczywiste źródło wartości",
+        "comparisonSource": "Docelowe źródło wartości",
+        "valueCustomInput": "Wartości",
+        "comparisonCustomInput": "Wartości",
+        "valueSourceType": {
+          "fromDataset": "Zestaw danych",
+          "fromCustomInput": "Wejście niestandardowe"
+        },
+        "percentageOfComparison": "Procent porównania",
+        "rangeDotType": "Typ wartości",
+        "rangeDotTypeEnums": {
+          "precentage": "Procent",
+          "constant": "Stały"
+        },
+        "gaugeAxisType": "Typ osi",
+        "gaugeAxisTypeEnums": {
+          "precentage": "Procent",
+          "constant": "Stały"
+        },
+        "rangeDotsAndColorslabel": "Zakres kolorów",
+        "rangePattern": {
+          "high": "Wysoki",
+          "mid": "Średni",
+          "low": "Niski"
+        },
+        "gaugeValueCustomInput": "",
+        "emptyValue": "",
+        "showDeltaSymbol": "Pokaż symbol",
+        "showDeltaPercentage": "Pokaż procent",
+        "showPercentage": "Pokaż procent",
+        "showSubTitle": "Pokaż podtytuł",
+        "customSubTitle": "Podtytuł",
+        "subTitleFontSetting": "Ustawienia czcionki podtytułu",
+        "showDeltaLabel": "Pokaż etykietę",
+        "showPercentageLabel": "Pokaż etykietę procentu",
+        "percentageLabelTextStyle": "Ustawienie czcionki procentowej etykiety",
+        "deltaLabelTextStyle": "Ustawienie czcionki etykiety",
+        "isMutativeReachedColor": "Kolor zakresu interwałów",
+        "unreachedColor": "Kolor tła wybierania",
+        "reachedColor": "Wybierz kolor pierwszego planu",
+        "conditionalFormatType": "Styl formatu warunkowego",
+        "conditionalFormatTypeEnums": {
+          "noBackground": "Kolor tekstu etykiety Delta",
+          "deltaLabelBackground": "Etykieta delta Kolor tła",
+          "fullBackground": "Pełne tło"
+        },
+        "colorPerfrence": "Preferencje koloru",
+        "colorPerfrenceEnums": {
+          "palette": "Paleta",
+          "gradient": "Gradient"
+        },
+        "gradientPerfrence": "Preferencje gradientu",
+        "gradientPerfrenceEnums": {
+          "gradual": "Stopniowy",
+          "grouped": "Zgrupowany"
+        },
+        "fontStyle": "Styl czcionki",
+        "fontWeight": "Grubość czcionki",
+        "fontStyleEnums": {
+          "Normal": "Normalna",
+          "Italic": "Italic"
+        },
+        "fontWeightEnums": {
+          "Normal": "Normalna",
+          "Bold": "Pogrubienie",
+          "Lighter": "Odchudzona"
+        },
+        "cornerRadius": "Promień narożnika",
+        "graphOpacity": "Krycie wykresu",
+        "map": "Mapa",
+        "automaticCarousel": "Automatyczna karuzela",
+        "carouselInterval": "Interwał (sekundy)",
+        "singleSelection": "Pojedynczy wybór",
+        "autoGradient": "Automatyczny gradient",
+        "calculationMode": "Tryb obliczania",
+        "calculationModeEnums": {
+          "delta": "Delta",
+          "ratio": "Współczynnik"
+        },
+        "floorPlan": "Plan budynku",
+        "areaBorderColor": "Granica obszaru",
+        "reverseColor": "Odwróć kolor",
+        "showTopN": "Top N grupowanie",
+        "topN": "Pokaż",
+        "trellis": {
+          "padding": "Podszycie kratki",
+          "borderColor": "Kolor obramowania kratki",
+          "textStyle": "Ustawienie czcionki kratki"
+        },
+        "maintainColorAssignments": "Zachowaj przypisania kolorów",
+        "colorAssignments": "Przypisanie kolorów",
+        "colorAssignmentsManage": "Zarządzaj...",
+        "series": {
+          "showSeriesTotal": "Pokaż całą serię",
+          "totalDisplay": "Wyświetl",
+          "defaultDisplay": "Całkowity",
+          "totalColor": "Kolor",
+          "totalWidth": "Szerokość %",
+          "showTotalLabel": "Pokaż etykietę sumy",
+          "categoryName": "Nazwa kategorii",
+          "dataLabelStyle": "Ustawienie czcionki etykiety danych",
+          "displayUnit": "Wyświetlacz",
+          "labelPosition": {
+            "title": "Pozycja",
+            "outside": "Na zewnątrz",
+            "inside": "Wewnątrz"
+          },
+          "labelOffset": "Offset"
+        }
+      },
+      "tables": {
+        "pageCapacity": "Pojemność strony",
+        "grandTotalSettings": "Ustawienia sumy całkowitej",
+        "grandTotalMode": {
+          "title": "Tryb wyświetlania",
+          "both": "Wiersze i kolumny",
+          "rows": "Tylko w wierszach",
+          "columns": "Tylko na kolumnach",
+          "none": "Nic"
+        },
+        "grandTotalFrozenSetting": {
+          "title": "Zablokuj sumę całkowitą",
+          "row": "Tylko zablokuj rząd",
+          "column": "Zablokuj tylko kolumnę",
+          "both": "Zablokuj rząd i kolumnę",
+          "none": "Nic"
+        },
+        "subTotalMode": {
+          "title": "Tryb wyświetlania",
+          "visible": "Widoczny",
+          "hidden": "Ukryty"
+        },
+        "gridLineColor": "Kolor linii siatki",
+        "rowHeight": "Wysokość wiersza",
+        "freezeRowHeader": "Zablokuj nagłówki wierszy",
+        "highlightCustomData": "Wyróżnij dane niestandardowe",
+        "autoScroll": "Automatyczne przewijanie",
+        "autoPageTurning": "Przewracanie stron",
+        "autoScrollSpeed": {
+          "slow": "Wolny",
+          "normal": "Normalny",
+          "fast": "Szybki",
+          "name": "Szybkość"
+        },
+        "autoScrollSwitch": {
+          "on": "Włącz",
+          "off": "Wyłącz"
+        },
+        "scrollbarMode": {
+          "Auto": "Automatyczny",
+          "Hidden": "Ukryty",
+          "Visible": "Widoczny",
+          "Hover": "Najedź, aby wyświetlić"
+        },
+        "alignmentSettings": {
+          "default": "Automatyczny",
+          "left": "Lewo",
+          "center": "Środek",
+          "right": "Prawo"
+        },
+        "renderSettings": {
+          "text": "Tekst",
+          "image_url": "URL obrazu",
+          "image_binary": "Zawartość obrazu"
+        },
+        "displayUnit": "Wyświetlacz",
+        "tableTemplates": "Szablony stylów tabelarycznych",
+        "whole": "Cała tabela",
+        "cornerHeader": "Nagłówek narożnika",
+        "colHeader": "Nagłówek kolumny",
+        "rowHeader": "Nagłówek wiersza",
+        "data": "Dane",
+        "firstDataStripe": "Pierwszy pasek danych",
+        "secondDataStripe": "Drugi pasek danych",
+        "subTotals": "Sumy pośrednie",
+        "grandTotals": "Sumy całkowite",
+        "addNewStyle": "Dodaj nowy styl...",
+        "light": "Jasny",
+        "medium": "Średni",
+        "dark": "Ciemny",
+        "custom": "Niestandardowy",
+        "name": "Nazwa",
+        "tableElements": "Elementy tabeli",
+        "baseStyle": "Styl bazowy",
+        "invalidTemplateName": "Zduplikowana lub nieprawidłowa nazwa szablonu",
+        "textStyle": "Styl tekstu",
+        "fillColor": "Kolor wypełnienia",
+        "borderColor": "Kolor obramowania",
+        "wholeTableBorderColor": "Kolor obramowania komórki",
+        "preview": "Podgląd",
+        "hideBorder": "Ukryj obramowanie",
+        "backColor": "Kolor tła",
+        "wholeTableBackColor": "Kolor tła komórki",
+        "useAlternateRowStyle": "Użyj alternatywnego stylu wiersza",
+        "treatLastRowHeaderAsData": "Nagłówek ostatniego wiersza jako dane",
+        "baseCustomStyleTemplate": "Styl niestandardowy",
+        "colHeaderVisible": "Pokaż nagłówek kolumny",
+        "enableWordWrap": "Zawijanie tekstu",
+        "scrollPattern": "Płynne przewijanie",
+        "enableUiFilter": "Pokaż szybki filtr",
+        "autoFitMode": {
+          "label": "Automatyczne dopasowanie szerokości kolumny",
+          "useColHeader": "Dopasuj do nagłówka",
+          "useContent": "Dopasuj do zawartości"
+        },
+        "showRowNumber": "Pokaż numer wiersza",
+        "rowNumberInsertPosition": {
+          "title": "Liczba wierszy dla",
+          "first": "Grupa górnych wierszy",
+          "last": "Wiersze szczegółów",
+          "all": "Wszystkie"
+        },
+        "rowNumberCountRule": {
+          "title": "Zakres numeru wiersza",
+          "global": "Ogólny",
+          "region": "Grupa wierszy",
+          "page": "Strona"
+        },
+        "rowNumberAdjoin": {
+          "title": "Pozycja numeru wiersza",
+          "before": "Przed",
+          "after": "Po"
+        }
+      },
+      "slicers": {
+        "selectionMode": {
+          "title": "Tryb wyboru",
+          "single": "Pojedynczy",
+          "multiple": "Wielokrotny"
+        },
+        "wrapItems": "Zawijaj przedmioty",
+        "widthAdaptive": "Adaptacyjna szerokość",
+        "orientation": "Orientacja",
+        "titlePosition": {
+          "title": "Pozycja",
+          "outside": "Na zewnątrz",
+          "inline": "W linii"
+        },
+        "lablesLayout": {
+          "label": "Etykiety",
+          "list": "Lista",
+          "buttonGroup": "Grupa przycisków"
+        },
+        "dataRangeLayout": {
+          "input": "Pole wprowadzania",
+          "slider": "Suwak",
+          "both": "Pole wprowadzania + suwak"
+        },
+        "defaultDateRangeMode": "Tryb daty",
+        "defaultIsExpanded": "Tryb rozszerzony"
+      },
+      "containers": {
+        "tabStripMode": "Tryb wyświetlania zakładek",
+        "showSplitLine": "Pokaż linię podziału",
+        "tabName": "Nazwa karty",
+        "mobileAutoLayoutPolicy": "Zasady dotyczące automatycznego układu urządzeń mobilnych",
+        "flow": "Przepływ",
+        "scale": "Skala",
+        "filterScope": "Zakres filtra",
+        "filterScope_container": "Kontener",
+        "filterScope_global": "Ogólny",
+        "tabStripAlignment": {
+          "label": "Wyrównanie zakładek",
+          "left": "Lewo",
+          "right": "Prawo",
+          "center": "Środek"
+        },
+        "tabStripGap": "Luka pomiędzy zakładkami",
+        "activeTabBorderColor": "Kolor obramowania",
+        "inActiveTabBorderColor": "Kolor obramowania",
+        "activeTabIndicatorColor": "Kolor wskaźnika",
+        "tabTextColor": "Kolor tekstu",
+        "tabTextAlignment": {
+          "label": "Wyrównanie tekstu zakładki",
+          "left": "Lewo",
+          "center": "Środek",
+          "right": "Prawo"
+        },
+        "tabStripVisible": "Pokaż pasek zakładek",
+        "inActiveTabBackColor": "Tło",
+        "activeTabBackColor": "Tło",
+        "tabWidth": {
+          "label": "Tryb szerokości zakładki",
+          "input": "Szerokość zakładki",
+          "fixed": "Niezmienny",
+          "auto": "Automatyczny",
+          "distribute": "Rozdzielony"
+        },
+        "tabStripeBorderColor": "Kolor obramowania"
+      },
+      "image": {
+        "source": "Źródło"
+      },
+      "richText": {
+        "contentVerticalMiddle": "Wyrównaj w pionie do środka"
+      },
+      "webContent": {
+        "customSetting": "Ustawienia niestandardowe",
+        "enableToken": "Przekaż token użytkownika"
+      },
+      "devConfig": {
+        "port": "Port"
+      }
+    }
+  },
+  "dialogs": {
+    "common": {
+      "apply": "Zastosuj",
+      "reset": "Reset",
+      "yes": "Tak",
+      "no": "Nie",
+      "ok": "OK",
+      "cancel": "Anuluj",
+      "close": "Zamknij"
+    },
+    "syncChanges": {
+      "title": "Synchronizuj zmiany",
+      "content": "Podczas podglądu wykonywane są operacje analityczne (filtrowanie, sortowanie itp.). Czy chcesz zsynchronizować zmiany?"
+    },
+    "unsavedChanges": {
+      "title": "Wykryto niezapisane zmiany",
+      "content": "Wykryto niezapisane zmiany. Czy chcesz odzyskać zmiany?",
+      "restore": "Przywróc",
+      "discard": "Odrzuć"
+    },
+    "leavePrompt": {
+      "title": "Wykryto niezapisaną zmianę",
+      "content": "Wykryto niezapisane zmiany. Czy chcesz kontynuować?"
+    },
+    "saveDashboard": {
+      "title": "Zapisz dashboard",
+      "name": "Nazwa dashboardu",
+      "categories": "Kategorie",
+      "description": "Komentarz",
+      "loadingServerTagList": "Ładowanie tagów...",
+      "loadServerTagListFailed": "Nie udało się załadować tagów!",
+      "placeHolder_name": "Wpisz tutaj nazwę dashboardu",
+      "placeHolder_description": "Wpisz opis tutaj",
+      "placeHolder_comment": "Wpisz komentarz tutaj"
+    },
+    "exportDashboard": {
+      "title": "Eksport",
+      "fileType": "Format eksportu",
+      "fileTypeItems": {
+        "pngImage": "Obraz PNG",
+        "pptDocument": "PPT"
+      },
+      "actionBarDropdownList": {
+        "pngImage": "Eksportuj obraz PNG",
+        "data": "Eksportuj dane",
+        "currentPageData": "Eksportuj dane z obecnej strony",
+        "allPageData": "Eksportuj dane ze wszystkich stron"
+      },
+      "pages": "Strony",
+      "pagesOptions": {
+        "currentPage": "Obecna strona",
+        "allPages": "Wszystkie strony",
+        "allVisiblePages": "Widoczne strony",
+        "customPages": "Niestandardowe strony"
+      },
+      "exportTo": "Eksportuj do",
+      "exportToItems": {
+        "singleImage": "Pojedynczy obraz",
+        "separatedPages": "Oddzielne strony"
+      },
+      "invisible": "Niewidoczny",
+      "combinedChartSheetName": {
+        "left": "Lewa oś",
+        "right": "Prawa oś"
+      }
+    },
+    "cancelExport": {
+      "title": "Eksportowanie, proszę chwilę poczekać...",
+      "page": "Wyeksportowane strony",
+      "exportProgress": "Postęp eksportu"
+    },
+    "changeChartType": {
+      "title": "Zmień typ wykresu"
+    },
+    "noSpaceForTitle": {
+      "title": "Nie wystarczająca ilość miejsca",
+      "content": "Nie można wyświetlić tytułu kontenera. Dostosuj rozmiar kontenera, aby uzyskać więcej miejsca."
+    },
+    "noSpaceForTabStrip": {
+      "title": "Nie wystarczająca ilość miejsca",
+      "content": "Nie można wyświetlić tytułu kontenera. Dostosuj rozmiar kontenera, aby uzyskać więcej miejsca."
+    },
+    "filter": {
+      "title": "Filtr",
+      "add": "Dodaj filtr",
+      "addGroup": "Dodaj grupę",
+      "and": "I",
+      "or": "Lub",
+      "filterCountHint": "{{count}} dodanych filtrów",
+      "noFilterHint": "Brak istniejących filtrów",
+      "invalidDataset": "Niepoprawny zbiór danych",
+      "hint": "Nie dodano żadnego filtra dla tego scenariusza. Kliknij przycisk powyżej, aby dodać filtr.",
+      "targetField": "Pole docelowe",
+      "exclude": "Wyklucz dopasowane",
+      "selectAll": "(Wszystkie)",
+      "selectNone": "(Żadne)",
+      "startDate": "Data rozpoczęcia",
+      "endDate": "Data końcowa",
+      "dateUnit": "Jednostka daty",
+      "bindToParameter": "Przypisz",
+      "matchType": "Typ dopasowania",
+      "caseSensitive": "Rozróżnianie wielkości liter",
+      "matchValue": "Dopasuj wartość",
+      "typeKeyWord": "Wpisz słowo kluczowe...",
+      "excludePattern": "Wyklucz: {{content}}",
+      "totalPattern": "(Łącznie: {{count}})",
+      "rules": {
+        "general": "Główne",
+        "dateRange": "Zakres dat",
+        "valueRange": "Zakres wartości",
+        "wildcard": "Dopasuj zasady",
+        "relativeDate": "Data względna"
+      },
+      "types": {
+        "contain": "Zawiera",
+        "startWith": "Zacznij od",
+        "endWith": "Zakończ na",
+        "exact": "Dopasuj dokładnie",
+        "matchWord": "Dopasuj dokładnie",
+        "range": "Zakres",
+        "greaterThan": "Większy od",
+        "lessThan": "Mniejszy od"
+      }
+    },
+    "pivotSetting": {
+      "title": "Wiązanie danych",
+      "moreChartType": "pokaż więcej typów wykresów..."
+    },
+    "conditionalFormat_chart": {
+      "title": "Format warunkowy",
+      "add": "Dodaj format warunkowy",
+      "hint": "Do tego wykresu nie dodano warunkowego ustawienia formatu. Kliknij przycisk powyżej, aby dodać nowy.",
+      "targetValue": "Wartość docelowa",
+      "condition": "Warunek",
+      "style": "Styl",
+      "edit": "Edytuj"
+    },
+    "conditionalFormatStyle": {
+      "styleTabs": {
+        "symbol": "Symbol",
+        "label": "Etykieta"
+      },
+      "labelSubTabs": {
+        "content": "Zawartość",
+        "textStyle": "Styl tekstu",
+        "textPosition": "Pozycja tekstu",
+        "shape": "Kształt"
+      },
+      "title": "Format wykresu",
+      "symbolStyle": "Styl symbolu",
+      "symbol": {
+        "fill": "Wypełnij",
+        "opacity": "Nieprzezroczystość",
+        "symbolSize": "Wielkość symbolu"
+      },
+      "borderStyle": "Styl obramowania",
+      "border": {
+        "color": "Kolor",
+        "width": "Szerokość",
+        "lineStyle": "Styl linii"
+      },
+      "showDataLabel": "Pokaż etykietę danych",
+      "labelTextStyle": "Styl tekstu",
+      "textPosition": "Pozycja tekstu",
+      "shape": "Kształt",
+      "showShape": "Pokaż kształt",
+      "preview": "Podgląd",
+      "auto": "Automatyczny"
+    },
+    "customColorSetting": {
+      "add": "Stwórz nową paletę",
+      "hint": "Nie ma niestandardowej palety.\n Kliknij poniższy przycisk, aby utworzyć nową paletę."
+    },
+    "conditionalFormat_table": {
+      "title": "Format warunkowy",
+      "add": "Dodaj format warunkowy",
+      "hint": "Nie dodano warunkowego ustawienia formatu dla tego składnika. Kliknij przycisk powyżej, aby dodać nowy.",
+      "bindData": "Brak danych związanych z komponentem.",
+      "setFor": "Ustaw dla",
+      "appliedOnEntireRow": "Zastosuj w całym rzędzie",
+      "applied2Row": "Prawda",
+      "applied2Col": "Fałsz",
+      "pickUpCFStyle": "Wybierz styl",
+      "rowNumber": "Numer wiersza",
+      "basedOnCFType":"Oparte na",
+      "anotherField":"Inne pole",
+      "comparison":"Porównanie",
+      "fieldValue":"Wartość pola",
+      "previewText":"Podgląd",
+      "sampleText":"Tekst",
+      "formatter":"Formatowanie",
+      "font":"Czcionka",
+      "backColor":"Kolor tła",
+      "foreColor":"Kolor",
+      "border":"Obramowanie",
+      "icon": "Ikona",
+      "referencedField":"Pole referencyjne",
+      "currentReferencedField":"Wybierz pole referencyjne...",
+      "top10":"Top {{rank}} z {{targetDisplay}}",
+      "bottom10":"Dolne {{rank}} z {{targetDisplay}}",
+      "aboveAverage":"Powyżej średniej z {{targetDisplay}}",
+      "belowAverage":"Poniżej średniej z {{targetDisplay}}",
+      "equalOrAboveAverage":"Równe lub powyżej średniej z {{targetDisplay}}",
+      "equalOrBelowAverage":"Równe lub poniżej średniej z {{targetDisplay}}",
+      "above1StdDevAverage":"Równe lub powyżej średniej z {{targetDisplay}} + Standard",
+      "below1StdDevAverage":"Równe lub poniżej średniej z {{targetDisplay}} - Standard",
+      "above2StdDevAverage":"Równe lub powyżej średniej z {{targetDisplay}} + 2 * Standard",
+      "below2StdDevAverage":"Równe lub poniżej średniej z {{targetDisplay}} + 2 * Standard",
+      "above3StdDevAverage":"Równe lub powyżej średniej z {{targetDisplay}} + 3 * Standard",
+      "below3StdDevAverage":"Równe lub poniżej średniej z {{targetDisplay}} + 3 * Standard",
+      "duplicateValue":"Zduplikowana wartość",
+      "uniqueValue":"Unikalna wartość",
+      "setForEntireRow":"Cały rząd",
+      "compareTo":"Porównaj do"
+    },
+    "conditionalFiltering": {
+      "title": "Warunkowe ustawienia wizualizacji",
+      "add": "Dodaj",
+      "hint": "W tym scenariuszu nie dodano warunkowego ustawienia wizualizacji. Kliknij przycisk powyżej, aby dodać nowy.",
+      "tab_rank": "Ranking",
+      "tab_filter": "Filtr warunkowy",
+      "rankBy": "Ranking według",
+      "rankFor": "Ranking dla",
+      "rankLevel": "Poziom rankingu",
+      "rankOrder": "Kolejność rankingu",
+      "rankOrder_asc": "Dół",
+      "rankOrder_desc": "Góra",
+      "type": "Typ",
+      "type_rank": "Ranking",
+      "type_percentage": "Procent",
+      "keep": "Trzymaj",
+      "rankOrder_top": "Góra",
+      "rankOrder_middle": "Środek",
+      "rankOrder_bottom": "Dół",
+      "competitionRule": "Równy do",
+      "filterBy": "Filtruj po",
+      "filterCondition": "Warunek",
+      "filterFor": "Filter według",
+      "partitioning": "Partycjonowanie",
+      "addressing": "Adresowanie",
+      "duplicate": {
+        "unique": "Unikalny",
+        "competition": "Konkurencja",
+        "modifiedCompetition": "Zmodyfikowana konkurencja",
+        "dense": "Gęsty"
+      }
+    },
+    "sort": {
+      "title": "Sortowanie",
+      "add": "Dodaj sortowanie",
+      "hint": "W tym scenariuszu nie dodano sortowania. Kliknij przycisk powyżej, aby dodać sortowanie.",
+      "sortTarget": "Pole docelowe",
+      "sortBy": "Sortuj po",
+      "auto": "Automatycznie",
+      "manual": "Ręcznie",
+      "alphabetical": "Alfabetycznie",
+      "numerical": "Liczbowo",
+      "chronological": "Chronologicznie",
+      "sortOrder": "Kolejność sortowania",
+      "sortOrder_asc": "Rosnąco",
+      "sortOrder_desc": "Malejąco",
+      "manualSort_moveUp": "W górę",
+      "manualSort_moveDown": "W dół",
+      "manualSort_moveToTop": "Na samą górę",
+      "manualSort_moveToBottom": "Do samego dołu"
+    },
+    "referenceLine": {
+      "title": "Linia referencyjna",
+      "add": "Dodaj linie referencyjną",
+      "hint": "W tym scenariuszu nie dodano żadnej linii referencyjnej. Kliknij przycisk powyżej, aby dodać.",
+      "subTitlePattern": "Wartość = {{content}}",
+      "name": "Nazwa",
+      "type": "Typ",
+      "value": "Wartość",
+      "axis": "Oś",
+      "lineStyle": "Styl linii",
+      "lineColor": "Kolor linii",
+      "lineWidth": "Szerokość linii",
+      "aggregationTypes": {
+        "constant": "Ciągła linia",
+        "max": "Maksymalna linia",
+        "min": "Minimalna linia",
+        "median": "Linia środkowa",
+        "average": "Średnia linia",
+        "count": "Linia obliczeniowa"
+      },
+      "detailLevel": "Zakres",
+      "detailLevelTypes": {
+        "group": "Grupa",
+        "total": "Całość",
+        "trellis": "Kratka"
+      },
+      "auto": "Automatycznie"
+    },
+    "trendLine": {
+      "title": "Linia trendu",
+      "type": "Typ",
+      "polynomialDegree": "Stopień",
+      "lineStyle": "Styl linii",
+      "lineColor": "Kolor linii",
+      "lineWidth": "Szerokość linii",
+      "detailLevel": "Zakres",
+      "detailLevelTypes": {
+        "group": "Grupa",
+        "total": "Całość",
+        "trellis": "Kratka"
+      },
+      "trendLineTypes": {
+        "None": "Brak",
+        "Linear": "Liniowy",
+        "Polynomial": "Wielomian",
+        "Power": "Moc",
+        "Logarithmic": "Logarytmiczny",
+        "Exponential": "Wykładniczy",
+        "Fourier": "Fouriera"
+      },
+      "auto": "Automatycznie"
+    },
+    "jumpToDocuments": {
+      "title": "Skocz do",
+      "add": "Dodaj ustawienie",
+      "hint": "Nie ma przeskoku do ustawień dla tego scenariusza. Kliknij przycisk powyżej, aby dodać.",
+      "name": "Nazwa",
+      "openModeLabel": "Tryb otwarty",
+      "openMode": {
+        "newWindow": "Nowe okno",
+        "dialog": "Dialogowe",
+        "embedded": "Wbudowane",
+        "redirect": "Przekieruj",
+        "none": "Żaden"
+      },
+      "redirectAreaLabel": "Obszar przekierowania",
+      "redirectArea": {
+        "hostPage": "Strona hosta",
+        "dashboard": "Dashboard"
+      },
+      "typeLabel": "Typ",
+      "type": {
+        "report": "Raport",
+        "dashboard": "Dashboard",
+        "outerURL": "Zewnętrzny URL",
+        "innerURL": "Wewnętrzny URL"
+      },
+      "docLabel": "Dokument",
+      "docList": {
+        "loading": "Ładowanie listy dokumentów z serwera...",
+        "loadFailed": "Nie udało się załadować listy dokumentów z serwera!"
+      },
+      "loadDocParameters": {
+        "loading": "Ładowanie parametrów tego dokumentu z serwera...",
+        "loadFailed": "Nie udało się załadować parametrów tego dokumentu z serwera!"
+      },
+      "parametersLabel": "Parametry",
+      "parameterHeader": {
+        "name": "Nazwa",
+        "prompt": "Podpowiedź",
+        "dataType": "Typ",
+        "valueType": "Typ wartości",
+        "value": "Wartosc"
+      },
+      "parameterValueType": {
+        "notSet": "Nie ustawiony",
+        "constant": "Stały",
+        "selection": "Wybrana wartość",
+        "filteredValue": "Odfiltrowana wartość",
+        "slicer": "Fragmentator",
+        "parameter": "Parametr"
+      },
+      "parameterDataType": {
+        "boolean": "Boolean",
+        "integer": "Integer",
+        "float": "Float",
+        "string": "String",
+        "dateTime": "DateTime",
+        "date": "Date",
+        "multiDimension": "Wielowymiarowy"
+      },
+      "parameterValue": {
+        "selection": {
+          "placeholder": "Wybierz pola…",
+          "title": "Wybrane wartości ustawień",
+          "scenario": "Scenariusz",
+          "chooseFields": "Wybierz pola"
+        },
+        "filteredValue": {
+          "placeholder": "Wybierz pole…",
+          "title": "Odfiltrowana wartość pola",
+          "chooseField": "Wybierz pole",
+          "chooseValueProperty": "Wybierz wartość"
+        },
+        "slicer": {
+          "placeholder": "Wybierz fragmentator…",
+          "title": "Ustawienie wartości fragmentatora",
+          "chooseSlicer": "Wybierz fragmentator",
+          "slicerDropDownPlaceholder": "Nie wybrano fragmentatora",
+          "chooseColumns": "Wybierz kolumny",
+          "chooseValueProperty": "Wybierz wartość"
+        },
+        "parameter": {
+          "placeholder": "Wybierz parametr"
+        }
+      },
+      "jumpToListValuePropertyType": {
+        "all": "Wszystkie",
+        "minValue": "Minimalna wartość",
+        "maxValue": "Maksymalna wartość"
+      },
+      "jumpToRangeValuePropertyType": {
+        "range": "Zakres",
+        "minValue": "Minimalna wartość",
+        "maxValue": "Maksymalna wartość"
+      },
+      "url": "Url",
+      "targetPage": "Strona docelowa",
+      "backFrom": "Powrót z",
+      "jumpToOptions": "Opcje",
+      "showToolbar": "Pokaż pasek narzędzi",
+      "pageSizeMode": "Tryb rozmiaru strony",
+      "reportPageDisplay": "Tryb wyświetlania strony",
+      "dashboardPageNumber": "Początkowy numer strony",
+      "reportDisplay": {
+        "single": "Widok pojedynczej strony",
+        "pageless": "Tryb szpalty",
+        "continuous": "Ciągły"
+      },
+      "dialogWidth": "Szerokość",
+      "dialogHeight": "Wysokość",
+      "enableDialogFixedSize": "Wielkość dialogu",
+      "dialogSizeAuto": "Automatycznie",
+      "dialogSizeFixed": "Stały"
+    },
+    "parameters": {
+      "title": "Ustawienie parametru",
+      "name": "Nazwa",
+      "prompt": "Podpowiedź",
+      "dataType": "Typ danych",
+      "hidden": "Ukryty",
+      "multiValue": "Wielowartościowy",
+      "multiline": "Wielowierszowy",
+      "validValues": {
+        "label": "Dostępne wartości",
+        "addLabel": "Dodaj wartość parametru",
+        "placeHolderValue": "Wartość",
+        "placeHolderLabel": "Etykieta"
+      },
+      "defaultValue": {
+        "label": "Domyślna wartość",
+        "addLabel": "Dodaj wartość",
+        "placeholder": "<Pusty>",
+        "staticValue": "Wartość statyczna",
+        "userContext": "Kontekst użytkownika",
+        "organizationContext": "Kontekst organizacji",
+        "relativeDate": "Data względna"
+      },
+      "valueSource": "Źródło wartości",
+      "valueSourceEnum": {
+        "datasetReference": "Z zapytania",
+        "custom": "Nie z zapytania"
+      },
+      "binding": {
+        "label": "Wiązanie"
+      },
+      "transform": {
+        "label": "Przekształcanie",
+        "transformRule": "Reguła transformacji",
+        "transformRuleItem": {
+          "originalValue": "Oryginalna wartość",
+          "part": "Część",
+          "adjustValue": "Dostosuj wartość"
+        },
+        "transformFunction": "Przekształć jednostkę",
+        "transformFunctionItem": {
+          "year": "Rok",
+          "quarter": "Kwartał",
+          "month": "Miesiąc",
+          "day": "Dzień",
+          "hour": "Godzina",
+          "minute": "Minuta",
+          "second": "Sekunda"
+        },
+        "transformDirection": "Przekształść kierunek",
+        "transformDirectionItem": {
+          "backward": "Do tyłu",
+          "forward": "Do przodu"
+        },
+        "sample": "Przykład "
+      },
+      "datasetReferenceValueField": "Pole wartości",
+      "datasetReferenceField": "Pole"
+    },
+    "hierarchy": {
+      "title_create": "Stwórz pole hierarchiczne",
+      "title_edit": "Edytuj pole hierarchiczne",
+      "name": "Nazwa hierarchii",
+      "hint": "Wskazówka: przeciągnij lub kliknij dwukrotnie pola, aby dodać je do hierarchii.",
+      "namePattern": "Hierarchia_{{name}}",
+      "conflictPattern": "Istnieje już pole o nazwie '{{name}}'"
+    },
+    "calculation": {
+      "calculationType": "Typ obliczenia",
+      "along": "Wzdłuż",
+      "empty": "<Pusty>",
+      "valuesBefore": "Wartości przed",
+      "valuesAfter": "Wartości po",
+      "includeCurrent": "Uwzględnij aktualną wartość",
+      "advancedSetting": "Zaawansowane ustawienia"
+    },
+    "dateCalcualtion": {
+      "dateTarget": "Data docelowa",
+      "dateUnit": "Jednostka okresu",
+      "dateOffset": "Przesunięcie okresu",
+      "dateRange": "Zakres dat",
+      "overRange": "Poza zakresem",
+      "moreSettings": "Więcej ustawień"
+    },
+    "group": {
+      "accounting": "Percentyl",
+      "ranking": "Ranking"
+    },
+    "imageManager": {
+      "title": "Menedżer obrazów",
+      "add": "Dodaj obraz",
+      "loadingImage": "Ładowanie udostępnionego obrazu z serwera...",
+      "loadImageFailed": "Nie udało się załadować udostępnionego obrazu z serwera!",
+      "noSharedImage": "Nie znaleziono udostępnionego obrazu.",
+      "source": {
+        "embedded": "Wbudowany",
+        "shared": "Udostępniony",
+        "external": "Zewnętrzny URL"
+      },
+      "external": {
+        "placeholder": "Wprowadź adres URL obrazu lub identyfikator danych URI",
+        "label": "URL obrazu",
+        "invalidURL": "Niepoprawny URL obrazu"
+      },
+      "largeImageWarning": "Pulpitu nawigacyjnego nie można zapisać z dużymi osadzonymi obrazami. Rozważ użycie współdzielonych obrazów lub mniejszych osadzonych obrazów (<1 MB).",
+      "searchPlaceholder": "Szukaj..."
+    },
+    "changeMap": {
+      "title": "Zmień mapę",
+      "hint": "Dodaj odpowiednie filtry dla konkretnego poziomu mapy."
+    },
+    "hidePage": {
+      "title": "Nie można ukryć strony",
+      "content": "Dashboard musi zawierać co najmniej jedną widoczną stronę!"
+    },
+    "rename": {
+      "title": "Zmień nazwę",
+      "titlePattern": "Zmień nazwę - {{name}}",
+      "hint": "Nowa nazwa",
+      "conflict": "Nazwa przedmiotu '{{name}}' już istnieje.",
+      "originalName": "Oryginalna nazwa",
+      "canNotAllSpaces": "Nie może być ciągiem złożonym ze spacji"
+    },
+    "webContent": {
+      "title": "Zawartość sieci",
+      "types": {
+        "serverContent": "Zawartość serwera",
+        "src": "Url",
+        "srcDoc": "Html"
+      },
+      "emptyServerContent": "Pusty",
+      "webContentStoreLink": "Uzyskaj więcej wtyczek"
+    },
+    "versionInfo": {
+      "title": "O dashboardach Wyn",
+      "name": "Dashboardy Wyn",
+      "version": "Wersja:",
+      "copyright": "Prawa autorskie © 2020 GrapeCity"
+    },
+    "bullet": {
+      "title": "Ustawienie wykresu punktowego",
+      "barSize": "Wysokość",
+      "maxi": "Maksimum",
+      "good": "Dobrze",
+      "bad": "Źle",
+      "forecast": "Prognoza",
+      "tickunit": "Zaznacz jednostkę",
+      "maxiColor": "Maksymalny kolor",
+      "goodColor": "Dobr kolor",
+      "badColor": "Zły kolor",
+      "measureColor": "Aktualny kolor",
+      "targetColor": "Docelowy kolor",
+      "forecastColor": "Prognozowy kolor"
+    },
+    "pareto": {
+      "title": "Ustawienia wykresu Pareto",
+      "barSize": "Wysokość",
+      "target": "Cel",
+      "targetColor": "Kolor docelowy"
+    },
+    "hBar": {
+      "title": "Ustawienia wykresu HBar",
+      "barSize": "Wysokość"
+    },
+    "runningCalculation": {
+      "title": "Trwa obliczanie"
+    },
+    "movingCalculation": {
+      "title": "Przenoszenie obliczeń"
+    },
+    "dataFormat": {
+      "title": "Format danych"
+    },
+    "interactionSetting": {
+      "title": "Ustawienie interakcji",
+      "auto": "Automatycznie",
+      "sourceFields": "Pola źródłowe",
+      "targetFields": "Pola docelowe",
+      "target": "Cel",
+      "add": "Dodaj element mapowania",
+      "mergedFields": "Pola scalone"
+    },
+    "annotation": {
+      "title": "Adnotacja",
+      "placeholder": "Adnotacja jest teraz pusta."
+    },
+    "shareScenario": {
+      "title": "Udostępnij scenariusz",
+      "visibleMenuOptions": "Widoczne elementy menu",
+      "embedWith": "Osadź za pomocą",
+      "size": "Rozmiar",
+      "iframe": "IFrame",
+      "div": "Div",
+      "copyUrl": "Kopiuj URL",
+      "copyOptions": "Opcje kopiowania",
+      "openFullDashboardMode": "Powróć do dashboardu",
+      "unsavedTip": "* Niezapisany dashboard *"
+    },
+    "filterState": {
+      "saveTitle": "Zapisz widok filtra",
+      "manageTitle": "Zarządzaj widokami filtrów",
+      "name": "Nazwa",
+      "placeholderName": "Wpisz tutaj nazwę widoku filtra",
+      "emptyWarning": "Należy podać nazwę widoku filtra",
+      "existWarning": "Nazwa widoku filtra {{name}} już istnieje",
+      "defaultFilterView": "Widok filtra: <Domyślny>",
+      "filterView": "Widok filtra: {{ name }}",
+      "reset": "Przywróć widok domyślny",
+      "save": "Zapisz bieżący widok...",
+      "manage": "Zarządzaj widokami...",
+      "noFilterView": "Żaden widok filtra nie został zapisany"
+    },
+    "changeFloorPlan": {
+      "title": "Zmień plan budynku"
+    },
+    "mergeDatasets": {
+      "title": "Zarządzaj modelem",
+      "addLink": "Dodaj link",
+      "removeLink": "Usuń link",
+      "datasets": "Zestawy danych",
+      "links": "Linki",
+      "loading": "Ładowanie..."
+    },
+    "dataColorRelationshipManager": {
+      "title": "Przypisz kolory",
+      "dataItems": "Pozycje danych",
+      "applyPalette": "Zastosuj paletę",
+      "noDataPlaceHolder": "Żadne elementy danych nie mogą przypisać koloru"
+    },
+    "analysisPath": {
+      "title": "Historia ścieżki analizy",
+      "drill": "Przejdź od {{from}} do {{to}}",
+      "changeDataBinding": "Zmiana powiązania danych.",
+      "changeChartType": "Zmień typ wykresu",
+      "emptyAnalysis": "Żadna ścieżka analizy danych nie została dodana",
+      "root": "Stan początkowy",
+      "filterTreeTypeAdded": "Dodano grupę filtrów",
+      "filterTreeChanged": "Grupa filtrów została zmieniona",
+      "filterTreeRemoved": "Grupa filtrów została usunięta",
+      "filterTreeTypeChanged": "Zmieniono typ grupy"
+    },
+    "contentSetting": {
+      "title": "Ustawienie treści"
+    },
+    "embeddedSetting": {
+      "title": "Ustawienia komponentów wbudowanych"
+    },
+    "spreadFormat": {
+      "title": "",
+      "defaultFont": "10pt Arial",
+      "ok": "OK",
+      "yes": "Tak",
+      "no": "Nie",
+      "apply": "Zastosuj",
+      "cancel": "Anuluj",
+      "close": "Zamknij",
+      "customFormat": "Niestandardowy",
+      "generalFormat": "Ogólny",
+      "conditionalFormat": {
+        "highlightCellsRules": "Podświetl reguły komórek",
+        "topBottomRules": "Zasady Góra/Dół",
+        "dataBars": "Paski danych",
+        "colorScales": "Skale kolorów",
+        "iconSets": "Zestawy ikon",
+        "newRule": "Nowa zasada...",
+        "clearRules": "Jasne zasady...",
+        "manageRules": "Zarządzaj regułami...",
+        "greaterThan": "Większy od...",
+        "lessThan": "Mniejszy od...",
+        "between": "Pomiędzy...",
+        "equalTo": "Równy do...",
+        "textThatContains": "Tekst, który zawiera...",
+        "aDateOccurring": "Występująca data...",
+        "duplicateValues": "Zduplikowane wartości...",
+        "moreRules": "Więcej zasad...",
+        "top10Items": "Górne 10 przedmiotów...",
+        "bottom10Items": "Dolne 10 przedmiotów...",
+        "aboveAverage": "Powyżej średniej...",
+        "belowAverage": "Poniżej średniej...",
+        "gradientFill": "Wypełnienie gradientowe",
+        "solidFill": "Pełne wypełnienie",
+        "directional": "Kierunkowy",
+        "shapes": "Kształty",
+        "indicators": "Wskaźniki",
+        "ratings": "Oceny",
+        "clearRulesFromSelectedCells": "Wyczyść reguły z wybranych komórek",
+        "clearRulesFromEntireSheet": "Wyczyść reguły z całego arkusza"
+      },
+      "conditionalFormatting": {
+        "common": {
+          "with": "z",
+          "selectedRangeWith": "dla wybranego zakresu z",
+          "and": "i"
+        },
+        "greaterThan": {
+          "title": "Większy od",
+          "description": "Sformatuj komórki, które są WIĘKSZY OD:"
+        },
+        "lessThan": {
+          "title": "Mniejszy od",
+          "description": "Sformatuj komórki, które są MNIEJSZY OD:"
+        },
+        "between": {
+          "title": "Pomiędzy",
+          "description": "Sformatuj komórki, które są POMIĘDZY:"
+        },
+        "equalTo": {
+          "title": "Równy do",
+          "description": "Sformatuj komórki, które są RÓWNE DO:"
+        },
+        "textThatContains": {
+          "title": "Tekst, który zawiera",
+          "description": "Sformatuj komórki zawierające tekst:"
+        },
+        "dateOccurringFormat": {
+          "title": "Daty cykliczne",
+          "description": "Sformatuj komórki zawierające powtarzającą się datę:",
+          "date": {
+            "yesterday": "Wczoraj",
+            "today": "Dzisiaj",
+            "tomorrow": "Jutro",
+            "last7days": "Ostatnie 7 dni",
+            "lastweek": "Ostatni tydzień",
+            "thisweek": "Obecny tydzień",
+            "nextweek": "Następny tydzień",
+            "lastmonth": "Ostatni miesiąc",
+            "thismonth": "Obecny miesiąc",
+            "nextmonth": "Następny miesiąc"
+          }
+        },
+        "duplicateValuesFormat": {
+          "title": "Zduplikowane wartości",
+          "description": "Sformatuj komórki zawierające:",
+          "type": {
+            "duplicate": "Dyplikaty",
+            "unique": "Unikalne"
+          },
+          "valueswith": "wartości z"
+        },
+        "top10items": {
+          "title": "Górne 10 przedmiotów",
+          "description": "Sformatuj komórki, które zajmują górne pozycje:"
+        },
+        "bottom10items": {
+          "title": "Dolne 10 przedmiotów",
+          "description": "Sformatuj komórki, które zajmują dolne pozycje:"
+        },
+        "aboveAverage": {
+          "title": "Powyżej średniej",
+          "description": "Sformatuj komórki POWYŻEJ ŚREDNIEJ:"
+        },
+        "belowAverage": {
+          "title": "Poniżej średniej",
+          "description": "Sformatuj komórki, które są PONIŻEJ ŚREDNIEJ:"
+        },
+        "newFormattingRule": {
+          "title": "Nowa reguła formatowania",
+          "title2": "Edytuj regułę formatowania",
+          "description1": "Wybierz typ reguły:",
+          "description2": "Edytuj opis reguły:",
+          "ruleType": {
+            "formatOnValue": "►Sformatuj wszystkie komórki na podstawie ich wartości",
+            "formatContain": "►Formatuj tylko komórki zawierające",
+            "formatRankedValue": "►Formatuj tylko wartości z najwyższego lub najniższego rankingu",
+            "formatAbove": "►Formatuj tylko wartości powyżej lub poniżej średniej",
+            "formatUnique": "►Formatuj tylko unikatowe lub zduplikowane wartości",
+            "useFormula": "►Użyj formuły, aby określić, które komórki sformatować"
+          },
+          "formatOnValue": {
+            "description": "Sformatuj wszystkie komórki na podstawie ich wartości:",
+            "formatStyle": "Styl formatu:",
+            "formatStyleSelector": {
+              "color2": "Skala 2-kolorowa",
+              "color3": "Skala 3-kolorowa",
+              "dataBar": "Pasek danych",
+              "iconSets": "Zestawy ikon"
+            },
+            "color2": {
+              "min": "Minimum",
+              "max": "Maksimum",
+              "type": "Typ:",
+              "value": "Wartość:",
+              "color": "Kolor:",
+              "preview": "Podgląd",
+              "minSelector": {
+                "lowest": "Najniższa wartość"
+              },
+              "maxSelector": {
+                "highest": "Najwyższa wartość"
+              }
+            },
+            "color3": {
+              "mid": "Punkt środkowy"
+            },
+            "dataBar": {
+              "showBarOnly": "Pokaż tylko pasek",
+              "auto": "Automatyczny",
+              "description2": "Wygląd paska:",
+              "fill": "Wypełnij",
+              "color": "Kolor",
+              "border": "Obramowanie",
+              "fillSelector": {
+                "solidFill": "Pełne wypełnienie",
+                "gradientFill": "Wypełnienie gradientowe"
+              },
+              "borderSelector": {
+                "noBorder": "Bez obramowania",
+                "solidBorder": "Pełne obramowanie"
+              },
+              "negativeBtn": "Ujemna oś i wartość...",
+              "barDirection": "Kierunek paska:",
+              "barDirectionSelector": {
+                "l2r": "Od lewek do prawej",
+                "r2l": "Od prawej do lewej"
+              },
+              "preview": "Podgląd",
+              "negativeDialog": {
+                "title": "Ujemna wartość i ustawienia osi",
+                "group1": {
+                  "title": "Kolor wypełnienia słupka ujemnego",
+                  "fillColor": "Kolor wypełnienia:",
+                  "apply": "Zastosuj ten sam kolor wypełnienia co słupek dodatni"
+                },
+                "group2": {
+                  "title": "Kolor obramowania słupka ujemnego",
+                  "borderColor": "Kolor obramowania:",
+                  "apply": "Zastosuj ten sam kolor obramowania co słupek dodatni"
+                },
+                "group3": {
+                  "title": "Ustawienia osi",
+                  "description": "Wybierz pozycję osi w komórce, aby zmienić wygląd słupków dla wartości ujemnych",
+                  "radio": {
+                    "auto": "Automatyczny (wyświetlanie w różnych pozycjach na podstawie wartości ujemnych)",
+                    "cell": "Środek komórki",
+                    "none": "Brak (pokaż słupki wartości ujemnej w tym samym kierunku co dodatnie)"
+                  },
+                  "axisColor": "kolor osi:"
+                }
+              }
+            },
+            "iconSets": {
+              "iconStyle": "Styl ikony:",
+              "showIconOnly": "Pokaż tylko ikonę",
+              "reverseIconOrder": "Odwróć kolejność ikon",
+              "display": "Wyświetlaj każdą ikonę zgodnie z tymi zasadami:",
+              "icon": "Ikona",
+              "value": "Wartość",
+              "type": "Typ",
+              "description1": "kiedy wartość jest",
+              "description2": "kiedy < ",
+              "operator": {
+                "largeOrEqu": ">=",
+                "large": ">"
+              }
+            },
+            "commonSelector": {
+              "num": "Numer",
+              "percent": "Procent",
+              "formula": "Formuła",
+              "percentile": "Percentyl"
+            }
+          },
+          "formatContain": {
+            "description": "Formatuj komórki tylko z:",
+            "type": {
+              "cellValue": "Wartość komórki",
+              "specificText": "Konkretny tekst",
+              "dateOccurring": "Występujące daty",
+              "blanks": "Puste",
+              "noBlanks": "Brak pustych",
+              "errors": "Błędy",
+              "noErrors": "Bez błędów"
+            },
+            "operator_cellValue": {
+              "between": "pomiędzy",
+              "notBetween": "nie pomiędzy",
+              "equalTo": "równy do",
+              "notEqualTo": "nie równy do",
+              "greaterThan": "większy od",
+              "lessThan": "mniejszy od",
+              "greaterThanOrEqu": "większy bądź równy",
+              "lessThanOrEqu": "mniejszy bądź równy"
+            },
+            "operator_specificText": {
+              "containing": "zawierający",
+              "notContaining": "nie zawierający",
+              "beginningWith": "rozpoczynający się",
+              "endingWith": "kończący się"
+            }
+          },
+          "formatRankedValue": {
+            "description": "Sformatuj komórki, które znajdują się w rankingu:",
+            "type": {
+              "top": "Góra",
+              "bottom": "Dół"
+            }
+          },
+          "formatAbove": {
+            "description": "Sformatuj komórki, które są:",
+            "type": {
+              "above": "powyżej",
+              "below": "poniżej",
+              "equalOrAbove": "równy bądź powyżej",
+              "equalOrBelow": "równy bądź poniżej",
+              "std1Above": "1 odchylenie standardowe powyżej",
+              "std1Below": "1 odchylenie standardowe poniżej",
+              "std2Above": "2 odchylenie standardowe powyżej",
+              "std2Below": "2 odchylenie standardowe poniżej",
+              "std3Above": "3 odchylenie standardowe powyżej",
+              "std3Below": "3 odchylenie standardowe poniżej"
+            },
+            "description2": "średnia dla wybranego zakresu"
+          },
+          "formatUnique": {
+            "description": "Formatuj wszystkie:",
+            "type": {
+              "duplicate": "Duplikaty",
+              "unique": "Unikalne"
+            },
+            "description2": "wartości w wybranym zakresie"
+          },
+          "useFormula": {
+            "description": "Sformatuj wartości, w których ta formuła jest prawdziwa:"
+          },
+          "preview": {
+            "description": "Podgląd:",
+            "buttonText": "Formatuj...",
+            "noFormat": "Brak ustawionego formatu",
+            "hasFormat": "AaBbCcYyZz"
+          }
+        },
+        "withStyle": {
+          "lightRedFill_DarkRedText": "Jasnoczerwone wypełnienie z ciemnoczerwonym tekstem",
+          "yellowFill_DarkYellowText": "Żółte wypełnienie z ciemnożółtym tekstem",
+          "greenFill_DarkGreenText": "Zielone wypełnienie z ciemnozielonym tekstem",
+          "lightRedFill": "Jasnoczerwone wypełnienie",
+          "redText": "Czerwony tekst",
+          "redBorder": "Czerwone obramowanie",
+          "customFormat": "Format niestandardowy..."
+        },
+        "exceptions": {
+          "e1": "Wprowadzona wartość nie jest prawidłową liczbą, datą, godziną lub ciągiem.",
+          "e2": "Wprowadź wartość.",
+          "e3": "Wpisz liczbę całkowitą od 1 do 1000.",
+          "e4": "Wprowadzona wartość nie może być pusta.",
+          "e5": "Tego typu odwołania nie można używać w formule formatowania warunkowego. \n Zmień odwołanie do pojedynczej komórki lub użyj odwołania z funkcją arkusza, taką jak = SUMA (A1: E5).",
+          "e6": "Zakres źródłowy reguły formuły może być tylko jednym zakresem!"
+        }
+      },
+      "formattingRulesManagerDialog": {
+        "title": "Menedżer reguł formatowania warunkowego",
+        "rulesScopeLabel": "Reguły formatowania dla tego arkusza: ",
+        "rulesScopeForSelection": "Obecny wybór",
+        "rulesScopeForWorksheet": "Ten arkusz roboczy",
+        "newRule": "Nowa reguła...",
+        "editRule": "Edytuj regułę...",
+        "deleteRule": "Usuń regułę...",
+        "gridTitleRule": "Reguła (stosowana w pokazanej kolejności)",
+        "gridTitleFormat": "Formatuj",
+        "gridTitleAppliesTo": "Dotyczy",
+        "gridTitleStopIfTrue": "Przestań, jeśli prawda",
+        "ruleDescriptions": {
+          "valueBetween": "Wartość komórki między {0} a {1}",
+          "valueNotBetween": "Wartość komórki nie między {0} a {1}",
+          "valueEquals": "Wartość komórki = {0}",
+          "valueNotEquals": "Wartość komórki <> {0}",
+          "valueGreateThan": "Wartość komórki > {0}",
+          "valueGreateThanOrEquals": "Wartość komórki >= {0}",
+          "valueLessThan": "Wartość komórki < {0}",
+          "valueLessThanOrEquals": "Wartość komórki <= {0}",
+          "valueContains": "Wartość komórki zawiera \"{0}\"",
+          "valueNotContains": "Wartość komórki nie zawiera \"{0}\"",
+          "valueBeginsWith": "Wartość komórki zaczyna się \"{0}\"",
+          "valueEndsWith": "Wartość komórki kończy się \"{0}\"",
+          "last7Days": "Ostatnie 7 dni",
+          "lastMonth": "Ostatni miesiąc",
+          "lastWeek": "Ostatni tydzień",
+          "nextMonth": "Następny miesiąc",
+          "nextWeek": "Następny tydzień",
+          "thisMonth": "Ten miesiąc",
+          "thisWeek": "Ten tydzień",
+          "today": "Dzisiaj",
+          "tomorrow": "Jutro",
+          "yesterday": "Wczoraj",
+          "duplicateValues": "Zduplikowane wartości",
+          "uniqueValues": "Unikalne wartości",
+          "top": "Górne {0}",
+          "bottom": "Dolne {0}",
+          "above": "Powyżej średniej",
+          "above1StdDev": "1 odchylenie standardowe powyżej średniej",
+          "above2StdDev": "2 odchylenie standardowe powyżej średniej",
+          "above3StdDev": "3 odchylenie standardowe powyżej średniej",
+          "below": "Poniżej średniej",
+          "below1StdDev": "1 odchylenie standardowe poniżej średniej",
+          "below2StdDev": "2 odchylenie standardowe poniżej średniej",
+          "below3StdDev": "3 odchylenie standardowe poniżej średniej",
+          "equalOrAbove": "Równy lub wyższy od średniej",
+          "equalOrBelow": "Równa lub niższy od średniej",
+          "dataBar": "Pasek danych",
+          "twoScale": "2-Stopniowana skala kolorów",
+          "threeScale": "3-Stopniowana skala kolorów",
+          "iconSet": "Zestaw ikon",
+          "formula": "Formuła: {0}"
+        },
+        "previewText": "AaBbCcYyZz"
+      },
+      "formatDialog": {
+        "title": "Formatuj komórki",
+        "fieldTitle": "Formatuj pole",
+        "chartTitle": "Formatuj wykres",
+        "number": "Numer",
+        "alignment": "Wyrównanie",
+        "font": "Czcionka",
+        "border": "Obramowanie",
+        "fill": "Wypełnienie",
+        "icon": "Ikona",
+        "protection": "Ochrona",
+        "category": "Kategoria:",
+        "backColor": "Kolor tła",
+        "textAlignment": "Wyrównanie tekstu",
+        "horizontalAlignment": "Poziomo:",
+        "verticalAlignment": "Pionowo:",
+        "indent": "Akapit:",
+        "textControl": "Kontrola tekstu",
+        "wrapText": "Zawijanie tekstu",
+        "shrink": "Zmniejsz, aby dopasować",
+        "merge": "Scal komórki",
+        "top": "Góra",
+        "bottom": "Dół",
+        "left": "Lewo",
+        "right": "Prawo",
+        "center": "Środek",
+        "general": "Ogólny",
+        "sampleText": "Tekst",
+        "cantMergeMessage": "Nie można scalić nakładających się zakresów.",
+        "lock": "Zablokowany",
+        "lockComments": "Blokowanie komórek nie działa, dopóki nie zabezpieczysz arkusza (karta recenzji, grupy zmian, przycisk chroń arkusz).",
+        "backGroundColor": "Kolor tła:",
+        "moreColorsText": "Więcej kolorów",
+        "noFillText": "Bez kolorów",
+        "sample": "Próbka",
+        "padding": "Podszycie",
+        "none": "Brak"
+      },
+      "borderDialog": {
+        "border": "Obramowanie",
+        "presets": "Ustawienia wstępne",
+        "none": "Brak",
+        "outline": "Zarys",
+        "inside": "Wewnątrz",
+        "line": "Linia",
+        "text": "Tekst",
+        "comments": "Wybrany styl obramowania można zastosować, klikając ustawienia wstępne, diagram podglądu lub powyższe przyciski."
+      },
+      "colorPicker": {
+        "themeColorsTitle": "Kolory motywu",
+        "standardColorsTitle": "Kolory standardowe",
+        "noFillText": "Brak kolorów",
+        "moreColorsText": "Więcej kolorów...",
+        "colorDialogTitle": "Kolor",
+        "red": "Czerwony: ",
+        "green": "Zielony: ",
+        "blue": "Niebieski: ",
+        "newLabel": "Nowy",
+        "currentLabel": "Obecny"
+      },
+      "fontPicker": {
+        "familyLabelText": "Czcionka:",
+        "styleLabelText": "Styk czcionki:",
+        "sizeLabelText": "Rozmiar:",
+        "weightLabelText": "Grubość:",
+        "colorLabelText": "Kolor:",
+        "normalFontLabelText": "Zwykła czcionka",
+        "previewLabelText": "Podgląd",
+        "previewText": "AaBbCcYyZz",
+        "effects": "Efekty:",
+        "underline": "Podkreślenie",
+        "strikethrough": "Przekreślenie",
+        "fontFamilies": {
+          "Arial": "Arial",
+          "Arial Black": "Arial Black",
+          "Calibri": "Calibri",
+          "Cambria": "Cambria",
+          "Candara": "Candara",
+          "Century": "Century",
+          "Courier New": "Courier New",
+          "Comic Sans MS": "Comic Sans MS",
+          "Garamond": "Garamond",
+          "Georgia": "Georgia",
+          "Malgun Gothic": "Malgun Gothic",
+          "Mangal": "Mangal",
+          "Tahoma": "Tahoma",
+          "Times": "Times",
+          "Times New Roman": "Times New Roman",
+          "Trebuchet MS": "Trebuchet MS",
+          "Verdana": "Verdana",
+          "Wingdings": "Wingdings",
+          "Meiryo": "Meiryo",
+          "MS Gothic": "MS Gothic",
+          "MS Mincho": "MS Mincho",
+          "MS PGothic": "MS PGothic",
+          "MS PMincho": "MS PMincho"
+        },
+        "fontStyles": {
+          "normal": "Normalna",
+          "italic": "Kursywa",
+          "bold": "Pogrubienie",
+          "boldItalic": "Pogrubiona kursywa"
+        },
+        "fontWeights": {
+          "normal": "Normalna",
+          "bold": "Pogrubienie",
+          "bolder": "Większe Pogrubienie",
+          "lighter": "Odchudzenie"
+        }
+      },
+      "borderPicker": {
+        "lineStyleTitle": "Styl:",
+        "borderColorTitle": "Kolor:"
+      },
+      "categories": {
+        "general": "Ogólny",
+        "numbers": "Liczba",
+        "currency": "Waluta",
+        "accounting": "Księgowość",
+        "date": "Data",
+        "time": "Czas",
+        "percentage": "Procent",
+        "fraction": "Ułamek",
+        "scientific": "Naukowy",
+        "text": "Tekst",
+        "special": "Specjalny",
+        "custom": "Niestandardowy"
+      },
+      "formatNumberComments": {
+        "generalComments": "Komórki formatu ogólnego nie mają określonego formatu liczb.",
+        "numberComments": "Liczba służy do ogólnego wyświetlania liczb. Waluta i Księgowość oferują specjalistyczne formatowanie wartości pieniężnych.",
+        "currencyComments": "Formaty walut są używane do ogólnych wartości pieniężnych. Użyj formatów księgowania, aby wyrównać kropki dziesiętne w kolumnie.",
+        "accountingComments": "Formaty księgowe wyrównują symbole walut i miejsca dziesiętne w kolumnie.",
+        "dateComments": "Formaty daty wyświetlają numery seryjne daty i godziny jako wartości dat.",
+        "timeComments": "Formaty czasu wyświetlają numery seryjne daty i godziny jako wartości czasu.",
+        "percentageComments": "Formaty procentowe mnożą wartość komórki przez 100 i wyświetlają wynik z symbolem procentu.",
+        "textComments": "Komórki sformatowane jako tekst są traktowane jako tekst, nawet jeśli w komórce znajduje się liczba. Komórka jest wyświetlana dokładnie tak, jak została wprowadzona.",
+        "specialComments": "Specjalne formaty są przydatne do śledzenia list i wartości bazy danych.",
+        "customComments": "Wpisz kod formatu liczb, używając jednego z istniejących kodów jako punktu początkowego."
+      },
+      "formatNumberPickerSetting": {
+        "type": "Typ:",
+        "decimalPlaces": "Miejsca dziesiętne:",
+        "symbol": "Symbol:",
+        "negativeNumber": "Liczby ujemne:",
+        "separator": "Użyj separatora 1000 (,)",
+        "deleted": "Usuń",
+        "locale": "Lokalizacja (lokalizacja):",
+        "calendar": "Typ kalendarza:"
+      },
+      "localeType": {
+        "en_us": "Angielski(U.S.)",
+        "zh_cn": "Chiński",
+        "pl": "Polski",
+        "sp": "Hiszpański"
+      },
+      "calendarType": {
+        "western": "Zachodni"
+      },
+      "fractionFormats": [
+        "# ?/?",
+        "# ??/??",
+        "# ???/???",
+        "# ?/2",
+        "# ?/4",
+        "# ?/8",
+        "# ??/16",
+        "# ?/10",
+        "# ??/100"
+      ],
+      "numberFormats": [
+        "0",
+        "0_);(0)",
+        "#,##0",
+        "#,##0_);(#,##0)"
+      ],
+      "dateFormats": [
+        "m/d/yyyy",
+        "[$-F800]dddd, mmmm dd, yyyy",
+        "m/d;@",
+        "m/d/yy;@",
+        "mm/dd/yy;@",
+        "[$-409]d-mmm;@",
+        "[$-409]d-mmm-yy;@",
+        "[$-409]dd-mmm-yy;@",
+        "[$-409]mmm-yy;@",
+        "[$-409]mmmm-yy;@",
+        "[$-409]mmmm d, yyyy;@",
+        "[$-409]m/d/yy h:mm AM/PM;@",
+        "m/d/yy h:mm;@",
+        "[$-409]mmmmm;@",
+        "[$-409]mmmmm-yy;@",
+        "m/d/yyyy;@",
+        "[$-409]d-mmm-yyyy;@"
+      ],
+      "chinaWesternDateFormat": [
+        "yyyy-mm-dd;@",
+        "[DBNum1][$-804]yyyy年m月d日;@",
+        "[DBNum1][$-804]yyyy年m月;@",
+        "[DBNum1][$-804]m月d日;@",
+        "yyyy年m月d日;@",
+        "yyyy年m月;@",
+        "m月d日;@",
+        "[$-804]aaaa;@",
+        "[$-804]aaa;@",
+        "yyyy/m/d;@",
+        "[$-409]yyyy/m/d h:mm AM/PM;@",
+        "yyyy/m/d h:mm;@",
+        "m/d/yy;@",
+        "m/d;@",
+        "mm/dd/yy;@",
+        "[$-409]d-mmm;@",
+        "[$-409]d-mmm-yy;@",
+        "[$-409]dd-mmm-yy;@",
+        "[$-409]mmm-yy;@",
+        "[$-409]mmmm-yy;@",
+        "[$-409]mmmmm;@",
+        "[$-409]mmmmm-yy;@"
+      ],
+      "polandDateFormats": [
+        "m/d/yyyy",
+        "[$-F800]dddd, mmmm dd, yyyy",
+        "m/d;@",
+        "m/d/yy;@",
+        "mm/dd/yy;@",
+        "[$-409]d-mmm;@",
+        "[$-409]d-mmm-yy;@",
+        "[$-409]dd-mmm-yy;@",
+        "[$-409]mmm-yy;@",
+        "[$-409]mmmm-yy;@",
+        "[$-409]mmmm d, yyyy;@",
+        "[$-409]m/d/yy h:mm AM/PM;@",
+        "m/d/yy h:mm;@",
+        "[$-409]mmmmm;@",
+        "[$-409]mmmmm-yy;@",
+        "m/d/yyyy;@",
+        "[$-409]d-mmm-yyyy;@"
+      ],
+      "spainDateFormats": [
+        "m/d/yyyy",
+        "[$-F800]dddd, mmmm dd, yyyy",
+        "m/d;@",
+        "m/d/yy;@",
+        "mm/dd/yy;@",
+        "[$-409]d-mmm;@",
+        "[$-409]d-mmm-yy;@",
+        "[$-409]dd-mmm-yy;@",
+        "[$-409]mmm-yy;@",
+        "[$-409]mmmm-yy;@",
+        "[$-409]mmmm d, yyyy;@",
+        "[$-409]m/d/yy h:mm AM/PM;@",
+        "m/d/yy h:mm;@",
+        "[$-409]mmmmm;@",
+        "[$-409]mmmmm-yy;@",
+        "m/d/yyyy;@",
+        "[$-409]d-mmm-yyyy;@"
+      ],
+      "japanEmperorReignDateFormat": [
+        "[$-411]ge.m.d;@",
+        "[$-411]ggge'年'm'月'd'日';@"
+      ],
+      "timeFormats": [
+        "[$-F400]h:mm:ss AM/PM",
+        "h:mm;@",
+        "[$-409]h:mm AM/PM;@",
+        "h:mm:ss;@",
+        "[$-409]h:mm:ss AM/PM;@",
+        "mm:ss.0;@",
+        "[h]:mm:ss;@",
+        "[$-409]m/d/yy h:mm AM/PM;@",
+        "m/d/yy h:mm;@"
+      ],
+      "chinaTimeFormats": [
+        "h:mm;@",
+        "[$-409]h:mm AM/PM;@",
+        "h:mm:ss;@",
+        "[$-409]h:mm:ss AM/PM;@",
+        "上午/下午h时mm分;@",
+        "上午/下午h时mm分ss秒;@",
+        "[DBNum1][$-804]h时mm分;@",
+        "[DBNum1][$-804]上午/下午h时mm分;@"
+      ],
+      "polandTimeFormats": [
+        "[$-F400]h:mm:ss AM/PM",
+        "h:mm;@",
+        "[$-409]h:mm AM/PM;@",
+        "h:mm:ss;@",
+        "[$-409]h:mm:ss AM/PM;@",
+        "mm:ss.0;@",
+        "[h]:mm:ss;@",
+        "[$-409]m/d/yy h:mm AM/PM;@",
+        "m/d/yy h:mm;@"
+      ],
+      "spainTimeFormats": [
+        "[$-F400]h:mm:ss AM/PM",
+        "h:mm;@",
+        "[$-409]h:mm AM/PM;@",
+        "h:mm:ss;@",
+        "[$-409]h:mm:ss AM/PM;@",
+        "mm:ss.0;@",
+        "[h]:mm:ss;@",
+        "[$-409]m/d/yy h:mm AM/PM;@",
+        "m/d/yy h:mm;@"
+      ],
+      "textFormats": [
+        "@"
+      ],
+      "specialFormats": [
+        "00000",
+        "00000-0000",
+        "[<=9999999]###-####;(###) ###-####",
+        "000-00-0000"
+      ],
+      "specialChinaFormats": [
+        "000000",
+        "[DBNum1][$-804]Ogólny",
+        "[DBNum2][$-804]Ogólny"
+      ],
+      "specialPolandFormats": [
+        "00000",
+        "00000-0000",
+        "[<=9999999]###-####;(###) ###-####",
+        "000-00-0000"
+      ],
+      "specialSpainFormats": [
+        "00000",
+        "00000-0000",
+        "[<=9999999]###-####;(###) ###-####",
+        "000-00-0000"
+      ],
+      "currencyFormats": [
+        "#,##0",
+        "#,##0;-#,##0"
+      ],
+      "percentageFormats": [
+        "0%"
+      ],
+      "scientificFormats": [
+        "0E+00"
+      ],
+      "accountingFormats": [
+        "_(* #,##0_);_(* (#,##0);_(* \"-\"_);_(@_)"
+      ],
+      "customFormats": [
+        "General",
+        "0",
+        "0.00",
+        "#,##0",
+        "#,##0.00",
+        "#,##0;(#,##0)",
+        "#,##0.00;(#,##0.00)",
+        "$#,##0;($#,##0)",
+        "$#,##0.00;($#,##0.00)",
+        "0%",
+        "0.00%",
+        "0.00E+00",
+        "##0.0E+0",
+        "# ?/?",
+        "# ??/??",
+        "m/d/yyyy",
+        "d-mmm-yy",
+        "d-mmm",
+        "mmm-yy",
+        "h:mm AM/PM",
+        "h:mm:ss AM/PM",
+        "hh:mm",
+        "hh:mm:ss",
+        "m/d/yyyy hh:mm",
+        "mm:ss",
+        "mm:ss.0",
+        "@",
+        "[h]:mm:ss",
+        "$ #,##0;$ (#,##0);$ \"-\";@",
+        " #,##0; (#,##0); \"-\";@",
+        "$ #,##0.00;$ (#,##0.00);$ \"-\"??;@",
+        " #,##0.00; (#,##0.00); \"-\"??;@",
+        "hh:mm:ss",
+        "00000",
+        "# ???/???",
+        "000-00-0000",
+        "[$-4]dddd, mmmm dd, yyyy",
+        "m/d;@",
+        "[<=9999999]###-####;(###) ###-####",
+        "# ?/8"
+      ],
+      "specialType": [
+        "Kod pocztowy",
+        "Kod pocztowy + 4",
+        "Numer telefonu",
+        "Numer ubezpieczenia społecznego"
+      ],
+      "specialChinaType": [
+        "邮政编码",
+        "中文小写数字",
+        "中文大写数字"
+      ],
+      "specialPolandType": [
+        "Kod pocztowy",
+        "Kod pocztowy + 4",
+        "Numer telefonu",
+        "Numer ubezpieczenia społecznego"
+      ],
+      "specialSpainType": [
+        "Kod pocztowy",
+        "Kod pocztowy + 4",
+        "Numer telefonu",
+        "Numer ubezpieczenia społecznego"
+      ],
+      "fractionType": [
+        "Do jednej cyfry (1/4)",
+        "Do dwóch cyfr (21/25)",
+        "Do trzech cyfr (312/943)",
+        "Jako połówki (1/2)",
+        "Jako ćwiartki (2/4)",
+        "Jako ósemki (4/8)",
+        "Jako szestanstki (8/16)",
+        "Jako dziesiąte (3/10)",
+        "Jako setne (30/100)"
+      ],
+      "insertFunctionDialog": {
+        "title": "Wstaw funkcję",
+        "functionCategory": "Kategoria funkcji:",
+        "functionList": "Lista funkcji:",
+        "formula": "Formuła:",
+        "functionCategorys": "Wszystko, baza danych, data i godzina, inżynieria, finanse, informacje, logika, wyszukiwanie i odniesienia, matematyka i trygonometria, statystyki, tekst"
+      }
+    }
+  },
+  "actionBar": {
+    "filter": "Filtr",
+    "sort": "Sortowanie",
+    "swapRowsAndCols": "Zamień wiersze i kolumny",
+    "rank": "Wizualizacja warunkowa",
+    "changeChartType": "Typ wykresu",
+    "changePivotSetting": "Wiązanie danych",
+    "conditionalFormat": "Format warunkowy",
+    "referenceLine": "Linia referencyjna",
+    "showData": "Pokaż dane",
+    "hideData": "Ukryj dane",
+    "clearCustomData": "Wyczyść dane niestandardowe",
+    "expand": "Rozszerz",
+    "shrink": "Zmniejsz",
+    "focus": "Skupienie",
+    "exitFocus": "Powrót do designera",
+    "selectMap": "Wybierz Mapę",
+    "edit": "Edytuj",
+    "remove": "Usuń",
+    "moreActions": "Więcej akcji",
+    "enableCrossFilter": "Włącz filtr krzyżowy",
+    "disableCrossFilter": "Wyłącz filtr krzyżowy",
+    "trendLine": "Linia trendu",
+    "export": "Eksport",
+    "addAnnotation": "Dodaj adnotację",
+    "editAnnotation": "Edytuj adnotację",
+    "annotation": "Adnotacje",
+    "selectFloorPlan": "Wybierz plan budynku",
+    "clearRuntimeFilters": "Wyczyść filtry wykonawcze",
+    "refreshDefinition": "Odświerz",
+    "shareScenario": "Udostępnij scenariusz",
+    "openFullDashboard": "Otwórz pełny dashboard",
+    "clearSelection": "Wyczyść zaznaczenie",
+    "analysisPath": "Ścieżka analizy",
+    "mergeDatasets": "Scal zestawy danych",
+    "contentSetting": "Skonfiguruj"
+  },
+  "charts": {
+    "tooltip": {
+      "keep": "Trzymaj",
+      "exclude": "Wyklucz",
+      "drill": "Przejdź niżej",
+      "drillDown": "Przejdź niżej",
+      "drillDetail": "Przejdź do szczegółów",
+      "drillDetailNoFilter": "(Brak filtra)",
+      "drillRoot": "Katalog domowy",
+      "drillClear": "Wyczyść elementy wiercenia",
+      "jump": "Skocz",
+      "noDimensionToDrill": "Brak wymiaru do wiercenia",
+      "expandHierarchy": "Rozwiń grupy",
+      "collapseHierarchy": "Zwiń grupy"
+    },
+    "displayUnit": {
+      "none": "Żadne",
+      "e2": "Setki",
+      "e3": "K",
+      "e4": "10K",
+      "e5": "100K",
+      "e6": "Mln",
+      "e7": "10M",
+      "e8": "100M",
+      "e9": "Mld",
+      "e12": "Bil",
+      "pattern": "({{unit}})"
+    }
+  },
+  "tables": {
+    "grandTotal": "Łączna suma",
+    "subTotal": "Łącznie"
+  },
+  "richText": {
+    "hint": "Komponent tekstu sformatowanego jest teraz pusty. Kliknij przycisk edycji w prawym górnym rogu, aby dodać treść.",
+    "expression": {
+      "title": "Agregacja",
+      "loading": "{ładowanie...}",
+      "noData": "-",
+      "preparing": "{przygotowywanie...}",
+      "dataset": "Zbiór danych",
+      "chooseField": "Wybierz pole",
+      "field": "Pole",
+      "noFilterHint": "Nie dodano żadnego filtra dla tego scenariusza. Kliknij przycisk powyżej, aby dodać filtr.",
+      "displayUnit": "Wyświetlacz",
+      "format": "Format"
+    },
+    "expressionVariable": {
+      "title": "Zmienna kontekstowa",
+      "prompt": "Wskazówka: wprowadź pojedynczą zmienną kontekstową taką jak zestawy danych [\"Nazwa zestawu danych\"]."
+    },
+    "fontSize": {
+      "smaller": "Mniejszy",
+      "small": "Mały",
+      "normal": "Normalny",
+      "large": "Duży",
+      "larger": "Większy"
+    },
+    "link": {
+      "title": "Ustawienia linku",
+      "url": "Url",
+      "targetPage": "Strona docelowa",
+      "none": "Brak"
+    }
+  },
+  "embeddedDashboard": {
+    "emptyText": "Kliknij przycisk edycji, aby dodać dokument pulpitu nawigacyjnego."
+  },
+  "embeddedReport": {
+    "emptyText": "Kliknij przycisk edycji, aby dodać dokument raportu."
+  },
+  "spreadChart": {
+    "saveDataRange": "Zapisz jako źródło danych",
+    "enterEditing": "Skonfiguruj niestandardowy zestaw danych",
+    "exitEditing": "Wyjdź z konfiguracji",
+    "bindingHint": "Kliknij przycisk \"Konfiguruj\", aby wygenerować zestaw danych.",
+    "bindingHintInEditing": "Wybierz żądane komórki, aby wygenerować zestaw danych.",
+    "addPivotTable": "Dodaj tabelę przestawną",
+    "removePivotTable": "Usuń tabelę przestawną",
+    "setDataSourceRange": "Ustaw zakres wyboru jako źródło danych",
+    "showDataSourceRange": "Pokaż zakres źródła danych",
+    "hideDataSourceRange": "Ukryj zakres źródła danych",
+    "save": "Zapisz",
+    "values": "Wartości",
+    "columnsPattern": "Kolumna{{index}}",
+    "rowsPattern": "Wiersz{{index}}",
+    "removeData": "Usuń puste komórki",
+    "none": "Żaden",
+    "emptyRowColumn": "Puste wiersze/kolumny",
+    "emptyDimension": "Puste wymiary",
+    "emptyCell": "Puste komórki",
+    "columnAsField": "Kolumna jako pole",
+    "layout": "Wygląd",
+    "tables": "Agregacja",
+    "source": "Obliczenia",
+    "tablesAndSource": "Agregacja i obliczenia",
+    "tablesAndViewer": "Obliczenia i wizualizacja",
+    "all": "Wszystko",
+    "getPivotDataDescription": "Ta funkcja zwróci dane przestawne.",
+    "invalidOperation": "Nieprawidłowa operacja",
+    "dataTableNeedColumnField": "Włącz \"Kolumna jako pole\" w inspektorze"
+  },
+  "mergedChart": {
+    "datasetJoinType": "Typ łączenia zestawu danych",
+    "innerJoin": "Inner Join",
+    "fullJoin": "Full Join"
+  },
+  "webContent": {
+    "empty": "Pusty",
+    "emptyInRunTime": "Pusty"
+  },
+  "slicers": {
+    "filterPlaceholder": "Szukaj",
+    "selectAll": "(Wszystko)",
+    "search": "Szukaj",
+    "clearSelection": "Wyczyść wybór",
+    "sort": "Sortowanie fragmentowe",
+    "notSelected": "Nie ustawione",
+    "startDate": "Data początkowa",
+    "endDate": "Data końcowa",
+    "value": "Wartość",
+    "showMore": "Pokaż więcej…",
+    "selectParameter": "Wybierz parametr",
+    "dateRangeSlicer": {
+      "dateFormat": "MM/DD/RRRR",
+      "yearFormat": "RRRR",
+      "yearQuarterFormats": [
+        "[Q]1 RRRR",
+        "[Q]2 RRRR",
+        "[Q]3 RRRR",
+        "[Q]4 RRRR"
+      ],
+      "quarterFormats": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q4"
+      ],
+      "monthFormat": "MMM",
+      "yearMonthFormat": "MMM RRRR",
+      "timeFormat": "GG:mm:ss",
+      "date": "Data",
+      "year": "Rok",
+      "yearQuarter": "Rok-Kwartał",
+      "yearMonth": "Rok-Miesiąc",
+      "dateTime": "Data i godzina",
+      "dateRange": "Zakres daty",
+      "selectedRange": "Wybrany zakres: ",
+      "ok": "OK",
+      "useDynamicRange": "Użyj zakresu dynamicznego",
+      "useStaticRange": "Użyj zakresu statycznego",
+      "dynamicRange": {
+        "today": "Dzisiaj",
+        "yesterday": "Wczoraj",
+        "thisWeek": "Ten tydzień",
+        "last7Days": "Ostatnie 7 dni",
+        "thisMonth": "Ten miesiąc",
+        "last30Days": "Ostatnie 30 dni",
+        "thisYear": "Ten rok",
+        "last365Days": "Ostatnie 365 dni"
+      }
+    },
+    "relativeDateSlicer": {
+      "PreviousYear": "Poprzedni rok",
+      "ThisYear": "Ten rok",
+      "ThisQuarter": "Ten kwartał",
+      "PreviousMonth": "Poprzedni miesiąc",
+      "ThisMonth": "Obecny miesiąc",
+      "Q1": "Q1",
+      "Q2": "Q2",
+      "Q3": "Q3",
+      "Q4": "Q4",
+      "none": "Żaden",
+      "custom": "Niestandardowy",
+      "addRelativeDate": "Dodaj datę względną",
+      "itemName": "Nazwa"
+    }
+  },
+  "editors": {
+    "colorDropDown": {
+      "theme": "Kolory motywu",
+      "themeColors": {
+        "base": "{{colorKey}}",
+        "darker25": "{{colorKey}} - 25% ciemniej",
+        "darker50": "{{colorKey}}- 50% ciemniej",
+        "lighter25": "{{colorKey}}- 25% jaśniej",
+        "lighter50": "{{colorKey}} - 50% jaśniej",
+        "lighter75": "{{colorKey}} - 75% jaśniej"
+      }
+    },
+    "relativeDateEditor": {
+      "anchor": "Kotwica",
+      "previousYear": "Poprzedni",
+      "previousDay": "Poprzedni",
+      "previousQuarterMonthWeek": "Poprzedni",
+      "thisYearDay": "Obecny",
+      "thisQuarterMonthWeek": "Obecny",
+      "nextYearDay": "Następny",
+      "nextQuarterMonthWeek": "Następny",
+      "lastN": "Ostatni",
+      "nextN": "Następny",
+      "year": "Rok",
+      "quarter": "Kwartał",
+      "month": "Miesiąc",
+      "week": "Tydzień",
+      "day": "Dzień",
+      "hour": "Godzina",
+      "minute": "Minuta",
+      "second": "Sekunda",
+      "toNow": "Do daty",
+      "toAnchor": "Do daty",
+      "toAnchorDateTime": "Do zakotwiczonego czasu",
+      "toNowTime": "Do aktualnego czasu",
+      "anchorRelativeTo": "Zakotwiczenie względem",
+      "space": " "
+    },
+    "multipleValues": {
+      "label": "<...>",
+      "title": "wiele wartości"
+    },
+    "colorFriendlyDisplay": {
+      "Tint20Percent": "20% jaśniej",
+      "Tint40Percent": "40% jaśniej",
+      "Tint60Percent": "60% jaśniej",
+      "Shade75Percent": "75% ciemniej",
+      "Shade50Percent": "50% ciemniej"
+    },
+    "colorOpacity": "nieprzezroczystość",
+    "colorCustom": {
+      "customColors": "Niestandardowy",
+      "webColors": "Sieć",
+      "noFill": "Bez wypełnienia",
+      "noValue": "Bez wartości",
+      "inherit": "Dziedziczenie",
+      "auto": "Automatycznie"
+    },
+    "parameterWrapper": {
+      "useCustomValue": "Użyj niestandardowej wartości",
+      "addParameter": "Użyj nowego parametru..."
+    },
+    "timespan": {
+      "labels": {
+        "day": "DZI",
+        "hour": "GDZ",
+        "minute": "MIN",
+        "second": "SEK"
+      }
+    },
+    "withAggregatedValue": {
+      "useConstantValue": "Użyj stałej wartości",
+      "addAggregatedValue": "Użyj nowej wartości zagregowanej...",
+      "aggregatedSetting": "Ustawienie agregacji",
+      "addNewValue": "Użyj nowej wartości...",
+      "chooseField": "Wybierz pole"
+    }
+  },
+  "patterns": {
+    "measures": {
+      "pattern": "{{aggregation}} z {{measure}}",
+      "pattern_duplicated": "{{aggregation}} z {{measure}} ({{idx}})",
+      "nonePattern": "{{measure}}",
+      "nonePattern_duplicated": "{{measure}} ({{idx}})"
+    },
+    "calculations": {
+      "running": "Uruchomiona",
+      "moving": "Przenoszenie",
+      "pattern": "{{method}} {{calculation}} na {{aggregation}}",
+      "pattern_duplicated": "{{method}} {{calculation}} na {{aggregation}} ({{idx}})",
+      "accounting": "Percentyl",
+      "ranking": "Ranking",
+      "value": "Wartość",
+      "ratio": "Współczynnik",
+      "difference": "Różnica",
+      "percentDifference": "Różnica procentowa"
+    },
+    "chartTitle": {
+      "default": "Wykres",
+      "separator": ", ",
+      "connector": " i ",
+      "pattern": "{{measure}} według {{dimension}}"
+    },
+    "datetime": {
+      "fiscalYearPattern": "Rok fiskalny {{year}}",
+      "quarter1": "Q1",
+      "quarter2": "Q2",
+      "quarter3": "Q3",
+      "quarter4": "Q4",
+      "parts": {
+        "year": "Rok",
+        "quarter": "Kwartał",
+        "month": "Miesiąc",
+        "week": "Tydzień",
+        "day": "Dzień",
+        "hour": "Godzina",
+        "minute": "Minuta",
+        "second": "Sekunda",
+        "millisecond": "Milisekunda"
+      }
+    },
+    "pageName": {
+      "namePattern": "Strona {{number}}",
+      "namePattern_copy": "{{name}} - Kopia {{number}}",
+      "nameRegex": "^Strona (\\d+)$",
+      "nameRegex_copy": "^{{name}} - Kopia (\\d+)$"
+    },
+    "parameterName": {
+      "namePattern": "Parametr{{number}}",
+      "nameRegex": "^Parametr(\\d+)$"
+    },
+    "container": {
+      "defaultTitle": "Kontener",
+      "tabTitleButton": "Etykieta {{number}}",
+      "tabTitleRegex": "^Etykieta (\\d+)$"
+    },
+    "tooltip": {
+      "selectedValue": "{{count}} wybrana wartość",
+      "selectedValue_plural": "{{count}} wybrane wartości"
+    },
+    "conditions": {
+      "between": " Pomiędzy {{min}} i {{max}}",
+      "notBetween": " Nie pomiędzy {{min}} i {{max}}",
+      "aboveMax":" Większy niż maks {{right}}",
+      "belowMin":" Mniej niż min {{right}}",
+      "aboveAverage":" Większy niż średnia {{right}}",
+      "belowAverage":" Mniej niż średnia {{right}}"
+    }
+  },
+  "notifications": {
+    "dashboardSaving": "Zapisywanie dashboardu",
+    "dashboardSaved": "Dashboard zapisany.",
+    "dismiss": "Odwołaj",
+    "dismissAll": "Odwołaj wszystkie",
+    "showAll": "Pokaż wszystkie",
+    "showDetails": "Pokaż szczegóły",
+    "infoCategory": "Informacje",
+    "warningCategory": "Uwaga",
+    "errorCategory": "Błąd",
+    "expandTitle": "Rozwiń",
+    "collapseTitle": "Zwiń",
+    "promptUsingMobileView": {
+      "title": "Widok mobilny jest używany",
+      "content": "Uwaga: na pulpicie nawigacyjnym jest wyświetlany 'Widok mobilny'. Przejdź do 'widoku pulpitu', aby zobaczyć pełny pulpit nawigacyjny."
+    }
+  },
+  "error": {
+    "noImage": "Brak obrazu",
+    "noImageInRunTime": "Brak obrazu",
+    "noData": "Nie znaleziono danych",
+    "getDatasetFailed": "Nie udało się pobrać danych!",
+    "getDatasetNoAccess": "Brak wymaganych uprawnień do pobierania danych!",
+    "loadGeoDataFailed": "Nie udało się załadować danych geograficznych!",
+    "loadFloorPlanDataFailed": "Nie udało się wczytać danych planu piętra!",
+    "exportFailed": "Nie udało się wyeksportować.",
+    "getTokenFailed": "Nie udało się uzyskać tokena.",
+    "notSupportChangeChartType": "Komponent wizualizacji nie obsługuje zmiany typu wykresu!",
+    "loadVisualFailed": "Nie udało się załadować wizualizacji",
+    "docWithoutAccess": {
+      "title": "Niektóre używane dokumenty bez dostępu lub nie znalezione.",
+      "dashboard": "{{count}} Dashboard",
+      "dashboard_plural": "{{count}} Dashboardy",
+      "report": "{{count}} Raport",
+      "report_plural": "{{count}} Raporty",
+      "dataset": "{{count}} Zestaw danych",
+      "dataset_plural": "{{count}} Zestawy danych",
+      "dataModel": "{{count}} Model danych",
+      "dataModel_plural": "{{count}} Modele danych",
+      "image": "{{count}} Obraz",
+      "image_plural": "{{count}} Obrazy",
+      "mapData": "{{count}} Mapa danych",
+      "mapHierarchy": "{{count}} Mapa hierarchii",
+      "mapHierarchy_plural": "{{count}} Map/y hierarchii",
+      "visualization": "{{count}} Wizualizacja",
+      "font": "{{count}} Czcionka",
+      "font_plural": "{{count}} Czcionki",
+      "floorPlan": "{{count}} Plan budynku",
+      "theme": "{{count}} Motyw",
+      "theme_plural": "{{count}} Motywy",
+      "comma": ", ",
+      "content": " bez dostępu."
+    },
+    "statusCode": {
+      "401": {
+        "title": "Brak autoryzacji",
+        "content": "Twoje dane logowania są nieprawidłowe lub wygasły. Spróbuj ponownie załadować stronę lub zalogować się ponownie."
+      },
+      "403": {
+        "title": "Zakaz",
+        "content": "Nie masz wymaganych uprawnień, aby uzyskać dostęp do zasobu."
+      },
+      "404": {
+        "title": "Nie znaleziono",
+        "content": "{{content}} nie został znaleziony."
+      },
+      "500": {
+        "title": "Wewnętrzny błąd serwera",
+        "content": ""
+      }
+    },
+    "errorCode": {
+      "200000": {
+        "title": "Nieznany błąd",
+        "content": "{{context}}"
+      },
+      "200002": {
+        "title": "Nie znaleziono dokumentu",
+        "contentHasName": "Nie można znaleźć dokumentu {{type}} '{{name}}'.",
+        "contentNoName": "Nie można znaleźć dokumentu {{type}}, do którego się odwołuje."
+      },
+      "200101": {
+        "title": "{{title}} - Dashboard istnieje",
+        "content": "Już istnieje dashboard z taką nazwą"
+      },
+      "200102": {
+        "title": "Przekroczono liczbę dokumentów",
+        "content": "Liczba pulpitów nawigacyjnych osiągnęła limit licencji."
+      },
+      "200201": {
+        "title": "Odmowa dostępu do dokumentu",
+        "content": "Nie masz wymaganych uprawnień, aby uzyskać dostęp do dokumentu {{type}} '{{name}}'."
+      },
+      "200204": {
+        "title": "Przekroczono zagregowane punkty danych",
+        "content": "Liczba zagregowanych punktów danych przekracza ustawiony limit."
+      },
+      "200211": {
+        "title": "Pobieranie danych zbioru danych nie powiodło się",
+        "content": "Bieżący użytkownik musi należeć do dedykowanej organizacji, aby uzyskać dostęp do pamięci podręcznej zestawu danych zestawu danych z wieloma dzierżawcami"
+      },
+      "200212": {
+        "title": "Pamięć podręczna zestawu danych jest niedostępna",
+        "content": "Odśwież pamięć podręczną zbioru danych '{{datasetName}}'."
+      },
+      "200213": {
+        "title": "Pamięć podręczna zestawu danych jest niedostępna",
+        "content": "Odśwież pamięć podręczną zbioru danych '{{datasetName}}'."
+      },
+      "200214": {
+        "title": "Przekroczono zagregowaną liczbę punktów danych",
+        "content": "Liczba zagregowanych punktów danych przekracza limit {{maxAggDataPoints}}."
+      },
+      "200215": {
+        "title": "Niewystarczająca wartość kontekstu",
+        "content": "Określona właściwość '{{property}}' nie została znaleziona w kontekście bieżącego użytkownika."
+      },
+      "200216": {
+        "title": "Niewystarczająca wartość kontekstu",
+        "content": "Określona właściwość '{{property}}' nie została znaleziona w bieżącym kontekście organizacji."
+      },
+      "200217": {
+        "title": "Niewystarczająca wartość kontekstu",
+        "content": "Dosłowna wartość parametru kontekstu '{{parametr}}' nie może zostać przekonwertowana na typ '{{dataType}}'."
+      },
+      "200218": {
+        "title": "Niewystarczająca wartość kontekstu",
+        "content": "Wartość parametru kontekstu '{{parametr}}' jest nullem lub pusta."
+      },
+      "200220": {
+        "title": "Zapytanie o dane nie powiodło się"
+      },
+      "200221": {
+        "title": "Zapytanie o dane nie powiodło się"
+      },
+      "200222": {
+        "title": "Zapytanie o dane nie powiodło się"
+      }
+    },
+    "devTools": {
+      "loadDefinitionError": "Nie udało się załadować wizualizacji"
+    },
+    "multiSourceChart": {
+      "measureInGroup": {
+        "title": "Operacja zabroniona",
+        "content": "Nie dodawaj pola miary do roli grupującej!"
+      }
+    },
+    "NoSearchResult": "Nic nie znaleziono!"
+  },
+  "invalidInfos": {
+    "inputEmpty": "Dane wejściowe nie mogą być puste",
+    "invalidFloat": "Wymagana jest prawidłowa liczba",
+    "invalidInteger": "Wymagana jest prawidłowa liczba całkowita",
+    "lessThanMin": "Musi być większa lub równa wartości minimalnej {{ min }}",
+    "lessThanOrEqualToMin": "Musi być większa niż wartość minimalna {{ min }}",
+    "greaterThanMax": "Musi być mniejsza lub równa maksymalnej wartości {{ max }}",
+    "greaterThanOrEqualToMax": "Musi być mniejsza niż wartość maksymalna {{ max }}",
+    "greaterThanMaxLength": "Musi być mniejsza lub równa maksymalnej długości {{ maxLength }}",
+    "notMatchPattern": "Musi pasować do wyrażenia regularnego {{ pattern }}",
+    "date": {
+      "invalidDate": "Wymagana jest ważna data",
+      "lessThanMinDate": "Musi być po lub taka sama jak data minimalna {{ minDate }}",
+      "greaterThanMaxDate": "Musi być przed lub taka sama jak data maksymalna {{ maxDate }}"
+    },
+    "parameter": {
+      "nameEmpty": "Nazwa nie może być pusta",
+      "nameExist": "Nazwa już istnieje",
+      "nameInvalid": "Niepoprawna nazwa",
+      "promptEmpty": "Monit nie może być pusty"
+    },
+    "save": {
+      "empty": "Nazwa nie może być pusta",
+      "invalid": "Niepoprawna nazwa"
+    },
+    "dynamicUrl": {
+      "urlEmpty": "Url nie może być pusty",
+      "illegalHttpFormat": "Niepoprawny Url",
+      "isEmpty": "Nie może być pusty",
+      "unSupportedVariableName": "Nieobsługiwana nazwa zmiennej",
+      "illegalVariableExpression": "Niedozwolone zmienne wyrażenie"
+    }
+  },
+  "contextMenu": {
+    "selection": "Wybór",
+    "overlapping": "Nakładanie",
+    "sendToFront": "Wyślij na wierzch",
+    "bringForward": "Przenieś do przodu",
+    "forward": "Przenieś do przodu",
+    "backward": "Wyślij do tyłu",
+    "sendToBack": "Przeniś do tyłu",
+    "sendBackward": "Przenieś na tył",
+    "alignment": "Wyrównanie",
+    "horizontalAlign": "Wyrównanie w poziomie",
+    "verticalAlign": "Wyrównanie w pionie",
+    "alignLeft": "Wyrównaj do lewej",
+    "alignCenter": "Wyrównaj do środka",
+    "alignRight": "Wyrównaj do prawej",
+    "alignTop": "Wyrównaj do góry",
+    "alignMiddle": "Wyrównaj do środka",
+    "alignBottom": "Wyrównaj do dołu",
+    "swapPositions": "Zamień pozycje",
+    "assimilation": "Asymilacja",
+    "sameWidth": "Ta sama szerokość",
+    "sameHeight": "Ta sama wysokość",
+    "sameSize": "Ten sam rozmiar",
+    "group": "Grupuj",
+    "ungroup": "Rozgrupuj"
+  },
+  "geoMap": {
+    "loadingGeoJSON": "Ładowanie GEOJson z serwera!",
+    "online": "Online",
+    "offline": "Wbudowany",
+    "directGeo": "Niestandardowy"
+  },
+  "drillDownPanel": {
+    "header": "Drążenie",
+    "typeLabel": "Tryb",
+    "drillDownType": {
+      "all": "Domyślny",
+      "list": "Wstępnie ustawione cele",
+      "path": "Wstępnie ustawiona ścieżka"
+    },
+    "itemsTitle": {
+      "list": "Drążenie celów",
+      "path": "Drąż w dół ścieżki"
+    }
+  },
+  "tail": {
+    "dateTime": {
+      "months":[
+        "Styczeń",
+        "Luty",
+        "Marzec",
+        "Kwiecień",
+        "Maj",
+        "Czerwiec",
+        "Lipiec",
+        "Sierpień",
+        "Wrzesień",
+        "Październik",
+        "Listopad",
+        "Grudzień"
+      ],
+      "days":[
+        "Poniedziałek",
+        "Wtorek",
+        "Środa",
+        "Czwartek",
+        "Piątek",
+        "Sobota",
+        "Niedziela"
+      ],
+      "shorts":[
+        "Pn",
+        "Wt",
+        "Śr",
+        "Cz",
+        "Pt",
+        "Sb",
+        "Nd"
+      ],
+      "time":[
+        "Godziny",
+        "Minuty",
+        "Sekundy"
+      ],
+      "header":[
+        "Wybierz miesiąc",
+        "Wybierz rok",
+        "Wybierz dekadę",
+        "Wybierz czas"
+      ]
+    }
+  }
+}

@@ -6,61 +6,74 @@
 
 	// Tabs
 	tasksTabCaption: 'Zadania', // Tasks
-	tasksTabDescription: 'Zadania zaplanowane dla dokumentu', // Scheduled tasks for the document
+	tasksTabDescription: 'Zadania zaplanowane dla tego dokumentu', // Scheduled tasks for the document
 
 	historyTabCaption: 'Historia', // History
-	historyTabDescription: 'Historia zaplanowanych zadań', // Scheduled task execution history
+	historyTabDescription: 'Historia wykonania zaplanowanych zadań', // Scheduled task execution history
 
 	// Tasks Tab
-	tasksTabHeader: 'Zaplanowane zadania', // Scheduled Tasks
+	tasksTabHeader: 'Zaplanowane Zadania', // Scheduled Tasks
 	tasksTabNoTasks: 'Brak zaplanowanych zadań dla tego dokumentu', // There are no scheduled tasks for this document
-	tasksTabBtnAddTask: 'Dodaj zadanie', // Add Task
+	tasksTabBtnAddTask: 'Dodaj Zadanie', // Add Task
 
 	// Task Item
-	taskItemRunBtnTitle: 'Uruchom zadanie', // Run Task
-	taskItemMenuBtnTitle: 'Akcje', // Actions
+	taskItemRunBtnTitle: 'Uruchom Zadanie', // Run Task
+	taskItemMenuBtnTitle: 'Operacje', // Actions
 	taskItemMenuEnableText: 'Włącz', // Enable
-	taskItemMenuEnableTitle: 'Włącz zadanie', // Enable Task
+	taskItemMenuEnableTitle: 'Włącz Zadanie', // Enable Task
 	taskItemMenuDisableText: 'Wyłącz', // Disable
-	taskItemMenuDisableTitle: 'Wyłącz zadanie', // Disable Task
+	taskItemMenuDisableTitle: 'Wyłącz Zadanie', // Disable Task
 	taskItemMenuEditText: 'Edytuj', // Edit
-	taskItemMenuEditTitle: 'Edytuj zadanie', // Edit Task
+	taskItemMenuEditTitle: 'Edytuj Zadanie', // Edit Task
 	taskItemMenuDeleteText: 'Usuń', // Delete
-	taskItemMenuDeleteTitle: 'Usuń zadanie', // Delete Task
+	taskItemMenuDeleteTitle: 'Usuń Zadanie', // Delete Task
+	taskItemMenuDuplicateText: 'Duplikuj', // Duplicate
+	taskItemMenuDuplicateTitle: 'Duplicate Task',
 	taskItemTextNextRun: 'Następne uruchomienie:', // Next run:
 	taskItemTextManually: 'Ręcznie', // Manually
 	taskItemTextNever: 'Nigdy', // Never
+	taskDuplicateSuffix: '-Kopia', // -Copy
 
 	// Task Editor
-	taskNoScheduleTemplateTip: 'brak szablonu planowania', // no schedule template
-	taskEditorCloneFromTemplate: 'Użyj szablonu', // Use Template
-	taskEditorChooseTemplate: 'Wybierz szablon', // Choose Template
+	taskNoScheduleTemplateTip: 'brak szablonu harmonogramu', // no schedule template
+	taskEditorCloneFromTemplate: 'Użyj Szablonu', // Use Template
+	taskEditorChooseTemplate: 'Wybierz Szablon', // Choose Template
 	taskEditorTemplateHasBeenDeleted: 'Szablon został usunięty', // Template has been deleted
 	taskEditorHeaderDetails: 'Szczegóły', // Details
-	taskEditorInputPlaceholderDescription: 'Opis zadania', // Task description
-	taskEditorLabelDateUpdateMode: 'Data Update Mode',
-	taskEditorExecutionOverride: 'Override',
-	taskEditorExecutionIncrementalUpdate: 'Incremental Update',
+	taskEditorInputPlaceholderDescription: 'Opis Zadania', // Task description
+	taskEditorLabelTaskType: 'Typ zadania', // Task Type
+	taskEditorRefreshTask: 'Odśwież', // Refresh
+	taskEditorCleanupTask: 'Sprzątnij', // Cleanup
+	taskEditorLabelDateUpdateMode: 'Tryb aktualizacji danych', // Data Update Mode
+	taskEditorExecutionOverride: 'Nadpisz', // Override
+	taskEditorExecutionIncrementalUpdate: 'Aktualizacja przyrostowa', // Incremental Update
 	taskEditorLabelExecution: 'Wykonanie', // Execution
 	taskEditorExecutionManual: 'Ręcznie', // Manual
 	taskEditorExecutionOneTime: 'Jednorazowo', // One-Time
 	taskEditorExecutionScheduled: 'Zaplanowane', // Scheduled
-	taskEditorLabelStart: 'Start',
-	taskEditorBtnCreateText: 'Utwórz zadanie', // Create Task
-	taskEditorBtnUpdateText: 'Zaktualizuj zadanie', // Update Task
+	taskEditorCleanupExpiryPeriod: 'Okres ważności', // Expiry Period
+	taskEditorLabelStart: 'Start', // Start
+	taskEditorBtnCreateText: 'Utwórz Zadanie', // Create Task
+	taskEditorBtnUpdateText: 'Zaktualizuj Zadanie', // Update Task
 	taskEditorBtnCancelText: 'Anuluj', // Cancel
-	taskEditorLabelMail: 'Powiadomienie email', // Email Notification
-	taskEditorLabelMailLabel: 'Please enter email notification',
+	taskEditorLabelMail: 'Powiadomienie Email', // Email Notification
+	taskEditorLabelMailLabel: 'Wprowadź powiadomienie e-mail', // Please enter email notification
 	taskEditorLabelMailTooltip: 'Wyślij wiadomość na określoną skrzynkę pocztową jeśli zadanie zakończy się niepowodzeniem', // Send the failure message to the specified mailbox when the task execute fail
 	taskEditorMailLabelInvalidDomainTip: 'Nieprawidłowa domena email', // Invalid Email Domain
-	taskEditorEmailFormatError: 'Email format is invalid',
-	taskEditorDescriptionError: 'Task description should not ben empty',
+	taskEditorEmailFormatError: 'Format e-maila jest nieprawidłowy', // Email format is invalid
+	taskEditorDescriptionError: 'Opis zadania nie powinien być pusty', // Task description should not ben empty
+	// Expiry Time Unit
+	taskEditorExpiryTimeUnit_Hour: 'Godziny', // Hours
+	taskEditorExpiryTimeUnit_Day: 'Dni', // Days
+	taskEditorExpiryTimeUnit_Week: 'Tygodnie', // Weeks
+	taskEditorExpiryTimeUnit_Month: 'Miesiące', // Months
+	taskEditorExpiryTimeUnit_Year: 'Lata', // Years
 
 	// Recurrence Editor
 	recEditorHeaderRepeat: 'Powtarzaj', // Repeat
-	recEditorLabelStart: 'Start',
+	recEditorLabelStart: 'Start', // Start
 	recEditorLabelEnd: 'Koniec', // End
-	recEditorPlaceholderNoEndDate: 'Brak daty końcowej', // No End Date
+	recEditorPlaceholderNoEndDate: 'Brak Daty Końcowej', // No End Date
 	recEditorDailyEditor: 'Dziennie', // Daily
 	recEditorWeeklyEditor: 'Tygodniowo', // Weekly
 	recEditorMonthlyEditor: 'Miesięcznie', // Monthly
@@ -95,12 +108,28 @@
 	sagaTextErrorUpdatingTask: 'Nie zaktualizowano zadania', // Task was NOT updated
 	sagaTextErrorDeletingTask: 'Nie skasowano zadania', // Task was NOT deleted
 	sagaTextErrorStartingTask: 'Nie uruchomiono zadania', // Task was NOT started
+	sagaTextErrorDuplicatingTask: 'Zadanie nie zostało zduplikowane', // Task was not duplicated
 
 	sagaToggleNotification: 'Obecny status zadania: {{status, lowercase}}', // Task is now {{status, lowercase}}
 
 	sagaTextErrorGetDataset: 'Błąd podczas wczytywania zestawu danych', // Error loading dataset
 
 	sagaFailed: 'Wtyczka planująca: Nieznany błąd', // Scheduling Plugin: Unknown Error
+
+	// AppMsg
+	selectTaskFailInformType: 'Typ powiadomienia', // Notification Type
+	Email: 'Email', // Email
+	AppMsg: 'Komunikat aplikacji', // Application Message
+	appMsgProvider: 'Dostawca wiadomości aplikacji', // Application Message Provider
+	WeChat4Work: 'Enterprise WeChat', // Enterprise WeChat
+	DingTalk: 'Ding Ding', // Ding Ding
+	delEditorAppMsgLabelRecipients: 'Odbiorcy wiadomości', // Message Recipients
+	delEditorAppMsgLabelRecipientsToolTip: 'Odbiorcy wiadomości. Należy pamiętać, że wszyscy użytkownicy w organizacjach podrzędnych mogą również otrzymywać wiadomości, jeśli zaznaczona jest organizacja nadrzędna', // The recipients of the message. Note that all the users in the sub-organizations can also receive the messages if the parent organization is checked
+	appMsgOrgs: 'Organizacje', // Organizations
+	appMsgRoles: 'Role', // Roles
+	appMsgUsers: 'Użytkownicy', // Users
+	delEditorMenuEmail: 'Email', // Email
+	delEditorMenuAppMsg: 'Wiadomość aplikacji', // App Message
 
 	// Tabs
 	'scheduleTasks!name': 'Zadania', // Tasks
@@ -117,7 +146,7 @@
 	String: 'Napis', // String
 	DateTime: 'DataCzas', // DateTime
 	Date: 'Data', // Date
-	Boolean: 'Boolean',
+	Boolean: 'Boolean', // Boolean
 	Guid: 'GUID', // Guid
 	Unknown: 'Nieobsługiwany', // Unsupported
 

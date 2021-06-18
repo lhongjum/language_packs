@@ -383,6 +383,24 @@ $defaults:
         PageWidth: 8.5in
         RightMargin: 1in
         TopMargin: 1in
+  richtext:
+    place:
+      cm:
+        Height: 1.5cm
+        Width: 2.5cm
+      in:
+        Height: 0.5in
+        Width: 1in
+    props:
+      CanGrow: true
+    style:
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+      PaddingBottom: 2pt
+      PaddingLeft: 2pt
+      PaddingRight: 2pt
+      PaddingTop: 2pt
   shape:
     place:
       cm:
@@ -509,8 +527,8 @@ $defaults:
       PaddingRight: 2pt
       PaddingTop: 2pt
 $toolBoxContent:
-  cpl: TextBox, CheckBox, Container, Line, Shape, TableOfContents, Image, List, Table, Tablix, Chart, Bullet, Barcode, FormattedText, Sparkline, Subreport, BandedList, InputField
-  fpl: TextBox, CheckBox, Container, Line, Shape, TableOfContents, Image, List, Table, Tablix, Chart, Bullet, Barcode, FormattedText, Sparkline, Subreport, OverflowPlaceholder, BandedList, InputField
+  cpl: TextBox, CheckBox, Container, Line, Shape, TableOfContents, Image, List, Table, Tablix, Chart, Bullet, Barcode, FormattedText, RichText, Sparkline, Subreport, BandedList, InputField
+  fpl: TextBox, CheckBox, Container, Line, Shape, TableOfContents, Image, List, Table, Tablix, Chart, Bullet, Barcode, FormattedText, RichText, Sparkline, Subreport, OverflowPlaceholder, BandedList, InputField
 adorners:
   bandedList:
     detailsLabel: "<Szczegóły>"
@@ -542,6 +560,8 @@ adorners:
     staticGrouping: Grupowanie statyczne
     valueEncoding:
       fieldStub: "Wartość {index}"
+  common:
+    dropFieldsAndValues: Upuść pola i wartości tutaj
   fixedPage:
     addPage: Dodaj stronę
     page: Strona
@@ -640,6 +660,7 @@ contextActions:
         pie: Kołowe
         polarBar: Radarowe
         polarColumn: Spiralne
+        radar: Radarowe
       highLowClose: Giełdowy2
       highLowOpenClose: Giełdowy
       line: Liniowy
@@ -652,6 +673,10 @@ contextActions:
       polarColumnPercentStacked: Procentowy skumulowany spiralny
       polarColumnStacked: Spiralny skumulowany
       pyramid: Piramidowy
+      radarArea: Obszar radaru
+      radarBubble: Bańka radaru
+      radarLine: Linia radaru
+      radarScatter: Rozproszenie radaru
       scatter: Punktowy
       title: Ustaw szablon kreślenia
   report:
@@ -767,7 +792,7 @@ dataPanel:
     totalPages: Łącznie stron
     totalPagesCumulative: W sumie stron (Łącznie)
     totalPagesSection: W sumie stron (Sekcja)
-    userContext: Kontekst Użytkownika
+    userContext: Kontekst użytkownika
     userId: ID użytkownika
     userLanguage: Język użytkownika
   commonValuesLabel: Wspólne wartości
@@ -866,6 +891,59 @@ expressionEditor:
   expressionLabel: Wyrażenie
   expressionPlaceholder: wyrażenie
   fields:
+    chart:
+      Current:
+        Category:
+          description: Reprezentuje wartość pola kategorii elementu docelowego.
+          example: '=Chart!CurrentCategory=1; =Chart!CurrentCategory>10; =Chart!CurrentCategory="Value1"; '
+          label: Kategoria
+          syntax: "Chart!CurrentCategory <Comparison operator> <Value>"
+        Data:
+          description: Reprezentuje wartość pola danych elementu docelowego.
+          example: '=Chart!CurrentData=1; =Chart!CurrentData>10; =Chart!CurrentData="Value1"; '
+          label: Dane
+          syntax: "Chart!CurrentData <Comparison operator> <Value>"
+        Detail:
+          description: Reprezentuje wartość kodowania pola szczegółów elementu docelowego.
+          example: '=Chart!CurrentDetail=1; =Chart!CurrentDetail>10; =Chart!CurrentDetail="Value1"; '
+          label: Szczegół
+          syntax: "Chart!CurrentDetail <Comparison operator> <Value>"
+        label: Bieżący element
+      Next:
+        Category:
+          description: Reprezentuje wartość pola kategorii obok elementu docelowego.
+          example: '=Chart!NextCategory=1; =Chart!NextCategory>10; =Chart!NextCategory="Value1"; '
+          label: Kategoria
+          syntax: "Chart!NextCategory <Comparison operator> <Value>"
+        Data:
+          description: Reprezentuje pole danych obok elementu docelowego.
+          example: '=Chart!NextData=1; =Chart!NextData>10; =Chart!NextData="Value1"; '
+          label: Dane
+          syntax: "Chart!NextData <Comparison operator> <Value>"
+        Detail:
+          description: Reprezentuje wartość kodowania pola szczegółów obok elementu docelowego.
+          example: '=Chart!NextDetail=1; =Chart!NextDetail>10; =Chart!NextDetail="Value1"; '
+          label: Szczegół
+          syntax: "Chart!NextDetail <Comparison operator> <Value>"
+        label: Następny element
+      Previous:
+        Category:
+          description: Reprezentuje wartość pola kategorii przed elementem docelowym.
+          example: '=Chart!PreviousCategory=1; =Chart!PreviousCategory>10; =Chart!PreviousCategory="Value1"; '
+          label: Kategoria
+          syntax: "Chart!PreviousCategory <Comparison operator> <Value>"
+        Data:
+          description: Reprezentuje wartość wartości danych przed docelowym.
+          example: '=Chart!PreviousData=1; =Chart!PreviousData>10; =Chart!PreviousData="Value1"; '
+          label: Dane
+          syntax: "Chart!PreviousData <Comparison operator> <Value>"
+        Detail:
+          description: Reprezentuje wartość kodowania pola szczegółów poprzedzającą element docelowy.
+          example: '=Chart!PreviousDetail=1; =Chart!PreviousDetail>10; =Chart!PreviousDetail="Value1"; '
+          label: Szczegół
+          syntax: "Chart!PreviousDetail <Comparison operator> <Value>"
+        label: Poprzedni element
+      label: Wykres
     commonValues:
       info:
         currentDateTime:
@@ -993,8 +1071,13 @@ expressionEditor:
             example: '=Count(Fields!EmployeeID.Value, "Title")'
             label: Count (with scope)
             syntax: "Count(<Values>, <Scope>)"
+          crossAggregate:
+            description: Oblicza określoną funkcję z określonym wyrażeniem jako argumentem w krzyżu określonego wiersza i kolumny.
+            example: '=CrossAggregate(Fields!Amount.Value, "Sum", "YearGroup", "CategoryGroup")'
+            label: CrossAggregate
+            syntax: "CrossAggregate(<Expression>, <FunctionName>, <ColumnGroupName>, <RowGroupName>)"
           cumulativeTotal:
-            description: Calculates the sum of page-level aggregates returned by the expression for current and previous pages.
+            description: Oblicza sumę agregatów na poziomie strony zwróconych przez wyrażenie dla bieżących i poprzednich stron.
             example: '=CumulativeTotal(Fields!OrderID.Value, "Count")'
             label: CumulativeTotal
             syntax: "CumulativeTotal(<Expression>, <Aggregate>)"
@@ -1610,6 +1693,11 @@ expressionEditor:
             example: '=Previous(Fields!OrderID.Value)'
             label: Previous
             syntax: "Previous(<Value>)"
+          previousWithScope:
+            description: Oblicza wartość wyrażenia dla poprzedniego wiersza danych w określonym zakresie.
+            example: '=Previous(Fields!OrderID.Value, "Order")'
+            label: Previous (with scope)
+            syntax: "Previous(<Expression>, <Scope>)"
           rowNumber:
             description: Oblicza dynamicznie liczbę wszystkich wierszy.
             example: '=RowNumber()'
@@ -1869,37 +1957,38 @@ expressionEditor:
   title: "Edytor wyrażenia: {propertyLabel}"
 filters:
   add: Dodaj...
-  addCriterion: Dodaj Kryterium
-  addGroup: Dodaj Grupę
-  addItem: Dodaj Przedmiot
+  addCriterion: Dodaj kryterium
+  addGroup: Dodaj grupę
+  addItem: Dodaj przedmiot
   allOf: Wszystkie Z
   anyOf: Którykolwiek Z
+  delete: Usuń
   edit: Edytuj
   expressionText: Wyrażenie...
-  filterPanelText: Wybierz Region Danych, aby edytować jego filtry
+  filterPanelText: Wybierz region danych, aby edytować jego filtry
   filtersText: Filtry
   listItemsCount: "{itemsCount} elementów"
-  newParameter: Nowy Parametr
+  newParameter: Nowy parametr
   operators:
-    beginsWith: Zaczyna Się Z
+    beginsWith: Zaczyna się z
     between: Pomiędzy
     bottomN: Dolne N
-    bottomPercent: Dolny Procent
+    bottomPercent: Dolny procent
     contains: Zawiera
-    doesNotBeginWith: Nie Zaczyna Się Z
-    doesNotContain: Nie Zawiera
-    equalTo: Równy Do
-    greaterThan: Większy Od
-    greaterThanOrEqualTo: Większy Od lub Równy Do
+    doesNotBeginWith: Nie zaczyna się z
+    doesNotContain: Nie zawiera
+    equalTo: Równy do
+    greaterThan: Większy od
+    greaterThanOrEqualTo: Większy od lub równy do
     in: W
-    lessThan: Mniej Niż
-    lessThanOrEqualTo: Mniejszy Od lub Równy Do
+    lessThan: Mniej niż
+    lessThanOrEqualTo: Mniejszy od lub równy do
     like: Jak
-    notEqualTo: Nie Równy Do
+    notEqualTo: Nie równy do
     notIn: Nie W
     topN: Górne N
-    topPercent: Górny Procent
-  reset: Reset
+    topPercent: Górny procent
+  reset: Resetuj
 groupEditor:
   addGroup:
     adjacentAfter: Przylegający za
@@ -1945,6 +2034,8 @@ labels:
   dvchartLegend: Legenda
   dvchartPlot: Wykres
   dvchartPlotArea: Obszar kreślenia
+  dvchartPlotRuleNoCondition: Pusty warunek
+  dvchartPlotRuleNoProps: Brak właściwości
   dvchartShapeLegend: Legenda - kształt
   dvchartSizeLegend: Legenda - rozmiar
   dvchartValueAggregateEncoding: Kodowanie agregacji wartości
@@ -1963,6 +2054,7 @@ labels:
   pageHeader: Nagłówek strony
   pageSection: "Nagłówek/Stopka strony"
   report: Raport
+  richtext: Tekst sformatowany
   series: Serie
   shape: Kształt
   sparkline: Wykres przebiegu
@@ -1983,46 +2075,48 @@ labels:
   textbox: Pole tekstowe
   total: Suma
 nameTemplates:
-  bandedList: Lista grupowana
+  bandedList: ListaGrupowana
   bandedListGroup: Grupa
-  barcode: Wykres Słupkowy
+  barcode: WykresSłupkowy
   bullet: Punktor
-  calculatedField: Pole obliczeniowe
-  categoryGroup: Grupa kategorii
+  calculatedField: PoleObliczeniowe
+  categoryGroup: GrupaKategorii
   chart: Wykres
-  checkbox: Pole wyboru
-  columnGroup: Grupa kolumn
+  checkbox: PoleWyboru
+  columnGroup: GrupaKolumn
   container: Kontener
-  dataset: Zestaw danych
-  detailsGroup: Grupa szczegółów
+  dataset: ZestawDanych
+  detailsGroup: GrupaSzczegółów
   dvchart: Wykres
   dvchartEncodingField: Pole
   dvchartPlot: Wykres
   field: Pole
-  fixedPage: Stała strona
-  formattedText: Tekst sformatowany
+  fixedPage: StałaStrona
+  formattedText: TekstSformatowany
   group: Grupa
   image: Obraz
-  inputField: Pole wprowadzania
+  inputField: PoleWprowadzania
   layer: Warstwa
   line: Linia
   list: Lista
   mailMergeField: Pole
-  overflowPlaceholder: Symbol zastępczy przepływu
+  overflowPlaceholder: SymbolZastępczyPrzepływu
   parameter: Parametr
+  parameterCollection: Parametr
   reportParameter: Parametr
-  rowGroup: Grupa wierszy
-  seriesGroup: Grupa serii
+  richtext: TekstSformatowany
+  rowGroup: GrupaWierszy
+  seriesGroup: GrupaSerii
   seriesValue: Wartość
   shape: Kształt
-  sparkline: Wykres przebiegu
+  sparkline: WykresPrzebiegu
   subreport: Podraport
   table: Tabela
-  tableDetailsGroup: Grupa szczegółów
-  tableGroup: Grupa tabeli
-  tableOfContents: Tabela zawartości
+  tableDetailsGroup: GrupaSzczegółów
+  tableGroup: GrupaTabeli
+  tableOfContents: TabelaZawartości
   tablix: Tablix
-  textbox: Pole tekstowe
+  textbox: PoleTekstowe
   tocLevel: Poziom
   unknown: Element
 notifications:
@@ -2052,13 +2146,13 @@ notifications:
     caption: "Transakcja nieudana: {innerExceprion}"
 parametersViewEditor:
   boundParameter:
-    allowBlank: Zezwól Na Puste
-    defaultValue: Wartość Domyślna
+    allowBlank: Zezwól na puste
+    defaultValue: Wartość domyślna
     multiValue: Wielowartościowy
     multiline: Wieloliniowy
-    nullable: Zezwól Na Null
+    nullable: Zezwól na Null
     parameter: "Parametr {name}"
-    text: Powiązany Parametr
+    text: Powiązany parametr
   canvas: Płótno
   dataType:
     boolean: Boolean
@@ -2070,8 +2164,8 @@ parametersViewEditor:
   delete: Usuń
   duplicate: Duplikuj
   empty: "<Pusty>"
-  generateView: Generuj Widok
-  highlightRequired: Podświetl Wymagane
+  generateView: Generuj widok
+  highlightRequired: Podświetl wymagane
   labels:
     alignmentEnum:
       bottom: Dół
@@ -2127,7 +2221,7 @@ parametersViewEditor:
     dateTimeParameter: Parametr DataCzas
     dateTimeParameterLabels:
       monthYearOrder: M-R
-      textBack: Powrót do Kalendarza
+      textBack: Powrót do kalendarza
       textClear: Wyczyść
       textToday: Dzisiaj
     dateViewProperties:
@@ -2183,7 +2277,7 @@ parametersViewEditor:
       left: Lewo
       list: Lista
       max: Maks.
-      maxRange: Maks. Zakres
+      maxRange: Maks. zakres
       min: Min.
       mode: Tryb
       multiValue: Wielowartościowy
@@ -2222,6 +2316,9 @@ parametersViewEditor:
   propertiesText: Właściwości
   removeView: Usuń widok
   resetView: Resetuj widok
+  sideBar:
+    collapse: Zwiń
+    expand: Rozwiń
   surface:
     autoGenerate: Generować automatycznie
     emptySurfaceBlock:
@@ -2321,7 +2418,18 @@ properties:
     boolean:
       falseLabel: Fałsz
       trueLabel: Prawda
+    collection:
+      addBtnText: Dodaj
+      addBtnTitle: Dodaj element
+      closeBtnTitle: Zamknij
+      deleteBtnTitle: Usuń
+      showBtnTitle: Pokaż elementy
+      textEmpty: Zbiór jest pusty
+      textItems: "{itemsCount} elementów"
     colorDropdown:
+      colorPicker: Inne kolory
+      palettes: Palety
+      standard: Standardowe kolory
       theme: Kolory motywu
       themeColors:
         base: "{colorKey}"
@@ -2330,11 +2438,14 @@ properties:
         lighter25: '{colorKey} - 25% jaśniej'
         lighter50: '{colorKey} - 50% jaśniej'
         lighter75: '{colorKey} - 75% jaśniej'
+      webColors: Kolory internetowe
     common:
       disabled: Wyłączone
       enabled: Włączone
       expressionLabel: "<Wyrażenie>"
       noneLabel: "<Brak>"
+      titleBtnCollapse: Zwiń
+      titleBtnExpand: Rozwiń
     dataSetFieldCollection:
       dataFieldHeader: Pole danych
       dataFieldPlaceholder: "<Pole danych>"
@@ -2564,9 +2675,11 @@ properties:
     parameterCollection:
       propertiesTitle: Właściwości parametru
     picker:
+      dataBindingTitle: Wiązanie danych
       dataVisualizerLabel: Wizualizator danych...
       expressionLabel: Wyrażenie...
-      resetLabel: Reset
+      pickData: Wybierz dane...
+      resetLabel: Resetuj
     queryFilter:
       addItem: Dodaj
       addParent: Dodaj nadrzędne
@@ -2598,9 +2711,11 @@ properties:
       title: Filtr zapytań
       valuePlaceHolder: "<Wartość>"
     reportParameter:
+      empty: "<Pusty>"
       fromQuery: Z zapytania
       label: Etykieta
       nonQueried: Nie z zapytania
+      source: Źródło
       value: Wartość
     reports:
       loading: Ładowanie
@@ -2608,37 +2723,56 @@ properties:
     semanticPicker:
       dataVisualizerLabel: Wizualizator danych...
       expressionLabel: Wyrażenie...
-      resetLabel: Reset
+      resetLabel: Resetuj
       specifyDataSetLabel: Określ zestaw danych, aby zobaczyć listę dostępnych atrybutów
       warnings:
         groupingByAggregate: nie zaleca się grupowania wg atrybutów agregacji
         groupingIsDiscouraged: nie zaleca się grupowania wg tego atrybutu
     simple:
       backgroundColor:
-        label: Kolor tła
+        label: Kolor
+        title: Kolor tła
       borders:
-        borderColor: Kolor obramowania
-        borderStyle: Styl obramowania
-        borderWidth: Grubość obramowania
-        borders: Obramowania
+        borderColor:
+          label: Kolor
+          title: Kolor obramowania
+        borderStyle:
+          label: Styl
+          title: Styl obramowania
+        borderWidth:
+          label: Grubość
+          title: Grubość obramowania
+        borders: Borders
         sides:
           all: Wszystko
           bottom: Dół
           left: Lewa
-          reset: Reset
+          reset: Resetuj
           right: Prawa
           top: Góra
       common:
         expression: Wyrażenie...
-        expressionCompactLabel: '< 𝑓 >'
+        expressionCompactLabel: '<𝑓>'
         expressionLabel: "<Wyrażenie>"
       font:
-        fontFamily: Rodzina czcionki
-        fontSize: Rozmiar czcionki
-        fontStyle: Styl czcionki
-        fontWeight: Grubość czcionki
-        textColor: Kolor tekstu
-        textDecoration: Dekoracja tekstu
+        fontFamily:
+          label: Czcionka
+          title: Rodzina czcionki
+        fontSize:
+          label: Rozmiar
+          title: Rozmiar czcionki
+        fontStyle:
+          label: Styl
+          title: Styl czcionki
+        fontWeight:
+          label: Grubość
+          title: Grubość czcionki
+        textColor:
+          label: Kolor
+          title: Kolor tekstu
+        textDecoration:
+          label: Dekoracja
+          title: Dekoracja tekstu
     subreport:
       parameter: Parametr
       parameterNameHeader: Nazwa
@@ -2652,11 +2786,14 @@ properties:
       enum:
         incorrect: "Wartość Enum typu '{enumType}' powinna być jedną z następujących: {enumValues}"
       expression:
+        disabledFields: 'Uwaga: zabronione jest używanie typu tokena ‘Fields’ w tym wyrażeniu (w ‘{token}’ {positionInfo})'
+        disabledReportItems: 'Uwaga: zabronione jest używanie typu tokena ‘ReportItems’ w tym wyrażeniu (w ‘{token}’ {positionInfo})'
         errorPosition: "w wierszu {line}, kolumnie {column}"
         incorrect: Nieprawidłowe wyrażenie
         parseError: "Błąd składniowy: nie można przekonwertować tego wyrażenia składni interpolacji na składnię rdl"
         syntaxError: "Błąd składni: nieoczekiwany token '{token}' {positionInfo}"
         unknownField: "Uwaga: nieznana nazwa pola w '{token}' {positionInfo}"
+        unknownFunction: 'Uwaga: nieznana nazwa funkcji ‘{token}’ {positionInfo}'
         unknownParameter: "Uwaga: nieznana nazwa parametru w '{token}' {positionInfo}"
         unknownReportItem: "Uwaga: nieznana nazwa elementu raportu w '{token}' {positionInfo}"
         unknownThemeImage: "Uwaga: nieznana nazwa obrazu motywu w '{token}' {positionInfo}"
@@ -2949,10 +3086,13 @@ properties:
     dvchartLegend:
       hidden: Ukryte
       iconColor: Kolor ikony
+      maxHeight: Maksymalna wysokość
+      maxWidth: Maksymalna szerokość
       orientation: Orientacja
       position: Pozycja
       title: Tytuł
     dvchartPlot:
+      axisMode: Tryb osi
       bar: Linie słupka
       category: Kategoria
       categorySort: Kierunek sortowania
@@ -2971,6 +3111,7 @@ properties:
       opacity: Nieprzezroczystość
       plotStyle: Styl wykresu
       radial: Promieniowy
+      rules: Reguły
       shape: Kształt
       shapeAggregate: Agregacja kształtu
       showNulls: Pokaż nulle
@@ -2998,6 +3139,11 @@ properties:
       values: Wartości
     dvchartPlotArea:
       axes: Osie
+    dvchartPlotRules:
+      condition: Warunek
+      ruleProperties: Właściwości reguły
+      targetProperty: Właściwość docelowa
+      valueRuleProperties: Wartość
     dvchartValueEncoding:
       field:
         close: Blisko
@@ -3007,6 +3153,7 @@ properties:
         open: Otwarte
         upper: Wyżej
         value: Wartość
+    empty: "<Pusty>"
     filter:
       filterExpression: Filtruj wyrażenie
       filterValues: Filtruj wartości
@@ -3043,9 +3190,9 @@ properties:
       imageLabel: Obraz
       mimeType: Typ MIME
       sizing: Zmiana rozmiary obrazu
-      source: ŹródłowSource
-      value: WartośćValue
-      verticalAlignment: Wównanie pionowe
+      source: Źródło
+      value: Wartość
+      verticalAlignment: Wyrównanie pionowe
     inputField:
       checkSize: Sprawdź rozmiar
       checkStyle: Sprawdź styl
@@ -3085,6 +3232,7 @@ properties:
       left: Lewo
       right: Prawo
       top: Góra
+    multipleValues: "<Wiele wartości>"
     overflowPlaceHolder:
       overflowName: Nazwa przepływu
     padding:
@@ -3150,12 +3298,16 @@ properties:
       name: Nazwa
       parameterValues: Wartości parametru
       prompt: Podpowiedź
-      selectAllValue: Wybierz wszystkie wartośći
+      selectAllValue: Wybierz wszystkie wartości
       selectAllValue_help:
         text: 'Jeśli określono, determinuje przekazanie wartości do parametru w przypadku gdy "Wybierz wszystkie" jest ustawione na parametr Wielowartościowy'
       value: Wartość
       valueField: Pole wartości
       values: Wartości
+    richtext:
+      canGrow: Może rosnąć
+      markup: Typ znacznika
+      value: Wartość
     roundingRadius:
       bottomLeft: Lewy dolny
       bottomRight: Prawy dolny
@@ -3223,6 +3375,7 @@ properties:
       reportParameters: Parametry raportu
       substituteThemeOnSubreport: Zastąp motyw na podraporcie
     table:
+      autoWidth: Automatyczna szerokość
       detailsDataCollectionName: Nazwa zbioru danych szczegółów
       detailsDataElementName: Nazwa elementów danych szczegółów
       detailsDataElementOutput: Wynik elementów danych szczegółów
@@ -3264,12 +3417,12 @@ properties:
       toggleItem: Przełącznik
 romLabels:
   chart: Wykres
-  dvchart: Wykres.DV
+  dvchart: Wykres DV
   matrix: Matryca
   table: Tabela
   tablix: Tablix
 tablixWizard:
-  addDataSet: Najpier dodaj zestaw danych do raportu
+  addDataSet: Najpierw dodaj zestaw danych do raportu
   addValue: Proszę dodać przynamniej jedną wartość aby stworzyć Tablix.
   aggregate: Agregacja
   aggregates:
@@ -3277,7 +3430,7 @@ tablixWizard:
     count: Count
     max: Max
     min: Min
-    none: None
+    none: Brak
     sum: Sum
   asRows: Jako Wiersze
   cannotEditInWizard: Tablix ma złożoną strukturę i nie może być edytowany w Wizardzie. Użyj Edytor Grup.
@@ -3285,6 +3438,14 @@ tablixWizard:
   columns: Grupy Kolumn
   dataSets: Zestawy danych
   delete: Usuń
+  displayAs: Wyświetl jako
+  displayAsOptions:
+    default: Domyślny
+    percentColumnGroupTotal: '% Grup kolumn łącznie'
+    percentGrandTotal: '% Łącznej sumy'
+    percentParentColumnGroupTotal: '% Sumy nadrzędnej grupy kolumn'
+    percentParentRowGroupTotal: '% Sumy grupy wierszy nadrzędnych'
+    percentRowGroupTotal: '% Grup wierszy łącznie'
   expandCollapse: "Rozwiń/Zwiń grupy"
   format: Format
   formats:
@@ -3305,26 +3466,26 @@ tablixWizard:
   noFieldPlaceholder: brak pola
   noValues: Brak określonych wartości.
   none: Brak
-  openWizard: Otwórz Wziard Tablixa
+  openWizard: Otwórz Wizard Tablixa
   organization: Organizacja
   rows: Grupy Wierszy
   showTotalsBeforeGroup: Pokaż sumy przed grupą
-  showValuesAsRows: Pokaż Wartości jako Wiersze
+  showValuesAsRows: Pokaż wartości jako wiersze
   sorting: "Sortowanie: {sorting}"
   sortings:
     Ascending: Rosnąco
     Descending: Malejąco
     None: Brak
-  steppedRowGroups: Wystąpienie Grupy Wierszy
+  steppedRowGroups: Wystąpienie grupy wierszy
   styling: Stylizacja
-  subTotalsForColumns: Sumy pośrednie dla Grup Kolumn
-  subTotalsForRows: Sumy pośrednie dla Grup Wierszy
+  subTotalsForColumns: Sumy pośrednie dla grup kolumn
+  subTotalsForRows: Sumy pośrednie dla grup wierszy
   swap: Zamiana
   swapRowColumnGroups: Zamień grupy wierszy i kolumn
   title: Kreator Tablix
   totals: Sumy
-  totalsForColumns: Sumy dla Grup Kolumn
-  totalsForRows: Sumy dla Grup Wierszy
+  totalsForColumns: Sumy dla grup kolumn
+  totalsForRows: Sumy dla grup wierszy
   userSortEnabled: Włącz sortowanie użytkownika
   values: Wartości
   warning:
@@ -3344,10 +3505,10 @@ warning:
     caption: Nie można ustawić określonych marginesów
     info: "- '{name}' nie może być większe od {value}."
     labels:
-      bottom: Dolny Margines
-      left: Lewy Margines
-      right: Prawy Margines
-      top: Górny Margines
+      bottom: Dolny margines
+      left: Lewy margines
+      right: Prawy margines
+      top: Górny margines
   pageSize:
     caption: Nie można ustawić określonego rozmiaru strony
     info: "- '{name}' nie może być mniejsze od {value}."

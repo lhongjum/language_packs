@@ -1,12 +1,5 @@
 export default {
 
-	// Designer
-	drApplicationTitle: 'WynReports Designer',
-	drYes: 'Yes',
-	drNo: 'No',
-	drUnsavedChangesTitle: 'The report has unsaved changes',
-	drUnsavedChangesText: 'Would you like to leave designer and discard these changes?',
-
 	// Export Dialog
 	edTextFormat: 'Export Format',
 	edTextParams: 'Report Parameters',
@@ -119,11 +112,17 @@ export default {
 	'editTemplate!description': 'Edit this template',
 
 	// Revision Verbs
-	'previewRevision!name': 'Preview...',
-	'previewRevision!description': 'Preview this report revision',
+	'previewReportRevision!name': 'Preview...',
+	'previewReportRevision!description': 'Preview this report revision',
 
-	'editRevision!name': 'Edit...',
-	'editRevision!description': 'Edit this report revision',
+	'previewTemplateRevision!name': 'Preview Template...',
+	'previewTemplateRevision!description': 'Preview this template revision',
+
+	'editReportRevision!name': 'Edit...',
+	'editReportRevision!description': 'Edit this report revision',
+
+	'editTemplateRevision!name': 'Edit Template...',
+	'editTemplateRevision!description': 'Edit this template revision',
 
 	// Commands Dialog
 	'commands!name': 'Commands',
@@ -144,8 +143,10 @@ export default {
 	'commands$singlepagemode': 'Single Page View',
 	'commands$continuousmode': 'Continuous View',
 	'commands$galleymode': 'Galley Mode',
+	'commands$search': 'Search',
 	'commands$pdf': 'PDF',
 	'commands$excel': 'Excel',
+	'commands$exceldata': 'Excel Data',
 	'commands$docx': 'Word',
 	'commands$image': 'Image',
 	'commands$html': 'HTML',
@@ -191,6 +192,8 @@ export default {
 
 	reportingWorkerReportUnknown: 'An unknown error occured when getting report info: {0}',
 	reportingWorkerReportCyclicParameterReferences: 'Cyclic report parameter references detected',
+
+	reportingWorkerFailCheckDataNotFound: 'Specified {0} document with id {1} not found',
 
 	// Document Section
 	referencedDataDocuments: 'Referenced Data Document',

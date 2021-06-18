@@ -1,16 +1,16 @@
 export const portalDataES: LanguageKeyValueMap = {
-	'smdsc!name': 'Semantic Model',
-	'smdsc!description': 'Semantic Model',
+	'smdsc!name': 'Data Model',
+	'smdsc!description': 'Data Model',
 
 	// Sidebar Share
 	'psSemExecute!name': 'Execute',
-	'psSemExecuteAndCreateDataset!name': 'Execute / Create Dataset',
+	'psSemExecuteAndCreateDataset!name': 'Read',
 	'psSemReadWrite!name': 'Read / Write',
 
-	'createSemanticModel!name': 'Create Semantic Model',
-	'createSemanticModel!description': 'Create Semantic Model',
+	'createSemanticModel!name': 'Create Data Model',
+	'createSemanticModel!description': 'Create Data Model',
 	'editSemanticModel!name': 'Edit...',
-	'editSemanticModel!description': 'Edit Semantic Model',
+	'editSemanticModel!description': 'Edit Data Model',
 
 	'revert!name': 'Revert',
 	'revert!description': 'Revert to this version',
@@ -18,4 +18,9 @@ export const portalDataES: LanguageKeyValueMap = {
 	revertSuccess: 'Model reverted successfully',
 	revertErrorMsg: 'Can not revert model to current version.',
 	revertSuccessMsg: 'Model reverted to version No.{{revision}} successfully.',
+
+	// document sections register
+	dlDataModelType: 'Data Model Type',
+	dlReportDataModel: 'For Report',
+	dlDashboardDataModel: 'For Dashboard',
 };

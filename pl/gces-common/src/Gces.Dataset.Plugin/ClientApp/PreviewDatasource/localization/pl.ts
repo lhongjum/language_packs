@@ -17,13 +17,14 @@ export const pl = {
 	err_100019: 'Nie masz uprawnień do dostępu do dokumentu.', // You don not have permission to access the document
 	err_100020: 'Nieprawidłowy typ dokumentu.', // Wrong document type
 	err_100021: 'Nie można połączyć się ze źródłem danych {{name}}.', // Can not connect to datasource {{name}}.
-	err_100018_desc: 'Error trying to resolve datasource "{{ids}}"',
+	err_100030: 'Parametry połączenia zamapowanego źródła danych wykorzystały pole kontekstu do mapowania nazw, a schemat źródła danych nie jest zgodny ze schematem mapowania nazw.', // The mapped datasource connection string has used the context field for name mapping, and the datasource schema does not match the name mapping schema.
+	err_100018_desc: 'Błąd podczas próby rozwiązania źródła danych "{{ids}}"', // Error trying to resolve datasource "{{ids}}"
 
 	E_40001: 'SqlOptimizer nie udało się wykonać pierwontej kwerendy SQL do źródła danych.', // SqlOptimizer failed on executing primitive sql on data source.
 	E_40002: 'Nie można odnaleźć określonej tabeli.', // Cannot find the specified table in context.
 	E_40003: 'Nie można odnaleźć określonej kolumny \'{ColumnName}\'.', // Cannot find the specified column \'{ColumnName}\' in context.
 	E_40004: 'Znaleziono więcej niż jedną pasującą kolumnę.', // Found more than on matched columns in context.
-	E_40005: 'Found more than one matched tables in context.',
+	E_40005: 'Znaleziono więcej niż jedną pasującą tabelę w kontekście.', // Found more than one matched tables in context.
 	E_50000: 'Spróbuj zarejestrować null SourceLoader.', // Try to register a null SourceLoader.
 	E_50001: 'Spróbuj zarejestrować zduplikowanego SourceLoader.', // Try to register a duplicated SourceLoader.
 	E_50002: 'Spróbuj odrejestrować null SourceLoader.', // Try to unregister a null SourceLoader.
@@ -56,13 +57,13 @@ export const pl = {
 	E_60201: 'Arkusz Excel nie powinien być pusty', // Excel sheet should not be empty.
 	E_70000: 'Nie udało się zdobyć tokena dostępu.', // Failed to acquire access token
 	E_70001: 'Błąd sieci.', // Network error.
-	E_70002: '401 Unauthorized Error. The request has not been applied because it lacks valid authentication credentials for the target resource.',
-	E_70003: '404 Not Found Error. The server can\'t find the requested resource.',
-	E_70004: 'No data returned from the remote server. Please make sure that the remote server has data returned.',
-	E_70005: '400 Bad Request Error. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).',
-	E_70006: '403 Forbidden Error. The server understood the request but refuses to authorize it.',
-	E_70007: '405 Method Not Allowed. The request method is known by the server but is not supported by the target resource.',
-	E_70008: '500 Internal Server Error. The server encountered an unexpected condition that prevented it from fulfilling the request.',
+	E_70002: '401 Unauthorized Error. Żądanie nie zostało zastosowane, ponieważ brakuje ważnych danych uwierzytelniających dla zasobu docelowego.', // 401 Unauthorized Error. The request has not been applied because it lacks valid authentication credentials for the target resource.
+	E_70003: '404 Not Found Error. Serwer nie może znaleźć żądanego zasobu.', // 404 Not Found Error. The server can\'t find the requested resource.
+	E_70004: 'Żadne dane nie zostały zwrócone ze zdalnego serwera. Upewnij się, że zdalny serwer zwrócił dane.', // No data returned from the remote server. Please make sure that the remote server has data returned.
+	E_70005: '400 Bad Request Error. Serwer nie może przetworzyć żądania lub nie może go przetworzyć z powodu czegoś, co jest postrzegane jako błąd klienta (np. Zniekształcona składnia żądania, nieprawidłowe ramkowanie komunikatu żądania lub oszukańcze kierowanie żądań).', // 400 Bad Request Error. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).
+	E_70006: '403 Forbidden Error. Serwer zrozumiał żądanie, ale odmawia jego autoryzacji.', // 403 Forbidden Error. The server understood the request but refuses to authorize it.
+	E_70007: '405 Method Not Allowed. Metoda żądania jest znana serwerowi, ale nie jest obsługiwana przez zasób docelowy.', // 405 Method Not Allowed. The request method is known by the server but is not supported by the target resource.
+	E_70008: '500 Internal Server Error. Serwer napotkał nieoczekiwany stan, który uniemożliwił mu realizację żądania.', // 500 Internal Server Error. The server encountered an unexpected condition that prevented it from fulfilling the request.
 	E_80001: 'Nie można znaleźć określonej kolumny \'{TargetColumnName}\'.', // Cannot find the specified column \'{TargetColumnName}\'.
 	E_80002: 'Znaleziono zduplikowane nazwy kolumn.', // Duplicated column names found.
 	E_80024: 'Nie można znaleźć określonego parametru.', // Cannot find the specified parameter
@@ -71,7 +72,11 @@ export const pl = {
 	E_80048: 'Kontekst niezarejestrowany.', // Context not registered.
 	E_80059: 'Nie odnaleziono właściwych konwerterów typów danych pomiędzy tymi typami.', // No proper data type converters found between types.
 	E_80062: 'Nie można skonwertować wartości null do typu wartości', // Cannot convert null value to a value type.
+	E_110001: 'Serwer proxy JDBC nie działa.', // JDBC proxy is not alive.
+	E_110002: 'Pobierz schemat z błędu serwera proxy JDBC.', // Get schema from JDBC proxy error.
+	E_110003: 'Wystąpił błąd podczas wykonywania prymitywnego zapytania w proxy JDBC. \ n [{{Provider}}]: {{message}}', // An error occurred when executing primitive query in JDBC proxy. \n[{{Provider}}]: {{message}}
+	E_110004: 'Czas połączenia minął.', // Connection time out.
 
 	err_DataSourceAccessDenied: 'Nie masz uprawnień do dostępu do źródła danych. \nNazwa źródła danych: {{datasourceName}}.', // You do not have permission to access datasource. \nDatasource Name: {{datasourceName}}.
-	err_DataSourceNotFound: 'Specified datasource document "{{datasourceId}}" is not found.',
+	err_DataSourceNotFound: 'Nie znaleziono określonego dokumentu źródła danych "{{datasourceId}}".', // Specified datasource document "{{datasourceId}}" is not found.
 };

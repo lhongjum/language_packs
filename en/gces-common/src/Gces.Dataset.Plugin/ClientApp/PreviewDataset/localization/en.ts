@@ -185,6 +185,10 @@ export const en = {
 	E_80063: 'Function requires an Array parameter.',
 	E_80064: 'Unsupported LIKE/NOTLIKE value.',
 	E_80065: 'Failed to dispose SourceTable\'s inner resources.',
+	E_110001: 'JDBC proxy is not alive.',
+	E_110002: 'Get schema from JDBC proxy error.',
+	E_110003: 'An error occurred when executing primitive query in JDBC proxy. \n[{{Provider}}]: {{message}}',
+	E_110004: 'Connection time out.',
 
 	err_DataSourceAccessDenied: 'You do not have permission to access datasource. \nDatasource Name: {{datasourceName}}.',
 	err_DataSourceNotFound: 'Specified datasource document {datasourceId} is not found.',

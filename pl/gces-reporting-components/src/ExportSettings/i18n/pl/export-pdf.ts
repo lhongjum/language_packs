@@ -27,7 +27,7 @@ export default {
       }
     },
     "EmbedFonts": {
-      "label": "OsadźCzcionki",
+      "label": "Osadź czcionki",
       "category": "Różne",
       "enum": {
         "Partial": "Częściowo",
@@ -36,11 +36,11 @@ export default {
       }
     },
     "NeverEmbedFonts": {
-      "label": "NieOsadzajCzcionek",
+      "label": "Nie osadzaj czcionek",
       "category": "Różne"
     },
     "PrintOnOpen": {
-      "label": "DrukujPrzyOtwarciu",
+      "label": "Drukuj przy otwarciu",
       "category": "Różne"
     },
     "Title": {
@@ -56,7 +56,7 @@ export default {
       "category": "Różne"
     },
     "Keywords": {
-      "label": "SłowaKluczowe",
+      "label": "Słowa kluczowe",
       "category": "Różne"
     },
     "Application": {
@@ -68,54 +68,54 @@ export default {
       "category": "Różne"
     },
     "HideToolbar": {
-      "label": "UkryjPasekNarzędzi",
+      "label": "Ukryj pasek narzędzi",
       "category": "Różne"
     },
     "HideMenubar": {
-      "label": "UkryjMenu",
+      "label": "Ukryj menu",
       "category": "Różne"
     },
     "HideWindowUI": {
-      "label": "UkryjInterfejs",
+      "label": "Ukryj interfejs",
       "category": "Różne"
     },
     "FitWindow": {
-      "label": "DopasujOkno",
+      "label": "Dopasuj okno",
       "category": "Różne"
     },
     "CenterWindow": {
-      "label": "WyśrodkujOkno",
+      "label": "Wyśrodkuj okno",
       "category": "Różne"
     },
     "DisplayTitle": {
-      "label": "WyświetlTytuł",
+      "label": "Wyświetl tytuł",
       "category": "Różne"
     },
     "DisplayMode": {
-      "label": "TrybWyświetlania",
+      "label": "Tryb wyświetlania",
       "category": "Różne",
       "enum": {
         "None": "Brak",
         "Outlines": "Podgląd",
         "Thumbs": "Miniaturka",
-        "FullScreen": "PełnyEkran"
+        "FullScreen": "Pełny ekran"
       }
     },
     "DuplexMode": {
-      "label": "TrybDwustronny",
+      "label": "Tryb dwustronny",
       "category": "Różne",
       "enum": {
         "Simplex": "Jednostronny",
-        "DuplexFlipLongEdge": "DwustronnyWzdłużDługiejKrawędzi",
-        "DuplexFlipShortEdge": "DwustronnyWzdłużKrótkiejKrawędzi"
+        "DuplexFlipLongEdge": "Dwustronny wzdłuż długiej krawędzi",
+        "DuplexFlipShortEdge": "Dwustronny wzdłuż krótkiej krawędzi"
       }
     },
     "NumberOfCopies": {
-      "label": "LiczbaKopii",
+      "label": "Liczba kopii",
       "category": "Różne"
     },
     "ImageInterpolation": {
-      "label": "InterpolacjaObrazu",
+      "label": "Interpolacja obrazu",
       "category": "Różne",
       "enum": {
         "Default": "Domyślne",
@@ -123,102 +123,102 @@ export default {
       }
     },
     "PaperSourceByPageSize": {
-      "label": "ŹródłoPapieruWedługRozmiaruStrony",
+      "label": "Źródło papieru według rozmiaru strony",
       "category": "Różne"
     },
     "PrintPageRange": {
-      "label": "DrukujZakresStron",
+      "label": "Drukuj zakres stron",
       "category": "Różne"
     },
     "IsPaginated": {
-      "label": "CzyJestPaginowany",
+      "label": "Czy jest paginowany",
       "category": "Różne"
     },
     "PrintLayoutMode": {
-      "label": "UkładWydruku",
+      "label": "Układ wydruku",
       "category": "Różne",
       "enum": {
-        "OneLogicalPageOnSinglePhysicalPage": "JednaStronaNaArkusz",
-        "TwoLogicalPagesOnSinglePhysicalPage": "DwieStronyNaArkusz",
-        "FourLogicalPagesOnSinglePhysicalPage": "CzteryStronyNaArkusz",
-        "EightLogicalPagesOnSinglePhysicalPage": "OsiemStronLogicznychNaPojedynczejStronieFizycznej",
-        "BookletMode": "TrybBroszury"
+        "OneLogicalPageOnSinglePhysicalPage": "Jedna strona na arkusz",
+        "TwoLogicalPagesOnSinglePhysicalPage": "Dwie strony na arkusz",
+        "FourLogicalPagesOnSinglePhysicalPage": "Cztery strony na arkusz",
+        "EightLogicalPagesOnSinglePhysicalPage": "Osiem stron logicznych na pojedynczej stronie fizycznej",
+        "BookletMode": "Tryb broszury"
       }
     },
     "SizeToFit": {
-      "label": "RozmiarDoDopasowania",
+      "label": "Rozmiar do dopasowania",
       "category": "Różne"
     },
     "StartPage": {
-      "label": "StronaStartowa",
+      "label": "Strona startowa",
       "category": "Różne"
     },
     "EndPage": {
-      "label": "StronaKońcowa",
+      "label": "Strona końcowa",
       "category": "Różne"
     },
     "WatermarkAngle": {
-      "label": "KątZnakuWodnego",
+      "label": "Kąt znaku wodnego",
       "category": "Różne"
     },
     "WatermarkColor": {
-      "label": "KolorZnakuWodnego",
+      "label": "Kolor znaku wodnego",
       "category": "Różne",
       "enum": WatermarkColor
     },
     "WatermarkTitle": {
-      "label": "TytułZnakuWodnego",
+      "label": "Tytuł znaku wodnego",
       "category": "Różne"
     },
     "WatermarkFontFamily": {
-      "label": "CzcionkaZnakuWodnego",
+      "label": "Czcionka znaku wodnego",
       "category": "Różne",
       "enum": WatermarkFontFamily
     },
     "WatermarkFontSize": {
-      "label": "RozmiarCzcionkiZnakuWodnego",
+      "label": "Rozmiar czcionki znaku wodnego",
       "category": "Różne"
     },
     "WatermarkFontBold": {
-      "label": "PogrubienieCzcionkiZnakuWodnego",
+      "label": "Pogrubienie czcionki znaku wodnego",
       "category": "Różne"
     },
     "WatermarkFontItalic": {
-      "label": "KursywaCzcionkiZnakuWodnego",
+      "label": "Kursywa czcionki znaku wodnego",
       "category": "Różne"
     },
     "WatermarkFontStrikeout": {
-      "label": "PrzekreślenieCzionkiZnakuWodnego",
+      "label": "Przekreślenie czionki znaku wodnego",
       "category": "Różne"
     },
     "WatermarkFontUnderline": {
-      "label": "PodkreślenieCzionkiZnakuWodnego",
+      "label": "Podkreślenie czionki znaku wodnego",
       "category": "Różne"
     },
     "Encrypt": {
       "label": "Szyfruj",
-      "category": "UstawieniaZabezpieczeń"
+      "category": "Ustawienia zabezpieczeń"
     },
     "OwnerPassword": {
-      "label": "HasłoWłaściciela",
-      "category": "UstawieniaZabezpieczeń"
+      "label": "Hasło właściciela",
+      "category": "Ustawienia zabezpieczeń"
     },
     "UserPassword": {
-      "label": "HasłoUżytkownika",
-      "category": "UstawieniaZabezpieczeń"
+      "label": "Hasło użytkownika",
+      "category": "Ustawienia zabezpieczeń"
     },
     "Permissions": {
       "label": "Uprawnienia",
-      "category": "UstawieniaZabezpieczeń",
+      "category": "Ustawienia zabezpieczeń",
       "enum": {
         "None": "Brak",
         "AllowPrint": "Drukowanie",
         "AllowModifyContents": "Modyfikacja",
         "AllowCopy": "Kopiowanie",
-        "AllowModifyAnnotations": "ModyfikacjaAdnotacji",
+        "AllowModifyAnnotations": "Modyfikacja adnotacji",
         "AllowFillIn": "Wypełnianie",
-        "AllowAccessibleReaders": "DostępCzytnikówEkranu",
-        "AllowAssembly": "WstawianieStron",
+        "AllowAccessibleReaders": "Dostęp czytników ekranu",
+        "AllowAssembly": "Wstawianie stron",
         "Default": "Domyślne"
       }
     },

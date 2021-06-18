@@ -10,7 +10,7 @@ export const pl = {
 	SuccessMessage: 'Wiadomość powodzenia', // Success Message
 
 	// Errors
-	err_10002: 'Data Source not found.',
+	err_10002: 'Nie znaleziono źródła danych.', // Data Source not found.
 	err_10008: 'Pole obliczeniowe "{calculatedField}" odnosi się do nieokreślonego pola "{referredField}".', // Calculated field "{calculatedField}" is referencing an undefined field "{referredField}".
 	err_10009: 'Błąd składni w wyrażeniu pola obliczeniowego "{calculatedField}". {message}', // Syntax error found in calculated field expression "{calculatedField}". {message}
 	err_10010: 'Pole grupy "{groupField}" jest nieokreślone.', // Group field "{groupField}" is undefined.
@@ -35,10 +35,10 @@ export const pl = {
 	err_10034: 'Wyrażenie SQL odnosi się do niezdefiniowanego parametru "{{referredParameter}}".', // Sql expression is referencing an undefined parameter "{{referredParameter}}".
 	err_10035: 'W trybie \'Dla dashboardu\' wyrażenie Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".', // In \'For Dashboard\' mode,Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".
 	err_10036: 'Następujące powiązane parametry nie zostały znalezione w niestandardowej tabeli SQL: "{{referredParameters}}".', // The following bound parameters are not found in custom Sql table: "{{referredParameters}}".
-	err_100017: 'The user context value is invalid and can not be converted.',
-	err_100024: 'The \'{{key}}\' with the value of \'{{value}}\' on {{ptype}} is an invalid {{dtype}} value.',
-	err_100025: 'The \'{{key}}\' has more than 1 values but it is a single {{dtype}} value on {{ptype}}.',
-	err_100026: 'The literal value \'{{value}}\' of constant parameter \'{{key}}\' can not be converted to data type {{dtype}}.',
+	err_100017: 'Wartość kontekstu użytkownika jest nieprawidłowa i nie można jej przekonwertować.', // The user context value is invalid and can not be converted.
+	err_100024: '\"{{Key}}\" z wartością \"{{value}}\" na {{ptype}} jest nieprawidłową wartością {{dtype}}.', // The \'{{key}}\' with the value of \'{{value}}\' on {{ptype}} is an invalid {{dtype}} value.
+	err_100025: '\"{{Key}}\" ma więcej niż 1 wartość, ale jest to pojedyncza {{dtype}} wartość na {{ptype}}.', // The \'{{key}}\' has more than 1 values but it is a single {{dtype}} value on {{ptype}}.
+	err_100026: 'Literału \"{{value}}\" parametru stałego \"{{key}}\" nie można przekonwertować na typ danych {{dtype}}.', // The literal value \'{{value}}\' of constant parameter \'{{key}}\' can not be converted to data type {{dtype}}.
 
 	E_60000: 'Metoda nie jest obsługiwana.', // Method is not supported
 	E_60001: 'Określona nazwa zbioru nie jest obsługiwana w metodach serii GetSchema.', // Specified collection name is not supported in GetSchema series methods.
@@ -93,18 +93,18 @@ export const pl = {
 	E_50004: 'Nie można znaleźć własciwego SourceLoader.', // Can\'t find proper SourceLoader.
 	E_70000: 'Nie udało się zdobyć tokena dostępu.', // Failed to acquire access token
 	E_70001: 'Błąd sieci.', // Network error.
-	E_70002: '401 Unauthorized Error. The request has not been applied because it lacks valid authentication credentials for the target resource.',
-	E_70003: '404 Not Found Error. The server can\'t find the requested resource.',
-	E_70004: 'No data returned from the remote server. Please make sure that the remote server has data returned.',
-	E_70005: '400 Bad Request Error. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).',
-	E_70006: '403 Forbidden Error. The server understood the request but refuses to authorize it.',
-	E_70007: '405 Method Not Allowed. The request method is known by the server but is not supported by the target resource.',
-	E_70008: '500 Internal Server Error. The server encountered an unexpected condition that prevented it from fulfilling the request.',
+	E_70002: '401 Unauthorized Error. Żądanie nie zostało zastosowane, ponieważ brakuje ważnych danych uwierzytelniających dla zasobu docelowego.', // 401 Unauthorized Error. The request has not been applied because it lacks valid authentication credentials for the target resource.
+	E_70003: '404 Not Found Error. Serwer nie może znaleźć żądanego zasobu.', // 404 Not Found Error. The server can\'t find the requested resource.
+	E_70004: 'Żadne dane nie zostały zwrócone ze zdalnego serwera. Upewnij się, że zdalny serwer zwrócił dane.', // No data returned from the remote server. Please make sure that the remote server has data returned.
+	E_70005: '400 Bad Request Error. Serwer nie może przetworzyć żądania lub nie może go przetworzyć z powodu czegoś, co jest postrzegane jako błąd klienta (np. Zniekształcona składnia żądania, nieprawidłowe ramkowanie komunikatu żądania lub oszukańcze kierowanie żądań).', // 400 Bad Request Error. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).
+	E_70006: '403 Forbidden Error. Serwer zrozumiał żądanie, ale odmawia jego autoryzacji.', // 403 Forbidden Error. The server understood the request but refuses to authorize it.
+	E_70007: '405 Method Not Allowed. Metoda żądania jest znana serwerowi, ale nie jest obsługiwana przez zasób docelowy.', // 405 Method Not Allowed. The request method is known by the server but is not supported by the target resource.
+	E_70008: '500 Internal Server Error. Serwer napotkał nieoczekiwany stan, który uniemożliwił mu realizację żądania.', // 500 Internal Server Error. The server encountered an unexpected condition that prevented it from fulfilling the request.
 	E_40001: 'SqlOptimizer nie udało się wykonać pierwontej kwerendy SQL do źródła danych.', // SqlOptimizer failed on executing primitive sql on data source.
 	E_40002: 'Nie można odnaleźć określonej tabeli.', // Cannot find the specified table in context.
 	E_40003: 'Nie można odnaleźć określonej kolumny \'{ColumnName}\'.', // Cannot find the specified column \'{ColumnName}\' in context.
 	E_40004: 'Znaleziono więcej niż jedną pasującą kolumnę.', // Found more than on matched columns in context.
-	E_40005: 'Found more than one matched tables in context.',
+	E_40005: 'Znaleziono więcej niż jedną pasującą tabelę w kontekście.', // Found more than one matched tables in context.
 	E_90001: 'Główne słowo kluczowe nie jest obsługiwane.', // Top keyword not supported.
 	E_90002: 'Niepoprawna składnia obok \'{Token}\'.', // Incorrect syntax near \'{Token}\'.
 	E_90003: 'Niepoprawna składnia w instrukcji SQL.', // Incorrect syntax in the sql statement.
@@ -185,9 +185,13 @@ export const pl = {
 	E_80063: 'Funkcja wymaga parametru typu Array.', // Function requires an Array parameter.
 	E_80064: 'Nieobsługiwana wartość LIKE/NOTLIKE.', // Unsupported LIKE/NOTLIKE value.
 	E_80065: 'Nie udało się zwolnić wewnętrznych zasobów SourceTable\'s.', // Failed to dispose SourceTable\'s inner resources.
+	E_110001: 'Serwer proxy JDBC nie działa.', // JDBC proxy is not alive.
+	E_110002: 'Pobierz schemat z błędu serwera proxy JDBC.', // Get schema from JDBC proxy error.
+	E_110003: 'Wystąpił błąd podczas wykonywania prymitywnego zapytania w proxy JDBC. \ n [{{Provider}}]: {{message}}', // An error occurred when executing primitive query in JDBC proxy. \n[{{Provider}}]: {{message}}
+	E_110004: 'Czas połączenia minął.', // Connection time out.
 
 	err_DataSourceAccessDenied: 'Nie masz uprawnień do dostępu do źródła danych. \nNazwa źródła danych: {{datasourceName}}.', // You do not have permission to access datasource. \nDatasource Name: {{datasourceName}}.
-	err_DataSourceNotFound: 'Specified datasource document {datasourceId} is not found.',
+	err_DataSourceNotFound: 'Nie znaleziono określonego dokumentu źródła danych {datasourceId}.', // Specified datasource document {datasourceId} is not found.
 	err_DataSourceIntegrityCheck: 'Błąd sprawdzania integralności źródła danych o ID {{documentId}}', // Data source with id {{documentId}} integrity check error.
 	err_UserNotInOrgnization: 'Tego użytkownika nie ma w żadnej organizacji. Sprawdź parametr "{{propertyName}}" z kontekstem organizacji.', // Current user is not in any orgnization. Please check parameter "{{propertyName}}" with orgnization context.
 

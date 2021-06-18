@@ -34,7 +34,7 @@ export const incrementalUpdateCotEN = {
 	err_410003: 'Refresh failed: Logical data type is not supported.',
 	err_410005: 'Refresh failed: Invalid dataset calculation result.',
 	err_410006: 'Refresh failed: Access denied to temp data file directory.',
-	err_410014: 'Refresh failed: Failed to convert value to target data type.',
+	err_410014: 'Refresh failed: Failed to convert value to target data type. \nRow index: {{rowIndex}}, column index: {{columnIndex}}.',
 	err_410102: 'Refresh failed: Unknown runtime errors occurred.',
 	err_410105: 'Refresh failed: Failed to execute command on analysis database.',
 	err_410125: 'Refresh failed: Internal error. The code line should not be reached.',

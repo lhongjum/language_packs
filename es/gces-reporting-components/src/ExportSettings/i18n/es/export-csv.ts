@@ -33,6 +33,14 @@ export default {
         "txt": ".txt"
       }
     },
+    "DateTimeFormat": {
+      "label": "DateTimeFormat",
+      "category": "Misc"
+    },
+    "NumericFormat": {
+      "label": "NumericFormat",
+      "category": "Misc"
+    },
     "AddTimestamp": {
       "label": "Add Timestamp",
       "category": "Filename"

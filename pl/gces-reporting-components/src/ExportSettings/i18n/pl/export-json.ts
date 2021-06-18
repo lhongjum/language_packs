@@ -7,7 +7,7 @@ export default {
       "category": "Różne"
     },
     "QuotePropertyNames": {
-      "label": "CytujNazwyWłaściwości",
+      "label": "Cytuj nazwy właściwości",
       "category": "Różne"
     },
     "AddTimestamp": {

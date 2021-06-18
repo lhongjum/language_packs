@@ -10,17 +10,18 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	// common
 	ThemeDesigner: 'Kreator motywów', // Theme Designer
 	Save: 'Zapisz', // Save
+	Close: 'Zamknij', // Close
 	Untitled: 'Brak tytułu', // Untitled
 	Apply: 'Zatwierdź', // Apply
 	Cancel: 'Anuluj', // Cancel
 	Preview: 'Podgląd', // Preview
 	Yes: 'Tak', // Yes
 	No: 'Nie', // No
-	'create-theme!title': 'Create Theme',
-	'edit-theme!title': 'Edit Theme',
+	'create-theme!title': 'Utwórz motyw', // Create Theme
+	'edit-theme!title': 'Edytuj motyw', // Edit Theme
 
 	// recommend theme
-	recommendTitle: 'Rozpocznij przy użyciu istniejącego motywu', // Start from an existing theme
+	recommendTitle: 'Start from a sample theme', // Start from a sample theme
 
 	// designer modal
 	loadThemeError: 'Nie udało się załadować motywu', // Load theme failed
@@ -36,8 +37,8 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	ThemeNameError: 'Nazwa motywu jest nieprawidłowa. Nie używaj zastrzeżonych symboli < > \ : ? * / | " oraz . (kropka), jako pierwszych znaków w nazwie motywu.', // The theme name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the theme name.'
 
 	// Visual Designer
-	colorsSetting: 'Ustawienia kolorów', // Colors Setting
-	fontsSetting: 'Ustawienia czcionek', // Fonts Setting
+	colorsSetting: 'Colors Settings', // Colors Settings
+	fontsSetting: 'Fonts Settings', // Fonts Settings
 	majorFont: 'Główna czczionka', // Major Font
 	minorFont: 'Poboczna czcionka', // Minor Font
 	accent1: 'Akcent1', // Accent1
@@ -52,6 +53,8 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	light2: 'Jasny2', // Light2
 	hyperlink: 'Hiperłącze', // Hyperlink
 	hyperlinkFollowed: 'Hiperłącze po kliknięciu', // Hyperlink Followed
+	scrollbarThumb: 'Scrollbar Thumb',
+	scrollbarTrack: 'Scrollbar Track',
 	majorFontFamily: 'Rodzina czcionek', // Font Family
 	minorFontFamily: 'Rodzina czcionek', // Font Family
 	majorFontStyle: 'Styl', // Style

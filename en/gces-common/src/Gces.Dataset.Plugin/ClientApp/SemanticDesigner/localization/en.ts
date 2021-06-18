@@ -1,6 +1,7 @@
 export const resEN: LanguageKeyValueMap = {
-	'createSemanticModel!name': 'Create Semantic Model',
+	'createSemanticModel!name': 'Create Data Model',
 
+	selectModelType: 'Select Model Type',
 	specifyDatasource: 'Specify a data source',
 	configDatasource: 'Config data source',
 	selectTableAndView: 'Select tables and views',
@@ -8,8 +9,8 @@ export const resEN: LanguageKeyValueMap = {
 	filterItems: 'Filter items by name:',
 	findAdditionRelations: 'Find additional relations:',
 	selectOrClearAllItems: 'Select or clear all items:',
-	modelAlreadyExist: "Semantic model '{{name}}' already exist.",
-	invalidSemanticModelName: 'The semantic model name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the semantic model name.',
+	modelAlreadyExist: "Data model '{{name}}' already exist.",
+	invalidSemanticModelName: 'The data model name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the data model name.',
 
 	connectError: 'Connection error',
 	connectSuccess: 'Connect successfully',
@@ -22,8 +23,8 @@ export const resEN: LanguageKeyValueMap = {
 	close: 'Close',
 	expand: 'Expand',
 	collapse: 'Collapse',
-	CreateSemanticIframeTitle: 'Create Semantic Model',
-	EditSemanticIframeTitle: 'Edit Semantic Model',
+	CreateSemanticIframeTitle: 'Create Data Model',
+	EditSemanticIframeTitle: 'Edit Data Model',
 	// Designer
 	// App Bar
 	abSave: 'Save Draft',
@@ -240,7 +241,7 @@ export const resEN: LanguageKeyValueMap = {
 	deleteEntityConfirmMsg: 'Do you want to delete entity({{name}}) permanently?',
 	deleteAttributeConfirmMsg: 'Do you want to delete attribute({{name}}) permanently?',
 	deleteRelationConfirmMsg: 'Do you want to delete relation({{name}}) permanently?',
-	closeDesignerConfirm: 'Do you want to leave semantic model designer and discard the changes?',
+	closeDesignerConfirm: 'Do you want to leave data model designer and discard the changes?',
 	comment: 'Comment',
 	commentDesc: 'Comment(This comment appears in the model version history.)',
 
@@ -289,6 +290,7 @@ export const resEN: LanguageKeyValueMap = {
 	given_name: 'given name',
 	family_name: 'family name',
 	role: 'role',
+	full_name: 'full name',
 
 	// Storage Exception
 	SemanticModelError_EntityNotFound: 'Entity not found (or You do not have sufficient permissions on this document to perform the action).',
@@ -311,4 +313,8 @@ export const resEN: LanguageKeyValueMap = {
 	'DataSourceDisplayName!SqlServer': 'SQL Server',
 	'DataSourceDisplayName!MySql': 'Mysql',
 	'DataSourceDisplayName!Postgres': 'Postgres',
+
+	// model type selector
+	'modelType!report': 'For Report',
+	'modelType!dashboard': 'For Dashboard',
 };

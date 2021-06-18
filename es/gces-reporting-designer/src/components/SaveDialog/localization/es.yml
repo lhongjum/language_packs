@@ -1,10 +1,14 @@
 cancelLabel: Cancel
 commentLabel: Comment
 report:
+  errors:
+    saveDocument: Report could not be saved.
   saveLabel: Save Report
   saving: Saving Report...
   title: "Save Report - {name}"
 template:
+  errors:
+    saveDocument: Template could not be saved.
   saveLabel: Save Template
   saving: Saving Template...
   title: "Save Template - {name}"

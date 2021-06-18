@@ -1583,5 +1583,16 @@
 			"See https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/syd-function for details."
 		],
 		"link": ""
+	},
+	{
+		"name": "ToTimeSpanString",
+		"category": "Text",
+		"syntax": [
+			"ToTimeSpanString(str)"
+		],
+		"description": [
+			"Returns a timespan format string that represents the given object."
+		],
+		"link": ""
 	}
 ]

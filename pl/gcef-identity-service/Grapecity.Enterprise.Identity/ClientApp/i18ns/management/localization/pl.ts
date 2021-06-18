@@ -8,9 +8,9 @@
 	DeleteConfirm: 'Potwierdź usunięcie', // Delete Confirm
 
 	// user management
-	UserManagement: 'Zarządzanie użytkownikami', // User Management
-	AddUser: 'Dodaj użytkownika', // Add User
-	EditUser: 'Edytuj użytkownika', // Edit User
+	UserManagement: 'Zarządzanie Użytkownikami', // User Management
+	AddUser: 'Dodaj Użytkownika', // Add User
+	EditUser: 'Edytuj Użytkownika', // Edit User
 	Email: 'Email', // Email
 	FirstName: 'Imię', // First Name
 	LastName: 'Nazwisko', // Last Name
@@ -24,21 +24,21 @@
 	OneRolePerLine: '(Jedna rola na linię)', //  (One role per line)'
 
 	// client management
-	ClientManagement: 'Zarządzanie klientami', // Client Management
-	AddClient: 'Dodaj klienta', // Add Client
-	EditClient: 'Edytuj klienta', // Edit Client
-	ClientId: 'Id klienta', // Client Id
-	ClientName: 'Nazwa klienta', // Client Name
-	ClientSecret: 'Sekret klienta', // Client Secret
+	ClientManagement: 'Zarządzanie Klientami', // Client Management
+	AddClient: 'Dodaj Klienta', // Add Client
+	EditClient: 'Edytuj Klienta', // Edit Client
+	ClientId: 'Id Klienta', // Client Id
+	ClientName: 'Nazwa Klienta', // Client Name
+	ClientSecret: 'Sekret Klienta', // Client Secret
 	Description: 'Opis', // Description
-	AccessTokenLifetime: 'Czas trwania tokena', // Access Token Lifetime
+	AccessTokenLifetime: 'Czas trwania Tokena', // Access Token Lifetime
 	AllowedCorsOrigins: 'Dozwolone źródła CORS', // Allowed Cors Origins
 	RedirectURIs: 'URI przekierowania', // Redirect URIs
 	PostLogoutRedirectURIs: 'URI przekierowania po wylogowaniu', // Post Logout Redirect URIs
-	AllowedScopes: 'Dozwolone zakresy', // Allowed Scopes
-	AllowedGrantTypes: 'Dozwolone typy uprawnień', // Allowed Grant Types
+	AllowedScopes: 'Dozwolone Zakresy', // Allowed Scopes
+	AllowedGrantTypes: 'Dozwolone Typy Uprawnień', // Allowed Grant Types
 	Enabled: 'Włączone', // Enabled
-	AllowOfflineAccess: 'Zezwól Na dostęp offline', // Allow Offline Access
+	AllowOfflineAccess: 'Zezwól Na Dostęp Offline', // Allow Offline Access
 	AllowAccessTokenViaBrowser: 'Zezwól na dostęp przez przeglądrkę', // Allow Access Token Via Browser
 	ClientIdIsRequired: 'Id klienta jest wymagane', // ClientId is required
 	GetClientsError: 'Błąd pobierania klientów', // Get clients error

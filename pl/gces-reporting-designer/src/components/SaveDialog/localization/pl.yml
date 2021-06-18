@@ -1,10 +1,14 @@
 cancelLabel: Anuluj
 commentLabel: Komentarz
 report:
+  errors:
+    saveDocument: Nie można zapisać raportu.
   saveLabel: Zapisz raport
   saving: Zapisywanie raportu...
   title: "Zapisz raport - {name}"
 template:
+  errors:
+    saveDocument: Nie można zapisać szablonu.
   saveLabel: Zapisz szablon
   saving: Zapisywanie szablonu...
   title: "Zapisz szablon - {name}"

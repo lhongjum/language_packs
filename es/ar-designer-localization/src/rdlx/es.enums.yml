@@ -7,9 +7,16 @@ auto_merge_mode:
   - Never
   - Always
   - Restricted
+auto_width:
+  - None
+  - Proportional
 axis_location:
   - Left
   - Right
+axis_mode:
+  - Cartesian
+  - Radial
+  - Polygonal
 barcode_caption_location:
   - None
   - Above
@@ -236,18 +243,18 @@ bullet_tick_marks:
   - Inside
   - Outside
 calendar:
-  - Gregorian
-  - Gregorian Arabic
-  - Gregorian Middle East French
-  - Gregorian Transliterated English
-  - Gregorian Transliterated French
-  - Gregorian US English
-  - Hebrew
-  - Hijri
-  - Japanese
-  - Korean
-  - Taiwan
-  - Thai Buddhist
+  - Gregorian: Gregorian
+  - GregorianArabic: Gregorian Arabic
+  - GregorianMiddleEastFrench: Gregorian Middle East French
+  - GregorianTransliteratedEnglish: Gregorian Transliterated English
+  - GregorianTransliteratedFrench: Gregorian Transliterated French
+  - GregorianUSEnglish: Gregorian US English
+  - Hebrew: Hebrew
+  - Hijri: Hijri
+  - Japanese: Japanese
+  - Korean: Korean
+  - Taiwan: Taiwan
+  - ThaiBuddhist: Thai Buddhist
 check_alignment:
   - TopLeft
   - TopCenter
@@ -520,6 +527,17 @@ dvchart_orientation:
 dvchart_overlapping_labels:
   - Auto
   - Show
+dvchart_plot_rule_properties:
+  - BackgroundColor
+  - LabelTemplate
+  - LineColor
+  - LineStyle
+  - LineWidth
+  - SymbolBackgroundColor
+  - SymbolLineColor
+  - SymbolLineStyle
+  - SymbolLineWidth
+  - TooltipTemplate
 dvchart_plot_type:
   - Bar
   - Line
@@ -872,7 +890,7 @@ legend_position:
   - BottomCenter
   - BottomLeft
 line_control_style:
-  - Transparent
+  - None
   - Solid
   - Dashed
   - Dotted
@@ -944,7 +962,6 @@ size_type:
   - Default: Default
   - FitToPage: Fit To Page
   - FitToWidth: Fit To Width
-  - Stretch: Stretch
 sparkline_type:
   - Line
   - Columns

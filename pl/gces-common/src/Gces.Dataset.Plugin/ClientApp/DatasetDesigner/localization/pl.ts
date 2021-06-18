@@ -3,7 +3,7 @@ export const datasetPL = {
 
 	// common
 	Save: 'Zapisz', // Save
-	SaveAndCreateAnother: 'Zapisz i stwórz kolejny', // Save And Create Another
+	SaveAndCreateAnother: 'Zapisz i utwórz kolejny', // Save And Create Another
 	OK: 'OK', // OK
 	Cancel: 'Anuluj', // Cancel
 	Close: 'Zamknij', // Close
@@ -42,7 +42,7 @@ export const datasetPL = {
 	tooManyFieldsWarning: '{{count}}(więcej niż 30) pól jest obecnie wybranych jako wyjście, co może wpłynąć na wydajność obliczeń.', // {{count}}(more than 30) fields are currently selected for output, which may affect calculation performance.
 	datasourceUnknown: 'Usunięty', // Deleted
 	Parameters: 'Parametry', // Parameters
-	Validating: 'Sprawdzanie...', // Validating...
+	Validating: 'Weryfikuję ...', // Validating...
 
 	// designer mode modal
 	SelectCreateMode: 'Wybierz tryb towrzenia zestawu danych', // Please select create dataset mode
@@ -52,14 +52,14 @@ export const datasetPL = {
 	CloseDatasetDesignerConfirm: 'Czy chcesz opuścić kreator zestawu danych i odrzucić zmiany?', // Do you want to leave dataset designer and discard the changes?
 	ChangeUseCacheConfirm: 'W zestawie danych dashboardu, nieobsługiwane elementy będą odrzucane. Jesteś pewien, że chcesz przełączyć?', // In dashboard dataset, the followings that are not supported will be discarded, Are you sure to switch?
 	DeleteFieldConfirm: 'Czy chcesz usunąć to {{fieldType}} pole ({{fieldName}})?', // Do you want to delete this {{fieldType}} Field({{fieldName}})?
-	DeleteAllInvalidField: 'Wyczyść wszystkie niepoprawne pola', // Clear all the invalid fields
-	DeleteAllInvalidFieldsConfirm: 'Czy chcesz wyczyścić wszystkie niepoprawne pola?', // Do you want to clear all the invalid fields?
-	IncrementalUpdateSettingLostConfirm: 'Do you want to remove the incremental update setting?',
-	BinaryToImageConfirm: 'Only support the image data, continue?',
-	CreateDataSetIframeTitle: 'Create DataSet',
-	EditDataSetIframeTitle: 'Edit DataSet',
-	CreateDataSourceIframeTitle: 'Create DataSource',
-	EditDataSourceIframeTitle: 'Edit DataSource',
+	DeleteAllInvalidField: 'Wyczyść wszystkie nieprawidłowe pola', // Clear all the invalid fields
+	DeleteAllInvalidFieldsConfirm: 'Czy chcesz wyczyścić wszystkie nieprawidłowe pola?', // Do you want to clear all the invalid fields?
+	IncrementalUpdateSettingLostConfirm: 'Czy chcesz usunąć ustawienie aktualizacji przyrostowej?', // Do you want to remove the incremental update setting?
+	BinaryToImageConfirm: 'Obsługuj tylko dane obrazu, kontynuować?', // Only support the image data, continue?
+	CreateDataSetIframeTitle: 'Utwórz zestaw danych', // Create DataSet
+	EditDataSetIframeTitle: 'Edytuj zestaw danych', // Edit DataSet
+	CreateDataSourceIframeTitle: 'Utwórz źródło danych', // Create DataSource
+	EditDataSourceIframeTitle: 'Edytuj źródło danych', // Edit DataSource
 	// choose dataset type
 	ChooseDatasetTypeTitle: 'Wybierz typ zestawu danych', // Please select dataset type
 	ChooseReportDataset: 'Dla raportu', // For Report
@@ -88,12 +88,12 @@ export const datasetPL = {
 	// Parameters: 'Parametrów', // Parameters
 	Options: 'Opcje', // Options
 	Field: 'Pole', // Field
-	DataType: 'Typ danych', // DataType
+	DataType: 'TypDanych', // DataType
 	Multivalue: 'Multiwartość', // Multivalue
 
 	// relationships tab
-	DataSource: 'Źródło danych', // Data Source
-	DataSources: 'Źródła danych', // Data Sources
+	DataSource: 'Źródło Danych', // Data Source
+	DataSources: 'Źródła Danych', // Data Sources
 	CreateDatasetTip: 'Kliknij "Źródło danych", aby dodać źródło danych', // Click "Data Source" to add data source
 	AddCustomSqlTable: 'Dodaj własną tabelę SQL', // Add Custom SQL Table
 	Preview: 'Podgląd', // Preview
@@ -140,39 +140,41 @@ export const datasetPL = {
 	Confirm: 'Potwierdź', // Confirm
 	TableNameAlreadyExists: 'Nazwa tabeli {{name}} już istnieje', // The table name {{name}} already exists
 	TableNameCanNotBeEmpty: 'Nazwa tabeli nie może być pusta', // The table name can not be empty
-	ReplaceTable: 'Replace Table',
-	ConfirmReplace: 'Confirm to replace {{source}} with {{target}}?',
-	GenerateAliasSqlDescription:  'Genereuj alias według MS_Description', // Generate alias by MS_Description
+	ReplaceTable: 'Zastąp tabelę', // Replace Table
+	ConfirmReplace: 'Czy potwierdzasz, że chcesz zamienić {{source}} na {{target}}?', // Confirm to replace {{source}} with {{target}}?
+	GenerateAliasSqlDescription: 'Genereuj alias według MS_Description', // Generate alias by MS_Description
 	GenerateAliasPostgreDescription: 'Generuj alias według Komentarza', // Generate alias by Comment
+	GenerateAliasDescriptionOrMappingConfig: 'Wygeneruj alias według opisu lub konfiguracji odwzorowania źródła danych', // Generate alias by description or datasource mapping configuration
+	NoSchema: '(Brak schematu)', // (No Schema)
 
 	// custome sql table
 	ChooseDataConnection: 'Wybierz połączenie danych', // Choose Data Connection
 	SQLCommand: 'Zapytanie SQL', // SQL Command
 	SameNameMsg: 'Tabela o nazwie "{{name}}" już istnieje.', // A table named "{{name}}" already exists.
-	UndefinedParameter: 'The Sql contains undefined parameter: {{parameter}}. Please click the "Parameters" button to generate and configure it.',
-	InvalidParameter: 'The Sql contains invalid parameter:{{parameter}}. For dashboard dataset, the parameter type should be constant in the custom sql table.',
-	CaseNotMatchedParameters: 'The Sql contains not matched parameter: {{parameter}}, the case must match sensitively.',
+	UndefinedParameter: 'Sql zawiera niezdefiniowany parametr: {{parameter}}. Kliknij przycisk „Parametry”, aby go wygenerować i skonfigurować.', // The Sql contains undefined parameter: {{parameter}}. Please click the "Parameters" button to generate and configure it.
+	InvalidParameter: 'Sql zawiera nieprawidłowy parametr: {{parametr}}. W przypadku zestawu danych panelu kontrolnego typ parametru powinien być stały w niestandardowej tabeli sql.', // The Sql contains invalid parameter:{{parameter}}. For dashboard dataset, the parameter type should be constant in the custom sql table.
+	CaseNotMatchedParameters: 'Sql zawiera niedopasowany parametr: {{parameter}}, wielkość liter musi być odpowiednio dopasowana.', // The Sql contains not matched parameter: {{parameter}}, the case must match sensitively.
 	InvalidSql: 'Błąd SQL, nieprawidłowy parametr {{parameter}}', // Sql Error, invalid parameter: {{parameter}}
 	QueryType: 'Zawartość zapytania', // QueryType
 	QueryType_Text: 'Tekst', // Text
 	QueryType_StoredProcedure: 'Procedura składowana', // Stored procedure
-	QueryType_NativeQuery: 'Zapytanie natywne', // Native Query
+	QueryType_NativeQuery: 'Zapytanie Natywne', // Native Query
 	DeleteCustomSqlTableTitle: 'Usuń własną tabelę SQL', // Delete Custom Sql Table
 	DeleteCustomSqlTableConfirmMsg: 'Usunąć własną tabelę SQL "{{name}}" na zawsze?', // Delete Custom Sql Table "{{name}}" forever?
 
 	Procedures: 'Procedury', // Procedures
-	ProcedureParameterName: 'Nazwa parametru', // Parameter Name
-	ProcedureParameterType: 'Typ danych', // Data Type
-	ProcedureParameterValueType: 'Typ wartości', // Value Type
-	ProcedureParameterDefaultValue: 'Wartość domyślna', // Default Value
-	InParam: 'Parametr w',
+	ProcedureParameterName: 'Nazwa Parametru', // Parameter Name
+	ProcedureParameterType: 'Typ Danych', // Data Type
+	ProcedureParameterValueType: 'Typ Wartości', // Value Type
+	ProcedureParameterDefaultValue: 'Wartość Domyślna', // Default Value
+	InParam: 'Parametr W',
 	ResultSet: 'Zestaw wynikowy', // Result Set
 	CustomTableBindedParameterNotFound: 'Bieżąca niestandardowa tabela Sql jest uszkodzona. Nie znaleziono następujących powiązanych parametrów: {{invalidParametersName}}.', // The current custom Sql table is corrupted, the following bound parameters are not found:
-	CustomTableParameterNotFound: 'The current custom Sql table is corrupted, the following bound parameters are not found: {{invalidParametersName}}.',
-	ProcedureNotSupported: 'The procedure "{{name}}" is not supported or not found.',
-	NoAvailableProcedures: 'No available procedures',
-	NoItems: 'No Items',
-	SelectNewProcedure: 'Please select a procedure',
+	CustomTableParameterNotFound: 'Bieżąca niestandardowa tabela Sql jest uszkodzona, nie znaleziono następujących powiązanych parametrów: {{invalidParametersName}}.', // The current custom Sql table is corrupted, the following bound parameters are not found: {{invalidParametersName}}.
+	ProcedureNotSupported: 'Procedura "{{name}}" nie jest obsługiwana lub nie została znaleziona.', // The procedure "{{name}}" is not supported or not found.
+	NoAvailableProcedures: 'Brak dostępnych procedur', // No available procedures
+	NoItems: 'Brak przedmiotów', // No Items
+	SelectNewProcedure: 'Wybierz procedurę', // Please select a procedure
 
 	// fields tab
 	Detail: 'Szczegóły', // Detail
@@ -192,6 +194,7 @@ export const datasetPL = {
 	Syntax: 'Składnia', // Syntax
 	DatasetFields: 'Pola zestawu danych', // Dataset Fields
 	Aggregation: 'Agregacja', // Aggregation
+	Calculated: 'Calculated',
 	GroupRules: 'Zasady grupy', // Group Rules
 	GroupSize: 'Rozmiar grupy', // Group Size
 	RangeOfValues: 'Zakres wartości', // Range Of Values
@@ -223,6 +226,7 @@ export const datasetPL = {
 	EmptyFieldsSearchResultTip: 'Nie ma pól pasujących do wyszukiwania', // There is no field match the search.
 	DragColumnToGroup: 'Upuść kolumnę tutaj, aby stworzyć grupę', // Drop Column Here to do group.
 	DragColumnToAggregation: 'Upuść kolumnę tutaj, aby stworzyć agregację', // Drop Column Here to do aggregation.
+	ClickPlugButtonToAdd: 'Click "+" button to add calculated field.',
 	FieldDetailTitle: 'W tym trybie możesz wybrać i modyfikować pola używane jako wyjście', // In this mode, you could select and modify some fields to used as output
 	FieldGroupTitle: 'W tym trybie możesz grupować pola i jednocześnie wykonywać agregacje', // In this mode, you could group some field and do the aggregation same time
 	FieldColumnLabel: 'Pole', // Field
@@ -249,6 +253,7 @@ export const datasetPL = {
 	CategoryNameAlreadyExist: 'Nazwa kategorii \'{{name}}\' już istnieje', // Category name \'{{name}}\' already exist
 	CalculateCategoryAll: 'Wszystko', // All
 	SearchForFields: 'Szukaj pól', // Search for fields
+	CreateFieldSuccessfully: 'Field \'{{fieldName}}\' created successfully',
 
 	// filters tab
 	MoveUp: 'W górę', // Move Up
@@ -286,28 +291,28 @@ export const datasetPL = {
 	DirectConnection: 'Dla raportu', // For Report
 	UseCache: 'Dla dashboardu', // For Dashboard
 	Parameter: 'Parametr', // Parameter
-	DataModelParameter: 'Parametr',
-	DatasourceParameter: 'Datasource Parameter',
+	DataModelParameter: 'Parametr', // Parameter
+	DatasourceParameter: 'Parametr źródła danych', // Datasource Parameter
 	ContextField: 'Pole kontekstu', // Context Field
 	DefaultValue: 'Domyślna wartość', // DefaultValue
 	UserContext: 'Kontekst użytkownika', // User Context
 	OrganizationContext: 'Dane preferencji organizacji', // Organization Context
-	Source: 'Źródło danych', // Data Source
+	Source: 'źródło danych', // Data Source
 	SetPreviewValue: 'Ustaw parametr podglądu', // Set Preview Parameter
 	ParameterType: 'Typ parametru', // Parameter Type
 	UserInput: 'Dane wejściowe użytkownika', // User Input
 	UseCacheTip: 'Zestaw danych dla dashboardu będzie przeliczany i cache\'owany przy zapisie', // The dataset for dashboard will be calculated and cached when it is saved.
-	DirectConnectionTip: 'Zestaw danych dla raportu będzie przeliczany za każdym razem, gdy będzie używany.', // The dataset for report will be calculated every time when it is consumed.
+	DirectConnectionTip: 'Zetsaw danych dla raportu będzie przeliczany za każdym razem, gdy będzie używany.', // The dataset for report will be calculated every time when it is consumed.
 	AddParameter: 'Dodaj parametr', // Add Parameter
 	CanNotSaveAlertAboutUseCache: 'Nie można używać trybu \'$t(UseCache)\', gdy zestaw danych ma parametr typu \'$t(UserInput)\'.', // Can not use \'$t(UseCache)\' mode when dataset has \'$t(UserInput)\' type parameter.
-	InvalidParameterNameError: 'Nazwa parametru może zawierać tylko litery, liczby oraz _. Pierwszy znak nie może być liczbą, a długość powinna znajdować się w przedziale 1-32.', // Parameter name can only contains letter, number and _, the first character can not be a number, and the length should be between 1-32.
+	InvalidParameterNameError: 'nazwa parametru może zawierać tylko litery, liczby oraz _. Pierwszy znak nie może być liczbą, a długość powinna znajdować się w przedziale 1-32.', // Parameter name can only contains letter, number and _, the first character can not be a number, and the length should be between 1-32.
 	ParameterAlreadyExistsError: 'Parametr "{{parameter}}" już istnieje.', // Parameter "{{parameter}}" already exists.
 	user_context_userid: 'ID użytkownika', // user id
 	user_context_name: 'nazwa użytkownika', // user name
 	user_context_email: 'email', // email
 	user_context_phone_number: 'numer telefonu komórkowego', // mobile phone
 	user_context_given_name: 'Imię', // given name
-	user_context_family_name: 'Nazwisko rodowe', // family name
+	user_context_family_name: 'nazwisko rodowe', // family name
 	user_context_full_name: 'Imię i nazwisko', // full name
 	user_context_role: 'rola', // role
 	user_context_tenant$Name: 'Nazwa organizacji', // organization-Name
@@ -317,7 +322,7 @@ export const datasetPL = {
 	Organization: 'Organizacja', // organization
 
 	// options tab
-	IncrementalUpdating: 'Incremental Update',
+	IncrementalUpdating: 'Aktualizacja przyrostowa', // Incremental Update
 
 	// datasource
 	CreateDatasource: 'Utwórz źródło danych', // Create Data Source
@@ -326,7 +331,7 @@ export const datasetPL = {
 	ConnectSuccess: 'Poprawnie połączono', // Connect successfully.
 	Create: 'Utwórz', // Create
 	EditDatasource: 'Edytuj źródło danych', // Edit Data Source
-	ReconfigDatasource: 'Konfiguruj źródło danych', // Reconfigure Data Source
+	ReconfigDatasource: 'Konfiguruj Źródło Danych', // Reconfigure Data Source
 	Update: 'Zaktualizuj', // Update
 	Local: 'Lokalnie', // Local
 	Embed: 'Osadź', // Embed
@@ -335,10 +340,10 @@ export const datasetPL = {
 	Name: 'Nazwa', // Name
 	User: 'Użytkownik', // User
 	SecurityToken: 'Token zabezpieczeń', // Security Token
-	CacheExpiration: 'Wygaśnięcie cache', // Cache Expiration
-	CacheExpirationMode: 'Tryb wygaśnięcia cache', // Cache Expiration Mode
+	CacheExpiration: 'Wygaśnięcie Cache', // Cache Expiration
+	CacheExpirationMode: 'Tryb wygaśnięcia Cache', // Cache Expiration Mode
 	Password: 'Hasło', // Password
-	FilePassword: 'Hasło pliku', // FilePassword
+	FilePassword: 'Hasło Pliku', // FilePassword
 	Server: 'Serwer', // Server
 	Host: 'Host', // Host
 	Port: 'Port', // Port
@@ -347,7 +352,7 @@ export const datasetPL = {
 	Database: 'Baza danych', // Database
 	Service_Name: 'Nazwa usługi', // Service Name
 	Encrypt: 'Szyfruj', // Encrypt
-	SIP: 'Zasady wnioskowania schematu', // Schema Infer Policy
+	SIP: 'Zasady wnioskowania Schematu', // Schema Infer Policy
 	AllowHiddenSheets: 'Załaduj ukryte arkusze', // Load Hidden Sheets
 	AllowDBNull: 'Skonwertuj puste komórki na DBNull', // Convert empty cell to DBNull
 	UseAuth: 'Użyj autentykacji', // Use Auth
@@ -364,27 +369,27 @@ export const datasetPL = {
 	JsonParameterDefaultValue: 'Domyślna wartość', // Default value
 	JsonParameterLabel: 'Parametr', // Parameter
 	JsonParameterAdd: 'Dodaj parametr', // Add Parameter
-	HttpHeaderKey: 'Key',
-	HttpHeaderValue: 'Value',
-	HttpHeadersLabel: 'Http Headers',
-	AddHttpHeader: 'Add HttpHeader',
-	UseHttpHeaders: 'Use Http Headers(Advanced)',
+	HttpHeaderKey: 'Klucz', // Key
+	HttpHeaderValue: 'Wartość', // Value
+	HttpHeadersLabel: 'Nagłówki HTTP', // Http Headers
+	AddHttpHeader: 'Dodaj nagłówek HTTP', // Add HttpHeader
+	UseHttpHeaders: 'Użyj nagłówków HTTP (zaawansowane)', // Use Http Headers(Advanced)
 	LineDelimiter: 'Ogranicznik linii', // Line Delimiter
 	ColumnDelimiter: 'Ogranicznik kolumn', // Column Delimiter
 	CodePage: 'Strona kodu', // Code Page
 	AuthMode: 'Tryb autentykacji', // AuthMode
-	GrantType: 'GrantType',
-	GrantType_password: 'password',
-	GrantType_client_credentials: 'client_credentials',
+	GrantType: 'Typ udzielenia', // GrantType
+	GrantType_password: 'Hasło', // password
+	GrantType_client_credentials: 'poświadczenia_klienta', // client_credentials
 	AutoColumnName: 'Używaj pierwszego wiersza jako nagłówka', // Use First Row as Header
 	OAuthTokenEndpoint: 'Punkt końcowy tokenu', // Token Endpoint
 	OAuthClientId: 'ID klienta', // Client Id
 	OAuthClientSecret: 'Sekret klienta', // Client Secret
 	OAuthUserName: 'NazwaUżytkownika', // UserName
 	OAuthPassword: 'Hasło', // Password
-	OAuthScope: 'Scope',
+	OAuthScope: 'Zakres', // Scope
 	SelectFile: 'Wybierz plik...', // Select File...
-	SourceType: 'Typ źródła', // SourceType
+	SourceType: 'Typ Źródła', // SourceType
 	UseConfigString: 'Użyj parametrów połączenia (Zaawansowane)', // Use Configuration String(Advanced)
 	UseURIParameters: 'Użyj parametrów URI (Zaawansowane)', // Use URI Parameters(Advanced)
 	FileReady: '{{file}} jest gotowy do wgrania', // {{file}} is ready to upload
@@ -395,7 +400,7 @@ export const datasetPL = {
 	OAuth2: 'OAuth2', // OAuth2
 	Basic: 'Podstawowe', // Basic
 	None: 'Brak', // None
-	ExtractingData: 'Pozyskiwanie danych', // ExtractingData
+	ExtractingData: 'PozyskiwanieDanych', // ExtractingData
 	ExtractingDataMsg: 'Pozyskiwanie danych z pliku do bazy danych', // Extracting file data to database
 	DataExtractionFailed: 'Nie udało się pozyskać danych', // Data extraction failed
 	DataSourceCategory_All: 'Wszystko', // All
@@ -412,13 +417,14 @@ export const datasetPL = {
 	next: 'Następny', // Next
 	back: 'Poprzedni', // Previous
 	cancel: 'Anuluj', // Cancel
-	workSheet: 'Arkusz roboczy', // WorkSheet
+	workSheet: 'Arkusz Roboczy', // WorkSheet
 	renameWorkSheet: 'Nazwa nowego arkusza', // New Sheet Name
 	renameColumnName: 'Zmień nazwę', // Rename
 	textType: 'Tekst', // Text
 	numberType: 'Number', // Number
-	datetimeType: 'DateCzas', // DateTime
+	datetimeType: 'DateTime', // DateTime
 	booleanType: 'Boolean', // Boolean
+	dateType: 'Date', // Date
 	selectSheetToImport: 'Wybierz/Zmień nazwę arkuszy', // Select / Rename Sheets
 	create_excel_datasource_error1: 'Musisz wybrać co najmniej jeden arkusz', // You must select one sheet at least
 	create_excel_datasource_error2: 'Nazwy następujących arkuszy nie powinny zawierać więcej niż 30 znaków:\n{{msg}}', // The following sheet names should be no more than 30 characters:\n{{msg}}
@@ -432,7 +438,7 @@ export const datasetPL = {
 	dlDashboardDataset: 'Dla dashboardu', // For Dashboard
 	dlReportDataset: 'Dla raportu', // For Report
 	dlDataProvider: 'Dostawca danych', // Data Provider
-	dlDataSource: 'Źródło danych', // Data Source
+	dlDataSource: 'Źródło Danych', // Data Source
 
 	// Errors
 	err_10008: 'Pole obliczeniowe "{calculatedField}" odnosi się do nieokreślonego pola "{referredField}".', // Calculated field "{calculatedField}" is referencing an undefined field "{referredField}".
@@ -461,12 +467,14 @@ export const datasetPL = {
 	err_10034: 'Wyrażenie SQL odnosi się do niezdefiniowanego parametru "{{referredParameter}}".', // Sql expression is referencing an undefined parameter "{{referredParameter}}".
 	err_10035: 'W trybie \'Dla dashboardu\' wyrażenie Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".', // In \'For Dashboard\' mode,Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".
 	err_10036: 'Następujące powiązane parametry nie zostały znalezione w niestandardowej tabeli SQL: "{{referredParameters}}".', // The following bound parameters are not found in custom Sql table: "{{referredParameters}}".
-	err_40001: 'MultiDatasource is not supported in incremental update.',
-	err_40002: 'Custom SQL table is not supported in incremental update.',
-	err_40003: 'Group fields is not allowed to use in incremental update.',
-	err_40004: 'Category fields is not allowed to use in incremental update.',
-	err_40005: 'Incremental update field does not contain in fields.',
-	err_40006: 'Incremental update settings is empty.',
+	err_10037: '{{option}} option cannot be empty.',
+
+	err_40001: 'Wiele źródeł danych nie jest obsługiwanych w przypadku aktualizacji przyrostowych.', // MultiDatasource is not supported in incremental update.
+	err_40002: 'Niestandardowa tabela SQL nie jest obsługiwana w przypadku aktualizacji przyrostowej.', // Custom SQL table is not supported in incremental update.
+	err_40003: 'Pola grupowe nie mogą być używane w aktualizacji przyrostowej.', // Group fields is not allowed to use in incremental update.
+	err_40004: 'Pola kategorii nie mogą być używane w aktualizacji przyrostowej.', // Category fields is not allowed to use in incremental update.
+	err_40005: 'Pole aktualizacji przyrostowej nie zawiera pól.', // Incremental update field does not contain in fields.
+	err_40006: 'Ustawienia aktualizacji przyrostowej są puste.', // Incremental update settings is empty.
 
 	// update datasource error
 	err_20001: 'Dokument rozszerzenia źródła danych nie został znaleziony', // Datasource extension document not found.
@@ -502,11 +510,15 @@ export const datasetPL = {
 	err_100021: 'Nie można połączyć się ze źródłem danych {{name}}.', // Can not connect to datasource {{name}}.
 	err_100022: 'Nie masz uprawnień do aktualizacji zestawu danych.', // You don\'t have permission to update the data set.
 	err_100023: 'Brak dostępnego pracownika COT.',  // No available COT worker
+	err_100030: 'Parametry połączenia zamapowanego źródła danych wykorzystały pole kontekstu do mapowania nazw, a schemat źródła danych nie jest zgodny ze schematem mapowania nazw.', // The mapped datasource connection string has used the context field for name mapping, and the datasource schema does not match the name mapping schema.
+	err_100032: 'Nieznana baza danych {{databaseName}}.', // Unknown database {{databaseName}}.
+	err_100033: 'Opcja bazy danych nie może być pusta.', // Database option cannot be empty.
+	err_100034: 'Pobieranie schematu nie powiodło się. Upewnij się, że: \ n1, Twoje ustawienia są prawidłowe. \ N2, Serwer umożliwia połączenia zdalne. \ N3, Źródło danych jest dostępne. \ n4, parametry URI są prawidłowe.', // Get schema failed. Please make sure: \n1, Your settings are valid.\n2, The server allows remote connections.\n3, The data source is available. \n4, The URI parameters are valid.
 
-	err_100018_desc: 'Error trying to resolve datasource "{{ids}}"',
+	err_100018_desc: 'Błąd podczas próby rozwiązania źródła danych „{{ids}}”', // Error trying to resolve datasource "{{ids}}"
 
 	err_DataSourceAccessDenied: 'Nie masz uprawnień do dostępu do źródła danych. \nNazwa źródła danych: {{datasourceName}}.', // You do not have permission to access datasource. \nDatasource Name: {{datasourceName}}.
-	err_DataSourceNotFound: 'Specified datasource document "{{datasourceId}}" is not found.',
+	err_DataSourceNotFound: 'Nie znaleziono określonego dokumentu źródła danych „{{datasourceId}}”.', // Specified datasource document "{{datasourceId}}" is not found.
 	err_DataSourceIntegrityCheck: 'Błąd sprawdzania integralności źródła danych o ID {{documentId}}', // Data source with id {{documentId}} integrity check error.
 	err_UserNotInOrgnization: 'Tego użytkownika nie ma w żadnej organizacji. Sprawdź parametr "{{propertyName}}" z kontekstem organizacji.', // Current user is not in any orgnization. Please check parameter "{{propertyName}}" with orgnization context.
 
@@ -545,8 +557,29 @@ export const datasetPL = {
 	'DataSourceDisplayName!ODBC': 'ODBC',
 	'DataSourceDisplayName!OData': 'OData',
 
+	'DataSourceDisplayName!SparkSQL': 'SparkSQL',
+	'DataSourceDisplayName!Hive': 'Hive',
+	'DataSourceDisplayName!GBase8s': 'GBase8s',
+	'DataSourceDisplayName!GBase8a': 'GBase8a',
+	'DataSourceDisplayName!ElasticSearch': 'ElasticSearch',
+	'DataSourceDisplayName!DM': 'DM',
+	'DataSourceDisplayName!TimeScale': 'TimeScale',
+	'DataSourceDisplayName!GreenPlum': 'GreenPlum',
+	'DataSourceDisplayName!TiDB': 'TiDB',
+	'DataSourceDisplayName!ALIAnalyticDBMySql': 'ALIAnalyticDBMySql',
+	'DataSourceDisplayName!Kingbase': 'Kingbase',
+	'DataSourceDisplayName!Hana': 'Hana',
+
+	// keys used in descriptors
+	'UID': 'Użytkownik', // User
+	'UserName': 'Nazwa użytkownika', // UserName
+	'User ID': 'Użytkownik', // User,
+	'Server:Port(e.g. localhost:39013))': 'Serwer:Port(e.g. localhost:39013))', // Server:Port(e.g. localhost:39013))
+	'ALIAnalyticDBMySql': 'AnalyticDB for MySQL',
+
 	// dataset manager error message
-	'err_3000': 'The calculation failed due to exceptions or the calculation was canceled by administrator.'
+	'err_3000': 'Obliczenie nie powiodło się z powodu wyjątków lub obliczenia zostały anulowane przez administratora.', // The calculation failed due to exceptions or the calculation was canceled by administrator.
+
 };
 
 export const gridDataPL = {

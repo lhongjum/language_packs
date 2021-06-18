@@ -3,11 +3,11 @@ export default {
   "tooltipName": "TXT Document",
   "settings": {
     "FontWeight": {
-      "label": "GrubośćCzcionki",
+      "label": "Grubość czcionki",
       "category": "Różne"
     },
     "FontHeight": {
-      "label": "RozmiarCzcionki",
+      "label": "Rozmiar czcionki",
       "category": "Różne"
     },
     "AddTimestamp": {

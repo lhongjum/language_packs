@@ -615,23 +615,23 @@
 	},
 	{
 		"name": "FiscalMonth",
-		"category": "Misc",
+		"category": "Różne",
 		"syntax": [
-			"FiscalMonth(dateTime, startMonthOfFiscalYear)"
+			"FiscalMonth(data, miesiącPoczątkowy)"
 		],
 		"description": [
-			"Gets the fiscal month of specified date."
+			"Zwraca miesiąc rachunkowy określonej daty."
 		],
 		"link": ""
 	},
 	{
 		"name": "FiscalQuarter",
-		"category": "Misc",
+		"category": "Różne",
 		"syntax": [
-			"FiscalQuarter(dateTime, startMonthOfFiscalYear)"
+			"FiscalQuarter(data, miesiącPoczątkowy)"
 		],
 		"description": [
-			"Gets the fiscal quarter of specified date."
+			"Zwraca kwartał rachunkowy określonej daty."
 		],
 		"link": ""
 	},
@@ -815,7 +815,7 @@
 			"Mid(napis, start, długość)"
 		],
 		"description": [
-			"Returns a string containing a specified number of characters from a string."
+			"Zwraca ciąg zawierający określoną liczbę znaków z ciągu."
 		],
 		"link": ""
 	},
@@ -1579,6 +1579,17 @@
 		"description": [
 			"Zwraca wartość Double reprezentującą amortyzację metodą sumy cyfr rocznych środka trwałego za określony okres.",
 			"Szczegóły na: https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/syd-function."
+		],
+		"link": ""
+	},
+	{
+		"name": "ToTimeSpanString",
+		"category": "Tekst",
+		"syntax": [
+			"ToTimeSpanString(str)"
+		],
+		"description": [
+			"Zwraca ciąg formatu czasu, który reprezentuje dany obiekt."
 		],
 		"link": ""
 	}

@@ -27,9 +27,12 @@ export const datasetSchedulingES: LanguageKeyValueMap = {
 	taskItemMenuEditTitle: 'Edit Task',
 	taskItemMenuDeleteText: 'Delete',
 	taskItemMenuDeleteTitle: 'Delete Task',
+	taskItemMenuDuplicateText: 'Duplicate',
+	taskItemMenuDuplicateTitle: 'Duplicate Task',
 	taskItemTextNextRun: 'Next run:',
 	taskItemTextManually: 'Manually',
 	taskItemTextNever: 'Never',
+	taskDuplicateSuffix: '-Copy',
 
 	// Task Editor
 	taskNoScheduleTemplateTip: 'no schedule template',
@@ -38,6 +41,9 @@ export const datasetSchedulingES: LanguageKeyValueMap = {
 	taskEditorTemplateHasBeenDeleted: 'Template has been deleted',
 	taskEditorHeaderDetails: 'Details',
 	taskEditorInputPlaceholderDescription: 'Task description',
+	taskEditorLabelTaskType: 'Task Type',
+	taskEditorRefreshTask: 'Refresh',
+	taskEditorCleanupTask: 'Cleanup',
 	taskEditorLabelDateUpdateMode: 'Data Update Mode',
 	taskEditorExecutionOverride: 'Override',
 	taskEditorExecutionIncrementalUpdate: 'Incremental Update',
@@ -45,6 +51,7 @@ export const datasetSchedulingES: LanguageKeyValueMap = {
 	taskEditorExecutionManual: 'Manual',
 	taskEditorExecutionOneTime: 'One-Time',
 	taskEditorExecutionScheduled: 'Scheduled',
+	taskEditorCleanupExpiryPeriod: 'Expiry Period',
 	taskEditorLabelStart: 'Start',
 	taskEditorBtnCreateText: 'Create Task',
 	taskEditorBtnUpdateText: 'Update Task',
@@ -55,6 +62,12 @@ export const datasetSchedulingES: LanguageKeyValueMap = {
 	taskEditorMailLabelInvalidDomainTip: 'Invalid Email Domain',
 	taskEditorEmailFormatError: 'Email format is invalid',
 	taskEditorDescriptionError: 'Task description should not be empty',
+	// Expiry Time Unit
+	taskEditorExpiryTimeUnit_Hour: 'Hours',
+	taskEditorExpiryTimeUnit_Day: 'Days',
+	taskEditorExpiryTimeUnit_Week: 'Weeks',
+	taskEditorExpiryTimeUnit_Month: 'Months',
+	taskEditorExpiryTimeUnit_Year: 'Years',
 	// Recurrence Editor
 	recEditorHeaderRepeat: 'Repeat',
 	recEditorLabelStart: 'Start',
@@ -94,11 +107,27 @@ export const datasetSchedulingES: LanguageKeyValueMap = {
 	sagaTextErrorUpdatingTask: 'Task was NOT updated',
 	sagaTextErrorDeletingTask: 'Task was NOT deleted',
 	sagaTextErrorStartingTask: 'Task was NOT started',
+	sagaTextErrorDuplicatingTask: 'Task was not duplicated',
 	sagaToggleNotification: 'Task is now {{status, lowercase}}',
 
 	sagaTextErrorGetDataset: 'Error loading dataset',
 
 	sagaFailed: 'Scheduling Plugin: Unknown Error',
+
+	// AppMsg
+	selectTaskFailInformType: 'Notification Type',
+	Email: 'Email',
+	AppMsg: 'Application Message',
+	appMsgProvider: 'Application Message Provider',
+	WeChat4Work: 'Enterprise WeChat',
+	DingTalk: 'Ding Ding',
+	delEditorAppMsgLabelRecipients: 'Message Recipients',
+	delEditorAppMsgLabelRecipientsToolTip: 'The recipients of the message. Note that all the users in the sub-organizations can also receive the messages if the parent organization is checked',
+	appMsgOrgs: 'Organizations',
+	appMsgRoles: 'Roles',
+	appMsgUsers: 'Users',
+	delEditorMenuEmail: 'Email',
+	delEditorMenuAppMsg: 'App Message',
 
 	// Tabs
 	'scheduleTasks!name': 'Tasks',

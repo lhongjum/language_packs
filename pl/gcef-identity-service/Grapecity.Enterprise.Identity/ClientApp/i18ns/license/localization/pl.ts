@@ -22,7 +22,7 @@
 	SentMailFailed: 'Błąd połączenia z internetem.', // Net connection failed, please check your network.
 	ServerGeneratedInfo: 'Informacje z serwera', // Server generated info
 	TryNow: 'Zaloguj się teraz', // Log in right now
-	UserName_Text: 'Nazwa użytkownika', // UserName:
+	UserName_Text: 'Nazwa Użytkownika', // UserName:
 	UserName_Value: 'admin',
 	YouAreOffline: 'Nie można połączyć z siecią, lub jesteś w trybie offline. Prosimy o kontakt', // Could not connect to net, you are in offline mode, please contact us.
 

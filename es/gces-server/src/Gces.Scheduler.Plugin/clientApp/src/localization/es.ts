@@ -27,9 +27,12 @@ export const schedulingES: LanguageKeyValueMap = {
 	taskItemMenuEditTitle: 'Edit Task',
 	taskItemMenuDeleteText: 'Delete',
 	taskItemMenuDeleteTitle: 'Delete Task',
+	taskItemMenuDuplicateText: 'Duplicate',
+	taskItemMenuDuplicateTitle: 'Duplicate Task',
 	taskItemTextNextRun: 'Next run:',
 	taskItemTextManually: 'Manually',
 	taskItemTextNever: 'Never',
+	taskDuplicateSuffix: '-Copy',
 
 	// Task Editor
 	taskNoScheduleTemplateTip: 'no schedule template',
@@ -125,6 +128,25 @@ export const schedulingES: LanguageKeyValueMap = {
 	delEditorMailSubject: 'Scheduled Report',
 	delEditorMailBody: 'Here is the &ReportName report. This report was run at &ExecutionTime. The report is linked or attached below. &Link &ExportResult',
 
+	delEditorMenuAppMsg: 'Application Message',
+	delEditorAppMsgSubject: 'Scheduled Report',
+	delEditorAppMsgBody: 'Schedule task for the report "&ReportName" has been finished at &ExecutionTime, please review it.',
+	delEditorAppMsgLabelAppName: 'Application Name',
+	delEditorAppMsgLabelAppNameToolTip: 'The application name which will send message to',
+	delEditorAppMsgLabelSubject: 'Message Subject',
+	delEditorAppMsgLabelSubjectToolTip: 'You can reference any parameter in the subject by entering a question mark (?) followed by the parameter\'s name. The report\'s name can be referenced with the special placeholder &ReportName. The time the report was run can be referenced with the special placeholder &ExecutionTime.',
+	delEditorAppMsgLabelBody: 'Message Body',
+	delEditorAppMsgLabelBodyToolTip: 'You can reference any parameter in the message body by entering a question mark (?) followed by the parameter\'s name. The report\'s name can be referenced with the special placeholder &ReportName. The time the report was run can be referenced with the special placeholder &ExecutionTime. If attachment type is \'Send Report as Body\', the attachment in the email body can be referenced with the special placeholder &ExportResult.',
+	delEditorAppMsgLabelRecipients: 'Message Recipients',
+	delEditorAppMsgLabelRecipientsToolTip: 'The recipients of the message. Note that all the users in the sub-organizations can also receive the messages if the parent organization is checked',
+	WeChat4Work: 'Enterprise WeChat',
+	DingTalk: 'Ding Ding',
+	appMsgOrgs: 'Organizations',
+	appMsgRoles: 'Roles',
+	appMsgUsers: 'Users',
+	delEditorAppMsgOnlineLink: 'Online Link',
+	delEditorAppMsgDownloadLink: 'Download Link',
+
 	// Reporting Editor
 	reportingEditorHeaderExportFormat: 'Export Format',
 	reportingEditorAdvancedExportSettings: 'Advanced Settings',
@@ -175,7 +197,7 @@ export const schedulingES: LanguageKeyValueMap = {
 	executionErr_10002: '[Execution Error] Cot task not found.',
 	executionErr_10003: '[Execution Error] Cot task not created.',
 	executionErr_10004: '[Execution Error] An IO error occurred: {{ errorMessage }}.',
-	executionErr_11001: '[Execution Error] The specified directory is not found.',
+	executionErr_11001: '[Execution Error] The specified directory is not found or permission deny.',
 	executionErr_11002: '[Execution Error] You don\"t have permission to access datasource.',
 	executionErr_11003: '[Execution Error] File: {{ errorUsing }} is being used and file: { { errorDestroy } } can\'t be extracted,please check the file format.',
 	executionErr_11004: '[Execution Error] File: {{ errorUsing }} is being used.',
@@ -205,7 +227,7 @@ export const schedulingES: LanguageKeyValueMap = {
 	taskErr_30007: 'Task <{{taskId}}> not found.',
 	taskErr_30008: 'Invalid task data provided.',
 	taskErr_30009: 'Task <{{taskId}}> is invalid.',
-	taskErr_30010: 'Datasorce <{docEnv.Value.Title}> is unable to append data.',
+	taskErr_30010: 'Datasource <{docEnv.Value.Title}> is unable to append data.',
 	taskErr_30011: 'Location <{taskInfoDto.Location }> not exists.',
 	taskErr_30012: 'Invalid operation : <{taskInfoDto.OperationType}>.',
 	taskErr_30019: 'Your cannot create or update manual and one time task due to settings by administrator.',
@@ -214,6 +236,8 @@ export const schedulingES: LanguageKeyValueMap = {
 	taskErr_30022: 'Portal URI is required when creating tasks for data source. Please contact the Administrator.',
 	taskErr_30023: 'Portal URI is required when creating tasks for dataset. Please contact the Administrator.',
 	taskErr_30024: 'Failed to create task, the current dataset has already created the task in other organization.',
+	taskErr_30025: 'Failed to update task in DB storage and execution persistence: provided task is outdated.',
+	taskErr_30027: 'Template used in this task did not exist.',
 
 	// SAGA: enable/disable task
 	sagaTextErrorUpdatingTaskList: 'Error updating task list',
@@ -224,6 +248,7 @@ export const schedulingES: LanguageKeyValueMap = {
 	sagaTextErrorUpdatingTask: 'Task was not updated',
 	sagaTextErrorDeletingTask: 'Task was not deleted',
 	sagaTextErrorStartingTask: 'Task was not started',
+	sagaTextErrorDuplicatingTask: 'Task was not duplicated',
 	sagaToggleNotification: 'Task is now {{status, lowercase}}',
 
 	sagaFailed: 'Scheduling Plugin: Unknown Error',
@@ -405,16 +430,19 @@ export const schedulingES: LanguageKeyValueMap = {
 	reportingWorkerRenderingDatasetNotFound: 'Specified dataset not found or inaccessible due to insufficient permissions',
 	reportingWorkerRenderingDatasourceNotFound: 'Specified datasource not found or inaccessible due to insufficient permissions',
 	reportingWorkerRenderingUnknown: 'An unknown error occurred during worker task execution: {0}',
-
+	reportingWorkerFailCheckDataNotAllowed: 'Specified {0} \'{1}\' inaccessible due to insufficient permissions',
+	reportingWorkerRenderingCancelled: 'The task is canceled by administrator or the task is automatically canceled because the task has timed out or the task is aborted.',
 	reportingWorkerReportUnknown: 'An unknown error occurred when getting report info: {0}',
 	reportingWorkerReportCyclicParameterReferences: 'Cyclic report parameter references detected',
 	// TODO, please move to report plugin in future.
 	'reporting_worker_fail_check_no_dataset': 'An error occurred during report fail check procedure: Dataset not specified',
+	reportingWorkerJobCancelled: 'The task is canceled by administrator or the task is automatically canceled because the task has timed out or the task is aborted.',
 
 	// Relative Dates
 	dtTextBack: 'Back to Calendar',
 	tbSpecificDate: 'Specific date',
 	tbRelativeDate: 'Relative date',
+	rdOf: 'of',
 	rdDay: 'day',
 	rdWeek: 'week',
 	rdMonth: 'month',
@@ -423,6 +451,6 @@ export const schedulingES: LanguageKeyValueMap = {
 	rdCurrent: 'current',
 	rdPrevious: 'previous',
 	rdNext: 'next',
-	rdBeginning: 'beginnig',
+	rdBeginning: 'beginning',
 	rdEnd: 'end'
 };

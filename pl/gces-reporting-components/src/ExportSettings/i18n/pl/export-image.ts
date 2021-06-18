@@ -6,7 +6,7 @@ export default {
   "tooltipName": "Obraz PNG",
   "settings": {
     "ImageType": {
-      "label": "TypObrazu",
+      "label": "Typ obrazu",
       "category": "Różne",
       "enum": {
         "Png": "PNG",
@@ -21,11 +21,11 @@ export default {
       "category": "Różne"
     },
     "DpiX": {
-      "label": "DpiX",
+      "label": "Dpi X",
       "category": "Różne"
     },
     "DpiY": {
-      "label": "DpiY",
+      "label": "Dpi Y",
       "category": "Różne"
     },
     "Quality": {
@@ -33,68 +33,68 @@ export default {
       "category": "Różne"
     },
     "Dither": {
-      "label": "PaletaBarw",
+      "label": "Paleta barw",
       "category": "Różne"
     },
     "PrintLayoutMode": {
-      "label": "UkładWydruku",
+      "label": "Układ wydruku",
       "category": "Różne",
       "enum": {
-        "OneLogicalPageOnSinglePhysicalPage": "JednaStronaNaArkusz",
-        "TwoLogicalPagesOnSinglePhysicalPage": "DwieStronyNaArkusz",
-        "FourLogicalPagesOnSinglePhysicalPage": "CzteryStronyNaArkusz",
-        "EightLogicalPagesOnSinglePhysicalPage": "OsiemStronLogicznychNaPojedynczejStronieFizycznej",
-        "BookletMode": "TrybBroszury"
+        "OneLogicalPageOnSinglePhysicalPage": "Jedna strona na arkusz",
+        "TwoLogicalPagesOnSinglePhysicalPage": "Dwie strony na arkusz",
+        "FourLogicalPagesOnSinglePhysicalPage": "Cztery strony na arkusz",
+        "EightLogicalPagesOnSinglePhysicalPage": "Osiem stron logicznych na pojedynczej stronie fizycznej",
+        "BookletMode": "Tryb broszury"
       }
     },
     "SizeToFit": {
-      "label": "RozmiarDoDopasowania",
+      "label": "Rozmiar do dopasowania",
       "category": "Różne"
     },
     "StartPage": {
-      "label": "StronaStartowa",
+      "label": "Strona startowa",
       "category": "Różne"
     },
     "EndPage": {
-      "label": "StronaKońcowa",
+      "label": "Strona końcowa",
       "category": "Różne"
     },
     "WatermarkAngle": {
-      "label": "KątZnakuWodnego",
+      "label": "Kąt znaku wodnego",
       "category": "Różne"
     },
     "WatermarkColor": {
-      "label": "KolorZnakuWodnego",
+      "label": "Kolor znaku wodnego",
       "category": "Różne",
       "enum": WatermarkColor
     },
     "WatermarkTitle": {
-      "label": "TytułZnakuWodnego",
+      "label": "Tytuł znaku wodnego",
       "category": "Różne"
     },
     "WatermarkFontFamily": {
-      "label": "CzcionkaZnakuWodnego",
+      "label": "Czcionka znaku wodnego",
       "category": "Różne",
       "enum": WatermarkFontFamily
     },
     "WatermarkFontSize": {
-      "label": "RozmiarCzcionkiZnakuWodnego",
+      "label": "Rozmiar czcionki znaku wodnego",
       "category": "Różne"
     },
     "WatermarkFontBold": {
-      "label": "PogrubienieCzcionkiZnakuWodnego",
+      "label": "Pogrubienie czcionki znaku wodnego",
       "category": "Różne"
     },
     "WatermarkFontItalic": {
-      "label": "KursywaCzcionkiZnakuWodnego",
+      "label": "Kursywa czcionki znaku wodnego",
       "category": "Różne"
     },
     "WatermarkFontStrikeout": {
-      "label": "PrzekreślenieCzionkiZnakuWodnego",
+      "label": "Przekreślenie czionki znaku wodnego",
       "category": "Różne"
     },
     "WatermarkFontUnderline": {
-      "label": "PodkreślenieCzionkiZnakuWodnego",
+      "label": "Podkreślenie czionki znaku wodnego",
       "category": "Różne"
     },
     "AddTimestamp": {

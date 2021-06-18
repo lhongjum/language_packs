@@ -383,6 +383,24 @@ $defaults:
         PageWidth: 8.5in
         RightMargin: 1in
         TopMargin: 1in
+  richtext:
+    place:
+      cm:
+        Height: 1.5cm
+        Width: 2.5cm
+      in:
+        Height: 0.5in
+        Width: 1in
+    props:
+      CanGrow: true
+    style:
+      Color: Black
+      FontFamily: Arial
+      FontSize: 10pt
+      PaddingBottom: 2pt
+      PaddingLeft: 2pt
+      PaddingRight: 2pt
+      PaddingTop: 2pt
   shape:
     place:
       cm:
@@ -509,8 +527,8 @@ $defaults:
       PaddingRight: 2pt
       PaddingTop: 2pt
 $toolBoxContent:
-  cpl: TextBox, CheckBox, Container, Line, Shape, TableOfContents, Image, List, Table, Tablix, Chart, Bullet, Barcode, FormattedText, Sparkline, Subreport, BandedList, InputField
-  fpl: TextBox, CheckBox, Container, Line, Shape, TableOfContents, Image, List, Table, Tablix, Chart, Bullet, Barcode, FormattedText, Sparkline, Subreport, OverflowPlaceholder, BandedList, InputField
+  cpl: TextBox, CheckBox, Container, Line, Shape, TableOfContents, Image, List, Table, Tablix, Chart, Bullet, Barcode, FormattedText, RichText, Sparkline, Subreport, BandedList, InputField
+  fpl: TextBox, CheckBox, Container, Line, Shape, TableOfContents, Image, List, Table, Tablix, Chart, Bullet, Barcode, FormattedText, RichText, Sparkline, Subreport, OverflowPlaceholder, BandedList, InputField
 adorners:
   bandedList:
     detailsLabel: "<Details>"
@@ -542,6 +560,8 @@ adorners:
     staticGrouping: Static Grouping
     valueEncoding:
       fieldStub: "Value {index}"
+  common:
+    dropFieldsAndValues: Drop fields and values here
   fixedPage:
     addPage: Add Page
     page: Page
@@ -640,6 +660,7 @@ contextActions:
         pie: Pie
         polarBar: Polar
         polarColumn: Spiral
+        radar: Radar
       highLowClose: High Low Close
       highLowOpenClose: High Low Open Close
       line: Line
@@ -652,6 +673,10 @@ contextActions:
       polarColumnPercentStacked: Spiral Percent Stacked
       polarColumnStacked: Spiral Stacked
       pyramid: Pyramid
+      radarArea: Radar Area
+      radarBubble: Radar Bubble
+      radarLine: Radar Line
+      radarScatter: Radar Scatter
       scatter: Scatter
       title: Set Plot Template
   report:
@@ -866,6 +891,59 @@ expressionEditor:
   expressionLabel: Expression
   expressionPlaceholder: expression
   fields:
+    chart:
+      Current:
+        Category:
+          description: Represents the target element Category Field value.
+          example: '=Chart!CurrentCategory=1; =Chart!CurrentCategory>10; =Chart!CurrentCategory="Value1"; '
+          label: Category
+          syntax: "Chart!CurrentCategory <Comparison operator> <Value>"
+        Data:
+          description: Represents the target element Data Field value.
+          example: '=Chart!CurrentData=1; =Chart!CurrentData>10; =Chart!CurrentData="Value1"; '
+          label: Data
+          syntax: "Chart!CurrentData <Comparison operator> <Value>"
+        Detail:
+          description: Represents the target element Detail Field Encoding value.
+          example: '=Chart!CurrentDetail=1; =Chart!CurrentDetail>10; =Chart!CurrentDetail="Value1"; '
+          label: Detail
+          syntax: "Chart!CurrentDetail <Comparison operator> <Value>"
+        label: Current Item
+      Next:
+        Category:
+          description: Represents the Category Field value next to the target element.
+          example: '=Chart!NextCategory=1; =Chart!NextCategory>10; =Chart!NextCategory="Value1"; '
+          label: Category
+          syntax: "Chart!NextCategory <Comparison operator> <Value>"
+        Data:
+          description: Represents the Data Field next to the target element.
+          example: '=Chart!NextData=1; =Chart!NextData>10; =Chart!NextData="Value1"; '
+          label: Data
+          syntax: "Chart!NextData <Comparison operator> <Value>"
+        Detail:
+          description: Represents the Detail Field Encoding value next to the target element.
+          example: '=Chart!NextDetail=1; =Chart!NextDetail>10; =Chart!NextDetail="Value1"; '
+          label: Detail
+          syntax: "Chart!NextDetail <Comparison operator> <Value>"
+        label: Next Item
+      Previous:
+        Category:
+          description: Represents the Category Field value previous to the target element.
+          example: '=Chart!PreviousCategory=1; =Chart!PreviousCategory>10; =Chart!PreviousCategory="Value1"; '
+          label: Category
+          syntax: "Chart!PreviousCategory <Comparison operator> <Value>"
+        Data:
+          description: Represents the Data Field value previous to the target element.
+          example: '=Chart!PreviousData=1; =Chart!PreviousData>10; =Chart!PreviousData="Value1"; '
+          label: Data
+          syntax: "Chart!PreviousData <Comparison operator> <Value>"
+        Detail:
+          description: Represents the Detail Field Encoding value previous to the target element.
+          example: '=Chart!PreviousDetail=1; =Chart!PreviousDetail>10; =Chart!PreviousDetail="Value1"; '
+          label: Detail
+          syntax: "Chart!PreviousDetail <Comparison operator> <Value>"
+        label: Previous Item
+      label: Chart
     commonValues:
       info:
         currentDateTime:
@@ -993,6 +1071,11 @@ expressionEditor:
             example: '=Count(Fields!EmployeeID.Value, "Title")'
             label: Count (with scope)
             syntax: "Count(<Values>, <Scope>)"
+          crossAggregate:
+            description: Calculates the specified function with specified expression as an argument in the cross of specified row and column.
+            example: '=CrossAggregate(Fields!Amount.Value, "Sum", "YearGroup", "CategoryGroup")'
+            label: CrossAggregate
+            syntax: "CrossAggregate(<Expression>, <FunctionName>, <ColumnGroupName>, <RowGroupName>)"
           cumulativeTotal:
             description: Calculates the sum of page-level aggregates returned by the expression for current and previous pages.
             example: '=CumulativeTotal(Fields!OrderID.Value, "Count")'
@@ -1609,7 +1692,12 @@ expressionEditor:
             description: Calculates the value of the expression for the previous row of data.
             example: '=Previous(Fields!OrderID.Value)'
             label: Previous
-            syntax: "Previous(<Value>)"
+            syntax: "Previous(<Expression>)"
+          previousWithScope:
+            description: Calculates the value of the expression for the previous row of data within the specified scope.
+            example: '=Previous(Fields!OrderID.Value, "Order")'
+            label: Previous (with scope)
+            syntax: "Previous(<Expression>, <Scope>)"
           rowNumber:
             description: Returns the running count of all the rows.
             example: '=RowNumber()'
@@ -1874,6 +1962,7 @@ filters:
   addItem: Add Item
   allOf: All Of
   anyOf: Any Of
+  delete: Delete
   edit: Edit...
   expressionText: Expression...
   filterPanelText: Select a Data Region to edit its filters
@@ -1945,6 +2034,8 @@ labels:
   dvchartLegend: Legend
   dvchartPlot: Plot
   dvchartPlotArea: Plot Area
+  dvchartPlotRuleNoCondition: Empty Condition
+  dvchartPlotRuleNoProps: No Properties
   dvchartShapeLegend: Legend - Shape
   dvchartSizeLegend: Legend - Size
   dvchartValueAggregateEncoding: Value Aggregate Encoding
@@ -1963,6 +2054,7 @@ labels:
   pageHeader: Page Header
   pageSection: "Page Header/Footer"
   report: Report
+  richtext: Rich Text
   series: Series
   shape: Shape
   sparkline: Sparkline
@@ -2010,7 +2102,9 @@ nameTemplates:
   mailMergeField: Field
   overflowPlaceholder: OverflowPlaceholder
   parameter: Parameter
+  parameterCollection: Parameter
   reportParameter: Parameter
+  richtext: RichText
   rowGroup: RowGroup
   seriesGroup: SeriesGroup
   seriesValue: Value
@@ -2222,6 +2316,9 @@ parametersViewEditor:
   propertiesText: Properties
   removeView: Remove View
   resetView: Reset View
+  sideBar:
+    collapse: Collapse
+    expand: Expand
   surface:
     autoGenerate: Auto-Generate
     emptySurfaceBlock:
@@ -2321,7 +2418,18 @@ properties:
     boolean:
       falseLabel: 'False'
       trueLabel: 'True'
+    collection:
+      addBtnText: Add
+      addBtnTitle: Add Item
+      closeBtnTitle: Close
+      deleteBtnTitle: Delete
+      showBtnTitle: Show Items
+      textEmpty: Collection is empty
+      textItems: "{itemsCount} items"
     colorDropdown:
+      colorPicker: Other Colors
+      palettes: Palettes
+      standard: Standard Colors
       theme: Theme Colors
       themeColors:
         base: "{colorKey}"
@@ -2330,11 +2438,14 @@ properties:
         lighter25: '{colorKey} - 25% lighter'
         lighter50: '{colorKey} - 50% lighter'
         lighter75: '{colorKey} - 75% lighter'
+      webColors: Web Colors
     common:
       disabled: Disabled
       enabled: Enabled
       expressionLabel: "<Expression>"
       noneLabel: "<None>"
+      titleBtnCollapse: Collapse
+      titleBtnExpand: Expand
     dataSetFieldCollection:
       dataFieldHeader: Data Field
       dataFieldPlaceholder: "<Data Field>"
@@ -2391,7 +2502,7 @@ properties:
       customFormatMask: '(###) ###-####'
       decimal: Decimal
       default: "<Default>"
-      digitsLabel: "digits:"
+      digitsLabel: Digits
       fixedPoint: Fixed-point
       fullDateShortTime: "Full date/short time"
       general: General
@@ -2408,14 +2519,14 @@ properties:
       shortTime: Short time
       yearMonth: Year month
     image:
-      database: DATABASE
-      embedded: EMBEDDED
+      database: Database
+      embedded: Embedded
       load: Load...
       loading: Loading...
       noDataFieldsFound: No data fields found
       noImagesFound: No images found
       remove: "Remove '{name}'..."
-      shared: SHARED
+      shared: Shared
     layerCollection:
       propertiesTitle: "Layer properties: {layerName}"
     mailMergeFieldsCollection:
@@ -2564,8 +2675,10 @@ properties:
     parameterCollection:
       propertiesTitle: Parameter properties
     picker:
+      dataBindingTitle: Data Binding
       dataVisualizerLabel: Data Visualizer...
       expressionLabel: Expression...
+      pickData: Pick Data...
       resetLabel: Reset
     queryFilter:
       addItem: Add Item
@@ -2598,9 +2711,11 @@ properties:
       title: Query Filter
       valuePlaceHolder: "<Value>"
     reportParameter:
-      fromQuery: From query
+      empty: "<Empty>"
+      fromQuery: From Query
       label: Label
-      nonQueried: Non-queried
+      nonQueried: Non-Queried
+      source: Source
       value: Value
     reports:
       loading: Loading...
@@ -2615,11 +2730,18 @@ properties:
         groupingIsDiscouraged: grouping by this attribute is discouraged
     simple:
       backgroundColor:
-        label: Background Color
+        label: Color
+        title: Background Color
       borders:
-        borderColor: Border Color
-        borderStyle: Border Style
-        borderWidth: Border Width
+        borderColor:
+          label: Color
+          title: Border Color
+        borderStyle:
+          label: Style
+          title: Border Style
+        borderWidth:
+          label: Width
+          title: Border Width
         borders: Borders
         sides:
           all: All
@@ -2630,15 +2752,27 @@ properties:
           top: Top
       common:
         expression: Expression...
-        expressionCompactLabel: '< 𝑓 >'
+        expressionCompactLabel: '<𝑓>'
         expressionLabel: "<Expression>"
       font:
-        fontFamily: Font Family
-        fontSize: Font Size
-        fontStyle: Font Style
-        fontWeight: Font Weight
-        textColor: Text Color
-        textDecoration: Text Decoration
+        fontFamily:
+          label: Font
+          title: Font Family
+        fontSize:
+          label: Size
+          title: Font Size
+        fontStyle:
+          label: Style
+          title: Font Style
+        fontWeight:
+          label: Weight
+          title: Font Weight
+        textColor:
+          label: Color
+          title: Text Color
+        textDecoration:
+          label: Decoration
+          title: Text Decoration
     subreport:
       parameter: Parameter
       parameterNameHeader: Name
@@ -2652,11 +2786,14 @@ properties:
       enum:
         incorrect: "Enum value of type '{enumType}' should be one of the following: {enumValues}"
       expression:
+        disabledFields: "Warning: It is forbidden to use the 'Fields' token type in this expression (in '{token}' {positionInfo})"
+        disabledReportItems: "Warning: It is forbidden to use the 'ReportItems' token type in this expression (in '{token}' {positionInfo})"
         errorPosition: "at line {line}, column {column}"
         incorrect: Invalid expression
         parseError: "Syntax error: It is not possible to convert this interpolation syntax expression to rdl syntax"
         syntaxError: "Syntax error: unexpected token '{token}' {positionInfo}"
         unknownField: "Warning: unknown field name in '{token}' {positionInfo}"
+        unknownFunction: "Warning: unknown function name '{token}' {positionInfo}"
         unknownParameter: "Warning: unknown parameter name in '{token}' {positionInfo}"
         unknownReportItem: "Warning: unknown report item name in '{token}' {positionInfo}"
         unknownThemeImage: "Warning: unknown theme image name in '{token}' {positionInfo}"
@@ -2949,10 +3086,13 @@ properties:
     dvchartLegend:
       hidden: Hidden
       iconColor: Icon Color
+      maxHeight: Max Height
+      maxWidth: Max Width
       orientation: Orientation
       position: Position
       title: Title
     dvchartPlot:
+      axisMode: Axis Mode
       bar: Bar Lines
       category: Category
       categorySort: Category Sort Direction
@@ -2971,6 +3111,7 @@ properties:
       opacity: Opacity
       plotStyle: Plot Style
       radial: Radial
+      rules: Rules
       shape: Shape
       shapeAggregate: Shape Aggregate
       showNulls: Show Nulls
@@ -2998,6 +3139,11 @@ properties:
       values: Values
     dvchartPlotArea:
       axes: Axes
+    dvchartPlotRules:
+      condition: Condition
+      ruleProperties: Rule Properties
+      targetProperty: Target Property
+      valueRuleProperties: Value
     dvchartValueEncoding:
       field:
         close: Close
@@ -3007,6 +3153,7 @@ properties:
         open: Open
         upper: Upper
         value: Value
+    empty: "<Empty>"
     filter:
       filterExpression: Filter Expression
       filterValues: Filter Values
@@ -3085,6 +3232,7 @@ properties:
       left: Left
       right: Right
       top: Top
+    multipleValues: "<Multiple Values>"
     overflowPlaceHolder:
       overflowName: Overflow Name
     padding:
@@ -3156,6 +3304,10 @@ properties:
       value: Value
       valueField: Value Field
       values: Values
+    richtext:
+      canGrow: Can Grow
+      markup: Markup Type
+      value: Value
     roundingRadius:
       bottomLeft: Bottom Left
       bottomRight: Bottom Right
@@ -3223,6 +3375,7 @@ properties:
       reportParameters: Report Parameters
       substituteThemeOnSubreport: Substitute Theme On Subreport
     table:
+      autoWidth: Auto Width
       detailsDataCollectionName: Details Data Collection Name
       detailsDataElementName: Details Data Element Name
       detailsDataElementOutput: Details Data Element Output
@@ -3285,6 +3438,14 @@ tablixWizard:
   columns: Column Groups
   dataSets: Data Sets
   delete: Delete
+  displayAs: Display As
+  displayAsOptions:
+    default: Default
+    percentColumnGroupTotal: '% Column Group Total'
+    percentGrandTotal: '% Grand Total'
+    percentParentColumnGroupTotal: '% Parent Column Group Total'
+    percentParentRowGroupTotal: '% Parent Row Group Total'
+    percentRowGroupTotal: '% Row Group Total'
   expandCollapse: "Expand/Collapse Groups"
   format: Format
   formats:

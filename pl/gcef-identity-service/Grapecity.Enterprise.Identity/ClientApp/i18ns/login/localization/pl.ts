@@ -56,4 +56,9 @@
 	SelectOrganization: 'Proszę wybrać organizację', //Please select organization
 	TenantDoesNotExist: 'Wybrana organizacja nie istnieje, zaloguj się ponownie.', // The specified organization does not exist, please log in again.
 	UserDoesNotBelongToTenant: 'Użytkownik nie należy do wybranej organizacji, zaloguj się ponownie.', // User does not belong the specified organization, please log in again.
+
+	// QR CODE LOGIN
+	WeChat4Work: 'Enterprise WeChat',
+	DingTalk: 'Ding Ding',
+	loginWithQRCode: "Zaloguj się za pomocą kodu QR dostarczonego przez '{{provider}}'", //Login using QR code provided by '{{provider}}' 
 }

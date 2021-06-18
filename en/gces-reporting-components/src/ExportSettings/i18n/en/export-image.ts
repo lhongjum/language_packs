@@ -3,7 +3,7 @@ import { WatermarkFontFamily } from "./common/WatermarkFontFamily";
 
 export default {
   "friendlyName": "Image",
-  "tooltipName": "PNG Image",
+  "tooltipName": "Image",
   "settings": {
     "ImageType": {
       "label": "ImageType",
