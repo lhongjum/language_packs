@@ -36,7 +36,7 @@
     "MapHierarchy": "Hierarchia",
     "GeoJson": "GeoJson",
     "Report": "Raport",
-    "FloorPlan": "",
+    "FloorPlan": "FloorPlan",
     "AnalysisModel": "Model danych"
   },
   "actions": {
@@ -124,12 +124,12 @@
     "indicator": "Wskaźnik",
     "kpi": "Wykres KPI",
     "floorPlan": "Plan budynku",
-    "pivotTable": "Pivot Table",
+    "pivotTable": "Tabela przestawna",
     "spreadSource": "Wykres rozproszony",
     "multiSource": "Wykres wieloźródłowy"
   },
   "components": {
-    "pivotTable": "Pivot Table",
+    "pivotTable": "Tabela przestawna",
     "rawDataTable": "Tabela danych",
     "kpiMatrix": "Macierz KPI",
     "webContent": "Wbudowana zawartość internetowa",
@@ -250,7 +250,7 @@
   },
   "dataBindingPanel": {
     "chooseDataset": "Wybierz zbiór danych",
-    "loadingDatasetList": "Ładowanie listy zbiorów danych z serwera ...",
+    "loadingDatasetList": "Ładowanie listy zbiorów danych z serwera...",
     "loadDatasetListFailed": "Nie udało się załadować listy zbiorów danych z serwera!",
     "searchField": "Szukaj...",
     "measures": "Miary",
@@ -345,14 +345,14 @@
     "fromSamePeriodPreviousQuarter": "Ten sam okres, kwartał po kwartale",
     "fromSamePeriodPreviousMonth": "Ten sam okres, miesiąc po miesiącu",
     "fromSamePeriodPreviousWeek": "Ten sam okres, tydzień po tygodniu",
-    "fromSamePeriodPreviousYearPercent": "en sam okres, rok po roku %",
+    "fromSamePeriodPreviousYearPercent": "Ten sam okres, rok po roku %",
     "fromSamePeriodPreviousQuarterPercent": "Ten sam okres, kwartał po kwartale %",
     "fromSamePeriodPreviousMonthPercent": "Ten sam okres, miesiąc po miesiącu %",
     "fromSamePeriodPreviousWeekPercent": "Ten sam okres, tydzień po tygodniu %",
     "changeOverTimePercent": "% Zmienia się w czasie",
-    "dateBasedFunctions": "Funkcje oparte na datach ...",
+    "dateBasedFunctions": "Funkcje oparte na datach...",
     "growth": "Wzrost",
-    "singleValue": "Numer",
+    "singleValue": "Liczba",
     "Image": "Obraz",
     "bulletGraph": "Wykres punktowy",
     "paretoGraph": "Wykres Pareto",
@@ -362,7 +362,7 @@
     "bar": "Belka",
     "area": "Obszar",
     "winLoss": "Wygrana-Przegrana",
-    "number": "Numer",
+    "number": "Liczba",
     "editText": "Edytuj",
     "alignmentSetting": "Wyrównanie tekstu",
     "sparklineSetting": "Opcje…",
@@ -390,7 +390,7 @@
     "pivotSettingItemTitlePattern": "{{ itemDisplay }} z `{{ entityName }}`"
   },
   "inspector": {
-    "searchBoxPlaceholder": "Wpisz tutaj nazwę nieruchomości ...",
+    "searchBoxPlaceholder": "Wpisz tutaj nazwę nieruchomości...",
     "warning": "Konfiguracja właściwości jest nieprawidłowa, sprawdź capabilities.options",
     "categories": {
       "general": "Ogólne",
@@ -466,7 +466,7 @@
         "foregroundColor": "Kolor pierwszego planu",
         "backgroundColor": "Kolor tła",
         "backgroundImage": {
-          "src": "Zdjęcie w tle",
+          "src": "Obraz w tle",
           "repeat": "Powtórz",
           "size": "Rozmiar",
           "hAlign": "Wyrównaj w poziomie",
@@ -536,9 +536,9 @@
           },
           "size": {
             "label": "Rozmiar obramowania",
-            "thin": "Thin",
-            "medium": "Medium",
-            "thick": "Thick"
+            "thin": "Cienki",
+            "medium": "Średni",
+            "thick": "Gruby"
           }
         },
         "font": {
@@ -589,7 +589,7 @@
         "fontStyle": {
           "title": "Styl czcionki",
           "Normal": "Normalna",
-          "Italic": "Italic"
+          "Italic": "Kursywa"
         },
         "fontWeight": {
           "title": "Grubość czcionki",
@@ -655,7 +655,7 @@
         "snap2Guides": "Przyciągaj do prowadnic",
         "graphOpacity": "Krycie wykresu",
         "snap": "Przyciągaj",
-        "autoGradient": "Auto gradient",
+        "autoGradient": "Automatyczny gradient",
         "toolbar": {
           "setting": "Ustawienia paska narzędzi",
           "show": "Pokaż pasek narzędzi",
@@ -757,7 +757,7 @@
           },
           "formats": {
             "general": "Ogólny",
-            "number": "Numer",
+            "number": "Liczba",
             "currency": "Waluta",
             "percentage": "Procent",
             "custom": "Niestandardowy"
@@ -828,7 +828,7 @@
           "title": "Pokaż wartości null jako",
           "connect": "Połączony",
           "gap": "Luki",
-          "zero": "Zero"
+          "zero": "Zera"
         },
         "showNullItems": "Pokaż null",
         "showEmptyStringItems": "Pokaż puste",
@@ -927,11 +927,11 @@
         "fontWeight": "Grubość czcionki",
         "fontStyleEnums": {
           "Normal": "Normalna",
-          "Italic": "Italic"
+          "Italic": "Kursywa"
         },
         "fontWeightEnums": {
           "Normal": "Normalna",
-          "Bold": "Pogrubienie",
+          "Bold": "Pogrubiona",
           "Lighter": "Odchudzona"
         },
         "cornerRadius": "Promień narożnika",
@@ -1530,7 +1530,7 @@
         "prompt": "Podpowiedź",
         "dataType": "Typ",
         "valueType": "Typ wartości",
-        "value": "Wartosc"
+        "value": "Wartość"
       },
       "parameterValueType": {
         "notSet": "Nie ustawiony",
@@ -1545,8 +1545,8 @@
         "integer": "Integer",
         "float": "Float",
         "string": "String",
-        "dateTime": "DateTime",
-        "date": "Date",
+        "dateTime": "DataCzas",
+        "date": "Data",
         "multiDimension": "Wielowymiarowy"
       },
       "parameterValue": {
@@ -1751,7 +1751,7 @@
       "forecast": "Prognoza",
       "tickunit": "Zaznacz jednostkę",
       "maxiColor": "Maksymalny kolor",
-      "goodColor": "Dobr kolor",
+      "goodColor": "Dobry kolor",
       "badColor": "Zły kolor",
       "measureColor": "Aktualny kolor",
       "targetColor": "Docelowy kolor",
@@ -2696,8 +2696,8 @@
       "e4": "10K",
       "e5": "100K",
       "e6": "Mln",
-      "e7": "10M",
-      "e8": "100M",
+      "e7": "10Mln",
+      "e8": "100Mln",
       "e9": "Mld",
       "e12": "Bil",
       "pattern": "({{unit}})"
@@ -3191,7 +3191,7 @@
     "bringForward": "Przenieś do przodu",
     "forward": "Przenieś do przodu",
     "backward": "Wyślij do tyłu",
-    "sendToBack": "Przeniś do tyłu",
+    "sendToBack": "Przenieś do tyłu",
     "sendBackward": "Przenieś na tył",
     "alignment": "Wyrównanie",
     "horizontalAlign": "Wyrównanie w poziomie",

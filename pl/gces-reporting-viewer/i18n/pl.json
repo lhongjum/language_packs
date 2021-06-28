@@ -114,8 +114,8 @@
       },
       "details": {
         "report-info": "Nie można uzyskać informacji o raporcie.",
-        "rendering-info": "Cannot obtain rendering info",
-        "job-info": "Cannot obtain job info",
+        "rendering-info": "Nie można uzyskać informacji o renderowaniu",
+        "job-info": "Nie można uzyskać informacji o zadaniu",
         "no-report": "Nie znaleziono raportu: {{reportId}}", 
         "no-document-loaded": "Nie załadowano żadnych dokumentów.",
         "no-current-document": "Brak dokumentu.",

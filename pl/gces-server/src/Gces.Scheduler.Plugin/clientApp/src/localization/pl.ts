@@ -144,7 +144,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	appMsgOrgs: 'Organizacje', // Organizations
 	appMsgRoles: 'Role', // Roles
 	appMsgUsers: 'Użytkownicy', // Users
-	delEditorAppMsgOnlineLink: 'Online Link', // Online Link
+	delEditorAppMsgOnlineLink: 'Online link', // Online Link
 	delEditorAppMsgDownloadLink: 'Pobierz link', // Download Link
 
 	// Reporting Editor
@@ -411,9 +411,9 @@ export const schedulingPL: LanguageKeyValueMap = {
 	// Reporting Plugin Exceptions
 	reportingPluginUnknown: 'Nieznany błąd podczas wykonywania zadania', // An unknown error occured during task execution
 	reportingPluginLrt: 'Wystąpił wyjątek LRT we wtyczce raportującej', // An LRT exception occured in reporting plugin
-	reportingPluginBadResponse: 'Usługa Raportowa odpowiedziała błędem', // Worker responded with error
-	reportingPluginStreaming: 'Wystąpił błąd podczas transmisji z Usługi Raportowej', // An error occured during streaming from worker
-	reportingPluginResponseVerification: 'Wystąpił błąd po transmisji wyników z Usługi Raportowej', // An error have been revealed after streaming result from worker
+	reportingPluginBadResponse: 'Usługa raportowa odpowiedziała błędem', // Worker responded with error
+	reportingPluginStreaming: 'Wystąpił błąd podczas transmisji z usługi raportowej', // An error occured during streaming from worker
+	reportingPluginResponseVerification: 'Wystąpił błąd po transmisji wyników z usługi raportowej', // An error have been revealed after streaming result from worker
 
 	// Worker Exceptions
 	reportingWorkerExportInvalidParameters: 'Niewłaściwe parametry raportu', // Invalid report parameters
@@ -424,12 +424,12 @@ export const schedulingPL: LanguageKeyValueMap = {
 	reportingWorkerTaskInitUnableToLoadFile: 'Nie można załadować pliku {0}', // Unable to load file {0}
 
 	reportingWorkerFailCheckInvalidParameters: 'Niepoprawne parametru raportu', // Invalid report parameters
-	reportingWorkerFailCheckUnknown: 'Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {0}', // An unknown error occured during worker task execution: {0}
+	reportingWorkerFailCheckUnknown: 'Nieznany błąd podczas wykonywania zadania przez usługę raportową: {0}', // An unknown error occured during worker task execution: {0}
 	reportingWorkerFailCheckNoDataset: 'Nie wybrano zestawu danych', // Dataset not specified
 
 	reportingWorkerRenderingDatasetNotFound: 'Wybrany zestaw danych nie został znaleziony, bądź jest niedstępny z powodu braku wystarczających uprawnień', // Specified dataset not found or inaccessible due to insufficient permissions
 	reportingWorkerRenderingDatasourceNotFound: 'Wybrane źródło dancyh nie zostało znalezione, bądź jest niedostępne z powodu braku wystarczającyh uprawnień', // Specified datasource not found or inaccessible due to insufficient permissions
-	reportingWorkerRenderingUnknown: 'Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {0}', // An unknown error occured during worker task execution: {0}
+	reportingWorkerRenderingUnknown: 'Nieznany błąd podczas wykonywania zadania przez usługę raportową: {0}', // An unknown error occured during worker task execution: {0}
 	reportingWorkerFailCheckDataNotAllowed: 'Określony jako {0} \"{1}"  niedostępny z powodu niewystarczających uprawnień', // 'Specified {0} \'{1}\' inaccessible due to insufficient permissions',
 	reportingWorkerRenderingCancelled: 'Zadanie zostało anulowane przez administratora lub zadanie jest automatycznie anulowane, ponieważ upłynął limit czasu zadania lub zadanie zostało przerwane', // 'The task is canceled by administrator or the task is automatically canceled because the task has timed out or the task is aborted.',
 
@@ -441,8 +441,8 @@ export const schedulingPL: LanguageKeyValueMap = {
 
 	// Relative Dates
 	dtTextBack: 'Powrót do kalendarza',
-	tbSpecificDate: 'Konkretna Data',
-	tbRelativeDate: 'Data Względna',
+	tbSpecificDate: 'Konkretna data',
+	tbRelativeDate: 'Data względna',
 	rdOf: 'na',
 	rdDay: 'dzień',
 	rdWeek: 'tydzień',

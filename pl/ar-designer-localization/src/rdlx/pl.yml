@@ -737,7 +737,7 @@ contextActions:
       after: Za
       before: Przed
       contextMenuAfter: Dodaj wszystko za
-      contextMenuBefore: Dodawj wszystko po
+      contextMenuBefore: Dodaj wszystko po
     cellsTitle: Komórki
     columnGroup: Grupa kolumn
     columnTitle: Kolumna
@@ -850,7 +850,7 @@ dataPanel:
   noDataSources: Raport nie ma źródeł danych
   noParameters: Raport nie ma parametrów
   parametersLabel: Parametry
-  selectFields: Wybierz Pola...
+  selectFields: Wybierz pola...
   semantic:
     multipleAttributes: "{count} atrybutów"
     multipleRelations: "{count} relacji"

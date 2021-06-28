@@ -7,7 +7,7 @@ export const portalPL: LanguageKeyValueMap = {
 	saveSettingsFailed: 'Zapisywanie ustawień nie powiodło się', // Save settings failed
 	PortalUriRequiedForSmtpSettings: 'Przed zapisaniem ustawień e-mail upewnij się, że „Portal URI” w ustawieniach interfejsu użytkownika jest dostępny.', // Please confirm that the "Portal URI" in "UI Settings" is already provided before you save the email settings.
 	WorkerJobMaxExecTimeIsInvalid: 'Maksymalny czas wykonania powinien wynosić pomiędzy 0(s) i 2147481(s).', // Maximal exec time should be between 0(s) and 2147481(s).
-	WorkerTaskMaxCountIsInvalid: 'Task per worker should be between 0 and 100.',
+	WorkerTaskMaxCountIsInvalid: 'Zadanie na workera powinno być pomiędzy 0 a 100.', // Task per worker should be between 0 and 100.
 
 	// Common
 	Save: 'Zapisz', // Save
@@ -54,14 +54,14 @@ export const portalPL: LanguageKeyValueMap = {
 	pcTagsDisplay: 'Wyświetl puste kategorie', // Display Empty System Categories
 	pcAllowCustomSchedule: 'Zezwól użytkownikowi tworzyć własne harmonogramy', // Allow User To Create Custom Schedule
 	pcEnableWebPageDocument: 'Enable webpage documents',
-	pcAllowEditPersonalInformation: 'Zezwól użytkownikowi nad edycję informacji personalnych', // Allow User To Edit Personal Information
+	pcAllowEditPersonalInformation: 'Zezwól użytkownikowi na edycję informacji personalnych', // Allow User To Edit Personal Information
 	pcAllowEditPersonalTheme: 'Zezwól użytkownikowi na edycję osobistego motywu', // Allow User To Edit Personal Theme
 	pcHideWelcomeScreen: 'Ukryj ekran powitalny w portalu dokumentów', // Hide Welcome Screen On Document Portal
 	pcShowGlobalOrganization: 'Wyświetl główną organizację', // Show Global Organization
-	pcAllowUrlHideActions: 'Zezwól na \'ukryjAkcje\' w URL', // Allow \'hideActions\' In Url
-	pcHideActions: 'Ukryj Akcje', // Hide Actions
-	pcHideActionsTip: 'Działa tylko, gdy opcja \'ukryjAkcje\' w URL jest wyłączona', // Only works when Allow \'hideActions\' In Url option is off
-	pcHideActionsPlaceHolder: 'Ustaw Ukryte Akcje (oddzielane przecinkami)', // Please Set Hide Actions(Separated by commas)
+	pcAllowUrlHideActions: 'Zezwól na \'ukryj akcje\' w URL', // Allow \'hideActions\' In Url
+	pcHideActions: 'Ukryj akcje', // Hide Actions
+	pcHideActionsTip: 'Działa tylko, gdy opcja \'ukryj akcje\' w URL jest wyłączona', // Only works when Allow \'hideActions\' In Url option is off
+	pcHideActionsPlaceHolder: 'Ustaw ukryte akcje (oddzielane przecinkami)', // Please Set Hide Actions(Separated by commas)
 	pcHideDocumentListColumns: 'Ukryj kolumny listy dokumentów', // Hide Document List Columns
 	pcHideDocumentListColumnsPlaceHolder: 'Ustaw ukrycie kolumny (oddzielone przecinkami)', // Please Set Hide columns(separated by commas)
 	pcEditPersonalInfo: 'Zarządzaj', // Manage Item
@@ -153,8 +153,8 @@ export const portalPL: LanguageKeyValueMap = {
 	'sharedResources!description': 'Moduł udostępnionych zasobów dla GCES', // Shared resources module for GCES
 	'smtp!title': 'Wiadomości email', // Email Settings
 	'smtp!description': 'Ustawienia serwera usługi mailowej', // Settings for the server mailing service
-	'queue!title': 'Kolejka Usługi Raportowej', // Worker queue settings
-	'queue!description': 'Ustawienia kolejki Usługi Raportowej', // Settings for the worker queue
+	'queue!title': 'Kolejka usługi raportowej', // Worker queue settings
+	'queue!description': 'Ustawienia kolejki usługi raportowej', // Settings for the worker queue
 
 	'semanticModeling!title': 'Ustawienia modelu danych', // Data Model Settings
 	'semanticModeling!description': 'Ustawienia modelu danych', // Data Model Settings
@@ -181,7 +181,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'smtp!mailProtocol!SMTP': 'SMTP', // SMTP
 	'smtp!mailProtocol!GoogleAPI': 'Google API', // Google API
 	'smtp!googleClientID': 'Client ID', // Client ID
-	'smtp!googleClientSecret': 'Sekret Klienta', // Client Secret
+	'smtp!googleClientSecret': 'Sekret klienta', // Client Secret
 	'googleAPIAuthTitle': 'Autoryzacja', // Authorization
 	'googleAPIAuth': 'Autoryzuj', // Authorize
 	'GoogleApisAuthFailed': 'Autoryzacja nie powiodła się', // Authorization failed
@@ -192,7 +192,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'googleApisError_4': 'Limit czasu autoryzacji', // Authorization timeout
 	'googleApisError_5': 'Brakuje kluczowych informacji w adresie URL przekierowania', // Missing key information in redirect URL
 	'googleApisError_6': '$t(pcPortalUri) w adresie URL przekierowania nie pasuje', // $t(pcPortalUri) in redirect URL does not match
-	'googleApisError_7': 'Token Odświeżania nie może być pusty', // The Refresh Token cannot be empty
+	'googleApisError_7': 'Token odświeżania nie może być pusty', // The Refresh Token cannot be empty
 
 	'scheduleSettings!ignoreEmptyContent': 'Nie dostarczaj pustego dokumentu', // Don\'t deliver the empty document
 	'scheduleSettings!disableManualAndOneTimeTask': 'Wyłącz zadanie ręczne i jednorazowe', // Disable Manual and One-time task
@@ -246,7 +246,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'sysconfig-client!title': 'Klient', // Client
 	'sysconfig-client!description': 'Zarządzanie klientem', // Client management
 
-	'security-settings!title': 'Security',
+	'security-settings!title': 'Zabezpieczenia', // Security
 	'system-management!title': 'Zarządzanie systemem', // System Management
 	'search!title': 'Szukaj', // Search
 	EmptySearchResult: 'Brak wyników', // empty result
@@ -263,10 +263,10 @@ export const portalPL: LanguageKeyValueMap = {
 	'documentThemeEditor!description': 'Konfiguruj domyślny motyw dokumentu', // Configure document default theme
 
 	'wyn-plugin!title': 'Monitorowanie', // Monitoring
-	'wyn-plugin!description': 'Monitoruj stan Usług Raportowych', // Monitor workers' health
+	'wyn-plugin!description': 'Monitoruj stan usług raportowych', // Monitor workers' health
 	'reporting-plugin!title': 'Raportowanie', // Reporting
 	'reporting-plugin!description': '',
-	'wyn-plugin-monitor!title': 'Usługi Raportowe', // Workers
+	'wyn-plugin-monitor!title': 'Usługi raportowe', // Workers
 	'wyn-plugin-monitor!description': '',
 	'wyn-plugin-tasks!title': 'Zadania', // Tasks
 	'wyn-plugin-tasks!description': '',
@@ -310,17 +310,17 @@ export const portalPL: LanguageKeyValueMap = {
 	'image/jpeg,image/bmp,image/gif,image/png,image/svg!title': 'Obrazy', // Images
 	'image/jpeg,image/bmp,image/gif,image/png,image/svg!name': 'Obraz', // Image
 	'image/jpeg,image/bmp,image/gif,image/png,image/svg!description': 'Obrazy', // Images
-	'font/ttf,font/otf,font/woff,font/woff2,font/svg,font/eot,font/webfont!title': 'czcionka', // Font
-	'font/ttf,font/otf,font/woff,font/woff2,font/svg,font/eot,font/webfont!name': 'czcionka', // Font
-	'font/ttf,font/otf,font/woff,font/woff2,font/svg,font/eot,font/webfont!description': 'czcionka', // Font
+	'font/ttf,font/otf,font/woff,font/woff2,font/svg,font/eot,font/webfont!title': 'Czcionka', // Font
+	'font/ttf,font/otf,font/woff,font/woff2,font/svg,font/eot,font/webfont!name': 'Czcionka', // Font
+	'font/ttf,font/otf,font/woff,font/woff2,font/svg,font/eot,font/webfont!description': 'Czcionka', // Font
 	'theme!title': 'Motywy', // Themes
 	'theme!name': 'Motywy', // Themes
 	'theme!description': 'Motywy', // Themes
 	'geoJson!title': 'Mapy', // Map Data
 	'geoJson!description': 'Mapy', // Map Data
-	'floorPlan!title': 'Plan Budynku', // Floor Plan
-	'floorPlan!name': 'Plan Budynku', // Floor Plan
-	'floorPlan!description': 'Plan Budynku', // Floor Plan
+	'floorPlan!title': 'Plan budynku', // Floor Plan
+	'floorPlan!name': 'Plan budynku', // Floor Plan
+	'floorPlan!description': 'Plan budynku', // Floor Plan
 	'wbp!title': 'Strona internetowa', // Web Page
 	'wbp!name': 'Strona internetowa', // Web Page
 	'wbp!description': 'Strona internetowa', // Web Page
@@ -354,8 +354,8 @@ export const portalPL: LanguageKeyValueMap = {
 
 	// Nav Toolbar
 	globalOrgName: 'Ogólny', // Global
-	switchOrganization: 'Zmień Organizację', // Switch Organization
-	editProfileSetting: 'Edytuj Ustawienia Profilu', // Edit Profile Setting
+	switchOrganization: 'Zmień organizację', // Switch Organization
+	editProfileSetting: 'Edytuj ustawienia profilu', // Edit Profile Setting
 
 	// Version Info
 	'productVersion': 'Wyn Enterprise', // Wyn Enterprise
@@ -363,11 +363,11 @@ export const portalPL: LanguageKeyValueMap = {
 	'portalVersion': 'Portal', // Portal
 	'pluginTitle': 'Pluginy', // Plugins
 	'Portal': 'Plugin portalu', // Portal Plugin
-	'Scheduler': 'Plugin Planera', // Scheduler Plugin
-	'Shared Resources': 'Plugin Wspólnych Zasobów', // Shared Resources Plugin
-	'Server plugin': 'Plugin Serwera', // Server Plugin
-	'Account Management Plugin': 'Plugin Zarządzania Kontem', // Account Management Plugin
-	'Dataset Management Plugin': 'Plugin Zarządzania Zestawem Danych', // Dataset Management Plugin
+	'Scheduler': 'Plugin planera', // Scheduler Plugin
+	'Shared Resources': 'Plugin wspólnych zasobów', // Shared Resources Plugin
+	'Server plugin': 'Plugin serwera', // Server Plugin
+	'Account Management Plugin': 'Plugin zarządzania kontem', // Account Management Plugin
+	'Dataset Management Plugin': 'Plugin zarządzania zestawem danych', // Dataset Management Plugin
 	'GCES Dashboards': 'Plugin WynDashboards', // WynDashboards Plugin
 	'GCES Reporting': 'Plugin WynReports', //  WynReports Plugin
 	DeleteDocumentError: 'Błąd podczas usuwania dokumentu', // Error deleting document
@@ -389,7 +389,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'UpdateNotificationSkipVersionSuccessDetail': 'Pomyślnie pominięto wersję "Version {{version}}"', // Success to skip the version "Version {{version}}"
 	'vsReleaseTime': 'Data Wydania:', // Release Date:
 	'vsSummary': 'Podsumowanie:', // Summary:
-	'vsViewDetail': 'Pokaż Szczegóły', // View Detail
+	'vsViewDetail': 'Pokaż szczegóły', // View Detail
 
 	// AdminUploadPanel
 	dzDragDrop: 'Przeciągnij i upuść', // Drag & Drop

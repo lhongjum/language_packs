@@ -116,8 +116,8 @@ menu:
   report:
     preview: Podgląd
 nameTemplates:
-  dataSet: ZestawDanych
-  dataSource: ŹrodłoDanych
+  dataSet: Zestaw danych
+  dataSource: Źrodło danych
 notificationPanel:
   collapse: Zwiń
   dismiss: Odrzuć

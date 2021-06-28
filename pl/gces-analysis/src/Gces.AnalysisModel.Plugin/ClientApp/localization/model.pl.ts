@@ -1,45 +1,45 @@
 export const modelPL: LanguageKeyValueMap = {
 	analysisModel: 'Data Model Designer',
-	CloseAnalysisDesignerConfirm: 'Do you want to leave data model designer and discard the changes?',
+	CloseAnalysisDesignerConfirm: 'Czy chcesz opuścić projektanta modelu danych i odrzucić zmiany?', // Do you want to leave data model designer and discard the changes?
 	confirmation: 'Potwierdzenie', // Confirmation
 	yes: 'Tak', // Yes
 	no: 'Nie', // No
-	save: 'Save',
+	save: 'Zapisz', // Save
 	cancel: 'Anuluj', // Cancel
 	add: 'Dodaj', // Add
-	setSecurityFilterValue: 'Set Security Filter Value(s)',
-	undo: 'Undo',
-	redo: 'Redo',
-	validate: 'Validate',
-	entities: 'Entities',
-	addEntity: 'Add Entity',
-	addRelation: 'Add Relationship',
-	resetLayout: 'Reset Layout',
-	markPathStart: 'Mark Path Start',
-	markPathEnd: 'Mark Path End',
-	clearMark: 'Clear Mark',
-	viewSettings: 'View Settings',
-	updateAnalysisModel: 'Update Data Model',
-	saveAnalysisModel: 'Save Data Model',
-	Description: 'Description',
-	comment: 'Comment',
-	deleteRelation: 'Delete Relationship',
-	delete: 'Delete',
-	unpin: 'Unpin',
-	pin: 'Pin',
-	relationFromTo: 'from \'{{sourceEntity}}\'[{{sourceColumns}}] to \'{{targetEntity}}\'[{{targetColumns}}]',
-	addAttribute: 'Add Attribute',
-	deleteAttribute: 'Delete Attribute',
-	deleteEntity: 'Delete Entity',
-	search: 'Search',
+	setSecurityFilterValue: 'Ustaw wartości filtra bezpieczeństwa', // Set Security Filter Value(s)
+	undo: 'Cofnij', // Undo
+	redo: 'Popraw', // Redo
+	validate: 'Waliduj', // Validate
+	entities: 'Encje', // Entities
+	addEntity: 'Dodaj encję', // Add Entity
+	addRelation: 'Dodaj związek', // Add Relationship
+	resetLayout: 'Resetuj układ', // Reset Layout
+	markPathStart: 'Zaznacz początek ścieżki', // Mark Path Start
+	markPathEnd: 'Zaznacz koniec ścieżki', // Mark Path End
+	clearMark: 'Wyczyść znak', // Clear Mark
+	viewSettings: 'Ustawienia widoku', // View Settings
+	updateAnalysisModel: 'Zaktualizuj model danych', // Update Data Model
+	saveAnalysisModel: 'Zapisz model danych', // Save Data Model
+	Description: 'Opis', // Description
+	comment: 'Komentarz', // Comment
+	deleteRelation: 'Usuń związek', // Delete Relationship
+	delete: 'Usuń', // Delete
+	unpin: 'Odepnij', // Unpin
+	pin: 'Przypnij', // Pin
+	relationFromTo: 'z \'{{sourceEntity}}\'[{{sourceColumns}}] do \'{{targetEntity}}\'[{{targetColumns}}]', // from \'{{sourceEntity}}\'[{{sourceColumns}}] to \'{{targetEntity}}\'[{{targetColumns}}]
+	addAttribute: 'Dodaj atrybut', // Add Attribute
+	deleteAttribute: 'Usuń atrybut', // Delete Attribute
+	deleteEntity: 'Usuń jednostkę', // Delete Entity
+	search: 'Szukaj', // Search
 	searchNoResult: 'brak wyników', // no items
 	editorEmpty: '<Pusty>', // <Empty>
 	FetchDataFailed: 'Pozyskiwanie danych nie powiodło się', // Fetch data failed
 	ConnectSuccess: 'Poprawnie połączono', // Connect successfully.
 	validateSuccess: 'Sprawdzanie poprawności modelu zakończone.', // Model validated successfully.
-	Properties: 'Properties',
-	beHidden: 'Already hidden',
-	saveTips: 'Please click "Save" to complete the creation of the model',
+	Properties: 'Nieruchomości', // Properties
+	beHidden: 'Już ukryte', // Already hidden
+	saveTips: 'Kliknij „Zapisz”, aby zakończyć tworzenie modelu', // Please click "Save" to complete the creation of the model
 
 	// cardinality
 	'cardinality!0': '1 To 1',
@@ -47,24 +47,24 @@ export const modelPL: LanguageKeyValueMap = {
 	'cardinality!2': '0..1 To N',
 	'cardinality!3': 'N To 1',
 	'cardinality!4': 'N To 0..1',
-	'cardinality!hint!0': 'One {{source}} record corresponds to one {{target}} record.',
-	'cardinality!hint!1': 'One {{source}} record corresponds to many {{target}} records.',
-	'cardinality!hint!2': 'Zero or one {{source}} record corresponds to many {{target}} records.',
-	'cardinality!hint!3': 'Many {{source}} records correspond to one {{target}} record.',
-	'cardinality!hint!4': 'Many {{source}} records correspond to zero or one {{target}} record.',
+	'cardinality!hint!0': 'Jeden rekord {{source}} odpowiada jednemu rekordowi {{target}}.', // One {{source}} record corresponds to one {{target}} record.
+	'cardinality!hint!1': 'Jeden rekord {{source}} odpowiada wielu rekordom {{target}}.', // One {{source}} record corresponds to many {{target}} records.
+	'cardinality!hint!2': 'Zero lub jeden rekord {{source}} odpowiada wielu rekordom {{target}}.', // Zero or one {{source}} record corresponds to many {{target}} records.
+	'cardinality!hint!3': 'Wiele rekordów {{source}} odpowiada jednemu rekordowi {{target}}.', // Many {{source}} records correspond to one {{target}} record.
+	'cardinality!hint!4': 'Wiele rekordów {{source}} odpowiada zero lub jednemu rekordowi {{target}}.', // Many {{source}} records correspond to zero or one {{target}} record.
 
 	// home
-	diagram: 'Diagram',
-	relationshipManagement: 'Relationship Management',
-	settings: 'Settings',
+	diagram: 'Diagram', // Diagram
+	relationshipManagement: 'Zarządzanie relacjami', // Relationship Management
+	settings: 'Ustawienia', // Settings
 
 	// relationship management
-	available: 'Active',
-	name: 'Name',
-	fromEntity: 'From: Entities (Attributes)',
-	toEntity: 'To: Entities (Attributes)',
-	cardinality: 'Cardinality',
-	bidirectionCrossFiltering: 'Bidirectional Cross Filter',
+	available: 'Aktywny', // Active
+	name: 'Nazwa', // Name
+	fromEntity: 'Od: Encje (Atrybuty)', // From: Entities (Attributes)
+	toEntity: 'Do: Encje (Atrybuty)', // To: Entities (Attributes)
+	cardinality: 'Kardynalność', // Cardinality
+	bidirectionCrossFiltering: 'Dwukierunkowy filtr krzyżowy', // Bidirectional Cross Filter
 
 	// Data Type
 	'DataType!0': 'Number',
@@ -76,19 +76,19 @@ export const modelPL: LanguageKeyValueMap = {
 	'DataType!6': 'DateTime',
 
 	// Editor
-	show: 'Show',
-	empty: 'Empty',
-	apply: 'Apply',
-	textItem: '[{{count}} item]',
-	textItem_plural: '[{{count}} items]',
-	greaterThanMaxLength: 'Must be less than or equal to the maximum length {{ maxLength }}',
-	notMatchPattern: 'Must match the regex {{ pattern }}',
+	show: 'Pokaż', // Show
+	empty: 'Pusty', // Empty
+	apply: 'Zastosuj', // Apply
+	textItem: '[{{count}} pozycja]', // [{{count}} item]
+	textItem_plural: '[{{count}} pozycji]', // [{{count}} items]
+	greaterThanMaxLength: 'Musi być mniejsza lub równa maksymalnej długości {{ maxLength }}', // Must be less than or equal to the maximum length {{ maxLength }}
+	notMatchPattern: 'Musi pasować do wyrażenia regularnego {{ wzorzec }}', // Must match the regex {{ pattern }}
 	'multipleValues!label': '<...>',
-	'multipleValues!title': 'multiple values',
-	sourceEntity: 'Source Entity',
-	targetEntity: 'Target Entity',
-	sourceColumns: 'Source Attributes',
-	targetColumns: 'Target Attributes',
+	'multipleValues!title': 'wiele wartości', // multiple values
+	sourceEntity: 'Jednostka źródłowa', // Source Entity
+	targetEntity: 'Jednostka docelowa', // Target Entity
+	sourceColumns: 'Atrybuty źródłowe', // Source Attributes
+	targetColumns: 'Atrybuty docelowe', // Target Attributes
 
 	// Security Filter Editor
 	filterExpression: 'Filtruj Wyrażenie', // Filter Expression
@@ -111,76 +111,76 @@ export const modelPL: LanguageKeyValueMap = {
 	user_context_tenant$Name: 'Nazwa organizacji', // organization-Name
 	user_context_tenant$FromEmail: 'Adres email organizacji', // organization-FromEmail
 	organization_context_Name: 'Nazwa', // Name
-	organization_context_FromEmail: 'ZEmaila', // FromEmail
+	organization_context_FromEmail: 'Z emaila', // FromEmail
 
 	// Model Setting
-	dataSourceSetting: 'Data Source Settings',
-	connectionString: 'Connection String',
+	dataSourceSetting: 'Ustawienia źródła danych', // Data Source Settings
+	connectionString: 'Ciąg połączenia', // Connection String
 
 	// notifications
-	'pathNotFound!title': 'Path not found',
-	'pathNotFound!Description': 'There is no connective path between entity {{label1}} and entity {{label2}}.',
-	relationCheckFailed: 'Relations checking failed',
-	multipleDirectRelations: 'There are multiple connective paths between entity {{name1}} and entity {{name2}}.',
-	multiplePathRelations: 'There are multiple paths between entity {{name1}} and entity {{name2}}. Path1 is {{path1}}. Path2 is {{path2}}.',
+	'pathNotFound!title': 'Ścieżka nie znaleziona', // Path not found
+	'pathNotFound!Description': 'Nie ma ścieżki łączącej między jednostką {{label1}} a jednostką {{label2}}.', // There is no connective path between entity {{label1}} and entity {{label2}}.
+	relationCheckFailed: 'Sprawdzanie relacji nie powiodło się', // Relations checking failed
+	multipleDirectRelations: 'Istnieje wiele ścieżek łączących między podmiotem {{name1}} a podmiotem {{name2}}.', // There are multiple connective paths between entity {{name1}} and entity {{name2}}.
+	multiplePathRelations: 'Istnieje wiele ścieżek między podmiotem {{name1}} a podmiotem {{name2}}. Ścieżka1 to {{path1}}. Ścieżka2 to {{path2}}.', // There are multiple paths between entity {{name1}} and entity {{name2}}. Path1 is {{path1}}. Path2 is {{path2}}.
 
 	// Sidebar
-	propertyTips: 'Select one or more model objects to set their properties.',
-	'attribute!title': 'ATTRIBUTE',
-	'entity!title': 'ENTITY',
-	'relation!title': 'RELATION',
-	'viewSettings!title': 'VIEW SETTINGS',
-	CAT_NAMING: 'NAMING',
-	CAT_INFORMATION: 'INFORMATION',
-	CAT_COMMON: 'COMMON',
-	CAT_RELATION: 'RELATION',
+	propertyTips: 'Wybierz jeden lub więcej obiektów modelu, aby ustawić ich właściwości.', // Select one or more model objects to set their properties.
+	'attribute!title': 'ATRYBUT', // ATTRIBUTE
+	'entity!title': 'ENCJA', // ENTITY
+	'relation!title': 'RELACJA', // RELATION
+	'viewSettings!title': 'USTAWIENIA WIDOKU', // VIEW SETTINGS
+	CAT_NAMING: 'NAZWA', // NAMING
+	CAT_INFORMATION: 'INFORMACJA', // INFORMATION
+	CAT_COMMON: 'WSPÓLNY', // COMMON
+	CAT_RELATION: 'RELACJA', // RELATION
 	CAT_APPEARANCE: 'Wygląd', // Appearance
-	PROP_Name: 'Name',
+	PROP_Name: 'Nazwa', // Name
 	PROP_ID: 'ID',
-	PROP_IsNullable: 'Is Nullable',
-	PROP_IsUnique: 'Is Unique',
-	PROP_Binding: 'Binding',
-	PROP_IsHidden: 'Is Hidden',
-	PROP_SecurityFilter: 'Security Filter',
-	PROP_Cardinality: 'Cardinality',
-	PROP_CrossFilter: 'Bidirectional Cross Filter',
-	PROP_Inactive: 'Make Relation Inactive',
-	PROP_Condition: 'Condition',
-	PROP_ShowNodeLabel: 'Always Show Node Label',
-	PROP_ShowLinkCardinality: 'Show Link Cardinality',
-	attr_BindingType_binding: 'Binding',
-	attr_BindingType_query: 'Query',
-	field: 'Field',
-	table: 'Table',
-	view: 'View',
-	sqlExpression: 'SQL Expression',
-	sqlQuery: 'SQL Query',
-	logicalDataType: 'Logical Data Type',
-	CLRDataType: 'System Data Type',
-	conditionSelectSourceEntity: 'please select source entity',
-	conditionSelectTargetEntity: 'please select target entity',
+	PROP_IsNullable: 'Jest nullable', // Is Nullable
+	PROP_IsUnique: 'Jest unikalny', // Is Unique
+	PROP_Binding: 'Wiązanie', // Binding
+	PROP_IsHidden: 'Jest ukryty', // Is Hidden
+	PROP_SecurityFilter: 'Filtr bezpieczeństwa', // Security Filter
+	PROP_Cardinality: 'Kardynalność', // Cardinality
+	PROP_CrossFilter: 'Dwukierunkowy filtr krzyżowy', // Bidirectional Cross Filter
+	PROP_Inactive: 'Ustaw relację jako nieaktywną', // Make Relation Inactive
+	PROP_Condition: 'Warunek', // Condition
+	PROP_ShowNodeLabel: 'Zawsze pokazuj etykietę węzła', // Always Show Node Label
+	PROP_ShowLinkCardinality: 'Pokaż liczność linków', // Show Link Cardinality
+	attr_BindingType_binding: 'Wiązanie', // Binding
+	attr_BindingType_query: 'Zapytanie', // Query
+	field: 'Pole', // Field
+	table: 'Tabela', // Table
+	view: 'Widok', // View
+	sqlExpression: 'Wyrażenie SQL', // SQL Expression
+	sqlQuery: 'Zapytanie SQL', // SQL Query
+	logicalDataType: 'Logiczny typ danych', // Logical Data Type
+	CLRDataType: 'Typ danych systemowych', // System Data Type
+	conditionSelectSourceEntity: 'proszę wybrać encję źródłową', // please select source entity
+	conditionSelectTargetEntity: 'proszę wybrać encję docelową', // please select target entity
 
 	// confirm
-	confirmDeleteAttribute: "Confirm to remove the attribute '{{attribute}}' on entity '{{entity}}'?",
-	confirmDeleteRelation: "Confirm to remove the relation between '{{source}}' and '{{target}}'?",
-	confirmDeleteEntity: "Confirm to remove the entity '{{name}}'?",
-	withSecurityFilters: "Security filters that refer to '{{name}}' will be deleted as well.",
-	withRelations: "Relations that refer to '{{name}}' will be deleted as well.",
-	withSecurityFiltersAndRelations: "Security filters and Relations that refer to '{{name}}' will be deleted as well.",
+	confirmDeleteAttribute: "Czy potwierdzić usunięcie atrybutu '{{attribute}}' z encji '{{entity}}'?", // Confirm to remove the attribute '{{attribute}}' on entity '{{entity}}'?
+	confirmDeleteRelation: "Potwierdź usunięcie relacji między '{{source}}' i '{{target}}'?", // Confirm to remove the relation between '{{source}}' and '{{target}}'?
+	confirmDeleteEntity: "Potwierdzić usunięcie podmiotu '{{name}}'?", // Confirm to remove the entity '{{name}}'?
+	withSecurityFilters: "Filtry bezpieczeństwa odwołujące się do '{{name}}' również zostaną usunięte.", // Security filters that refer to '{{name}}' will be deleted as well.
+	withRelations: "Relacje, które odnoszą się do '{{name}}' również zostaną usunięte.", // Relations that refer to '{{name}}' will be deleted as well.
+	withSecurityFiltersAndRelations: "Filtry bezpieczeństwa i relacje, które odwołują się do '{{name}}' również zostaną usunięte.", // Security filters and Relations that refer to '{{name}}' will be deleted as well.
 
 	// property grid
-	emptyListPlaceholder: 'Select an item to see properties',
-	gridSearchPlaceholder: 'enter property name here...',
-	closeSearchBtnTitle: 'Close',
-	noCommonProperties: 'There are no common properties',
-	textUnknownProperty: 'Unknown Property:',
+	emptyListPlaceholder: 'Wybierz przedmiot, aby zobaczyć właściwości', // Select an item to see properties
+	gridSearchPlaceholder: 'wpisz tutaj nazwę nieruchomości...', // enter property name here...
+	closeSearchBtnTitle: 'Zamknij', // Close
+	noCommonProperties: 'Nie ma wspólnych właściwości', // There are no common properties
+	textUnknownProperty: 'Nieznana właściwość:', // Unknown Property:
 
 	// preview
-	preview: 'Preview ({{name}})',
-	'preview!title': 'Preview',
-	previewNoRows: 'Preview No Rows',
-	previewNoResult: 'Preview No Results',
-	'preview!attribute': 'Attribute',
+	preview: 'Podgląd ({{name}})', // Preview ({{name}})
+	'preview!title': 'Podgląd', // Preview
+	previewNoRows: 'Podgląd bez wierszy', // Preview No Rows
+	previewNoResult: 'Podgląd brak wyników', // Preview No Results
+	'preview!attribute': 'Atrybut', // Attribute
 	'preview!operator': 'Operator',
-	'preview!value': 'Value',
+	'preview!value': 'Wartość', // Value
 };

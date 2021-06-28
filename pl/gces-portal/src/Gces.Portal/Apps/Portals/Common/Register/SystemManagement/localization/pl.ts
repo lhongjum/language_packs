@@ -2,7 +2,7 @@ export const portalPL: LanguageKeyValueMap = {
 	// System Management
 	'Export!title': 'Eksport', // Export
 	'Export!description': 'Eksport dokumentów', // Export Documents
-	'Import!title': 'Dodać', // Import
+	'Import!title': 'Import', // Import
 	'Import!description': 'Import dokumentów', // Import Documents
 	'AuditLogsView!title': 'Logi audytu', // View Audit Logs
 	'AuditLogsView!description': 'Logi audytu', // View Audit Logs
@@ -15,7 +15,7 @@ export const portalPL: LanguageKeyValueMap = {
 	emptyTemplateTip: 'Brak szablonów harmonogramów', // No schedule templates
 	emptyFileTip: 'Nie załadowano pliku', // No uploaded file
 	emptyCustomThemeTip: 'Brak niestandardowego motywu', // No Custom Theme
-	exportSuccess: 'Export succeeded',
+	exportSuccess: 'Eksport powiódł się', // Export succeeded
 	exportFailed: 'An error occurred while exporting $t({{type}}!title) ({{name}})[{{id}}]',
 	uploadingInfo: 'Ładowanie pliku {{file}}', // Uploading file {{file}}
 	uploadedInfo: 'Ładowanie pliku {{file}} zakończone powodzeniem', // file {{file}} uploaded successfully
@@ -28,7 +28,7 @@ export const portalPL: LanguageKeyValueMap = {
 	ImportUpdate: 'Zaktualizowano', // Updated
 	ImportPluginNonExist: 'Zignorowano', // Ignored
 	ImportIgnore: 'Zignorowano', // Ignored
-	ImportUpgrade: 'Upgraded',
+	ImportUpgrade: 'Ulepszono', // Upgraded
 	ImportCancel: 'Anulowano', // Cancel
 	ImportStatus: 'Status',
 	ImportSuccess: 'Sukces', // Succeed
@@ -54,7 +54,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'importError!100041': 'Nie udało się zaimportować dokumentu referencyjnego {{title}}. Ten dokument może być uszkodzony.', // Failed to import circular reference document {{title}}, this document may be corrupted.
 	'importError!100050': 'Nie znaleziono licencji dla dokumentów', // The license for the corresponding document is not found
 	'importError!100060': 'The version({{newVersion}}) is lower than or equal to current({{existingVersion}}).',
-	'importError!100061': 'Invalid version({{version}}).',
+	'importError!100061': 'Nieprawidłowa wersja ({{version}}).', // Invalid version({{version}}).
 	'importError!100090': 'Nieznany błąd importu: {{message}}', // Unknown import error: {{message}}
 
 	'systemSetting!title': 'Nazwa elementu', // Item Name
@@ -122,8 +122,8 @@ export const portalPL: LanguageKeyValueMap = {
 	'sys-ctheme!3': 'Nie można odnaleźć zmiennych własnego motywu', // The custom theme variables cannot be found
 	'sys-ctheme!4': 'Plik CSS {{file}} jest pusty', // The css file {{file}} is empty
 	'sys-ctheme!5': '$t(ctError!100012)',
-	'sys-st!1': 'The export template used by the schedule template cannot be found',
-	'sys-et!1': 'Access to export template API response an error: {{message}}',
+	'sys-st!1': '', // The export template used by the schedule template cannot be found
+	'sys-et!1': '', // Access to export template API response an error: {{message}}
 	'ctVersion': 'Wersja', // Version
 	refreshToApplyTheme: '(Uwaga: odśwież stronę, aby zatwierdzić motyw)', // (notice: Refresh page to apply the theme)
 	refreshToApplyIcon: '(Uwaga: odśwież stronę, aby zatwierdzić ikony)', // notice: Refresh page to apply the icons
@@ -156,7 +156,7 @@ export const portalPL: LanguageKeyValueMap = {
 	auditLog_ActionType_Update: 'Zaktualizuj', // Update
 	auditLog_ActionType_Delete: 'Usuń', // Delete
 	auditLog_ActionType_Rename: 'Zmień nazwę', // Rename
-	auditLog_ActionType_ChangeThumbnail: 'Change Thumbnail',
+	auditLog_ActionType_ChangeThumbnail: 'Zmień miniaturę', // Change Thumbnail
 	auditLog_ActionType_Refresh: 'Odśwież', // Refresh
 	auditLog_ActionType_Cleanup: 'Sprzątnij', // Cleanup
 	auditLog_ActionType_Preview: 'Podgląd', // Preview
@@ -177,7 +177,7 @@ export const portalPL: LanguageKeyValueMap = {
 	auditLog_DocumentType_All: 'Wszystko', // All
 	auditLog_DocumentType_Datasource: 'Źródło danych', // Data source
 	auditLog_DocumentType_SemanticModel: 'Model semantyczny', // Semantic Model
-	auditLog_DocumentType_DataModel: 'Data Model',
+	auditLog_DocumentType_DataModel: 'Model danych', // Data Model
 	auditLog_DocumentType_Dataset: 'Zestaw danych', // Dataset
 	auditLog_DocumentType_Theme: 'Motyw', // Theme
 	auditLog_DocumentType_Jpeg: 'JPEG',
@@ -202,7 +202,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'auditLog_DocumentType_sys-conf-ui': 'Interfejsu użytkownika', // UI Settings
 	'auditLog_DocumentType_sys-conf-rs': 'Ustawienia WynReports', // WynReports Settings
 	'auditLog_DocumentType_sys-conf-es': 'Wiadomości mailowe', // Email Settings
-	'auditLog_DocumentType_sys-conf-wq': 'Kolejka Usługi Raportowej', // Worker queue settings
+	'auditLog_DocumentType_sys-conf-wq': 'Kolejka usługi raportowej', // Worker queue settings
 	'auditLog_DocumentType_sys-conf-ss': 'Harmonogramy', // Schedule Settings
 	'auditLog_DocumentType_sys-secprovider': 'Dostawcy zabezpieczeń', // Security Providers
 	'auditLog_DocumentType_sys-cat': 'Kategorie', // Categories
@@ -211,14 +211,14 @@ export const portalPL: LanguageKeyValueMap = {
 	'auditLog_DocumentType_sys-secset': 'Zabezpieczenia', // Security Settings
 	'auditLog_DocumentType_sys-st': 'Szablony planowania', // Schedule Templates
 	'auditLog_DocumentType_sys-ctheme': 'Niestandardowy motyw', // Custom Theme
-	'auditLog_DocumentType_sys-et': 'Export Templates', // Export Templates
+	'auditLog_DocumentType_sys-et': 'Eksport szablonów', // Export Templates
 	'auditLog_DocumentType_wbp': 'Strona internetowa',  // Web Page
-	auditLog_DocumentType_ipf: 'Input Form',
+	auditLog_DocumentType_ipf: 'Formularz wejściowy', // Input Form
 
 	auditLog_DbField_UserName: 'Użytkownik', // User
 	auditLog_DbField_Email: 'Email',
 	auditLog_DbField_UTCTime: 'Data/godzina', // Date Time
-	auditLog_DbField_UserContext: 'DanePreferencjiUżytkownika', // UserContext
+	auditLog_DbField_UserContext: 'Dane preferencji użytkownika', // UserContext
 	auditLog_DbField_Info_ActionType: 'Typ wydarzenia', // Event Type/
 	auditLog_DbField_Info_DocumentName: 'Nazwa obiektu', // Object Name
 	auditLog_DbField_Info_DocumentType: 'Typ obiektu', // Object Type
@@ -300,75 +300,75 @@ export const portalPL: LanguageKeyValueMap = {
 	'ctError!100011': 'Motyw {{displayName}} został zastosowany w $t(portal!title) i nie może zostać usunięty.', // The theme {{displayName}} has been applied in $t(portal!title), cannot be deleted
 	'ctError!100012': 'Język edycji motywu nie pasuje do systemu', // The theme language edition does not match the system
 	submitSuccess: 'Motyw został załadowany', // Custom theme submitted successfully
-	themeDetail: 'Theme Details',
+	themeDetail: 'Szczegóły motywu', // Theme Details
 	Close: 'Zamknij', // Close
-	themeBasicInfo: 'Basic Information',
-	themeVariables: 'Color Variables',
-	accent1: 'Accent1',
-	accent2: 'Accent2',
-	content_bg: 'Content BG',
-	panels_bg: 'Panels BG',
-	content_text: 'Content Text',
-	text_contrast: 'Text Contrast',
-	nav_bg: 'Nav BG',
-	nav_text: 'Nav Text',
-	portal_header_bg: 'Portal Header BG',
-	portal_header_text: 'Portal Header Text',
-	toolbar_bg: 'Toolbar BG',
-	toolbar_text: 'Toolbar Text',
-	ctStyle: 'Style',
-	darkTheme: 'Dark Theme',
-	lightTheme: 'Light Theme',
-	outOfDate: 'The theme is out of date',
-	updateOutOfDate: 'Update out of date',
-	updateIfExist: 'Update if it exists',
-	nonUpdateIfExist: 'Add only',
-	ctUpdating: 'Updating theme',
-	ctUpdateSuccess: 'Update succeed',
-	ctUpdateFail: 'Update failed',
-	ctDownload: 'Download config file',
+	themeBasicInfo: 'Podstawowe informacje', // Basic Information
+	themeVariables: 'Zmienne kolorów', // Color Variables
+	accent1: 'Akcent1', // Accent1
+	accent2: 'Akcent2', // Accent2
+	content_bg: 'Tło treści', // Content BG
+	panels_bg: 'Panele w tle', // Panels BG
+	content_text: 'Treść tekstu', // Content Text
+	text_contrast: 'Kontrast tekstu', // Text Contrast
+	nav_bg: 'Tło nawigacji', // Nav BG
+	nav_text: 'Tekst nawigacji', // Nav Text
+	portal_header_bg: 'Tło nagłówka portalu', // Portal Header BG
+	portal_header_text: 'Tekst nagłówka portalu', // Portal Header Text
+	toolbar_bg: 'Tło paska narzędzi', // Toolbar BG
+	toolbar_text: 'Tekst paska narzędzi', // Toolbar Text
+	ctStyle: 'Styl', // Style
+	darkTheme: 'Ciemny motyw', // Dark Theme
+	lightTheme: 'Jasny motyw', // Light Theme
+	outOfDate: 'Motyw jest nieaktualny', // The theme is out of date
+	updateOutOfDate: 'Aktualizacja nieaktualna', // Update out of date
+	updateIfExist: 'Zaktualizuj, jeśli istnieje', // Update if it exists
+	nonUpdateIfExist: 'Dodaj tylko', // Add only
+	ctUpdating: 'Aktualizuję motyw', // Updating theme
+	ctUpdateSuccess: 'Aktualizacja powiodła się ', // Update succeed
+	ctUpdateFail: 'Aktualizacja nieudana', // Update failed
+	ctDownload: 'Pobierz plik konfiguracyjny', // Download config file
 
 	// Tooltip
-	createBuiltInDocumentTooltipText: 'Audit log is enabled. Click the Create option to generate built in Audit log datasource and datasets',
-	createBuiltInDocumentTooltipButton: 'Create ...',
+	createBuiltInDocumentTooltipText: 'Dziennik kontroli jest włączony. Kliknij opcję Utwórz, aby wygenerować wbudowane źródło danych i zestawy danych dziennika kontroli', // Audit log is enabled. Click the Create option to generate built in Audit log datasource and datasets
+	createBuiltInDocumentTooltipButton: 'Utwórz ...', // Create ...
 
 	// schedule task
-	'scheduleTaskManager!title': 'Tasks Management',
-	'scheduleTaskManager!description': 'Tasks Management',
-	taskDocName: 'Document Name',
-	taskDetail: 'Task Name',
-	taskType: 'Task Type',
-	taskStatus: 'Task Status',
-	executeType: 'Execute Type',
-	taskStartTime: 'Task Start Time',
-	taskExecutionManual: 'Manual',
-	taskExecutionOneTime: 'One-Time',
-	taskExecutionScheduled: 'Scheduled',
-	taskTypeDataSourceExtract: 'DataSource Extract',
-	taskTypeDatasetRefresh: 'Dataset Refresh',
-	taskTypeDatasetCleanup: 'Dataset Cleanup',
-	taskTypeRptExport: 'Report Export',
-	taskTypeDashboardExport: 'Dashboard Export',
-	taskEnableStatus: 'Enable',
-	taskDisableStatus: 'Disable',
-	taskEnabledStatus: 'Enabled',
-	taskDisabledStatus: 'Disabled',
-	taskDelete: 'Delete',
-	taskToolbarFilter: 'Filter',
-	taskShowCheckBox: 'Show Checkboxes',
-	taskHideCheckBox: 'Hide Checkboxes',
-	taskExpired: 'Expired Task',
-	taskUpdateError: 'Update Task Status Failed',
-	taskRemoveError: 'Delete Task Failed',
-	taskButtonIsNotAvailable: 'No selected tasks or the selected tasks contain expired task.',
-	taskDeletePromptDialogAllTitle: 'Delete Tasks',
-	taskDeletePromptDialogAllContent: 'Do you want delete all of the selected tasks?',
-	taskDeletePromptDialogOneTitle: 'Delete Task',
-	taskDeletePromptDialogOneContent: 'Do you want delete the current task?',
-	tasksNotFound: 'No task found',
+	'scheduleTaskManager!title': 'Zarządzanie zadaniami', // Tasks Management
+	'scheduleTaskManager!description': 'Zarządzanie zadaniami', // Tasks Management
+	taskDocName: 'Nazwa dokumentu', // Document Name
+	taskDetail: 'Nazwa zadania', // Task Name
+	taskType: 'Typ zadania', // Task Type
+	taskStatus: 'Status zadania', // Task Status
+	executeType: 'Wykonaj typ', // Execute Type
+	taskStartTime: 'Czas rozpoczęcia zadania', // Task Start Time
+	taskExecutionManual: 'Ręcznie', // Manual
+	taskExecutionOneTime: 'Jeden raz', // One-Time
+	taskExecutionScheduled: 'Zaplanowany', // Scheduled
+	taskTypeDataSourceExtract: 'Wyciąg ze źródła danych', // DataSource Extract
+	taskTypeDatasetRefresh: 'Odświeżanie zbioru danych', // Dataset Refresh
+	taskTypeDatasetCleanup: 'Czyszczenie zbioru danych', // Dataset Cleanup
+	taskTypeRptExport: 'Eksport raportu', // Report Export
+	taskTypeDashboardExport: 'Eksport pulpitu nawigacyjnego', // Dashboard Export
+	taskEnableStatus: 'Włącz', // Enable
+	taskDisableStatus: 'Wyłącz', // Disable
+	taskEnabledStatus: 'Włączony', // Enabled
+	taskDisabledStatus: 'Wyłączony', // Disabled
+	taskDelete: 'Usuń', // Delete
+	taskToolbarFilter: 'Filtr', // Filter
+	taskShowCheckBox: 'Pokaż pola wyboru', // Show Checkboxes
+	taskHideCheckBox: 'Ukryj pola wyboru', // Hide Checkboxes
+	taskExpired: 'Zadanie wygasłe', // Expired Task
+	taskUpdateError: 'Aktualizacja statusu zadania nie powiodła się', // Update Task Status Failed
+	taskRemoveError: 'Nie udało się usunąć zadania', // Delete Task Failed
+	taskButtonIsNotAvailable: 'Brak wybranych zadań lub wybrane zadania zawierają wygasłe zadania.', // No selected tasks or the selected tasks contain expired task.
+	taskDeletePromptDialogAllTitle: 'Usuń zadania', // Delete Tasks
+	taskDeletePromptDialogAllContent: 'Czy chcesz usunąć wszystkie wybrane zadania?', // Do you want delete all of the selected tasks?
+	taskDeletePromptDialogOneTitle: 'Usuń zadanie', // Delete Task
+	taskDeletePromptDialogOneContent: 'Czy chcesz usunąć bieżące zadanie?', // Do you want delete the current task?
+	tasksNotFound: 'Nie znaleziono zadania', // No task found
 
-	err_30025: 'Failed to update task in DB storage and execution persistence: provided task is outdated.',
-	err_30026: 'Failed to remove task "{{taskId}}", error detail:{{innerMessage}}.',
+	err_30025: 'Nie udało się zaktualizować zadania w pamięci bazy danych i trwałości wykonania: podane zadanie jest nieaktualne.', // Failed to update task in DB storage and execution persistence: provided task is outdated.
+	err_30026: 'Nie udało się usunąć zadania "{{taskId}}", szczegóły błędu: {{innerMessage}}.', // Failed to remove task "{{taskId}}", error detail:{{innerMessage}}.
 
 	// Schedule Template Document Type
 	datasource: 'Źródło Danych', // Data Source

@@ -5,8 +5,8 @@ gettingDataResources: Pobieranie listy dostępnych zasobów danych...
 gettingSemanticModelEntities: Pobieranie encji modelu konceptualnego...
 header: Wybierz zestaw danych
 nameTemplates:
-  dataSet: ZestawDanych
-  dataSource: ŹródłoDanych
+  dataSet: Zestaw danych
+  dataSource: Źródło danych
 newDataSet:
   contentBased: Serwer
   dataSourceBased: Nowy, bazujący na źródle danych z serwera

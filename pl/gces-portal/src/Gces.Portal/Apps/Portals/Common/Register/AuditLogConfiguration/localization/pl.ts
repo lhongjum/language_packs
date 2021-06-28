@@ -49,12 +49,12 @@ export const portalPL: LanguageKeyValueMap = {
 	alTestTableInexistence: 'Test zakończony niepowodzeniem. Tabele na logi audytów nie istnieją w bazie danych', // Test fail. Audit log tables do not exist in database'
 	alSaveFailTitle: 'Błąd zapisu', // Save fail
 	alSaveFailContent: 'Błąd konfiguracji bazy danych. Przed zapisem upewnij się, że uzyskano poprawne połączenie.', // Database config error. Please make sure the connection is successful before saving
-	alAddBuiltInDocumentSuccessTitle: 'Audit log datasource and datasets are created successfully',
-	alAddBuiltInDocumentSuccessContent: 'Audit log datasource and datasets are created successfully',
-	alAddBuiltInDocumentErrorTitle: 'Create the audit log documents failed',
-	alAddBuiltInDocumentErrorContent: 'Create the audit log documents failed. You can create them by yourself',
-	alUpdateBuiltInDocumentErrorTitle: 'Update the audit log documents failed',
-	alUpdateBuiltInDocumentErrorContent: 'Update the audit log documents failed. You can update theme by yourself',
-	alCreateBuiltInDocumentTooltipText: 'Audit log is enabled. Click the Create option below to generate built in Audit log datasource and datasets',
-	alCreateBuiltInDocumentTooltipButton: 'Create ...',
+	alAddBuiltInDocumentSuccessTitle: 'Źródło danych dziennika kontroli i zbiory danych zostały pomyślnie utworzone', // Audit log datasource and datasets are created successfully
+	alAddBuiltInDocumentSuccessContent: 'Źródło danych dziennika kontroli i zbiory danych zostały pomyślnie utworzone', // Audit log datasource and datasets are created successfully
+	alAddBuiltInDocumentErrorTitle: 'Tworzenie dokumentów dziennika kontroli nie powiodło się', // Create the audit log documents failed
+	alAddBuiltInDocumentErrorContent: 'Tworzenie dokumentów dziennika kontroli nie powiodło się. Możesz je utworzyć samemu.', // Create the audit log documents failed. You can create them by yourself
+	alUpdateBuiltInDocumentErrorTitle: 'Aktualizacja dokumentów dziennika kontroli nie powiodła się', // Update the audit log documents failed
+	alUpdateBuiltInDocumentErrorContent: 'Aktualizacja dokumentów dziennika kontroli nie powiodła się. Możesz je zaktualizować samemu.', // Update the audit log documents failed. You can update theme by yourself
+	alCreateBuiltInDocumentTooltipText: 'Dziennik kontroli jest włączony. Kliknij opcję Utwórz poniżej, aby wygenerować wbudowane źródło danych i zestawy danych dziennika kontroli', // Audit log is enabled. Click the Create option below to generate built in Audit log datasource and datasets
+	alCreateBuiltInDocumentTooltipButton: 'Utwórz ...', // Create ...
 };
