@@ -28,7 +28,7 @@
 	taskItemMenuDeleteText: 'Skasuj', // Delete
 	taskItemMenuDeleteTitle: 'Skasuj zadanie', // Delete Task
 	taskItemMenuDuplicateText: 'Duplikuj', // Duplicate
-	taskItemMenuDuplicateTitle: 'Duplicate Task',
+	taskItemMenuDuplicateTitle: 'Duplikuj zadanie', // Duplicate Task
 	taskItemTextNextRun: 'Następne uruchomienie', // Next run:
 	taskItemTextManually: 'Ręcznie', // Manually
 	taskItemTextNever: 'Nigdy', // Never
@@ -36,8 +36,8 @@
 
 	// Task Editor
 	taskNoScheduleTemplateTip: 'Brak szablonu planowania', // no schedule template
-	taskEditorCloneFromTemplate: 'Użyj Szablonu', // Use Template
-	taskEditorChooseTemplate: 'Wybierz Szablon', // Choose Template
+	taskEditorCloneFromTemplate: 'Użyj szablonu', // Use Template
+	taskEditorChooseTemplate: 'Wybierz szablon', // Choose Template
 	taskEditorTemplateHasBeenDeleted: 'Szablon został usunięty', // Template has been deleted
 	taskEditorHeaderDetails: 'Szczegóły', // Details
 	taskEditorInputPlaceholderDescription: 'Opis zadania', // Task description
@@ -51,17 +51,17 @@
 	taskEditorBtnCancelText: 'Anuluj', // Cancel
 	taskEditorLabelMail: 'Powiadomienie Email', // Email Notification
 	taskEditorLabelMailTooltip: 'Wyślij komunikat o błędzie do określonej skrzynki pocztowej, gdy wykonanie zadania nie powiedzie się', // Send the failure message to the specified mailbox when the task execution failed
-	taskEditorLabelFolderLocation: 'Lokalizacja Folderu', // Folder Location
-	taskEditorLabelMailLabel: 'Please enter email notification',
+	taskEditorLabelFolderLocation: 'Lokalizacja folderu', // Folder Location
+	taskEditorLabelMailLabel: 'Proszę wpisać powiadomienie e-mail', // Please enter email notification
 	taskEditorLabelFolderLocationToolTip: 'Upewnij się, że uprawnienia do odczytu i zapisu są dostępne dla określonej lokalizacji folderu', // Please ensure that Read and Write permissions are given for the specified folder location
 	locationPlaceholder: 'Podaj lokalizację folderu', // Please input the folder location
 	taskEditorLabelAction: 'Akcja', // Action
-	taskEditorMailLabelInvalidDomainTip: 'Nieprawidłowa Domena Email', // Invalid Email Domain
+	taskEditorMailLabelInvalidDomainTip: 'Nieprawidłowa domena Email', // Invalid Email Domain
 	taskEditorEmailFormatError: 'Format e-maila jest nieprawidłowy', // Email format is invalid
 	taskEditorDescriptionError: 'Opis zadania nie powinien być pusty', // Task description should not ben empty
 	validate: 'Weryfikuj', // Verify
 	overwrite: 'Nadpisz', // OverWrite
-	append: 'Dołącz Dane', // Append Data
+	append: 'Dołącz dane', // Append Data
 	sagaTextErrorInvalidLocation: 'Nieprawidłowa lokalizacja', // Invalid Location
 	sagaTextErrorInvalidLocation_30013: 'Odmowa uprawnienia na zapis', // Write permission is denied
 	sagaTextErrorInvalidLocation_30014: 'Odmowa uprawnienia do usuwania', // Delete permission is denied

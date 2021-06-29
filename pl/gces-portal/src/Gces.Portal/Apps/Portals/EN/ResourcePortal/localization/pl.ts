@@ -1,7 +1,7 @@
 export const portalPL: LanguageKeyValueMap = {
 	// Common
 	Logo: 'Wyn Logo', // Wyn Logo
-	Avatar: 'Avatar', // Avatar
+	Avatar: 'Awatar', // Avatar
 	Expand: 'Rozwiń', // Expand
 	Collapse: 'Zwiń', // Collapse
 	More: 'Więcej', // More...

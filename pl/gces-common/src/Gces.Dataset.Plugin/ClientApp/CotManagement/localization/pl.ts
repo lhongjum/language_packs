@@ -1,6 +1,6 @@
 export const portalPL: LanguageKeyValueMap = {
-	'CotManagement!title': 'Dataset Cache',
-	'CotManagement!description': 'View Dataset Cache',
+	'CotManagement!title': 'Pamięć podręczna zbioru danych', // Dataset Cache
+	'CotManagement!description': 'Wyświetl pamięć podręczną zbioru danych', // View Dataset Cache
 };
 
 export const datasetPL: LanguageKeyValueMap = {

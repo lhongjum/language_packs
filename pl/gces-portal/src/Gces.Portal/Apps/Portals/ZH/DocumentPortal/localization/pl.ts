@@ -12,14 +12,14 @@
 	sysTagFavorites: 'Ulubione', // Favorites
 	sysTagImages: 'Obrazy', // Images
 	sysTagThemes: 'Motywy', // Themes
-	sysTagFloorPlans: 'Plany Budynków', // Floor Plans
+	sysTagFloorPlans: 'Plany budynków', // Floor Plans
 
 	// Plugin Tags
 	pluginDataset: 'Zestawy danych', // Datasets
 	pluginDataSource: 'Źródła danych', // Data Sources
 	pluginSemanticModel: 'Model semantyczny', // Semantic Model
 	pluginTemplates: 'Szablony', // Templates
-	pluginMasters: 'Master Report',
+	pluginMasters: 'Raport główny', // Master Report
 
 	// Notifications
 	ntfDismiss: 'Odrzuć', // Dismiss
@@ -27,8 +27,8 @@
 	ntfShowDetails: 'Pokaż szczegóły', // Show Details
 	ntfShowAll: 'Pokaż wszystko', // Show All
 	ntfCancelTask: 'Anuluj to zadanie', // Cancel this task
-	ntfPrevious: 'Previous',
-	ntfNext: 'Next',
+	ntfPrevious: 'Poprzedni', // Previous
+	ntfNext: 'Następny', // Next
 
 	// Documents View
 	docViewHeaderCategories: 'Kategorie', // Categories
@@ -58,7 +58,7 @@
 	cbCritDateCreated: 'Data utworzenia', // Date Created
 	cbSort: 'Sortowanie', // Sort
 	cbFilterByDocumentType: 'Filtruj wg typu dokumentu', // Filter by document type
-	cbSearch: 'Search',
+	cbSearch: 'Szukaj', // Search
 
 	cbViewModeList: 'Lista', // List
 	cbViewModeTree: 'Drzewo', // Tree
@@ -85,9 +85,9 @@
 	navCategories: 'Kategorie', // Categories
 
 	// nav org
-	globalOrgName: 'Global',
-	switchOrganization: 'Switch Organization',
-	editProfileSetting: 'Edit Profile Setting',
+	globalOrgName: 'Ogólny', // Global
+	switchOrganization: 'Zmień organizację', // Switch Organization
+	editProfileSetting: 'Edytuj ustawienia profilu', // Edit Profile Setting
 
 	// Upload Dialog
 	udTextFiles: '{{count}} plik', // {{count}} file
@@ -105,14 +105,14 @@
 
 	udHeaderInvalid: 'Nieprawidłowe', // Invalid
 	udHeaderUnresolved: 'Nierozwiązane', // Unresolved
-	udHeaderReferenceUnresolved: 'Missing reference',
+	udHeaderReferenceUnresolved: 'Brakujące odniesienie', // Missing reference
 	udHeaderAlreadyExists: 'Już istnieje', // Already exist
 	udHeaderReadyToCommit: 'Gotowy, aby zatwierdzić', // Ready to commit
 	udHeaderUploading: 'Ładowanie', // Uploading
 
 	udBtnTextCommit: 'Zatwierdź', // Commit
 	udBtnTextCancel: 'Anuluj', // Cancel
-	udBtnTextClose: 'Close',
+	udBtnTextClose: 'Zamknij', // Close
 
 	udDNDTextDropFiles: 'Przeciągnij i upuść pliki tutaj', // Drag & Drop Files Here
 	udDNDTextClickHere: 'lub kliknij tutaj, aby wybrać pliki', // or click here to select files
@@ -143,7 +143,7 @@
 	infoPanelMobileVisible: 'Dostępny na urządzeniach mobilnych', // Mobile Visible
 	infoPanelMobileVisibleShow: 'Pokaż', // Show
 	infoPanelMobileVisibleHide: 'Ukryj', // Hide
-	infoPanelHideInDocumentPortal: 'Ukryj W Portalu Dokumentów', // Hide In Document Portal
+	infoPanelHideInDocumentPortal: 'Ukryj w portalu dokumentów', // Hide In Document Portal
 	infoPanelHideInDocumentPortalShowStateLabel: 'Fałsz', // False
 	infoPanelHideInDocumentPortalHideStateLabel: 'Prawda', // True
 
@@ -168,7 +168,7 @@
 	docListSortCreated: 'Utworzono', // created
 
 	// Document item
-	docItemSetAsHome: 'ustaw jako główny', // Set as Home
+	docItemSetAsHome: 'Ustaw jako główny', // Set as Home
 	docItemSetAsHomeDescription: 'Ten dokument będzie otwierany jako domyślny', // This document will be opened by default
 	docItemRename: 'Zmień nazwę', // Rename
 	docItemRenameDescription: 'Zmień nazwę dokuemntu', // Rename document
@@ -184,7 +184,7 @@
 	docItemDownloadDescription: 'Pobierz ten dokument', // Download this document
 
 	// Tag editor
-	tagsEditorCategories: 'Categories', // Categories
+	tagsEditorCategories: 'Kategorie', // Categories
 	tagsEditorCurrent: 'Aktualne', // Current
 	tagsEditorNoCategoriesText: 'Nie przypisano kategorii', // no categories assigned
 	tagsEditorAvailableCategories: 'Dostępne', // Available
@@ -202,7 +202,7 @@
 	workspaceInfo: 'Informacje', // Info
 	workspaceRefresh: 'Odśwież', // Refresh
 	workspaceFullscreen: 'Pełny ekran', // Fullscreen
-	workspaceNewWindow: 'View {{type}} in new window',
+	workspaceNewWindow: 'Zobacz {{type}} w nowym oknie', // View {{type}} in new window
 	workspaceNoDocumentTip: 'Niczego tu nie ma', // It\'s lonely here :(
 	workspaceNoHomeTip: 'Nie ustawiono strony startowej. Rozpocznij wybierając dokument z lewej strony', // You have not set up a homepage, please start using the document from the left menu.
 	workspaceOpenSomeDocuments: 'Otwórz dokumenty', // Open some documents
@@ -220,20 +220,20 @@
 	'rdl!description': 'Raport', // Report
 	'rdlx-template!name': 'Szablon raportu', // Report template
 	'rdlx-template!description': 'Szablon raportu', // Report template
-	'rdlx-master!name': 'Master Report',
-	'rdlx-master!description': 'Master Report',
+	'rdlx-master!name': 'Raport główny', // Master Report
+	'rdlx-master!description': 'Raport główny', // Master Report
 	'report!name': 'Raport', // Report
 	'report!description': 'Raport', // Report
-	'report-master!name': 'Master Report',
-	'report-master!description': 'Master Report',
+	'report-master!name': 'Raport główny', // Master Report
+	'report-master!description': 'Raport główny', // Master Report
 	'theme!name': 'Motyw', // Theme
 	'theme!description': 'Motyw', // Theme
 	'dbd!name': 'Dashboard',
 	'dbd!description': 'Dashboard',
-	'dsc!name': 'Data Source',
-	'dsc!description': 'Data Source',
-	'dataset!name': 'Dataset',
-	'dataset!description': 'Dataset',
+	'dsc!name': 'Źródło danych', // Data Source
+	'dsc!description': 'Źródło danych', // Data Source
+	'dataset!name': 'Zestaw danych', // Dataset
+	'dataset!description': 'Zestaw danych', // Dataset
 
 	'image/bmp!name': 'Obraz BMP', // BMP Image
 	'image/bmp!description': 'Bitmapa', // A bitmap image
@@ -259,7 +259,7 @@
 	'copySemanticModel!description': 'Duplikuj ten dokument', // Duplicate this document
 	// Document Info
 	'schedule_tasks!name': 'Zadania', // Tasks
-	'schedule_tasks!description': 'Zadania zaplanowane dla tego dokuemntu', // Scheduled tasks for the document
+	'schedule_tasks!description': 'Zadania zaplanowane dla tego dokumentu', // Scheduled tasks for the document
 	'schedule_history!name': 'Historia', // History
 	'schedule_history!description': 'Historia wykonania zaplanowanych zadań', // Scheduled task execution history
 

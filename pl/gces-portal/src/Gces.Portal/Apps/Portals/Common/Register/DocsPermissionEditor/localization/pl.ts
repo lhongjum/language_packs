@@ -11,17 +11,17 @@
 	// permission role display name
 	roleName_Everyone: 'Wszyscy', // Everyone
 	roleName_administrator: 'Administrator',
-	roleName_orgadmin: 'Administrator Organizacji', // Organization Administrator
+	roleName_orgadmin: 'Administrator organizacji', // Organization Administrator
 
 	Read: 'Odczyt', // Read
 	ReadAndWrite: 'Odczyt / Zapis', // Read / Write
 	Execute: 'Wykonaj', // Execute
 	ExecuteAndCreate: 'Wykonaj / Utwórz zestaw danych', // Execute / Create DataSet
 
-	docsPermissionNoRoleTip: 'Brak roli', // No Roles!
+	docsPermissionNoRoleTip: 'Brak roli!', // No Roles!
 	docsPermissionRemovingTip: 'Ta czynność usunie wszystkie wspólne uprawnienia wybranych dokumentów.', // This action will remove all the existing shared permissions of the selected documents.
 	DocsPermissionChangePermissionSuccess: 'Poprawnie zmieniono uprawnienia', // Permissions for selected documents updated successfully
-	shareReferencedDocs: 'Apply minimum required permission on referenced document',
+	shareReferencedDocs: 'Zastosuj minimalne wymagane dostępy dla dokumentu referencyjnego', // Apply minimum required permission on referenced document
 
 	// error
 	DocsPermissionGetRoleError: 'Niepowodzenie przy pobieraniu ról', // Failed to get roles

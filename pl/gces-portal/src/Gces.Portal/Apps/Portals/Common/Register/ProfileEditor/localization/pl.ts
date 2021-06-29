@@ -22,13 +22,13 @@ export const profileEditorPL: LanguageKeyValueMap = {
 	BigImageTooltip: 'Nie można załadować obrazka. Plik jest zbyt duży. Maksymalny rozmiar obrazu to 5MB.', // Cannot upload this image. The file is too big. Image sizes are restricted to 5MB.
 	SelectValue: 'Wybierz wartość', // select value
 	NullValue: '<puste>', // <empty>
-	ENTheme: 'Motyw Portalu Dokumentów/Zasobów', // Document/Resource Portal Theme
-	CNTheme: 'Motyw Portalu Dokumentów', // Document Portal Theme
+	ENTheme: 'Motyw portalu dokumentów/zasobów', // Document/Resource Portal Theme
+	CNTheme: 'Motyw portalu dokumentów', // Document Portal Theme
 	SystemTheme: 'System',
 	Language: 'Język', // Language
 	Global: 'Ogólny', // Global
-	DefaultOrganization: 'Default Organization',
-	NotSetDefaultOrganization: '(Not Specified)',
+	DefaultOrganization: 'Domyślnia organizacja', // Default Organization
+	NotSetDefaultOrganization: '(Nie wybrano)', // (Not Specified)
 	zh: 'Chiński (Uproszczony)', // Chinese (Simplified)
 	en: 'Angielski', // English
 	'en-gb': 'English (United Kingdom)',
@@ -50,7 +50,7 @@ export const profileEditorPL: LanguageKeyValueMap = {
 	IncorrectOldPasswordToolTip: 'Podano niepoprawne stare hasło', // Old password is incorrect.
 	WeakNewPasswordToolTip: 'Proszę o użycie silnego hasła', // Please use a strong password.
 	PasswordMatchErrorToolTip: 'Podane hasła są różne', // The two passwords you entered did not match.
-	PasswordIsBlank: 'Password cannot only contain whitespace charaters',
+	PasswordIsBlank: 'Hasło nie może zawierać tylko białych znaków', // Password cannot only contain whitespace charaters
 
 	OpenErrorCaption: 'Błąd podczas otwierania edytora profilu', // Error opening profile editor
 	OpenErrorContent: 'Nie można otworzyć edytora profilu', // Cannot open profile editor
@@ -72,8 +72,8 @@ export const profileEditorPL: LanguageKeyValueMap = {
 	ChangePasswordSaveErrorContent: 'Nie można zmienić hasła', // Cannot change password
 	ChangePasswordSuccessCaption: 'Poprawnie zmieniono hasło', // Success change password
 	ChangePasswordSuccessContent: 'Poprawnie zmieniono hasło', // Success change password
-	OrganizationLoadErrorCaption: 'Loading organization list failed',
-	OrganizationLoadErrorContent: 'Cannot load organization list',
+	OrganizationLoadErrorCaption: 'Nie udało się wczytać listy organizacji', // Loading organization list failed
+	OrganizationLoadErrorContent: 'Nie można załadować listy organizacji', // Cannot load organization list
 
 	Error_002: 'Niewłaściwy parametr', // Invalid parameter
 	Error_1002: 'Nazwa użytkownika nie może być pusta', // User name can not be empty

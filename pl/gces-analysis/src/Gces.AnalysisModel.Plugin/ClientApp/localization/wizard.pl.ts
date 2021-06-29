@@ -12,27 +12,27 @@ export const wizardPL: LanguageKeyValueMap = {
 	loadingDatabases: 'Wczytywanie baz danych', // Loading Databases...
 	Service_Name: 'Nazwa usługi', // Service Name
 	searchPlaceHolder: 'Wprowadź, aby szukać', // Please input to search
-	dataSource: 'Źródło Danych', // Data Source
+	dataSource: 'Źródło danych', // Data Source
 	CommandTimeoutLimitation: 'Limit czasu polecenia musi być wartością typu Integer', // Command timeout must be an integer value
 	testConnection: 'Testuj połączenie', // Test Connection
 
-	'createAnalysisModel!name': 'Create Data Model',
-	selectModelType: 'Select model type',
+	'createAnalysisModel!name': 'Utwórz model danych', // Create Data Model
+	selectModelType: 'Wybierz typ modelu', // Select model type
 	specifyDatasource: 'Określ źródło danych', // Specify a data source
 	configDatasource: 'Konfiguruj źródło danych', // Config data source
 	selectTableAndView: 'Wybierz tabele i widoki', // Select tables and views
 	generateModel: 'Generuj model', // Generate a model
 	filterItems: 'Filtruj po nazwie:', // Filter items by name:
-	findAdditionRelations: 'Include current relations',
-	findRelatedTables: 'Include related tables',
+	findAdditionRelations: 'Uwzględnij aktualne relacje', // Include current relations
+	findRelatedTables: 'Uwzględnij powiązane tabele', // Include related tables
 	selectOrClearAllItems: 'Wybierz lub wyczyść wszystkie', // Select or clear all items:
-	modelAlreadyExist: "Data model '{{name}}' already exist.",
-	invalidAnalysisModelName: 'The data model name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the data model name.',
+	modelAlreadyExist: "Model danych '{{name}}' już istnieje.", // Data model '{{name}}' already exist.
+	invalidAnalysisModelName: 'Nazwa modelu danych jest nieprawidłowa. Proszę nie używać zastrzeżonych znaków < > \ : ? * / | " i nie używać . (dot) jako pierwszy symbol nazwy modelu danych.', // The data model name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the data model name.
 
 	back: 'Wstecz', // Back
 	next: 'Następny', // Next
 	done: 'Zrobione', // Done
-	close: 'Close',
+	close: 'Zamknij', // Close
 
 	'DataSourceDisplayName!Oracle': 'Oracle',
 	'DataSourceDisplayName!SqlServer': 'SQL Server',
@@ -41,8 +41,8 @@ export const wizardPL: LanguageKeyValueMap = {
 	'DataSourceDisplayName!Hive': 'Hive',
 	'DataSourceDisplayName!Hana': 'Hana',
 
-	tables: 'Tables',
-	views: 'Views',
+	tables: 'Tabele', // Tables
+	views: 'Widoki', // Views
 
-	noDataSource: 'Could not find available data source',
+	noDataSource: 'Nie można znaleźć dostępnego źródła danych', // Could not find available data source
 };

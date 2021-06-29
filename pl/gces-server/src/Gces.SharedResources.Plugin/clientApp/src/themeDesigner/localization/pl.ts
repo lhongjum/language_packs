@@ -21,7 +21,7 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	'edit-theme!title': 'Edytuj motyw', // Edit Theme
 
 	// recommend theme
-	recommendTitle: 'Start from a sample theme', // Start from a sample theme
+	recommendTitle: 'Zacznij od przykładowego motywu', // Start from a sample theme
 
 	// designer modal
 	loadThemeError: 'Nie udało się załadować motywu', // Load theme failed
@@ -37,8 +37,8 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	ThemeNameError: 'Nazwa motywu jest nieprawidłowa. Nie używaj zastrzeżonych symboli < > \ : ? * / | " oraz . (kropka), jako pierwszych znaków w nazwie motywu.', // The theme name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the theme name.'
 
 	// Visual Designer
-	colorsSetting: 'Colors Settings', // Colors Settings
-	fontsSetting: 'Fonts Settings', // Fonts Settings
+	colorsSetting: 'Ustawienia kolorów', // Colors Settings
+	fontsSetting: 'Ustawienia czcionek', // Fonts Settings
 	majorFont: 'Główna czczionka', // Major Font
 	minorFont: 'Poboczna czcionka', // Minor Font
 	accent1: 'Akcent1', // Accent1
@@ -53,8 +53,8 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	light2: 'Jasny2', // Light2
 	hyperlink: 'Hiperłącze', // Hyperlink
 	hyperlinkFollowed: 'Hiperłącze po kliknięciu', // Hyperlink Followed
-	scrollbarThumb: 'Scrollbar Thumb',
-	scrollbarTrack: 'Scrollbar Track',
+	scrollbarThumb: 'Kciuk paska przewijania', // Scrollbar Thumb
+	scrollbarTrack: 'Ścieżka paska przewijania', // Scrollbar Track
 	majorFontFamily: 'Rodzina czcionek', // Font Family
 	minorFontFamily: 'Rodzina czcionek', // Font Family
 	majorFontStyle: 'Styl', // Style
@@ -66,7 +66,7 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	FontStyleNormal: 'Standardowa', // Normal
 	FontStyleItalic: 'Kursywa', // Italic
 	FontStyleOblique: 'Ukośna', // Oblique
-	FontWeightNormal: 'Stnadardowa', // Normal
+	FontWeightNormal: 'Standardowa', // Normal
 	FontWeightBold: 'Pogrubiona', // Bold
 	FontWeightBolder: 'Zwiększ pogrubienie', // Bolder
 	FontWeightLighter: 'Zmniejsz pogrubienie', // Lighter

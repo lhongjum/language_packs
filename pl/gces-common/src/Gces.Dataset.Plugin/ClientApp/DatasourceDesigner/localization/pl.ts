@@ -43,7 +43,7 @@ export const datasetPL = {
 	datasourceUnknown: 'Usunięty', // Deleted
 
 	// designer mode modal
-	SelectCreateMode: 'Wybierz tryb towrzenia zestawu danych', // Please select create dataset mode
+	SelectCreateMode: 'Wybierz tryb tworzenia zestawu danych', // Please select create dataset mode
 	VisualDesigner: 'Visual Designer', // Visual Designer
 	SQLDesigner: 'SQL Designer', // SQL Designer
 	Confirmation: 'Potwierdzenie', // Confirmation
@@ -62,12 +62,12 @@ export const datasetPL = {
 	IntroduceDashboard: 'Zestaw danych dla dashboardu będzie pzeliczany podczas zapisu.', // The dataset for dashboard will be calculated and cached when it is saved.
 
 	// data type
-	Number: 'Number', // Number
+	Number: 'Liczba', // Number
 	Integer: 'Integer', // Integer
 	Float: 'Float', // Float
 	String: 'String', // String
-	DateTime: 'DateTime', // DateTime
-	Date: 'Date', // Date
+	DateTime: 'DataCzas', // DateTime
+	Date: 'Data', // Date
 	Boolean: 'Boolean', // Boolean
 	Guid: 'GUID', // Guid
 	Unknown: 'Nieobsługiwany', // Unsupported
@@ -80,7 +80,7 @@ export const datasetPL = {
 	WebURIFilters: 'Filtry sieciowe URI', // Web URI Filters
 	Options: 'Opcje', // Options
 	Field: 'Pole', // Field
-	DataType: 'TypDanych', // DataType
+	DataType: 'Typ danych', // DataType
 	Multivalue: 'Multiwartość', // Multivalue
 
 	// relationships tab
@@ -141,21 +141,21 @@ export const datasetPL = {
 	SQLCommand: 'Zapytanie SQL', // SQL Command
 	SameNameMsg: 'Tabela o nazwie "{{name}}" już istnieje.', // A table named "{{name}}" already exists.
 	InvalidSql: 'Błąd SQL, nieprawidłowy parametr {{parameter}}', // Sql Error, invalid parameter: {{parameter}}
-	QueryType: 'WpisywanieZapytania', // QueryType
+	QueryType: 'Wpisywanie zapytania', // QueryType
 	QueryType_Text: 'Tekst', // Text
 	QueryType_StoredProcedure: 'Procedura składowana', // Stored procedure
 	DeleteCustomSqlTableTitle: 'Usuń własną tabelę SQL', // Delete Custom Sql Table
 	DeleteCustomSqlTableConfirmMsg: 'Usunąć własną tabelę SQL "{{name}}" na zawsze?', // Delete Custom Sql Table "{{name}}" forever?
 
 	Procedures: 'Procedury', // Procedures
-	ProcedureParameterName: 'Nazwa Parametru', // Parameter Name
-	ProcedureParameterType: 'Typ Danych', // Data Type
-	ProcedureParameterValueType: 'Typ Wartości', // Value Type
-	ProcedureParameterDefaultValue: 'Wartość Domyślna', // Default Value
+	ProcedureParameterName: 'Nazwa parametru', // Parameter Name
+	ProcedureParameterType: 'Typ danych', // Data Type
+	ProcedureParameterValueType: 'Typ wartości', // Value Type
+	ProcedureParameterDefaultValue: 'Wartość domyślna', // Default Value
 	InParam: 'Parametr W',
 	ResultSet: 'Zestaw wynikowy', // Result Set
 	CustomTableBindedParameterNotFound: 'Bieżąca niestandardowa tabela Sql jest uszkodzona. Nie znaleziono następujących powiązanych parametrów: {{invalidParametersName}}.', // The current custom Sql table is corrupted, the following bound parameters are not found:
-	CustomTableParameterNotFound: 'The current custom Sql table is corrupted, the following bound parameters are not found: {{invalidParametersName}}.',
+	CustomTableParameterNotFound: 'Bieżąca niestandardowa tabela SQL jest uszkodzona, nie znaleziono następujących powiązanych parametrów: {{invalidParametersName}}.', // The current custom Sql table is corrupted, the following bound parameters are not found: {{invalidParametersName}}.
 
 	// fields tab
 	Detail: 'Szczegół', // Detail
@@ -241,25 +241,25 @@ export const datasetPL = {
 	AddFilter: 'Dodaj filtr', // Add Filter
 	URIParameters: 'Parametr URI', // URI Parameter
 	FieldType: 'Typ pola', // Field Type
-	StartsWith: 'RozpoczynaSięOd', // StartsWith
-	NotStartsWith: 'NieRozpoczynaSięOd', // NotStartsWith
-	EndsWith: 'KończySię', // EndsWith
-	NotEndsWith: 'NieKończySię', // NotEndsWith
+	StartsWith: 'Rozpoczyna się od', // StartsWith
+	NotStartsWith: 'Nie rozpoczyna się od', // NotStartsWith
+	EndsWith: 'Kończy się', // EndsWith
+	NotEndsWith: 'Nie kończy się', // NotEndsWith
 	Contains: 'Zawiera', // Contains
-	NotContains: 'NieZawiera', // NotContains
+	NotContains: 'Nie zawiera', // NotContains
 	Is: 'Jest', // Is
-	NotIs: 'NieJest', // NotIs
+	NotIs: 'Nie jest', // NotIs
 	In: 'W', // In
-	NotIn: 'NieW', // NotIn
+	NotIn: 'Nie w', // NotIn
 	Between: 'Pomiędzy', // Between
 	tableFilter: 'Tabele', // Tables
 	andFilter: 'Oraz', // And
 	orFilter: 'Lub', // Or
 	addRule: 'Dodaj regułę', // Add rule
 	addGroup: 'Dodaj grupę', // Add group
-	UserContextParameter: 'Parametr Kontekstu Użytkownika', // User Context Parameter
-	OrganizationContextParameter: 'Parametr Kontekstu Organizacji', // Organization Context Parameter
-	ConstantParameter: 'Stały Parametr', // Constant Parameter
+	UserContextParameter: 'Parametr kontekstu użytkownika', // User Context Parameter
+	OrganizationContextParameter: 'Parametr kontekstu organizacji', // Organization Context Parameter
+	ConstantParameter: 'Stały parametr', // Constant Parameter
 
 	// options tab
 	ConnectDbType: 'Podłącz typ bazy danych', // Connect Database Type
@@ -271,7 +271,7 @@ export const datasetPL = {
 	DefaultValue: 'Domyślna wartość', // DefaultValue
 	UserContext: 'Kontekst użytkownika', // User Context
 	OrganizationContext: 'Dane preferencji organizacji', // Organization Context
-	Source: 'źródło danych', // Data Source
+	Source: 'Źródło danych', // Data Source
 	SetPreviewValue: 'Ustaw parametr podglądu', // Set Preview Parameter
 	ParameterType: 'Typ parametru', // Parameter Type
 	UserInput: 'Dane wejściowe użytkownika', // User Input
@@ -292,7 +292,7 @@ export const datasetPL = {
 	user_context_tenant$Name: 'Nazwa organizacji', // organization-Name
 	user_context_tenant$FromEmail: 'Adres email organizacji', // organization-FromEmail
 	organization_context_Name: 'Nazwa', // Name
-	organization_context_FromEmail: 'ZEmaila', // FromEmail
+	organization_context_FromEmail: 'Z Emaila', // FromEmail
 	Organization: 'Organizacja', // organization
 
 	// datasource
@@ -303,7 +303,7 @@ export const datasetPL = {
 	NoConfigedDatabase: 'Brak skonfigurowanej bazy danych', // No configured database
 	Create: 'Utwórz', // Create
 	EditDatasource: 'Edytuj źródło danych', // Edit Data Source
-	ReconfigDatasource: 'Konfiguruj Źródło Danych', // Reconfigure Data Source
+	ReconfigDatasource: 'Konfiguruj źródło danych', // Reconfigure Data Source
 	Update: 'Zaktualizuj', // Update
 	Local: 'Lokalnie', // Local
 	Embed: 'Osadź', // Embed
@@ -314,11 +314,11 @@ export const datasetPL = {
 	User: 'Użytkownik', // User
 	user: 'Użytkownik', // user
 	SecurityToken: 'Token zabezpieczeń', // Security Token
-	CacheExpiration: 'Wygaśnięcie Cache', // Cache Expiration
-	CacheExpirationMode: 'Tryb wygaśnięcia Cache', // Cache Expiration Mode
+	CacheExpiration: 'Wygaśnięcie cache', // Cache Expiration
+	CacheExpirationMode: 'Tryb wygaśnięcia cache', // Cache Expiration Mode
 	Password: 'Hasło', // Password
 	password: 'Hasło', // Password
-	FilePassword: 'HasłoPliku', // FilePassword
+	FilePassword: 'Hasło pliku', // FilePassword
 	Server: 'Serwer', // Server
 	Host: 'Host', // Host
 	Port: 'Port', // Port
@@ -327,12 +327,12 @@ export const datasetPL = {
 	Database: 'Baza danych', // Database
 	Service_Name: 'Nazwa usługi', // Service Name
 	Encrypt: 'Szyfruj', // Encrypt
-	SIP: 'Zasady wnioskowania Schematu', // Schema Infer Policy
+	SIP: 'Zasady wnioskowania schematu', // Schema Infer Policy
 	AllowHiddenSheets: 'Załaduj ukryte arkusze', // Load Hidden Sheets
 	AllowDBNull: 'Skonwertuj puste komórki na DBNull', // Convert empty cell to DBNull
 	UseAuth: 'Użyj autentykacji', // Use Auth
 	XPath: 'XPath', // XPath
-	ConnectionString: 'ParmaetryPołączenia', // ConnectionString
+	ConnectionString: 'Parametry połączenia', // ConnectionString
 	Url: 'Link', // Url
 	JsonPath: 'Ścieżka JSON', // Json Path
 	PreQuery: 'Pre-Query',
@@ -362,11 +362,11 @@ export const datasetPL = {
 	OAuthTokenEndpoint: 'Punkt końcowy tokenu', // Token Endpoint
 	OAuthClientId: 'ID klienta', // Client Id
 	OAuthClientSecret: 'Sekret klienta', // Client Secret
-	OAuthUserName: 'NazwaUżytkownika', // UserName
+	OAuthUserName: 'Nazwa użytkownika', // UserName
 	OAuthPassword: 'Hasło', // Password
 	OAuthScope: 'Zakres', // Scope
 	SelectFile: 'Wybierz plik...', // Select File...
-	SourceType: 'TypŹródła', // SourceType
+	SourceType: 'Typ źródła', // SourceType
 	Endpoints: 'Punkty końcowe', // Endpoints
 	BaseAddress: 'Adres bazowy', // Base Address
 	endpointName: 'Nazwa', // Name
@@ -381,7 +381,7 @@ export const datasetPL = {
 	OAuth2: 'OAuth2', // OAuth2
 	Basic: 'Podstawowe', // Basic
 	None: 'Brak', // None
-	ExtractingData: 'PozyskiwanieDanych', // ExtractingData
+	ExtractingData: 'Pozyskiwanie danych', // ExtractingData
 	ExtractingDataMsg: 'Pozyskiwanie danych z pliku do bazy danych', // Extracting file data to database
 	DataExtractionFailed: 'Nie udało się pozyskać danych', // Data extraction failed
 	DataSourceCategory_All: 'Wszystko', // All
@@ -398,14 +398,14 @@ export const datasetPL = {
 	next: 'Następny', // Next
 	back: 'Poprzedni', // Previous
 	cancel: 'Anuluj', // Cancel
-	workSheet: 'ArkuszRoboczy', // WorkSheet
+	workSheet: 'Arkusz roboczy', // WorkSheet
 	renameWorkSheet: 'Nazwa nowego arkusza', // New Sheet Name
 	renameColumnName: 'Zmień nazwę', // Rename
 	textType: 'Tekst', // Text
 	numberType: 'Number', // Number
-	datetimeType: 'DateTime', // DateTime
+	datetimeType: 'DataCzas', // DateTime
 	booleanType: 'Boolean', // Boolean
-	dateType: 'Date', // Date
+	dateType: 'Data', // Date
 	selectSheetToImport: 'Wybierz/Zmień nazwę arkuszy', // Select / Rename Sheets
 	create_excel_datasource_error1: 'Musisz wybrać co najmniej jeden arkusz', // You must select one sheet at least
 	create_excel_datasource_error2: 'Nazwy następujących arkuszy nie powinny zawierać więcej niż 30 znaków:\n{{msg}}', // The following sheet names should be no more than 30 characters:\n{{msg}}

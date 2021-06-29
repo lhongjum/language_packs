@@ -7,21 +7,21 @@ export const rolePL: LanguageKeyValueMap = {
 	cmMessageBox: 'Wiadomość', // Message
 	cmOK: 'OK', // OK
 
-	otExpandAll: 'Rozwiń Wszystko', // Expand All
-	otCollapseAll: 'Zwiń Wszystko', // Collapse All
+	otExpandAll: 'Rozwiń wszystko', // Expand All
+	otCollapseAll: 'Zwiń wszystko', // Collapse All
 	otOrganizationRoot: 'Ogólny', // Global
-	cmAddRole: 'Dodaj Rolę', // Add Role
-	rcDeleteRole: 'Usuń Rolę', // Delete Role
+	cmAddRole: 'Dodaj rolę', // Add Role
+	rcDeleteRole: 'Usuń rolę', // Delete Role
 	rcDeleteRoleConfirmMessage: 'Czy jesteś pewien, że chcesz usunąć rolę "{{RoleName}}"?', // Are you sure you want to delete the role "{{RoleName}}"?
-	rcRoleName: 'Nazwa Roli', // Role Name
-	ecRoleMembers: 'Użytkownicy Roli', // Role Members
+	rcRoleName: 'Nazwa roli', // Role Name
+	ecRoleMembers: 'Użytkownicy roli', // Role Members
 	ecPermissions: 'Uprawnienia', // Permissions
-	ecSelectMembers: 'Wybierz Użytkowników', // Select Members
-	ecUsername: 'Nazwa Użytkownika', // Username
+	ecSelectMembers: 'Wybierz użytkowników', // Select Members
+	ecUsername: 'Nazwa użytkownika', // Username
 	ecEmail: 'Email', // Email
 	ecProvider: 'Dostawca', // Provider
 	ecMembers: '({{count}} członków)', // ({{count}} members)
-	ecDeleteUser: 'Usuń Użytkownika', // Delete User
+	ecDeleteUser: 'Usuń użytkownika', // Delete User
 	ecDeleteUserConfirmMessage: 'Czy jesteś pewien, że chcesz usunąć użytkownika "{{UserName}}" z roli?', // Are you sure you want to remove the user "{{UserName}}" from the role?
 	ecNoMemberTip: 'Brak użytkowników pod rolą, aby dodać, kliknij', // No users under the role, to add, please click
 

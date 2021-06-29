@@ -35,20 +35,20 @@ export const schedulePL: LanguageKeyValueMap = {
 	delConfirmNo: 'Anuluj', // Cancel
 
 	// Update confirm
-	updateConfirmTitle: 'Update Template',
-	updateConfirmContent: 'This template was referenced by scheduled tasks, do you want to update them?',
-	updateConfirmRadioCascade: 'Cascade update scheduled tasks(recurrence, delivery and export settings)',
-	updateConfirmRadioTemplateOnly: 'Update template only',
+	updateConfirmTitle: 'Aktualizuj szablon', // Update Template
+	updateConfirmContent: 'Do tego szablonu odwoływały się zaplanowane zadania, czy chcesz je zaktualizować?', // This template was referenced by scheduled tasks, do you want to update them?
+	updateConfirmRadioCascade: 'Kaskadowa aktualizacja zaplanowanych zadań (ustawienia powtarzalności, dostawy i eksportu)', // Cascade update scheduled tasks(recurrence, delivery and export settings)
+	updateConfirmRadioTemplateOnly: 'Aktualizuj tylko szablon', // Update template only
 
 	// Update Error
-	updateError_invalidEndTime: 'End date could not be earlier than current time.',
-	updateError_taskInvalid: 'Task is invalid.',
-	updateError_templateNotFound: 'Template not found.',
-	updateError_noEmailAddress: 'Referenced task EmailTo could not be null, please set EmailTo in template or update template only.',
+	updateError_invalidEndTime: 'Data zakończenia nie może być wcześniejsza niż bieżąca godzina.', // End date could not be earlier than current time.
+	updateError_taskInvalid: 'Zadanie jest nieprawidłowe.', // Task is invalid.
+	updateError_templateNotFound: 'Nie znaleziono szablonu.', // Template not found.
+	updateError_noEmailAddress: 'Zadanie, do którego się odwołuje, EmailTo nie może mieć wartości NULL, ustaw EmailTo w szablonie lub tylko zaktualizuj szablon.', // Referenced task EmailTo could not be null, please set EmailTo in template or update template only.
 
 	// Delete Error
 	delScheduleError: 'Nie udało się usunąć szablonu', // Failed to delete template
-	delScheduleErrorContent: 'The template can not be deleted. It is used by the following tasks:\n{{tasks}}',
+	delScheduleErrorContent: 'The template can not be deleted. It is used by the following tasks:\n{{tasks}}', // 
 	delSchRelatedTasks: 'Zadania', // Tasks
 
 	// Recurrence Editor
@@ -82,8 +82,8 @@ export const schedulePL: LanguageKeyValueMap = {
 
 	// ----- Delivery ------ //
 	schAllowUserToChoose: 'Pozwól użytkownikowi wybrać', // Allow user to choose
-	allowUserChangeEmailTip: 'Allow user to change recipient(s)',
-	forbidUserChangeEmailTip: 'Restrict user to change recipient(s)',
+	allowUserChangeEmailTip: 'Zezwalaj użytkownikowi na zmianę adresatów', // Allow user to change recipient(s)
+	forbidUserChangeEmailTip: 'Ogranicz użytkownika do zmiany adresatów', // Restrict user to change recipient(s)
 
 	reportingEditorHeaderExportFormat: 'Format eksportu', // Export Format
 	reportingEditorFormatPdf: 'PDF',
@@ -112,52 +112,52 @@ export const schedulePL: LanguageKeyValueMap = {
 	'edPDF/A-3b': 'PDF/A-3b',
 	'edPDF/A-3u': 'PDF/A-3u',
 	'edPDF/UA-1': 'PDF/UA-1',
-	edEmbedFonts: 'OsadźCzczionki', // EmbedFonts
+	edEmbedFonts: 'Osadź czczionki', // EmbedFonts
 	'edPartial': 'Częściowo', // Partial
 	'edAll': 'Wszystkie', // All
 	'edNone': 'Żadne', // None
-	edNeverEmbedFonts: 'NigdyNieOsadzajCzcionek', // NeverEmbedFonts
-	edPrintOnOpen: 'WydrukujPrzyOtwarciu', // PrintOnOpen
-	'edAllowPrint': 'ZezwólNaDrukowanie', // AllowPrint
-	'edAllowModifyContents': 'ZezwólNaModyfikacjęZawartości', // AllowModifyContents
-	'edAllowCopy': 'ZezwólNaKopiowanie', // AllowCopy
-	'edAllowModifyAnnotations': 'ZezwólNaPowiadomieniaOModyfikacjach', // AllowModifyAnnotations
+	edNeverEmbedFonts: 'Nigdy nie osadzaj czcionek', // NeverEmbedFonts
+	edPrintOnOpen: 'Wydrukuj przy otwarciu', // PrintOnOpen
+	'edAllowPrint': 'Zezwól na drukowanie', // AllowPrint
+	'edAllowModifyContents': 'Zezwól na modyfikację zawartości', // AllowModifyContents
+	'edAllowCopy': 'Zezwól na kopiowanie', // AllowCopy
+	'edAllowModifyAnnotations': 'Zezwól na powiadomienia o modyfikacjach', // AllowModifyAnnotations
 	'edAllowFillIn': 'Zezwól na wypełnianie', // AllowFillIn
-	'edAllowAccessibleReaders': 'ZezwólNaUłatwieniaDostępu', // AllowAccessibleReaders
-	'edAllowAssembly': 'ZezwólNaMontaż', // AllowAssembly
+	'edAllowAccessibleReaders': 'Zezwól na ułatwienia dostępu', // AllowAccessibleReaders
+	'edAllowAssembly': 'Zezwól na montaż', // AllowAssembly
 	'edDefault': 'Domyślny', // Default
 	edTitle: 'Tytuł', // Title
 	edAuthor: 'Autor', // Author
 	edSubject: 'Temat', // Subject
-	edKeywords: 'SłowaKluczowe', // Keywords
+	edKeywords: 'Słowa kluczowe', // Keywords
 	edApplication: 'Aplikacja', // Application
 	edEncrypt: 'Szyfruj', // Encrypt
-	edOwnerPassword: 'HasłoWłaściciela', // OwnerPassword
-	edUserPassword: 'HasłoUżytkownika', // UserPassword
-	edPdfPermissions: 'UprawnieniaPdf', // PdfPermissions
+	edOwnerPassword: 'Hasło właściciela', // OwnerPassword
+	edUserPassword: 'Hasło użytkownika', // UserPassword
+	edPdfPermissions: 'Uprawnienia Pdf', // PdfPermissions
 	edPermissions: 'Uprawnienia', // Permissions
-	edUse128Bit: 'Użyj128Bit', // Use128Bit
-	edHideToolbar: 'UkryjPasekNarzędzi', // HideToolbar
-	edHideMenubar: 'UkryjPasekMenu', // HideMenubar
-	edHideWindowUI: 'UkryjOknoInterfejsuUżytkownika', // HideWindowUI
-	edFitWindow: 'DopasujOkno', // FitWindow
-	edCenterWindow: 'WyśrodkujOkno', // CenterWindow
-	edDisplayTitle: 'WyświetlTytuł', // DisplayTitle
-	edDisplayMode: 'WyświetlTryb', // DisplayMode
+	edUse128Bit: 'Użyj 128 Bit', // Use128Bit
+	edHideToolbar: 'Ukryj pasek narzędzi', // HideToolbar
+	edHideMenubar: 'Ukryj pasek menu', // HideMenubar
+	edHideWindowUI: 'Ukryj okno interfejsu użytkownika', // HideWindowUI
+	edFitWindow: 'Dopasuj okno', // FitWindow
+	edCenterWindow: 'Wyśrodkuj okno', // CenterWindow
+	edDisplayTitle: 'Wyświetl tytuł', // DisplayTitle
+	edDisplayMode: 'Wyświetl tryb', // DisplayMode
 	'edOutlines': 'Kontury', // Outlines
 	'edThumbs': 'Pinezki', // Thumbs
-	'edFullScreen': 'PełnyEkran', // FullScreen
-	edDuplexMode: 'TrybDuplex', // DuplexMode
+	'edFullScreen': 'Pełny ekran', // FullScreen
+	edDuplexMode: 'Tryb duplex', // DuplexMode
 	'edSimplex': 'Simplex',
-	'edDuplexFlipLongEdge': 'DuplexFlipLongEdge', //
-	'edDuplexFlipShortEdge': 'DuplexFlipShortEdge', //
-	edNumberOfCopies: 'LiczbaKopii', // NumberOfCopies
-	edImageInterpolation: 'InterpolacjaObrazu', // ImageInterpolation
-	edPaperSourceByPageSize: 'ŹródłoPapieruWgRozmiaruStrony', // PaperSourceByPageSize
-	edPrintPageRange: 'ZasięgDrukuStrony', // PrintPageRange
-	edIsPaginated: 'JestPaginowana', // IsPaginated
+	'edDuplexFlipLongEdge': 'Duplex odwrócenie długich krawędzi', // DuplexFlipLongEdge
+	'edDuplexFlipShortEdge': 'Duplex odwrócenie krótkich krawędzi', // DuplexFlipShortEdge
+	edNumberOfCopies: 'Liczba kopii', // NumberOfCopies
+	edImageInterpolation: 'Interpolacja obrazu', // ImageInterpolation
+	edPaperSourceByPageSize: 'Źródło papieru wg rozmiaru strony', // PaperSourceByPageSize
+	edPrintPageRange: 'Zasięg druku strony', // PrintPageRange
+	edIsPaginated: 'Jest paginowana', // IsPaginated
 	// image
-	edImageType: 'TypObrazu', // ImageType
+	edImageType: 'Typ obrazu', // ImageType
 	'edPNG': 'PNG',
 	'edJPEG': 'JPEG',
 	'edGIF': 'GIF',
@@ -167,56 +167,56 @@ export const schedulePL: LanguageKeyValueMap = {
 	edDpiX: 'DpiX',
 	edDpiY: 'DpiY',
 	edQuality: 'Jakość', // Quality
-	edDither: 'PaletaBarw', // Dither
+	edDither: 'Paleta barw', // Dither
 	// HTML
-	edEmbedImages: 'OsadźObrazy', // EmbedImages
+	edEmbedImages: 'Osadź obrazy', // EmbedImages
 	edMode: 'Tryb', // Mode
 	'edPaginated': 'Paginowane', // Paginated
 	'edGalley': 'Szpalta', // Galley
-	edRenderingEngine: 'SilnikPrzetwarzania', // RenderingEngine
+	edRenderingEngine: 'Silnik przetwarzania', // RenderingEngine
 	'edHtml': 'Html',
 	'edMixed': 'Mieszane', // Mixed
-	edLinkTarget: 'CelLinku', // LinkTarget
+	edLinkTarget: 'Cel linku', // LinkTarget
 	edFragment: 'Fragment',
-	edStyleStream: 'StrumieńStylu', // StyleStream
-	edOutputTOC: 'WyjścieTOC', // OutputTOC
-	edEndPage: 'StronaKońcowa', // EndPage
+	edStyleStream: 'Strumień stylu', // StyleStream
+	edOutputTOC: 'Wyjście TOC', // OutputTOC
+	edEndPage: 'Strona końcowa', // EndPage
 	// excel
-	edUseCompression: 'UżyjKompresji', // UseCompression
-	edProtectedBy: 'ChronionePrzez', // ProtectedBy
-	edWritePassword: 'WpiszHasło', // WritePassword
+	edUseCompression: 'Użyj kompresji', // UseCompression
+	edProtectedBy: 'Chronione przez', // ProtectedBy
+	edWritePassword: 'Wpisz hasło', // WritePassword
 	edPassword: 'Hasło', // Password
-	edReadOnlyRecommended: 'ZalecanyTylkoOdczyt', // ReadOnlyRecommended
-	edOpenXmlStandard: 'StandardOpenXML', // OpenXmlStandard
+	edReadOnlyRecommended: 'Zalecany tylko odczyt', // ReadOnlyRecommended
+	edOpenXmlStandard: 'Standard OpenXML', // OpenXmlStandard
 	'edTransitional': 'Przejściowy', // Transitional
 	'edStrict': 'Ścisły', // Strict
-	edEnableToggles: 'WłączPrzełącza', // EnableToggles
-	edUseDefaultPalette: 'UżywajDomyślnejPalety', // UseDefaultPalette
-	edMultiSheet: 'MultiArkusz', // MultiSheet
+	edEnableToggles: 'Włącz przełącza', // EnableToggles
+	edUseDefaultPalette: 'Używaj domyślnej palety', // UseDefaultPalette
+	edMultiSheet: 'Multi arkusz', // MultiSheet
 	'edSheet Name': 'Nazwa arkusza', // Sheet Name
 	// csv
 	edExtension: 'Rozszerzenie', // Extension
 	edcsv: '.csv',
 	edtxt: '.txt',
 	// docx
-	edUseMhtOutput: 'UżyjWyjściaMht', // UseMhtOutput
-	edBaseUrl: 'PodstawowyUrl', // BaseUrl
-	edPageHeight: 'WysokośćStrony', // PageHeight
-	edPageWidth: 'Szerokość Strony', // PageWidth
+	edUseMhtOutput: 'Użyj wyjścia Mht', // UseMhtOutput
+	edBaseUrl: 'Podstawowy Url', // BaseUrl
+	edPageHeight: 'Wysokość strony', // PageHeight
+	edPageWidth: 'Szerokość strony', // PageWidth
 	edGenerator: 'Generator',
-	edDocumentCompatibilityVersion: 'WersjaKompatybilnościDokumentu', // DocumentCompatibilityVersion
+	edDocumentCompatibilityVersion: 'Wersja kompatybilności dokumentu', // DocumentCompatibilityVersion
 	'edWord2007': 'Word2007',
 	'edWord2010': 'Word2010',
 	'edWord2013': 'Word2013',
-	edTOCAutoUpdate: 'TOCAutomatycznaAktualizacja', // TOCAutoUpdate
-	edCompanyName: 'NazwaFirmy', // CompanyName
+	edTOCAutoUpdate: 'TOC automatyczna aktualizacja', // TOCAutoUpdate
+	edCompanyName: 'Nazwa firmy', // CompanyName
 	// json
 	edFormatted: 'Sformatowany', // Formatted
-	edQuotePropertyNames: 'CytujNazwyWłaściwości', // QuotePropertyNames
-	edNoHeader: 'BrakNagłówka', // NoHeader
-	edColumnsDelimiter: 'OgranicznikKolumn', // ColumnsDelimiter
-	edRowsDelimiter: 'OgranicznikRzędów', // RowsDelimiter
-	edQuotationSymbol: 'Symbol Cytowania', // QuotationSymbol
+	edQuotePropertyNames: 'Cytuj nazwy właściwości', // QuotePropertyNames
+	edNoHeader: 'Brak nagłówka', // NoHeader
+	edColumnsDelimiter: 'Ogranicznik kolumn', // ColumnsDelimiter
+	edRowsDelimiter: 'Ogranicznik rzędów', // RowsDelimiter
+	edQuotationSymbol: 'Symbol cytowania', // QuotationSymbol
 	// common KAROL: tu nie ma komentarzy, bo to jest zmapowane automatycznie w Excelu, zgodnie z nomenklaturą MS
 	edEncoding: 'Kodowanie', // Encoding
 	'edIBM EBCDIC (US-Canada)': 'IBM EBCDIC (Stany Zjednoczone-Kanada)',
@@ -359,7 +359,7 @@ export const schedulePL: LanguageKeyValueMap = {
 	'edUnicode (UTF-7)': 'Unicode (UTF-7)',
 	'edUnicode (UTF-8)': 'Unicode (UTF-8)',
 
-	edPaperSize: 'RozmiarPapieru', // PaperSize
+	edPaperSize: 'Rozmiar papieru', // PaperSize
 	'edLetter': 'Papier Letter (8,5. o 11 w.).',
 	'edLetterSmall': 'Mały papier Letter (8,5. o 11 w.).',
 	'edTabloid': 'Papier Tabloid (11. 17 cali.).',
@@ -477,29 +477,29 @@ export const schedulePL: LanguageKeyValueMap = {
 	'edPrcEnvelopeNumber9Rotated': '#9 obrócona koperta (324 mm x 229 mm).',
 	'edPrcEnvelopeNumber10Rotated': '#10 obrócona koperta (458 mm x 324 mm).',
 
-	edWatermarkAngle: 'KątZnakuWodnego', // WatermarkAngle
-	edWatermarkColor: 'KolorZnakuWodnego', // WatermarkColor
-	edWatermarkTitle: 'TytułZnakuWodnego', // WatermarkTitle
-	edWatermarkFontFamily: 'RodzinaCzcionekZnakuWodnego', // WatermarkFontFamily
-	edWatermarkFontSize: 'RozmiarCzcionkiZnakuWodnego', // WatermarkFontSize
-	edWatermarkFontBold: 'PogrubienieCzczionkiZnakuWodnego', // WatermarkFontBold
-	edWatermarkFontItalic: 'KursywaCzcionkiZnakuWodnego', // WatermarkFontItalic
-	edWatermarkFontStrikeout: 'PrzekreślenieCzcionkiZnakuWodnego', // WatermarkFontStrikeout
-	edWatermarkFontUnderline: 'PodkreślenieCzcionkiZnakuWodnego', // WatermarkFontUnderline
-	edPrintLayoutMode: 'TrybDrukuLayoutu', // PrintLayoutMode
-	'edOneLogicalPageOnSinglePhysicalPage': 'JednaStronaLogicznaNaPojedynczejStronieFizycznej', // OneLogicalPageOnSinglePhysicalPage
-	'edTwoLogicalPagesOnSinglePhysicalPage': 'DwieStronyLogiczneNaPojedynczejStronieFizycznej', // TwoLogicalPagesOnSinglePhysicalPage
-	'edFourLogicalPagesOnSinglePhysicalPage': 'CzteryStronyLogiczneNaPojedynczejStronieFizycznej', // FourLogicalPagesOnSinglePhysicalPage
-	'edEightLogicalPagesOnSinglePhysicalPage': 'OsiemStronLogicznychNaPojedynczejStronieFizycznej', // EightLogicalPagesOnSinglePhysicalPage
-	'edBookletMode': 'TrybBroszury', // BookletMode
-	edSizeToFit: 'DopasujRozmiar', // SizeToFit
-	edStartPage: 'StronaGłówna', // StartPage
+	edWatermarkAngle: 'Kąt znaku wodnego', // WatermarkAngle
+	edWatermarkColor: 'Kolor znaku wodnego', // WatermarkColor
+	edWatermarkTitle: 'Tytuł znaku wodnego', // WatermarkTitle
+	edWatermarkFontFamily: 'Rodzina czcionek znaku wodnego', // WatermarkFontFamily
+	edWatermarkFontSize: 'Rozmiar czcionki znaku wodnego', // WatermarkFontSize
+	edWatermarkFontBold: 'Pogrubienie czczionki znaku wodnego', // WatermarkFontBold
+	edWatermarkFontItalic: 'Kursywa czcionki znaku wodnego', // WatermarkFontItalic
+	edWatermarkFontStrikeout: 'Przekreślenie czcionki znaku wodnego', // WatermarkFontStrikeout
+	edWatermarkFontUnderline: 'Podkreślenie czcionki znaku wodnego', // WatermarkFontUnderline
+	edPrintLayoutMode: 'Tryb druku podglądu', // PrintLayoutMode
+	'edOneLogicalPageOnSinglePhysicalPage': 'Jedna strona logiczna na pojedynczej stronie fizycznej', // OneLogicalPageOnSinglePhysicalPage
+	'edTwoLogicalPagesOnSinglePhysicalPage': 'Dwie strony logiczne na pojedynczej stronie fizycznej', // TwoLogicalPagesOnSinglePhysicalPage
+	'edFourLogicalPagesOnSinglePhysicalPage': 'Cztery strony logiczne na pojedynczej stronie fizycznej', // FourLogicalPagesOnSinglePhysicalPage
+	'edEightLogicalPagesOnSinglePhysicalPage': 'Osiem stron logicznych na pojedynczej stronie fizycznej', // EightLogicalPagesOnSinglePhysicalPage
+	'edBookletMode': 'Tryb broszury', // BookletMode
+	edSizeToFit: 'Dopasuj rozmiar', // SizeToFit
+	edStartPage: 'Strona główna', // StartPage
 	edOrientation: 'Orientacja', // Orientation
 	'edPortrait': 'Portret', // Portrait
 	'edLandscape': 'Krajobraz', // Landscape
 	edSaveSettings: 'Zapisz ustawienie', // Save setting
-	edFontWeight: 'GrubośćCzcionki',
-	edFontHeight: 'RozmiarCzcionki',
+	edFontWeight: 'Grubość czcionki',
+	edFontHeight: 'Rozmiar czcionki',
 
 	// deployment
 	delEditorHeader: 'Dostarczanie', // Delivery

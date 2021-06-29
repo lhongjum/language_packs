@@ -5,442 +5,442 @@ const pl = {
   title: '',
   defaultFont: '10pt Arial',
   ok: 'OK',
-  yes: 'Yes',
-  no: 'No',
-  apply: 'Apply',
-  cancel: 'Cancel',
-  close: 'Close',
+  yes: 'Tak', // Yes
+  no: 'Nie', // No
+  apply: 'Zastosuj', // Apply
+  cancel: 'Anuluj', // Cancel
+  close: 'Zamknij', // Close
 
-  customFormat: 'Custom',
-  generalFormat: 'General',
+  customFormat: 'Niestandardowe', // Custom
+  generalFormat: 'Ogólne', // General
 
   conditionalFormat: {
-    highlightCellsRules: 'Highlight Cells Rules',
-    topBottomRules: 'Top/Bottom Rules',
-    dataBars: 'Data Bars',
-    colorScales: 'Color Scales',
-    iconSets: 'Icon Sets',
-    newRule: 'New Rule...',
-    clearRules: 'Clear Rules...',
-    manageRules: 'Manage Rules...',
+    highlightCellsRules: 'Zasady podświetlania komórek', // Highlight Cells Rules
+    topBottomRules: 'Zasady górne/dolne', // Top/Bottom Rules
+    dataBars: 'Paski danych', // Data Bars
+    colorScales: 'Skale kolorów', // Color Scales
+    iconSets: 'Zestawy ikon', // Icon Sets
+    newRule: 'Nowa zasada...', // New Rule...
+    clearRules: 'Wyczyść reguły...', // Clear Rules...
+    manageRules: 'Zarządzaj regułami...', // Manage Rules...
 
-    greaterThan: 'Greater Than...',
-    lessThan: 'Less Than...',
-    between: 'Between...',
-    equalTo: 'Equal To...',
-    textThatContains: 'Text that Contains...',
-    aDateOccurring: 'A Date Occurring...',
-    duplicateValues: 'Duplicate Values...',
-    moreRules: 'More Rules...',
+    greaterThan: 'Większy niż...', // Greater Than...
+    lessThan: 'Mniej niż...', // Less Than...
+    between: 'Pomiędzy...', // Between...
+    equalTo: 'Równy...', // Equal To...
+    textThatContains: 'Tekst zawierający...', // Text that Contains...
+    aDateOccurring: 'Występująca data...', // A Date Occurring...
+    duplicateValues: 'Zduplikowane wartości...', // Duplicate Values...
+    moreRules: 'Więcej zasad...', // More Rules...
 
-    top10Items: 'Top 10 Items...',
-    bottom10Items: 'Bottom 10 Items...',
-    aboveAverage: 'Above Average...',
-    belowAverage: 'Below Average...',
+    top10Items: 'Top 10 pozycji...', // Top 10 Items...
+    bottom10Items: '10 ostatnich pozycji...', // Bottom 10 Items...
+    aboveAverage: 'Powyżej średniej...', // Above Average...
+    belowAverage: 'Poniżej średniej...', // Below Average...
 
-    gradientFill: 'Gradient Fill',
-    solidFill: 'Solid Fill',
-    directional: 'Directional',
-    shapes: 'Shapes',
-    indicators: 'Indicators',
-    ratings: 'Ratings',
+    gradientFill: 'Wypełnienie gradientowe', // Gradient Fill
+    solidFill: 'Pełne wypełnienie', // Solid Fill
+    directional: 'Kierunkowy', // Directional
+    shapes: 'Kształty', // Shapes
+    indicators: 'Wskaźniki', // Indicators
+    ratings: 'Oceny', // Ratings
 
-    clearRulesFromSelectedCells: 'Clear Rules from Selected Cells',
-    clearRulesFromEntireSheet: 'Clear Rules from Entire Sheet',
+    clearRulesFromSelectedCells: 'Wyczyść reguły z wybranych komórek', // Clear Rules from Selected Cells
+    clearRulesFromEntireSheet: 'Wyczyść zasady z całego arkusza', // Clear Rules from Entire Sheet
   },
 
   conditionalFormatting: {
     common: {
-      with: 'with',
-      selectedRangeWith: 'for the selected range with',
-      and: 'and',
+      with: 'z', // with
+      selectedRangeWith: 'dla wybranego zakresu z', // for the selected range with
+      and: 'i', // and
     },
     greaterThan: {
-      title: 'Greater Than',
-      description: 'Format cells that are GREATER THAN:',
+      title: 'Większy niż', // Greater Than
+      description: 'Formatuj komórki, które są WIĘKSZE NIŻ:', // Format cells that are GREATER THAN:
     },
     lessThan: {
-      title: 'Less Than',
-      description: 'Format cells that are LESS THAN:',
+      title: 'Mniej niż', // Less Than
+      description: 'Formatuj komórki, które są MNIEJSZE NIŻ:', // Format cells that are LESS THAN:
     },
     between: {
-      title: 'Between',
-      description: 'Format cells that are BETWEEN:',
+      title: 'Pomiędzy', // Between
+      description: 'Sformatuj komórki znajdujące się POMIĘDZY:', // Format cells that are BETWEEN:
     },
     equalTo: {
-      title: 'Equal To',
-      description: 'Format cells that are EQUAL TO:',
+      title: 'Równy', // Equal To
+      description: 'Sformatuj komórki, które są RÓWNE:', // Format cells that are EQUAL TO:
     },
     textThatCotains: {
-      title: 'Text That Contains',
-      description: 'Format cells that contain the text:',
+      title: 'Tekst, który zawiera', // Text That Contains
+      description: 'Sformatuj komórki zawierające tekst:', // Format cells that contain the text:
     },
     dateOccurringFormat: {
-      title: 'Recurring Dates',
-      description: 'Format cells that contain a recurring date:',
+      title: 'Powtarzające się daty', // Recurring Dates
+      description: 'Formatuj komórki zawierające datę cykliczną:', // Format cells that contain a recurring date:
       date: {
-        yesterday: 'Yesterday',
-        today: 'Today',
-        tomorrow: 'Tomorrow',
-        last7days: 'In the last 7 days',
-        lastweek: 'Last week',
-        thisweek: 'This week',
-        nextweek: 'Next week',
-        lastmonth: 'Last month',
-        thismonth: 'This month',
-        nextmonth: 'Next month',
+        yesterday: 'Wczoraj', // Yesterday
+        today: 'Dzisiaj', // Today
+        tomorrow: 'Jutro', // Tomorrow
+        last7days: 'W ciągu ostatnich 7 dni', // In the last 7 days
+        lastweek: 'Zeszły tydzień', // Last week
+        thisweek: 'Obecny tydzień', // This week
+        nextweek: 'Następny tydzień', // Next week
+        lastmonth: 'Zeszły miesiąc', // Last month
+        thismonth: 'Obecny miesiąc', // This month
+        nextmonth: 'Następny miesiąc', // Next month
       },
     },
     duplicateValuesFormat: {
-      title: 'Duplicate Values',
-      description: 'Format cells that contain:',
+      title: 'Zduplikowane wartości', // Duplicate Values
+      description: 'Sformatuj komórki zawierające:', // Format cells that contain:
       type: {
-        duplicate: 'Duplicate',
-        unique: 'Unique',
+        duplicate: 'Duplikat', // Duplicate
+        unique: 'Unikat', // Unique
       },
-      valueswith: 'values with',
+      valueswith: 'wartości z', // values with
     },
     top10items: {
-      title: 'Top 10 Items',
-      description: 'Format cells that rank in the TOP:',
+      title: 'Top 10 pozycji', // Top 10 Items
+      description: 'Formatuj komórki, które znajdują się w TOP:',
     },
     bottom10items: {
-      title: 'Bottom 10 Items',
-      description: 'Format cells that rank in the BOTTOM:',
+      title: '10 ostatnich pozycji', // Bottom 10 Items
+      description: 'Formatuj komórki, które znajdują się na dole:', // Format cells that rank in the BOTTOM:
     },
     aboveAverage: {
-      title: 'Above Average',
-      description: 'Format cells that are ABOVE AVERAGE:',
+      title: 'Powyżej średniej', // Above Average
+      description: 'Formatuj komórki, które są POWYŻEJ ŚREDNIEJ:', // Format cells that are ABOVE AVERAGE:
     },
     belowAverage: {
-      title: 'Below Average',
-      description: 'Format cells that are BELOW AVERAGE:',
+      title: 'Poniżej średniej', // Below Average
+      description: 'Formatuj komórki, które są PONIŻEJ ŚREDNIEJ:', // Format cells that are BELOW AVERAGE:
     },
     newFormattingRule: {
-      title: 'New Formatting Rule',
-      title2: 'Edit Formatting Rule',
-      description1: 'Select a Rule Type:',
-      description2: 'Edit the Rule Description:',
+      title: 'Nowa reguła formatowania', // New Formatting Rule
+      title2: 'Edytuj regułę formatowania', // Edit Formatting Rule
+      description1: 'Wybierz typ reguły:', // Select a Rule Type:
+      description2: 'Edytuj opis reguły:', // Edit the Rule Description:
       ruleType: {
-        formatOnValue: '►Format all cells based on their values',
-        formatContain: '►Format only cells that contain',
-        formatRankedValue: '►Format only top or bottom ranked values',
-        formatAbove: '►Format only values that are above or below average',
-        formatUnique: '►Format only unique or duplicate values',
-        useFormula: '►Use a formula to determine which cells to format',
+        formatOnValue: '►Formatuj wszystkie komórki na podstawie ich wartości', // ►Format all cells based on their values
+        formatContain: '►Formatuj tylko komórki zawierające', // ►Format only cells that contain
+        formatRankedValue: '►Formatuj tylko najwyższe lub najniższe wartości w rankingu', // ►Format only top or bottom ranked values
+        formatAbove: '►Formatuj tylko wartości, które są powyżej lub poniżej średniej', // ►Format only values that are above or below average
+        formatUnique: '►Formatuj tylko unikalne lub zduplikowane wartości', // ►Format only unique or duplicate values
+        useFormula: '►Użyj formuły, aby określić, które komórki sformatować', // ►Use a formula to determine which cells to format
       },
       formatOnValue: {
-        description: 'Format all cells based on their values:',
-        formatStyle: 'Format style:',
+        description: 'Formatuj wszystkie komórki na podstawie ich wartości:', // Format all cells based on their values:
+        formatStyle: 'Styl formatu:', // Format style:
         formatStyleSelector: {
-          color2: '2-Color Scale',
-          color3: '3-Color Scale',
-          dataBar: 'Data Bar',
-          iconSets: 'Icon Sets',
+          color2: '2-kolorowa skala', // 2-Color Scale
+          color3: '3-kolorowa skala', // 3-Color Scale
+          dataBar: 'Pasek danych', // Data Bar
+          iconSets: 'Zestawy ikon', // Icon Sets
         },
         color2: {
           min: 'Minimum',
-          max: 'Maximum',
-          type: 'Type:',
-          value: 'Value:',
-          color: 'Color:',
-          preview: 'Preview',
+          max: 'Maksimum', // Maximum
+          type: 'Typ:', // Type:
+          value: 'Wartość:', // Value:
+          color: 'Color:', // Color:
+          preview: 'Podgląd', // Preview
           minSelector: {
-            lowest: 'Lowest Value',
+            lowest: 'Najniższa wartość', // Lowest Value
           },
           maxSelector: {
-            highest: 'Highest Value',
+            highest: 'Najwyższa wartość', // Highest Value
           },
         },
         color3: {
-          mid: 'MidPoint',
+          mid: 'Punkt środkowy', // MidPoint
         },
         dataBar: {
-          showBarOnly: 'Show Bar Only',
-          auto: 'Automatic',
-          description2: 'Bar Appearance:',
-          fill: 'Fill',
-          color: 'Color',
-          border: 'Border',
+          showBarOnly: 'Pokaż tylko pasek', // Show Bar Only
+          auto: 'Automatyczny', // Automatic
+          description2: 'Wygląd paska:', // Bar Appearance:
+          fill: 'Wypełnienie', // Fill
+          color: 'Kolor', // Color
+          border: 'Obramowanie', // Border
           fillSelector: {
-            solidFill: 'Solid Fill',
-            gradientFill: 'Gradient Fill',
+            solidFill: 'Pełne wypełnienie', // Solid Fill
+            gradientFill: 'Wypełnienie gradientowe', // Gradient Fill
           },
           borderSelector: {
-            noBorder: 'No Border',
-            solidBorder: 'Solid Border',
+            noBorder: 'Bez obramowania', // No Border
+            solidBorder: 'Pełne obramowanie', // Solid Border
           },
-          negativeBtn: 'Negative value and Axis...',
-          barDirection: 'Bar Direction:',
+          negativeBtn: 'Wartość ujemna i oś...', // Negative value and Axis...
+          barDirection: 'Kierunek paska:', // Bar Direction:
           barDirectionSelector: {
-            l2r: 'Left-to-Right',
-            r2l: 'Right-to-left',
+            l2r: 'Z lewej do prawej', // Left-to-Right
+            r2l: 'Z Prawej do lewej', // Right-to-left
           },
-          preview: 'Preview',
+          preview: 'Podgląd', // Preview
           negativeDialog: {
-            title: 'Negative Value and Axis Settings',
+            title: 'Wartość ujemna i ustawienia osi', // Negative Value and Axis Settings
             group1: {
-              title: 'Negative bar fill color',
-              fillColor: 'Fill Color:',
-              apply: 'Apply the same fill color as the positive bar',
+              title: 'Kolor wypełnienia paska ujemnego', // Negative bar fill color
+              fillColor: 'Kolor wypenienia:', // Fill Color:
+              apply: 'Zastosuj ten sam kolor wypełnienia, co pasek dodatni', // Apply the same fill color as the positive bar
             },
             group2: {
-              title: 'Negative bar border color',
-              borderColor: 'Border Color:',
-              apply: 'Apply the same border color as the positive bar',
+              title: 'Kolor obramowania paska ujemnego', // Negative bar border color
+              borderColor: 'Kolor obramowania:', // Border Color:
+              apply: 'Zastosuj ten sam kolor wypełnienia, co pasek dodatni', // Apply the same border color as the positive bar
             },
             group3: {
-              title: 'Axis settings',
-              description: 'Select axis position in cell to change the appearance of bars for negative values',
+              title: 'Ustawienia osi', // Axis settings
+              description: 'Wybierz pozycję osi w komórce, aby zmienić wygląd słupków dla wartości ujemnych', // Select axis position in cell to change the appearance of bars for negative values
               radio: {
-                auto: 'Automatic (display at variable positions based on negative values)',
-                cell: 'Cell midpoint',
-                none: 'None (show negative value bars in same direction as positive)',
+                auto: 'Automatyczne (wyświetlanie w zmiennych pozycjach na podstawie wartości ujemnych)', // Automatic (display at variable positions based on negative values)
+                cell: 'Punkt środkowy komórki', // Cell midpoint
+                none: 'Brak (pokaż słupki wartości ujemnych w tym samym kierunku co dodatnie)', // None (show negative value bars in same direction as positive)
               },
-              axisColor: 'Axis color:',
+              axisColor: 'Kolor osi:', // Axis color:
             },
           },
         },
         iconSets: {
-          iconStyle: 'Icon style:',
-          showIconOnly: 'Show Icon Only',
-          reverseIconOrder: 'Reverse Icon Order',
-          display: 'Display each icon according to these rules:',
-          icon: 'Icon',
-          value: 'Value',
-          type: 'Type',
-          description1: 'when value is',
-          description2: 'when < ',
+          iconStyle: 'Styl ikony:', // Icon style:
+          showIconOnly: 'Pokaż tylko ikonę', // Show Icon Only
+          reverseIconOrder: 'Odwróć kolejność ikon', // Reverse Icon Order
+          display: 'Wyświetlaj każdą ikonę zgodnie z następującymi zasadami:', // Display each icon according to these rules:
+          icon: 'Ikona', // Icon
+          value: 'Wartość', // Value
+          type: 'Typ', // Type
+          description1: 'gdy wartość to', // when value is
+          description2: 'kiedy <', // when < 
           operator: {
             largeOrEqu: '>=',
             large: '>',
           },
         },
         commonSelector: {
-          num: 'Number',
-          percent: 'Percent',
-          formula: 'Formula',
-          percentile: 'Percentile',
+          num: 'Liczba', // Number
+          percent: 'Procent', // Percent
+          formula: 'Formuła', // Formula
+          percentile: 'Percentyl', // Percentile
         },
       },
       formatContain: {
-        description: 'Format only cells with:',
+        description: 'Formatuj tylko komórki z:', // Format only cells with:
         type: {
-          cellValue: 'Cell Value',
-          specificText: 'Specific Text',
-          dateOccurring: 'Dates Occurring',
-          blanks: 'Blanks',
-          noBlanks: 'No Blanks',
-          errors: 'Errors',
-          noErrors: 'No Errors',
+          cellValue: 'Wartość komórki', // Cell Value
+          specificText: 'Określony tekst', // Specific Text
+          dateOccurring: 'Występujące daty', // Dates Occurring
+          blanks: 'Puste', // Blanks
+          noBlanks: 'Nie puste', // No Blanks
+          errors: 'Błędy', // Errors
+          noErrors: 'Bez błędów', // No Errors
         },
         operator_cellValue: {
-          between: 'between',
-          notBetween: 'not between',
-          equalTo: 'equal to',
-          notEqualTo: 'not equal to',
-          greaterThan: 'greater than',
-          lessThan: 'less than',
-          greaterThanOrEqu: 'greater than or equal to',
-          lessThanOrEqu: 'less than or equal to',
+          between: 'pomiędzy', // between
+          notBetween: 'nie pomiędzy', // not between
+          equalTo: 'równy', // equal to
+          notEqualTo: 'nie równy', // not equal to
+          greaterThan: 'większy od', // greater than
+          lessThan: 'mniejszy od', // less than
+          greaterThanOrEqu: 'większe bądź równe', // greater than or equal to
+          lessThanOrEqu: 'mniejsze bądź równe', // less than or equal to
         },
         operator_specificText: {
-          containing: 'containing',
-          notContaining: 'not Containing',
-          beginningWith: 'beginning with',
-          endingWith: 'ending with',
+          containing: 'zawierający', // containing
+          notContaining: 'nie zawierający', // not Containing
+          beginningWith: 'rozpoczynający się', // beginning with
+          endingWith: 'kończący się', // ending with
         },
       },
       formatRankedValue: {
-        description: 'Format cells that rank in the:',
+        description: 'Sformatuj komórki, które mają rangę w:', // Format cells that rank in the:
         type: {
-          top: 'Top',
-          bottom: 'Bottom',
+          top: 'Top', // Top
+          bottom: 'Ostatni', // Bottom
         },
       },
       formatAbove: {
-        description: 'Format cells that are:',
+        description: 'Formatuj komórki, które są:', // Format cells that are:
         type: {
-          above: 'above',
-          below: 'below',
-          equalOrAbove: 'equal or above',
-          equalOrBelow: 'equal or below',
-          std1Above: '1 STD DEV above',
-          std1Below: '1 STD DEV below',
-          std2Above: '2 STD DEV above',
-          std2Below: '2 STD DEV below',
-          std3Above: '3 STD DEV above',
-          std3Below: '3 STD DEV below',
+          above: 'powyżej', // above
+          below: 'poniżej', // below
+          equalOrAbove: 'równy lub wyższy', // equal or above
+          equalOrBelow: 'równe lub mniejsze', // equal or below
+          std1Above: '1 odchylenie standardowe powyżej', // 1 STD DEV above
+          std1Below: '1 odchylenie standardowe poniżej', // 1 STD DEV below
+          std2Above: '2 odchylenia standardowe powyżej', // 2 STD DEV above
+          std2Below: '2 odchylenia standardowe poniżej', // 2 STD DEV below
+          std3Above: '3 odchylenia standardowe powyżej', // 3 STD DEV above
+          std3Below: '3 odchylenia standardowe poniżej', // 3 STD DEV below
         },
-        description2: 'the average for the selected range',
+        description2: 'średnia dla wybranego zakresu', // the average for the selected range
       },
       formatUnique: {
-        description: 'Format all:',
+        description: 'Sformatuj wszystko:', // Format all:
         type: {
-          duplicate: 'duplicate',
-          unique: 'unique',
+          duplicate: 'duplikat', // duplicate
+          unique: 'unikat', // unique
         },
-        description2: 'values in the selected range',
+        description2: 'wartości w wybranym zakresie', // values in the selected range
       },
       useFormula: {
-        description: 'Format values where this formula is true:',
+        description: 'Formatuj wartości, gdy ta formuła jest prawdziwa:', // Format values where this formula is true:
       },
       preview: {
-        description: 'Preview:',
+        description: 'Podgląd:', // Preview:
         buttonText: 'Format...',
-        noFormat: 'No Format Set',
+        noFormat: 'Brak ustawienia formatu', // No Format Set
         hasFormat: 'AaBbCcYyZz',
       },
     },
     withStyle: {
-      lightRedFill_DarkRedText: 'Light Red Fill with Dark Red Text',
-      yellowFill_DrakYellowText: 'Yellow Fill with Dark Yellow Text',
-      greenFill_DarkGreenText: 'Green Fill with Dark Green Text',
-      lightRedFill: 'Light Red Fill',
-      redText: 'Red Text',
-      redBorder: 'Red Border',
-      customFormat: 'Custom Format...',
+      lightRedFill_DarkRedText: 'Jasnoczerwone wypełnienie z ciemnoczerwonym tekstem', // Light Red Fill with Dark Red Text
+      yellowFill_DrakYellowText: 'Żółte wypełnienie z ciemnożółtym tekstem', // Yellow Fill with Dark Yellow Text
+      greenFill_DarkGreenText: 'Zielone wypełnienie z ciemnozielonym tekstem', // Green Fill with Dark Green Text
+      lightRedFill: 'Jasnoczerwone wypełnienie', // Light Red Fill
+      redText: 'Czerwony tekst', // Red Text
+      redBorder: 'Czerwone obramowanie', // Red Border
+      customFormat: 'Format niestandardowy...', // Custom Format...
     },
     exceptions: {
-      e1: 'The value you entered is not a valid number, date, time, or string.',
-      e2: 'Enter a value.',
-      e3: 'Enter a whole number between 1 and 1000.',
-      e4: 'The value you entered cannot be empty.',
-      e5: 'This type of reference cannot be used in a Conditional Formatting formula.\nChange the reference to a single cell, or use the reference with a worksheet function, such as =SUM(A1:E5).',
-      e6: 'The source range of a formula rule can only be a single range!',
+      e1: 'Wprowadzona wartość nie jest prawidłową liczbą, datą, godziną ani ciągiem.', // The value you entered is not a valid number, date, time, or string.
+      e2: 'Wpisz wartość.', // Enter a value.
+      e3: 'Wpisz liczbę całkowitą z zakresu od 1 do 1000.', // Enter a whole number between 1 and 1000.
+      e4: 'Wprowadzona wartość nie może być pusta.', // The value you entered cannot be empty.
+      e5: 'Tego typu odwołania nie można użyć w formule formatowania warunkowego.\nZmień odwołanie na pojedynczą komórkę lub użyj odwołania z funkcją arkusza, taką jak =SUM(A1:E5).', // This type of reference cannot be used in a Conditional Formatting formula.\nChange the reference to a single cell, or use the reference with a worksheet function, such as =SUM(A1:E5).
+      e6: 'Zakres źródłowy reguły formuły może być tylko jednym zakresem!', // The source range of a formula rule can only be a single range!
     },
   },
 
   formattingRulesManagerDialog: {
-    title: 'Conditional Formatting Rules Manager',
-    rulesScopeLabel: 'Formatting rules for this worksheet: ',
-    rulesScopeForSelection: 'Current Selection',
-    rulesScopeForWorksheet: 'This Worksheet',
-    newRule: 'New Rule...',
-    editRule: 'Edit Rule...',
-    deleteRule: 'Delete Rule...',
-    gridTitleRule: 'Rule (applied in order shown)',
+    title: 'Menedżer reguł formatowania warunkowego', // Conditional Formatting Rules Manager
+    rulesScopeLabel: 'Zasady formatowania dla tego arkusza roboczego:', // Formatting rules for this worksheet:
+    rulesScopeForSelection: 'Obecny wybór', // Current Selection
+    rulesScopeForWorksheet: 'Ten arkusz roboczy', // This Worksheet
+    newRule: 'Nowa reguła...', // New Rule...
+    editRule: 'Edytuj regułę', // Edit Rule...
+    deleteRule: 'Usuń regułę...', // Delete Rule...
+    gridTitleRule: 'Reguła (stosowana w pokazanej kolejności)', // Rule (applied in order shown)
     gridTitleFormat: 'Format',
-    gridTitleAppliesTo: 'Applies to',
-    gridTitleStopIfTrue: 'Stop If True',
+    gridTitleAppliesTo: 'Dotyczy', // Applies to
+    gridTitleStopIfTrue: 'Przestań, jeśli prawda', // Stop If True
     ruleDescriptions: {
-      valueBetween: 'Cell value between {0} and {1}',
-      valueNotBetween: 'Cell value not between {0} and {1}',
-      valueEquals: 'Cell value = {0}',
-      valueNotEquals: 'Cell value <> {0}',
-      valueGreateThan: 'Cell value > {0}',
-      valueGreateThanOrEquals: 'Cell value >= {0}',
-      valueLessThan: 'Cell value < {0}',
-      valueLessThanOrEquals: 'Cell value <= {0}',
-      valueContains: 'Cell value contains "{0}"',
-      valueNotContains: 'Cell value does not contain "{0}"',
-      valueBeginsWith: 'Cell value begins with "{0}"',
-      valueEndsWith: 'Cell value ends with "{0}"',
-      last7Days: 'Last 7 days',
-      lastMonth: 'Last Month',
-      lastWeek: 'Last Week',
-      nextMonth: 'Next Month',
-      nextWeek: 'Next Week',
-      thisMonth: 'This Month',
-      thisWeek: 'This Week',
-      today: 'Today',
-      tomorrow: 'Tomorrow',
-      yesterday: 'Yesterday',
-      duplicateValues: 'Duplicate Values',
-      uniqueValues: 'Unique Values',
+      valueBetween: 'Wartość komórki pomiędzy {0} i {1}', // Cell value between {0} and {1}
+      valueNotBetween: 'Wartość komórki nie pomiędzy {0} i {1}', // Cell value not between {0} and {1}
+      valueEquals: 'Wartość komórki = {0}', // Cell value = {0}
+      valueNotEquals: 'Wartość komórki <> {0}', // Cell value <> {0}
+      valueGreateThan: 'Wartość komórki > {0}', // Cell value > {0}
+      valueGreateThanOrEquals: 'Wartość komórki >= {0}', // Cell value >= {0}
+      valueLessThan: 'Wartość komórki < {0}', // Cell value < {0}
+      valueLessThanOrEquals: 'Wartość komórki <= {0}', // Cell value <= {0}
+      valueContains: 'Wartość komórki zawiera "{0}"', // Cell value contains "{0}"
+      valueNotContains: 'Wartość komórki nie zawiera "{0}"', // Cell value does not contain "{0}"
+      valueBeginsWith: 'Wartość komórki zaczyna się od "{0}"', // Cell value begins with "{0}"
+      valueEndsWith: 'Wartość komórki kończy się na "{0}"', // Cell value ends with "{0}"
+      last7Days: 'Ostatnie 7 dni', // Last 7 days
+      lastMonth: 'Poprzedni miesiąc', // Last Month
+      lastWeek: 'Poprzedni tydzień', // Last Week
+      nextMonth: 'Następny miesiąc', // Next Month
+      nextWeek: 'Następny tydzień', // Next Week
+      thisMonth: 'Ten miesiąc', // This Month
+      thisWeek: 'Ten tydzień', // This Week
+      today: 'Dzisiaj', // Today
+      tomorrow: 'Jutro', // Tomorrow
+      yesterday: 'Wczoraj', // Yesterday
+      duplicateValues: 'Zduplikowane wartości', // Duplicate Values
+      uniqueValues: 'Unikalne wartości', // Unique Values
       top: 'Top {0}',
-      bottom: 'Bottom {0}',
-      above: 'Above Average',
-      above1StdDev: '1 STD DEV above Average',
-      above2StdDev: '2 STD DEV above Average',
-      above3StdDev: '3 STD DEV above Average',
-      below: 'Below Average',
-      below1StdDev: '1 STD DEV below Average',
-      below2StdDev: '2 STD DEV below Average',
-      below3StdDev: '3 STD DEV below Average',
-      equalOrAbove: 'Equal to or above Average',
-      equalOrBelow: 'Equal to or below Average',
-      dataBar: 'Data Bar',
-      twoScale: 'Graded Color Scale',
-      threeScale: 'Graded Color Scale',
-      iconSet: 'Icon Set',
-      formula: 'Formula: {0}',
+      bottom: 'Ostatnie {0}', // Bottom {0}
+      above: 'Powyżej średniej', // Above Average
+      above1StdDev: '1 odchylenie standardowe powyżej średniej', // 1 STD DEV above Average
+      above2StdDev: '2 odchylenia standardowe powyżej średniej', // 2 STD DEV above Average
+      above3StdDev: '3 odchylenia standardowe powyżej średniej', // 3 STD DEV above Average
+      below: 'Poniżej średniej', // Below Average
+      below1StdDev: '1 odchylenie standardowe poniżej średniej', // 1 STD DEV below Average
+      below2StdDev: '2 odchylenia standardowe poniżej średniej', // 2 STD DEV below Average
+      below3StdDev: '3 odchylenia standardowe poniżej średniej', // 3 STD DEV below Average
+      equalOrAbove: 'Równe lub powyżej średniej', // Equal to or above Average
+      equalOrBelow: 'Równe lub poniżej średniej', // Equal to or below Average
+      dataBar: 'Pasek danych', // Data Bar
+      twoScale: 'Stopniowana skala kolorów', // Graded Color Scale
+      threeScale: 'Stopniowana skala kolorów', // Graded Color Scale
+      iconSet: 'Zestaw ikon', // Icon Set
+      formula: 'Formuła: {0}', // Formula: {0}
     },
     previewText: 'AaBbCcYyZz',
   },
 
   formatDialog: {
-    title: 'Format Cells',
-    fieldTitle: 'Format Field',
-    chartTitle: 'Format Chart',
-    number: 'Number',
-    alignment: 'Alignment',
-    font: 'Font',
-    border: 'Border',
-    fill: 'Fill',
-    protection: 'Protection',
-    category: 'Category:',
-    backColor: 'Background Color',
-    textAlignment: 'Text Alignment',
-    horizontalAlignment: 'Horizontal:',
-    verticalAlignment: 'Vertical:',
-    indent: 'Indent:',
-    textControl: 'Text control',
-    wrapText: 'Wrap Text',
-    shrink: 'Shrink to Fit',
-    merge: 'Merge Cells',
-    top: 'Top',
-    bottom: 'Bottom',
-    left: 'Left',
-    right: 'Right',
-    center: 'Center',
-    general: 'General',
-    sampleText: 'Text',
-    cantMergeMessage: 'Cannot merge overlapping ranges.',
-    lock: 'Locked',
-    lockComments: 'Locking cells has no effect until you protect the worksheet(Review tab, Changes groups, Protect Sheet button).',
-    backGroundColor: 'Background Color:',
-    moreColorsText: 'More Colors',
-    noFillText: 'No Color',
-    sample: 'Sample',
-    padding: 'Padding',
+    title: 'Formatuj komórki', // Format Cells
+    fieldTitle: 'Formatuj pole', // Format Field
+    chartTitle: 'Formatuj wykres', // Format Chart
+    number: 'Liczba', // Number
+    alignment: 'Wyrównanie', // Alignment
+    font: 'Czcionka', // Font
+    border: 'Obramowanie', // Border
+    fill: 'Wypełnienie', // Fill
+    protection: 'Zabezpieczenie', // Protection
+    category: 'Kategoria:', // Category:
+    backColor: 'Kolor tła', // Background Color
+    textAlignment: 'Wyrównanie tekstu', // Text Alignment
+    horizontalAlignment: 'Poziomy:', // Horizontal:
+    verticalAlignment: 'Pionowy:', // Vertical:
+    indent: 'Akapit:', // Indent:
+    textControl: 'Kontrola tekstu', // Text control
+    wrapText: 'Zawijaj tekst', // Wrap Text
+    shrink: 'Zmniejsz, aby dopasować', // Shrink to Fit
+    merge: 'Połącz komórki', // Merge Cells
+    top: 'Góra', // Top
+    bottom: 'Dół', // Bottom
+    left: 'Lewa', // Left
+    right: 'Prawa', // Right
+    center: 'Środek', // Center
+    general: 'Ogólny', // General
+    sampleText: 'Tekst', // Text
+    cantMergeMessage: 'Nie można scalić nakładających się zakresów.', // Cannot merge overlapping ranges.
+    lock: 'Zablokowany', // Locked
+    lockComments: 'Blokowanie komórek nie ma wpływu, dopóki nie zabezpieczysz arkusza roboczego (karta Recenzja, grupy Zmiany, przycisk Chroń arkusz).', // Locking cells has no effect until you protect the worksheet(Review tab, Changes groups, Protect Sheet button).
+    backGroundColor: 'Kolor tła:', // Background Color:
+    moreColorsText: 'Więcej kolorów', // More Colors
+    noFillText: 'Brak koloru', // No Color
+    sample: 'Próbka', // Sample
+    padding: 'Podszycie', // Padding
   },
 
   borderDialog: {
-    border: 'Border',
-    presets: 'Presets',
-    none: 'None',
-    outline: 'Outline',
-    inside: 'Inside',
-    line: 'Line',
-    text: 'Text',
-    comments: 'The selected border style can be applied by clicking the presets, preview diagram, or the above buttons.',
+    border: 'Obramowanie', // Border
+    presets: 'Ustawienia wstępne', // Presets
+    none: 'Brak', // None
+    outline: 'Zarys', // Outline
+    inside: 'Wewnątrz', // Inside
+    line: 'Linia', // Line
+    text: 'Tekst', // Text
+    comments: 'Wybrany styl obramowania można zastosować, klikając ustawienia wstępne, diagram podglądu lub powyższe przyciski.', // The selected border style can be applied by clicking the presets, preview diagram, or the above buttons.
   },
 
   colorPicker: {
-    themeColorsTitle: 'Theme Colors',
-    standardColorsTitle: 'Standard Colors',
-    noFillText: 'No Color',
-    moreColorsText: 'More Colors...',
-    colorDialogTitle: 'Color',
-    red: 'Red: ',
-    green: 'Green: ',
-    blue: 'Blue: ',
-    newLabel: 'New',
-    currentLabel: 'Current',
+    themeColorsTitle: 'Kolory tematyczne', // Theme Colors
+    standardColorsTitle: 'Standardowe kolory', // Standard Colors
+    noFillText: 'Brak koloru', // No Color
+    moreColorsText: 'Więcej kolorów...', // More Colors...
+    colorDialogTitle: 'Kolor', // Color
+    red: 'Czerwony: ', // Red:
+    green: 'Zielony: ', // Green:
+    blue: 'Niebieski: ', // Blue:
+    newLabel: 'Nowy', // New
+    currentLabel: 'Obecny', // Current
   },
   fontPicker: {
-    familyLabelText: 'Font:',
-    styleLabelText: 'Font style:',
-    sizeLabelText: 'Size:',
-    weightLabelText: 'Weight:',
-    colorLabelText: 'Color:',
-    normalFontLabelText: 'Normal font',
-    previewLabelText: 'Preview',
+    familyLabelText: 'Czcionka:', // Font:
+    styleLabelText: 'Styl czcionki:', // Font style:
+    sizeLabelText: 'Rozmiar:', // Size:
+    weightLabelText: 'Grubość:', // Weight:
+    colorLabelText: 'Kolor:', // Color:
+    normalFontLabelText: 'Zwykła czcionka', // Normal font
+    previewLabelText: 'Podgląd', // Preview
     previewText: 'AaBbCcYyZz',
     effects: 'Effects',
-    underline: 'Underline',
-    strikethrough: 'Strikethrough',
+    underline: 'Podkreślenie', // Underline
+    strikethrough: 'Przekreślenie', // Strikethrough
 
     fontFamilies: {
       Arial: 'Arial',
@@ -468,58 +468,58 @@ const pl = {
       'MS PMincho': 'MS PMincho',
     },
     fontStyles: {
-      normal: 'Normal',
-      italic: 'Italic',
-      oblique: 'Oblique',
+      normal: 'Normalna', // Normal
+      italic: 'Kursywa', // Italic
+      oblique: 'Ukośna', // Oblique
     },
     fontWeights: {
-      normal: 'Normal',
-      bold: 'Bold',
-      bolder: 'Bolder',
-      lighter: 'Lighter',
+      normal: 'Normalna', // Normal
+      bold: 'Pogrubienie', // Bold
+      bolder: 'Grubsza', // Bolder
+      lighter: 'Lżejsza', // Lighter
     },
   },
   borderPicker: {
-    lineStyleTitle: 'Style:',
-    borderColorTitle: 'Color:',
+    lineStyleTitle: 'Styl:', // Style:
+    borderColorTitle: 'Kolor:', // Color:
   },
   categories: {
-    general: 'General',
-    numbers: 'Number',
-    currency: 'Currency',
-    accounting: 'Accounting',
-    date: 'Date',
-    time: 'Time',
-    percentage: 'Percentage',
-    fraction: 'Fraction',
-    scientific: 'Scientific',
-    text: 'Text',
-    special: 'Special',
-    custom: 'Custom',
+    general: 'Ogólne', // General
+    numbers: 'Liczba', // Number
+    currency: 'Waluta', // Currency
+    accounting: 'Księgowość', // Accounting
+    date: 'Data', // Date
+    time: 'Czas', // Time
+    percentage: 'Procent', // Percentage
+    fraction: 'Ułamek', // Fraction
+    scientific: 'Naukowy', // Scientific
+    text: 'Tekst', // Text
+    special: 'Specjalny', // Special
+    custom: 'Niestandardowy', // Custom
   },
 
   formatNumberComments: {
-    generalComments: 'General format cells have no specific number format.',
-    numberComments: 'Number is used for general display of numbers. Currency and Accounting offer specialized formatting for monetary values.',
-    currencyComments: 'Currency formats are used for general monetary values. Use Accounting formats to align decimal points in a column.',
-    accountingComments: 'Accounting formats line up the currency symbols and decimal points in a column.',
-    dateComments: 'Date formats display date and time serial numbers as date values.',
-    timeComments: 'Time formats display date and time serial numbers as time values.',
-    percentageComments: 'Percentage formats multiply the cell value by 100 and display the result with a percent symbol.',
-    textComments: 'Text formatted cells are treated as text even when a number is in the cell. The cell is displayed exactly as entered.',
-    specialComments: 'Special formats are useful for tracking list and database values.',
-    customComments: 'Type the number format code using one of the existing codes as a starting point.',
+    generalComments: 'Komórki formatu ogólnego nie mają określonego formatu liczb.', // General format cells have no specific number format.
+    numberComments: 'Liczba służy do ogólnego wyświetlania liczb. Waluta i Księgowość oferują wyspecjalizowane formatowanie wartości pieniężnych.', // Number is used for general display of numbers. Currency and Accounting offer specialized formatting for monetary values.
+    currencyComments: 'Formaty walut są używane do ogólnych wartości pieniężnych. Użyj formatów rachunkowości, aby wyrównać miejsca dziesiętne w kolumnie.', // Currency formats are used for general monetary values. Use Accounting formats to align decimal points in a column.
+    accountingComments: 'Formaty księgowe wyrównują symbole waluty i kropki dziesiętne w kolumnie.', // Accounting formats line up the currency symbols and decimal points in a column.
+    dateComments: 'Formaty daty wyświetlają numery seryjne daty i godziny jako wartości dat.', // Date formats display date and time serial numbers as date values.
+    timeComments: 'Formaty czasu wyświetlają numery seryjne daty i godziny jako wartości czasu.', // Time formats display date and time serial numbers as time values.
+    percentageComments: 'Formaty procentowe mnożą wartość komórki przez 100 i wyświetlają wynik z symbolem procentu.', // Percentage formats multiply the cell value by 100 and display the result with a percent symbol.
+    textComments: 'Komórki sformatowane jako tekst są traktowane jak tekst, nawet jeśli w komórce znajduje się liczba. Komórka jest wyświetlana dokładnie tak, jak została wprowadzona.', // Text formatted cells are treated as text even when a number is in the cell. The cell is displayed exactly as entered.
+    specialComments: 'Specjalne formaty są przydatne do śledzenia wartości list i baz danych.', // Special formats are useful for tracking list and database values.
+    customComments: 'Wpisz kod formatu liczb, używając jednego z istniejących kodów jako punktu początkowego.', // Type the number format code using one of the existing codes as a starting point.
   },
 
   formatNumberPickerSetting: {
-    type: 'Type:',
-    decimalPlaces: 'Decimal places:',
-    symbol: 'Symbol:',
-    negativeNumber: 'Negative numbers:',
-    separator: 'Use 1000 Separator(,)',
-    deleted: 'Delete',
-    locale: 'locale (location):',
-    calendar: 'Calendar type:',
+    type: 'Typ:', // Type:
+    decimalPlaces: 'Miejsca dziesiętne:', // Decimal places:
+    symbol: 'Symbol:', // Symbol:
+    negativeNumber: 'Liczby ujemne:', // Negative numbers:
+    separator: 'Użyj separatora tysięcznego (,)', // Use 1000 Separator(,)
+    deleted: 'Usuń', // Delete
+    locale: 'lokalizacja (lokalizacja):', // locale (location):
+    calendar: 'Typ kalendarza:', // Calendar type:
   },
 
   localeType: {
@@ -719,10 +719,10 @@ const pl = {
   ],
 
   specialType: [
-    'Zip Code',
-    'Zip Code + 4',
-    'Phone Number',
-    'Social Security Number',
+    'Kod pocztowy', // Zip Code
+    'Kod pocztowy + 4', // Zip Code + 4
+    'Numer telefonu', // Phone Number
+    'Numer ubezpieczenia społecznego', // Social Security Number
   ],
 
   specialChinaType: [
@@ -732,15 +732,15 @@ const pl = {
   ],
 
   fractionType: [
-    'Up to one digit (1/4)',
-    'Up to two digits (21/25)',
-    'Up to three digits (312/943)',
-    'As halves (1/2)',
-    'As quarters (2/4)',
-    'As eighths (4/8)',
-    'As sixteenths (8/16)',
-    'As tenths (3/10)',
-    'As hundredths (30/100)',
+    'Do jednej cyfry (1/4)', // Up to one digit (1/4)
+    'Do dwóch cyfr (21/25)', // Up to two digits (21/25)
+    'Do trzech cyfr (312/943)', // Up to three digits (312/943)
+    'Jako połówki (1/2)', // As halves (1/2)
+    'Jako ćwiartki (2/4)', // As quarters (2/4)
+    'Jako ósemki (4/8)', // As eighths (4/8)
+    'Jako szesnastki (8/16)', // As sixteenths (8/16)
+    'Jako dziesiąte (3/10)', // As tenths (3/10)
+    'Jako setne (30/100)', // As hundredths (30/100)
   ],
 
   negativeNumbers: {
@@ -758,11 +758,11 @@ const pl = {
   },
 
   insertFunctionDialog: {
-    title: 'Insert Function',
-    functionCategory: 'Function Category:',
-    functionList: 'Function List:',
-    formula: 'Formula:',
-    functionCategorys: 'All,Database,Date and Time,Engineering,Financial,Information,Logical,Lookup and Reference,Math and Trigonometry,Statistical,Text',
+    title: 'Wstaw funkcję', // Insert Function
+    functionCategory: 'Kategoria funkcji:', // Function Category:
+    functionList: 'Lista funkcji:', // Function List:
+    formula: 'Formuła:', // Formula:
+    functionCategorys: 'Wszystko,Baza danych,Data i godzina,Inżynieria,Finanse,Informacje,Logika,Wyszukiwanie i odniesienie,Matematyka i trygonometria,Statystyka,Tekst', // All,Database,Date and Time,Engineering,Financial,Information,Logical,Lookup and Reference,Math and Trigonometry,Statistical,Text
   },
   //#endregion
 };

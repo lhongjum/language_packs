@@ -161,7 +161,7 @@ export const accountPL = {
 	KeyTypePerpetual: 'Wieczny', // Perpetual
 	KeyTypeAnnual: 'Roczny', // Annual
 	ExpiredSuffix: '(wygasł)', // (Expired)
-	VersionExpiredSuffix: '(Version not matched))',
+	VersionExpiredSuffix: '(Wersja nie pasuje)', // (Version not matched)
 
 	// System configurations
 	UserMapping: 'Mapowanie użytkowników', // User Mapping
@@ -230,8 +230,8 @@ export const accountPL = {
 	Password: 'Hasło', // Password
 	Test: 'Test', // Test
 	Testing: 'Testowanie', // Testing
-	CustomParam: 'Custom Parameter',
-	CustomParamDescribe: 'The custom parameter is made up of some key-value pairs, one key-value pair per line, and the key and value split by ":".',
+	CustomParam: 'Parametr niestandardowy', // Custom Parameter
+	CustomParamDescribe: 'Parametr niestandardowy składa się z kilku par klucz-wartość, jednej pary klucz-wartość na wiersz oraz podziału klucza i wartości przez ":".', // The custom parameter is made up of some key-value pairs, one key-value pair per line, and the key and value split by ":".
 
 	'setting_item_name!ad security provider!server url': 'Server URL',
 	'setting_item_desc!ad security provider!server url': 'Server URL',
@@ -389,14 +389,14 @@ export const accountPL = {
 	error_5005: "Atrybut tenanta '{{tenantPropName}}' jest zarezerwowana.", // Tenant property '{{tenantPropName}}' is reserved.
 	error_5006: "Tenant z emaila '{{fromEmail}}' już istnieje.", // Tenant from email '{{fromEmail}}' already exists.
 	// External Login Provider Errors
-	error_6001: "The external login provider '{{providerName}}' does not exist.",
-	error_6002: "The sending message function is disabled for the external login provider '{{providerName}}'.",
-	error_6003: "Sending message to external login provider '{{providerName}}' failed, error code: {{errCode}}, error message: {{errMsg}}.",
-	error_6004: "No valid message recipients found.",
-	error_6005: "Duplicated user name '{{userName}}' detected.",
-	error_6006: "Duplicated role name '{{roleName}}' detected.",
-	error_6007: "Duplicated organization name '{{organizationName}}' detected.",
-	error_6008: "Syncing data failed, the original error is: {{errMsg}}",
+	error_6001: "Zewnętrzny dostawca logowania '{{providerName}}' nie istnieje.", // The external login provider '{{providerName}}' does not exist.
+	error_6002: "Funkcja wysyłania wiadomości jest wyłączona dla zewnętrznego dostawcy logowania '{{providerName}}'.", // The sending message function is disabled for the external login provider '{{providerName}}'.
+	error_6003: "Wysłanie wiadomości do zewnętrznego dostawcy logowania '{{providerName}}' nie powiodło się, kod błędu: {{errCode}}, komunikat o błędzie: {{errMsg}}.", // Sending message to external login provider '{{providerName}}' failed, error code: {{errCode}}, error message: {{errMsg}}.
+	error_6004: "Nie znaleziono prawidłowych adresatów wiadomości.", // No valid message recipients found.
+	error_6005: "Wykryto zduplikowaną nazwę użytkownika '{{userName}}'.", // Duplicated user name '{{userName}}' detected.
+	error_6006: "Wykryto zduplikowaną nazwę roli '{{roleName}}'.", // Duplicated role name '{{roleName}}' detected.
+	error_6007: "Wykryto zduplikowaną nazwę organizacji '{{organizationName}}'.", // Duplicated organization name '{{organizationName}}' detected.
+	error_6008: "Synchronizacja danych nie powiodła się, pierwotny błąd to: {{errMsg}}", // Syncing data failed, the original error is: {{errMsg}}
 	// Security Provider Errors
 	error_7001: "Dostawca zabezpieczeń „{{providerName}}” nie jest włączony.", // The security provider '{{providerName}}' is not enabled.
 	error_7002: "Załadowanie dostawcy zabezpieczeń „{{providerName}}” nie powiodło się.", // Load security provider '{{providerName}}' failed.
@@ -413,7 +413,7 @@ export const accountPL = {
 	LicenseOprateResultCode_2001: 'Klucz jest zablokowany.', // Key is disabled.
 	LicenseOprateResultCode_2002: 'Niepoprawny typ klucza.', // Key type incorrect.
 	LicenseOprateResultCode_2003: 'Maksymalna liczba aktywacji przekroczona.', // Exceeds the maxinum activation count
-	LicenseOprateResultCode_2004: 'licencja jest już aktywowana', // license is already activated
+	LicenseOprateResultCode_2004: 'Licencja jest już aktywowana', // license is already activated
 	LicenseOprateResultCode_2005: 'Wersja klucza nie pasuje do aktualnej wersji.', // Key's version did not match current version.
 	LicenseOprateResultCode_2006: 'Pusty klucz', // Empty Key
 	LicenseOprateResultCode_2007: 'Zawartość licencji jest nieprawidłowa.', // License content is not valid.
@@ -433,7 +433,7 @@ export const portalPL = {
 	'shortcut-user!props!text': 'Użytkownicy', // Users
 	'shortcut-user!title': 'Skrót do użytkowników', // Users Shortcut
 	'shortcut-role!description': '',
-	'shortcut-role!props!text': 'ról', // Roles
+	'shortcut-role!props!text': 'Role', // Roles
 	'shortcut-role!title': 'Skrót do ról', // Roles Shortcut
 	'shortcut-locked!description': '',
 	'shortcut-locked!props!text': 'Zablokowani', // Locked

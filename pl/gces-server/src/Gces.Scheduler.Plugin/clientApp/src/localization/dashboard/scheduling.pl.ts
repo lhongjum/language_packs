@@ -1,7 +1,7 @@
 export const schedulingPL: LanguageKeyValueMap = {
 	// common
 	nullDisplay: '[NULL]',
-	emptyDisplay: '[Blank]',
+	emptyDisplay: '[Pusty]',
 	emptyTextPlaceholder: '<Puste>',
 	boolTextFalse: 'Fałsz',
 	boolTextTrue: 'Prawda',
@@ -9,8 +9,8 @@ export const schedulingPL: LanguageKeyValueMap = {
 	delEditorMailLabelSubjectToolTip: 'Możesz odnieść się do dowolnego parametru w temacie, korzystając ze znaku zapytania (?), po którym podasz nazwę parametru. Nazwa dashboardu może zostać dodana poprzez &DashboardName. Czas aktualizacji zestawów danych w dashboardzie można dodać za pomocą &DataRefreshTime.', // You can reference any parameter in the subject by entering a question mark (?) followed by the parameter\'s name.The dashboard\'s name can be referenced with the special placeholder &DashboardName. The update time of datasets used in the dashboard can be referenced with the special placeholder &DataRefreshTime.
 	delEditorMailLabelBodyToolTip: 'Możesz odnieść się do dowolnego parametru w treści wiadomości, korzystając ze znaku zapytania (?), po którym podasz nazwę parametru. Nazwa dashboardu może zostać dodana poprzez &DashboardName. Czas aktualizacji zestawów danych w dashboardzie można dodać za pomocą &DataRefreshTime.', // You can reference any parameter in the message body by entering a question mark (?) followed by the parameter\'s name.The dashboard\'s name can be referenced with the special placeholder &DashboardName. The update time of datasets used in the dashboard can be referenced with the special placeholder &DataRefreshTime.
 	delEditorMailAttachmentBody: 'Wyślij dashboard jako treść', // Send Dashboard as Body
-	delEditorMailSubject: 'Scheduled Dashboard', // Scheduled Dashboard
-	delEditorMailAttachmentLink: 'Online Link', // Online Link
+	delEditorMailSubject: 'Zaplanowany dashboard', // Scheduled Dashboard
+	delEditorMailAttachmentLink: 'Online link', // Online Link
 	delEditorMailDownloadLink: 'Pobierz link', // Download Link
 	delEditorMailBody: 'Oto &DashboardName dashboard, czas aktualizacji przywołanych zestawów danych to &DataRefreshTime. Dashboard jest połączony poniżej &Link', // 'Here is the &DashboardName dashboard. The update time of referenced datasets is &DataRefreshTime. The dashboard is linked below. &Link',
 
@@ -29,8 +29,8 @@ export const schedulingPL: LanguageKeyValueMap = {
 	taskErr_30021: 'Identyfikator URI portalu jest wymagany podczas tworzenia zadań dla dashboardu. Prosimy o kontakt z administratorem.', // Portal URI is required when creating tasks for dashboard. Please contact the Administrator
 
 	// export pdf settings
-	exportPdfSecurity: 'UstawieniaZabezpieczeń',
+	exportPdfSecurity: 'Ustawienia zabezpieczeń',
 	exportPdfEncrypt: 'Szyfruj',
-	exportPdfOwnerPassword: 'HasłoWłaściciela',
-	exportPdfUserPassword: 'HasłoUżytkownika',
+	exportPdfOwnerPassword: 'Hasło właściciela',
+	exportPdfUserPassword: 'Hasło użytkownika',
 };

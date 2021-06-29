@@ -1,6 +1,6 @@
 ﻿export const portalPL: LanguageKeyValueMap = {
-	'nodeManagement!title': 'Node Management', // Node Management
-	'nodeManagement!description': 'Node Management', // Node Management
+	'nodeManagement!title': 'Node management', // Node Management
+	'nodeManagement!description': 'Node management', // Node Management
 	nodes: 'Węzły', // Nodes
 	globalSettings: 'Ogólne ustawienia', // Global Settings
 	getNodeFailed: 'Pobieranie węzłów nie powiodło się', // Get Nodes Failed
@@ -16,8 +16,8 @@
 	nodeHost: 'Host', // Host
 	nodePort: 'Port', // Port
 	nodeType: 'Typ węzła', // Node Type
-	'nodeType!primary': 'Primary Node', // Primary Node
-	'nodeType!secondary': 'Secondary Node', // Secondary Node
+	'nodeType!primary': 'Węzeł podstawowy', // Primary Node
+	'nodeType!secondary': 'Węzeł drugorzędny', // Secondary Node
 	'nodeType!client': 'Client Node', // Client Node
 	downloadUrl: 'Pobierz adres URL', // Download URL
 	download: 'Pobierz', // Download
@@ -41,19 +41,19 @@
 	'serviceName_worker': 'Report Worker',
 	'serviceName_cotworker': 'Cot Worker',
 	'serviceName_dashboardworker': 'Dashboard Worker',
-	'serviceStatus_starting': 'Running',
-	'serviceStatus_running': 'Running',
-	'serviceStatus_stopped': 'Stopped',
-	'serviceStatus_notinstalled': 'Not Installed',
-	'serviceStatus_uninstall': 'uninstall',
-	'runCommandLine': 'Run command line as administrator:',
-	'step1!description1': 'Step 1: Download and install',
+	'serviceStatus_starting': 'W trakcie', // Running
+	'serviceStatus_running': 'W trakcie', // Running
+	'serviceStatus_stopped': 'Zatrzymany', // Stopped
+	'serviceStatus_notinstalled': 'Nie zainstalowany', // Not Installed
+	'serviceStatus_uninstall': 'Odinstaluj', // uninstall
+	'runCommandLine': 'Uruchom wiersz poleceń jako administrator:', // Run command line as administrator:
+	'step1!description1': 'Krok 1: Pobierz i zainstaluj', // Step 1: Download and install
 	'step1!description2': '.NET Core Runtime',
 	'step1!description3': '(Recommend version 3.1.7)',
-	'step2!description1': 'Step 2: Click and Download',
+	'step2!description1': 'Krok 2: Kliknij i pobierz', // Step 2: Click and Download
 	'step2!description2': 'binary zip',
 	'step2!description3': 'file.',
-	'step3!description': 'Step 3: Execute shell script.',
+	'step3!description': 'Krok 3: Uruchom skrypt Shell.', // Step 3: Execute shell script.
 	stop: 'Stop',
 	start: 'Start',
 	install: 'Instaluj', // Install
@@ -64,7 +64,7 @@
 	primaryNodePort: 'Primary Node Port', // 'Primary Node Port',
 	success: 'Sukces', // Success
 	failed: 'Niepowiedzenie', // Failed
-	warning: 'Warning',
+	warning: 'Ostrzeżenie', // Warning
 	Name_Had_Be_Existed: 'Nazwa już wykorzystana.', // Name existed.
 	Member_Is_Not_Found: 'Węzeł jest wyłączony', // Node is offline.
 	Request_Sent_Successfully: 'Żądanie wysłane pomyślnie.', // Request sent successfully.
