@@ -1,102 +1,89 @@
 [
   {
     "ns": "jsviewer",
-    "lng": "pl", 
+    "lng": "pl",
     "resources": {
-      "errors": {
-        "bad-response-delayed": "Błąd opóźnia zawartość", 
-        "bad-response-doc": "Nie udało się wyeksportować zawartości", 
-        "bad-response-report": "Nie udało się wyeksportować zawartości", 
-        "commandTextIsEmpty": "Tekst polecenia jest pusty", 
-        "dataSetNotFound": "Nie można znaleźć zestawu danych {{dataSetName}} użytego w raporcie.", 
-        "dataSetNotSpecified": "Nazwa zestawu danych musi zostać określona w ustawieniach Ustalonego Layoutu Strony", 
-        "datasourceMissingElement": "Brakuje wymaganego elementu w dokumencie XML udostępnionego źródła danych - {{datasourceName}}.", 
-        "infinitePages": "Wykryto niekończącą się petlę.", 
-        "invalidColumnSpacing": "Kiedy strona (szerokość jest ustawiona w RozmiarStrony raportu) jest podzielona na kolumny, szerokość kolumn musi być większa niż zero oraz przestrzeń między kolumnami.", 
-        "invalidKeyInConnectionString": "Niewłaściwy klucz:{{invalidKey}} w parametrach połączenia", 
-        "InvalidReportFormat": "Format raportu jest nieprawidłowy", 
-        "invalidSharedDataSource": "Udostępnione źródło danych już nie istnieje lub jego zawartość jest nieprawidłowa.", 
-        "jsonDataSourceNotFound": "JSON, który miał być źrodłem danych nie został znaleziony", 
-        "no-fmt": "Niewłaściwy klucz formatu lub moduł dla {{format}} nie jest załadowany.", 
-        "no-params-refresh": "Nie udało się odświeżyć (nie wszystkie parametry zostały określone)", 
-        "noDataSets": "Brak zestawów danych", 
-        "render-doc": "Niepowodzenie przetwarzania raportu.", 
-        "resourceNotFound": "Nie można załadować zasobu z:{{uri}}", 
-        "scriptCompilationFailed": "Nie udało się skompliować skryptu.", 
-        "subreportNotFoundError": "Nie można zlokalizować podraportu: {{subName}}", 
-        "subreportNotSpecified": "Nazwa podraportu nie jest określona dla elementu podraportu {{itemName}}", 
-        "unknown-display": "Nieznany typ wyświetlania {{displayType}}", 
-        "unknown-format": "Nieobsługiwany typ eksportu: '{{exportType}}'", 
-        "unknown-response": "Nieznana odpowiedź serwera", 
-        "UnsupportedReportType": "Typ raportu z zapytania nie jest obsługiwany"
-      },
       "panels": {
-        "export": "Eksport", 
-        "parameters": "Parametry", 
-        "reports": "Lista raportów", 
-        "toc": "Tabela zawartości" 
+        "export": "Eksport",
+        "parameters": "Parametry",
+        "reports": "Lista raportów",
+        "toc": "Tabela zawartości"
       },
       "toolbar": {
-        "galley-mode": "Tryb szpalty", 
-        "item-exist": "Element o tym samym kluczu (\"{{itemKey}}\") już istnieje.", 
-        "mode-continuous": "Widok ciągły", 
-        "mode-single": "Widok jednej strony", 
-        "print-btn": "Wydruk", 
-        "preparing-print": "Przygotowywanie wydruku..." ,
+        "galley-mode": "Tryb szpalty",
+        "item-exist": "Element o tym samym kluczu (\"{{itemKey}}\") już istnieje.",
+        "mode-continuous": "Widok ciągły",
+        "mode-single": "Widok jednej strony",
+        "print-btn": "Wydruk",
+        "preparing-print": "Przygotowywanie wydruku...",
         "preparing-export": "Przygotowuję eksport...",
-        "resume-rendering": "Częściowe dane: Uruchom pełny raport"
+        "resume-rendering": "Częściowe dane: Uruchom pełny raport",
+        "refresh-cache": "Refresh Cache"
       }
     }
   },
   {
-    "ns": "viewer", 
-    "lng": "pl", 
+    "ns": "viewer",
+    "lng": "pl",
     "resources": {
       "error": {
-        "details": "Szczegóły", 
-        "dismiss": "Odrzuć", 
-        "dismiss-all": "Odrzuć wszystko" 
+        "details": "Szczegóły",
+        "dismiss": "Odrzuć",
+        "dismiss-all": "Odrzuć wszystko"
+      },
+      "menu": {
+        "toogleText": "Expand menu",
+        "aria-label": "Menu",
+        "pin-button-title": "Pin"
       },
       "sidebar": {
         "expand-btn": "Rozwiń",
-        "collapse-btn": "Zwiń"
+        "collapse-btn": "Zwiń",
+        "aria-label": "Sidebar"
       },
-      "cancel-btn": "Anuluj", 
+      "cancel-btn": "Anuluj",
       "toolbar": {
-        "zoom-fitwidth": "Dopasuj do szerokości", 
-        "zoom-fitpage": "Dopasuj stronę", 
-        "zoom-zoomout": "Oddalenie", 
-        "zoom-zoomin": "Zbliżenie", 
-        "zoom-menu-header": "Tryb powiększania", 
-        "gotofirst": "Idź do pierwszego", 
-        "gotoprevious": "Idź do poprzedniego", 
-        "gotonext": "Idź do następnego", 
-        "gotolast": "Idź do ostatniego", 
-        "hist-parent": "Z powrotem", 
-        "hist-back": "W tył", 
-        "hist-fwd": "W przód", 
-        "movetool": "Przesuwanie", 
-        "fullscreen": "Włącz pełny ekran", 
-        "refresh": "Odśwież", 
+        "zoom-fitwidth": "Dopasuj do szerokości",
+        "zoom-fitpage": "Dopasuj stronę",
+        "zoom-zoomout": "Oddalenie",
+        "zoom-zoomin": "Zbliżenie",
+        "zoom-menu-header": "Tryb powiększania",
+        "gotofirst": "Idź do pierwszego",
+        "gotoprevious": "Idź do poprzedniego",
+        "gotonext": "Idź do następnego",
+        "gotolast": "Idź do ostatniego",
+        "hist-parent": "History: Back To Parent",
+        "hist-back": "History: Go Back",
+        "hist-fwd": "History: Go Forward",
+        "movetool": "Przesuwanie",
+        "fullscreen": "Włącz pełny ekran",
+        "refresh": "Odśwież",
         "cancel": "Anuluj",
-        "expand": "Rozwiń pasek narzędz"
+        "expand": "Rozwiń pasek narzędz",
+        "aria-label": "Toolbar"
       },
       "errors": {
-        "noHostElement": "Nie można odnaleźć elementu hosta." 
+        "noHostElement": "Nie można odnaleźć elementu hosta."
+      },
+      "top-bottom-panel": {
+        "aria-label": "Additional control panel"
+      },
+      "document-view": {
+        "aria-label": "Document view"
       },
       "progress": {
-        "page": "Strona" 
+        "page": "Strona"
       },
       "search": {
-        "match-case": "Uwzględniaj wielkość znaków", 
-        "whole-word": "Całe słowo", 
-        "cancel-btn": "Anuluj", 
-        "start-search-btn": "Szukaj", 
-        "clear-btn": "Wyczyść", 
-        "more-results-btn": "Więcej wyników", 
-        "search-results": "Wyniki szukania", 
-        "search-cancelled-msg": "Szukanie przerwane na stronie {{page}}", 
-        "didn-find-msg": "Niczego nie znaleziono.", 
+        "match-case": "Uwzględniaj wielkość znaków",
+        "whole-word": "Całe słowo",
+        "cancel-btn": "Anuluj",
+        "start-search-btn": "Szukaj",
+        "clear-btn": "Wyczyść",
+        "more-results-btn": "Więcej wyników",
+        "search-results": "Wyniki szukania",
+        "search-cancelled-msg": "Szukanie przerwane na stronie {{page}}",
+        "didn-find-msg": "Niczego nie znaleziono.",
         "paneltitle": "Szukaj"
       }
     }
@@ -113,16 +100,17 @@
         "print-report": "Błąd wydruku raportu"
       },
       "details": {
+        "unexpected": "Unexpected error occurred.",
         "report-info": "Nie można uzyskać informacji o raporcie.",
         "rendering-info": "Nie można uzyskać informacji o renderowaniu",
         "job-info": "Nie można uzyskać informacji o zadaniu",
-        "no-report": "Nie znaleziono raportu: {{reportId}}", 
+        "no-report": "Nie znaleziono raportu: {{reportId}}",
         "no-document-loaded": "Nie załadowano żadnych dokumentów.",
         "no-current-document": "Brak dokumentu.",
         "bad-response-toc": "Niepowodzenie pobierania spisu treści.",
         "no-params-render": "Nie wszystkie parametry zostały określone.",
-        "params-hidden": "Niektóre ukryte parametry są nieprawidłowe.", 
-        "ignore-disposition": "Przewiduje się, że zawartość będzie wyświetlana jako osadzona w przeglądarce, ale będzie to ignorowane.", 
+        "params-hidden": "Niektóre ukryte parametry są nieprawidłowe.",
+        "ignore-disposition": "Przewiduje się, że zawartość będzie wyświetlana jako osadzona w przeglądarce, ale będzie to ignorowane.",
         "empty-response-header": "Nagłówek odpowiedzi '{{header}}' jest pusty. Możliwe, że nagłówki nie są dozwolone w polityce CORS.",
         "unknown-event": "Nieznane wydarzenie nie zostało przeprocesowane",
         "job-canceled": "Zadanie zostało anulowane przez administratora",
@@ -130,39 +118,6 @@
         "unexpected-job-error-info": "Informacja o nieoczekiwanym błędzie zadania.",
         "unexpected-job-state": "Nieoczekiwany stan zadania.",
         "ie-no-pdf-addon": "By umożliwić drukowanie w IE, zainstaluj i włącz dodatek do odczytu PDF."
-      },
-      "reporting_plugin": {
-        "lrt": "W pluginie raportującym wystąpił wyjątek LRT",
-        "bad_response": "Usługa raportowa odpowiedziała błędem",
-        "streaming": "Wystąpił błąd podczas transmisji z usługi raportowej",
-        "response_verification": "Wystąpił błąd po transmisji wyników z usługi raportowej",
-        "unknown": "Nieznany błąd podczas wykonywania zadania"
-      },
-      "reporting_worker": {
-        "export": {
-          "invalid_parameters": "Niewłaściwe parametry raportu",
-          "unknown_rendering_ext": "Nieznane rozszerzenie przetwarzania {{0}}"
-        },
-        "task_init": {
-          "file_not_found": "Plik {0} nie został znaleziony",
-          "unable_to_load_file": "Nie można załadować pliku {{0}}",
-          "unknown": "Nieznany błąd podczas wykonywania zadania przez usługę raportową: {{0}}"
-        },
-        "fail_check": {
-          "invalid_parameters": "Niewłaściwe parametry raportu",
-          "no_dataset": "Nie wybrano zestawu danych",
-          "data_not_found": "Określony {{0}} dokument z id '{{1}}' nie został znaleziony",
-          "data_not_allowed": "Określone {{0}} '{{1}}' niedostępne z powodu niewystarczających uprawnień",
-          "data_unknown": "Określone dane są niedostępne: {{0}}",
-          "unknown": "Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {{0}}"
-        },
-        "rendering": {
-          "unknown": "Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {{0}}"
-        },
-        "report": {
-          "cyclic_parameter_references": "Wykryto cykliczne odwołania parametrów raportu",
-          "unknown": "Nieznany błąd podczas pobierania informacji o raporcie: {{0}}"
-        }
       }
     }
   }

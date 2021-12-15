@@ -22,6 +22,7 @@ export const schedulingEN: LanguageKeyValueMap = {
 
 	// Reporting Editor
 	reportingEditorTextNoParameters: 'dashboard has no parameters',
+	dashboardEditorLabelAddParameterValue: 'Add Parameter Value',
 
 	// Job Editor Saga
 	jeSagaTextParametersError: 'Unable to get dashboard parameters',
@@ -35,4 +36,8 @@ export const schedulingEN: LanguageKeyValueMap = {
 	exportPdfEncrypt: 'Encrypt',
 	exportPdfOwnerPassword: 'OwnerPassword',
 	exportPdfUserPassword: 'UserPassword',
+
+	// @grapecity/gces-reporting-components
+	'no-hidden-parameter-value': 'Hidden dashboard parameters - {{parameters}} - don\'t have default values. To preview this dashboard successfully, please edit it in Dashboard Designer and either make the mentioned parameters non-hidden, or specify their default values, or do both changes.',
+	'hidden-parameter-invalid-value': 'Hidden dashboard parameters - {{parameters}} - have invalid default values. To preview this dashboard successfully, please edit it in Dashboard Designer and correct settings of the mentioned parameters.'
 };

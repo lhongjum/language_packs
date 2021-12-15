@@ -56,7 +56,7 @@ export const gcExceptionLocalePL = {
 	E_60330: 'Znaleziono nieprawidłową zawartość JSON.', // Invalid JSON content found.
 	E_60331: 'Tekst Json ma wartość null lub jest pusty.', // Json text is null or empty.
 	E_60332: 'Wynik zapytania nie jest wartością skalarną.', // The query result is not a scalar value.
-	E_60333: 'Wynik zapytania nie jest wartością obiektu ani wartością tablicy.', // The query result is not an object value or array value.
+	E_60333: 'The query result is not an object value or array value.', // The query result is not an object value or array value.
 	E_60334: 'Odata obsługuje tylko usługę wersji V4.', // Only V4 version service is supported for Odata.
 	E_60500: 'Nie udało się otworzyć połączenia.', // Failed to Open connection.
 	E_60501: 'Wybrana baza danych nie istnieje, podaj nową bazę danych.', // The specified database does not exist, please fill in a new database.
@@ -83,7 +83,7 @@ export const gcExceptionLocalePL = {
 	E_90002: 'Niepoprawna składnia obok \'{Token}\'.', // Incorrect syntax near \'{Token}\'.
 	E_90003: 'Niepoprawna składnia w instrukcji SQL.', // Incorrect syntax in the sql statement.
 	E_90004: 'Nieprawidłowa wartość literału.', // Invalid literal value.
-	E_90005: 'Oczekiwane wyrażenie literału.', // Expecting literal expression.
+	E_90005: 'EPrzewidywano wyrażenie literału.', // Expecting literal expression.
 	E_90006: 'Tylko wyrażenia kolumnowe są dozwolone w klauzuli ORDERBY.', // Only column expressions are allowed in ORDERBY clause.
 	E_90007: 'Znak cytowania jest wymagany w odniesieniu do obiektu z nazwą będącą słowem kluczowym.', // Quotation mark required on object with a keyword-name.
 	E_90008: 'Funkcja nie jest obsługiwana.', // Function not supported.
@@ -183,12 +183,13 @@ export const gcExceptionLocalePL = {
 
 export const documentSectionRegisterLocalePL = {
 	dlDatasetType: 'Typ zestawu danych', // Dataset Type
-	dlDashboardDataset: 'Na potrzeby dashboardu', // For Dashboard
-	dlReportDataset: 'Na potrzeby raportu', // For Report
+	dlDashboardDataset: 'Cached Dataset',
+	dlReportDataset: 'Direct Dataset',
 	dlDataProvider: 'Dostawca danych', // Data Provider
 	dlDataSource: 'Źrodło danych', // Data Source
 };
 
 export const previewParameterRegisterLocalePL = {
 	Preview: 'Podgląd', // Preview
+	Multivalue: 'Multivalue',
 };

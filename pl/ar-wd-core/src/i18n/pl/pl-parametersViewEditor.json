@@ -1,0 +1,234 @@
+{
+  "bindingAdorner": {
+    "textUnspecified": "Nieokreślony",
+    "headingBinding": "Powiązanie"
+  },
+  "parametersPanel": {
+    "titleEditParameter": "Edit Parameter...",
+    "headingEditParameter": "Edytuj parametr",
+    "headingEditable": "Editable",
+    "headingHidden": "Hidden"
+  },
+  "sideBar": {
+    "collapse": "Zwiń",
+    "expand": "Rozwiń"
+  },
+  "propertiesText": "Właściwości",
+  "parametersText": "Parametry",
+  "canvas": "Płótno",
+  "properties": {
+    "labels": {
+      "binding": "Binding",
+      "left": "Lewo",
+      "top": "Góra",
+      "width": "Szerokość",
+      "height": "Wysokość",
+      "value": "Wartość",
+      "trueText": "\"Prawda\"",
+      "falseText": "\"Fałsz\"",
+      "text": "Tekst",
+      "layout": "Układ",
+      "type": "Typ",
+      "display": "Wyświetlanie",
+      "action": "Akcja",
+      "background": "Tło",
+      "from": "Z",
+      "to": "Do",
+      "maxRange": "Maks. zakres",
+      "viewMode": "Tryb podglądu",
+      "daysHeaderFormat": "Format nagłówka dni",
+      "placeholder": "Placeholder",
+      "alignment": "Wyrównanie",
+      "color": "Kolor",
+      "strikeThrough": "Przekreślenie",
+      "columns": "Kolumny",
+      "min": "Min.",
+      "max": "Maks.",
+      "step": "Stopień",
+      "roundInputToStep": "Zaokrąglanie",
+      "upDownEditor": "Edytor Góra-Dół",
+      "slider": "Suwak",
+      "multiline": "Wieloliniowy",
+      "list": "Lista",
+      "dropdown": "Lista rozwijana",
+      "recursive": "Rekurencyjny",
+      "groupBy": "Grupuj po",
+      "pathString": "Ścieżka",
+      "mode": "Tryb",
+      "fields": "Pola"
+    },
+    "categories": {
+      "binding": "Binding",
+      "locationAndSize": "Lokalizacja i rozmiar",
+      "details": "Szczegóły",
+      "label": "Etykieta",
+      "common": "Zwykły"
+    }
+  },
+  "boundParameter": {
+    "text": "Powiązany parametr",
+    "parameter": "Parametr {{name}}",
+    "defaultValue": "Wartość domyślna",
+    "multiValue": "Wielowartościowy",
+    "multiline": "Wieloliniowy",
+    "allowBlank": "Zezwól na puste",
+    "nullable": "Zezwól na Null"
+  },
+  "propertyGrid": {
+    "btnCloseSearch": "Zamknij",
+    "textEmptyList": "Wybierz pozycję aby wyświetlić atrybuty",
+    "placeholderSearch": "wprowadź nazwę atrybutu tutaj...",
+    "textNoCommonProperties": "Brak wspólnych atrybutów",
+    "textUnknownProperty": "Nieznany atrybut:"
+  },
+  "surface": {
+    "btnAutoGenerate": "Generować automatycznie",
+    "messageBlock": {
+      "textDescriptionOne": "Nie wszystkie parametry raportu zostały powiązane.",
+      "textDescriptionButtonBefore": "możesz",
+      "textDescriptionButtonAfter": "dla nich edytory."
+    },
+    "btnGenerate": "Generować",
+    "emptySurfaceBlock": {
+      "textDescriptionOne": "Ten raport nie posiada widoku z niestandardowymi parametrami",
+      "textDescriptionButtonBefore": "Możesz",
+      "textDescriptionButtonAfter": "z dostępnych parametrów, lub rozpocząć od nowa z wykorzystaniem elementów z przybornika.",
+      "textDescriptionTwo": "Możesz go utworzyć korzystając z elementów z przybornika."
+    },
+    "scrollBar": {
+      "textMessagesOne": "Parametry będą wyglądały w ten sposób na pasku bocznym użytkownika.",
+      "textMessagesTwo": "Możesz zmienić kolejność przez przeciąganie elementów."
+    }
+  },
+  "toolbar": {
+    "btnDuplicate": "Duplikuj",
+    "btnDelete": "Usuń",
+    "btnVerticalLayout": "Układ pionowy",
+    "btnHighlightRequired": "Podświetl wymagane",
+    "btnGenerateView": "Generuj widok",
+    "btnResetView": "Resetuj widok",
+    "btnRemoveView": "Usuń widok"
+  },
+  "booleanProperties": {
+    "trueText": "Prawda",
+    "falseText": "Fałsz",
+    "undefinedText": "Niezdefiniowany",
+    "toggle": "Przełącznik",
+    "checkbox": "Pole wyboru",
+    "radio": "Przycisk"
+  },
+  "parameters": {
+    "labelBoolean": "Parametr Boolean",
+    "labelDateRange": "Parametr ZakresDat",
+    "labelDateTime": "Parametr DataCzas",
+    "labelDropdown": "Parametr rozwijany",
+    "labelList": "Parametr listy",
+    "labelMultivalue": "Multivalue Parameter",
+    "labelNumber": "Parmetr liczbowy",
+    "labelNumberRange": "Parametr zakres liczbowy",
+    "labelSingleLineParameter": "Parametr jednoliniowy",
+    "labelHierarchical": "Parametr hierarchiczny"
+  },
+  "editors": {
+    "nameBoolean": "Edytor Boolean",
+    "nameButton": "Przycisk",
+    "nameDateRange": "Edytor zakresu dat",
+    "nameDateTime": "Edytor DataCzas",
+    "nameDropdown": "Edytor listy rozwijanej",
+    "textHeading": "Tekst nagłówka",
+    "nameHeading": "Nagłówek",
+    "nameList": "Edytor listy",
+    "nameMultivalue": "Multivalue Editor",
+    "textNull": "Pusty",
+    "nameNumber": "Edytor liczb",
+    "textCheckRangeType": "Parametry powinny mieć ten sam typ danych",
+    "nameNumberRange": "Edytor zakresu liczbowego",
+    "namePlainText": "Zwykły tekst",
+    "nameText": "Edytor tekstu",
+    "nameTreeView": "Widok drzewa"
+  },
+  "bindingProperties": {
+    "boolean": "Boolean",
+    "date": "Data",
+    "dateDateTime": "Data, DataCzas",
+    "any": "Dowolny",
+    "integerFloat": "Integer, Float"
+  },
+  "buttonProperties": {
+    "preview": "Podgląd",
+    "reset": "Resetuj",
+    "clear": "Wyczyść"
+  },
+  "dateRangeParameterLabels": {
+    "tabLabelDaily": "Dziennie",
+    "tabLabelMonthly": "Miesięcznie",
+    "tabLabelAnnually": "Rocznie",
+    "textBack": "Powrót do kalendarza",
+    "textShortcutsList": "Wspólne zakresy",
+    "placeholderDateStart": "Początek",
+    "placeholderDateEnd": "Koniec",
+    "shortcuts": {
+      "labelLastWeek": "Zeszły tydzień",
+      "labelLastMonth": "Zeszły miesiąc",
+      "labelLastYear": "Zeszły rok",
+      "labelWeekToDate": "Od początku tygodnia",
+      "labelMonthToDate": "Od początku miesiąca",
+      "labelYearToDate": "Od początku roku"
+    },
+    "monthYearOrder": "M-R"
+  },
+  "dateTimeParameterLabels": {
+    "monthYearOrder": "M-R",
+    "textClear": "Wyczyść",
+    "textToday": "Dzisiaj",
+    "textBack": "Powrót do kalendarza"
+  },
+  "alignmentEnum": {
+    "left": "Lewo",
+    "center": "Środek",
+    "right": "Prawo",
+    "justify": "Wyjustuj",
+    "none": "Brak",
+    "top": "Góra",
+    "bottom": "Dół",
+    "horizontal": "Poziomo",
+    "vertical": "Pionowo"
+  },
+  "dateViewProperties": {
+    "default": "Domyślnie",
+    "days": "Dni",
+    "months": "Miesiące",
+    "years": "Lata",
+    "accent": "Akcent",
+    "error": "Błąd",
+    "warning": "Ostrzeżenie",
+    "none": "Brak"
+  },
+  "fieldsProperties": {
+    "addBtnText": "Dodaj",
+    "addBtnTitle": "Dodaj pozycję",
+    "closeBtnTitle": "Zamknij",
+    "showItem": "Pokaż pozycje",
+    "collectionIsEmpty": "Zbiór jest pusty",
+    "items": "elementów"
+  },
+  "labels": {
+    "removeDefaultValue": "Usuń wartość domyślną"
+  },
+  "placeholderEmpty": "<Pusty>",
+  "placeholderMultipleValues": "<Wiele wartości>",
+  "dataType": {
+    "boolean": "Boolean",
+    "string": "Napis",
+    "integer": "Integer",
+    "float": "Float",
+    "date": "Data",
+    "dateTime": "DataCzas"
+  },
+  "msgString": {
+    "notSupControl": "nie jest wspierany przez ten element sterujący",
+    "controlNotSupportSingle": "This control doesn't support single value parameters",
+    "controlRequires": "Ten element sterujący wymaga listy dostępnych wartości",
+    "controlNotSupportParameters": "Ten element sterujący nie obsługuje parametrów ze zdefiniowanymi wartościami"
+  }
+}

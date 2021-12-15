@@ -1,0 +1,40 @@
+{
+  "datasetEditor": {
+    "title": {
+      "edit": "Edit Data Set - \"{{datasetName}}\" based on \"{{datasourceName}}\"",
+      "new": "New Data Set based on \"{{datasourceName}}\"",
+      "editSemantic": "Edit Data Set - \"{{datasetName}}\" based on \"{{modelName}}\" Model"
+    },
+    "validate": "Validate",
+    "validating": "Validating..."
+  },
+  "dataVisualizer": {
+    "title": "Data Visualizer"
+  },
+  "headingInsertRows": "Insert Rows",
+  "headingInsertColumns": "Insert Columns",
+  "btnInsert": "Insert",
+  "btnCancel": "Cancel",
+  "labelCount": "Count",
+  "labelPosition": "Position",
+  "expressionEditor": {
+    "subtitle": "Expression Editor",
+    "infoPanel": {
+      "labelSyntax": "Syntax:",
+      "labelDescription": "Description:",
+      "labelExample": "Example:",
+      "labelName": "Name:",
+      "labelConstant": "Constant:"
+    },
+    "headingFunctions": "Functions",
+    "headingInfo": "Info",
+    "search": {
+      "textStartTyping": "start typing to see results",
+      "textNoResults": "no results for \"{{query}}\"",
+      "placeholderSearch": "search..."
+    },
+    "headingValues": "Values",
+    "placeholderExpression": "expression",
+    "headingExpression": "Expression"
+  }
+}

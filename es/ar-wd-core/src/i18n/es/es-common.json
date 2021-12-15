@@ -1,0 +1,19 @@
+{
+  "textEnabled": "Enabled",
+  "textDisabled": "Disabled",
+  "units": {
+    "cm": {
+      "textShortName": "cm",
+      "textFullName": "Centimeters"
+    },
+    "in": {
+      "textShortName": "in",
+      "textFullName": "Inches"
+    }
+  },
+  "btnOk": "OK",
+  "btnCancel": "Cancel",
+  "btnAdd": "Add",
+  "btnSave": "Save",
+  "textOpen": "Open..."
+}

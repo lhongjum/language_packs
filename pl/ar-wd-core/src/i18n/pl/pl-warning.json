@@ -1,0 +1,26 @@
+{
+  "embeddedImage": {
+    "badImageFile": "Wybrany plik obrazu '{{name}}' jest nieprawidłowy.",
+    "badFileType": "Wybrany plik '{{name}}' ({{type}}) nie jest obsługiwany.",
+    "badFile": "Wybrany plik '{{name}}' nie jest obrazem.",
+    "badImageSize": "Wybrany plik obrazu '{{name}}' przekracza limit {{limit}} MB."
+  },
+  "margins": {
+    "caption": "Nie można ustawić określonych marginesów",
+    "labels": {
+      "top": "Górny margines",
+      "right": "Prawy margines",
+      "bottom": "Dolny margines",
+      "left": "Lewy margines"
+    },
+    "info": "- '{{name}}' nie może być większe od {{value}}."
+  },
+  "pageSize": {
+    "caption": "Nie można ustawić określonego rozmiaru strony",
+    "labels": {
+      "height": "Wysokość strony",
+      "width": "Szerokość strony"
+    },
+    "info": "- '{{name}}' nie może być mniejsze od {{value}}."
+  }
+}

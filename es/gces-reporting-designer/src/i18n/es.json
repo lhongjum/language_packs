@@ -1,0 +1,500 @@
+{
+  "about": {
+    "applicationVersion": "Application version: {{applicationVersion}}",
+    "close": "Close",
+    "coreVersion": "Core version: {{coreVersion}}",
+    "title": "About {{applicationTitle}}",
+    "version": "Version: {{versionNumber}}"
+  },
+  "accessDeniedBanner": {
+    "contactAdministrator": "Please contact your Administrator for more information.",
+    "notEnoughPermissionsForDesigner": "You have not enough permissions to access Report Designer.",
+    "notEnoughPermissionsToCreateReport": "You have not enough permissions to create a report.",
+    "reportAwaitingApproval": "The report '{{name}}' is awaiting approval and cannot be edited.",
+    "unavailableReport": "The report '{{name}}' is unavailable.",
+    "unavailableTemplate": "The template '{{name}}' is unavailable."
+  },
+  "appActions": {
+    "copy": "Copy",
+    "cut": "Cut",
+    "open": "Open",
+    "paste": "Paste",
+    "redo": "Redo",
+    "save": "Save",
+    "saveAs": "Save As",
+    "undo": "Undo"
+  },
+  "appBar": {
+    "design": {
+      "dirtyLabel": "Unsaved Changes",
+      "fileLabel": "File",
+      "homeLabel": "Home",
+      "insertLabel": "Insert",
+      "parameters": "Parameters"
+    }
+  },
+  "common": {
+    "copyright": "Copyright © 2021 GrapeCity",
+    "madeInWebDesigner": "Made in {{applicationTitle}}",
+    "untitledReportName": "Untitled",
+    "webDesignerTitle": "Report Designer",
+    "webDesignerTitleCompact": "Report Designer"
+  },
+  "dataSetPicker": {
+    "add": "Add",
+    "cancel": "Cancel",
+    "gettingContent": "Getting the resource content...",
+    "gettingDataResources": "Getting the list of available data resources...",
+    "gettingSemanticModelEntities": "Getting semantic model entities...",
+    "header": "Pick a Data Set",
+    "nameTemplates": {
+      "dataSet": "DataSet",
+      "dataSource": "DataSource"
+    },
+    "newDataSet": {
+      "contentBased": "Server",
+      "dataSourceBased": "New based on Server Data Source",
+      "modelEntityBased": "New based on Model Entity"
+    },
+    "noDataResourcesAvailable": "No data resources available",
+    "searchBoxPlaceholder": "enter data resource name here..."
+  },
+  "dataSourceEditor": {
+    "cancelLabel": "Cancel",
+    "errors": {
+      "dataSourceCannotBeEdited": "Data source '{{name}}' cannot be edited.",
+      "dataSourceHasNoParameters": "Server data source '{{name}}' has no parameters."
+    },
+    "expressionLabel": "Expression...",
+    "parameterValueTitle": "Parameters - {{parameterName}} - Value",
+    "parametersLabel": "Parameters",
+    "reportParametersLabel": "Report Parameters",
+    "resetLabel": "Reset",
+    "saveLabel": "Save",
+    "validation": {
+      "fieldsCannotBeReferenced": "Data set fields cannot be referenced in a data source parameter value.",
+      "inconsistentValue": "Value is inconsistent.",
+      "invalidExpression": "Invalid expression.",
+      "invalidValue": "Value is not valid.",
+      "multiValueConstantType": "Multi-value constant type is expected to be '{{expectedType}}'.",
+      "multiValueReportParameter": "Report parameter is expected to be multi-value.",
+      "reportParameterDoesNotExist": "Report parameter '{{name}}' does not exist.",
+      "reportParameterType": "Report parameter type is '{{type}}' but expected type is '{{expectedType}}'.",
+      "singleValueConstantType": "Constant type is expected to be '{{expectedType}}'.",
+      "singleValueReportParameter": "Report parameter is expected to be single-value."
+    }
+  },
+  "dataTab": {
+    "gettingSemanticModelContent": "Getting semantic model content...",
+    "title": "Data"
+  },
+  "dialogs": {
+    "cancel": "Cancel",
+    "confirmSavingChanges": {
+      "dontSaveLabel": "Don't save",
+      "saveLabel": "Save",
+      "wantSaveChanges": "Do you want to save changes to {{reportName}}?"
+    },
+    "confirmUpgradeReport": {
+      "dontUpgradeLabel": "Don't upgrade",
+      "stage": {
+        "creatingReport": "Creating Report",
+        "openingReport": "Opening Report"
+      },
+      "upgradeLabel": "Upgrade",
+      "wantUpgradeReport": "Do you want to upgrade the report to use the latest version of the semantic model?"
+    },
+    "restoreUnsavedReport": {
+      "deleteUnsavedReport": "Delete unsaved report",
+      "restore": "Restore",
+      "text": "Unsaved report is detected. Would you like to restore it?"
+    }
+  },
+  "error": {
+    "convertReport": "The report '{{name}}' could not be converted for Designer.",
+    "convertTemplate": "The template '{{name}}' could not be converted for Designer.",
+    "createReport": "A new report could not be created.",
+    "createReportPermissions": "You have not enough permissions to create a report.",
+    "editReportAwaitingApproval": "The report '{{name}}' is awaiting approval and cannot be edited.",
+    "errorCode": "Error code: {{code}}",
+    "internalReportWrapper": "Internal error occurred: {{errorCaption}}",
+    "openReport": "The report '{{name}}' could not be opened.",
+    "openReportVersion": "The report '{{name}}' (version: {{version}}) could not be opened.",
+    "openTemplate": "The template '{{name}}' could not be opened.",
+    "openTemplateVersion": "The template '{{name}}' (version: {{version}}) could not be opened.",
+    "previewReport": "The report '{{name}}' could not be previewed.",
+    "previewTemplate": "The template '{{name}}' could not be previewed.",
+    "restoreReport": "The report '{{name}}' could not be restored.",
+    "restoreTemplate": "The template '{{name}}' could not be restored.",
+    "saveNewReportPermissions": "You have not enough permissions to save a new report.",
+    "saveNewTemplatePermissions": "You have not enough permissions to save a new template.",
+    "saveReadOnlyReport": "The report '{{name}}' is opened as read-only and cannot be saved.",
+    "saveReadOnlyTemplate": "The template '{{name}}' is opened as read-only and cannot be saved.",
+    "saveReport": "The report '{{name}}' could not be saved.",
+    "saveReportAwaitingApproval": "The report '{{name}}' is awaiting approval and cannot be saved.",
+    "saveTemplate": "The template '{{name}}' could not be saved.",
+    "theme": {
+      "cannotLoad": "Report theme cannot be loaded",
+      "noThemes": "Please note there are no other themes available so now the report has no theme specified.",
+      "notFound": "The theme '{{theme}}' used in this report is not found.",
+      "notFoundOrInvalid": "The theme '{{theme}}' used in this report either is not found or has invalid content.",
+      "useDefault": "The default theme '{{theme}}' will be used instead."
+    },
+    "unavailableReport": "The report '{{name}}' is unavailable.",
+    "unavailableTemplate": "The template '{{name}}' is unavailable.",
+    "upgradeModelError": "The report couldn't be upgraded to the latest model version.",
+    "upgradeModelErrorDetails": "Please fix all the validation errors and save the report. Then re-open this report to upgrade it to the latest model version."
+  },
+  "fonts": {
+    "predefinedFonts": "Predefined Fonts",
+    "serverFonts": "Server Fonts"
+  },
+  "helpInfo": {
+    "title": "{{applicationTitle}} Online Help"
+  },
+  "home": {
+    "backgroundColor": "Background Color",
+    "copy": "Copy",
+    "cut": "Cut",
+    "delete": "Delete",
+    "fontFamily": "Font Family",
+    "fontSize": "Font Size",
+    "fontStyle": "Font Style",
+    "fontWeight": "Font Weight",
+    "paste": "Paste",
+    "textAlignCenter": "Text Align Center",
+    "textAlignJustify": "Text Align Justify",
+    "textAlignLeft": "Text Align Left",
+    "textAlignRight": "Text Align Right",
+    "textColor": "Text Color",
+    "textDecoration": "Text Decoration Underline",
+    "textVerticalAlignBottom": "Text Vertical Align Bottom",
+    "textVerticalAlignMiddle": "Text Vertical Align Middle",
+    "textVerticalAlignTop": "Text Vertical Align Top"
+  },
+  "labels": {
+    "expression": "<Expression>",
+    "expressionCompact": "< 𝑓 >",
+    "none": "<None>"
+  },
+  "menu": {
+    "about": "About",
+    "back": "Back",
+    "close": "Close",
+    "explorer": "Explorer",
+    "groupEditor": "Group Editor",
+    "report": {
+      "preview": "Preview"
+    }
+  },
+  "nameTemplates": {
+    "dataSet": "DataSet",
+    "dataSource": "DataSource",
+    "reportParameter": "Parameter"
+  },
+  "notificationPanel": {
+    "collapse": "Collapse",
+    "dismiss": "Dismiss",
+    "dismissAll": "Dismiss All",
+    "expand": "Expand",
+    "multipleErrors": "Errors",
+    "multipleNotifications": "Notifications",
+    "multipleWarnings": "Warnings",
+    "oneError": "Error",
+    "oneNotification": "Notification",
+    "oneWarning": "Warning",
+    "showDetails": "Show Details"
+  },
+  "overlayMessages": {
+    "checkingReferencedResources": "Checking referenced resources...",
+    "creatingReport": "Creating report...",
+    "gettingReportDataSources": "Getting report data sources...",
+    "gettingReportParameters": "Getting \"{{reportName}}\" report parameters...",
+    "gettingReportStyles": "Getting report styles...",
+    "gettingSemanticModels": "Getting semantic models...",
+    "openingReport": "Opening report...",
+    "preparingReportPreview": "Preparing report preview...",
+    "restoringReport": "Restoring report...",
+    "savingReport": "Saving report...",
+    "updatingSharedDataSets": "Updating server data sets...",
+    "upgradingReportModel": "Upgrading report model..."
+  },
+  "propertiesTab": {
+    "multipleTypesLabel": "<Multiple Types>",
+    "reportItemsItemsLabel": "<Report Items>",
+    "searchBoxPlaceholder": "enter property name here...",
+    "title": "Properties"
+  },
+  "readOnlyBadge": {
+    "label": "Read-Only",
+    "tooltip": "This report is opened as read-only so changes applied to it cannot be saved."
+  },
+  "saveAsDialog": {
+    "cancelLabel": "Cancel",
+    "category": "Category",
+    "commandsSelector": {
+      "commands": {
+        "continuousmode": "Continuous View",
+        "csv": "CSV",
+        "docx": "Word",
+        "excel": "Excel",
+        "exceldata": "Excel Data",
+        "fullscreen": "Fullscreen",
+        "galleymode": "Galley Mode",
+        "history": "History",
+        "html": "HTML",
+        "image": "Image",
+        "json": "JSON",
+        "mousemode": "Mouse Mode",
+        "navigation": "Navigation",
+        "pdf": "PDF",
+        "print": "Print",
+        "refresh": "Refresh",
+        "refreshcache": "Refresh Cache",
+        "search": "Search",
+        "singlepagemode": "Single Page View",
+        "txt": "TXT",
+        "xml": "XML",
+        "zoom": "Zoom"
+      },
+      "title": "Commands"
+    },
+    "commentLabel": "Comment",
+    "errors": {
+      "loadCategories": "Categories list could not be loaded.",
+      "loadCommands": "Commands list could not be loaded.",
+      "loadRoles": "Roles list could not be loaded.",
+      "saveCategories": "Categories could not be saved.",
+      "saveCommands": "Commands could not be saved.",
+      "savePermissions": "Specified permissions could not be saved."
+    },
+    "okLabel": "OK",
+    "permissionsSelector": {
+      "applyMinimumPermissionsLabel": "Apply Minimum Needed Permission",
+      "applyMinimumPermissionsTooltip": "The checked roles/organizations may not have sufficient permissions on the referenced documents to perform the action. \nYou can apply the minimum needed permission to make sure users can preview this document normally.",
+      "permissions": {
+        "execute": "Execute",
+        "export": "Export",
+        "fullControl": "Full Control",
+        "print": "Print",
+        "read": "Read",
+        "readWrite": "Read and Write"
+      },
+      "roleName_Everyone": "Everyone",
+      "roleName_administrator": "Administrator",
+      "roleName_orgadmin": "Organization Administrator",
+      "title": "Permissions",
+      "warnings": {
+        "exportByRole": "The role '{{name}}' does not have 'Export Report' permission.",
+        "exportWithExecute": "Report cannot be exported with 'Execute' access permission.",
+        "printByRole": "The role '{{name}}' does not have 'Print Report' permission.",
+        "printWithExecute": "Report cannot be printed with 'Execute' access permission."
+      }
+    },
+    "publishLabel": "Publish",
+    "report": {
+      "emptyNameTooltip": "Report name cannot contain space-like symbols only.",
+      "errors": {
+        "loadDocuments": "Reports list could not be loaded.",
+        "saveDocument": "Report could not be saved."
+      },
+      "invalidName": "Report name is not valid.",
+      "invalidNameTooltip": "Please do not use restricted symbols '<', '>', '\\', ':', '?', '*', '/', '|', '\"' and do not use '.' as the first symbol.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter report name here...",
+      "saveLabel": "Save",
+      "saving": "Saving Report...",
+      "willBeOverwritten": "Report will be overwritten."
+    },
+    "saveAsTemplate": "Save As Template",
+    "template": {
+      "emptyNameTooltip": "Template name cannot contain space-like symbols only.",
+      "errors": {
+        "loadDocuments": "Templates list could not be loaded.",
+        "saveDocument": "Template could not be saved."
+      },
+      "invalidName": "Template name is not valid.",
+      "invalidNameTooltip": "Please do not use restricted symbols '<', '>', '\\', ':', '?', '*', '/', '|', '\"' and do not use '.' as the first symbol.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter template name here...",
+      "saveLabel": "Save",
+      "saving": "Saving Template...",
+      "willBeOverwritten": "Template will be overwritten."
+    },
+    "title": "Save As"
+  },
+  "saveDialog": {
+    "cancelLabel": "Cancel",
+    "commentLabel": "Comment",
+    "publishLabel": "Publish",
+    "report": {
+      "errors": {
+        "saveDocument": "Report could not be saved."
+      },
+      "saveLabel": "Save Report",
+      "saving": "Saving Report...",
+      "title": "Save Report - {{name}}"
+    },
+    "template": {
+      "errors": {
+        "saveDocument": "Template could not be saved."
+      },
+      "saveLabel": "Save Template",
+      "saving": "Saving Template...",
+      "title": "Save Template - {{name}}"
+    }
+  },
+  "serverApi": {
+    "errors": {
+      "approveReportPublishRequest": "Could not approve a publish request ({{publishRequestId}}) for a report: {{id}}.",
+      "getCategoriesList": "Could not get categories list.",
+      "getDataModelEntities": "Could not get data model entities: {{id}}.",
+      "getDataModelSummary": "Could not get data model summary: {{id}}.",
+      "getDataModelTitle": "Could not get data model title: {{id}}.",
+      "getDataModelsList": "Could not get data models list.",
+      "getDataSetContent": "Could not get data set content: {{id}}.",
+      "getDataSetInfo": "Could not get data set info: {{id}}.",
+      "getDataSetsList": "Could not get data sets list.",
+      "getDataSourceSummary": "Could not get data source summary: {{id}}.",
+      "getDataSourcesList": "Could not get data sources list.",
+      "getDocumentPermissions": "Could not get document ({{documentId}}) permissions.",
+      "getDocumentViewerCommands": "Could not get document ({{documentId}}) viewer commands.",
+      "getFontsList": "Could not get fonts list.",
+      "getImagesList": "Could not get images list.",
+      "getReportContent": "Could not get report content: {{id}}.",
+      "getReportContentVersion": "Could not get report content: {{id}} (version: {{version}}).",
+      "getReportDraftId": "Could not get report draft id: {{id}}.",
+      "getReportInfo": "Could not get report info: {{id}}.",
+      "getReportParameters": "Could not get report parameters: {{id}}.",
+      "getReportingPluginInfo": "Could not get reporting plugin info.",
+      "getReportsList": "Could not get reports list.",
+      "getSharingRolesOrganizationsList": "Could not get sharing roles and organizations list.",
+      "getTemplateContent": "Could not get template content: {{id}}.",
+      "getTemplateContentVersion": "Could not get template content: {{id}} (version: {{version}}).",
+      "getTemplateInfo": "Could not get template info: {{id}}.",
+      "getTemplateParameters": "Could not get template parameters: {{id}}.",
+      "getTemplatesList": "Could not get templates list.",
+      "getThemeContent": "Could not get theme content: {{id}}.",
+      "getThemesList": "Could not get themes list.",
+      "getUserInfo": "Could not get user info.",
+      "getUserRoles": "Could not get user roles.",
+      "getWebFontUrl": "Could not get web font url.",
+      "makeReportPublishRequest": "Could not make a publish request for a report: {{id}}.",
+      "saveExistingReport": "Could not save an existing report: {{id}}.",
+      "saveExistingTemplate": "Could not save an existing template: {{id}}.",
+      "saveNewReport": "Could not save a new report: {{name}}.",
+      "saveNewTemplate": "Could not save a new template: {{name}}.",
+      "saveTemporaryReport": "Could not save a temporary report: {{name}}.",
+      "saveTemporaryTemplate": "Could not save a temporary template: {{name}}.",
+      "setDocumentCategory": "Could not set document ({{documentId}}) category: {{categoryId}}.",
+      "setDocumentRoles": "Could not set document ({{documentId}}) roles.",
+      "setDocumentViewerCommands": "Could not set document ({{documentId}}) viewer commands.",
+      "unsuccessfulStatusCode": "Unsuccessful status code {{status}}."
+    },
+    "publishReportCommitMessage": "Published via Report Designer."
+  },
+  "sideBar": {
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "statusBar": {
+    "dismissNotification": "Dismiss",
+    "grid": "Grid",
+    "propertiesMode": "Properties Mode",
+    "showAdvancedProperties": "Show Advanced Properties",
+    "showBasicProperties": "Show Basic Properties",
+    "snapSettings": {
+      "disabled": "Disabled",
+      "enabled": "Enabled",
+      "gridSize": "Grid Size",
+      "snapToGrid": "Snap To Grid",
+      "snapToGuides": "Snap To Guides"
+    }
+  },
+  "transform": {
+    "badReportItem": "✘ {{sourceType}} '{{itemName}}' couldn't have been transformed to {{resultType}} due to internal issues:",
+    "error": "– [{{errorType}}] {{message}}",
+    "info": "Please find more information on report items transformation at {{link}}.",
+    "report": "The report '{{reportName}}' has been transformed.",
+    "reportItem": "✔ {{sourceType}} '{{itemName}}' has been transformed to {{resultType}}."
+  },
+  "unavailableResources": {
+    "criticalReferencedResources": "Critical referenced resources are unavailable.",
+    "dataModel": "Data model '{{id}}' of version {{version}} is unavailable.",
+    "dataSet": "Server data set '{{id}}' referenced in report data set '{{name}}' is unavailable.",
+    "dataSource": "Server data source '{{id}}' referenced in report data source '{{name}}' is unavailable.",
+    "font": "Font '{{id}}' referenced within report item '{{itemName}}' is unavailable.",
+    "fontInSubitem": "Font '{{id}}' referenced within report item '{{itemName}}' in subitem ({{subitemInfo}}) is unavailable.",
+    "image": "Image '{{id}}' referenced within report item '{{itemName}}' is unavailable.",
+    "imageInSubitem": "Image '{{id}}' referenced within report item '{{itemName}}' in subitem ({{subitemInfo}}) is unavailable.",
+    "referencedResources": "Referenced resources are unavailable.",
+    "report": "Report '{{id}}' referenced within report item '{{itemName}}' is unavailable.",
+    "reportInSubitem": "Report '{{id}}' referenced within report item '{{itemName}}' in subitem ({{subitemInfo}}) is unavailable.",
+    "subitem": {
+      "index": "index: {{index}}",
+      "label": "label: {{label}}",
+      "type": "type: {{type}}",
+      "types": {
+        "chartAxis": "Chart Axis",
+        "chartFooter": "Chart Footer",
+        "chartGlobalLegend": "Chart Global Legend",
+        "chartHeader": "Chart Header",
+        "chartLegend": "Chart Legend",
+        "chartPlot": "Chart Plot",
+        "tableOfContentsLevel": "Table of Contents Level",
+        "unknown": "Unknown"
+      }
+    },
+    "theme": "Theme '{{id}}' is unavailable.",
+    "themeAtIndex": "Theme '{{id}}' at index {{index}} is unavailable.",
+    "titles": {
+      "dataModel": "Data Model",
+      "dataSets": "Data Sets",
+      "dataSources": "Data Sources",
+      "fonts": "Fonts",
+      "images": "Images",
+      "reports": "Reports",
+      "themes": "Themes"
+    }
+  },
+  "unsavedChanges": {
+    "close": "Close",
+    "no": "No",
+    "text": "Would you like to leave designer and discard these changes?",
+    "title": "The report has unsaved changes",
+    "yes": "Yes"
+  },
+  "updateServerDataSets": {
+    "dataSetTitle": "Data Set {{dataSetName}}:",
+    "dataSetUpdatedToVersion": "✔ Updated data set to version #{{version}}",
+    "dataSetsUpdated": "Server data sets have been updated.",
+    "dataTypes": {
+      "Boolean": "Boolean",
+      "Date": "Date",
+      "DateTime": "DateTime",
+      "Float": "Float",
+      "Integer": "Integer",
+      "Number": "Number",
+      "String": "String"
+    },
+    "fields": {
+      "addedFields": "✔ Added fields: {{fields}}",
+      "removedFields": "✔ Removed fields: {{fields}}",
+      "renamedFields": "✔ Renamed fields: {{fields}}",
+      "updatedFieldDataType": "data type is updated: {{dataTypes}}",
+      "updatedFields": "✔ Updated fields: {{fields}}"
+    },
+    "parameters": {
+      "addedQueryParameters": "✔ Added data set query parameters: {{params}}",
+      "addedReportParameters": "✔ Added report parameters: {{params}}",
+      "removedQueryParameters": "✔ Removed data set query parameters: {{params}}",
+      "updatedQueryParameters": "✔ Updated data set query parameters: {{params}}",
+      "updatedReportParameters": "✔ Updated report parameters settings: {{params}}"
+    }
+  },
+  "warning": {
+    "reportConversion": "There have been issues while opening this report:",
+    "reportParameters": "Could not load report parameters.",
+    "unsavedChanges": "The report on this page has unsaved changes."
+  }
+}

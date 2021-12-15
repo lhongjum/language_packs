@@ -1,8 +1,8 @@
 export const portalPL: LanguageKeyValueMap = {
-	'DataProviders!title': 'Dostawcy danych', // Data Providers
-	'DataProviders!description': 'Dostawcy danych', // Data Providers
+	'DataProviders!title': 'Data Providers',
+	'DataProviders!description': 'Data Providers',
+};
 
-	
 export const datasetPL: LanguageKeyValueMap = {
 	DataSourceCategory_All: 'Wszystko', // All
 	DataSourceCategory_RDBMS: 'RDBMS', // RDBMS
@@ -45,9 +45,12 @@ export const datasetPL: LanguageKeyValueMap = {
 	'DataSourceDisplayName!TimeScale': 'TimeScale',
 	'DataSourceDisplayName!GreenPlum': 'GreenPlum',
 	'DataSourceDisplayName!TiDB': 'TiDB',
-	'DataSourceDisplayName!ALIAnalyticDBMySql': 'ALIAnalyticDBMySql',
+	'DataSourceDisplayName!ALIAnalyticDBMySql': 'AnalyticDB(MySQL)',
 	'DataSourceDisplayName!Kingbase': 'Kingbase',
 	'DataSourceDisplayName!Hana': 'Hana',
+	'DataSourceDisplayName!BigQuery': 'BigQuery',
+	'DataSourceDisplayName!Db2': 'DB2',
+	'DataSourceDisplayName!Db2 iSeries': 'DB2 iSeries/AS400',
 
 	'err_5001': 'Nie można połączyć się z serwerem proxy JDBC.', // Can not connect to JDBC proxy.
 };

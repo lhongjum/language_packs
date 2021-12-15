@@ -1,0 +1,20 @@
+{
+  "dvchartHeader": "Nagłówek",
+  "dvchartPlotArea": "Obszar kreślenia",
+  "dvchartGlobalLegend": "Ogólna legenda",
+  "dvchartFooter": "Stopka",
+  "dvchartPlot": "Wykres",
+  "dvchartXAxis": "Oś X",
+  "dvchartYAxis": "Oś Y",
+  "dvchartColorLegend": "Legenda - kolor",
+  "dvchartShapeLegend": "Legenda - kształt",
+  "dvchartSizeLegend": "Legenda - rozmiar",
+  "page": "Strona",
+  "report": "Raport",
+  "body": "Treść",
+  "pageHeader": "Nagłówek strony",
+  "pageFooter": "Stopka strony",
+  "dvchartPlotRuleNoProps": "Brak właściwości",
+  "dvchartPlotRuleNoCondition": "Pusty warunek",
+  "total": "Suma"
+}

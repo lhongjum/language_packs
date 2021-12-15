@@ -12,23 +12,23 @@
 	historyTabDescription: 'Historia wykonania zaplanowanych zadań', // Scheduled task execution history
 
 	// Tasks Tab
-	tasksTabHeader: 'Zaplanowane zadania', // Scheduled Tasks
+	tasksTabHeader: 'Zaplanowane Zadania', // Scheduled Tasks
 	tasksTabNoTasks: 'Brak zaplanowanych zadań dla tego dokumentu', // There are no scheduled tasks for this document
-	tasksTabBtnAddTask: 'Dodaj zadanie', // Add Task
+	tasksTabBtnAddTask: 'Dodaj Zadanie', // Add Task
 
 	// Task Item
-	taskItemRunBtnTitle: 'Uruchom zadanie', // Run Task
+	taskItemRunBtnTitle: 'Uruchom Zadanie', // Run Task
 	taskItemMenuBtnTitle: 'Operacje', // Actions
 	taskItemMenuEnableText: 'Włącz', // Enable
-	taskItemMenuEnableTitle: 'Włącz zadanie', // Enable Task
+	taskItemMenuEnableTitle: 'Włącz Zadanie', // Enable Task
 	taskItemMenuDisableText: 'Wyłącz', // Disable
-	taskItemMenuDisableTitle: 'Wyłącz zadanie', // Disable Task
+	taskItemMenuDisableTitle: 'Wyłącz Zadanie', // Disable Task
 	taskItemMenuEditText: 'Edytuj', // Edit
-	taskItemMenuEditTitle: 'Edytuj zadanie', // Edit Task
+	taskItemMenuEditTitle: 'Edytuj Zadanie', // Edit Task
 	taskItemMenuDeleteText: 'Usuń', // Delete
-	taskItemMenuDeleteTitle: 'Usuń zadanie', // Delete Task
+	taskItemMenuDeleteTitle: 'Usuń Zadanie', // Delete Task
 	taskItemMenuDuplicateText: 'Duplikuj', // Duplicate
-	taskItemMenuDuplicateTitle: 'Zduplikuj zadanie', // Duplicate Task
+	taskItemMenuDuplicateTitle: 'Duplicate Task',
 	taskItemTextNextRun: 'Następne uruchomienie:', // Next run:
 	taskItemTextManually: 'Ręcznie', // Manually
 	taskItemTextNever: 'Nigdy', // Never
@@ -36,11 +36,11 @@
 
 	// Task Editor
 	taskNoScheduleTemplateTip: 'brak szablonu harmonogramu', // no schedule template
-	taskEditorCloneFromTemplate: 'Użyj szablonu', // Use Template
-	taskEditorChooseTemplate: 'Wybierz szablon', // Choose Template
+	taskEditorCloneFromTemplate: 'Użyj Szablonu', // Use Template
+	taskEditorChooseTemplate: 'Wybierz Szablon', // Choose Template
 	taskEditorTemplateHasBeenDeleted: 'Szablon został usunięty', // Template has been deleted
 	taskEditorHeaderDetails: 'Szczegóły', // Details
-	taskEditorInputPlaceholderDescription: 'Opis zadania', // Task description
+	taskEditorInputPlaceholderDescription: 'Opis Zadania', // Task description
 	taskEditorLabelTaskType: 'Typ zadania', // Task Type
 	taskEditorRefreshTask: 'Odśwież', // Refresh
 	taskEditorCleanupTask: 'Sprzątnij', // Cleanup
@@ -53,10 +53,10 @@
 	taskEditorExecutionScheduled: 'Zaplanowane', // Scheduled
 	taskEditorCleanupExpiryPeriod: 'Okres ważności', // Expiry Period
 	taskEditorLabelStart: 'Start', // Start
-	taskEditorBtnCreateText: 'Utwórz zadanie', // Create Task
-	taskEditorBtnUpdateText: 'Zaktualizuj zadanie', // Update Task
+	taskEditorBtnCreateText: 'Utwórz Zadanie', // Create Task
+	taskEditorBtnUpdateText: 'Zaktualizuj Zadanie', // Update Task
 	taskEditorBtnCancelText: 'Anuluj', // Cancel
-	taskEditorLabelMail: 'Powiadomienie email', // Email Notification
+	taskEditorLabelMail: 'Powiadomienie Email', // Email Notification
 	taskEditorLabelMailLabel: 'Wprowadź powiadomienie e-mail', // Please enter email notification
 	taskEditorLabelMailTooltip: 'Wyślij wiadomość na określoną skrzynkę pocztową jeśli zadanie zakończy się niepowodzeniem', // Send the failure message to the specified mailbox when the task execute fail
 	taskEditorMailLabelInvalidDomainTip: 'Nieprawidłowa domena email', // Invalid Email Domain
@@ -73,7 +73,7 @@
 	recEditorHeaderRepeat: 'Powtarzaj', // Repeat
 	recEditorLabelStart: 'Start', // Start
 	recEditorLabelEnd: 'Koniec', // End
-	recEditorPlaceholderNoEndDate: 'Brak daty końcowej', // No End Date
+	recEditorPlaceholderNoEndDate: 'Brak Daty Końcowej', // No End Date
 	recEditorDailyEditor: 'Dziennie', // Daily
 	recEditorWeeklyEditor: 'Tygodniowo', // Weekly
 	recEditorMonthlyEditor: 'Miesięcznie', // Monthly

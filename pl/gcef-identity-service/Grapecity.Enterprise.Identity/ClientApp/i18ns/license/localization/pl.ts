@@ -25,6 +25,11 @@
 	UserName_Text: 'Nazwa Użytkownika', // UserName:
 	UserName_Value: 'admin',
 	YouAreOffline: 'Nie można połączyć z siecią, lub jesteś w trybie offline. Prosimy o kontakt', // Could not connect to net, you are in offline mode, please contact us.
+	CopyContent: 'Copy Content',
+	CopySucceed: 'Copy succeed.',
+	CopyFailed: 'Copy Failed.',
+	gtGenerateQRCode: 'Generate QRCode',
+	gtQRCodeGetOfflineLicenseString: 'Scan the QR code to get the offline authorization text',
 
 	// Common
 	Add: 'Dodaj', // Add
@@ -44,12 +49,15 @@
 	LicenseActiveResultCode_2003: "Przekroczono maksymalną liczbę aktywacji", // "Exceeds the maximum activation count.",
 	LicenseActiveResultCode_2004: "Licencja została już aktywowana", // "License is already activated",
 	LicenseActiveResultCode_2005: "Wersja klucza jest niezgodna z wersją aplikacji.", // "Key's version did not match current version.",
-	LicenseActiveResultCode_2006: "Pusty Klucz", // "Empty Key",
-	LicenseActiveResultCode_2007: "Zawartość licencji jest nieprawidłowa.", // "License content is not valid.",
+	LicenseActiveResultCode_2006: "The node count of the key is inconsistent with the deployment method.",
+
 	LicenseActiveResultCode_3000: "Deaktywacja nie powiodła się", // "Deactivation Failed",
 	LicenseActiveResultCode_3001: "Licencja próbna nie może zostać aktywowana", // "Trial license cannot be deactivated",
 	LicenseActiveResultCode_3002: "Informacje aktywacji są niezgodne", // "Activation info not matched.",
 	LicenseActiveResultCode_3011: "Informacje deaktywacji nie pasują do tokenu", // "Deactive info not match Token",
 	LicenseActiveResultCode_3012: "Informacje deaktywacji nie pasują do urządzenia", // "Deactive info not match machine",
 	LicenseActiveResultCode_3013: "Informacje deaktywacji nie pasują do ID komputera", // "Deactive info not match computerId",
+	
+	LicenseActiveResultCode_12006: "Empty Key",
+	LicenseActiveResultCode_12007: "License content is not valid.",
 }

@@ -3,7 +3,7 @@ export const portalResourcePL: LanguageKeyValueMap = {
 	'shortcut-categories!props!text': 'Kategorie', // Categories
 	'shortcut-categories!title': 'Skrót do kategorii', // Categories Shortcut
 	'geojson-storge-management!title': 'GeoJson', // GeoJson
-	'geojson-storge-management!description': 'Zarządzanie pamięcią masową GeoJson', // GeoJson Storge Management
+	'geojson-storge-management!description': 'GeoJson Storage Management', // GeoJson Storge Management
 	'shortcut-themes!description': '',
 	'shortcut-themes!props!text': 'Motywy', // Themes
 	'shortcut-themes!title': 'Skrót do motywów', // Themes Shortcut

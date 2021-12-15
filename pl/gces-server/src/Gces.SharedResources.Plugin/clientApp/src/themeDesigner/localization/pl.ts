@@ -21,7 +21,7 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	'edit-theme!title': 'Edytuj motyw', // Edit Theme
 
 	// recommend theme
-	recommendTitle: 'Zacznij od przykładowego motywu', // Start from a sample theme
+	recommendTitle: 'Start from a sample theme', // Start from a sample theme
 
 	// designer modal
 	loadThemeError: 'Nie udało się załadować motywu', // Load theme failed
@@ -37,8 +37,8 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	ThemeNameError: 'Nazwa motywu jest nieprawidłowa. Nie używaj zastrzeżonych symboli < > \ : ? * / | " oraz . (kropka), jako pierwszych znaków w nazwie motywu.', // The theme name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the theme name.'
 
 	// Visual Designer
-	colorsSetting: 'Ustawienia kolorów', // Colors Settings
-	fontsSetting: 'Ustawienia czcionek', // Fonts Settings
+	colorsSetting: 'Colors Settings', // Colors Settings
+	fontsSetting: 'Fonts Settings', // Fonts Settings
 	majorFont: 'Główna czczionka', // Major Font
 	minorFont: 'Poboczna czcionka', // Minor Font
 	accent1: 'Akcent1', // Accent1
@@ -66,7 +66,7 @@ export const shareResourcePL: LanguageKeyValueMap = {
 	FontStyleNormal: 'Standardowa', // Normal
 	FontStyleItalic: 'Kursywa', // Italic
 	FontStyleOblique: 'Ukośna', // Oblique
-	FontWeightNormal: 'Standardowa', // Normal
+	FontWeightNormal: 'Stnadardowa', // Normal
 	FontWeightBold: 'Pogrubiona', // Bold
 	FontWeightBolder: 'Zwiększ pogrubienie', // Bolder
 	FontWeightLighter: 'Zmniejsz pogrubienie', // Lighter

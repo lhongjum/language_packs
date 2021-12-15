@@ -636,6 +636,17 @@
 		"link": ""
 	},
 	{
+		"name": "GetItem",
+		"category": "Różne",
+		"syntax": [
+			"GetItem(array, index)"
+		],
+		"description": [
+			"Get the object whose index is specified in the given array."
+		],
+		"link": ""
+	},
+	{
 		"name": "Asc",
 		"category": "Tekstowe",
 		"syntax": [

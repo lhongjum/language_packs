@@ -1,0 +1,20 @@
+{
+  "dvchartHeader": "Header",
+  "dvchartPlotArea": "Plot Area",
+  "dvchartGlobalLegend": "Global Legend",
+  "dvchartFooter": "Footer",
+  "dvchartPlot": "Plot",
+  "dvchartXAxis": "X Axis",
+  "dvchartYAxis": "Y Axis",
+  "dvchartColorLegend": "Legend - Color",
+  "dvchartShapeLegend": "Legend - Shape",
+  "dvchartSizeLegend": "Legend - Size",
+  "page": "Page",
+  "report": "Report",
+  "body": "Body",
+  "pageHeader": "Page Header",
+  "pageFooter": "Page Footer",
+  "dvchartPlotRuleNoProps": "No Properties",
+  "dvchartPlotRuleNoCondition": "Empty Condition",
+  "total": "Total"
+}

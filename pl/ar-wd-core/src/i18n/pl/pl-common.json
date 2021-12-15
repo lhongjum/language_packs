@@ -1,0 +1,19 @@
+{
+  "textEnabled": "Włączone",
+  "textDisabled": "Wyłączone",
+  "units": {
+    "cm": {
+      "textShortName": "cm",
+      "textFullName": "Centymetry"
+    },
+    "in": {
+      "textShortName": "cal",
+      "textFullName": "Cale"
+    }
+  },
+  "btnOk": "OK",
+  "btnCancel": "Anuluj",
+  "btnAdd": "Dodaj",
+  "btnSave": "Zapisz",
+  "textOpen": "Otwórz..."
+}

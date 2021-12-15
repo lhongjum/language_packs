@@ -1,0 +1,77 @@
+{
+  "buttons": {
+    "btnNext": "Next",
+    "btnBack": "Back",
+    "btnFinish": "Finish",
+    "btnCancel": "Cancel"
+  },
+  "titleSelectType": "Select Data and Chart type",
+  "titleSettings": "Settings",
+  "titlePreview": "Preview",
+  "titleChartWizard": "Chart Wizard",
+  "textTypeStep": "Data and Type",
+  "textPreviewStep": "Preview",
+  "templates": {
+    "types": {
+      "column": "Column",
+      "bar": "Bar",
+      "line": "Line",
+      "area": "Area",
+      "pie": "Pie",
+      "doughnut": "Doughnut",
+      "polarColumn": "Spiral",
+      "polarBar": "Polar",
+      "radarArea": "Radar Area",
+      "radarBubble": "Radar Bubble",
+      "radarScatter": "Radar Scatter",
+      "radarLine": "Radar Line",
+      "pyramid": "Pyramid",
+      "funnel": "Funnel",
+      "bubble": "Bubble",
+      "scatter": "Scatter",
+      "gantt": "Gantt",
+      "candlestick": "Candlestick",
+      "highLowClose": "High Low Close",
+      "highLowOpenClose": "High Low Open Close"
+    }
+  },
+  "textCustom": "Custom",
+  "labelSelectPalette": "Select chart palette",
+  "textAdvancedCustomization": "Advanced Customization",
+  "customization": {
+    "labels": {
+      "area": "Area",
+      "header": "Header",
+      "axisX": "X axis",
+      "axisY": "Y axis",
+      "legend": "Legend",
+      "plot": "Plot Settings",
+      "footer": "Footer"
+    }
+  },
+  "textEmpty": "Empty",
+  "labelSelectDataSet": "Select Data Set",
+  "settings": {
+    "categories": {
+      "values": "Data values",
+      "category": "Data categories",
+      "subcategory": "Data subcategories"
+    },
+    "labels": {
+      "fields": "Fields",
+      "field": "Field",
+      "sortDirection": "Sort Direction",
+      "group": "Break-down method",
+      "fieldX": "X Field",
+      "fieldY": "Y Field",
+      "fieldSize": "Size Field",
+      "fieldStart": "Start Field",
+      "fieldEnd": "End Field",
+      "fieldHigh": "High Field",
+      "fieldLow": "Low Field",
+      "fieldOpen": "Open Field",
+      "fieldClose": "Close Field",
+      "aggregate": "Aggregate"
+    }
+  }
+}

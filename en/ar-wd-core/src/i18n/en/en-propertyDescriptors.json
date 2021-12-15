@@ -1,0 +1,770 @@
+{
+  "labels": {
+    "border": {
+      "width": "Width",
+      "style": "Style",
+      "color": "Color",
+      "bottom": "Bottom",
+      "default": "Default",
+      "left": "Left",
+      "right": "Right",
+      "top": "Top"
+    },
+    "roundingRadius": {
+      "bottomLeft": "Bottom Left",
+      "bottomRight": "Bottom Right",
+      "default": "Default",
+      "label": "Rounding Radius",
+      "topLeft": "Top Left",
+      "topRight": "Top Right"
+    },
+    "dvchart": {
+      "plotTemplateDropdown": "Select...",
+      "bar": {
+        "bottomWidth": "Bottom Width",
+        "neckHeight": "Neck Height",
+        "overlap": "Overlap",
+        "topWidth": "Top Width",
+        "width": "Width"
+      },
+      "customPaletteColors": "Custom Palette Colors",
+      "legendHidden": "Hidden",
+      "legendOrientation": "Orientation",
+      "legendPosition": "Position",
+      "legendWrapping": "Wrapping",
+      "palette": "Palette",
+      "plotTemplate": "Plot Template",
+      "plots": "Plots"
+    },
+    "dvchartPlotRules": {
+      "targetProperty": "Target Property",
+      "valueRuleProperties": "Value",
+      "condition": "Condition",
+      "ruleProperties": "Rule Properties"
+    },
+    "parameter": {
+      "omit": "Omit",
+      "parametername": "Parameter Name",
+      "parameters": "Parameters",
+      "value": "Value"
+    },
+    "multipleValues": "<Multiple Values>",
+    "overflowPlaceHolder": {
+      "overflowName": "Overflow Name"
+    },
+    "padding": {
+      "bottom": "Bottom",
+      "left": "Left",
+      "right": "Right",
+      "top": "Top"
+    },
+    "pageSection": {
+      "printOnFirstPage": "Print On First Page",
+      "printOnLastPage": "Print On Last Page"
+    },
+    "report": {
+      "author": "Author",
+      "collateBy": "Collate By",
+      "columnSpacing": "Column Spacing",
+      "columns": "Columns",
+      "consumeContainerWhitespace": "Consume White Space",
+      "description": "Description",
+      "displayType": "Display Type",
+      "embeddedImages": "Embedded Images",
+      "language": "Language",
+      "layers": "Layers",
+      "level": "Level",
+      "levels": "Levels",
+      "marginsSizes": "Sizes",
+      "marginsStyle": "Style",
+      "numberingStyle": "Numbering Style",
+      "pageHeight": "Page Height",
+      "pageOrientation": "Page Orientation",
+      "pageSize": "Page Size",
+      "pageWidth": "Page Width",
+      "sizeType": "Size Type",
+      "source": "Source",
+      "startPageNumber": "Start Page Number",
+      "theme": "Theme",
+      "themes": "Themes"
+    },
+    "reportItem": {
+      "actionType": "Type",
+      "bookmark": "Bookmark",
+      "keepTogether": "Keep Together",
+      "label": "Label",
+      "layerName": "Layer Name",
+      "name": "Name",
+      "pageName": "Page Name",
+      "style": "Style",
+      "toolTip": "Tooltip",
+      "visibility": "Visibility",
+      "zIndex": "Z-Index"
+    },
+    "reportParameter": {
+      "allowBlankValue": "Allow Blank Value",
+      "allowNullValue": "Allow Null Value",
+      "dataSetName": "Data Set Name",
+      "dataType": "Data Type",
+      "hidden": "Hidden",
+      "label": "Label",
+      "labelField": "Label Field",
+      "multiline": "Multiline",
+      "multivalue": "Multivalue",
+      "name": "Name",
+      "parameterValues": "Parameter Values",
+      "prompt": "Prompt",
+      "selectAllValue": "Select All Value",
+      "selectAllValue_help": {
+        "text": "If specified, determines the value to be passed to parameter value in case \"Select All\" flag is set for multivalue parameter."
+      },
+      "value": "Value",
+      "valueField": "Value Field",
+      "values": "Values"
+    },
+    "richtext": {
+      "canGrow": "Can Grow",
+      "markup": "Markup Type",
+      "value": "Value"
+    },
+    "sparkline": {
+      "fillColor": "Fill Color",
+      "gradientEndColor": "Gradient End Color",
+      "gradientStyle": "Gradient Type",
+      "lineColor": "Line Color",
+      "lineWidth": "Line Width",
+      "markerColor": "Marker Color",
+      "markerVisibility": "Marker Visibility",
+      "maximumColumnWidth": "Maximum Width",
+      "rangeFillColor": "Fill Color",
+      "rangeGradientEndColor": "Gradient End Color",
+      "rangeGradientStyle": "Gradient Type",
+      "rangeLowerBound": "Lower Bound",
+      "rangeUpperBound": "Upper Bound",
+      "rangeVisibility": "Visibility",
+      "seriesValue": "Series Value",
+      "sparklineType": "Sparkline Type"
+    },
+    "style": {
+      "angle": "Angle",
+      "backgroundAndBorders": "Background & Borders",
+      "backgroundColor": "Color",
+      "backgroundGradientEndColor": "Gradient End Color",
+      "backgroundGradientType": "Gradient Type",
+      "backgroundImage": "Image",
+      "border": "Border",
+      "calendar": "Calendar",
+      "characterSpacing": "Character Spacing",
+      "color": "Color",
+      "corner": "Corner",
+      "direction": "Direction",
+      "font": "Font",
+      "format": "Format",
+      "headingLevel": "Heading Level",
+      "language": "Language",
+      "lineHeight": "Line Height",
+      "lineSpacing": "Line Spacing",
+      "maxLevel": "Max Level",
+      "minCondenseRate": "Min Condense Rate",
+      "minCondenseRate_help": {
+        "text": "Specifies the minimal rate of text horizontal shrinking in percentages. Should be between 10 and 100."
+      },
+      "numeralLanguage": "Numeral Language",
+      "numeralVariant": "Numeral Variant",
+      "padding": "Padding",
+      "shapeStyle": "Shape Style",
+      "shrinkToFit": "Shrink To Fit",
+      "textAlign": "Text Align",
+      "textDecoration": "Text Decoration",
+      "textIndent": "Text Indent",
+      "textJustify": "Text Justify",
+      "unicodeBiDi": "Unicode BiDi",
+      "uprightInVerticalText": "Upright In Vertical Text",
+      "verticalAlign": "Vertical Align",
+      "wrapMode": "Wrap Mode",
+      "writingMode": "Writing Mode"
+    },
+    "subreport": {
+      "inheritStyleSheet": "Inherit Style Sheet",
+      "mergeTransactions": "Merge Transactions",
+      "reportName": "Report Name",
+      "reportParameters": "Report Parameters",
+      "substituteThemeOnSubreport": "Substitute Theme On Subreport"
+    },
+    "table": {
+      "autoWidth": "Auto Width",
+      "detailsDataCollectionName": "Details Data Collection Name",
+      "detailsDataElementName": "Details Data Element Name",
+      "detailsDataElementOutput": "Details Data Element Output",
+      "keepTogether": "Keep Together",
+      "preventOrphanedFooter": "Prevent Orphaned Footer",
+      "printAtBottom": "Print At Bottom",
+      "repeatOnNewPage": "Repeat On New Page"
+    },
+    "tablix": {
+      "frozenColumns": "Frozen Columns",
+      "frozenRows": "Frozen Rows",
+      "groupsBeforeRowHeaders": "Groups Before Row Headers",
+      "layoutDirection": "Layout Direction",
+      "repeatColumnHeaders": "Repeat Column Headers",
+      "repeatRowHeaders": "Repeat Row Headers"
+    },
+    "tablixBodyCell": {
+      "autoMergeMode": "Auto Merge Mode",
+      "autoMergeMode_help": {
+        "text": "Indicates whether two or more continuous cells in a column having the same content should be merged. It would work only for TextBox cell."
+      }
+    },
+    "tablixMember": {
+      "groupEnabled": "Enabled",
+      "keepWithGroup": "Keep With Group",
+      "repeatOnNewPage": "Repeat On New Page"
+    },
+    "textbox": {
+      "canGrow": "Can Grow",
+      "canShrink": "Can Shrink",
+      "initialToggleState": "Initial Toggle State",
+      "value": "Value"
+    },
+    "tocLevel": {
+      "displayFillCharacters": "Display Fill Character",
+      "displayPageNumber": "Display Page Number",
+      "fillCharacter": "Fill Character",
+      "label": "Label"
+    },
+    "userSort": {
+      "sortExpression": "Sort Expression",
+      "sortExpressionScope": "Sort Expression Scope",
+      "sortTarget": "Sort Target"
+    },
+    "visibility": {
+      "hidden": "Hidden",
+      "toggleItem": "Toggle Item"
+    },
+    "empty": "<Empty>",
+    "filter": {
+      "filterExpression": "Filter Expression",
+      "filterValues": "Filter Values",
+      "operator": "Operator",
+      "value": "Value"
+    },
+    "font": {
+      "fontFamily": "Font Family",
+      "fontSize": "Font Size",
+      "fontStyle": "Font Style",
+      "fontWeight": "Font Weight"
+    },
+    "formattedText": {
+      "encodeMailMergeFields": "Encode Merge Fields",
+      "html": "Html",
+      "mailMergeFields": "Merge Fields"
+    },
+    "fplReport": {
+      "fixedElementName": "Fixed Page Element Name",
+      "fixedElementOutput": "Fixed Page Element Output"
+    },
+    "group": {
+      "dataCollectionName": "Data Collection Name",
+      "dataElementName": "Data Element Name",
+      "dataElementOutput": "Data Element Output",
+      "documentMapLabel": "Label",
+      "filters": "Filters",
+      "groupExpressions": "Group Expressions",
+      "name": "Name",
+      "newSection": "New Section",
+      "pageBreak": "Page Break",
+      "pageBreakDisabled": "Page Break Disabled",
+      "newPage": "New Page",
+      "parent": "Parent",
+      "printFooterAtBottom": "Print Footer At Bottom"
+    },
+    "inputField": {
+      "checkSize": "Check Size",
+      "checkStyle": "Check Style",
+      "checked": "Checked",
+      "fieldName": "Field Name",
+      "inputType": "Type",
+      "maxLength": "Max Length",
+      "multiline": "Multiline",
+      "password": "Password",
+      "readonly": "Read-Only",
+      "required": "Required",
+      "spellCheck": "Spell-Check",
+      "value": "Value"
+    },
+    "layer": {
+      "designerDataFieldVisible": "Field Selector Availability",
+      "designerLock": "Designer Lock",
+      "designerTransparency": "Designer Transparency",
+      "designerVisible": "Designer Visible",
+      "name": "Name",
+      "targetDevice": {
+        "all": "All",
+        "export": "Export",
+        "paper": "Paper",
+        "screen": "Screen"
+      }
+    },
+    "line": {
+      "endPoint": "End Point",
+      "lineColor": "Line Color",
+      "lineStyle": "Line Style",
+      "lineWidth": "Line Width",
+      "startPoint": "Start Point"
+    },
+    "list": {
+      "consumeWhiteSpace": "Consume White Space",
+      "dataInstanceElementOutput": "Data Instance Element Output",
+      "dataInstanceName": "Data Instance Name",
+      "gridMode": "Grid Mode"
+    },
+    "margins": {
+      "bottom": "Bottom",
+      "left": "Left",
+      "right": "Right",
+      "top": "Top"
+    },
+    "dataVisualizer": {
+      "colorScale": {
+        "maximum": "Maximum",
+        "maximumColor": "Maximum Color",
+        "middle": "Middle",
+        "middleColor": "Middle Color",
+        "minimum": "Minimum",
+        "minimumColor": "Minimum Color",
+        "useMiddleColor": "Use Middle Color",
+        "value": "Value"
+      },
+      "dataBar": {
+        "alternateColor": "Alternate Color",
+        "color": "Color",
+        "maximum": "Maximum",
+        "minimum": "Minimum",
+        "useAlternateColor": "Use Alternate Color",
+        "useAlternateColor_help": {
+          "text": "If enabled, 'Alternate Color' will be used when 'Value' is less than 'Zero Value'"
+        },
+        "value": "Value",
+        "zeroValue": "Zero Value"
+      },
+      "gradient": {
+        "color1": "Color 1",
+        "color2": "Color 2",
+        "gradientType": "Gradient Type"
+      },
+      "hatch": {
+        "color1": "Color 1",
+        "color2": "Color 2",
+        "hatchStyle": "Hatch Style"
+      },
+      "iconSet": {
+        "icon1Value": "Icon 1 Value",
+        "icon2Value": "Icon 2 Value",
+        "icon3Value": "Icon 3 Value",
+        "icon4Value": "Icon 4 Value",
+        "icon5Value": "Icon 5 Value",
+        "iconSet": "Icon Set"
+      },
+      "rangeBar": {
+        "color": "Color",
+        "displayProgressIndicator": "Display Progress Indicator",
+        "length": "Length",
+        "maximum": "Maximum",
+        "minimum": "Minimum",
+        "progressIndicatorColor": "Progress Indicator Color",
+        "progressIndicatorLength": "Progress Indicator Length",
+        "startingValue": "Starting Value"
+      },
+      "visualizerType": "Visualizer Type"
+    },
+    "dimensions": {
+      "bottom": "Bottom",
+      "endPointX": "End Point X",
+      "endPointY": "End Point Y",
+      "fixedHeight": "Fixed Height",
+      "fixedSize": "Fixed Size",
+      "fixedWidth": "Fixed Width",
+      "height": "Height",
+      "left": "Left",
+      "location": "Location",
+      "right": "Right",
+      "size": "Size",
+      "startPointX": "Start Point X",
+      "startPointY": "Start Point Y",
+      "top": "Top",
+      "width": "Width"
+    },
+    "dvchartAxis": {
+      "axisType": "Axis Type",
+      "gridLinesStyle": "Grid Line Style",
+      "labelAngle": "Label Angle",
+      "lineStyle": "Line Style",
+      "logBase": "Log Base",
+      "majorInterval": "Major Interval",
+      "max": "Max",
+      "min": "Min",
+      "minorInterval": "Minor Interval",
+      "origin": "Origin",
+      "overlappingLabels": "Overlapping Labels",
+      "plots": "Plots",
+      "position": "Position",
+      "reversed": "Reversed",
+      "scale": "Scale Type",
+      "showGridLines": "Show Grid Lines",
+      "showMajorGridLines": "Major Grid Lines",
+      "showMinorGridLines": "Minor Grid Lines",
+      "tickMarks": "Tick Marks",
+      "tickSize": "Tick Size",
+      "tickStyle": "Tick Style",
+      "title": "Title",
+      "visible": "Visible"
+    },
+    "dvchartEncoding": {
+      "aggregateType": "Aggregate",
+      "excludeNulls": "Exclude Nulls",
+      "fieldType": "Field Type",
+      "fieldValue": "Value",
+      "group": "Group",
+      "sort": "Sort Direction",
+      "sortingAggregate": "Sorting Aggregate",
+      "sortingField": "Sort Expression",
+      "value": "Values"
+    },
+    "dvchartHeaderFooter": {
+      "caption": "Caption",
+      "height": "Height"
+    },
+    "dvchartLegend": {
+      "hidden": "Hidden",
+      "iconColor": "Icon Color",
+      "maxHeight": "Max Height",
+      "maxWidth": "Max Width",
+      "orientation": "Orientation",
+      "position": "Position",
+      "title": "Title"
+    },
+    "dvchartPlot": {
+      "axisMode": "Axis Mode",
+      "bar": "Bar Lines",
+      "category": "Category",
+      "categorySort": "Category Sort Direction",
+      "categorySortingAggregate": "Category Sorting Aggregate",
+      "categorySortingField": "Category Sort Expression",
+      "clippingMode": "Clipping Mode",
+      "color": "Color",
+      "colorAggregate": "Color Aggregate",
+      "details": "Details",
+      "innerRadius": "Inner Radius",
+      "lineAspect": "Line Aspect",
+      "lineColor": "Line Color",
+      "lineStyle": "Line Style",
+      "lineWidth": "Line Width",
+      "offset": "Offset",
+      "opacity": "Opacity",
+      "plotStyle": "Plot Style",
+      "radial": "Radial",
+      "rules": "Rules",
+      "shape": "Shape",
+      "shapeAggregate": "Shape Aggregate",
+      "showNulls": "Show Nulls",
+      "size": "Size",
+      "sizeAggregate": "Size Aggregate",
+      "startAngle": "Start Angle",
+      "swapAxes": "Swap Axes",
+      "sweep": "Sweep",
+      "symbolBackgroundColor": "Background Color",
+      "symbolOpacity": "Symbol Opacity",
+      "symbolShape": "Symbol Shape",
+      "symbolStyle": "Symbol Style",
+      "symbols": "Show Symbols",
+      "text": "Text",
+      "textBackgroundColorStyle": "Background Color",
+      "textConnectingLine": "Connecting Line",
+      "textLinePosition": "Position",
+      "textOffset": "Offset",
+      "textOverlappingLabels": "Overlapping Labels",
+      "textPosition": "Position",
+      "textTemplate": "Template",
+      "tooltip": "Tooltip",
+      "tooltipTemplate": "Tooltip Template",
+      "type": "Plot Type",
+      "unpivotData": "Unpivot Data",
+      "values": "Values"
+    },
+    "dvchartPlotArea": {
+      "axes": "Axes"
+    },
+    "dvchartValueEncoding": {
+      "field": {
+        "close": "Close",
+        "high": "High",
+        "low": "Low",
+        "lower": "Lower",
+        "open": "Open",
+        "upper": "Upper",
+        "value": "Value"
+      }
+    },
+    "checkBox": {
+      "checkAlignment": "Check Alignment",
+      "checked": "Checked",
+      "text": "Text"
+    },
+    "container": {
+      "consumeWhiteSpace": "Consume White Space",
+      "gridMode": "Grid Mode",
+      "linkToChild": "Link To Child",
+      "pageBreak": "Page Break",
+      "newPage": "New Page"
+    },
+    "data": {
+      "dataElementName": "Element Name",
+      "dataElementOutput": "Element Output",
+      "dataElementStyle": "Element Style"
+    },
+    "dataRegion": {
+      "dataSetName": "Data Set Name",
+      "dataSetParameters": "Data Set Parameters",
+      "dataSetParameters_help": {
+        "text": "Setting a parameter in the DataSetParameters property allows adding relationships for displaying data in nested data regions that are bound to different datasets."
+      },
+      "filters": "Filters",
+      "newSection": "New Section",
+      "noRowsMessage": "Message",
+      "overflowName": "Overflow Name",
+      "pageBreak": "Page Break",
+      "newPage": "New Page",
+      "repeatToFill": "Repeat To Fill",
+      "sortExpressions": "Sort Expressions",
+      "throwIfPlaceHoldersEmpty": "Throw If Placeholders Empty"
+    },
+    "dataSet": {
+      "accentSensitivity": "Accent Sensitivity",
+      "boundFields": "Bound Fields",
+      "calculatedFields": "Calculated Fields",
+      "caseSensitivity": "Case Sensitivity",
+      "collation": "Collation",
+      "commandType": "Command Type",
+      "fields": "Fields",
+      "filters": "Filters",
+      "kanatypeSensitivity": "Kanatype Sensitivity",
+      "name": "Name",
+      "parameters": "Parameters",
+      "query": "Query",
+      "widthSensitivity": "Width Sensitivity"
+    },
+    "dataSetParameter": {
+      "name": "Name",
+      "value": "Value"
+    },
+    "bullet": {
+      "bestValue": "Best Value",
+      "interval": "Interval",
+      "labelFontColor": "Font Color",
+      "labelFontFamily": "Font Family",
+      "labelFontSize": "Font Size",
+      "labelFontStyle": "Font Style",
+      "labelFormat": "Label Format",
+      "orientation": "Orientation",
+      "range1Boundary": "Range1 Boundary",
+      "range2Boundary": "Range2 Boundary",
+      "showLabels": "Show Labels",
+      "targetLineColor": "Color",
+      "targetLineWidth": "Line Width",
+      "targetShape": "Shape",
+      "targetValue": "Target Value",
+      "tickMarks": "Marks",
+      "ticksLineColor": "Color",
+      "ticksLineWidth": "Line Width",
+      "value": "Value",
+      "valueColor": "Value Color",
+      "worstValue": "Worst Value"
+    },
+    "barcode": {
+      "barHeight": "Bar Height",
+      "captionGrouping": "Caption Grouping",
+      "captionLocation": "Caption Location",
+      "checksum": "Checksum",
+      "code49Options": {
+        "groupNumber": "Group Number",
+        "grouping": "Grouping"
+      },
+      "dataMatrixOptions": {
+        "ecc000_140SymbolSize": "Ecc000_140 Symbol Size",
+        "ecc200EncodingMode": "Ecc200 Encoding Mode",
+        "ecc200SymbolSize": "Ecc200 Symbol Size",
+        "eccMode": "Ecc Mode",
+        "encoding": "Encoding",
+        "fileIdentifier": "File Identifier",
+        "structureNumber": "Structure Number",
+        "structuredAppend": "Structured Append"
+      },
+      "ean128Fnc1Options": {
+        "barAdjust": "Bar Adjust",
+        "moduleSize": "Module Size",
+        "resolution": "Dpi"
+      },
+      "gs1CompositeOptions": {
+        "type": "Composite Type",
+        "value": "Composite Value"
+      },
+      "gs1QrCodeOptions": {
+        "encoding": "Encoding",
+        "errorLevel": "Error Level",
+        "mask": "Mask",
+        "version": "Version"
+      },
+      "invalidBarcodeText": "Invalid Barcode Text",
+      "maxiCodeOptions": {
+        "mode": "Mode"
+      },
+      "microPdf417Options": {
+        "compactionMode": "Compaction Mode",
+        "fileId": "File ID",
+        "segmentCount": "Segment Count",
+        "segmentIndex": "Segment Index",
+        "version": "Version"
+      },
+      "microQrCodeOptions": {
+        "encoding": "Encoding",
+        "errorLevel": "Error Level",
+        "mask": "Mask",
+        "version": "Version"
+      },
+      "narrowBarWidth": "Narrow Bar Width",
+      "nwRatio": "NW Ratio",
+      "nwRatio_help": {
+        "text": "Also known as the N dimension, this is a value defining the multiple of the ratio between the narrow and wide bars in symbologies that contain bars in only two widths."
+      },
+      "pdf417Options": {
+        "columns": "Columns",
+        "errorCorrectionLevel": "Error Correction Level",
+        "rows": "Rows",
+        "type": "PDF417 Type"
+      },
+      "qrCodeOptions": {
+        "connection": "Connection",
+        "connectionNumber": "Connection Number",
+        "encoding": "Encoding",
+        "errorLevel": "Error Level",
+        "mask": "Mask",
+        "model": "Model",
+        "version": "Version"
+      },
+      "quietZone": "Quiet Zone",
+      "rotation": "Rotation",
+      "rssExpandedStacked": {
+        "rowCount": "Row Count"
+      },
+      "supplementOptions": {
+        "barHeight": "Supplement Bar Height",
+        "captionLocation": "Supplement Caption Location",
+        "spacing": "Supplement Spacing",
+        "value": "Supplement Value"
+      },
+      "symbology": "Type",
+      "value": "Value"
+    },
+    "bandedList": {
+      "canGrow": "Can Grow",
+      "canShrink": "Can Shrink",
+      "consumeWhiteSpace": "Consume White Space",
+      "preventOrphanedFooter": "Prevent Orphaned Footer",
+      "preventOrphanedHeader": "Prevent Orphaned Header",
+      "printAtBottom": "Print At Bottom",
+      "repeatOnNewPage": "Repeat On New Page"
+    },
+    "action": {
+      "jumpToBookmark": "Jump to Bookmark",
+      "jumpToReport": "Jump to Report",
+      "jumpToUrl": "Jump to URL",
+      "parameters": "Parameters"
+    },
+    "image": {
+      "backgroundRepeat": "Repeat",
+      "horizontalAlignment": "Horizontal Alignment",
+      "imageLabel": "Image",
+      "mimeType": "MIME Type",
+      "sizing": "Image Sizing",
+      "source": "Source",
+      "value": "Value",
+      "verticalAlignment": "Vertical Alignment"
+    }
+  },
+  "categories": {
+    "action": "Action",
+    "appearance": "Appearance",
+    "availableValues": "Available Values",
+    "background": "Background",
+    "backgroundAndBorders": "Background & Borders",
+    "bar": "Bar Settings",
+    "border": "Border",
+    "borderColor": "Border Color",
+    "borderRoundingRadius": "Border Rounding Radius",
+    "borderStyle": "Border Style",
+    "borderWidth": "Border Width",
+    "borders": "Borders",
+    "column": "Column",
+    "common": "Common",
+    "content": "Content",
+    "data": "Data",
+    "dataLabel": "Data Label",
+    "dataLabelText": "Data Label Text",
+    "defaultValue": "Default Value",
+    "dimensions": "Dimensions",
+    "documentMap": "Document Map",
+    "dvchartLabelBorder": "Label Border",
+    "dvchartLabelLine": "Label Line",
+    "dvchartLabelText": "Label Text",
+    "dvchartLegend": "Legend",
+    "dvchartLegendBackground": "Legend Background",
+    "dvchartLegendBorder": "Legend Border",
+    "dvchartLegendText": "Legend Text",
+    "dvchartLegendTitle": "Legend Title",
+    "dvchartPlotConfig": "Config",
+    "dvchartPlotEncodings": "Encodings",
+    "dvchartPlotStyle": "Style",
+    "dvchartPlotSymbols": "Symbols",
+    "fields": "Fields",
+    "fillStyle": "Fill Style",
+    "font": "Font",
+    "general": "General",
+    "grid": "Grid Lines",
+    "group": "Group",
+    "input": "Input",
+    "international": "International",
+    "labelStyle": "Label Style",
+    "labels": "Labels",
+    "layout": "Layout",
+    "line": "Line",
+    "majorGrid": "Major Grid",
+    "majorTicks": "Major Ticks",
+    "margins": "Margins",
+    "marker": "Marker",
+    "minorGrid": "Minor Grid",
+    "minorTicks": "Minor Ticks",
+    "misc": "Misc",
+    "noData": "No Data",
+    "options": "Options",
+    "pageSize": "Page Size",
+    "preview": "Preview",
+    "range": "Range",
+    "referenceLine": "Reference Line",
+    "scale": "Scale",
+    "seriesLineStyle": "Series Line Style",
+    "settings": "Settings",
+    "staticMembers": "Static Members",
+    "symbology": "Symbology",
+    "tableFooter": "Footer",
+    "tableHeader": "Header",
+    "targetDevice": "Target Device",
+    "targetStyle": "Target Style",
+    "text": "Text",
+    "threeDProperties": "3D properties",
+    "tickStyle": "Tick Style",
+    "title": "Title",
+    "userSort": "User Sort",
+    "valueStyle": "Value Style",
+    "visibility": "Visibility"
+  }
+}

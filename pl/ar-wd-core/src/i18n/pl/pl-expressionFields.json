@@ -1,0 +1,1354 @@
+{
+  "chart": {
+    "Current": {
+      "Category": {
+        "description": "Reprezentuje wartość pola kategorii elementu docelowego.",
+        "example": "=Chart!CurrentCategory=1; =Chart!CurrentCategory>10; =Chart!CurrentCategory=\"Value1\"; ",
+        "label": "Kategoria",
+        "syntax": "Chart!CurrentCategory <Comparison operator> <Value>"
+      },
+      "Data": {
+        "description": "Reprezentuje wartość pola danych elementu docelowego.",
+        "example": "=Chart!CurrentData=1; =Chart!CurrentData>10; =Chart!CurrentData=\"Value1\"; ",
+        "label": "Dane",
+        "syntax": "Chart!CurrentData <Comparison operator> <Value>"
+      },
+      "Detail": {
+        "description": "Reprezentuje wartość kodowania pola szczegółów elementu docelowego.",
+        "example": "=Chart!CurrentDetail=1; =Chart!CurrentDetail>10; =Chart!CurrentDetail=\"Value1\"; ",
+        "label": "Szczegół",
+        "syntax": "Chart!CurrentDetail <Comparison operator> <Value>"
+      },
+      "label": "Bieżący element"
+    },
+    "Next": {
+      "Category": {
+        "description": "Reprezentuje wartość pola kategorii obok elementu docelowego.",
+        "example": "=Chart!NextCategory=1; =Chart!NextCategory>10; =Chart!NextCategory=\"Value1\"; ",
+        "label": "Kategoria",
+        "syntax": "Chart!NextCategory <Comparison operator> <Value>"
+      },
+      "Data": {
+        "description": "Reprezentuje pole danych obok elementu docelowego.",
+        "example": "=Chart!NextData=1; =Chart!NextData>10; =Chart!NextData=\"Value1\"; ",
+        "label": "Dane",
+        "syntax": "Chart!NextData <Comparison operator> <Value>"
+      },
+      "Detail": {
+        "description": "Reprezentuje wartość kodowania pola szczegółów obok elementu docelowego.",
+        "example": "=Chart!NextDetail=1; =Chart!NextDetail>10; =Chart!NextDetail=\"Value1\"; ",
+        "label": "Szczegół",
+        "syntax": "Chart!NextDetail <Comparison operator> <Value>"
+      },
+      "label": "Następny element"
+    },
+    "Previous": {
+      "Category": {
+        "description": "Reprezentuje wartość pola kategorii przed elementem docelowym.",
+        "example": "=Chart!PreviousCategory=1; =Chart!PreviousCategory>10; =Chart!PreviousCategory=\"Value1\"; ",
+        "label": "Kategoria",
+        "syntax": "Chart!PreviousCategory <Comparison operator> <Value>"
+      },
+      "Data": {
+        "description": "Reprezentuje wartość wartości danych przed docelowym.",
+        "example": "=Chart!PreviousData=1; =Chart!PreviousData>10; =Chart!PreviousData=\"Value1\"; ",
+        "label": "Dane",
+        "syntax": "Chart!PreviousData <Comparison operator> <Value>"
+      },
+      "Detail": {
+        "description": "Reprezentuje wartość kodowania pola szczegółów poprzedzającą element docelowy.",
+        "example": "=Chart!PreviousDetail=1; =Chart!PreviousDetail>10; =Chart!PreviousDetail=\"Value1\"; ",
+        "label": "Szczegół",
+        "syntax": "Chart!PreviousDetail <Comparison operator> <Value>"
+      },
+      "label": "Poprzedni element"
+    },
+    "label": "Wykres"
+  },
+  "commonValues": {
+    "info": {
+      "currentDateTime": {
+        "description": "Wyświetla aktualną datę i czas. Może być użyte w nagłówku i stopce strony."
+      },
+      "pageNM": {
+        "description": "Wyświetla aktualny numer strony (N) i łączną liczbę stron (M) w formacie 'N z M'. Może być użyte w nagłówku i stopce strony."
+      },
+      "pageNMCumulative": {
+        "description": "Wyświetla zarówno aktualną stronę jak i łączną liczbę stron w raporcie. Strona N z M (łącznie) jest stosowana do numerowania stron, gdy używasz porównywania w raporcie."
+      },
+      "pageNMSection": {
+        "description": "Wyświetla aktualny numer strony (N) i łączną liczbę stron (M) w formacie 'N z M' w odniesieniu do sekcji, do której należy dana funkcja. Sekcją może być raport lub region danych."
+      },
+      "pageNumber": {
+        "description": "Wyświetla aktualny numer strony. Może być użyte w nagłówku i stopce strony."
+      },
+      "pageNumberCumulative": {
+        "description": "Wyświetla aktualną łączną liczbę stron. Numer strony (łącznie) jest stosowany do numerowania stron, gdy używasz porównywanie w raporcie."
+      },
+      "pageNumberSection": {
+        "description": "Wyświetla aktualny numer strony w odniesieniu do sekcji, do której należy dana funkcja. Sekcją może być raport lub region danych."
+      },
+      "reportName": {
+        "description": "Wyświetla nazwę raportu."
+      },
+      "totalPages": {
+        "description": "Wyświetla łączną liczbę stron. Może być użyte w nagłówku i stopce strony."
+      },
+      "totalPagesCumulative": {
+        "description": "Wyświetla łączną liczbę stron w raporcie. Liczba stron (łącznie) jest stosowana do numerowania stron, gdy używasz porównywanie w raporcie."
+      },
+      "totalPagesSection": {
+        "description": "Wyświetla aktualny numer strony w odniesieniu do sekcji, do której należy dana funkcja. Sekcją może być raport lub region danych."
+      },
+      "userContext": {
+        "description": "Używaj tylko z funkcjami, np. UserContext.GetValue(\"name\"), UserContext.NumberToWords(123)."
+      },
+      "userId": {
+        "description": "Wyświetla ID użytkownika podglądającego raport"
+      },
+      "userLanguage": {
+        "description": "Wyświetla język użytkownika podglądającego raport zgodnie z ustawieniami systemowymi."
+      }
+    },
+    "titles": {
+      "label": "Wspólne wartości"
+    }
+  },
+  "constants": {
+    "dvchart_template": {
+      "PercentageCategory_p0": {
+        "description": "Wyświetla procent pola wartości wewnątrz kategorii."
+      },
+      "PercentageDetail_p0": {
+        "description": "Wyświetla procent pola wartości wewnątrz szczegółów."
+      },
+      "categoryField": {
+        "name": {
+          "description": "Wyświetla nazwę pola kategorii"
+        },
+        "value": {
+          "description": "Wyświetla wartość pola kategorii."
+        }
+      },
+      "colorField": {
+        "name": {
+          "description": "Wyświetla nazwę pola koloru."
+        },
+        "value": {
+          "description": "Wyświetla wartość pola koloru."
+        }
+      },
+      "detailFields": {
+        "name": {
+          "description": "Wyświetla nazwę pola szczegółów."
+        },
+        "value": {
+          "description": "Wyświetla wartość pola szczegółów."
+        }
+      },
+      "shapeField": {
+        "name": {
+          "description": "Wyświetla nazwę pola kształtu."
+        },
+        "value": {
+          "description": "Wyświetla wartość pola kształtu."
+        }
+      },
+      "sizeField": {
+        "name": {
+          "description": "Wyświetla nazwę pola rozmiaru."
+        },
+        "value": {
+          "description": "Wyświetla wartość pola rozmiaru."
+        }
+      },
+      "valueField": {
+        "name": {
+          "description": "Wyświetla nazwę pola wartości."
+        },
+        "value": {
+          "description": "Wyświetla wartość pola wartości."
+        }
+      }
+    },
+    "titles": {
+      "label": "Stałe"
+    }
+  },
+  "documentMap": {
+    "info": {
+      "path": {
+        "description": "Zwraca ściężkę poziomu TOC.",
+        "example": "=DocumentMap.Path & \"To jest nagłówek 1\"",
+        "label": "Ścieżka"
+      }
+    },
+    "titles": {
+      "label": "Mapa dokumentu"
+    }
+  },
+  "functions": {
+    "info": {
+      "aggregate": {
+        "aggregateIf": {
+          "description": "Oblicza agregację wartości określonego wyrażenia, jeżeli wyrażenie Boolean spełnia podane kryteria.",
+          "example": "=AggregateIf(Fields!Discontinued.Value = True, \"Sum\", Fields!InStock.Value)",
+          "label": "AggregateIf",
+          "syntax": "AggregateIf(<Condition>, <AggregateFunction>, <AggregateArguments>)"
+        },
+        "aggregateIfWithScope": {
+          "description": "Oblicza agregację wartości określonego wyrażenia, jeżeli wyrażenie Boolean spełnia podane kryteria w określonym zakresie.",
+          "example": "=AggregateIf(Fields!Discontinued.Value = True, \"Sum\", Fields!InStock.Value, \"Category\")",
+          "label": "AggregateIf (with scope)",
+          "syntax": "AggregateIf(<Condition>, <AggregateFunction>, <AggregateArguments>, <Scope>)"
+        },
+        "avg": {
+          "description": "Oblicza średnią wszystkich niepustych wartości z określonego wyrażenia.",
+          "example": "=Avg(Fields!LifeExpentancy.Value)",
+          "label": "Avg",
+          "syntax": "Avg(<Values>)"
+        },
+        "avgWithScope": {
+          "description": "Oblicza średnią wszystkich niepustych wartości z określonego wyrażenia w określonym zakresie.",
+          "example": "=Avg(Fields!LifeExpentancy.Value, \"GroupByCountry\")",
+          "label": "Avg (with scope)",
+          "syntax": "Avg(<Values>, <Scope>)"
+        },
+        "count": {
+          "description": "Oblicza liczbę wszystkich niepustych wartości w określonym wyrażeniu.",
+          "example": "=Count(Fields!EmployeeID.Value)",
+          "label": "Count",
+          "syntax": "Count(<Values>)"
+        },
+        "countDistinct": {
+          "description": "Oblicza liczbę unikalnych wartości z określonego wyrażenia.",
+          "example": "=CountDistinct(Fields!OrderID.Value)",
+          "label": "CountDistinct",
+          "syntax": "CountDistinct(<Values>)"
+        },
+        "countDistinctWithScope": {
+          "description": "Oblicza liczbę unikalnych wartości z określonego wyrażenia, w określonym zakresie.",
+          "example": "=CountDistinct(Fields!OrderID.Value, \"GroupByCategory\")",
+          "label": "CountDistinct (with scope)",
+          "syntax": "CountDistinct(<Values>, <Scope>)"
+        },
+        "countRows": {
+          "description": "Oblicza liczbę wierszy.",
+          "example": "=CountRows()",
+          "label": "CountRows",
+          "syntax": "CountRows()"
+        },
+        "countRowsWithScope": {
+          "description": "Oblicza liczbę wierszy w określonym zakresie.",
+          "example": "=CountRows(\"Title\")",
+          "label": "CountRows (with scope)",
+          "syntax": "CountRows(<Scope>)"
+        },
+        "countWithScope": {
+          "description": "Oblicza liczbę wszystkich niepustych wartości w określonym wyrażeniu, w okreslonym zakresie.",
+          "example": "=Count(Fields!EmployeeID.Value, \"Title\")",
+          "label": "Count (with scope)",
+          "syntax": "Count(<Values>, <Scope>)"
+        },
+        "crossAggregate": {
+          "description": "Oblicza określoną funkcję z określonym wyrażeniem jako argumentem w krzyżu określonego wiersza i kolumny.",
+          "example": "=CrossAggregate(Fields!Amount.Value, \"Sum\", \"YearGroup\", \"CategoryGroup\")",
+          "label": "CrossAggregate",
+          "syntax": "CrossAggregate(<Expression>, <FunctionName>, <ColumnGroupName>, <RowGroupName>)"
+        },
+        "cumulativeTotal": {
+          "description": "Oblicza sumę agregatów na poziomie strony zwróconych przez wyrażenie dla bieżących i poprzednich stron.",
+          "example": "=CumulativeTotal(Fields!OrderID.Value, \"Count\")",
+          "label": "CumulativeTotal",
+          "syntax": "CumulativeTotal(<Expression>, <Aggregate>)"
+        },
+        "distinctSum": {
+          "description": "Oblicza sumę wartości z określonego wyrażenia, kiedy wartość innego wyrażenia nie jest powtórzona.",
+          "example": "=DistinctSum(Fields!OrderID.Value, Fields!OrderFreight.Value)",
+          "label": "DistinctSum",
+          "syntax": "DistinctSum(<Values>, <Value>)"
+        },
+        "distinctSumWithScope": {
+          "description": "Oblicza sumę unikalnych wartości z określonego wyrażenia, kiedy wartość innego wyrażenia nie jest powtórzona w określonym zakresie.",
+          "example": "=DistinctSum(Fields!OrderID.Value, Fields!OrderFreight.Value, \"Order\")",
+          "label": "DistinctSum (with scope)",
+          "syntax": "DistinctSum(<Values>, <Value>, <Scope>)"
+        },
+        "first": {
+          "description": "Zwraca pierwszą wartość z określonego wyrażenia.",
+          "example": "=First(Fields!ProductNumber.Value)",
+          "label": "First",
+          "syntax": "First(<Values>)"
+        },
+        "firstWithScope": {
+          "description": "Zwraca pierwszą wartość z określonego wyrażenia, w określonym zakresie.",
+          "example": "=First(Fields!ProductNumber.Value, \"Category\")",
+          "label": "First (with scope)",
+          "syntax": "First(<Values>, <Scope>)"
+        },
+        "last": {
+          "description": "Zwraca ostatnią wartość z określonego wyrażenia.",
+          "example": "=Last(Fields!ProductNumber.Value)",
+          "label": "Last",
+          "syntax": "Last(<Values>)"
+        },
+        "lastWithScope": {
+          "description": "Zwraca ostatnią wartość z określonego wyrażenia, w określonym zakresie.",
+          "example": "=Last(Fields!ProductNumber.Value, \"Category\")",
+          "label": "Last (with scope)",
+          "syntax": "Last(<Values>, <Scope>)"
+        },
+        "max": {
+          "description": "Zwraca maksymalną niepustą wartość z określonego wyrażenia.",
+          "example": "=Max(Fields!OrderTotal.Value)",
+          "label": "Max",
+          "syntax": "Max(<Values>)"
+        },
+        "maxWithScope": {
+          "description": "Zwraca maksymalną niepustą wartość z określonego wyrażenia, w określonym zakresie.",
+          "example": "=Max(Fields!OrderTotal.Value, \"Year\")",
+          "label": "Max (with scope)",
+          "syntax": "Max(<Values>, <Scope>)"
+        },
+        "median": {
+          "description": "Zwraca wartość z punktu środkowego w określonym wyrażeniu (mediana).",
+          "example": "=Median(Fields!OrderTotal.Value)",
+          "label": "Median",
+          "syntax": "Median(<Values>)"
+        },
+        "medianWithScope": {
+          "description": "Zwraca wartość z punktu środkowego w określonym wyrażeniu, w określonym zakresie (mediana).",
+          "example": "=Median(Fields!OrderTotal.Value, \"Year\")",
+          "label": "Median (with scope)",
+          "syntax": "Median(<Values>, <Scope>)"
+        },
+        "min": {
+          "description": "Zwraca minimalną niepustą wartość z określonego wyrażenia.",
+          "example": "=Min(Fields!OrderTotal.Value)",
+          "label": "Min",
+          "syntax": "Min(<Values>)"
+        },
+        "minWithScope": {
+          "description": "Zwraca minimalną niepustą wartość z określonego wyrażenia, w określonym zakresie.",
+          "example": "=Min(Fields!OrderTotal.Value, \"Year\")",
+          "label": "Min (with scope)",
+          "syntax": "Min(<Values>, <Scope>)"
+        },
+        "mode": {
+          "description": "Zwraca najczęściej występującą wartość z okreslonego wyrażenia.",
+          "example": "=Mode(Fields!OrderTotal.Value)",
+          "label": "Mode",
+          "syntax": "Mode(<Values>)"
+        },
+        "modeWithScope": {
+          "description": "Zwraca najczęściej występującą wartość z okreslonego wyrażenia, w określonym zakresie.",
+          "example": "=Mode(Fields!OrderTotal.Value, \"Year\")",
+          "label": "Mode (with scope)",
+          "syntax": "Mode(<Values>, <Scope>)"
+        },
+        "runningValue": {
+          "description": "Oblicza dynamiczną agregację spośród wszystkich niepustych wartości z okreslonego wyrażenia, przy wykorzystaniu funkcji agregującej jako parametr.",
+          "example": "=RunningValue(Fields!Price.Value, \"Sum\")",
+          "label": "RunningValue",
+          "syntax": "RunningValue(<Values>, <AggregateFunction>)"
+        },
+        "runningValueWithScope": {
+          "description": "Oblicza dynamiczną agregację spośród wszystkich niepustych wartości z okreslonego wyrażenia, w określonym zakresie, przy wykorzystaniu funkcji agregującej jako parametr.",
+          "example": "=RunningValue(Fields!Price.Value, \"Sum\", \"Nwind\")",
+          "label": "RunningValue (with scope)",
+          "syntax": "RunningValue(<Values>, <AggregateFunction>, <Scope>)"
+        },
+        "stDev": {
+          "description": "Oblicza odchylenie standardowe wszystkich niepustych wartości z okreslonego wyrażenia.",
+          "example": "=StDev(Fields!LineTotal.Value)",
+          "label": "StDev",
+          "syntax": "StDev(<Values>)"
+        },
+        "stDevP": {
+          "description": "Oblicza odchylenie standardowe populacji wszystkich niepustych wartości z okreslonego wyrażenia.",
+          "example": "=StDevP(Fields!LineTotal.Value)",
+          "label": "StDevP",
+          "syntax": "StDevP(<Values>)"
+        },
+        "stDevPWithScope": {
+          "description": "Oblicza odchylenie standardowe wszystkich niepustych wartości z okreslonego wyrażenia, w określonym zakresie.",
+          "example": "=StDevP(Fields!LineTotal.Value, \"Order\")",
+          "label": "StDevP (with scope)",
+          "syntax": "StDevP(<Values>, <Scope>)"
+        },
+        "stDevWithScope": {
+          "description": "Oblicza odchylenie standardowe wszystkich niepustych wartości z okreslonego wyrażenia, w określonym zakresie.",
+          "example": "=StDev(Fields!LineTotal.Value, \"Nwind\")",
+          "label": "StDev (with scope)",
+          "syntax": "StDev(<Values>, <Scope>)"
+        },
+        "sum": {
+          "description": "Oblicza sumę wartości z określonego wyrażenia.",
+          "example": "=Sum(Fields!Price.Value)",
+          "label": "Sum",
+          "syntax": "Sum(<Values>)"
+        },
+        "sumWithScope": {
+          "description": "Oblicza sumę wartości z określonego wyrażenia, w określonym zakresie.",
+          "example": "=Sum(Fields!Price.Value, \"Category\")",
+          "label": "Sum (with scope)",
+          "syntax": "Sum(<Values>, <Scope>)"
+        },
+        "var": {
+          "description": "Oblicza wariancję wszystkich niepustych wartości z okreslonego wyrażenia.",
+          "example": "=Var(Fields!LineTotal.Value)",
+          "label": "Var",
+          "syntax": "Var(<Values>)"
+        },
+        "varP": {
+          "description": "Oblicza wariancję populacji wszystkich niepustych wartości z okreslonego wyrażenia.",
+          "example": "=VarP(Fields!LineTotal.Value)",
+          "label": "VarP",
+          "syntax": "VarP(<Values>)"
+        },
+        "varPWithScope": {
+          "description": "Oblicza wariancję populacji wszystkich niepustych wartości z okreslonego wyrażenia, w określonym zakresie.",
+          "example": "=VarP(Fields!LineTotal.Value, \"Order\")",
+          "label": "VarP (with scope)",
+          "syntax": "VarP(<Values>, <Scope>)"
+        },
+        "varWithScope": {
+          "description": "Oblicza wariancję wszystkich niepustych wartości z okreslonego wyrażenia.",
+          "example": "=Var(Fields!LineTotal.Value, \"Order\")",
+          "label": "Var (with scope)",
+          "syntax": "Var(<Values>, <Scope>)"
+        }
+      },
+      "conversion": {
+        "format": {
+          "description": "Formatuje wartość do określonego formatu.",
+          "example": "=Format(Fields!OrderDate.Value, \"dd MMM yyyy\")",
+          "label": "Format",
+          "syntax": "Format(<Value>, <String>)"
+        },
+        "toBoolean": {
+          "description": "Przekształca określoną wartość do typu danych Boolean.",
+          "example": "=ToBoolean(Fields!HouseOwnerFlag.Value)",
+          "label": "ToBoolean",
+          "syntax": "ToBoolean(<Value>)"
+        },
+        "toByte": {
+          "description": "Przekształca określoną wartość do typu danych Byte.",
+          "example": "=ToByte(Fields!ProductNumber.Value)",
+          "label": "ToByte",
+          "syntax": "ToByte(<Value>)"
+        },
+        "toChar": {
+          "description": "Przekształca określoną wartość do typu danych Char.",
+          "example": "=ToChar(Fields!OrderStatus.Value); =ToChar(“Hello”))",
+          "label": "ToChar",
+          "syntax": "ToChar(<Value>)"
+        },
+        "toDateTime": {
+          "description": "Przekształca określoną wartość do typu danych DataCzas.",
+          "example": "=ToDateTime(Fields!SaleDate.Value); =ToDateTime(\"1 January, 2017\")",
+          "label": "ToDateTime",
+          "syntax": "ToDateTime(<Value>)"
+        },
+        "toDecimal": {
+          "description": "Przekształca określoną wartość do typu danych Decimal.",
+          "example": "=ToDecimal(Fields!Sales.Value)",
+          "label": "ToDecimal",
+          "syntax": "ToDecimal(<Value>)"
+        },
+        "toDouble": {
+          "description": "Przekształca określoną wartość do typu danych Double.",
+          "example": "=ToDouble(Fields!AnnualSales.Value); =ToDouble(535.85 * .2691 * 67483)",
+          "label": "ToDouble",
+          "syntax": "ToDouble(<Value>)"
+        },
+        "toInt16": {
+          "description": "Przekształca określoną wartość do typu danych 16-bitowy Integer.",
+          "example": "=ToInt16(Fields!AnnualSales.Value); =ToInt16(535.85)",
+          "label": "ToInt16",
+          "syntax": "ToInt16(<Value>)"
+        },
+        "toInt32": {
+          "description": "Przekształca określoną wartość do typu danych 32-bitowy Integer.",
+          "example": "=ToInt32(Fields!AnnualSales.Value)",
+          "label": "ToInt32",
+          "syntax": "ToInt32(<Value>)"
+        },
+        "toInt64": {
+          "description": "Przekształca określoną wartość do typu danych 64-bitowy Integer.",
+          "example": "=ToInt64(Fields!AnnualSales.Value)",
+          "label": "ToInt64",
+          "syntax": "ToInt64(<Value>)"
+        },
+        "toSingle": {
+          "description": "Przekształca określoną wartość do typu danych single-precision floating-point number.",
+          "example": "=ToSingle(Fields!AnnualSales.Value); =ToSingle(15.857692134)",
+          "label": "ToSingle",
+          "syntax": "ToSingle(<Value>)"
+        },
+        "toStringDot": {
+          "description": "Przekształca określoną wartość do typu danych Napis w określonym formacie.",
+          "example": "=Fields!OrderDate.Value.ToString(\"dd MMM yyyy\")",
+          "label": ".ToString",
+          "syntax": "<Value>.ToString(<String>)"
+        },
+        "toStringKey": {
+          "description": "Przekształca określoną wartość do typu danych Napis.",
+          "example": "=ToString(Fields!YearlyIncome.Value); =ToString(13.50)",
+          "label": "ToString",
+          "syntax": "ToString(<Value>)"
+        },
+        "toUInt16": {
+          "description": "Przekształca określoną wartość do typu danych 16-bitowy dodatni Integer.",
+          "example": "=ToUInt16(Fields!AnnualSales.Value)",
+          "label": "ToUInt16",
+          "syntax": "ToUInt16(<Value>)"
+        },
+        "toUInt32": {
+          "description": "Przekształca określoną wartość do typu danych 32-bitowy dodatni Integer.",
+          "example": "=ToUInt32(Fields!AnnualSales.Value)",
+          "label": "ToUInt32",
+          "syntax": "ToUInt32(<Value>)"
+        },
+        "toUInt64": {
+          "description": "Przekształca określoną wartość do typu danych 64-bitowy dodatni Integer.",
+          "example": "=ToUInt64(Fields!AnnualSales.Value)",
+          "label": "ToUInt64",
+          "syntax": "ToUInt64(<Value>)"
+        }
+      },
+      "customFunctions": {
+        "getValue": {
+          "description": "Wyświetla wartość kontekstu użytkownika dla określonego atrybutu, np. \"nazwa\", \"email\".",
+          "example": "=UserContext.getValue(\"nazwa\")",
+          "label": "GetUserValue",
+          "syntax": "UserContext.getValue(<String>)"
+        },
+        "numberToWords": {
+          "description": "Konwertuje wartość liczbową na tekst. Opcjonalny drugi argument określa język (wspierane wartości: \"zh-cn\", \"en-us\", \"ja-jp\"). Domyślnie wybierany jest aktualny język portalu.",
+          "example": "=UserContext.NumberToWords(123.5); =UserContext.NumberToWords(981, \"zh-CN\")",
+          "label": "NumberToWords",
+          "syntax": "UserContext.NumberToWords(<Number>, <String>)"
+        }
+      },
+      "dateTime": {
+        "addDays": {
+          "description": "Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w dniach. Przedział czasu może być ujemny.",
+          "example": "=Fields!OrderDate.Value.AddDays(5)",
+          "label": "AddDays",
+          "syntax": "<DateTime>.AddDays(<Number>)"
+        },
+        "addHours": {
+          "description": "Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w godzinach. Przedział czasu może być ujemny.",
+          "example": "=Fields!OrderDate.Value.AddHours(12)",
+          "label": "AddHours",
+          "syntax": "<DateTime>.AddHours(<Number>)"
+        },
+        "addMilliseconds": {
+          "description": "Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w milisekundach. Przedział czasu może być ujemny.",
+          "example": "=Fields!OrderDate.Value.AddMilliseconds(500)",
+          "label": "AddMilliseconds",
+          "syntax": "<DateTime>.AddMilliseconds(<Number>)"
+        },
+        "addMinutes": {
+          "description": "Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w minutach. Przedział czasu może być ujemny.",
+          "example": "=Fields!OrderDate.Value.AddMinutes(30)",
+          "label": "AddMinutes",
+          "syntax": "<DateTime>.AddMinutes(<Number>)"
+        },
+        "addMonths": {
+          "description": "Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w miesiącach. Przedział czasu może być ujemny.",
+          "example": "=Fields!OrderDate.Value.AddMonths(2)",
+          "label": "AddMonths",
+          "syntax": "<DateTime>.AddMonths(<Number>)"
+        },
+        "addSeconds": {
+          "description": "Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w sekundach. Przedział czasu może być ujemny.",
+          "example": "=Fields!OrderDate.Value.AddSeconds(30)",
+          "label": "AddSeconds",
+          "syntax": "<DateTime>.AddSeconds(<Number>)"
+        },
+        "addYears": {
+          "description": "Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w latach. Przedział czasu może być ujemny.",
+          "example": "=Fields!OrderDate.Value.AddYears(3)",
+          "label": "AddYears",
+          "syntax": "<DateTime>.AddYears(<Number>)"
+        },
+        "dateAdd": {
+          "description": "Zwraca wartość daty i czasu, która jest wynikiem dodawania przedziału czasu w określonej jednostce.",
+          "example": "=DateAdd(\"d\", 5, Fields!SaleDate.Value); =DateAdd(DateInterval.Day, 5, Fields!SaleDate.Value)",
+          "label": "DateAdd",
+          "syntax": "DateAdd(<DateInterval>, <Number>, <DateTime>)"
+        },
+        "dateDiff": {
+          "description": "Zwraca różnicę pomiędzy dwiema datami albo punktami w czasie w określonej jednostce.",
+          "example": "=DateDiff(\"yyyy\", Fields!SaleDate.Value, \"1/1/2015\"); =DateDiff(DateInterval.Year, Fields!SaleDate.Value, \"1/1/2015\")",
+          "label": "DateDiff",
+          "syntax": "DateDiff(<DateInterval>, <DateTime1>, <DateTime2>[, <DayOfWeek>[, <WeekOfYear>]])"
+        },
+        "datePart": {
+          "description": "Zwraca wartość reprezentującą określoną część daty w formie Integer.",
+          "example": "=DatePart(\"m\", Fields!SaleDate.Value)",
+          "label": "DatePart",
+          "syntax": "DatePart(<DateInterval>, <DateTime>[, <FirstDayOfWeek>[, <FirstWeekOfYear>]])"
+        },
+        "dateSerial": {
+          "description": "Zwraca wartość daty, króa reprezentuje określony rok, miesiąc i dzień. Informacja o czasie ustawiona jest na północ (00:00:00).",
+          "example": "=DateSerial(DatePart(\"yyyy\", Fields!SaleDate.Value) - 10, DatePart(\"m\", Fields!SaleDate.Value) + 5, DatePart(\"d\", Fields!SaleDate.Value) - 1)",
+          "label": "DateSerial",
+          "syntax": "DateSerial(<Year Number>, <Month Number>, <Day Number>)"
+        },
+        "dateString": {
+          "description": "Zwraca aktualną datę w Twoim systemie w formacie Napis.",
+          "example": "=DateString(); =DatePart(\"m\", DateString())",
+          "label": "DateString",
+          "syntax": "DateString()"
+        },
+        "dateValue": {
+          "description": "Zwraca informację o dacie w formacie Napis. Informacja o czasie ustawiona na północ (00:00:00).",
+          "example": "=DateValue(\"December 12, 2015\")",
+          "label": "DateValue",
+          "syntax": "DateValue(<StringDate>)"
+        },
+        "day": {
+          "description": "Zwraca wartość dnia miesiąca (od 1 do 31) jako Integer.",
+          "example": "=Day(Fields!SaleDate.Value)",
+          "label": "Day",
+          "syntax": "Day(<DateTime>)"
+        },
+        "hour": {
+          "description": "Zwraca wartość godziny (od 0 do 23) jako Integer.",
+          "example": "=Hour(Fields!SaleDate.Value)",
+          "label": "Hour",
+          "syntax": "Hour(<DateTime>)"
+        },
+        "minute": {
+          "description": "Zwraca wartość minuty (od 0 do 59) jako Integer.",
+          "example": "=Minute(Fields!SaleDate.Value)",
+          "label": "Minute",
+          "syntax": "Minute(<DateTime>)"
+        },
+        "month": {
+          "description": "Zwraca wartość miesiąca (od 1 do 12) jako Integer.",
+          "example": "=Month(Fields!SaleDate.Value)",
+          "label": "Month",
+          "syntax": "Month(<DateTime>)"
+        },
+        "monthName": {
+          "description": "Zwraca nazwę miesiąca z określonej daty jako Napis.",
+          "example": "=MonthName(Fields!MonthNumber.Value)",
+          "label": "MonthName",
+          "syntax": "MonthName(<Month Number>[, <Abbreviate>])"
+        },
+        "now": {
+          "description": "Zwraca aktualną datę i czas w systemie.",
+          "example": "=Now()",
+          "label": "Now",
+          "syntax": "Now()"
+        },
+        "parse": {
+          "description": "Przekształca określony Napis do formatu DataCzas.",
+          "example": "=DateTime.Parse(\"01/01/1970\")",
+          "label": "DateTime.Parse",
+          "syntax": "DateTime.Parse(<String>[, <String>])"
+        },
+        "quarter": {
+          "description": "Zwraca wartość kwartału (od 1 do 4) jako Integer.",
+          "example": "=Quarter(Fields!SaleDate.Value)",
+          "label": "Quarter",
+          "syntax": "Quarter(<DateTime>)"
+        },
+        "quarterName": {
+          "description": "Zwraca nazwę kwartału jako Napis.",
+          "example": "=QuarterName(Fields!SaleDate.Value)",
+          "label": "QuarterName",
+          "syntax": "QuarterName(<DateTime>)"
+        },
+        "second": {
+          "description": "Zwraca wartość sekundy (od 0 do 59) jako Integer.",
+          "example": "=Second(Fields!SaleDate.Value)",
+          "label": "Second",
+          "syntax": "Second(<DateTime>)"
+        },
+        "timeOfDay": {
+          "description": "Zwraca aktualny czas w  systemie jako Date.",
+          "example": "=TimeOfDay()",
+          "label": "TimeOfDay",
+          "syntax": "TimeOfDay()"
+        },
+        "timeSerial": {
+          "description": "Zwraca godzinę, minutę i sekundę jako Date z datą 1 stycznia roku 0001.",
+          "example": "=TimeSerial(DatePart(\"h\", Fields!SaleDate.Value), DatePart(\"n\", Fields!SaleDate.Value), DatePart(\"s\", Fields!SaleDate.Value))",
+          "label": "TimeSerial",
+          "syntax": "TimeSerial(<Hour Number>, <Minute Number>, <Second Number>)"
+        },
+        "timeString": {
+          "description": "Zwraca aktualny czas w  systemie jako Napis.",
+          "example": "=TimeString()",
+          "label": "TimeString",
+          "syntax": "TimeString()"
+        },
+        "timeValue": {
+          "description": "Zwraca informację o czasie w formacie Napis, względem 1 stycznia roku 0001.",
+          "example": "=TimeValue(\"15:25:45\"); =TimeValue(Fields!SaleDate.Value)",
+          "label": "TimeValue",
+          "syntax": "TimeValue(<StringTime>)"
+        },
+        "timer": {
+          "description": "Zwraca liczbę sekund, które upłynęły od północy jako Double.",
+          "example": "=Timer()",
+          "label": "Timer",
+          "syntax": "Timer()"
+        },
+        "today": {
+          "description": "Zwraca akutalną datę w systemie jako Date.",
+          "example": "=Today()",
+          "label": "Today",
+          "syntax": "Today()"
+        },
+        "weekday": {
+          "description": "Zwraca liczbę reprezentującą dzień tygodnia jako Integer.",
+          "example": "=Weekday(Fields!SaleDate.Value, 0)",
+          "label": "Weekday",
+          "syntax": "Weekday(<DateTime>[, <DayOfWeek>])"
+        },
+        "weekdayName": {
+          "description": "Zwraca nazwę określonego dnia tygodnia jako Napis.",
+          "example": "=WeekdayName(3, True, 0); =WeekDayName(DatePart(\"w\", Fields!SaleDate.Value), True, 0)",
+          "label": "WeekdayName",
+          "syntax": "WeekdayName(<WeekDay>[, <Abbreviate>[, <FirstDayOfWeek>]])"
+        },
+        "year": {
+          "description": "Zwraca Integer reprezentujący rok - wartości od 1 do 9999.",
+          "example": "=Year(Fields!SaleDate.Value)",
+          "label": "Year",
+          "syntax": "Year(<DateTime>)"
+        }
+      },
+      "inspection": {
+        "dbNull": {
+          "description": "Pozwala sprawdzić czy wartość jest DBNull.",
+          "example": "=IIF(Fields!Organization.Value is DBNull.Value, \"<NULL>\", Fields!Organization.Value)",
+          "label": "DBNull.Value",
+          "syntax": "DBNull.Value"
+        },
+        "isArray": {
+          "description": "Zwraca \"Prawda\" jeśli wyrażenie może zostać zakwalifikowane jako zakres.",
+          "example": "=IsArray(Parameters!Initials.Value)",
+          "label": "IsArray",
+          "syntax": "IsArray(<Expression>)"
+        },
+        "isDBNull": {
+          "description": "Zwraca \"Prawda\" jeśli wyrażenie jest nullem.",
+          "example": "=IsDBNull(Fields!MonthlySales.Value)",
+          "label": "IsDBNull",
+          "syntax": "IsDBNull(<Expression>)"
+        },
+        "isDate": {
+          "description": "Zwraca \"Prawda\" jeśli wyrażenie jest wartością Date.",
+          "example": "=IsDate(Fields!BirthDate.Value); =IsDate(\"31/12/2010\")",
+          "label": "IsDate",
+          "syntax": "IsDate(<Expression>)"
+        },
+        "isError": {
+          "description": "Zwraca \"Prawda\" jeśli wyrażenie jest błędne.",
+          "example": "=IsError(Fields!AnnualSales.Value = 80000)",
+          "label": "IsError",
+          "syntax": "IsError(<Expression>)"
+        },
+        "isNothing": {
+          "description": "Zwraca \"Prawda\" jeśli wyrażenie nic nie zwraca.",
+          "example": "=IsNothing(Fields!MiddleInitial.Value)",
+          "label": "IsNothing",
+          "syntax": "IsNothing(<Expression>)"
+        },
+        "isNumeric": {
+          "description": "Zwraca \"Prawda\" jeśli wyrażenie jest liczbą.",
+          "example": "=IsNumeric(Fields!AnnualSales.Value)",
+          "label": "IsNumeric",
+          "syntax": "IsNumeric(<Expression>)"
+        }
+      },
+      "math": {
+        "abs": {
+          "description": "Zwraca bezwzględną lub pozytywną wartość single-precision floating-point number.",
+          "example": "=Abs(-5.5); =Abs(Fields!YearlyIncome.Value - 80000)",
+          "label": "Abs",
+          "syntax": "Abs(<Number>)"
+        },
+        "acos": {
+          "description": "Zwraca kąt odpowiadający wartości cosinus.",
+          "example": "=Acos(.5); =Acos(Fields!Angle.Value)",
+          "label": "Acos",
+          "syntax": "Acos(<Number>)"
+        },
+        "asin": {
+          "description": "Zwraca kąt odpowiadający wartości sinus.",
+          "example": "=Asin(.5); =Asin(Fields!Angle.Value)",
+          "label": "Asin",
+          "syntax": "Asin(<Number>)"
+        },
+        "atan": {
+          "description": "Zwraca kąt odpowiadający wartości tangens.",
+          "example": "=Atan(.5); =Atan(Fields!Angle.Value)",
+          "label": "Atan",
+          "syntax": "Atan(<Number>)"
+        },
+        "atan2": {
+          "description": "Zwraca kąt, którego tangens to iloraz dwóch podanych liczb.",
+          "example": "=Atan2(3,7); =Atan2(Fields!CoordinateY.Value, Fields!CoordinateX.Value)",
+          "label": "Atan2",
+          "syntax": "Atan2(<Number1>, <Number2>)"
+        },
+        "bigMul": {
+          "description": "Zwraca wynik możenia dwóch 32-bitowych liczb.",
+          "example": "=BigMul(4294967295,-2147483647); =BigMul(Fields!Int32Value.Value, Fields!Int32Value.Value)",
+          "label": "BigMul",
+          "syntax": "BigMul(<Number1>, <Number2>)"
+        },
+        "ceiling": {
+          "description": "Zwraca najmniejszy Integer większy lub równy określonej liczbie double-precision floating-point.",
+          "example": "=Ceiling(98.4331); =Ceiling(Fields!AnnualSales.Value / 6)",
+          "label": "Ceiling",
+          "syntax": "Ceiling(<Number>)"
+        },
+        "cos": {
+          "description": "Zwraca cosinus określonej liczby.",
+          "example": "=Cos(60)",
+          "label": "Cos",
+          "syntax": "Cos(<Number>)"
+        },
+        "cosh": {
+          "description": "Zwraca cosinus hyperboliczny określonej liczby.",
+          "example": "=Cosh(60)",
+          "label": "Cosh",
+          "syntax": "Cosh(<Number>)"
+        },
+        "e": {
+          "description": "Zwraca wartość E = 2.71828182845905.",
+          "example": "=E * 2",
+          "label": "E",
+          "syntax": "E"
+        },
+        "exp": {
+          "description": "Zwraca e podniesione do określonej potęgi, gdzie e to liczba Eulera. Odwrotność funkcji log.",
+          "example": "=Exp(3); =Exp(Fields!IntegerCounter.Value)",
+          "label": "Exp",
+          "syntax": "Exp(<Number>)"
+        },
+        "fix": {
+          "description": "Zwraca część całkowitą (Integer) liczby.",
+          "example": "=Fix(-7.15); =Fix(Fields!AnnualSales.Value / -5)",
+          "label": "Fix",
+          "syntax": "Fix(<Number>)"
+        },
+        "floor": {
+          "description": "Zwraca największy Integer większy lub równy określonej liczbie double-precision floating-point.",
+          "example": "=Floor(4.67); =Floor(Fields!AnnualSales.Value / 12)",
+          "label": "Floor",
+          "syntax": "Floor(<Number>)"
+        },
+        "ieeeRemainder": {
+          "description": "Zwraca resztę z dzielenia dwóch liczb, zgodnie ze standardami IEEE.",
+          "example": "=IEEERemainder(9, 8)",
+          "label": "IEEERemainder",
+          "syntax": "IEEERemainder(<Number1>, <Number2>)"
+        },
+        "log": {
+          "description": "Zwraca logarytm określonej liczby.",
+          "example": "=Log(20.5); =Log(Fields!NumberValue.Value)",
+          "label": "Log",
+          "syntax": "Log(<Number>)"
+        },
+        "log10": {
+          "description": "Zwraca logarytm dziesiętny określonej liczby.",
+          "example": "=Log10(20.5); =Log10(Fields!NumberValue.Value)",
+          "label": "Log10",
+          "syntax": "Log10(<Number>)"
+        },
+        "max": {
+          "description": "Zwraca maksymalną niepustą wartość z określonego wyrażenia.",
+          "example": "=Max(Fields!OrderTotal.Value)",
+          "label": "Max",
+          "syntax": "Max(<Values>)"
+        },
+        "min": {
+          "description": "Zwraca minimalną niepustą wartość z określonego wyrażenia.",
+          "example": "=Min(Fields!OrderTotal.Value)",
+          "label": "Min",
+          "syntax": "Min(<Values>)"
+        },
+        "pi": {
+          "description": "Zwraca wartość liczby Pi, która wynosi 3.14159265358979.",
+          "example": "=2 * PI * Fields!Radius.Value",
+          "label": "PI",
+          "syntax": "PI"
+        },
+        "pow": {
+          "description": "Zwraca liczbę podniesioną do określonej potęgi.",
+          "example": "=Pow(Fields!Quantity.Value, 2)",
+          "label": "Pow",
+          "syntax": "Pow(<Number1>, <Number2>)"
+        },
+        "round": {
+          "description": "Zwraca zaokrąglenie liczby Decimal do najbliższego Integer lub do najbliższej liczby Decimal, z dokładnością do określonej liczby znaków.",
+          "example": "=Round(12.456); =Round(Fields!AnnualSales.Value / 12.3)",
+          "label": "Round",
+          "syntax": "Round(<Number>)"
+        },
+        "sign": {
+          "description": "Zwraca wartość określającą znak 8-bitowego signed Integera.",
+          "example": "=Sign(Fields!AnnualSales.Value - 60000)",
+          "label": "Sign",
+          "syntax": "Sign(<Number>)"
+        },
+        "sin": {
+          "description": "Zwraca sinus określonej liczby.",
+          "example": "=Sin(60)",
+          "label": "Sin",
+          "syntax": "Sin(<Number>)"
+        },
+        "sinh": {
+          "description": "Zwraca sinus hiperboliczny określonego kąta.",
+          "example": "=Sinh(60)",
+          "label": "Sinh",
+          "syntax": "Sinh(<Number>)"
+        },
+        "sqrt": {
+          "description": "Zwraca pierwiastek kwadratowy okreslonej liczby.",
+          "example": "=Sqrt(121)",
+          "label": "Sqrt",
+          "syntax": "Sqrt(<Number>)"
+        },
+        "tan": {
+          "description": "Zwraca tangens określonej liczby.",
+          "example": "=Tan(60)",
+          "label": "Tan",
+          "syntax": "Tan(<Number>)"
+        },
+        "tanh": {
+          "description": "Zwraca tangens hiperboliczny określonego kąta.",
+          "example": "=Tanh(60)",
+          "label": "Tanh",
+          "syntax": "Tanh(<Number>)"
+        },
+        "truncate": {
+          "description": "Usuwa znaki po przecinku liczby Decimal bez zaokrąglania, zwracając sam Integer.",
+          "example": "=Truncate(Fields!UnitPrice.Value)",
+          "label": "Truncate",
+          "syntax": "Truncate(<Number>)"
+        }
+      },
+      "miscellaneous": {
+        "getFields": {
+          "description": "Zwraca obiekt IDictionary<string,Field>, który zawiera obecną zawartość kolekcji Pól. Poprawne jedynie podczas użycia w obszarze regionu danych. Ta funkcja pozwala na łatwiejsze pisanie kodu, który boryka się ze złożonymi warunkami. Napisanie równoznacznej funkcji bez GetFields() wymagałoby przekształcenia każdej z odpytywanych wartości pól w metodę, co mogłoby być nieprzystępne w odniesieniu do wielu pól.",
+          "example": "=GetFields(); =Code.DisplayAccountID(GetFields())",
+          "label": "GetFields",
+          "syntax": "GetFields()"
+        },
+        "getLength": {
+          "description": "Zwraca liczbę elementów w określonym zakresie.",
+          "example": "=Parameters!MultiValueParameter.Value.GetLength(0)",
+          "label": "GetLength",
+          "syntax": "<Collection>.GetLength(<Number>)"
+        },
+        "inScope": {
+          "description": "Sprawdza (Prawda - Fałsz) czy aktualna wartość jest w określonym zakresie.",
+          "example": "=InScope(\"Order\")",
+          "label": "InScope",
+          "syntax": "InScope(<Scope>)"
+        },
+        "item": {
+          "description": "Zwraca element po nazwie z Pola/Parametery/ElementyRaportu.",
+          "example": "=Fields.Item(\"Company Name\").Name, =Parameters.Item(\"Parameter1\").Name, =ReportItems.Item(\"TextBox1\").Value",
+          "example_i11n": "{Fields.Item(\"Company Name\").Name}; {Parameters.Item(\"Parameter1\").Name}; {ReportItems.Item(\"TextBox1\").Value}",
+          "label": "Item",
+          "syntax": "<Object | Record>.Item(<String>)"
+        },
+        "join": {
+          "description": "Zwraca Napis, który jest wynikiem łączenia elementów szeregu, używając określonego ogranicznika pomiędzy elementami.",
+          "example": "=Join(Parameters!MultiValueParameter.Value, \", \")",
+          "label": "Join",
+          "syntax": "Join(<Values>, <String>)"
+        },
+        "level": {
+          "description": "Zwraca Integer, reprezentujący obecny poziom głębokości w hierarchii rekurencyjnej w aktualnym zakresie. Numeracja rozpoczna się od 0.",
+          "example": "=Level()",
+          "label": "Level",
+          "syntax": "Level()"
+        },
+        "levelWithScope": {
+          "description": "Zwraca Integer, reprezentujący obecny poziom głębokości w hierarchii rekurencyjnej w określonym zakresie. Numeracja rozpoczyna się od 0.",
+          "example": "=Level(\"Order\")",
+          "label": "Level (with scope)",
+          "syntax": "Level(<Scope>)"
+        },
+        "lookup": {
+          "description": "Zwraca pierwszą pasującą wartość dla określonej nazwy z zestawu danych.",
+          "example": "=Lookup(Fields!ProductID.Value, Fields!ProductID.Value, Fields!Quantity.Value, \"DataSet2\")",
+          "label": "Lookup",
+          "syntax": "Lookup(<Source>, <Destination>, <Result>, <DataSet>)"
+        },
+        "lookupSet": {
+          "description": "Zwraca zestaw pasujących wartości dla określonej nazwy z zestawu danych.",
+          "example": "=LookupSet(Fields!ProductID.Value, Fields!ProductID.Value, Fields!Quantity.Value, \"DataSet2\")",
+          "label": "LookupSet",
+          "syntax": "LookupSet(<Source>, <Destination>, <Result>, <DataSet>)"
+        },
+        "previous": {
+          "description": "Oblicza wartość wyrażenia dla poprzedniego wiersza danych.",
+          "example": "=Previous(Fields!OrderID.Value)",
+          "label": "Previous",
+          "syntax": "Previous(<Value>)"
+        },
+        "previousWithScope": {
+          "description": "Oblicza wartość wyrażenia dla poprzedniego wiersza danych w określonym zakresie.",
+          "example": "=Previous(Fields!OrderID.Value, \"Order\")",
+          "label": "Previous (with scope)",
+          "syntax": "Previous(<Expression>, <Scope>)"
+        },
+        "rowNumber": {
+          "description": "Oblicza dynamicznie liczbę wszystkich wierszy.",
+          "example": "=RowNumber()",
+          "label": "RowNumber",
+          "syntax": "RowNumber()"
+        },
+        "rowNumberWithScope": {
+          "description": "Oblicza dynamicznie liczbę wszystkich wierszy w określonym zakresie.",
+          "example": "=RowNumber(\"OrderID\")",
+          "label": "RowNumber (with scope)",
+          "syntax": "RowNumber(<Scope>)"
+        }
+      },
+      "programFlow": {
+        "choose": {
+          "description": "Zwraca wartość z listy argumentów.",
+          "example": "=Choose(3, \"10\", \"15\", \"20\", \"25\")",
+          "label": "Choose",
+          "syntax": "Choose(<Index>, <Value1>[, <Value2>,...[, <ValueN>]])"
+        },
+        "iif": {
+          "description": "Zwraca pierwszą wartość, jeśli wyrażanie zostanie zakwalifikowano jako Prawda, lub drugą, jeśli wyrażania zostanie zakwalifikowane jako Fałsz.",
+          "example": "=IIF(Fields!AnnualSales.Value >= 80000, \"Above Average\", \"Below Average\")",
+          "label": "IIF",
+          "syntax": "IIF(<Condition>, <TruePart>, <FalsePart>)"
+        },
+        "partition": {
+          "description": "Zwraca Napis (w formie x : y), który reprezentuje obliczony zakres, bazując na określonym przedziale zawierającym określoną liczbę.",
+          "example": "=Partition(1999, 1980, 2000, 10)",
+          "label": "Partition",
+          "syntax": "Partition(<Value>, <Start>, <End>, <Interval>)"
+        },
+        "switch": {
+          "description": "Zwraca wartość pierwszego wyrażenia zakwalifikowanego jak Prawda spośród listy wyrażeń.",
+          "example": "=Switch(Fields!FirstName.Value = \"Abraham\", \"Adria\", Fields!FirstName.Value = \"Charelotte\", \"Cherrie\")",
+          "label": "Switch",
+          "syntax": "Switch(<Condition1>, <Value1>[, <Condition2>, <Value2>,...[, <ConditionN>, <ValueN>]])"
+        }
+      },
+      "text": {
+        "contains": {
+          "description": "Zwraca Prawda, jeśli Napis zawiera określony fragment.",
+          "example": "=Fields!ShipAddress.Value.Contains(\"street\")",
+          "label": "Contains",
+          "syntax": "<String>.Contains(<String>)"
+        },
+        "endsWith": {
+          "description": "Zwraca Prawda, jeśli Napis kończy się określonym fragmentem.",
+          "example": "=Fields!Description.Value.EndsWith(\"documents\")",
+          "label": "EndsWith",
+          "syntax": "<String>.EndsWith(<String>)"
+        },
+        "inStr": {
+          "description": "Zwraca pozycję (początek) pierwszego wystąpienia określonego fragmentu wewnątrz Napisu.",
+          "example": "=InStr(Fields!Description.Value, \"documents\")",
+          "label": "InStr",
+          "syntax": "InStr(<String>, <String>)"
+        },
+        "indexOf": {
+          "description": "Zwraca indeks pierwszego wystąpienia określonego fragmentu wewnątrz Napisu.",
+          "example": "=Fields!Description.Value.IndexOf(\"documents\")",
+          "label": "IndexOf",
+          "syntax": "<String>.IndexOf(<String>[, <Number>])"
+        },
+        "lastIndexOf": {
+          "description": "Zwraca indeks ostatniego wystąpienia określonego fragmentu wewnątrz Napisu.",
+          "example": "=Fields!Description.Value.LastIndexOf(\"documents\")",
+          "label": "LastIndexOf",
+          "syntax": "<String>.LastIndexOf(<String>[, <Number>])"
+        },
+        "replace": {
+          "description": "Zamienia wszystkie wystąpienia pierwszego określonego fragmentu na drugi określony fragment.",
+          "example": "=Fields!Description.Value.Replace(\"documents\", \"invoices\")",
+          "label": "Replace",
+          "syntax": "<String>.Replace(<String>, <String>)"
+        },
+        "startsWith": {
+          "description": "Zwraca Prawda, jeśli Napis rozpoczyna się od podanego fragmentu.",
+          "example": "=Fields!Description.Value.StartsWith(\"Invoice\")",
+          "label": "StartsWith",
+          "syntax": "<String>.StartsWith(<String>)"
+        },
+        "substring": {
+          "description": "Zwraca fragment na określonej pozycji o określonej długości.",
+          "example": "=Fields!Description.Value.Substring(1, 10)",
+          "label": "Substring",
+          "syntax": "<String>.Substring(<Number>, <Number>)"
+        },
+        "toLower": {
+          "description": "Zwraca określony Napis jako małe znaki.",
+          "example": "=Fields!ShipCountry.Value.ToLower()",
+          "label": "ToLower",
+          "syntax": "<String>.ToLower()"
+        },
+        "toUpper": {
+          "description": "Zwraca określony Napis jako wielkie znaki.",
+          "example": "=Fields!ShipCountry.Value.ToUpper()",
+          "label": "ToUpper",
+          "syntax": "<String>.ToUpper()"
+        },
+        "trim": {
+          "description": "Zwraca Napis po usunięciu wszystkich zbędnych odstępów, zarówno na początku, jak i na końcu Napisu.",
+          "example": "=Parameters!Info.Value.Trim()",
+          "label": "Trim",
+          "syntax": "<String>.Trim()"
+        },
+        "trimEnd": {
+          "description": "Zwraca Napis po usunięciu wszystkich zbędnych odstępów z końca Napisu",
+          "example": "=Parameters!Info.Value.TrimEnd()",
+          "label": "TrimEnd",
+          "syntax": "<String>.TrimEnd()"
+        },
+        "trimStart": {
+          "description": "Zwraca Napis po usunięciu wszystkich zbędnych odstępów z początku Napisu",
+          "example": "=Parameters!Info.Value.TrimStart()",
+          "label": "TrimStart",
+          "syntax": "<String>.TrimStart()"
+        }
+      }
+    },
+    "titles": {
+      "aggregate": "Agregacja",
+      "conversion": "Konwersja",
+      "dateTime": "Data & Czas",
+      "inspection": "Przegląd",
+      "label": "Popularne funkcje",
+      "math": "Matematyczne",
+      "miscellaneous": "Różne",
+      "programFlow": "Działanie programu",
+      "text": "Tekstowe"
+    }
+  },
+  "operations": {
+    "info": {
+      "arithmetic": {
+        "add": {
+          "description": "Zwraca sumę dwóch liczb lub łączy dwa Napisy",
+          "example": "=Fields!Quantity.Value + 2",
+          "label": "+",
+          "syntax": "<Value1> + <Value2>"
+        },
+        "divide": {
+          "description": "Dzieli dwie liczby i zwraca iloraz jako liczbę floating-point.",
+          "example": "=Fields!AnnualSales.Value / 2",
+          "label": "/",
+          "syntax": "<Number1> / <Number2>"
+        },
+        "integerDivide": {
+          "description": "Dzieli dwie liczby i zwraca wynik jako Integer.",
+          "example": "=Fields!AnnualSales.Value \\ 2",
+          "label": "\\",
+          "syntax": "<Number1> \\ <Number2>"
+        },
+        "mod": {
+          "description": "Dzieli dwie liczby i zwraca resztę.",
+          "example": "=Fields!AnnualSales.Value Mod 12",
+          "label": "Mod",
+          "syntax": "<Number1> Mod <Number2>"
+        },
+        "multiply": {
+          "description": "Zwraca wynik mnożenia dwóch liczb.",
+          "example": "=Fields!Quantity.Value * 5",
+          "label": "*",
+          "syntax": "<Number1> * <Number2>"
+        },
+        "power": {
+          "description": "Podnosi liczbę do potęgi, którą określa druga liczba.",
+          "example": "=Fields!Quantity.Value ^ 2",
+          "label": "^",
+          "syntax": "<Number1> ^ <Number2>"
+        },
+        "subtract": {
+          "description": "Zwraca różnicę pomiędzy dwiema liczbami lub podaje wartość ujemną wyrażenia.",
+          "example": "=Fields!Quantity.Value - 2",
+          "label": "-",
+          "syntax": "<Number1> - <Number2>"
+        }
+      },
+      "bitShift": {
+        "leftShift": {
+          "description": "Przeprowadza arytmetyczne przesunięcie w lewo na wzorze bitów.",
+          "example": "=Fields!RegionID.Value << 2",
+          "label": "<<",
+          "syntax": "<Number1> << <Number2>"
+        },
+        "rightShift": {
+          "description": "Przeprowadza arytmetyczne przesunięcie w prawo na wzorze bitów.",
+          "example": "=Fields!RegionID.Value >> 2",
+          "label": ">>",
+          "syntax": "<Number1> >> <Number2>"
+        }
+      },
+      "comparison": {
+        "equal": {
+          "description": "Zwraca Prawda, jeśli lewy argument jest równy prawemu.",
+          "example": "=Fields!AnnualSales.Value = 80000",
+          "label": "=",
+          "syntax": "<Value1> = <Value2>"
+        },
+        "greaterThan": {
+          "description": "Zwraca Prawda, jeśli lewy argument jest większy od prawego.",
+          "example": "=Fields!AnnualSales.Value > 80000",
+          "label": ">",
+          "syntax": "<Value1> > <Value2>"
+        },
+        "greaterThanOrEqual": {
+          "description": "Zwraca Prawda, jeśli lewy argument jest większy lub równy w stosunku do prawego.",
+          "example": "=Fields!AnnualSales.Value >= 80000",
+          "label": ">=",
+          "syntax": "<Value1> >= <Value2>"
+        },
+        "is": {
+          "description": "Porównuje dwa obiekty i zwraca Prawda, jeśli są równe sobie.",
+          "example": "=Fields!FirstName.Value Is Fields!LastName.Value",
+          "label": "Is",
+          "syntax": "<Value1> Is <Value2>"
+        },
+        "like": {
+          "description": "Porównuje dwa Napisy i zwraca Prawda, jeśli są takie same.",
+          "example": "=Fields!FirstName.Value Like \"A*\"",
+          "label": "Like",
+          "syntax": "<String1> Like <String2>"
+        },
+        "lowerThan": {
+          "description": "Zwraca Prawda, jeśli lewy argument jest mniejszy od prawego.",
+          "example": "=Fields!AnnualSales.Value < 80000",
+          "label": "<",
+          "syntax": "<Value1> < <Value2>"
+        },
+        "lowerThanOrEqual": {
+          "description": "Zwraca Prawda, jeśli lewy argument jest mniejszy lub równy w stosunku do prawego.",
+          "example": "=Fields!AnnualSales.Value <= 80000",
+          "label": "<=",
+          "syntax": "<Value1> <= <Value2>"
+        },
+        "notEqual": {
+          "description": "Zwraca Prawda, jeśli lewy argument nie jest równy prawemu.",
+          "example": "=Fields!AnnualSales.Value <> 80000",
+          "label": "<>",
+          "syntax": "<Value1> <> <Value2>"
+        }
+      },
+      "concatenation": {
+        "add": {
+          "description": "Zwraca sumę dwóch liczb lub łączy dwa Napisy.",
+          "example": "=Fields!FirstName.Value + \" \" + Fields!LastName.Value",
+          "label": "+",
+          "syntax": "<String1> + <String2>"
+        },
+        "concat": {
+          "description": "Zwraca Napis z dwóch wyrażeń, z których każde jest Napisem.",
+          "example": "=Fields!FirstName.Value & \" \" & Fields!LastName.Value",
+          "example_i11n": "{FirstName & \" \" & LastName}",
+          "label": "&",
+          "syntax": "<String1> & <String2>"
+        }
+      },
+      "logicalBitwise": {
+        "and": {
+          "description": "Zwraca logiczne złożenie dwóch wyrażeń Boolean lub koniunkcję bitową dwóch wyrażeń liczbowych.",
+          "example": "=(Fields!AnnualSales.Value > 80000) And (Fields!Quantity.Value > 5)",
+          "label": "And",
+          "syntax": "<Value1> And <Value2>"
+        },
+        "andAlso": {
+          "description": "Zwraca logiczne złożenie dwóch wyrażeń Boolean, poprzez pomijanie oceny drugiego, jeśli pierwsze daje wynik.",
+          "example": "=(Fields!AnnualSales.Value > 80000) AndAlso (Fields!Quantity.Value > 1)",
+          "label": "AndAlso",
+          "syntax": "<Boolean1> AndAlso <Boolean2>"
+        },
+        "not": {
+          "description": "Zwraca logiczną negację wyrażenia Boolean lub bitową negację wyrażenia liczbowego.",
+          "example": "=Not (Fields!AnnualSales.Value > 80000)",
+          "label": "Not",
+          "syntax": "Not <Value>"
+        },
+        "or": {
+          "description": "Zwraca logiczną alternatywę dwóch wyrażeń Boolean lub bitową alternatywę dwóch wartości liczbowych.",
+          "example": "=(Fields!AnnualSales.Value > 80000) Or (Fields!Quantity.Value > 5)",
+          "label": "Or",
+          "syntax": "<Value1> Or <Value2>"
+        },
+        "orElse": {
+          "description": "Zwraca logiczną alternatywę dwóch wyrażeń Boolean, poprzez pomijanie oceny drugiego, jeśli pierwsze daje wynik.",
+          "example": "=(Fields!AnnualSales.Value > 80000) OrElse (Fields!Quantity.Value > 1)",
+          "label": "OrElse",
+          "syntax": "<Boolean1> OrElse <Boolean2>"
+        },
+        "xor": {
+          "description": "Zwraca logiczne wykluczenie dwóch wyrażeń Boolean lub bitowe wykluczenie dwóch wyrażeń liczbowych.",
+          "example": "=(Fields!AnnualSales.Value > 80000) Xor (Fields!Quantity.Value) > 5",
+          "label": "Xor",
+          "syntax": "<Value1> Xor <Value2>"
+        }
+      }
+    },
+    "titles": {
+      "arithmetic": "Arytmetyczne",
+      "bitShift": "Przesunięcia bitowe",
+      "comparison": "Porównania",
+      "concatenation": "Konkatenacje",
+      "label": "Operacje",
+      "logicalBitwise": "Logiczne/Bitowe"
+    }
+  },
+  "parameters": {
+    "titles": {
+      "label": "Parametry"
+    }
+  },
+  "reportItems": {
+    "titles": {
+      "label": "Elementy raportu"
+    }
+  },
+  "dataSets": {
+    "titles": {
+      "label": "Zestawy danych"
+    }
+  },
+  "theme": {
+    "titles": {
+      "color": "Kolory",
+      "constant": "Stałe",
+      "font": "Czczionki",
+      "image": "Obrazy",
+      "label": "Motywy",
+      "majorFont": "Główna czcionka",
+      "minorFont": "Poboczna czcionka"
+    }
+  },
+  "multipleValues": {
+    "info": {
+      "current": {
+        "description": "This variable will be replaced with the current value of the expression for each of the multiple values when saved.",
+        "example": "=Sum($$)",
+        "example_i11n": "{Sum($$$)}",
+        "label": "Current Value of Expression"
+      }
+    },
+    "titles": {
+      "label": "Multiple Values"
+    }
+  }
+}

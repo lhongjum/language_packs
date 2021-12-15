@@ -36,6 +36,7 @@ export const appendDataES = {
 	AppendSource: 'Source',
 	AppendImport: 'Append',
 	AppendDataSuccess: 'Data appended successfully',
+	SelectFile: 'Select File...',
 	FileReady: '{{file}} is ready to upload',
 	FileInProcess: 'Uploading {{file}}',
 	FileUploaded: '{{file}} has been uploaded',

@@ -1,0 +1,36 @@
+{
+	"reporting_plugin": {
+		"lrt": "An LRT exception occurred in reporting plugin",
+		"bad_response": "Worker responded with error",
+		"streaming": "An error occurred during streaming from worker",
+		"response_verification": "An error have been revealed after streaming result from worker",
+		"unknown": "An unknown error occurred during task execution"
+	},
+	"reporting_worker": {
+		"export": {
+			"invalid_parameters": "Invalid report parameters",
+			"unknown_rendering_ext": "Unknown rendering extension {{0}}"
+		},
+		"task_init": {
+			"file_not_found": "File {{0}} not found",
+			"unable_to_load_file": "Unable to load file {{0}}",
+			"unknown": "An unknown error occurred during worker task execution: {{0}}"
+		},
+		"fail_check": {
+			"subreport_not_specified": "Subreport name is not specified for a subreport report item {{0}}",
+			"invalid_parameters": "Invalid report parameters",
+			"no_dataset": "Dataset not specified",
+			"data_not_found": "Specified {{0}} document with id '{{1}}' not found",
+			"data_not_allowed": "Specified {{0}} '{{1}}' inaccessible due to insufficient permissions",
+			"data_unknown": "Specified data inaccessible: {{0}}",
+			"unknown": "An unknown error occurred during worker task execution: {{0}}"
+		},
+		"rendering": {
+			"unknown": "An unknown error occurred during worker task execution: {{0}}"
+		},
+		"report": {
+			"cyclic_parameter_references": "Cyclic report parameter references detected",
+			"unknown": "An unknown error occurred when getting report info: {{0}}"
+		}
+	}
+}

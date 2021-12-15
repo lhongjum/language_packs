@@ -58,7 +58,9 @@
 	gtRevokeToken: 'Revoke Token',
 	gtRevokeTokenConfirmMessage: "Do you want to revoke token '{{title}}'?",
 	gtCopyUrl: 'Copy URL',
-	gtCopyOfflineLicenseString: 'Copy Offline license string',
+	gtCopyOfflineLicenseString: 'Copy string',
+	gtGenerateQRCode: 'Generate QR code',
+	gtQRCodeGetOfflineLicenseString: 'Scan the QR code to get the offline authorization text',
 	gtExpiryTime: 'Expiry Time',
 	error_100001: 'Invalid parameter: {{name}}',
 	error_100002: 'Unknown error: {{message}}',
@@ -157,6 +159,7 @@
 	NoLicenseTipTrialInfoSuffix: 'to activate a full license.',
 	CouldNotRegisterTip: 'Licence key is already registered. Please deregister the existing key to register a new key',
 	KeyType: 'Key Type',
+	ServerCount: 'Server Count',
 	KeyTypeTrial: 'Trial',
 	KeyTypePerpetual: 'Perpetual',
 	KeyTypeAnnual: 'Annual',
@@ -208,7 +211,7 @@
 
 	EnableExternalLoginProviderExplainText: 'To enable the external login provider, you need to fill in the mandatory setting items(With an asterisk) correctly, then you can synchronize the data from the external login provider and enable the other functions(such as single sign-on, scan QR code login and automatic data synchronization.',
 	DataSyncingExplainText: "The data syncing function will synchronize all the authorized organizations, roles and users in the external login provider to Wyn, the original data will be overwritten and some special characters('/', '\\', '<', '>' and '$') in the organization name and the role name will be removed after the data synchronized.",
-	DataSyncingFailsExplainText: 'Notes: The data syncing will fail if there are duplicated user names, duplicated role names, or duplicated organization names at the same level of the organization structure.',
+	DataSyncingFailsExplainText: 'Notes: The data syncing will fail if there are duplicated role names, or duplicated organization names at the same level of the organization structure. The duplicate user names will be formatted to something like "username[userid]".',
 
 	SyncData: 'Sync Data',
 	SyncingData: 'Syncing Data...',
@@ -416,14 +419,17 @@
 	LicenseOprateResultCode_2003: "Exceeds the maxinum activation count.",
 	LicenseOprateResultCode_2004: "license is already activated",
 	LicenseOprateResultCode_2005: "Key's version did not match current version.",
-	LicenseOprateResultCode_2006: "Empty Key",
-	LicenseOprateResultCode_2007: "License content is not valid.",
+	LicenseOprateResultCode_2006: "The node count of the key is inconsistent with the deployment method.",
+
 	LicenseOprateResultCode_3000: "Deactivation Failed",
 	LicenseOprateResultCode_3001: "Trial license cannot be deactived",
 	LicenseOprateResultCode_3002: "Activation info not matched.",
 	LicenseOprateResultCode_3011: "Deactive info not match Token",
 	LicenseOprateResultCode_3012: "Deactive info not match machine",
 	LicenseOprateResultCode_3013: "Deactive info not match computerId",
+
+	LicenseOprateResultCode_12006: "Empty Key",
+	LicenseOprateResultCode_12007: "License content is not valid.",
 };
 
 export const portalEN = {

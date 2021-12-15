@@ -184,12 +184,13 @@ export const gcExceptionLocaleEN = {
 
 export const documentSectionRegisterLocaleEN = {
     dlDatasetType: 'Dataset Type',
-    dlDashboardDataset: 'For Dashboard',
-    dlReportDataset: 'For Report',
+    dlDashboardDataset: 'Cached Dataset',
+    dlReportDataset: 'Direct Dataset',
     dlDataProvider: 'Data Provider',
     dlDataSource: 'Data Source',
 };
 
 export const previewParameterRegisterLocaleEN = {
-	Preview: 'Preview',
+    Preview: 'Preview',
+    Multivalue: 'Multivalue',
 };

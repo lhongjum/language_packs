@@ -24,6 +24,7 @@ export const userEN: LanguageKeyValueMap = {
 	Password: 'Password',
 	ConfirmPassword: 'Confirm Password',
 	Roles: 'Roles',
+	ManagedBy: 'Managed By',
 	Provider: 'Provider',
 	Organizations: 'Organizations',
 	Status: 'Status',
@@ -91,5 +92,7 @@ export const userEN: LanguageKeyValueMap = {
 	Error: 'Error',
 	umError_1024: 'Mobile Number already exists',
 	umError_1028: 'User "admin" can not be deleted.',
+	umError_1039: 'The manager of system Administrators should always be Global.',
+	umError_1040: 'no enough permission',
 	umError_5010: 'You cannot remove yourself from the current organization.',
 };

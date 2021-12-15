@@ -27,6 +27,7 @@ export const portalEN: LanguageKeyValueMap = {
   'dashboardsConfiguration!contextMenuActions!drillTo': 'Drill Down',
   'dashboardsConfiguration!contextMenuActions!jumpTo': 'Jump',
   'dashboardsConfiguration!enablePdfExport': 'Enable PDF Export',
+  'dashboardsConfiguration!showWizard': 'Show Visualization Wizard For New Dashboard',
   selectAll: '(All)',
   selectNone: '(None)',
 };

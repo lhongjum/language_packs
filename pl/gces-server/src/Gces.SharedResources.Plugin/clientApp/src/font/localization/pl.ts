@@ -2,8 +2,10 @@
 	'create-font!title': 'Dodaj czcionkę', // Add Font
 	'create-font!name': 'Dodaj czcionkę', // Add Font
 	'font!name': 'Czcionka', // Font
+	'fontName!name': 'Oryginalna nazwa czcionki', // Font Original Name
 	'createFont!name': 'Dodaj czcionkę', // Add Font
 	'createFont!description': 'Dodaj czcionkę', // Add Font
+	'docOriginalName': 'Oryginalna nazwa czcionki', // Font original name
 };
 
 export const fontPL: LanguageKeyValueMap = {
@@ -24,7 +26,7 @@ export const fontPL: LanguageKeyValueMap = {
 	'fontType': 'Typ czcionki', // Font Type
 	'fileLoader': 'Plik czcionki ', // Font File
 	'selectFile': 'Wybierz plik', // Select File...
-	'fontFamilyPreview': '', // 'Font Family Preview',
+	'fontFamilyPreview': 'Font Family Preview',
 	'local': 'Lokalne', // Local
 	'web': 'Web', // Web
 

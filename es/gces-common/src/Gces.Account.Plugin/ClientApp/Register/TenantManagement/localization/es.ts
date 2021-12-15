@@ -18,7 +18,6 @@ export const tenantES: LanguageKeyValueMap = {
 	tntName: 'Name',
 	tntFromEmail: 'From Email',
 	tntMultiLineTip: 'One value per line',
-	tntRequiredTip: '(Required)',
 	tntAdd: 'Add',
 	tntSave: 'Save',
 	tntCancel: 'Cancel',

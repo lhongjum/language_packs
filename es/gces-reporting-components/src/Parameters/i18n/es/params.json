@@ -1,0 +1,12 @@
+{
+  "bool-true-label": "True",
+  "bool-false-label": "False",
+  "paramsTextInvalidValue": "Invalid Value",
+  "datePlaceholder": "Select Date..",
+  "daysViewHeaderFormat": "MMMM YYYY",
+  "ddpTextNull": "(null)",
+  "ddpTextSelectValue": "(select value)",
+  "ddpTextSelectAllValues": "(select all)",
+  "null": "Null",
+  "preview-btn-title": "Preview"
+}

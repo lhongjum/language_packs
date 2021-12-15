@@ -408,37 +408,6 @@ export const schedulingEN: LanguageKeyValueMap = {
 	'timezone_Pacific/Apia': '(UTC+13:00) Samoa',
 	'timezone_Pacific/Kiritimati': '(UTC+14:00) Kiritimati Island',
 
-	// Reporting Plugin Exceptions
-	reportingPluginUnknown: 'An unknown error occurred during task execution',
-	reportingPluginLrt: 'An LRT exception occurred in reporting plugin',
-	reportingPluginBadResponse: 'Worker responded with error',
-	reportingPluginStreaming: 'An error occurred during streaming from worker',
-	reportingPluginResponseVerification: 'An error have been revealed after streaming result from worker',
-
-	// Worker Exceptions
-	reportingWorkerExportInvalidParameters: 'Invalid report parameters',
-	reportingWorkerExportUnknownRenderingExt: 'Unknown rendering extension {0}',
-
-	reportingWorkerTaskInitUnknown: 'An unknown error occurred during worker task execution: {0}',
-	reportingWorkerTaskInitFileNotFound: 'File {0} not found',
-	reportingWorkerTaskInitUnableToLoadFile: 'Unable to load file {0}',
-
-	reportingWorkerFailCheckInvalidParameters: 'Invalid report parameters',
-	reportingWorkerFailCheckUnknown: 'An unknown error occurred during worker task execution: {0}',
-	reportingWorkerFailCheckNoDataset: 'Dataset not specified',
-
-	reportingWorkerRenderingDatasetNotFound: 'Specified dataset not found or inaccessible due to insufficient permissions',
-	reportingWorkerRenderingDatasourceNotFound: 'Specified datasource not found or inaccessible due to insufficient permissions',
-	reportingWorkerRenderingUnknown: 'An unknown error occurred during worker task execution: {0}',
-	reportingWorkerFailCheckDataNotAllowed: 'Specified {0} \'{1}\' inaccessible due to insufficient permissions',
-	reportingWorkerRenderingCancelled: 'The task is canceled by administrator or the task is automatically canceled because the task has timed out or the task is aborted.',
-
-	reportingWorkerReportUnknown: 'An unknown error occurred when getting report info: {0}',
-	reportingWorkerReportCyclicParameterReferences: 'Cyclic report parameter references detected',
-	// TODO, please move to report plugin in future.
-	'reporting_worker_fail_check_no_dataset': 'An error occurred during report fail check procedure: Dataset not specified',
-	reportingWorkerJobCancelled: 'The task is canceled by administrator or the task is automatically canceled because the task has timed out or the task is aborted.',
-
 	// Relative Dates
 	dtTextBack: 'Back to Calendar',
 	tbSpecificDate: 'Specific date',

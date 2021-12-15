@@ -2,8 +2,10 @@ export const portalFontES: LanguageKeyValueMap = {
 	'create-font!title': 'Add Font',
 	'create-font!name': 'Add Font',
 	'font!name': 'Font',
+	'fontName!name': 'Font Original Name',
 	'createFont!name': 'Add Font',
 	'createFont!description': 'Add Font',
+	'docOriginalName': 'Font original name',
 };
 
 export const fontES: LanguageKeyValueMap = {

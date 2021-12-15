@@ -1,0 +1,14 @@
+{
+  "integerTooBig": "* Wartość nie może przekraczać 53-bitowego integera",
+  "invalidBoolean": "* Niewłaściwa wartość. Upewnij się, że wprowadziłeś poprawne dane typu boolean",
+  "invalidDateTime": "* Niewłaściwa wartość. Upewnij się, że wprowadziłeś poprawne dane typu date",
+  "invalidFloat": "* Niewłaściwa wartość. Upewnij się, że wprowadziłeś poprawne dane typu float",
+  "invalidInteger": "* Niewłaściwa wartość. Upewnij się, że wprowadziłeś poprawne dane typu integer",
+  "outstandingDependencies": "* Parametr ma zaległe zależności",
+  "requiredSingleValue": "* Spodziewana pojedyncza wartość",
+  "requiredValue": "* Spodziewana wartość",
+  "stringEmpty": "* Niewłaściwa wartość. Puste stringi nie są dozwolone",
+  "valueIsNull": "* Wartość nie może być nullem",
+  "valueOutOfRange": "* Niewłaściwa wartość. Wybierz poprawną z listy.",
+  "unknown": "! Nieznany błąd sprawdzania poprawności"
+}

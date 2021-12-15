@@ -1,0 +1,50 @@
+{
+  "addReportItem": {
+    "caption": "Report item of type '{{reportItemType}}' can't be added to {{containerType}}"
+  },
+  "deleteRowColumn": {
+    "caption": "Cannot delete {{rowColumn}}",
+    "text": "{{rowColumn}} cannot be deleted because {{itemType}} '{{itemName}}' would have invalid size as a result."
+  },
+  "fixedPageSize": {
+    "caption": "Action can not be performed",
+    "text": "Report item could not exceed page size"
+  },
+  "fplPasteFailed": {
+    "caption": "Paste operation failed",
+    "text": "There is not enough space to paste report items"
+  },
+  "innerException": {
+    "caption": "Inner exception occurred"
+  },
+  "invalidPageSizes": {
+    "caption": "This action will result in invalid page sizes"
+  },
+  "lockLayout": {
+    "caption": "Report layout is locked",
+    "text": "Resizing, moving, deleting, adding report items and changing layout properties is restricted."
+  },
+  "removeDefaultLayer": {
+    "caption": "Default layer can't be removed"
+  },
+  "transaction": {
+    "caption": "Transaction failed: {{innerException}}"
+  },
+  "convertTableForClient": {
+    "text": "✘ Table '{{name}}' has invalid structure and has been converted to Tablix"
+  },
+  "removeLastValidValue": {
+    "caption": "Last valid value for bound parameter can't be removed"
+  },
+  "pasteFailedDecode": {
+    "caption": "Decode error while pasting: {{reason}}"
+  },
+  "pasteWarningDecode": {
+    "caption": "Decode warning while pasting",
+    "text": "{{warning}}"
+  },
+  "pasteFailed": {
+    "caption": "Not valid item to paste: {{elementName}}",
+    "text": "You can paste Overflow Placeholder in fixed page report only"
+  }
+}

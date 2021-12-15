@@ -1,0 +1,136 @@
+{
+  "values": [
+    {
+      "_name": "Letter",
+      "cm": {
+        "height": "27.9cm",
+        "width": "21.6cm"
+      },
+      "in": {
+        "height": "11in",
+        "width": "8.5in"
+      }
+    },
+    {
+      "_name": "Tabloid",
+      "cm": {
+        "height": "43.2cm",
+        "width": "27.9cm"
+      },
+      "in": {
+        "height": "17in",
+        "width": "11in"
+      }
+    },
+    {
+      "_name": "Legal",
+      "cm": {
+        "height": "35.6cm",
+        "width": "21.6cm"
+      },
+      "in": {
+        "height": "14in",
+        "width": "8.5in"
+      }
+    },
+    {
+      "_name": "Executive",
+      "cm": {
+        "height": "26.7cm",
+        "width": "18.4cm"
+      },
+      "in": {
+        "height": "10.5in",
+        "width": "7.25in"
+      }
+    },
+    {
+      "_name": "A3",
+      "cm": {
+        "height": "42cm",
+        "width": "29.7cm"
+      },
+      "in": {
+        "height": "16.54in",
+        "width": "11.69in"
+      }
+    },
+    {
+      "_name": "A4",
+      "cm": {
+        "height": "29.7cm",
+        "width": "21cm"
+      },
+      "in": {
+        "height": "11.69in",
+        "width": "8.27in"
+      }
+    },
+    {
+      "_name": "A5",
+      "cm": {
+        "height": "21cm",
+        "width": "14.8cm"
+      },
+      "in": {
+        "height": "8.27in",
+        "width": "5.83in"
+      }
+    },
+    {
+      "_name": "A6",
+      "cm": {
+        "height": "14.8cm",
+        "width": "10.5cm"
+      },
+      "in": {
+        "height": "5.83in",
+        "width": "4.13in"
+      }
+    },
+    {
+      "_name": "B4 (JIS)",
+      "cm": {
+        "height": "36.4cm",
+        "width": "25.7cm"
+      },
+      "in": {
+        "height": "14.33in",
+        "width": "10.12in"
+      }
+    },
+    {
+      "_name": "B5 (JIS)",
+      "cm": {
+        "height": "25.7cm",
+        "width": "18.2cm"
+      },
+      "in": {
+        "height": "10.12in",
+        "width": "7.17in"
+      }
+    },
+    {
+      "_name": "B6 (JIS)",
+      "cm": {
+        "height": "18.2cm",
+        "width": "12.8cm"
+      },
+      "in": {
+        "height": "7.17in",
+        "width": "5.04in"
+      }
+    },
+    {
+      "_name": "B5 (ISO)",
+      "cm": {
+        "height": "25cm",
+        "width": "17.6cm"
+      },
+      "in": {
+        "height": "9.84in",
+        "width": "6.93in"
+      }
+    }
+  ]
+}

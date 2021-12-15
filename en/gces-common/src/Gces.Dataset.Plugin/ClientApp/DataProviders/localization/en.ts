@@ -45,9 +45,12 @@ export const datasetEN: LanguageKeyValueMap = {
 	'DataSourceDisplayName!TimeScale': 'TimeScale',
 	'DataSourceDisplayName!GreenPlum': 'GreenPlum',
 	'DataSourceDisplayName!TiDB': 'TiDB',
-	'DataSourceDisplayName!ALIAnalyticDBMySql': 'ALIAnalyticDBMySql',
+	'DataSourceDisplayName!ALIAnalyticDBMySql': 'AnalyticDB(MySQL)',
 	'DataSourceDisplayName!Kingbase': 'Kingbase',
 	'DataSourceDisplayName!Hana': 'Hana',
+	'DataSourceDisplayName!BigQuery': 'BigQuery',
+	'DataSourceDisplayName!Db2': 'DB2',
+	'DataSourceDisplayName!Db2 iSeries': 'DB2 iSeries/AS400',
 
 	'err_5001': 'Can not connect to JDBC proxy.',
 };

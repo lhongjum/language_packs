@@ -1,0 +1,50 @@
+{
+  "addReportItem": {
+    "caption": "Element raportu typu '{{reportItemType}}' nie może zostać dodany do {{containerType}}"
+  },
+  "deleteRowColumn": {
+    "caption": "Nie można usunąć {{rowColumn}}",
+    "text": "{{rowColumn}} nie może zostać usunięta, ponieważ {{itemType}} '{{itemName}}' miałby nieprawidłowy rozmiar."
+  },
+  "fixedPageSize": {
+    "caption": "Akcja nie może zostać przeprowadzona",
+    "text": "Element raportu nie może przekraczać rozmiaru strony"
+  },
+  "fplPasteFailed": {
+    "caption": "Operacja wklejania zakończona niepowodzeniem",
+    "text": "Nie ma wystarczająco miejsca, aby wkleić elementy raportu"
+  },
+  "innerException": {
+    "caption": "Wystąpił wewnętrzny wyjątek"
+  },
+  "invalidPageSizes": {
+    "caption": "Ta akcja zakończy się nieprawidłowym rozmiarem strony"
+  },
+  "lockLayout": {
+    "caption": "Układ raportu jest zablokowany",
+    "text": "Zmiana rozmiaru, przesuwanie, usuwanie, dodawanie elementów raportu i zmiana właściwości układu jest ograniczona"
+  },
+  "removeDefaultLayer": {
+    "caption": "Nie można usunąć domyślnej warstwy"
+  },
+  "transaction": {
+    "caption": "Transakcja nieudana: {{innerExceprion}}"
+  },
+  "convertTableForClient": {
+    "text": "✘ Tabela '{{name}}' ma niewłaściwą strukturę i została skonwertowana do Tablix"
+  },
+  "removeLastValidValue": {
+    "caption": "Last valid value for bound parameter can't be removed"
+  },
+  "pasteFailedDecode": {
+    "caption": "Decode error while pasting: {{reason}}"
+  },
+  "pasteWarningDecode": {
+    "caption": "Decode warning while pasting",
+    "text": "{{warning}}"
+  },
+  "pasteFailed": {
+    "caption": "Not valid item to paste: {{elementName}}",
+    "text": "You can paste Overflow Placeholder in fixed page report only"
+  }
+}

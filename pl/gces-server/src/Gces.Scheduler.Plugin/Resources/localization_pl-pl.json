@@ -8,6 +8,7 @@
 	"rdl!name": "Raporty",
 	"dataset!name": "Zestawy danych",
 	"dsc!name": "Źródła danych",
+	"smdsc!name": "Model danych",
 
 	// executionException Common
 	"executionErr_10001": "[Błąd wykonania] Nieznany status zadania.",
@@ -27,26 +28,27 @@
 	// executionException DatasetRefresh
 	"executionErr_12001": "[Błąd wykonania] Wyjątek RefreshCot: {{errorMessage}}.",
 
-	"executionErr_17002": "[Błąd wykonania] Odmowa dostępu do zbioru danych.",
-	"executionErr_17005": "[Błąd wykonania] Brak dostępnych wątków roboczych COT.",
-	"executionErr_17006": "[Błąd wykonania] Menadźer zadań zestawu danych zgłosił błąd.  \r\n{{errorMessage}}",
-	"executionErr_17111": "[Błąd wykonania] CotWorker zgłosił błąd.  \r\n{{errorMessage}}",
-	"executionErr_17200": "[Błąd wykonania] Nieoczekiwany błąd w czasie wykonywania.  \r\n{{errorMessage}}",
+	"executionErr_17002": "[Błąd wykonania] Odmowa dostępu do zbioru danych.", // "[Execution Error] Access denied to the dataset.",
+	"executionErr_17005": "[Błąd wykonania] Brak dostępnych wątków roboczych COT.", // "[Execution Error] No available COT worker threads.",
+	"executionErr_17006": "[Błąd wykonania] Menadźer zadań zestawu danych zgłosił błąd.  \r\n{{errorMessage}}", // "[Execution Error] Dataset task manager reported an error.  \r\n{{errorMessage}}",
+	"executionErr_17111": "[Błąd wykonania] CotWorker zgłosił błąd.  \r\n{{errorMessage}}", // "[Execution Error] CotWorker reported an error.  \r\n{{errorMessage}}",
+	"executionErr_17200": "[Błąd wykonania] Nieoczekiwany błąd w czasie wykonywania.  \r\n{{errorMessage}}", // "[Execution Error] Unexpected runtime error.  \r\n{{errorMessage}}",
 
-	"executionErr_18002": "[Błąd wykonania] [Organization:{{organization}}] Odmowa dostępu do zbioru danych.",
-	"executionErr_18005": "[Błąd wykonania] [Organization:{{organization}}] Brak dostępnych wątków roboczych COT.",
-	"executionErr_18006": "[Błąd wykonania] [Organization:{{organization}}] Menedżer zadań zestawu danych zgłosił błąd.  \r\n{{errorMessage}}",
-	"executionErr_18111": "[Błąd wykonania] [Organization:{{organization}}] CotWorker zgłosił błąd.  \r\n{{errorMessage}}",
-	"executionErr_18200": "[Błąd wykonania] [Organization:{{organization}}] Nieoczekiwany błąd w czasie wykonywania.  \r\n{{errorMessage}}",
+	"executionErr_18002": "[Błąd wykonania] [Organization:{{organization}}] Odmowa dostępu do zbioru danych.", // "[Execution Error] [Organization:{{organization}}] Access denied to the dataset.",
+	"executionErr_18005": "[Błąd wykonania] [Organization:{{organization}}] Brak dostępnych wątków roboczych COT.", // "[Execution Error] [Organization:{{organization}}] No available COT worker threads.",
+	"executionErr_18006": "[Błąd wykonania] [Organization:{{organization}}] Menedżer zadań zestawu danych zgłosił błąd.  \r\n{{errorMessage}}", // "[Execution Error] [Organization:{{organization}}] Dataset task manager reported an error.  \r\n{{errorMessage}}",
+	"executionErr_18111": "[Błąd wykonania] [Organization:{{organization}}] CotWorker zgłosił błąd.  \r\n{{errorMessage}}", // "[Execution Error] [Organization:{{organization}}] CotWorker reported an error.  \r\n{{errorMessage}}",
+	"executionErr_18200": "[Błąd wykonania] [Organization:{{organization}}] Nieoczekiwany błąd w czasie wykonywania.  \r\n{{errorMessage}}", // "[Execution Error] [Organization:{{organization}}] Unexpected runtime error.  \r\n{{errorMessage}}",
 
 	// executionException DashboardExport
 	"executionErr_13001": "[Błąd wykonania] {{errorMessage}}.",
-	"executionErr_13002": "[Błąd wykonania] \"Portal URI\" in \"UI Settings\" jest puste.",
-	"executionErr_13003": "[Błąd wykonania] Nieprawidłowy token, Edytuj ponownie to zadanie, aby uzyskać prawidłowy token.",
-	"executionErr_13004": "[Błąd wykonania] Nie można przejść do docelowego pulpitu nawigacyjnego, sprawdź ponownie \"Portal URI\" w \"UI Settings\".",
-	"executionErr_13005": "[Błąd wykonania] Włącz eksport PDF, aby wykonać to zadanie.",
-	"executionErr_13006": "[Błąd wykonania] Zainstaluj przeglądarkę Chrome, aby kontynuować.",
-	"executionErr_13007": "[Błąd wykonania] Nie udało się uruchomić Chrome, upewnij się, że Chrome jest wykonywalny.",
+	"executionErr_13002": "[Błąd wykonania] \"Portal URI\" in \"UI Settings\" jest puste.", // "[Execution Error] the \"Portal URI\" in \"UI Settings\" is empty.",
+	"executionErr_13003": "[Błąd wykonania] Nieprawidłowy token, Edytuj ponownie to zadanie, aby uzyskać prawidłowy token.", // "[Execution Error] Invalid token, Please re-edit this task to get a valid token.",
+	"executionErr_13004": "[Błąd wykonania] Nie można przejść do docelowego pulpitu nawigacyjnego, sprawdź ponownie \"Portal URI\" w \"UI Settings\".", // "[Execution Error] Can't navigate to target dashboard, Please re-check the \"Portal URI\" in \"UI Settings\".",
+	"executionErr_13005": "[Błąd wykonania] Włącz eksport PDF, aby wykonać to zadanie.", // "[Execution Error] Please enable PDF Export to execute this task.",
+	"executionErr_13006": "[Błąd wykonania] Zainstaluj przeglądarkę Chrome, aby kontynuować.", // "[Execution Error] Please install a Chrome to continue.",
+	"executionErr_13007": "[Błąd wykonania] Nie udało się uruchomić Chrome, upewnij się, że Chrome jest wykonywalny.", // "[Execution Error] Failed to launch Chrome, make sure the Chrome is executable.",
+	"executionErr_13008": "The task is canceled by administrator or the task is automatically canceled because the task has timed out or the task is aborted.",
 
 	// refreshTokenException
 	"securityErr_10001": "[Błąd zabezpieczeń] Discovery Client otrzymał błąd dokumentu.",
@@ -62,6 +64,6 @@
 	"deploymentErr_10005": "[Błąd wdrożenia] Błąd przy udostępnianiu pliku: {{errorMessage}}",
 	"deploymentErr_10006": "[Błąd wdrożenia] Minął termin ważności dokumentu.",
 	"deploymentErr_10007": "[Błąd wdrożenia] Nie dostarczono ponieważ raport jest pusty.",
-	"deploymentErr_10008": "[Błąd wdrożenia] Ścieżka \"{{filePath}}\" jest niedostępna.",
-	"deploymentErr_10009": "[Błąd wdrożenia] Nie udało się znaleźć części ścieżki \"{{filePath}}\"."
+	"deploymentErr_10008": "[Błąd wdrożenia] Ścieżka \"{{filePath}}\" jest niedostępna.", // "[Deployment Error] Access to the path \"{{filePath}}\" is denied.",
+	"deploymentErr_10009": "[Błąd wdrożenia] Nie udało się znaleźć części ścieżki \"{{filePath}}\"." // "[Deployment Error] Could not find a part of the path \"{{filePath}}\"."
 }

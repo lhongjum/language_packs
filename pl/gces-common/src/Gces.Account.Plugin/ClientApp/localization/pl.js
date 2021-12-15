@@ -58,7 +58,10 @@ export const accountPL = {
 	gtRevokeToken: 'Unieważnij token', // Revoke token
 	gtRevokeTokenConfirmMessage: "Czy chcesz unieważnić token '{{title}}'?", // o you want to revoke token '{{title}}'?
 	gtCopyUrl: 'Kopiuj link', // Copy URL
-	gtCopyOfflineLicenseString: 'Skopiuj ciąg licencji offline', // Copy Offline license string
+	// gtCopyOfflineLicenseString: 'Skopiuj ciąg licencji offline', // Copy Offline license string
+	gtCopyOfflineLicenseString: 'Copy string',
+	gtGenerateQRCode: 'Generate QR code',
+	gtQRCodeGetOfflineLicenseString: 'Scan the QR code to get the offline authorization text',
 	gtExpiryTime: 'Czas wygaśnięcia', // Expiry Time
 	error_100001: 'Niepoprawny parametr: {{name}}', // Invalid parameter: {{name}}
 	error_100002: 'Nieznany błąd: {{message}}', // Unknown error: {{message}}
@@ -157,6 +160,7 @@ export const accountPL = {
 	NoLicenseTipTrialInfoSuffix: 'aby aktywować pełną licencję', // to activate a full license.
 	CouldNotRegisterTip: 'Klucz licencji jest już zarejestrowany. Wyrejestruj istniejący klucz, aby zarejestrować nowy.', // Licence key is already registered. Please deregister the existing key to register a new key
 	KeyType: 'Typ klucza', // Key Type
+	ServerCount: 'Server Count',
 	KeyTypeTrial: 'Próbny', // Trial
 	KeyTypePerpetual: 'Wieczny', // Perpetual
 	KeyTypeAnnual: 'Roczny', // Annual
@@ -208,7 +212,7 @@ export const accountPL = {
 
 	EnableExternalLoginProviderExplainText: 'Aby włączyć zewnętrznego dostawcę logowania, musisz poprawnie wypełnić obowiązkowe pozycje ustawień (gwiazdką), a następnie możesz zsynchronizować dane od zewnętrznego dostawcy logowania i włączyć inne funkcje (takie jak logowanie jednokrotne, skanowanie kodu QR logowanie i automatyczna synchronizacja danych.', // To enable the external login provider, you need to fill in the mandatory setting items(With an asterisk) correctly, then you can synchronize the data from the external login provider and enable the other functions(such as single sign-on, scan QR code login and automatic data synchronization.
 	DataSyncingExplainText: 'Funkcja synchronizacji danych zsynchronizuje wszystkie autoryzowane organizacje, role i użytkowników w zewnętrznym dostawcy logowania do Wyn, oryginalne dane zostaną nadpisane, a niektóre znaki specjalne („/”, „\\”, „<”, „>” i „$”) w nazwie organizacji i nazwa roli zostaną usunięte po zsynchronizowaniu danych.', // The data syncing function will synchronize all the authorized organizations, roles and users in the external login provider to Wyn, the original data will be overwritten and some special characters('/', '\\', '<', '>' and '$') in the organization name and the role name will be removed after the data synchronized.
-	DataSyncingFailsExplainText: 'Uwagi: Synchronizacja danych nie powiedzie się, jeśli na tym samym poziomie struktury organizacyjnej istnieją zduplikowane nazwy użytkowników, zduplikowane nazwy ról lub zduplikowane nazwy organizacji.', // Notes: The data syncing will fail if there are duplicated user names, duplicated role names, or duplicated organization names at the same level of the organization structure.
+	DataSyncingFailsExplainText: 'Notes: The data syncing will fail if there are duplicated role names, or duplicated organization names at the same level of the organization structure. The duplicate user names will be formatted to something like "username[userid]".',
 
 	SyncData: 'Synchronizuj dane', // Sync Data
 	SyncingData: 'Synchronizuję dane...', // Syncing Data...
@@ -413,16 +417,19 @@ export const accountPL = {
 	LicenseOprateResultCode_2001: 'Klucz jest zablokowany.', // Key is disabled.
 	LicenseOprateResultCode_2002: 'Niepoprawny typ klucza.', // Key type incorrect.
 	LicenseOprateResultCode_2003: 'Maksymalna liczba aktywacji przekroczona.', // Exceeds the maxinum activation count
-	LicenseOprateResultCode_2004: 'Licencja jest już aktywowana', // license is already activated
+	LicenseOprateResultCode_2004: 'licencja jest już aktywowana', // license is already activated
 	LicenseOprateResultCode_2005: 'Wersja klucza nie pasuje do aktualnej wersji.', // Key's version did not match current version.
-	LicenseOprateResultCode_2006: 'Pusty klucz', // Empty Key
-	LicenseOprateResultCode_2007: 'Zawartość licencji jest nieprawidłowa.', // License content is not valid.
+	LicenseOprateResultCode_2006: "The node count of the key is inconsistent with the deployment method.",
+
 	LicenseOprateResultCode_3000: 'Nie udało się wyrejestrować', // Deactivation Failed
 	LicenseOprateResultCode_3001: 'Nie można wyrejestrować licencji próbnej', // Trial license cannot be deactived
 	LicenseOprateResultCode_3002: 'Informacje aktywacji nie pasują.', // Activation info not matched.
 	LicenseOprateResultCode_3011: 'Informacje wyerejestrowania nie pasują do tokena', // Deactive info not match Token
 	LicenseOprateResultCode_3012: 'Informacje wyerejestrowania nie pasują do urządzenia', // Deactive info not match machine
 	LicenseOprateResultCode_3013: 'Informacje wyerejestrowania nie pasują do computerId', // Deactive info not match computerId
+
+	LicenseOprateResultCode_12006: 'Pusty klucz', // Empty Key
+	LicenseOprateResultCode_12007: 'Zawartość licencji jest nieprawidłowa.', // License content is not valid.
 };
 
 export const portalPL = {
@@ -433,7 +440,7 @@ export const portalPL = {
 	'shortcut-user!props!text': 'Użytkownicy', // Users
 	'shortcut-user!title': 'Skrót do użytkowników', // Users Shortcut
 	'shortcut-role!description': '',
-	'shortcut-role!props!text': 'Role', // Roles
+	'shortcut-role!props!text': 'ról', // Roles
 	'shortcut-role!title': 'Skrót do ról', // Roles Shortcut
 	'shortcut-locked!description': '',
 	'shortcut-locked!props!text': 'Zablokowani', // Locked

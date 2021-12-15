@@ -1,0 +1,7 @@
+{
+  "chart": "Chart",
+  "dvchart": "DV.Chart",
+  "matrix": "Matrix",
+  "table": "Table",
+  "tablix": "Tablix"
+}

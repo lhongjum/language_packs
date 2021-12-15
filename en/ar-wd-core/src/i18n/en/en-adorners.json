@@ -1,0 +1,60 @@
+{
+  "bandedList": {
+    "detailsLabel": "<Details>",
+    "groupsLabel": "Groups"
+  },
+  "bullet": {
+    "value": "Value",
+    "targetValue": "Target value"
+  },
+  "common": {
+    "dropFieldsAndValues": "Drop fields and values here"
+  },
+  "chart": {
+    "dataFields": "Data Fields",
+    "categoryFields": "Category Fields",
+    "encodingFields": "Encodings",
+    "valueEncoding": {
+      "fieldStub": "Value {{index}}"
+    },
+    "detailEncoding": {
+      "fieldStub": "Details {{index}}",
+      "title": "Details"
+    },
+    "categoryEncoding": {
+      "fieldStub": "Category {{index}}"
+    },
+    "colorEncoding": {
+      "fieldStub": "Color {{index}}",
+      "title": "Color"
+    },
+    "shapeEncoding": {
+      "fieldStub": "Shape {{index}}",
+      "title": "Shape"
+    },
+    "sizeEncoding": {
+      "fieldStub": "Size {{index}}",
+      "title": "Size"
+    },
+    "multiValueField": "{{firstFieldValue}}, ..."
+  },
+  "table": {
+    "newGroupLabel": "<New Group>",
+    "detailsGroupLabel": "<Details Group>",
+    "groupsLabel": "Groups"
+  },
+  "fixedPage": {
+    "page": "Page",
+    "addPage": "Add Page"
+  },
+  "formattedText": {
+    "previewError": "XHTML parsing error occurred. Please verify Html property value and Merge Fields values."
+  },
+  "sparkline": {
+    "seriesValue": "Series Value",
+    "groupingExpressions": "Grouping Expressions"
+  },
+  "tableOfContents": {
+    "addItem": "Add item"
+  }
+}

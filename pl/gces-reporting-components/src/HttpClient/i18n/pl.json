@@ -1,0 +1,36 @@
+{
+	"reporting_plugin": {
+		"lrt": "W pluginie raportującym wystąpił wyjątek LRT",
+		"bad_response": "Usługa raportowa odpowiedziała błędem",
+		"streaming": "Wystąpił błąd podczas transmisji z usługi raportowej",
+		"response_verification": "Wystąpił błąd po transmisji wyników z usługi raportowej",
+		"unknown": "Nieznany błąd podczas wykonywania zadania"
+	},
+	"reporting_worker": {
+		"export": {
+			"invalid_parameters": "Niewłaściwe parametry raportu",
+			"unknown_rendering_ext": "Nieznane rozszerzenie przetwarzania {{0}}"
+		},
+		"task_init": {
+			"file_not_found": "Plik {0} nie został znaleziony",
+			"unable_to_load_file": "Nie można załadować pliku {{0}}",
+			"unknown": "Nieznany błąd podczas wykonywania zadania przez usługę raportową: {{0}}"
+		},
+		"fail_check": {
+			"subreport_not_specified": "Nazwa podraportu nie jest określona dla elementu podraportu {{0}}",
+			"invalid_parameters": "Niewłaściwe parametry raportu",
+			"no_dataset": "Nie wybrano zestawu danych",
+			"data_not_found": "Określony {{0}} dokument z id '{{1}}' nie został znaleziony",
+			"data_not_allowed": "Określone {{0}} '{{1}}' niedostępne z powodu niewystarczających uprawnień",
+			"data_unknown": "Określone dane są niedostępne: {{0}}",
+			"unknown": "Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {{0}}"
+		},
+		"rendering": {
+			"unknown": "Nieznany błąd podczas wykonywania zadania przez Usługę Raportową: {{0}}"
+		},
+		"report": {
+			"cyclic_parameter_references": "Wykryto cykliczne odwołania parametrów raportu",
+			"unknown": "Nieznany błąd podczas pobierania informacji o raporcie: {{0}}"
+		}
+	}
+}

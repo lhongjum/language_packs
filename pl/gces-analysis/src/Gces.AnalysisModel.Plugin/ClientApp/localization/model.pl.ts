@@ -1,7 +1,6 @@
 export const modelPL: LanguageKeyValueMap = {
 	analysisModel: 'Data Model Designer',
 	CloseAnalysisDesignerConfirm: 'Czy chcesz opuścić projektanta modelu danych i odrzucić zmiany?', // Do you want to leave data model designer and discard the changes?
-	confirmation: 'Potwierdzenie', // Confirmation
 	yes: 'Tak', // Yes
 	no: 'Nie', // No
 	save: 'Zapisz', // Save
@@ -29,7 +28,7 @@ export const modelPL: LanguageKeyValueMap = {
 	pin: 'Przypnij', // Pin
 	relationFromTo: 'z \'{{sourceEntity}}\'[{{sourceColumns}}] do \'{{targetEntity}}\'[{{targetColumns}}]', // from \'{{sourceEntity}}\'[{{sourceColumns}}] to \'{{targetEntity}}\'[{{targetColumns}}]
 	addAttribute: 'Dodaj atrybut', // Add Attribute
-	deleteAttribute: 'Usuń atrybut', // Delete Attribute
+	deleteAttribute: 'Usuń atrybut', // Delete Attribute`
 	deleteEntity: 'Usuń jednostkę', // Delete Entity
 	search: 'Szukaj', // Search
 	searchNoResult: 'brak wyników', // no items
@@ -40,6 +39,9 @@ export const modelPL: LanguageKeyValueMap = {
 	Properties: 'Nieruchomości', // Properties
 	beHidden: 'Już ukryte', // Already hidden
 	saveTips: 'Kliknij „Zapisz”, aby zakończyć tworzenie modelu', // Please click "Save" to complete the creation of the model
+	untitled: 'Brak tytułu', // Untitled
+	getDataTips: 'Please click "Get Data" to add tables first',
+	Forbidden: 'Access denied',
 
 	// cardinality
 	'cardinality!0': '1 To 1',
@@ -75,20 +77,28 @@ export const modelPL: LanguageKeyValueMap = {
 	'DataType!5': 'Date',
 	'DataType!6': 'DateTime',
 
+	// Data Viz AI hint types
+	Currency: 'Waluta',
+	ImageURL: 'Obrazu URL',
+	ImageBinary: 'Obraz Binarny',
+	GeoRegion: 'Geografia (Region)',
+	GeoLatitude: 'Geografia (Szerokość)',
+	GeoLongitude: 'Geografia (Długość geograficzna)',
+
 	// Editor
 	show: 'Pokaż', // Show
 	empty: 'Pusty', // Empty
 	apply: 'Zastosuj', // Apply
-	textItem: '[{{count}} pozycja]', // [{{count}} item]
-	textItem_plural: '[{{count}} pozycji]', // [{{count}} items]
-	greaterThanMaxLength: 'Musi być mniejsza lub równa maksymalnej długości {{ maxLength }}', // Must be less than or equal to the maximum length {{ maxLength }}
-	notMatchPattern: 'Musi pasować do wyrażenia regularnego {{ wzorzec }}', // Must match the regex {{ pattern }}
+	textItem: '[{{count}} item]',
+	textItem_plural: '[{{count}} items]',
+	greaterThanMaxLength: 'Must be less than or equal to the maximum length {{ maxLength }}',
+	notMatchPattern: 'Must match the regex {{ pattern }}',
 	'multipleValues!label': '<...>',
-	'multipleValues!title': 'wiele wartości', // multiple values
-	sourceEntity: 'Jednostka źródłowa', // Source Entity
-	targetEntity: 'Jednostka docelowa', // Target Entity
-	sourceColumns: 'Atrybuty źródłowe', // Source Attributes
-	targetColumns: 'Atrybuty docelowe', // Target Attributes
+	'multipleValues!title': 'multiple values',
+	sourceEntity: 'Source Entity',
+	targetEntity: 'Target Entity',
+	sourceColumns: 'Source Attributes',
+	targetColumns: 'Target Attributes',
 
 	// Security Filter Editor
 	filterExpression: 'Filtruj Wyrażenie', // Filter Expression
@@ -111,7 +121,7 @@ export const modelPL: LanguageKeyValueMap = {
 	user_context_tenant$Name: 'Nazwa organizacji', // organization-Name
 	user_context_tenant$FromEmail: 'Adres email organizacji', // organization-FromEmail
 	organization_context_Name: 'Nazwa', // Name
-	organization_context_FromEmail: 'Z emaila', // FromEmail
+	organization_context_FromEmail: 'ZEmaila', // FromEmail
 
 	// Model Setting
 	dataSourceSetting: 'Ustawienia źródła danych', // Data Source Settings
@@ -139,6 +149,7 @@ export const modelPL: LanguageKeyValueMap = {
 	PROP_ID: 'ID',
 	PROP_IsNullable: 'Jest nullable', // Is Nullable
 	PROP_IsUnique: 'Jest unikalny', // Is Unique
+	PROP_IsContainTimeZone: 'Contains Time Zone',
 	PROP_Binding: 'Wiązanie', // Binding
 	PROP_IsHidden: 'Jest ukryty', // Is Hidden
 	PROP_SecurityFilter: 'Filtr bezpieczeństwa', // Security Filter
@@ -156,6 +167,7 @@ export const modelPL: LanguageKeyValueMap = {
 	sqlExpression: 'Wyrażenie SQL', // SQL Expression
 	sqlQuery: 'Zapytanie SQL', // SQL Query
 	logicalDataType: 'Logiczny typ danych', // Logical Data Type
+	dataVizAIHint: 'Data Category', // Data Category
 	CLRDataType: 'Typ danych systemowych', // System Data Type
 	conditionSelectSourceEntity: 'proszę wybrać encję źródłową', // please select source entity
 	conditionSelectTargetEntity: 'proszę wybrać encję docelową', // please select target entity
@@ -183,4 +195,64 @@ export const modelPL: LanguageKeyValueMap = {
 	'preview!attribute': 'Atrybut', // Attribute
 	'preview!operator': 'Operator',
 	'preview!value': 'Wartość', // Value
+	'preview!parameterName': 'Parameter Name',
+	'preview!valueType': 'Value Type',
+	'preview!securityFilter': 'Security Filter',
+	'preview!entityParameter': 'Entity Parameter',
+
+	// local table
+	addLocalEntity: 'Add Local Entity',
+	editLocalEntity: 'Edit Local Entity',
+	editEntityData: 'Edit Entity Data',
+	headerName: 'Header Name',
+	addRow: 'Add Row',
+	addColumn: 'Add Column',
+	textType: 'Tekst', // Text
+	numberType: 'Number', // Number
+	datetimeType: 'DateTime', // DateTime
+	renameColumnName: 'Zmień nazwę', // Rename
+	deleteColumn: 'Delete Column',
+	importExcelFile: 'Import Excel File',
+	selectFile: 'Wybierz plik', // Select File...
+	AutoColumnName: 'Używaj pierwszego wiersza jako nagłówka', // Use First Row as Header
+	AllowHiddenSheets: 'Załaduj ukryte arkusze', // Load Hidden Sheets
+	AllowDBNull: 'Skonwertuj puste komórki na DBNull', // Convert empty cell to DBNull
+	FilePassword: 'Hasło Pliku', // FilePassword
+	FileUploaded: '{{file}} został wgrany', // {{file}} has been uploaded
+	FileUploadWithEmptyName: 'Plik został przekazany', // File has been uploaded
+	importCSVFile: 'Import CSV File',
+	ColumnDelimiter: 'Ogranicznik kolumn', // Column Delimiter
+	workSheet: 'Arkusz Roboczy', // WorkSheet
+	selectSheet: 'Select Sheet',
+	calculateValuePrompt: 'Is-nullable and is-unique value is calculated by data of local entity.',
+	shiftLeft: 'Shift Left',
+	shiftRight: 'Shift Right',
+	nullShowMessage: 'If you input string "NULL", it will be converted to null value automatically',
+
+	fileSizeOverflow: 'File size overflow.',
+	rowOverflow: 'Rows overflow. Maximum number of rows is {{maxRowCount}}.',
+	columnOverflow: 'Columns overflow. Maximum number of columns is {{maxColumnCount}}.',
+	rowColumnOverflow: 'Rows and Columns overflow. Maximum number of rows is {{maxRowCount}} and maximum number of columns is {{maxColumnCount}}.',
+	overflowAlert: 'The sheet can not be selected, because its data is out of range. Maximum number of rows is {{maxRowCount}} and maximum number of columns is {{maxColumnCount}}.',
+
+	// Notifications
+	ntfDismiss: 'Odrzuć', // Dismiss
+	ntfDismissAll: 'Odrzuć wszystkie', // Dismiss All
+	ntfShowDetails: 'Pokaż szczegóły', // Show Details
+	ntfShowAll: 'Pokaż wszystko', // Show All
+	ntfError: 'ERROR',
+	ntfWarning: 'WARNING',
+	ntfInfo: 'INFO',
+	notifications: 'Notifications',
+
+	Unspecified: 'Unspecified',
+	Contains: 'Zawiera', // Contains
+	NotContains: 'NieZawiera', // NotContains
+
+	dataSourceValidateFailed: 'Data source verification failed.',
+	'dataSourceValidateFailed!missing': 'The target does not exist.',
+	'dataSourceValidateFailed!change': 'The target type has been changed.',
+	validateDataSources: 'Validate data sources',
+	getFileDataFailed: 'Failed to get file data.',
+	emptyFile: 'File is empty.',
 };

@@ -16,6 +16,7 @@ export const roleEN: LanguageKeyValueMap = {
 	rcRoleName: 'Role Name',
 	ecRoleMembers: 'Role Members',
 	ecPermissions: 'Permissions',
+	ecRoleColumn: 'Document List Columns',
 	ecSelectMembers: 'Select Members',
 	ecUsername: 'Username',
 	ecEmail: 'Email',
@@ -25,6 +26,15 @@ export const roleEN: LanguageKeyValueMap = {
 	ecDeleteUserConfirmMessage: 'Are you sure you want to remove the user "{{UserName}}" from the role?',
 	ecNoMemberTip: 'No users under the role, to add, please click',
 
+	dlType: 'Type',
+	dlUpdateBy: 'Updated By',
+	dlUpdated: 'Updated',
+	ColumnName: 'Column Name',
+	ShowInList: 'Show In List',
+	documentListColumnsHint: 'Column settings only affect the document portal.',
+	updateRoleDocumentColumnsError: 'Update failed',
+
+	rmError_003: 'You don\'t have sufficient privileges to do the operation.',
 	rmError_2001: 'Role "{{name}}" already exists.',
 	rmError_2004: 'Can not update the members of role "everyone".',
 	rmError_2005: 'Can not remove the member "admin" from role "administrator". ',

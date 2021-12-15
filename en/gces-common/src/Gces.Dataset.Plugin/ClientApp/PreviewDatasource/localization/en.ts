@@ -6,6 +6,7 @@ export const en = {
 	FetchDataFailed: 'Fetch data failed.',
 	DataSourcePreview: 'Data Source Preview',
 	EmptySchemaTip: 'Can not get the datasource schema',
+	InputParameterAtFirst: 'Please set the parameters at first and click the preview button',
 
 	err_100001: 'Invalid parameter: {{name}}.',
 	err_100002: 'Internal server error: {{message}}.',
@@ -69,6 +70,7 @@ export const en = {
 	E_80026: 'Exceeded max column\'s count, limit count: 1024.',
 	E_80028: 'Can not find specified table.',
 	E_80048: 'Context not registered.',
+	E_80055: 'Cannot find the specified table in the execution result',
 	E_80059: 'No proper data type converters found between types.',
 	E_80062: 'Can not convert null value to a value type.',
 	E_110001: 'JDBC proxy is not alive.',

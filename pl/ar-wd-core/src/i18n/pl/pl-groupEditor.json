@@ -1,0 +1,23 @@
+{
+  "textSelectTablix": "Wybierz tablix, aby edytować jego grupy",
+  "headingRowGroups": "Grupy wierszy",
+  "headingColumnGroups": "Grupy kolumn",
+  "labelAdvancedMode": "Tryb zaawansowany",
+  "btnEditExpression": "Edytuj wyrażenie",
+  "btnEnableGroup": "Włącz grupę",
+  "btnDisableGroup": "Wyłącz grupę",
+  "headingAddGroup": "Dodaj grupę",
+  "addGroup": {
+    "btnParent": "Nadrzędny",
+    "btnChild": "Podrzędny",
+    "btnAdjacentBefore": "Przylegający przed",
+    "btnAdjacentAfter": "Przylegający za"
+  },
+  "headingAddTotal": "Dodaj wszystko",
+  "addTotal": {
+    "btnBefore": "Przed",
+    "btnAfter": "Za"
+  },
+  "btnDelete": "Usuń",
+  "textHiddenStatic": "(Statyczny)"
+}

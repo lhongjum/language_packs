@@ -1,0 +1,13 @@
+{
+  "barcodeUnsupportedSymbology": "[{{symbology}}] '{{itemName}}' preview is limited in design-time.",
+  "dvchartAxis": {
+    "category": "Category",
+    "value": "Value"
+  },
+  "dvchartChartTitle": "Chart Title",
+  "dvchartDetails": "Details [{{index}}]",
+  "dvchartColor": "Color [{{index}}]",
+  "dvchartShape": "Shape [{{index}}]",
+  "basicSupportReportItemInfo": "{{itemLabel}} '{{itemName}}' has limited support in design-time.",
+  "overflowPlaceholder": "{{overflowedItemName}} Overflow Placeholder"
+}

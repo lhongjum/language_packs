@@ -2,24 +2,39 @@ export const portalPL: LanguageKeyValueMap = {
 	'prepareDataForDashboard!name': 'Przygotuj dane', // Prepare Data
 	'prepareDataForReport!name': 'Prepare Data', // Prepare Data
 	'dashboard!name': 'DASHBOARD',
+	'referenceDataSourceNames!name': 'REFERENCED DATASOURCES',
 	'report!name': 'RAPORT', // REPORT
 	'datasource!name': 'ŹRÓDŁO DANYCH', // DATA SOURCE
 };
 
 export const datasetPL: LanguageKeyValueMap = {
 	'PrepareData!title': 'Przygotuj dane', // Prepare Data
-	'dataset!title': 'Zestaw danych', // Dataset
-	'dataModel!title': 'Model danych', // Data Model
-	'prepareDataTip!dashboard!dataset-0': 'Obsługa wszystkich formatów źródeł danych w projektancie źródeł danych Wyn.', // Support all data source formats in the Wyn data source designer.
-	'prepareDataTip!dashboard!dataset-1': 'Zapewnij możliwości zapytań o dane z wielu źródeł i ekstrakcji danych oraz obsługuj synchronizację danych za pomocą planów odświeżania.', // Provide the capabilities of cross-source data query and data extraction, and support data synchronization through refresh plans.
-	'prepareDataTip!dashboard!dataset-2': 'Powszechnie używany do analizy danych historycznych z niskimi wymaganiami w czasie rzeczywistym.', // Commonly used for historical data analysis with low real-time requirements.
-	'prepareDataTip!dashboard!dataModel-0': 'Obsługa formatów źródeł danych: Oracle, SQL Server, Mysql, Postgres.', // Support data source formats: Oracle, SQL Server, Mysql, Postgres.
-	'prepareDataTip!dashboard!dataModel-1': 'Zapewnij możliwość bezpośredniego zapytania o połączenie dla bazy danych z jednego źródła, bez ekstrakcji danych i procesu synchronizacji.', // Provide the capability of direct connection query for single source database, without data extraction and synchronization process.
-	'prepareDataTip!dashboard!dataModel-2': 'Powszechnie stosowany w istniejących hurtowniach danych i analizie danych o wysokich wymaganiach w czasie rzeczywistym.', // Commonly used in existing data warehouses and data analysis with high real-time requirements.
-	'prepareDataTip!report!dataset-0': 'Obsługa wszystkich formatów źródeł danych w projektancie źródeł danych Wyn.', // Support all data source formats in the Wyn data source designer.
-	'prepareDataTip!report!dataset-1': 'Zapewnij możliwości zapytań o połączenie bezpośrednie dla wszystkich formatów źródeł danych.', // Provide direct connection query capabilities for all data source formats.
-	'prepareDataTip!report!dataset-2': 'Powszechnie używany do przygotowania danych wymaganych do projektowania raportów.', // Commonly used to prepare data required for report design.
-	'prepareDataTip!report!dataModel-0': 'Obsługa formatów źródeł danych: Oracle, SQL Server, Mysql, Postgres.', // Support data source formats: Oracle, SQL Server, Mysql, Postgres.
-	'prepareDataTip!report!dataModel-1': 'Zapewnij możliwość bezpośredniego zapytania o połączenie dla bazy danych z jednego źródła.', // Provide the capability of direct connection query for single-source database.
-	'prepareDataTip!report!dataModel-2': 'Powszechnie używany do przygotowywania danych wymaganych do niestandardowych raportów użytkownika końcowego.', // Commonly used to prepare data required for end-user custom reports.
+	'PrepareData!dataModel': 'Model danych', // Data Model
+	'PrepareData!dataset': 'Zestaw danych', // Dataset
+	'cacheModel!dashboard!title': 'Cached Model',
+	'dataModel!dashboard!title': 'Direct Query Model',
+	'dataset!dashboard!title': 'Cached Dataset',
+	'streamingDataset!dashboard!title': 'Streaming Dataset',
+	'pushDataset!dashboard!title': 'Push Dataset',
+	'dataModel!report!title': 'Model danych', // Data Model
+	'dataset!report!title': 'Direct Dataset',
+	'streamingDataset!report!title': 'Zbiór danych strumieniowych', // Streaming Dataset
+	'pushDataset!report!title': 'Push Dataset',
+	'action-create': 'Create',
+	'prepareDataTip!dashboard!dataset': 'The Cached Dataset executes a preset query and caches the data in the server to provide high performance data analysis and interactivity.',
+	'prepareDataTip!dashboard!dataModel': 'This data model executes automatically generated query directly on the configured datasource to provide real-time updated data to Dashboards and Reports.',
+	'prepareDataTip!dashboard!cacheModel': 'This data model sources data from all the configured sources and caches the data in the server in a Entity-Relationship structure to provide a high performance and interactive experience.',
+	'prepareDataTip!dashboard!streamingDataset': 'This dataset provides a schema for an external source to stream data in real-time using web end points. Only a limited data is stored and it remains in-memory.',
+	'prepareDataTip!dashboard!pushDataset': 'This dataset provides a schema for an external source to push real-time data to the Wyn server using web end points. The data can be used in dashboards and is stored as a dataset cache.',
+	'prepareDataTip!report!dataset': 'The Direct Query Dataset stores a preset query and queries the datasource directly when it is executed to provide real-time updated data for documents.',
+	'prepareDataTip!report!dataModel': 'This data model executes automatically generated query directly on the configured datasource to provide real-time updated data to Dashboards and Reports.',
+	'prepareDataTip!report!streamingDataset': 'This dataset provides a schema for an external source to stream data in real-time using web end points. Only a limited data is stored and it remains in-memory.',
+	'prepareDataTip!report!pushDataset': 'This dataset provides a schema for an external source to push real-time data to the Wyn server using web end points. The data can be used in dashboards and is stored as a dataset cache.',
+	InputCachedModelNameTip: 'Input Cached Model Name',
+	PleaseInputCachedModelName: 'Please Input Cached Model Name.',
+	CachedModelNameOnlySpacesError: 'The cached model name is invalid. Please do not use spaces only as name.',
+	InvalidCachedModelName: 'The cached model name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the cached model name',
+	CachedModelNameExisted: 'Name {{name}} already exist.',
+	CreateCacheModelHint: 'Click the OK button to enter the CacheModel designer, and the document has been created.',
+	cacheModelName: 'Cache Model Name'
 };

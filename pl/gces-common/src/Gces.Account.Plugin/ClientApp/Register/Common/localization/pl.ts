@@ -11,6 +11,19 @@ export const commonPL: LanguageKeyValueMap = {
 	rn_Everyone: 'Wszyscy', // Everyone
 	globalOrgName: 'Ogólny', // Global
 
+	'data!title': 'DATA',
+	'dashboards!title': 'DASHBOARD',
+	'reports!title': 'REPORT',
+	'portal!title': 'PORTAL',
+	'management!title': 'MANAGEMENT',
+	'others!title': 'OTHERS',
+
+	'ViewResourcePortalTip': 'To create DataSources, DataSets, and Data Models, you must have access to view Resource Portal.',
+	'ViewDashBoardTip': 'To create Dashboard, you must have access to view Dashboard.',
+	'ViewReportTip': 'To create Report,  you must have access to view Report.',
+	'ManageUserTip': 'Allow organization admin users to create/edit/delete users.',
+	'AssignManageUserTip': 'Allow organization admin users to assign/unassign the manage user permission, And you must have permission to manage user before you can assign/unassign it.',
+
 	'create-dataset': 'Utwórz zestaw danych', // Create Dataset
 	'create-dataset-description': 'Utwórz, wyświetl, edytuj i usuń zestawy danych', // Create, view, edit and delete datasets.
 	'create-data-source': 'Utwórz źródło danych', // Create Data Source
@@ -39,4 +52,8 @@ export const commonPL: LanguageKeyValueMap = {
 	'allow-sharing-description': 'Zezwalaj użytkownikowi na udostępnianie dokumentów', // Allow user to share documents to others
 	'create-web-page': 'Utwórz stronę internetową', // Create Webpage
 	'create-web-page-description': 'Zezwalaj użytkownikowi na tworzenie strony internetowej.', // Allow user to Create Webpage.
+	'assign-manage-user': 'Assign Manage User',
+	'assign-manage-user-description': 'Allow organization Administrator to assign Manage User Permission to organization administrator of its sub organization.',
+	'manage-user': 'Manage User',
+	'manage-user-description': 'Allow organization Administrator to create, edit and delete users within its organization.',
 };

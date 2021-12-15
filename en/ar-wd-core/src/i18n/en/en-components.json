@@ -1,0 +1,197 @@
+{
+  "dataPanel": {
+    "commonValues": {
+      "currentDateTime": "Current Date and Time",
+      "pageNM": "Page N of M",
+      "pageNMCumulative": "Page N of M (Cumulative)",
+      "pageNMSection": "Page N of M (Section)",
+      "pageNofMLabel": "\"Page \" & {{pageNumber}} & \" of \" & {{totalPages}}",
+      "pageNumber": "Page Number",
+      "pageNumberCumulative": "Page Number (Cumulative)",
+      "pageNumberSection": "Page Number (Section)",
+      "reportFolder": "Report Folder",
+      "reportName": "Report Name",
+      "totalPages": "Total Pages",
+      "totalPagesCumulative": "Total Pages (Cumulative)",
+      "totalPagesSection": "Total Pages (Section)",
+      "userContext": "User Context",
+      "userId": "User ID",
+      "userLanguage": "User Language"
+    },
+    "headingEditParameter": "Edit Parameter",
+    "headingCommonValues": "Common Values",
+    "headingModel": "Model",
+    "headingDataSources": "Data Sources",
+    "textNoDataSources": "Report has no data sources",
+    "headingDataSets": "Data Sets",
+    "textNoDataSets": "Report has no data sets",
+    "headingParameters": "Parameters",
+    "semantic": {
+      "textAttributesCount": "{{count}} attribute",
+      "textAttributesCount_plural": "{{count}} attribute",
+      "textRelationsCount": "{{count}} relation",
+      "textRelationsCount_plural": "{{count}} relation",
+      "textNoAttributes": "no attributes",
+      "textNoRelations": "no relations"
+    },
+    "dataSets": {
+      "semantic": {
+        "loading": "Loading...",
+        "editDataSet": "Edit Data Set...",
+        "searchPlaceholder": "enter attribute or relation name here...",
+        "noMatchingAttributesRelationsFound": "No matching attributes or relations found"
+      },
+      "textNoMatchingFieldsFound": "No matching fields found",
+      "placeholderEnterFieldName": "enter field name here..."
+    },
+    "textModelVersion": "Version: {{version}}",
+    "textFieldsCount": "{{count}} fields",
+    "textFieldsCount_plural": "{{count}} fields",
+    "textBasedOnDataSource": "based on {{dataSourceName}}",
+    "titleEditDataSet": "Edit Data Set...",
+    "titleSelectFields": "Select Fields...",
+    "titleEditDataSource": "Edit Data Source...",
+    "titleAddDataSet": "Add Data Set...",
+    "fieldVariations": {
+      "DateTime": [
+        {
+          "format": "=Year({fieldExpression})",
+          "label": "Year"
+        },
+        {
+          "format": "=Year({fieldExpression}) & \" Q\" & DatePart(\"q\", {fieldExpression})",
+          "label": "Year-Quarter"
+        },
+        {
+          "format": "=Year({fieldExpression}) & \" \" & MonthName(Month({fieldExpression}))",
+          "label": "Year-Month"
+        },
+        {
+          "format": "=Year({fieldExpression}) & \" \" & MonthName(Month({fieldExpression})) & \" \" & Day({fieldExpression})",
+          "label": "Year-Month-Day"
+        },
+        {
+          "format": "=Year({fieldExpression}) & \" W\" & DatePart(\"ww\", {fieldExpression})",
+          "label": "Year-Week"
+        },
+        {
+          "format": "=DatePart(\"q\", {fieldExpression})",
+          "label": "Quarter"
+        },
+        {
+          "format": "=Month({fieldExpression})",
+          "label": "Month"
+        },
+        {
+          "format": "=MonthName(Month({fieldExpression}))",
+          "label": "MonthName"
+        },
+        {
+          "format": "=DatePart(\"ww\", {fieldExpression})",
+          "label": "Week"
+        },
+        {
+          "format": "=Day({fieldExpression})",
+          "label": "Day"
+        },
+        {
+          "format": "=WeekdayName(Weekday({fieldExpression}))",
+          "label": "DayOfWeek"
+        }
+      ]
+    },
+    "textNoParameters": "Report has no parameters",
+    "titleMoveParameterDown": "Move Down",
+    "titleMoveParameterUp": "Move Up"
+  },
+  "appBar": {
+    "titleUndo": "Undo",
+    "titleRedo": "Redo",
+    "titleNew": "New",
+    "titleOpen": "Open",
+    "titleSave": "Save",
+    "btnSaveAs": "Save As",
+    "btnPreview": "Preview",
+    "btnFile": "File",
+    "btnHome": "Home",
+    "btnInsert": "Insert",
+    "btnParameters": "Parameters",
+    "textUnsavedChanges": "Unsaved Changes"
+  },
+  "chartPaletteDropdown": {
+    "headingStandardPalettes": "Standard Palettes",
+    "headingExtraPalettes": "Theme Palettes"
+  },
+  "dataFieldPickerDropdown": {
+    "searchPlaceholder": "enter field name here...",
+    "noMatchingFieldsFound": "No matching fields found",
+    "semantic": {
+      "noMatchingAttributesRelationsFound": "No matching items found",
+      "searchPlaceholder": "enter item name here..."
+    }
+  },
+  "menu": {
+    "btnClose": "Close",
+    "btnReportExplorer": "Explorer",
+    "btnGroupEditor": "Group Editor",
+    "titlePin": "Pin"
+  },
+  "propertyGrid": {
+    "textReportItems": "<Report Items>",
+    "textMultipleTypes": "<Multiple Types>",
+    "placeholderSearchBox": "enter property name here..."
+  },
+  "statusBar": {
+    "btnShowAdvancedProperties": "Show Advanced Properties",
+    "btnShowBasicProperties": "Show Basic Properties",
+    "btnPropertiesMode": "Properties Mode",
+    "snapSettings": {
+      "labelGridSize": "Grid Size",
+      "labelSnapToGrid": "Snap To Grid",
+      "labelSnapToGuides": "Snap To Guides"
+    },
+    "titleGrid": "Grid"
+  },
+  "notifications": {
+    "btnDismissAll": "Dismiss All",
+    "btnDismiss": "Dismiss",
+    "titleExpand": "Expand",
+    "titleCollapse": "Collapse",
+    "headingError": "Error",
+    "headingError_plural": "Errors",
+    "headingWarning": "Warning",
+    "headingWarning_plural": "Warnings",
+    "headingNotification": "Notification",
+    "headingNotification_plural": "Notifications"
+  },
+  "themeEditor": {
+    "labelNone": "<None>"
+  },
+  "title": {
+    "textUntitled": "Untitled"
+  },
+  "toolbar": {
+    "home": {
+      "textExpressionCompact": "<𝑓>",
+      "textExpression": "<Expression>",
+      "titleCut": "Cut",
+      "titleCopy": "Copy",
+      "titlePaste": "Paste",
+      "titleDelete": "Delete",
+      "titleFontFamily": "Font Family",
+      "titleFontSize": "Font Size",
+      "titleFontWeight": "Font Weight",
+      "titleFontStyle": "Font Style",
+      "titleTextDecoration": "Text Decoration Underline",
+      "titleTextColor": "Text Color",
+      "titleBackgroundColor": "Background Color",
+      "titleAlignLeft": "Text Align Left",
+      "titleAlignCenter": "Text Align Center",
+      "titleAlignRight": "Text Align Right",
+      "titleAlignJustify": "Text Align Justify",
+      "titleVerticalAlignTop": "Text Vertical Align Top",
+      "titleVerticalAlignMiddle": "Text Vertical Align Middle",
+      "titleVerticalAlignBottom": "Text Vertical Align Bottom"
+    }
+  }
+}

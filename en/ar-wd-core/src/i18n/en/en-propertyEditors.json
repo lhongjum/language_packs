@@ -1,0 +1,278 @@
+{
+  "common": {
+    "textExpression": "<Expression>",
+    "titleCollapse": "Collapse",
+    "titleExpand": "Expand",
+    "textMultipleValues": "<Multiple Values>",
+    "textEmpty": "<Empty>",
+    "textNone": "<None>"
+  },
+  "picker": {
+    "btnReset": "Reset",
+    "btnExpression": "Expression...",
+    "btnDataVisualizer": "Data Visualizer...",
+    "warnings": {
+      "groupingByAggregate": "grouping by this attribute is discouraged",
+      "groupingIsDiscouraged": "grouping by aggregate attributes is discouraged"
+    },
+    "textSpecifyDataSet": "Specify DataSet to see the list of available attributes",
+    "btnPickData": "Pick Data...",
+    "headingParameters": "Parameters",
+    "titleDataBinding": "Data Binding"
+  },
+  "queryFilter": {
+    "title": "Query Filter"
+  },
+  "validationErrors": {
+    "pattern": "Invalid expression. Literal expressions for this property must be of type '{{type}}'. {{info}}",
+    "enum": {
+      "incorrect": "Enum value of type '{{enumType}}' should be one of the following: {{enumValues}}"
+    },
+    "expression": {
+      "incorrect": "Invalid expression",
+      "errorPosition": "at line {{line}}, column {{column}}",
+      "unknownFunction": "Warning: unknown function name '{{token}}' {{positionInfo}}",
+      "disabledReportItems": "Warning: It is forbidden to use the 'ReportItems' token type in this expression (in '{{token}}' {{positionInfo}})",
+      "disabledFields": "Warning: It is forbidden to use the 'Fields' token type in this expression (in '{{token}}' {{positionInfo}})",
+      "parseError": "Syntax error: It is not possible to convert this interpolation syntax expression to rdl syntax",
+      "unknownThemeImage": "Warning: unknown theme image name in '{{token}}' {{positionInfo}}",
+      "unknownReportItem": "Warning: unknown report item name in '{{token}}' {{positionInfo}}",
+      "unknownParameter": "Warning: unknown parameter name in '{{token}}' {{positionInfo}}",
+      "unknownField": "Warning: unknown field name in '{{token}}' {{positionInfo}}",
+      "syntaxError": "Syntax error: unexpected token '{{token}}' {{positionInfo}}",
+      "warning": "Warning: unknown token '{{token}}' {{positionInfo}}"
+    },
+    "length": {
+      "negative": "Value should be greater than zero",
+      "tooLarge": "Value should be lower than {{max}}",
+      "tooSmall": "Value should be greater than {{min}}",
+      "unit": "Valid units are 'cm', 'mm', 'in', 'pt', and 'pc'"
+    },
+    "mime_type": {
+      "incorrect": "Image MIME Type is expected to match {{wildcard}}"
+    },
+    "number": {
+      "nan": "Value is not a number",
+      "tooLarge": "Value should be lower than {{max}}",
+      "tooSmall": "Value should be greater than {{min}}"
+    }
+  },
+  "boolean": {
+    "textTrue": "True",
+    "textFalse": "False",
+    "textUndefined": "Undefined"
+  },
+  "toggleState": {
+    "textExpanded": "Expanded",
+    "textCollapsed": "Collapsed"
+  },
+  "collection": {
+    "textItemsCount": "{{count}} item",
+    "textItemsCount_plural": "{{count}} items",
+    "btnAdd": "Add",
+    "titleAdd": "Add Item",
+    "titleDelete": "Delete",
+    "titleShowItems": "Show Items",
+    "titleClose": "Close",
+    "textEmpty": "Collection is empty"
+  },
+  "colorDropdown": {
+    "themeColors": {
+      "titleBase": "{{colorKey}}",
+      "titleDarker25": "{{colorKey}} - 25% darker",
+      "titleDarker50": "{{colorKey}} - 50% darker",
+      "titleLighter25": "{{colorKey}} - 25% lighter",
+      "titleLighter50": "{{colorKey}} - 50% lighter",
+      "titleLighter75": "{{colorKey}} - 75% lighter"
+    },
+    "headingStandard": "Standard Colors",
+    "headingTheme": "Theme Colors",
+    "btnPalettes": "Palettes",
+    "btnColorPicker": "Other Colors",
+    "btnWebColors": "Web Colors",
+    "labelHue": "Hue",
+    "labelSaturation": "Saturation",
+    "labelLightness": "Lightness",
+    "labelHex": "Hex"
+  },
+  "dataSetQuery": {
+    "placeholder": "enter query here..."
+  },
+  "dvchartEncodingCollection": {
+    "color": {
+      "valuesName": "Show Values Names In Legend"
+    },
+    "value": {
+      "prefix": "Value",
+      "propertiesTitle": "Value Properties"
+    },
+    "details": {
+      "prefix": "Details",
+      "propertiesTitle": "Details Properties"
+    },
+    "aggregate": {
+      "prefix": "Aggregate",
+      "propertiesTitle": "Aggregate Properties"
+    },
+    "fieldPlaceholder": "<Key>",
+    "valuePlaceholder": "<Value>"
+  },
+  "dvchartPlotTemplate": {
+    "textSelect": "Select..."
+  },
+  "dvchartRuleProperties": {
+    "headingTargetProperty": "Target Property",
+    "headingValueProperty": "Value"
+  },
+  "dvchartTemplate": {
+    "custom": "<Custom>"
+  },
+  "format": {
+    "$locale": "en-US",
+    "$localeCurrency": "USD",
+    "digitsLabel": "Digits",
+    "customFormatMask": "(###) ###-####",
+    "default": "<Default>",
+    "currency": "Currency",
+    "decimal": "Decimal",
+    "scientific": "Scientific",
+    "fixedPoint": "Fixed-point",
+    "general": "General",
+    "number": "Number",
+    "percent": "Percent",
+    "hexadecimal": "Hexadecimal",
+    "shortDate": "Short date",
+    "longDate": "Long date",
+    "fullDateShortTime": "Full date/short time",
+    "generalDateShortTime": "General date/short time",
+    "generalDateLongTime": "General date/long time",
+    "shortTime": "Short time",
+    "longTime": "Long time",
+    "monthDay": "Month day",
+    "yearMonth": "Year month",
+    "custom": "(Custom)"
+  },
+  "image": {
+    "textNoDataFieldsFound": "No data fields found",
+    "btnShared": "Shared",
+    "btnEmbedded": "Embedded",
+    "btnDatabase": "Database",
+    "titleRemove": "Remove '{{name}}'...",
+    "textLoad": "Load...",
+    "textNoImagesFound": "No images found"
+  },
+  "dataSetFieldCollection": {
+    "fieldHeader": "Field Name",
+    "valueHeader": "Value",
+    "fieldPlaceholder": "<Name>",
+    "valuePlaceholder": "<Value>",
+    "dataFieldHeader": "Data Field",
+    "dataFieldPlaceholder": "<Data Field>"
+  },
+  "dataSetParameterCollection": {
+    "nameHeader": "Parameter Name",
+    "valueHeader": "Value",
+    "namePlaceholder": "<Name>",
+    "valuePlaceholder": "<Value>"
+  },
+  "subreport": {
+    "parameter": "Parameter",
+    "parameterNamePlaceholder": "<Name>",
+    "parameterValuePlaceholder": "<Value>",
+    "parameterNameHeader": "Name",
+    "parameterValueHeader": "Value"
+  },
+  "mailMergeFieldsCollection": {
+    "nameHeader": "Field Name",
+    "valueHeader": "Value",
+    "namePlaceholder": "<Name>",
+    "valuePlaceholder": "<Value>"
+  },
+  "layerCollection": {
+    "propertiesTitle": "Layer properties: {{layerName}}"
+  },
+  "marginsSizes": {
+    "custom": "(Custom)"
+  },
+  "pageSize": {
+    "custom": "(Custom)"
+  },
+  "palette": {
+    "customPaletteLabel": "<Custom>",
+    "extraPalettesHeader": "Theme Palettes",
+    "standardPalettesHeader": "Standard Palettes"
+  },
+  "reportParameter": {
+    "placeholderEmpty": "<Empty>",
+    "placeholderValue": "Value",
+    "placeholderLabel": "Label",
+    "labelSource": "Source",
+    "labelFromQuery": "From Query",
+    "labelNonQueried": "Non-Queried"
+  },
+  "parameterCollection": {
+    "titleProperties": "Parameter properties"
+  },
+  "reports": {
+    "textLoadingError": "Error {{status}}: {{statusText}}",
+    "textLoading": "Loading..."
+  },
+  "simple": {
+    "backgroundColor": {
+      "label": "Color",
+      "title": "Background Color"
+    },
+    "borders": {
+      "borderColor": {
+        "label": "Color",
+        "title": "Border Color"
+      },
+      "borderStyle": {
+        "label": "Style",
+        "title": "Border Style"
+      },
+      "borderWidth": {
+        "label": "Width",
+        "title": "Border Width"
+      },
+      "sides": {
+        "all": "All",
+        "left": "Left",
+        "top": "Top",
+        "right": "Right",
+        "bottom": "Bottom",
+        "reset": "Reset"
+      },
+      "borders": "Borders"
+    },
+    "common": {
+      "textExpressionCompact": "<𝑓>"
+    },
+    "font": {
+      "fontFamily": {
+        "label": "Font",
+        "title": "Font Family"
+      },
+      "fontSize": {
+        "label": "Size",
+        "title": "Font Size"
+      },
+      "fontStyle": {
+        "label": "Style",
+        "title": "Font Style"
+      },
+      "fontWeight": {
+        "label": "Weight",
+        "title": "Font Weight"
+      },
+      "textColor": {
+        "label": "Color",
+        "title": "Text Color"
+      },
+      "textDecoration": {
+        "label": "Decoration",
+        "title": "Text Decoration"
+      }
+    }
+  }
+}

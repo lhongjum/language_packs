@@ -1,0 +1,88 @@
+{
+  "textNoValues": "There are no values specified.",
+  "textAddValue": "Please add at least a single value to create a Tablix.",
+  "aggregates": {
+    "avg": "Avg",
+    "count": "Count",
+    "max": "Max",
+    "min": "Min",
+    "none": "None",
+    "sum": "Sum"
+  },
+  "titleAggregate": "Aggregate",
+  "displayAsOptions": {
+    "default": "Default",
+    "percentColumnGroupTotal": "% Column Group Total",
+    "percentGrandTotal": "% Grand Total",
+    "percentParentColumnGroupTotal": "% Parent Column Group Total",
+    "percentParentRowGroupTotal": "% Parent Row Group Total",
+    "percentRowGroupTotal": "% Row Group Total"
+  },
+  "titleDisplayAs": "Display As",
+  "placeholderNoField": "no field",
+  "titleDelete": "Delete",
+  "textNoDataSets": "Report has no data sets.",
+  "textAddDataSet": "Please add a data set to your report at first.",
+  "formats": {
+    "currency": "Currency",
+    "decimal": "Decimal",
+    "default": "Default",
+    "general": "General",
+    "number": "Number",
+    "percent": "Percent"
+  },
+  "titleFormat": "Format",
+  "sortings": {
+    "Ascending": "Ascending",
+    "Descending": "Descending",
+    "None": "None"
+  },
+  "titleSorting": "Sorting: {{sorting}}",
+  "filters": {
+    "titleEditGroupFilters": "Edit Group Filters...",
+    "textFilters": "Filters",
+    "titleEditTablixFilters": "Edit Tablix Filters...",
+    "headingTablixFilters": "Tablix Filters",
+    "headingGroupFilters": "Group Filters – {{groupLabel}}"
+  },
+  "textSwap": "Swap",
+  "titleSwapRowColumnGroups": "Swap Row/Column Groups",
+  "textAsRows": "As Rows",
+  "textShowValuesAsRows": "Show Values as Rows",
+  "textLayoutOptions": "Layout Options",
+  "textRowGroups": "Row Groups",
+  "textColumns": "Column Groups",
+  "textValues": "Values",
+  "btnTotals": "Totals",
+  "btnStyling": "Styling",
+  "btnOrganization": "Organization",
+  "labelExpandCollapse": "Expand/Collapse Groups",
+  "labelCollapsedGroups": "Collapsed Groups",
+  "labelUserSortEnabled": "Enable User Sort",
+  "labelSteppedRowGroups": "Stepped Row Groups",
+  "labelFrozenRows": "Frozen Rows",
+  "labelFrozenColumns": "Frozen Columns",
+  "labelNone": "None",
+  "labelTotalsForRows": "Totals for Row Groups",
+  "labelSubTotalsForRows": "Subtotals for Row Groups",
+  "labelTotalsForColumns": "Totals for Column Groups",
+  "labelSubTotalsForColumns": "Subtotals for Column Groups",
+  "labelShowTotalsBeforeGroup": "Show Totals before Groups",
+  "warning": {
+    "btnRevert": "Revert",
+    "btnQuit": "Quit",
+    "headingWarning": "Warning",
+    "textChangedStructure": "Tablix Wizard cannot edit the Tablix as its structure has been changed.",
+    "textConfirmReverting": "Please confirm reverting to the previous Tablix state editable by Wizard.",
+    "textOtherwiseCannotEdit": "Otherwise, it will not be possible to continue editing within Tablix Wizard."
+  },
+  "headingTablixWizard": "Tablix Wizard",
+  "headingLayoutDesign": "Layout Design",
+  "headingDataSets": "Data Sets",
+  "makeTablix": {
+    "textValues": "Values",
+    "textTotal": "Total"
+  },
+  "textOpenWizard": "Open Tablix Wizard...",
+  "textCannotEditInWizard": "Tablix has complex structure and cannot be edited in Wizard. Please use Group Editor instead."
+}

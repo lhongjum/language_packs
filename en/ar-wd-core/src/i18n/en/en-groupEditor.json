@@ -1,0 +1,23 @@
+{
+  "textSelectTablix": "Select a tablix to edit its groups",
+  "headingRowGroups": "Row Groups",
+  "headingColumnGroups": "Column Groups",
+  "labelAdvancedMode": "Advanced Mode",
+  "btnEditExpression": "Edit Expression",
+  "btnEnableGroup": "Enable Group",
+  "btnDisableGroup": "Disable Group",
+  "headingAddGroup": "Add Group",
+  "addGroup": {
+    "btnParent": "Parent",
+    "btnChild": "Child",
+    "btnAdjacentBefore": "Adjacent Before",
+    "btnAdjacentAfter": "Adjacent After"
+  },
+  "headingAddTotal": "Add Total",
+  "addTotal": {
+    "btnBefore": "Before",
+    "btnAfter": "After"
+  },
+  "btnDelete": "Delete",
+  "textHiddenStatic": "(Static)"
+}

@@ -1,0 +1,234 @@
+{
+  "bindingAdorner": {
+    "textUnspecified": "Unspecified",
+    "headingBinding": "Binding"
+  },
+  "parametersPanel": {
+    "titleEditParameter": "Edit Parameter...",
+    "headingEditParameter": "Edit Parameter",
+    "headingEditable": "Visible",
+    "headingHidden": "Hidden"
+  },
+  "sideBar": {
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "propertiesText": "Properties",
+  "parametersText": "Parameters",
+  "canvas": "Canvas",
+  "properties": {
+    "labels": {
+      "binding": "Binding",
+      "left": "Left",
+      "top": "Top",
+      "width": "Width",
+      "height": "Height",
+      "value": "Value",
+      "trueText": "\"True\" text",
+      "falseText": "\"False\" text",
+      "text": "Text",
+      "layout": "Layout",
+      "type": "Type",
+      "display": "Display",
+      "action": "Action",
+      "background": "Background",
+      "from": "From",
+      "to": "To",
+      "maxRange": "Max Range",
+      "viewMode": "View Mode",
+      "daysHeaderFormat": "Days Header Format",
+      "placeholder": "Placeholder",
+      "alignment": "Alignment",
+      "color": "Color",
+      "strikeThrough": "Strikethrough",
+      "columns": "Columns",
+      "min": "Min",
+      "max": "Max",
+      "step": "Step",
+      "roundInputToStep": "Round Input To Step",
+      "upDownEditor": "Up-Down Editor",
+      "slider": "Slider",
+      "multiline": "Multiline",
+      "list": "List",
+      "dropdown": "Dropdown",
+      "recursive": "Recursive",
+      "groupBy": "Group By",
+      "pathString": "Path String",
+      "mode": "Mode",
+      "fields": "Fields"
+    },
+    "categories": {
+      "binding": "Binding",
+      "locationAndSize": "Location & Size",
+      "details": "Details",
+      "label": "Label",
+      "common": "Common"
+    }
+  },
+  "boundParameter": {
+    "text": "Bound Parameter",
+    "parameter": "{{name}} Parameter",
+    "defaultValue": "Default Value",
+    "multiValue": "Multi Value",
+    "multiline": "Multiline",
+    "allowBlank": "Allow Blank",
+    "nullable": "Nullable"
+  },
+  "propertyGrid": {
+    "btnCloseSearch": "Close",
+    "textEmptyList": "Select an item to see properties",
+    "placeholderSearch": "enter property name here...",
+    "textNoCommonProperties": "There are no common properties",
+    "textUnknownProperty": "Unknown Property:"
+  },
+  "surface": {
+    "btnAutoGenerate": "Auto-Generate",
+    "messageBlock": {
+      "textDescriptionOne": "Not all report parameters have been bound.",
+      "textDescriptionButtonBefore": "You can",
+      "textDescriptionButtonAfter": "editors for them."
+    },
+    "btnGenerate": "Generate",
+    "emptySurfaceBlock": {
+      "textDescriptionOne": "This report doesn't have a custom parameters view.",
+      "textDescriptionButtonBefore": "You can",
+      "textDescriptionButtonAfter": "it from available parameters, or have a fresh start with the controls from the toolbox.",
+      "textDescriptionTwo": "You can create it using controls from the toolbox."
+    },
+    "scrollBar": {
+      "textMessagesOne": "Parameters will look this way when shown in the viewer`s sidebar.",
+      "textMessagesTwo": "You can change the order by dragging components."
+    }
+  },
+  "toolbar": {
+    "btnDuplicate": "Duplicate",
+    "btnDelete": "Delete",
+    "btnVerticalLayout": "Vertical Layout",
+    "btnHighlightRequired": "Highlight Required",
+    "btnGenerateView": "Generate View",
+    "btnResetView": "Reset View",
+    "btnRemoveView": "Remove View"
+  },
+  "booleanProperties": {
+    "trueText": "True",
+    "falseText": "False",
+    "undefinedText": "Undefined",
+    "toggle": "Toggle",
+    "checkbox": "Checkbox",
+    "radio": "Radio"
+  },
+  "parameters": {
+    "labelBoolean": "Boolean Parameter",
+    "labelDateRange": "DateRange Parameter",
+    "labelDateTime": "DateTime Parameter",
+    "labelDropdown": "Dropdown Parameter",
+    "labelList": "List Parameter",
+    "labelMultivalue": "Multivalue Parameter",
+    "labelNumber": "Number Parameter",
+    "labelNumberRange": "NumberRange Parameter",
+    "labelSingleLineParameter": "Single-Line Parameter",
+    "labelHierarchical": "Hierarchical Parameter"
+  },
+  "editors": {
+    "nameBoolean": "Boolean Editor",
+    "nameButton": "Button",
+    "nameDateRange": "Date Range Editor",
+    "nameDateTime": "DateTime Editor",
+    "nameDropdown": "Dropdown Editor",
+    "textHeading": "Heading Text",
+    "nameHeading": "Heading",
+    "nameList": "List Editor",
+    "nameMultivalue": "Multivalue Editor",
+    "textNull": "Null",
+    "nameNumber": "Number Editor",
+    "textCheckRangeType": "Both parameters should have the same data type",
+    "nameNumberRange": "Number Range Editor",
+    "namePlainText": "Plain Text",
+    "nameText": "Text Editor",
+    "nameTreeView": "Tree View"
+  },
+  "bindingProperties": {
+    "boolean": "Boolean",
+    "date": "Date",
+    "dateDateTime": "Date, DateTime",
+    "any": "Any",
+    "integerFloat": "Integer, Float"
+  },
+  "buttonProperties": {
+    "preview": "Preview",
+    "reset": "Reset",
+    "clear": "Clear"
+  },
+  "dateRangeParameterLabels": {
+    "tabLabelDaily": "Daily",
+    "tabLabelMonthly": "Monthly",
+    "tabLabelAnnually": "Annually",
+    "textBack": "Back to Calendar",
+    "textShortcutsList": "Common Ranges",
+    "placeholderDateStart": "Start",
+    "placeholderDateEnd": "End",
+    "shortcuts": {
+      "labelLastWeek": "Last week",
+      "labelLastMonth": "Last month",
+      "labelLastYear": "Last year",
+      "labelWeekToDate": "Week to date",
+      "labelMonthToDate": "Month to date",
+      "labelYearToDate": "Year to date"
+    },
+    "monthYearOrder": "M-Y"
+  },
+  "dateTimeParameterLabels": {
+    "monthYearOrder": "M-Y",
+    "textClear": "Clear",
+    "textToday": "Today",
+    "textBack": "Back to Calendar"
+  },
+  "alignmentEnum": {
+    "left": "Left",
+    "center": "Center",
+    "right": "Right",
+    "justify": "Justify",
+    "none": "None",
+    "top": "Top",
+    "bottom": "Bottom",
+    "horizontal": "Horizontal",
+    "vertical": "Vertical"
+  },
+  "dateViewProperties": {
+    "default": "Default",
+    "days": "Days",
+    "months": "Months",
+    "years": "Years",
+    "accent": "Accent",
+    "error": "Error",
+    "warning": "Warning",
+    "none": "None"
+  },
+  "fieldsProperties": {
+    "addBtnText": "Add",
+    "addBtnTitle": "Add Item",
+    "closeBtnTitle": "Close",
+    "showItem": "Show Items",
+    "collectionIsEmpty": "Collection is empty",
+    "items": "items"
+  },
+  "labels": {
+    "removeDefaultValue": "Remove Default Value"
+  },
+  "placeholderEmpty": "<Empty>",
+  "placeholderMultipleValues": "<Multiple Values>",
+  "dataType": {
+    "boolean": "Boolean",
+    "string": "String",
+    "integer": "Integer",
+    "float": "Float",
+    "date": "Date",
+    "dateTime": "DateTime"
+  },
+  "msgString": {
+    "notSupControl": "is not supported by this control",
+    "controlNotSupportSingle": "This control doesn't support single value parameters",
+    "controlRequires": "This control requires a list of available values",
+    "controlNotSupportParameters": "This control doesn't support parameters with available values defined"
+  }
+}

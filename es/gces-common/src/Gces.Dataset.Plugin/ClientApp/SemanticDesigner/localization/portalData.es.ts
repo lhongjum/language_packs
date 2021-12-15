@@ -21,6 +21,19 @@ export const portalDataES: LanguageKeyValueMap = {
 
 	// document sections register
 	dlDataModelType: 'Data Model Type',
-	dlReportDataModel: 'For Report',
-	dlDashboardDataModel: 'For Dashboard',
+	dlReportDataModel: 'Sematic Model',
+	dlDashboardDataModel: 'Cached Model',
+	dlDirectQueryModel: 'Direct Query Model',
+
+	SemanticModelError_EntityNotFound: 'Entity not found (or You do not have sufficient permissions on this document to perform the action).',
+	UpdateFailed: 'Failed to update dependent version.',
+	UpdateSuccess: 'Update dependent version succeeded.',
+
+	DocumentBeReferencedMessage: 'This document is referenced by other document.',
+	RevisionCheckTitle: 'Update the version of the relevant reports',
+	ReferencedDocuments: 'Relevant Reports:',
+	RefRevisionUpdateInfo: 'Related reports will reference the latest version of this document.',
+	AutoUpgradeDialog: 'Auto Upgrade Dialog',
+	Yes: 'Yes',
+	No: 'No',
 };

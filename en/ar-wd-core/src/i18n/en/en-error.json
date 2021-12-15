@@ -1,0 +1,23 @@
+{
+  "errorLabel": "Error",
+  "dataSetDialog": {
+    "duplicateFields": "Query has duplicate fields: {{fieldNames}}",
+    "validationTimeout": "Query validation timed out",
+    "unexpectedError": "Unexpected error"
+  },
+  "loadReportVersionError": "The report \"{{reportName}}\" (version: {{reportVersion}}) could not be opened.",
+  "loadReportError": "The report \"{{reportName}}\" could not be opened.",
+  "expressionNode": {
+    "argumentIsNotValid": "Argument '{{argument}}' of function '{{functionName}}' is not valid. {{details}}",
+    "argumentValueNotFitFunctionValueDataType": "Argument '{{argument}}' of function '{{functionName}}' should have one of the following types - {{expectedTypes}} - but has type {{actualType}}.",
+    "argumentsShouldHaveSameDataType": "Arguments {{arguments}} of function '{{functionName}}' should have the same data type.",
+    "typeMismatch": "Value '{{value}}' cannot be converted to {{expectedType}}."
+  },
+  "upgradeReportSemanticModel": {
+    "entityIsAbsent": "● The entity '{{entityName}}' of the data set '{{dataSetName}}' is absent in the latest semantic model.",
+    "fieldAtQueryFilterIsAbsent": "● The field '{{fieldName}}' of the data set '{{dataSetName}}' query filter is absent in the latest semantic model.",
+    "fieldInControlGroupIsAbsent": "● The field '{{fieldName}}' in {{controlName}} group {{groupName}} '{{propertyLabel}}' property is absent in the latest semantic model.",
+    "fieldInControlIsAbsent": "● The field '{{fieldName}}' in {{controlName}} '{{propertyLabel}}' property is absent in the latest semantic model.",
+    "fieldInReportIsAbsent": "● The field '{{fieldName}}' in Report '{{propertyLabel}}' property is absent in the latest semantic model."
+  }
+}

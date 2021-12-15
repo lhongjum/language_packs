@@ -1,0 +1,279 @@
+{
+  "common": {
+    "textExpression": "<Wyrażenie>",
+    "titleCollapse": "Zwiń",
+    "titleExpand": "Rozwiń",
+    "textMultipleValues": "<Wiele wartości>",
+    "textEmpty": "<Pusty>",
+    "textNone": "<Brak>"
+  },
+  "picker": {
+    "btnReset": "Resetuj",
+    "btnExpression": "Wyrażenie...",
+    "btnDataVisualizer": "Wizualizator danych...",
+    "warnings": {
+      "groupingByAggregate": "nie zaleca się grupowania wg atrybutów agregacji",
+      "groupingIsDiscouraged": "nie zaleca się grupowania wg tego atrybutu"
+    },
+    "textSpecifyDataSet": "Określ zestaw danych, aby zobaczyć listę dostępnych atrybutów",
+    "btnPickData": "Wybierz dane...",
+    "headingParameters": "Parametry",
+    "titleDataBinding": "Wiązanie danych"
+  },
+  "queryFilter": {
+    "title": "Filtr zapytań"
+  },
+  "validationErrors": {
+    "pattern": "Niewłaściwe wyrażenie. Wyrażenie dla tego atrybutu musi być typu '{{type}}'. {{info}}",
+    "enum": {
+      "incorrect": "Wartość Enum typu '{{enumType}}' powinna być jedną z następujących: {{enumValues}}"
+    },
+    "expression": {
+      "incorrect": "Nieprawidłowe wyrażenie",
+      "errorPosition": "w wierszu {{line}}, kolumnie {{column}}",
+      "unknownFunction": "Uwaga: nieznana nazwa funkcji ‘{{token}}’ {{positionInfo}}",
+      "disabledReportItems": "Uwaga: zabronione jest używanie typu tokena ‘ReportItems’ w tym wyrażeniu (w ‘{{token}}’ {{positionInfo}})",
+      "disabledFields": "Uwaga: zabronione jest używanie typu tokena ‘Fields’ w tym wyrażeniu (w ‘{{token}}’ {{positionInfo}})",
+      "parseError": "Błąd składniowy: nie można przekonwertować tego wyrażenia składni interpolacji na składnię rdl",
+      "unknownThemeImage": "Uwaga: nieznana nazwa obrazu motywu w '{{token}}' {{positionInfo}}",
+      "unknownReportItem": "Uwaga: nieznana nazwa elementu raportu w '{{token}}' {{positionInfo}}",
+      "unknownParameter": "Uwaga: nieznana nazwa parametru w '{{token}}' {{positionInfo}}",
+      "unknownField": "Uwaga: nieznana nazwa pola w '{{token}}' {{positionInfo}}",
+      "syntaxError": "Błąd składni: nieoczekiwany token '{{token}}' {{positionInfo}}",
+      "warning": "Uwaga: nieznany token '{{token}}' {{positionInfo}}"
+    },
+    "length": {
+      "negative": "Wartość powinna być większa niż zero",
+      "tooLarge": "Wartość powinna być mniejsza niż {{max}}",
+      "tooSmall": "Wartość powinna być większa niż {{min}}",
+      "unit": "Poprawne jednostki: 'cm', 'mm', 'in', 'pt', oraz 'pc'"
+    },
+    "mime_type": {
+      "incorrect": "Obraz typu MIME powinien pasować {{wildcard}}"
+    },
+    "number": {
+      "nan": "Wartość nie jest liczbą",
+      "tooLarge": "Wartość powinna być mniejsza niż {{max}}",
+      "tooSmall": "Wartość powinna być większa niż {{min}}"
+    }
+  },
+  "boolean": {
+    "textTrue": "Prawda",
+    "textFalse": "Fałsz",
+    "textUndefined": "Niezdefiniowany"
+  },
+  "toggleState": {
+    "textExpanded": "Rozwinięte",
+    "textCollapsed": "Zwinięte"
+  },
+  "collection": {
+    "textItemsCount_0": "{{count}} element",
+    "textItemsCount_1": "{{count}} elementy",
+    "textItemsCount_2": "{{count}} elementów",
+    "btnAdd": "Dodaj",
+    "titleAdd": "Dodaj element",
+    "titleDelete": "Usuń",
+    "titleShowItems": "Pokaż elementy",
+    "titleClose": "Zamknij",
+    "textEmpty": "Zbiór jest pusty"
+  },
+  "colorDropdown": {
+    "themeColors": {
+      "titleBase": "{{colorKey}}",
+      "titleDarker25": "{{colorKey}} - 25% ciemniej",
+      "titleDarker50": "{{colorKey}} - 50% ciemniej",
+      "titleLighter25": "{{colorKey}} - 25% jaśniej",
+      "titleLighter50": "{{colorKey}} - 50% jaśniej",
+      "titleLighter75": "{{colorKey}} - 75% jaśniej"
+    },
+    "headingStandard": "Standardowe kolory",
+    "headingTheme": "Kolory motywu",
+    "btnPalettes": "Palety",
+    "btnColorPicker": "Inne kolory",
+    "btnWebColors": "Kolory internetowe",
+    "labelHue": "Hue",
+    "labelSaturation": "Saturation",
+    "labelLightness": "Lightness",
+    "labelHex": "Hex"
+  },
+  "dataSetQuery": {
+    "placeholder": "wprowadź zapytanie tutaj..."
+  },
+  "dvchartEncodingCollection": {
+    "color": {
+      "valuesName": "Nazwy wartości w legendzie"
+    },
+    "value": {
+      "prefix": "Wartość",
+      "propertiesTitle": "Właściwości wartości"
+    },
+    "details": {
+      "prefix": "Szczegóły",
+      "propertiesTitle": "Właściwości szczegółów"
+    },
+    "aggregate": {
+      "prefix": "Agregacja",
+      "propertiesTitle": "Właściwości agregacji"
+    },
+    "fieldPlaceholder": "<Klucz>",
+    "valuePlaceholder": "<Wartość>"
+  },
+  "dvchartPlotTemplate": {
+    "textSelect": "Wybierz..."
+  },
+  "dvchartRuleProperties": {
+    "headingTargetProperty": "Właściwość docelowa",
+    "headingValueProperty": "Wartość"
+  },
+  "dvchartTemplate": {
+    "custom": "<Własne>"
+  },
+  "format": {
+    "$locale": "pl-PL",
+    "$localeCurrency": "PLN",
+    "digitsLabel": "znaki:",
+    "customFormatMask": "(###) ###-####",
+    "default": "<Domyślny>",
+    "currency": "Waluta",
+    "decimal": "Dziesiętny",
+    "scientific": "Naukowy",
+    "fixedPoint": "Stałopozycyjny",
+    "general": "Ogólny",
+    "number": "Liczba",
+    "percent": "Procent",
+    "hexadecimal": "Szesnastkowy",
+    "shortDate": "Skrócona data",
+    "longDate": "Pełna data",
+    "fullDateShortTime": "Pełna data/skrócony czas",
+    "generalDateShortTime": "Ogólna data/skrócony czas",
+    "generalDateLongTime": "Ogólna data/pełny czas",
+    "shortTime": "Skrócony czas",
+    "longTime": "Pełny czas",
+    "monthDay": "Dzień miesiąca",
+    "yearMonth": "Rok miesiąc",
+    "custom": "(Własne)"
+  },
+  "image": {
+    "textNoDataFieldsFound": "Nie znaleziono pól danych",
+    "btnShared": "UDOSTĘPNIONE",
+    "btnEmbedded": "WBUDOWANA",
+    "btnDatabase": "BAZA DANYCH",
+    "titleRemove": "Usuń '{{name}}'...",
+    "textLoad": "Ładuj...",
+    "textNoImagesFound": "Nie znaleziono obrazów"
+  },
+  "dataSetFieldCollection": {
+    "fieldHeader": "Nazwa pola",
+    "valueHeader": "Wartość",
+    "fieldPlaceholder": "<Nazwa>",
+    "valuePlaceholder": "<Wartość>",
+    "dataFieldHeader": "Pole danych",
+    "dataFieldPlaceholder": "<Pole danych>"
+  },
+  "dataSetParameterCollection": {
+    "nameHeader": "Nazwa parametru",
+    "valueHeader": "Wartość",
+    "namePlaceholder": "<Nazwa>",
+    "valuePlaceholder": "<Wartość>"
+  },
+  "subreport": {
+    "parameter": "Parametr",
+    "parameterNamePlaceholder": "<Nazwa>",
+    "parameterValuePlaceholder": "<Wartość>",
+    "parameterNameHeader": "Nazwa",
+    "parameterValueHeader": "Wartość"
+  },
+  "mailMergeFieldsCollection": {
+    "nameHeader": "Nazwa pola",
+    "valueHeader": "Wartość",
+    "namePlaceholder": "<Nazwa>",
+    "valuePlaceholder": "<Wartość>"
+  },
+  "layerCollection": {
+    "propertiesTitle": "Właściwości warstwy: {{layerName}}"
+  },
+  "marginsSizes": {
+    "custom": "(Własne)"
+  },
+  "pageSize": {
+    "custom": "(Własne)"
+  },
+  "palette": {
+    "customPaletteLabel": "<Własny>",
+    "extraPalettesHeader": "Palety motywów",
+    "standardPalettesHeader": "Standardowe palety"
+  },
+  "reportParameter": {
+    "placeholderEmpty": "<Pusty>",
+    "placeholderValue": "Wartość",
+    "placeholderLabel": "Etykieta",
+    "labelSource": "Źródło",
+    "labelFromQuery": "Z zapytania",
+    "labelNonQueried": "Nie z zapytania"
+  },
+  "parameterCollection": {
+    "titleProperties": "Właściwości parametru"
+  },
+  "reports": {
+    "textLoadingError": "Błąd {{status}}: {{statusText}}",
+    "textLoading": "Ładowanie"
+  },
+  "simple": {
+    "backgroundColor": {
+      "label": "Kolor",
+      "title": "Kolor tła"
+    },
+    "borders": {
+      "borderColor": {
+        "label": "Kolor",
+        "title": "Kolor obramowania"
+      },
+      "borderStyle": {
+        "label": "Styl",
+        "title": "Styl obramowania"
+      },
+      "borderWidth": {
+        "label": "Grubość",
+        "title": "Grubość obramowania"
+      },
+      "sides": {
+        "all": "Wszystko",
+        "left": "Lewa",
+        "top": "Góra",
+        "right": "Prawa",
+        "bottom": "Dół",
+        "reset": "Resetuj"
+      },
+      "borders": "Borders"
+    },
+    "common": {
+      "textExpressionCompact": "<𝑓>"
+    },
+    "font": {
+      "fontFamily": {
+        "label": "Czcionka",
+        "title": "Rodzina czcionki"
+      },
+      "fontSize": {
+        "label": "Rozmiar",
+        "title": "Rozmiar czcionki"
+      },
+      "fontStyle": {
+        "label": "Styl",
+        "title": "Styl czcionki"
+      },
+      "fontWeight": {
+        "label": "Grubość",
+        "title": "Grubość czcionki"
+      },
+      "textColor": {
+        "label": "Kolor",
+        "title": "Kolor tekstu"
+      },
+      "textDecoration": {
+        "label": "Dekoracja",
+        "title": "Dekoracja tekstu"
+      }
+    }
+  }
+}

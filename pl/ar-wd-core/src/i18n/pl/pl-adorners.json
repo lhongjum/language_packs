@@ -1,0 +1,60 @@
+{
+  "bandedList": {
+    "detailsLabel": "<Szczegóły>",
+    "groupsLabel": "Grupy"
+  },
+  "bullet": {
+    "value": "Wartość",
+    "targetValue": "Wartość docelowa"
+  },
+  "common": {
+    "dropFieldsAndValues": "Upuść pola i wartości tutaj"
+  },
+  "chart": {
+    "dataFields": "Pola danych",
+    "categoryFields": "Pola kategorii",
+    "encodingFields": "Kodowania",
+    "valueEncoding": {
+      "fieldStub": "Wartość {{index}}"
+    },
+    "detailEncoding": {
+      "fieldStub": "Szczegóły {{index}}",
+      "title": "Szczegóły"
+    },
+    "categoryEncoding": {
+      "fieldStub": "Kategoria {{index}}"
+    },
+    "colorEncoding": {
+      "fieldStub": "Kolor {{index}}",
+      "title": "Kolor"
+    },
+    "shapeEncoding": {
+      "fieldStub": "Kształt {{index}}",
+      "title": "Kształt"
+    },
+    "sizeEncoding": {
+      "fieldStub": "Rozmiar {{index}}",
+      "title": "Rozmiar"
+    },
+    "multiValueField": "{{firstFieldValue}}, ..."
+  },
+  "table": {
+    "newGroupLabel": "<Nowa grupa>",
+    "detailsGroupLabel": "<Grupa szczegółów>",
+    "groupsLabel": "Grupy"
+  },
+  "fixedPage": {
+    "page": "Strona",
+    "addPage": "Dodaj stronę"
+  },
+  "formattedText": {
+    "previewError": "Błąd parsowania XHTML. Sprawdź wartość właściości HTML oraz wartość pól łączenia."
+  },
+  "sparkline": {
+    "seriesValue": "Wartości serii",
+    "groupingExpressions": "Wyrażenia grupujące"
+  },
+  "tableOfContents": {
+    "addItem": "Dodaj"
+  }
+}

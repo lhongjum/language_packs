@@ -11,6 +11,19 @@ export const commonEN: LanguageKeyValueMap = {
 	rn_Everyone: 'Everyone',
 	globalOrgName: 'Global',
 
+	'data!title': 'DATA',
+	'dashboards!title': 'DASHBOARD',
+	'reports!title': 'REPORT',
+	'portal!title': 'PORTAL',
+	'others!title': 'OTHERS',
+	'management!title': 'MANAGEMENT',
+
+	'ViewResourcePortalTip': 'To create DataSources, DataSets, and Data Models, you must have access to view Resource Portal.',
+	'ViewDashBoardTip': 'To create Dashboard, you must have access to view Dashboard.',
+	'ViewReportTip': 'To create Report,  you must have access to view Report.',
+	'ManageUserTip': 'Allow organization admin users to create/edit/delete users.',
+	'AssignManageUserTip': 'Allow organization admin users to assign/unassign the manage user permission, And you must have permission to manage user before you can assign/unassign it.',
+
 	'create-dataset': 'Create Dataset',
 	'create-dataset-description': 'Create, view, edit and delete datasets.',
 	'create-data-source': 'Create Data Source',
@@ -39,4 +52,8 @@ export const commonEN: LanguageKeyValueMap = {
 	'allow-sharing-description': 'Allow user to share documents to others.',
 	'create-web-page': 'Create Webpage',
 	'create-web-page-description': 'Allow user to Create Webpage.',
+	'assign-manage-user': 'Assign Manage User',
+	'assign-manage-user-description': 'Allow organization Administrator to assign Manage User Permission to organization administrator of its sub organization.',
+	'manage-user': 'Manage User',
+	'manage-user-description': 'Allow organization Administrator to create, edit and delete users within its organization.',
 };

@@ -1,0 +1,26 @@
+{
+  "embeddedImage": {
+    "badImageFile": "Selected image file '{{name}}' is invalid.",
+    "badFileType": "Selected file '{{name}}' ({{type}}) is not supported.",
+    "badFile": "Selected file '{{name}}' is not an image.",
+    "badImageSize": "Selected image file '{{name}}' exceeds limit of {{limit}} MB."
+  },
+  "margins": {
+    "caption": "The specified margins cannot be set",
+    "labels": {
+      "top": "Top Margin",
+      "right": "Right Margin",
+      "bottom": "Bottom Margin",
+      "left": "Left Margin"
+    },
+    "info": "- '{{name}}' cannot be greater than {{value}}."
+  },
+  "pageSize": {
+    "caption": "The specified page size cannot be set",
+    "labels": {
+      "height": "Page Height",
+      "width": "Page Width"
+    },
+    "info": "- '{{name}}' cannot be less than {{value}}."
+  }
+}

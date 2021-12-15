@@ -1,0 +1,14 @@
+{
+  "integerTooBig": "* Value cannot exceed 53-bit integer",
+  "invalidBoolean": "* Wrong value. Make sure that you enter a valid boolean",
+  "invalidDateTime": "* Wrong value. Make sure that you enter a valid date",
+  "invalidFloat": "* Wrong value. Make sure that you enter a valid float",
+  "invalidInteger": "* Wrong value. Make sure that you enter a valid integer",
+  "outstandingDependencies": "* Parameter has outstanding dependencies",
+  "requiredSingleValue": "* Single value expected",
+  "requiredValue": "* Value Expected",
+  "stringEmpty": "* Wrong value. Empty strings are not allowed",
+  "valueIsNull": "* Value cannot be null",
+  "valueOutOfRange": "* Wrong value. Pick the right one from the list",
+  "unknown": "! Unknown validation error"
+}

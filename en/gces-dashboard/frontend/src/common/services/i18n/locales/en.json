@@ -37,7 +37,8 @@
     "GeoJson": "GeoJson",
     "Report": "Report",
     "FloorPlan": "FloorPlan",
-    "AnalysisModel": "DataModel"
+    "AnalysisModel": "DataModel",
+    "Visual": "Visual"
   },
   "actions": {
     "copy": "Copy",
@@ -175,6 +176,7 @@
     "crossFilter_pattern": "Cross Filter: {{state}}",
     "togglePageTab": "Show/Hide Page Tab",
     "displayMode": {
+      "default": "Default",
       "auto": "Auto",
       "custom": "Custom",
       "fitToScreen": "Fit to Screen",
@@ -211,7 +213,9 @@
       "off": "Off",
       "singleSource": "Single Source",
       "multiSource": "Multi-Source"
-    }
+    },
+    "resourceInfo": "Dashboard Status",
+    "readonly": "Read-Only"
   },
   "menuBar": {
     "title": "Dashboard",
@@ -245,6 +249,19 @@
         "smallIcons": "Small Icons",
         "largeIcons": "Large Icons",
         "list": "List"
+      },
+      "smartScenario": "Visualization Wizard",
+      "gallery": {
+        "title": "Visual Gallery",
+        "emptyPlaceholder": "No scenario found",
+        "noCategory": "No Category",
+        "viewModel": {
+          "default": "Default",
+          "plain": "Single",
+          "group": "Group",
+          "container": "Container"
+        },
+        "favorites": "Favorites"
       }
     }
   },
@@ -323,9 +340,6 @@
     "percentDifference": "Percent Difference",
     "slicerColumn": "Columns",
     "search": "Search...",
-    "loadFinished": "Finished",
-    "loadWaiting": "Waiting",
-    "loadFailed": "Failed",
     "seriesAxisLabel": "Axis",
     "seriesAxis": {
       "both": "Both Axis",
@@ -387,19 +401,25 @@
     "ignore": "Ignore",
     "separateType": "Separate type",
     "length": "Length",
-    "pivotSettingItemTitlePattern": "{{ itemDisplay }} from `{{ entityName }}`"
+    "pivotSettingItemTitlePattern": "{{ itemDisplay }} from `{{ entityName }}`",
+    "displayTimezone": "Display Timezone",
+    "displayUTC": "UTC",
+    "displayLocal": "Local Date Time"
   },
   "inspector": {
     "searchBoxPlaceholder": "Enter property name here...",
     "warning": "The property configuration is incorrect, please check the capabilities.options",
     "categories": {
       "general": "General",
+      "groupSetting": "Group Settings",
       "layout": "Layout",
       "appearance": "Appearance",
       "documentAppearance": "Document Appearance",
       "globalSettings": "Global Settings",
       "title": "Title",
       "dataLabel": "Data Labels",
+      "leftValueDataLabel": "Left Value Data Labels",
+      "rightValueDataLabel": "Right Value Data Labels",
       "legend": "Legend",
       "axis_category": "Axis(Category)",
       "axis_value": "Value Axis",
@@ -451,7 +471,14 @@
       "devConfig": "Dev Tools Setting",
       "trellis": "Trellis",
       "tooltip": "Tooltip",
-      "series": "Series"
+      "series": "Series",
+      "labelSlicer": {
+        "groupStyle": "Group Style",
+        "regularStyle": "Regular Style",
+        "hoverStyle": "Hover Style",
+        "selectedStyle": "Selected Style"
+      },
+      "noDataContent": "No Data Content" 
     },
     "properties": {
       "common": {
@@ -463,12 +490,16 @@
         "crossFilter": "Cross Filter",
         "crossFilterMode": "Cross Filter Mode",
         "jumpToDocuments": "Jump To",
+        "offset": "Offset",
+        "color": "Color",
         "foregroundColor": "Foreground Color",
         "backgroundColor": "Background Color",
+        "backgroundGradient": "Background Gradient",
+        "cornerRadius": "Corner Radius",
         "backgroundImage": {
           "src": "Background Image",
           "repeat": "Repeat",
-          "size": "Size",
+          "size": "Image Size",
           "hAlign": "H-Align",
           "vAlign": "V-Align"
         },
@@ -540,6 +571,10 @@
             "medium": "Medium",
             "thick": "Thick"
           }
+        },
+        "internalBorder": {
+          "color": "Inner Border Color",
+          "size": "Inner Border Size"
         },
         "font": {
           "title": "Font"
@@ -623,7 +658,15 @@
           "label": "Default Viewer",
           "standard": "Standard",
           "lite": "Lite"
-        }
+        },
+        "layout": {
+          "left": "X Position",
+          "top": "Y Position",
+          "width": "Width",
+          "height": "Height"
+        },
+        "content": "Content",
+        "verticalAlign": "Vertical Align"
       },
       "dashboard": {
         "theme": "Theme",
@@ -660,7 +703,8 @@
           "setting": "Toolbar Setting",
           "show": "Show Toolbar",
           "auto": "Auto Hide Toolbar",
-          "hide": "Hide Toolbar"
+          "hide": "Hide Toolbar",
+          "default": "Default"
         }
       },
       "charts": {
@@ -769,7 +813,13 @@
             "Percentage": "Percentage",
             "Logarithmic": "Logarithmic"
           },
-          "axisTextStyle": "Axis Font Setting"
+          "axisTextStyle": "Axis Font Setting",
+          "categoryLabelOverflow": {
+            "title": "Label Overflow Setting",
+            "hide": "Hide",
+            "ellipsis": "Ellipsis",
+            "wrap": "Wrap"
+          }
         },
         "displayUnit": {
           "auto": "Auto",
@@ -999,6 +1049,12 @@
           "visible": "Visible",
           "hidden": "Hidden"
         },
+        "expandStatus": {
+          "title": "Expand/Collapse Indicator",
+          "auto": "Auto",
+          "show": "Show",
+          "hide": "Hide"
+        },
         "gridLineColor": "Grid Line Color",
         "rowHeight": "Row Height",
         "freezeRowHeader": "Freeze Row Headers",
@@ -1108,12 +1164,36 @@
         "lablesLayout": {
           "label": "Labels",
           "list": "List",
-          "buttonGroup": "Button Group"
+          "buttonGroup": "Button Group",
+          "cool1": "Cool1",
+          "cool2": "Cool2",
+          "cool3": "Cool3",
+          "gradient1": "Gradient1",
+          "gradient2": "Gradient2",
+          "gradient3": "Gradient3",
+          "underline": "Under Line"
         },
         "dataRangeLayout": {
           "input": "Input Box",
           "slider": "Slider",
           "both": "Input Box + Slider"
+        },
+        "labelSlicer": {
+          "showBorder": "Show Border",
+          "borderThickness": "Border Thickness",
+          "borderColor": "Border Color",
+          "showMarkingLine": "Show Marking Line",
+          "markingLineLength": "Marking Line Length",
+          "markingLineThickness": "Marking Line Thickness",
+          "itemOptionWidth": "Item Width",
+          "itemOptionHeight": "Item Height",
+          "itemOptionPadding": "Item Padding",
+          "itemOptionMargin": "Item Margin",
+          "collapseBorder": "Collapse Border",
+          "textAlign": "Text Align",
+          "textVerticalAlign": "Text Vertical Align",
+          "firstItemImage": "First Item Background Image",
+          "lastItemImage": "Last Item Background Image"
         },
         "defaultDateRangeMode": "Date Mode",
         "defaultIsExpanded": "Expanded Mode"
@@ -1180,7 +1260,8 @@
       "no": "No",
       "ok": "OK",
       "cancel": "Cancel",
-      "close": "Close"
+      "close": "Close",
+      "deleteAll": "Delete All"
     },
     "syncChanges": {
       "title": "Sync Changes",
@@ -1215,7 +1296,8 @@
         "pptDocument": "PPT"
       },
       "actionBarDropdownList": {
-        "pngImage": "Export PNG image",
+        "pngImage": "Export PNG Image",
+        "svgImage": "Export SVG Image",
         "data": "Export Data",
         "currentPageData": "Export Data of Current Page",
         "allPageData": "Export Data of All Pages"
@@ -1296,6 +1378,18 @@
         "lessThan": "Less Than"
       }
     },
+    "modelParameters": {
+      "name": "Parameter",
+      "add": "Configure Model Parameter",
+      "hint": "There is no model parameter setting added. Please click the button above to configure model parameters.",
+      "bindToParameter": "Bind To",
+      "type": "Value Type",
+      "staticvalue": "StaticValue",
+      "dashboardparameter": "DashboardParameter",
+      "value": "Value",
+      "setparametervalue": "Set Parameter Values...",
+      "title": "Model Parameter Settings"
+    },
     "pivotSetting": {
       "title": "Data Binding",
       "moreChartType": "show more chart types..."
@@ -1336,7 +1430,6 @@
       "showDataLabel": "Show Data Label",
       "labelTextStyle": "Text Style",
       "textPosition": "Text Position",
-      "shape": "Shape",
       "showShape": "Show Shape",
       "preview": "Preview",
       "auto": "Auto"
@@ -1385,7 +1478,37 @@
       "duplicateValue":"Duplicated Value",
       "uniqueValue":"Unique Value",
       "setForEntireRow":"Entire Row",
-      "compareTo":"Compare To"
+      "compareTo":"Compare To",
+      "text": {
+        "contains": "Contains",
+        "doesNotContain": "Does Not Contain",
+        "beginsWith": "Begins With",
+        "endsWith": "Ends With"
+      },
+      "date": {
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "tomorrow": "Tomorrow",
+        "last7Days": "In Last 7 Days",
+        "thisMonth": "In This Month",
+        "lastMonth": "In Last Month",
+        "nextMonth": "In Next Month",
+        "thisWeek": "In This Week",
+        "lastWeek": "In Last Week",
+        "nextWeek": "In Next Week",
+        "comparison": {
+          "today": "Is The Same Day Of {{target}}",
+          "yesterday": "Is The Yesterday Of {{target}}",
+          "tomorrow": "Is Tomorrow Of {{target}}",
+          "last7Days": "Is In Last 7 Days Of {{target}}",
+          "thisMonth": "Is In This Month Of {{target}}",
+          "lastMonth": "Is In Last Month Of {{target}}",
+          "nextMonth": "Is In Next Month Of {{target}}",
+          "thisWeek": "Is In This Week Of {{target}}",
+          "lastWeek": "Is In Last Week Of {{target}}",
+          "nextWeek": "Is In Next Week Of {{target}}"
+        }
+      }
     },
     "conditionalFiltering": {
       "title": "Conditional Visualization Settings",
@@ -1554,7 +1677,8 @@
           "placeholder": "Choose Fields…",
           "title": "Selected Value Setting",
           "scenario": "Scenario",
-          "chooseFields": "Choose Fields"
+          "chooseFields": "Choose Fields",
+          "selectionDropDownPlaceholder": "No Chart selected"
         },
         "filteredValue": {
           "placeholder": "Choose Field…",
@@ -1593,6 +1717,7 @@
       "reportPageDisplay": "Page Display Mode",
       "dashboardPageNumber": "Initial Page Number",
       "reportDisplay": {
+        "default": "Default",
         "single": "Single Page View",
         "pageless": "Galley Mode",
         "continuous": "Continuous"
@@ -1611,6 +1736,7 @@
       "hidden": "Hidden",
       "multiValue": "MultiValue",
       "multiline": "Multiline",
+      "none": "None",
       "validValues": {
         "label": "Available Values",
         "addLabel": "Add Parameter Value",
@@ -1624,7 +1750,8 @@
         "staticValue": "Static Value",
         "userContext": "User Context",
         "organizationContext": "Organization Context",
-        "relativeDate": "Relative Date"
+        "dataSet": "Dataset",
+        "aggType": "Aggregate Type"
       },
       "valueSource": "Value Source",
       "valueSourceEnum": {
@@ -1659,6 +1786,8 @@
         },
         "sample": "Sample "
       },
+      "sourceType": "Source Type",
+      "bindTo": "Bind To",
       "datasetReferenceValueField": "Value Field",
       "datasetReferenceField": "Field"
     },
@@ -1707,6 +1836,10 @@
         "label": "Image URL",
         "invalidURL": "Invalid Image URL"
       },
+      "message": {
+        "title": "Image In Use",
+        "content": "The image is in use, are you sure you would like to remove it from the current dashboard?"
+      },
       "largeImageWarning": "Dashboard may not be saved with large embedded images. Please consider using shared images, or smaller embedded images(<1MB) instead.",
       "searchPlaceholder": "Search..."
     },
@@ -1741,6 +1874,9 @@
       "name": "Wyn Dashboards",
       "version": "Version:",
       "copyright": "Copyright © 2020 GrapeCity"
+    },
+    "shareResource": {
+      "title": "Unaccessible Resource Information"
     },
     "bullet": {
       "title": "Bullet Graph Setting",
@@ -1930,7 +2066,13 @@
             "nextweek": "Next week",
             "lastmonth": "Last month",
             "thismonth": "This month",
-            "nextmonth": "Next month"
+            "nextmonth": "Next month",
+            "nextquarter": "Next Quarter",
+            "thisquarter": "This Quarter",
+            "lastquarter": "Last Quarter",
+            "nextyear": "Next Year",
+            "thisyear": "This Year",
+            "lastyear": "Last Year"
           }
         },
         "duplicateValuesFormat": {
@@ -2635,10 +2777,24 @@
         "formula": "Formula:",
         "functionCategorys": "All,Database,Date and Time,Engineering,Financial,Information,Logical,Lookup and Reference,Math and Trigonometry,Statistical,Text"
       }
+    },
+    "smartScenario": {
+      "continue": "Save And Create Another",
+      "finish": "Save",
+      "title": "Create a visualization",
+      "recommendationTitle": "Recommendation",
+      "otherTitle": "Others",
+      "dropColumnHint": "Drag and drop fields to create a visualization."
+    },
+    "customAttribute": {
+      "addMeasure": "Add Measure...",
+      "addCalcColumn": "Add Calculated Column...",
+      "edit": "Edit expression"
     }
   },
   "actionBar": {
     "filter": "Filter",
+    "modelParameters": "Model Parameters",
     "sort": "Sort",
     "swapRowsAndCols": "Swap Rows And Columns",
     "rank": "Conditional Visualization",
@@ -3029,6 +3185,10 @@
     "exportFailed": "Failed to export.",
     "getTokenFailed": "Failed to get token.",
     "notSupportChangeChartType": "The visualization component does not support changing the chart type!",
+    "draftIsBeingReviewed": {
+      "title": "Draft Is Being Reviewed",
+      "content": "The draft of document is being reviewed. It can't be modified."
+    },
     "loadVisualFailed": "Failed to load visualization",
     "docWithoutAccess": {
       "title": "Some used documents without access or not found.",
@@ -3054,6 +3214,24 @@
       "comma": ", ",
       "content": " without access."
     },
+    "shareResource": {
+      "ok": "Every resource can be accessed!",
+      "removeScenario": "Remove",
+      "removeResourceInPage": "Reset the broken share resource in page.",
+      "docStatus": "Dashboard Status",
+      "dashboard": "Dashboard ({{id}}) is unavailable.",
+      "report": "Report ({{id}}) is unavailable.",
+      "dataset": "Dataset ({{id}}) is unavailable.",
+      "dataModel": "Data Model ({{id}}) is unavailable.",
+      "image": "Image ({{id}}) is unavailable.",
+      "mapData": "Map Data ({{id}}) is unavailable.",
+      "mapHierarchy": "Map Hierarchy ({{id}}) is unavailable.",
+      "visualization": "Visualization ({{id}}) is unavailable.",
+      "font": "Font ({{id}}) is unavailable.",
+      "floorPlan": "Floor Plan ({{id}}) is unavailable.",
+      "theme": "Theme ({{id}}) is unavailable.",
+      "unknown": "Unknown ({{id}}) is unavailable."
+    },
     "statusCode": {
       "401": {
         "title": "Unauthorized",
@@ -3074,8 +3252,7 @@
     },
     "errorCode": {
       "200000": {
-        "title": "Unknown Error",
-        "content": "{{context}}"
+        "title": "Unknown Error"
       },
       "200002": {
         "title": "Document Not Found",
@@ -3138,6 +3315,30 @@
       },
       "200222": {
         "title": "Query Data Failed"
+      },
+      "200224": {
+        "title": "Dataset Cache Unavailable",
+        "content": "Please refresh dataset cache '{{datasetName}}'."
+      },
+      "200225": {
+        "title": "Query Data Failed",
+        "content": "Failed to generate SQL statement for analysis database."
+      },
+      "200226": {
+        "title": "Query Data Failed",
+        "content": "Failed to open connection against analysis database."
+      },
+      "200227": {
+        "title": "Query Data Failed",
+        "content": "Failed to execute command against analysis database."
+      },
+      "200301": {
+        "title": "Generating Cache",
+        "content": "The data is being loaded, try refreshing the list later."
+      },
+      "200302": {
+        "title": "No Available Cache",
+        "content": "Failed to generate dataset cache."
       }
     },
     "devTools": {

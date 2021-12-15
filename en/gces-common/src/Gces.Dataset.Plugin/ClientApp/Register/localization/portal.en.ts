@@ -3,6 +3,12 @@ export const portalEN = {
 	'createDataset!name': 'Create Dataset',
 	'createDataset!description': 'Create Dataset',
 
+	'createStreamingDataset!name': 'Create Streaming Dataset',
+	'createStreamingDataset!description': 'Create Streaming Dataset',
+
+	'createPushDataset!name': 'Create Push Dataset',
+	'createPushDataset!description': 'Create Push Dataset',
+
 	'createDatasource!name': 'Create Data Source',
 	'createDatasource!description': 'Create Data Source',
 
@@ -25,6 +31,15 @@ export const portalEN = {
 
 	'incrementalUpdateDataset!name': 'Incremental update cache...',
 	'incrementalUpdateDataset!description': 'Incremental update cache',
+
+	'pushData!name': 'Endpoint information',
+	'pushData!description': 'Endpoint information',
+
+	'pushEndpointInformation!name': 'Push Data Endpoint Information',
+	'pushEndpointInformation!description': 'Push Data Endpoint information',
+
+	'clearEndpointInformation!name': 'Clear Data Endpoint Information',
+	'clearEndpointInformation!description': 'Clear Data Endpoint Information',
 
 	'copyDataset!name': 'Duplicate...',
 	'copyDataset!description': 'Duplicate this document',

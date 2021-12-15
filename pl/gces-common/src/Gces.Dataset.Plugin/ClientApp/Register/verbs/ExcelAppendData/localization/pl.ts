@@ -36,6 +36,7 @@ export const appendDataPL = {
 	AppendSource: 'Źródło', // Source
 	AppendImport: 'Dodać', // Import
 	AppendDataSuccess: 'Dołączanie danych powiodło się', // Append Data Success
+	SelectFile: 'Wybierz plik...', // Select File...
 	FileReady: '{{file}} jest gotowy do wgrania', // {{file}} is ready to upload
 	FileInProcess: 'Wgrywanie {{file}}', // Uploading {{file}}
 	FileUploaded: '{{file}} został wgrany', // {{file}} has been uploaded

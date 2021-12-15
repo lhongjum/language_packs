@@ -1,0 +1,40 @@
+{
+  "datasetEditor": {
+    "title": {
+      "edit": "Edytuj zestaw danych - \"{{datasetName}}\" bazujący na \"{{datasourceName}}\"",
+      "new": "Nowy zestaw danych bazujący na \"{{datasourceName}}\"",
+      "editSemantic": "Edytuj zestaw danych - \"{{datasetName}}\" bazujący na modelu \"{{modelName}}\" "
+    },
+    "validate": "Sprawdź poprawność",
+    "validating": "Sprawdzanie poprawności"
+  },
+  "dataVisualizer": {
+    "title": "Wizualizator danych"
+  },
+  "headingInsertRows": "Insert Rows",
+  "headingInsertColumns": "Insert Columns",
+  "btnInsert": "Insert",
+  "btnCancel": "Anuluj",
+  "labelCount": "Count",
+  "labelPosition": "Position",
+  "expressionEditor": {
+    "subtitle": "Edytor wyrażenia",
+    "infoPanel": {
+      "labelSyntax": "Składnia:",
+      "labelDescription": "Opis:",
+      "labelExample": "Przykład:",
+      "labelName": "Nazwa:",
+      "labelConstant": "Stałe:"
+    },
+    "headingFunctions": "Functions",
+    "headingInfo": "Info",
+    "search": {
+      "textStartTyping": "start typing to see results",
+      "textNoResults": "no results for \"{{query}}\"",
+      "placeholderSearch": "search..."
+    },
+    "headingValues": "Wartości",
+    "placeholderExpression": "wyrażenie",
+    "headingExpression": "Wyrażenie"
+  }
+}

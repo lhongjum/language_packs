@@ -1,0 +1,770 @@
+{
+  "labels": {
+    "border": {
+      "width": "Szerokość",
+      "style": "Styl",
+      "color": "Kolor",
+      "bottom": "Dół",
+      "default": "Domyślnie",
+      "left": "Lewo",
+      "right": "Prawo",
+      "top": "Góra"
+    },
+    "roundingRadius": {
+      "label": "Promień zaokrąglenia",
+      "bottomLeft": "Lewy dolny",
+      "bottomRight": "Prawy dolny",
+      "default": "Domyślnie",
+      "topLeft": "Lewy górny",
+      "topRight": "Prawy górny"
+    },
+    "dvchart": {
+      "plotTemplateDropdown": "Wybierz...",
+      "bar": {
+        "bottomWidth": "Dolna szerokość",
+        "neckHeight": "Wysokość szyjki",
+        "overlap": "Nasunięcie",
+        "topWidth": "Szerokość górna",
+        "width": "Szerokość"
+      },
+      "customPaletteColors": "Własna paleta kolorów",
+      "legendHidden": "Ukryte",
+      "legendOrientation": "Orientacja",
+      "legendPosition": "Pozycja",
+      "legendWrapping": "Zawijanie",
+      "palette": "Paleta",
+      "plotTemplate": "Szablon wykresu",
+      "plots": "Wykresy"
+    },
+    "dvchartPlotRules": {
+      "targetProperty": "Właściwość docelowa",
+      "valueRuleProperties": "Wartość",
+      "condition": "Warunek",
+      "ruleProperties": "Właściwości reguły"
+    },
+    "parameter": {
+      "parameters": "Parametry",
+      "omit": "Pomiń",
+      "parametername": "Nazwa parametru",
+      "value": "Wartość"
+    },
+    "multipleValues": "<Wiele wartości>",
+    "overflowPlaceHolder": {
+      "overflowName": "Nazwa przepływu"
+    },
+    "padding": {
+      "bottom": "Dół",
+      "left": "Lewo",
+      "right": "Prawo",
+      "top": "Góra"
+    },
+    "pageSection": {
+      "printOnFirstPage": "Drukuj na pierwszej stronie",
+      "printOnLastPage": "Drukuj na ostatniej stronie"
+    },
+    "report": {
+      "author": "Autor",
+      "collateBy": "Posortuj według",
+      "columnSpacing": "Odstęp kolumn",
+      "columns": "Kolumny",
+      "consumeContainerWhitespace": "Usuń zbędne odstępy",
+      "description": "Opis",
+      "displayType": "Typ wyświetlania",
+      "embeddedImages": "Wbudowane obrazy",
+      "language": "Język",
+      "layers": "Warstwy",
+      "level": "Poziom",
+      "levels": "Poziomy",
+      "marginsSizes": "Rozmiary",
+      "marginsStyle": "Styl",
+      "numberingStyle": "Styl numerowania",
+      "pageHeight": "Wysokość strony",
+      "pageOrientation": "Orientacja strony",
+      "pageSize": "Rozmiar strony",
+      "pageWidth": "Szerokość strony",
+      "sizeType": "Typ rozmiaru",
+      "source": "Źródło",
+      "startPageNumber": "Numer strony startowej",
+      "theme": "Motyw",
+      "themes": "Motywy"
+    },
+    "reportItem": {
+      "actionType": "Typ",
+      "bookmark": "Zakładka",
+      "keepTogether": "Trzymaj razem",
+      "label": "Etykieta",
+      "layerName": "Nazwa warstwy",
+      "name": "Nazwa",
+      "pageName": "Nazwa strony",
+      "style": "Styl",
+      "toolTip": "Etykietka",
+      "visibility": "Widoczność",
+      "zIndex": "Indeks-Z"
+    },
+    "reportParameter": {
+      "allowBlankValue": "Zezwól na puste",
+      "allowNullValue": "Zezwól na null",
+      "dataSetName": "Nazwa zestawu danych",
+      "dataType": "Typ danych",
+      "hidden": "Ukryte",
+      "label": "Etykieta",
+      "labelField": "Pole etykiety",
+      "multiline": "Wieloliniowy",
+      "multivalue": "Wielowartościowy",
+      "name": "Nazwa",
+      "parameterValues": "Wartości parametru",
+      "prompt": "Podpowiedź",
+      "selectAllValue": "Wybierz wszystkie wartości",
+      "selectAllValue_help": {
+        "text": "Jeśli określono, determinuje przekazanie wartości do parametru w przypadku gdy \"Wybierz wszystkie\" jest ustawione na parametr Wielowartościowy"
+      },
+      "value": "Wartość",
+      "valueField": "Pole wartości",
+      "values": "Wartości"
+    },
+    "richtext": {
+      "canGrow": "Może rosnąć",
+      "markup": "Typ znacznika",
+      "value": "Wartość"
+    },
+    "sparkline": {
+      "fillColor": "Kolor wypełnienia",
+      "gradientEndColor": "Graniczny kolor gradientu",
+      "gradientStyle": "Typ gradientu",
+      "lineColor": "Kolor linii",
+      "lineWidth": "Szerokość linii",
+      "markerColor": "Kolor znacznika",
+      "markerVisibility": "Widoczność znacznika",
+      "maximumColumnWidth": "Maksymalna szerokość",
+      "rangeFillColor": "Kolor wypełnienia",
+      "rangeGradientEndColor": "Graniczny kolor gradientu",
+      "rangeGradientStyle": "Typ gradientu",
+      "rangeLowerBound": "Dolny zakres",
+      "rangeUpperBound": "Górny zakres",
+      "rangeVisibility": "Widoczność",
+      "seriesValue": "Wartość serii",
+      "sparklineType": "Typ wykresu przebiegu"
+    },
+    "style": {
+      "angle": "Kąt",
+      "backgroundAndBorders": "Tło i obramowania",
+      "backgroundColor": "Kolor",
+      "backgroundGradientEndColor": "Graniczny kolor gradientu",
+      "backgroundGradientType": "Typ gradientu",
+      "backgroundImage": "Obraz",
+      "border": "Obramowanie",
+      "calendar": "Kalendarz",
+      "characterSpacing": "Odstęp znaków",
+      "color": "Kolor",
+      "corner": "Róg",
+      "direction": "Kierunek",
+      "font": "Czcionka",
+      "format": "Format",
+      "headingLevel": "Poziom nagłówka",
+      "language": "Język",
+      "lineHeight": "Wysokość linii",
+      "lineSpacing": "Odstęp linii",
+      "maxLevel": "Maksymalny poziom",
+      "minCondenseRate": "Minimalna stopa kondensowania",
+      "minCondenseRate_help": {
+        "text": "Określna minimalną stopę poziomego zmniejszania tekstu w procentach. Powinien być pomiędzy 10 a 100."
+      },
+      "numeralLanguage": "Język liczb",
+      "numeralVariant": "Wariant liczb",
+      "padding": "Marginesy",
+      "shapeStyle": "Styl kształtu",
+      "shrinkToFit": "Zmniejszaj, aby dopasować",
+      "textAlign": "Wyrównanie tekstu",
+      "textDecoration": "Dekoracja tekstu",
+      "textIndent": "Wcięcie tekstu",
+      "textJustify": "Justowanie tekstu",
+      "unicodeBiDi": "Unicode BiDi",
+      "uprightInVerticalText": "Upright In Vertical Text",
+      "verticalAlign": "Wyrównanie pionowe",
+      "wrapMode": "Tryb zawijania",
+      "writingMode": "Tryb pisania"
+    },
+    "subreport": {
+      "inheritStyleSheet": "Dziedzicz arkusz stylów",
+      "mergeTransactions": "Łącz transakcje",
+      "reportName": "Nazwa raportu",
+      "reportParameters": "Parametry raportu",
+      "substituteThemeOnSubreport": "Zastąp motyw na podraporcie"
+    },
+    "table": {
+      "autoWidth": "Automatyczna szerokość",
+      "detailsDataCollectionName": "Nazwa zbioru danych szczegółów",
+      "detailsDataElementName": "Nazwa elementów danych szczegółów",
+      "detailsDataElementOutput": "Wynik elementów danych szczegółów",
+      "keepTogether": "Trzymaj razem",
+      "preventOrphanedFooter": "Zapobiegaj osieroconej stopce",
+      "printAtBottom": "Drukuj na dole",
+      "repeatOnNewPage": "Powtórz na nowej stronie"
+    },
+    "tablix": {
+      "frozenColumns": "Zablokowane kolumny",
+      "frozenRows": "Zablokowane wiersze",
+      "groupsBeforeRowHeaders": "Grupy przed nagłówkami wierszy",
+      "layoutDirection": "Kierunek układu",
+      "repeatColumnHeaders": "Powtarzaj nagłówki kolumn",
+      "repeatRowHeaders": "Powtarzaj nagłówki wierszy"
+    },
+    "tablixBodyCell": {
+      "autoMergeMode": "Tryb automatycznego scalania",
+      "autoMergeMode_help": {
+        "text": "Wskazuje czy dwie lub więcej następujących po sobie w kolumnie komórek mających tę samę zawartość powinny podlegać scaleniu. Będzie działać tylko dla komórki Pole tekstowe."
+      }
+    },
+    "tablixMember": {
+      "groupEnabled": "Włączone",
+      "keepWithGroup": "Trzymaj z grupą",
+      "repeatOnNewPage": "Powtórz na nowej stronie"
+    },
+    "textbox": {
+      "canGrow": "Może rosnąć",
+      "canShrink": "Może maleć",
+      "initialToggleState": "Początkowy stan przełącznika",
+      "value": "Wartość"
+    },
+    "tocLevel": {
+      "displayFillCharacters": "Wyświetl znak wypełnienia",
+      "displayPageNumber": "Wyświetl numer strony",
+      "fillCharacter": "Znak wypełnienia",
+      "label": "Etykieta"
+    },
+    "userSort": {
+      "sortExpression": "Wyrażenie sortowania",
+      "sortExpressionScope": "Zakres wyrażenia sortowania",
+      "sortTarget": "Cel sortowania"
+    },
+    "visibility": {
+      "hidden": "Ukryte",
+      "toggleItem": "Przełącznik"
+    },
+    "empty": "<Pusty>",
+    "filter": {
+      "filterExpression": "Filtruj wyrażenie",
+      "filterValues": "Filtruj wartości",
+      "operator": "Operator",
+      "value": "Wartość"
+    },
+    "font": {
+      "fontFamily": "Rodzina czcionek",
+      "fontSize": "Rozmiar czcionek",
+      "fontStyle": "Styl czcionek",
+      "fontWeight": "Grubość czcionek"
+    },
+    "formattedText": {
+      "encodeMailMergeFields": "Koduj pola scalania",
+      "html": "Html",
+      "mailMergeFields": "Pola scalania"
+    },
+    "fplReport": {
+      "fixedElementName": "Nazwa elementu strony",
+      "fixedElementOutput": "Wyjście elementu strony"
+    },
+    "group": {
+      "dataCollectionName": "Nazwa zbioru danych",
+      "dataElementName": "Nazwa elementu danych",
+      "dataElementOutput": "Wyjście elementu danych",
+      "documentMapLabel": "Etykieta",
+      "filters": "Filtry",
+      "groupExpressions": "Wyrażenia grupy",
+      "name": "Nazwa",
+      "newSection": "Nowa sekcja",
+      "pageBreak": "Przełamanie strony",
+      "pageBreakDisabled": "Przełamanie strony wyłączone",
+      "newPage": "New Page",
+      "parent": "Nadrzędny",
+      "printFooterAtBottom": "Drukuj stopkę na dole"
+    },
+    "inputField": {
+      "checkSize": "Sprawdź rozmiar",
+      "checkStyle": "Sprawdź styl",
+      "checked": "Sprawdzono",
+      "fieldName": "Nazwa pola",
+      "inputType": "Typ",
+      "maxLength": "Maksymalna długość",
+      "multiline": "Wieloliniowy",
+      "password": "Hasło",
+      "readonly": "Tylko do odczytu",
+      "required": "Wymagane",
+      "spellCheck": "Sprawdzanie pisowni",
+      "value": "Wartość"
+    },
+    "layer": {
+      "designerDataFieldVisible": "Field Selector Availability",
+      "designerLock": "Blokada projektanta",
+      "designerTransparency": "Przezroczystość projektanta",
+      "designerVisible": "Widoczność projektanta",
+      "name": "Nazwa",
+      "targetDevice": {
+        "all": "Wszystko",
+        "export": "Eksport",
+        "paper": "Papier",
+        "screen": "Obraz"
+      }
+    },
+    "line": {
+      "endPoint": "Punkt końcowy",
+      "lineColor": "Kolor linii",
+      "lineStyle": "Styl linii",
+      "lineWidth": "Szerokośc linii",
+      "startPoint": "Punkt początkowy"
+    },
+    "list": {
+      "consumeWhiteSpace": "Usuń zbędne odstępy",
+      "dataInstanceElementOutput": "Wyjście elementu instancji danych",
+      "dataInstanceName": "Nazwa instancji danych",
+      "gridMode": "Tryb siatki"
+    },
+    "margins": {
+      "bottom": "Dół",
+      "left": "Lewo",
+      "right": "Prawo",
+      "top": "Góra"
+    },
+    "dataVisualizer": {
+      "colorScale": {
+        "maximum": "Maksimum",
+        "maximumColor": "Maksymalny kolor",
+        "middle": "Środkowy",
+        "middleColor": "Środkowy kolor",
+        "minimum": "Minimum",
+        "minimumColor": "Minimalny kolor",
+        "useMiddleColor": "Użyj środkowego koloru",
+        "value": "Wartość"
+      },
+      "dataBar": {
+        "alternateColor": "Alternatywny kolor",
+        "color": "Kolor",
+        "maximum": "Maksimum",
+        "minimum": "Minimum",
+        "useAlternateColor": "Użyj kolor alternatywnego",
+        "useAlternateColor_help": {
+          "text": "Jeśli jest włączony, 'Alternatywny kolor' będzie używany kiedy 'Wartość' jest mniejsza niż 'Wartość zerowa'"
+        },
+        "value": "Wartość",
+        "zeroValue": "Wartość zerowa"
+      },
+      "gradient": {
+        "color1": "Kolor 1",
+        "color2": "Kolor 2",
+        "gradientType": "Typ gradientu"
+      },
+      "hatch": {
+        "color1": "Kolor 1",
+        "color2": "Kolor 2",
+        "hatchStyle": "Styl kreskowania"
+      },
+      "iconSet": {
+        "icon1Value": "Wartość Ikony 1",
+        "icon2Value": "Wartość Ikony 2",
+        "icon3Value": "Wartość Ikony 3",
+        "icon4Value": "Wartość Ikony 4",
+        "icon5Value": "Wartość Ikony 5",
+        "iconSet": "Zestaw ikon"
+      },
+      "rangeBar": {
+        "color": "Kolor",
+        "displayProgressIndicator": "Wyświetl wskaźnik postępu",
+        "length": "Długość",
+        "maximum": "Maksimum",
+        "minimum": "Minimum",
+        "progressIndicatorColor": "Kolor wskaźnika postępu",
+        "progressIndicatorLength": "Długość wskaźnika postępu",
+        "startingValue": "Wartość początkowa"
+      },
+      "visualizerType": "Typ wizualizatora"
+    },
+    "dimensions": {
+      "bottom": "Dół",
+      "endPointX": "Punkt końcowy osi X",
+      "endPointY": "Punkt końcowy osi Y",
+      "fixedHeight": "Stała wysokość",
+      "fixedSize": "Stały rozmiar",
+      "fixedWidth": "Stała szerokość",
+      "height": "Wysokość",
+      "left": "Lewa",
+      "location": "Lokalizacja",
+      "right": "Prawa",
+      "size": "Rozmiar",
+      "startPointX": "Punkt początkowy osi X",
+      "startPointY": "Punkt początkowy osi Y",
+      "top": "Góra",
+      "width": "Szerokość"
+    },
+    "dvchartAxis": {
+      "axisType": "Typ osi",
+      "gridLinesStyle": "Styl linii siatki",
+      "labelAngle": "Kąt etykiety",
+      "lineStyle": "Styl linii",
+      "logBase": "Baza logów",
+      "majorInterval": "Główny odstęp",
+      "max": "Maks",
+      "min": "Min",
+      "minorInterval": "Pomniejszy odstęp",
+      "origin": "Źródło",
+      "overlappingLabels": "Nakładanie etykiet",
+      "plots": "Wykresy",
+      "position": "Pozycja",
+      "reversed": "Odwrócone",
+      "scale": "Typ skali",
+      "showGridLines": "Pokaż linie siatki",
+      "showMajorGridLines": "Główne linie siatki",
+      "showMinorGridLines": "Pomniejsze linie siatki",
+      "tickMarks": "Znaczniki",
+      "tickSize": "Rozmiar znaczników",
+      "tickStyle": "Styl zaznaczników",
+      "title": "Tytuł",
+      "visible": "Widoczność"
+    },
+    "dvchartEncoding": {
+      "aggregateType": "Agregacja",
+      "excludeNulls": "Wyklucz null",
+      "fieldType": "Typ pola",
+      "fieldValue": "Wartość",
+      "group": "Grupa",
+      "sort": "Kierunek sortowania",
+      "sortingAggregate": "Agregat sortowania",
+      "sortingField": "Wyrażenie sortowania",
+      "value": "Wartości"
+    },
+    "dvchartHeaderFooter": {
+      "caption": "Podpis",
+      "height": "Wysokość"
+    },
+    "dvchartLegend": {
+      "hidden": "Ukryte",
+      "iconColor": "Kolor ikony",
+      "maxHeight": "Maksymalna wysokość",
+      "maxWidth": "Maksymalna szerokość",
+      "orientation": "Orientacja",
+      "position": "Pozycja",
+      "title": "Tytuł"
+    },
+    "dvchartPlot": {
+      "axisMode": "Tryb osi",
+      "bar": "Linie słupka",
+      "category": "Kategoria",
+      "categorySort": "Kierunek sortowania",
+      "categorySortingAggregate": "Kategoria sortowania zagregowanego",
+      "categorySortingField": "Wyrażenie sortowania",
+      "clippingMode": "Tryb obcinania",
+      "color": "Kolor",
+      "colorAggregate": "Agregacja koloru",
+      "details": "Szczegóły",
+      "innerRadius": "Wewnętrzny promień",
+      "lineAspect": "Aspekt linii",
+      "lineColor": "Kolor linii",
+      "lineStyle": "Styl linii",
+      "lineWidth": "Szerokośc linii",
+      "offset": "Offset",
+      "opacity": "Nieprzezroczystość",
+      "plotStyle": "Styl wykresu",
+      "radial": "Promieniowy",
+      "rules": "Reguły",
+      "shape": "Kształt",
+      "shapeAggregate": "Agregacja kształtu",
+      "showNulls": "Pokaż nulle",
+      "size": "Rozmiar",
+      "sizeAggregate": "Agregacja rozmiaru",
+      "startAngle": "Kąt startowy",
+      "swapAxes": "Zamień osie",
+      "sweep": "Wyczyść",
+      "symbolBackgroundColor": "Kolor tła",
+      "symbolOpacity": "Nieprzezroczystość symbolu",
+      "symbolShape": "Kształt symbolu",
+      "symbolStyle": "Styl symbolu",
+      "symbols": "Pokaż symbole",
+      "text": "Tekst",
+      "textBackgroundColorStyle": "Kolor tła",
+      "textConnectingLine": "Linia łącząca",
+      "textLinePosition": "Pozycja",
+      "textOffset": "Offset",
+      "textOverlappingLabels": "Nakładanie etykiet",
+      "textPosition": "Pozycja",
+      "textTemplate": "Szablon",
+      "tooltip": "Etykietka",
+      "tooltipTemplate": "Szablon etykietyki",
+      "type": "Typ wykresu",
+      "unpivotData": "Unpivot Data",
+      "values": "Wartości"
+    },
+    "dvchartPlotArea": {
+      "axes": "Osie"
+    },
+    "dvchartValueEncoding": {
+      "field": {
+        "close": "Blisko",
+        "high": "Wysoko",
+        "low": "Nisko",
+        "lower": "Niżej",
+        "open": "Otwarte",
+        "upper": "Wyżej",
+        "value": "Wartość"
+      }
+    },
+    "checkBox": {
+      "checkAlignment": "Sprawdź wyrównanie",
+      "checked": "Sprawdzono",
+      "text": "Tekst"
+    },
+    "container": {
+      "consumeWhiteSpace": "Usuń zbędne odstępy",
+      "gridMode": "Tryb siatki",
+      "linkToChild": "Linkuj do podrzędnych",
+      "pageBreak": "Przełamanie strony",
+      "newPage": "New Page"
+    },
+    "data": {
+      "dataElementName": "Nazwa elementu",
+      "dataElementOutput": "Wynik elementu",
+      "dataElementStyle": "Styl elementu"
+    },
+    "dataRegion": {
+      "dataSetName": "Nazwa zestawu danych",
+      "dataSetParameters": "Parametry zestawu danych",
+      "dataSetParameters_help": {
+        "text": "Ustawienie parametru ParametryZestawuDanych pozwoli na dodawanie relacji dla wyświetlania danych w zagnieżdżonych regionach danych, które są połączone do innych zestawów danych."
+      },
+      "filters": "Filtry",
+      "newSection": "Nowa sekcja",
+      "noRowsMessage": "Wiadomość",
+      "overflowName": "Nazwa przepływu",
+      "pageBreak": "Przełamanie strony",
+      "newPage": "New Page",
+      "repeatToFill": "Powtórz, aby wypełnić",
+      "sortExpressions": "Wyrażenia sortowania",
+      "throwIfPlaceHoldersEmpty": "Wyrzuć jeśli symbole zastępcze są puste"
+    },
+    "dataSet": {
+      "accentSensitivity": "Czułość akcentu",
+      "boundFields": "Pola zakresu",
+      "calculatedFields": "Pola obliczeniowe",
+      "caseSensitivity": "Rozróżnianie wielkości liter",
+      "collation": "Kolacja znaków",
+      "commandType": "Rodzaj polecenia",
+      "fields": "Pola",
+      "filters": "Filtry",
+      "kanatypeSensitivity": "Czułość Kanatype",
+      "name": "Nazwa",
+      "parameters": "Parametry",
+      "query": "Zapytanie",
+      "widthSensitivity": "Czułość grubości"
+    },
+    "dataSetParameter": {
+      "name": "Nazwa",
+      "value": "Wartość"
+    },
+    "bullet": {
+      "bestValue": "Najwyższa wartość",
+      "interval": "Interwał",
+      "labelFontColor": "Kolor czcionki",
+      "labelFontFamily": "Rodzina czcionki",
+      "labelFontSize": "Rozmiar czcionki",
+      "labelFontStyle": "Styl czcionki",
+      "labelFormat": "Format etykiety",
+      "orientation": "Orietnacja",
+      "range1Boundary": "Granica Zakres1",
+      "range2Boundary": "Granica Zakres2",
+      "showLabels": "Pokaż etykiety",
+      "targetLineColor": "Kolor",
+      "targetLineWidth": "Grubość linii",
+      "targetShape": "Kształt",
+      "targetValue": "Wartość docelowa",
+      "tickMarks": "Znaczniki",
+      "ticksLineColor": "Kolor",
+      "ticksLineWidth": "Grubość linii",
+      "value": "Wartość",
+      "valueColor": "Kolor wartości",
+      "worstValue": "Najniższa wartość"
+    },
+    "barcode": {
+      "barHeight": "Wysokość słupka",
+      "captionGrouping": "Grupowanie podpisów",
+      "captionLocation": "Lokalizacja podpisów",
+      "checksum": "Suma kontrolna",
+      "code49Options": {
+        "groupNumber": "Numer grupy",
+        "grouping": "Grupowanie"
+      },
+      "dataMatrixOptions": {
+        "ecc000_140SymbolSize": "Symbol rozmiaru Ecc000_140",
+        "ecc200EncodingMode": "Tryb kodowania Ecc200",
+        "ecc200SymbolSize": "Symbol rozmiaru Ecc200",
+        "eccMode": "Tryb Ecc",
+        "encoding": "Kodowanie",
+        "fileIdentifier": "identyfikator pliku",
+        "structureNumber": "Numer struktury",
+        "structuredAppend": "Ustruktyryzowane dodawanie"
+      },
+      "ean128Fnc1Options": {
+        "barAdjust": "Dostosowywanie słupka",
+        "moduleSize": "Rozmiar modułu",
+        "resolution": "Dpi"
+      },
+      "gs1CompositeOptions": {
+        "type": "Typ złożony",
+        "value": "Wartość złożona"
+      },
+      "gs1QrCodeOptions": {
+        "encoding": "Kodowanie",
+        "errorLevel": "Poziom błędu",
+        "mask": "Maska",
+        "version": "Wersja"
+      },
+      "invalidBarcodeText": "Nieprawidłowy tekst kodu kreskowego",
+      "maxiCodeOptions": {
+        "mode": "Tryb"
+      },
+      "microPdf417Options": {
+        "compactionMode": "Tryb zagęszczenia",
+        "fileId": "ID pliku",
+        "segmentCount": "Liczba segmentów",
+        "segmentIndex": "Indeks segmentów",
+        "version": "Wersja"
+      },
+      "microQrCodeOptions": {
+        "encoding": "Kodowanie",
+        "errorLevel": "Poziom błędu",
+        "mask": "Maska",
+        "version": "Wersja"
+      },
+      "narrowBarWidth": "Szerokość wąskiego słupka",
+      "nwRatio": "Współczynnik NW",
+      "nwRatio_help": {
+        "text": "Znany także jako wymiar N; jest to wartość definiująca wielokrotność proporcji pomiędzy wąskim a szerokim paskiem w symbologiach zawierających słupki w tylko dwóch wersjach."
+      },
+      "pdf417Options": {
+        "columns": "Kolumny",
+        "errorCorrectionLevel": "Poziom korekcji błędu",
+        "rows": "Wiersze",
+        "type": "Typ PDF417"
+      },
+      "qrCodeOptions": {
+        "connection": "Połączenie",
+        "connectionNumber": "Numer połączenia",
+        "encoding": "Kodowanie",
+        "errorLevel": "Poziom błędu",
+        "mask": "Maska",
+        "model": "Model",
+        "version": "Wersja"
+      },
+      "quietZone": "Cicha strefa",
+      "rotation": "Rotacja",
+      "rssExpandedStacked": {
+        "rowCount": "Liczna wierszy"
+      },
+      "supplementOptions": {
+        "barHeight": "Uzupełnij wysokość paska",
+        "captionLocation": "Uzupełnij lokalizację podpisu",
+        "spacing": "Uzupełnij rozstaw",
+        "value": "Uzupełnij wartość"
+      },
+      "symbology": "Typ",
+      "value": "Wartość"
+    },
+    "bandedList": {
+      "canGrow": "Może rosnąć",
+      "canShrink": "Może maleć",
+      "consumeWhiteSpace": "Usuń zbędne odstępy",
+      "preventOrphanedFooter": "Zapobiegaj osieroconej stopce",
+      "preventOrphanedHeader": "Zapobiegaj osieroconemu nagłówkowi",
+      "printAtBottom": "Wydrukuj na dole",
+      "repeatOnNewPage": "Powtarzaj na nowej stronie"
+    },
+    "action": {
+      "jumpToBookmark": "Przejdź do zakładki",
+      "jumpToReport": "Przejdź do raportu",
+      "jumpToUrl": "Przejdź do linku",
+      "parameters": "Parametry"
+    },
+    "image": {
+      "backgroundRepeat": "Powtórz",
+      "horizontalAlignment": "Wyrównanie poziome",
+      "imageLabel": "Obraz",
+      "mimeType": "Typ MIME",
+      "sizing": "Zmiana rozmiary obrazu",
+      "source": "Źródło",
+      "value": "Wartość",
+      "verticalAlignment": "Wyrównanie pionowe"
+    }
+  },
+  "categories": {
+    "action": "Akcja",
+    "appearance": "Wygląd",
+    "availableValues": "Dostępne wartości",
+    "background": "Tło",
+    "backgroundAndBorders": "Tło & Obramowania",
+    "bar": "Ustawienia słupka",
+    "border": "Obramowanie",
+    "borderColor": "Kolor obramowania",
+    "borderRoundingRadius": "Promień zaokrągleń obramowania",
+    "borderStyle": "Styl obramowania",
+    "borderWidth": "Szerokość obramowania",
+    "borders": "Obramowania",
+    "column": "Kolumna",
+    "common": "Wspólne",
+    "content": "Zawartość",
+    "data": "Dane",
+    "dataLabel": "Etykieta danych",
+    "dataLabelText": "Tekst etykiety danych",
+    "defaultValue": "Domyślna wartość",
+    "dimensions": "Wymiary",
+    "documentMap": "Mapa dokumentu",
+    "dvchartLabelBorder": "Obramowanie etykiety",
+    "dvchartLabelLine": "Linie etykiety",
+    "dvchartLabelText": "Tekst etykiety",
+    "dvchartLegend": "Legenda",
+    "dvchartLegendBackground": "Tło legendy",
+    "dvchartLegendBorder": "Obramowanie legendy",
+    "dvchartLegendText": "Tekst legendy",
+    "dvchartLegendTitle": "Tytuł legendy",
+    "dvchartPlotConfig": "Konfiguracja",
+    "dvchartPlotEncodings": "Kodowania",
+    "dvchartPlotStyle": "Styl",
+    "dvchartPlotSymbols": "Symbole",
+    "fields": "Pola",
+    "fillStyle": "Styl wypełnienia",
+    "font": "Czcionka",
+    "general": "Ogólne",
+    "grid": "Linie siatki",
+    "group": "Grupa",
+    "input": "Wprowadzanie",
+    "international": "Międzynarodowe",
+    "labelStyle": "Styl etykiety",
+    "labels": "Etykiety",
+    "layout": "Układ",
+    "line": "Linia",
+    "majorGrid": "Główna siatka",
+    "majorTicks": "Główne znaczniki osi",
+    "margins": "Marginesy",
+    "marker": "Znacznik",
+    "minorGrid": "Pomniejsza siatka",
+    "minorTicks": "Pomniejsze znaczniki osi",
+    "misc": "Różne",
+    "noData": "Brak danych",
+    "options": "Opcje",
+    "pageSize": "Rozmiar strony",
+    "preview": "Podgląd",
+    "range": "Zakres",
+    "referenceLine": "Linia odniesienia",
+    "scale": "Skala",
+    "seriesLineStyle": "Styl linii serii",
+    "settings": "Ustawienia",
+    "staticMembers": "Elementy statyczne",
+    "symbology": "Symbologia",
+    "tableFooter": "Stopka",
+    "tableHeader": "Nagłówek",
+    "targetDevice": "Urządzenie docelowe",
+    "targetStyle": "Docelowy styl",
+    "text": "Tekst",
+    "threeDProperties": "Właściwości 3D",
+    "tickStyle": "Styl zaznaczenia",
+    "title": "Tytuł",
+    "userSort": "Sortowanie użytkowników",
+    "valueStyle": "Styl wartości",
+    "visibility": "Widoczność"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "bool-true-label": "Prawda",
+  "bool-false-label": "Fałsz",
+  "paramsTextInvalidValue": "Niewłaściwa wartość",
+  "datePlaceholder": "Wybierz datę..",
+  "daysViewHeaderFormat": "MMMM RRRR",
+  "ddpTextNull": "(pusto)",
+  "ddpTextSelectValue": "(wybierz wartość)",
+  "ddpTextSelectAllValues": "(wybierz wszystko)",
+  "null": "Pusto",
+  "preview-btn-title": "Podgląd"
+}

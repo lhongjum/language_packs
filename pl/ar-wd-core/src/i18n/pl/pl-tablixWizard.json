@@ -1,0 +1,88 @@
+{
+  "textNoValues": "Brak określonych wartości.",
+  "textAddValue": "Proszę dodać przynamniej jedną wartość aby stworzyć Tablix.",
+  "aggregates": {
+    "avg": "Avg",
+    "count": "Count",
+    "max": "Max",
+    "min": "Min",
+    "none": "Brak",
+    "sum": "Sum"
+  },
+  "titleAggregate": "Agregacja",
+  "displayAsOptions": {
+    "default": "Domyślny",
+    "percentColumnGroupTotal": "% Grup kolumn łącznie",
+    "percentGrandTotal": "% Łącznej sumy",
+    "percentParentColumnGroupTotal": "% Sumy nadrzędnej grupy kolumn",
+    "percentParentRowGroupTotal": "% Sumy grupy wierszy nadrzędnych",
+    "percentRowGroupTotal": "% Grup wierszy łącznie"
+  },
+  "titleDisplayAs": "Wyświetl jako",
+  "placeholderNoField": "brak pola",
+  "titleDelete": "Usuń",
+  "textNoDataSets": "Raport nie ma zestawu danych",
+  "textAddDataSet": "Najpierw dodaj zestaw danych do raportu",
+  "formats": {
+    "currency": "Waluta",
+    "decimal": "Dziesiętny",
+    "default": "Domyślny",
+    "general": "Ogólny",
+    "number": "Liczbowy",
+    "percent": "Procentowy"
+  },
+  "titleFormat": "Format",
+  "sortings": {
+    "Ascending": "Rosnąco",
+    "Descending": "Malejąco",
+    "None": "Brak"
+  },
+  "titleSorting": "Sortowanie: {{sorting}}",
+  "filters": {
+    "titleEditGroupFilters": "Edit Group Filters...",
+    "textFilters": "Filters",
+    "titleEditTablixFilters": "Edit Tablix Filters...",
+    "headingTablixFilters": "Tablix Filters",
+    "headingGroupFilters": "Group Filters – {{groupLabel}}"
+  },
+  "textSwap": "Zamiana",
+  "titleSwapRowColumnGroups": "Zamień grupy wierszy i kolumn",
+  "textAsRows": "Jako Wiersze",
+  "textShowValuesAsRows": "Pokaż wartości jako wiersze",
+  "textLayoutOptions": "Opcje Układu",
+  "textRowGroups": "Grupy Wierszy",
+  "textColumns": "Grupy Kolumn",
+  "textValues": "Wartości",
+  "btnTotals": "Sumy",
+  "btnStyling": "Stylizacja",
+  "btnOrganization": "Organizacja",
+  "labelExpandCollapse": "Rozwiń/Zwiń grupy",
+  "labelCollapsedGroups": "Zwinięte Grupy",
+  "labelUserSortEnabled": "Włącz sortowanie użytkownika",
+  "labelSteppedRowGroups": "Wystąpienie grupy wierszy",
+  "labelFrozenRows": "Zablokuj wiersze",
+  "labelFrozenColumns": "Zablokuj kolumny",
+  "labelNone": "Brak",
+  "labelTotalsForRows": "Sumy dla grup wierszy",
+  "labelSubTotalsForRows": "Sumy pośrednie dla grup wierszy",
+  "labelTotalsForColumns": "Sumy dla grup kolumn",
+  "labelSubTotalsForColumns": "Sumy pośrednie dla grup kolumn",
+  "labelShowTotalsBeforeGroup": "Pokaż sumy przed grupą",
+  "warning": {
+    "btnRevert": "Wróć do poprzedniego stanu",
+    "btnQuit": "Zamknij",
+    "headingWarning": "Ostrzeżenie",
+    "textChangedStructure": "Kreator Tablix nie może edytować Tablix, ponieważ jego struktura została zmieniona.",
+    "textConfirmReverting": "Potwierdź powrót do poprzedniego stanu Tablix, który może być edytowany przez kreatora.",
+    "textOtherwiseCannotEdit": "W przeciwnym razie nie będzie można kontynuować edycji w Kreatorze Tablix."
+  },
+  "headingTablixWizard": "Kreator Tablix",
+  "headingLayoutDesign": "Design Układu",
+  "headingDataSets": "Zestawy danych",
+  "makeTablix": {
+    "textValues": "Wartości",
+    "textTotal": "Całkowity"
+  },
+  "textOpenWizard": "Otwórz Wizard Tablixa",
+  "textCannotEditInWizard": "Tablix ma złożoną strukturę i nie może być edytowany w Wizardzie. Użyj Edytor Grup."
+}

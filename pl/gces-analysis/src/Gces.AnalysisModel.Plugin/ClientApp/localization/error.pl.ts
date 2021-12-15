@@ -24,7 +24,6 @@ export const errorPL: LanguageKeyValueMap = {
 	error_98021: 'Nie można uzyskać informacji z kolumny {{column}} w tabeli {{table}}.', // Can not get the information of column {{column}} on the table {{table}}.
 	error_98022: 'Nie udało się zweryfikować relacji.', // Failed to validate the relation.
 	error_98023: 'Nie udało się zweryfikować filtrów zabezpieczających, utwórz atrybut niestandardowy i użyj funkcji CAST, aby przekonwertować wartość atrybutu na zgodny typ danych.', // Failed to validate the security filter(s), please create a custom attribute and use the CAST function to convert the attribute value into a compatible datatype.
-
 	// DataProviderServiceException
 	error_93001: 'Brak wartości kontekstu użytkownika wymaganych przez parametry połączenia w zakresie bieżącego użytkownika. Właściwości kontekstu: {{contexts}}', // User context values required by connection string are missing on current user\'s scope. Context properties: {{contexts}}
 	error_93002: '\'Baza danych\' nie jest skonfigurowana podczas połączenia.', // \'Database\' is not configured on connection.
@@ -112,4 +111,65 @@ export const errorPL: LanguageKeyValueMap = {
 	error_96210: "Nie udało się znaleźć kolumny odniesienia relacji '{{relation}}'.", // Failed to find referencing column of relation '{{relation}}'.
 	error_96211: "Nie udało się znaleźć kolumny odniesienia relacji '{{relation}}'.", // Failed to find referenced column of relation '{{relation}}'.
 	error_96212: 'Nie udało się rozpoznać znaku źródła danych.', // Failed to resolve datasource character.
+
+	// LocalEntity
+	error_98024: 'Fail to validate the local entity.',
+	error_98025: 'The {{column}} column type error.',
+	error_98026: 'Can not to get local entity Generator.',
+
+	// Entity Parameter
+	error_98027: 'Failed to validate the entity parameter.',
+	error_98028: 'Not support the entity with Custom SQL.',
+
+	// localEntityGraphql
+	error_98037: 'Excel connection failed to open.',
+	error_60200: 'Niepusty zestaw wierszy jest wymagany dla inferencji kolumnowego typu danych.', // A non-empty row collection is required for column data type inference.
+	error_60201: 'Arkusz Excel nie powinien być pusty', // Excel sheet should not be empty.
+	error_60009: 'Nie znaleziono dostępnych arkuszy w pliku Excel.', // No available sheets found in Excel file.
+	error_60008: 'This is an encrypted file, please provide the password.',
+
+	// GetData
+	error_98029: 'Failed to open the document. It may be due to multiple people editing the current document at the same time, or there is a problem with the cache database.',
+	error_98030: 'Failed to get the edit lock in cache mode.',
+	error_98031: 'Failed to get data.',
+	error_98032: 'Failed to select one available cache node.',
+
+	error_200001: '"{{value}}" in {{row}} row and {{column}} column of the {{entityName}} table cannot be converted from a {{originalType}} type to a {{conversionType}} type.',
+	error_200002: '{{logicalDataType}} type is not supported.',
+	error_200003: 'Data is not exist or invalid.',
+	error_200004: 'Access denied to "{{directory}}"',
+	error_200005: 'Failed to convert value in {{row}} row to target data type.',
+	error_200006: 'Unknown runtime errors occurred.',
+	error_200007: 'Failed to generate binary files.',
+	error_200008: 'Model documentId is empty.',
+	error_200009: 'Cannot get the cache node.',
+	error_200010: 'Failed to transport files.',
+	error_200011: 'Failed to generate cache.',
+	error_200012: 'Failed to generate cache.',
+	error_200013: 'Failed to generate cache.',
+	error_200015: 'Failed to execute SQL initialization script in cache.',
+
+	error_100000001: 'Failed to get cache storage node.',
+	error_100000002: 'Data is found in inactive cache node.',
+	error_100000003: 'Data is not found in active cache node.',
+	error_100000004: 'Data is not exist.',
+	error_100000005: 'Operation is canceled in client.',
+	error_100000006: 'Client internal error.',
+	error_100000007: 'System shutdown.',
+	error_100000008: 'Cache node is offline.',
+	error_100000009: 'Failed to get lock.',
+	error_100000010: 'Failed to update cache lock.',
+	error_200000001: 'Client is unavailable.',
+	error_200000002: 'Cache storage is not start.',
+	error_200000003: 'Cache storage error.',
+	error_200000004: 'Server operation is canceled.',
+	error_200000005: 'Cache is occupied.',
+	error_200000006: 'Server internal error.',
+	error_200000007: 'Failed to release lock.',
+	error_200000008: 'Failed to get lock.',
+
+	error_98036: 'Failed to validate data sources.',
+	err_100018: 'Document not found.',
+	error_98038: 'The cache is being rebuilt and the document cannot be edited.',
+	error_98039: 'Failed to convert a value of the column {{ columnName }} to data type {{ convertedType }} .',
 };

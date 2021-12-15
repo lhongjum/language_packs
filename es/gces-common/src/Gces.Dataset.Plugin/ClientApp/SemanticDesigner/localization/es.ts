@@ -29,8 +29,12 @@ export const resES: LanguageKeyValueMap = {
 	// App Bar
 	abSave: 'Save Draft',
 	abSaveAndPublish: 'Save And Publish',
+	revisionCheckTitle: 'Update the version of the relevant reports',
+	refRevisionUpdateWarning: 'This will take some time, and there is a risk that the operation may cause the relevant reports to be corrupted.',
 	abValidate: 'Validate',
 	abProperties: 'Properties',
+	documentBeReferencedMessage: 'This document is referenced by other document.',
+	referencedDocuments: 'Relevant Reports:',
 
 	// Workspace
 	wsName: 'Name',
@@ -274,6 +278,9 @@ export const resES: LanguageKeyValueMap = {
 	saveDraftSuccess: 'Model saved as draft successfully.',
 	saveAndPublishDraftSuccess: 'Model saved and published successfully.',
 	getDatabasesFailed: 'Get databases failed. The server is not found or is not accessible. Please verify your settings and make sure the server allows remote connections.',
+	updateFailed: 'Failed to update dependent version.',
+	updateSuccess: 'Update dependent version succeeded.',
+	documentNotFound: 'The current document was not found.',
 	modelBreakingChanges: 'Model Breaking Changes',
 	publishBrokenReport: 'The \'{{name}}\' report was broken by your changes, therefore it is still bound to the old version of this model so that users can view this report without errors.',
 
@@ -315,6 +322,6 @@ export const resES: LanguageKeyValueMap = {
 	'DataSourceDisplayName!Postgres': 'Postgres',
 
 	// model type selector
-	'modelType!report': 'For Report',
-	'modelType!dashboard': 'For Dashboard',
+	'modelType!report': 'Direct Query Model',
+	'modelType!dashboard': 'Cached Model',
 };

@@ -1,0 +1,23 @@
+{
+  "errorLabel": "Błąd",
+  "dataSetDialog": {
+    "duplicateFields": "Zapytanie ma zduplikowane pola: {{fieldNames}}",
+    "validationTimeout": "Minął czas sprawdzania poprawności zapytania",
+    "unexpectedError": "Nieprzewidziany błąd"
+  },
+  "loadReportVersionError": "Nie można otworzyć raportu \"{{reportName}}\" (wersja: {{reportVersion}}).",
+  "loadReportError": "Nie można otworzyć raportu \"{{reportName}}\".",
+  "expressionNode": {
+    "argumentIsNotValid": "Argument '{{argument}}' funkcji '{{functionName}}' nie jest poprawny. {{details}}",
+    "argumentValueNotFitFunctionValueDataType": "Argument '{{argument}}' funkcji '{{functionName}}' powinien mieć jeden z następujących typów - {{expectedTypes}} , ale ma typ {{actualType}}.",
+    "argumentsShouldHaveSameDataType": "Argumenty {{arguments}} funkcji '{{functionName}}' powinny mieć taki sam typ danych.",
+    "typeMismatch": "Wartość '{{value}}' nie może zostać skonwertowana do {{expectedType}}."
+  },
+  "upgradeReportSemanticModel": {
+    "entityIsAbsent": "● Brakuje encji '{{entityName}}' zestawu danych '{{dataSetName}}' w najnowszym modelu semantycznym.",
+    "fieldAtQueryFilterIsAbsent": "● Brakuje pola '{{fieldName}}' zestawu danych '{{dataSetName}}' w najnowszym modelu semantycznym.",
+    "fieldInControlGroupIsAbsent": "● Brakuje pola'{{fieldName}}' w {{controlName}} grupie {{groupName}} atrybutu '{{propertyLabel}}' w najnowszym modelu semantycznym.",
+    "fieldInControlIsAbsent": "● Brakuje pola '{{fieldName}}' w {{controlName}} atrybutu '{{propertyLabel}}' w najnowszym modelu semantycznym.",
+    "fieldInReportIsAbsent": "● Brakuje pola '{{fieldName}}' w raporcie atrybutu '{{propertyLabel}}' w najnowszym modelu semantycznym."
+  }
+}

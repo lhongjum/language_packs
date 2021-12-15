@@ -8,6 +8,7 @@
   "rdl!name": "Reports",
   "dataset!name": "Datasets",
   "dsc!name": "Data Sources",
+  "smdsc!name": "Data Models",
 
   // executionException Common
   "executionErr_10001": "[Execution Error] Unknown cot task status.",
@@ -47,6 +48,7 @@
   "executionErr_13005": "[Execution Error] Please enable PDF Export to execute this task.",
   "executionErr_13006": "[Execution Error] Please install a Chrome to continue.",
   "executionErr_13007": "[Execution Error] Failed to launch Chrome, make sure the Chrome is executable.",
+  "executionErr_13008": "The task is canceled by administrator or the task is automatically canceled because the task has timed out or the task is aborted.",
 
   // refreshTokenException
   "securityErr_10001": "[Security Error] Discovery Client Retrieves discovery document error.",

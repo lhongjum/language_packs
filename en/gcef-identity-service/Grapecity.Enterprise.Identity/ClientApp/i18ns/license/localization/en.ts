@@ -28,6 +28,8 @@ export const en: LanguageKeyValueMap = {
 	CopyContent: 'Copy Content',
 	CopySucceed: 'Copy succeed.',
 	CopyFailed: 'Copy Failed.',
+	gtGenerateQRCode: 'Generate QRCode',
+	gtQRCodeGetOfflineLicenseString: 'Scan the QR code to get the offline authorization text',
 
 	// Common
 	Add: 'Add',
@@ -47,12 +49,15 @@ export const en: LanguageKeyValueMap = {
 	LicenseActiveResultCode_2003: "Exceeds the maximum activation count.",
 	LicenseActiveResultCode_2004: "License is already activated",
 	LicenseActiveResultCode_2005: "Key's version did not match current version.",
-	LicenseActiveResultCode_2006: "Empty Key",
-	LicenseActiveResultCode_2007: "License content is not valid.",
+	LicenseActiveResultCode_2006: "The node count of the key is inconsistent with the deployment method.",
+
 	LicenseActiveResultCode_3000: "Deactivation Failed",
 	LicenseActiveResultCode_3001: "Trial license cannot be deactivated",
 	LicenseActiveResultCode_3002: "Activation info not matched.",
 	LicenseActiveResultCode_3011: "Deactive info not match Token",
 	LicenseActiveResultCode_3012: "Deactive info not match machine",
 	LicenseActiveResultCode_3013: "Deactive info not match computerId",
+
+	LicenseActiveResultCode_12006: "Empty Key",
+	LicenseActiveResultCode_12007: "License content is not valid.",
 }

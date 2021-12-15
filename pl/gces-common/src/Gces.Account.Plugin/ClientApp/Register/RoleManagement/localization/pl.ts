@@ -7,24 +7,34 @@ export const rolePL: LanguageKeyValueMap = {
 	cmMessageBox: 'Wiadomość', // Message
 	cmOK: 'OK', // OK
 
-	otExpandAll: 'Rozwiń wszystko', // Expand All
-	otCollapseAll: 'Zwiń wszystko', // Collapse All
+	otExpandAll: 'Rozwiń Wszystko', // Expand All
+	otCollapseAll: 'Zwiń Wszystko', // Collapse All
 	otOrganizationRoot: 'Ogólny', // Global
-	cmAddRole: 'Dodaj rolę', // Add Role
-	rcDeleteRole: 'Usuń rolę', // Delete Role
+	cmAddRole: 'Dodaj Rolę', // Add Role
+	rcDeleteRole: 'Usuń Rolę', // Delete Role
 	rcDeleteRoleConfirmMessage: 'Czy jesteś pewien, że chcesz usunąć rolę "{{RoleName}}"?', // Are you sure you want to delete the role "{{RoleName}}"?
-	rcRoleName: 'Nazwa roli', // Role Name
-	ecRoleMembers: 'Użytkownicy roli', // Role Members
+	rcRoleName: 'Nazwa Roli', // Role Name
+	ecRoleMembers: 'Użytkownicy Roli', // Role Members
 	ecPermissions: 'Uprawnienia', // Permissions
-	ecSelectMembers: 'Wybierz użytkowników', // Select Members
-	ecUsername: 'Nazwa użytkownika', // Username
+	ecRoleColumn: 'Document List Columns',
+	ecSelectMembers: 'Wybierz Użytkowników', // Select Members
+	ecUsername: 'Nazwa Użytkownika', // Username
 	ecEmail: 'Email', // Email
 	ecProvider: 'Dostawca', // Provider
 	ecMembers: '({{count}} członków)', // ({{count}} members)
-	ecDeleteUser: 'Usuń użytkownika', // Delete User
+	ecDeleteUser: 'Usuń Użytkownika', // Delete User
 	ecDeleteUserConfirmMessage: 'Czy jesteś pewien, że chcesz usunąć użytkownika "{{UserName}}" z roli?', // Are you sure you want to remove the user "{{UserName}}" from the role?
 	ecNoMemberTip: 'Brak użytkowników pod rolą, aby dodać, kliknij', // No users under the role, to add, please click
 
+	dlType: 'Typ', // Type
+	dlUpdateBy: 'Zaktualizowany przez', // Updated By
+	dlUpdated: 'Zaktualizowany', // Updated
+	ColumnName: 'Column Name',
+	ShowInList: 'Show In List',
+	documentListColumnsHint: 'Column settings only affect the document portal.',
+	updateRoleDocumentColumnsError: 'Update failed',
+
+	rmError_003: 'You don\'t have sufficient privileges to do the operation.',
 	rmError_2001: 'Rola "{{name}}" już istnieje.', // Role "{{name}}" already exists.
 	rmError_2004: 'Nie można zaktualizować członków roli "wszyscy".', // Can not update the members of role "everyone".
 	rmError_2005: 'Nie można usunąć członka "admin" z roli "administrator".', // Can not remove the member "admin" from role "administrator".

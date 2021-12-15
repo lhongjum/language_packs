@@ -1,0 +1,13 @@
+{
+  "barcodeUnsupportedSymbology": "Podgląd [{{symbology}}] '{{itemName}}' jest ograniczony podczas pojektowania",
+  "dvchartAxis": {
+    "category": "Kategoria",
+    "value": "Wartość"
+  },
+  "dvchartChartTitle": "Tytuł wykresu",
+  "dvchartDetails": "Szczegóły [{{index}}]",
+  "dvchartColor": "Kolor [{{index}}]",
+  "dvchartShape": "Kształt [{{index}}]",
+  "basicSupportReportItemInfo": "{{itemLabel}} '{{itemName}}' ma ograniczone wsparcie podczas projektowania",
+  "overflowPlaceholder": "Symbol zastępczy przepływu {{overflowedItemName}}"
+}

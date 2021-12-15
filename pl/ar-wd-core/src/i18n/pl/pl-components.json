@@ -1,0 +1,203 @@
+{
+  "dataPanel": {
+    "commonValues": {
+      "currentDateTime": "Aktualna data i czas",
+      "pageNM": "Strona N z M",
+      "pageNMCumulative": "Strona N z M (Łącznie)",
+      "pageNMSection": "Strona N z M (Sekcja)",
+      "pageNofMLabel": "\"Strona \" & {{pageNumber}} & \" z \" & {{totalPages}}",
+      "pageNumber": "Numer strony",
+      "pageNumberCumulative": "Numer strony (Łącznie)",
+      "pageNumberSection": "Numer strony (Sekcja)",
+      "reportFolder": "Folder raportu",
+      "reportName": "Nazwa raportu",
+      "totalPages": "Łącznie stron",
+      "totalPagesCumulative": "W sumie stron (Łącznie)",
+      "totalPagesSection": "W sumie stron (Sekcja)",
+      "userContext": "Kontekst użytkownika",
+      "userId": "ID użytkownika",
+      "userLanguage": "Język użytkownika"
+    },
+    "headingEditParameter": "Edytuj parametr",
+    "headingCommonValues": "Wspólne wartości",
+    "headingModel": "Model",
+    "headingDataSources": "Źródła danych",
+    "textNoDataSources": "Raport nie ma źródeł danych",
+    "headingDataSets": "Zestawy danych",
+    "textNoDataSets": "Raport nie ma zestawu danych",
+    "headingParameters": "Parametry",
+    "semantic": {
+      "textAttributesCount_0": "{{count}} atrybut",
+      "textAttributesCount_1": "{{count}} atrybuty",
+      "textAttributesCount_2": "{{count}} atrybutów",
+      "textRelationsCount_0": "{{count}} relacja",
+      "textRelationsCount_1": "{{count}} relacje",
+      "textRelationsCount_2": "{{count}} relacji",
+      "textNoAttributes": "brak atrybutów",
+      "textNoRelations": "brak relacji"
+    },
+    "dataSets": {
+      "semantic": {
+        "loading": "Ładowanie",
+        "editDataSet": "Edytuj zestaw danych...",
+        "searchPlaceholder": "wprowadź nazwę atrybutu lub relacji tutaj...",
+        "noMatchingAttributesRelationsFound": "Nie znaleziono pasujących atrybutów ani relacji"
+      },
+      "textNoMatchingFieldsFound": "Nie znaleziono pasujących pól",
+      "placeholderEnterFieldName": "wprowadź nazwę pola tutaj"
+    },
+    "textModelVersion": "Version: {{version}}",
+    "textFieldsCount_0": "{{count}} pól",
+    "textFieldsCount_1": "{{count}} pole",
+    "textFieldsCount_2": "{{count}} pola",
+    "textBasedOnDataSource": "opierający się na {{dataSourceName}}",
+    "titleEditDataSet": "Edytuj zestaw danych",
+    "titleSelectFields": "Wybierz pola...",
+    "titleEditDataSource": "Edytuj źródło danych",
+    "titleAddDataSet": "Dodaj zestaw danych",
+    "fieldVariations": {
+      "DateTime": [
+        {
+          "format": "=Year({fieldExpression})",
+          "label": "Year"
+        },
+        {
+          "format": "=Year({fieldExpression}) & \" Q\" & DatePart(\"q\", {fieldExpression})",
+          "label": "Year-Quarter"
+        },
+        {
+          "format": "=Year({fieldExpression}) & \" \" & MonthName(Month({fieldExpression}))",
+          "label": "Year-Month"
+        },
+        {
+          "format": "=Year({fieldExpression}) & \" \" & MonthName(Month({fieldExpression})) & \" \" & Day({fieldExpression})",
+          "label": "Year-Month-Day"
+        },
+        {
+          "format": "=Year({fieldExpression}) & \" W\" & DatePart(\"ww\", {fieldExpression})",
+          "label": "Year-Week"
+        },
+        {
+          "format": "=DatePart(\"q\", {fieldExpression})",
+          "label": "Quarter"
+        },
+        {
+          "format": "=Month({fieldExpression})",
+          "label": "Month"
+        },
+        {
+          "format": "=MonthName(Month({fieldExpression}))",
+          "label": "MonthName"
+        },
+        {
+          "format": "=DatePart(\"ww\", {fieldExpression})",
+          "label": "Week"
+        },
+        {
+          "format": "=Day({fieldExpression})",
+          "label": "Day"
+        },
+        {
+          "format": "=WeekdayName(Weekday({fieldExpression}))",
+          "label": "DayOfWeek"
+        }
+      ]
+    },
+    "textNoParameters": "Raport nie ma parametrów",
+    "titleMoveParameterDown": "W dół",
+    "titleMoveParameterUp": "W górę"
+  },
+  "appBar": {
+    "titleUndo": "Cofnij",
+    "titleRedo": "Powtórz",
+    "titleNew": "New",
+    "titleOpen": "Otwórz",
+    "titleSave": "Zapisz",
+    "btnSaveAs": "Zapisz jako",
+    "btnPreview": "Podgląd",
+    "btnFile": "Plik",
+    "btnHome": "Start",
+    "btnInsert": "Wstaw",
+    "btnParameters": "Parametry",
+    "textUnsavedChanges": "Niezapisane zmiany"
+  },
+  "chartPaletteDropdown": {
+    "headingStandardPalettes": "Standardowe palety",
+    "headingExtraPalettes": "Palety motywów"
+  },
+  "dataFieldPickerDropdown": {
+    "searchPlaceholder": "wprowadź nazwę pola tutaj...",
+    "noMatchingFieldsFound": "Nie znaleziono pasujących pól",
+    "semantic": {
+      "noMatchingAttributesRelationsFound": "Nie znaleziono pasujących elementów",
+      "searchPlaceholder": "wprowadź nazwę elementu tutaj"
+    }
+  },
+  "menu": {
+    "btnClose": "Zamknij",
+    "btnReportExplorer": "Eksplorator",
+    "btnGroupEditor": "Edytor grup",
+    "titlePin": "Pin"
+  },
+  "propertyGrid": {
+    "textReportItems": "<Elementy raportu>",
+    "textMultipleTypes": "<Wiele typów>",
+    "placeholderSearchBox": "wprowadź nazwę właściwości tutaj..."
+  },
+  "statusBar": {
+    "btnShowAdvancedProperties": "Zaawansowane właściwości",
+    "btnShowBasicProperties": "Podstawowe właściwości",
+    "btnPropertiesMode": "Tryb właściwości",
+    "snapSettings": {
+      "labelGridSize": "Rozmiar siatki",
+      "labelSnapToGrid": "Wyrównaj do siatki",
+      "labelSnapToGuides": "Wyrównaj do wskazówek"
+    },
+    "titleGrid": "Siatka"
+  },
+  "notifications": {
+    "btnDismissAll": "Odrzuć wszystko",
+    "btnDismiss": "Odrzuć",
+    "titleExpand": "Rozwiń",
+    "titleCollapse": "Zwiń",
+    "headingError_0": "Błąd",
+    "headingError_1": "Błędy",
+    "headingError_2": "Błędów",
+    "headingWarning_0": "Ostrzeżenie",
+    "headingWarning_1": "Ostrzeżenia",
+    "headingWarning_2": "Ostrzeżeń",
+    "headingNotification_0": "Powiadomienie",
+    "headingNotification_1": "Powiadomienia",
+    "headingNotification_2": "Powiadomień"
+  },
+  "themeEditor": {
+    "labelNone": "<Brak>"
+  },
+  "title": {
+    "textUntitled": "Brak tytułu"
+  },
+  "toolbar": {
+    "home": {
+      "textExpressionCompact": "<𝑓>",
+      "textExpression": "<Expression>",
+      "titleCut": "Wytnij",
+      "titleCopy": "Kopiuj",
+      "titlePaste": "Wklej",
+      "titleDelete": "Usuń",
+      "titleFontFamily": "Rodzina czcionki",
+      "titleFontSize": "Rozmiar czcionki",
+      "titleFontWeight": "Grubość czcionki",
+      "titleFontStyle": "Styl czcionki",
+      "titleTextDecoration": "Podkreślenie",
+      "titleTextColor": "Kolor tekstu",
+      "titleBackgroundColor": "Kolor tła",
+      "titleAlignLeft": "Wyrównaj do lewej",
+      "titleAlignCenter": "Wyrównaj poziomo do środka",
+      "titleAlignRight": "Wyrównaj do prawej",
+      "titleAlignJustify": "Wyjustuj",
+      "titleVerticalAlignTop": "Wyrównaj do góry",
+      "titleVerticalAlignMiddle": "Wyrównaj pionowo do środka",
+      "titleVerticalAlignBottom": "Wyrównaj do dołu"
+    }
+  }
+}

@@ -43,6 +43,12 @@ export const datasetPL = {
 	datasourceUnknown: 'Usunięty', // Deleted
 	Parameters: 'Parametry', // Parameters
 	Validating: 'Weryfikuję ...', // Validating...
+	reloadDCSParamsComment: 'Adapt datasource parameters',
+	reloadDSCParams: 'Adapt Datasource Parameters',
+	reloadDCSParamsSuccess: 'Success to adapt datasource parameters.',
+	reloadDSCParamsMessage: 'The datasource parameters has changed and been adapted, whether to save the document immediately and refresh the COT?',
+	AutoSaveSuccess: 'The dataset was successfully saved automatically',
+	AutoSaveComment: 'Auto save',
 
 	// designer mode modal
 	SelectCreateMode: 'Wybierz tryb towrzenia zestawu danych', // Please select create dataset mode
@@ -50,7 +56,7 @@ export const datasetPL = {
 	SQLDesigner: 'SQL Designer', // SQL Designer
 	Confirmation: 'Potwierdzenie', // Confirmation
 	CloseDatasetDesignerConfirm: 'Czy chcesz opuścić kreator zestawu danych i odrzucić zmiany?', // Do you want to leave dataset designer and discard the changes?
-	ChangeUseCacheConfirm: 'W zestawie danych dashboardu, nieobsługiwane elementy będą odrzucane. Jesteś pewien, że chcesz przełączyć?', // In dashboard dataset, the followings that are not supported will be discarded, Are you sure to switch?
+	ChangeUseCacheConfirm: 'In cached dataset, the followings that are not supported will be discarded, Are you sure to switch?',
 	DeleteFieldConfirm: 'Czy chcesz usunąć to {{fieldType}} pole ({{fieldName}})?', // Do you want to delete this {{fieldType}} Field({{fieldName}})?
 	DeleteAllInvalidField: 'Wyczyść wszystkie nieprawidłowe pola', // Clear all the invalid fields
 	DeleteAllInvalidFieldsConfirm: 'Czy chcesz wyczyścić wszystkie nieprawidłowe pola?', // Do you want to clear all the invalid fields?
@@ -60,12 +66,20 @@ export const datasetPL = {
 	EditDataSetIframeTitle: 'Edytuj zestaw danych', // Edit DataSet
 	CreateDataSourceIframeTitle: 'Utwórz źródło danych', // Create DataSource
 	EditDataSourceIframeTitle: 'Edytuj źródło danych', // Edit DataSource
+	RevisionCheckTitle: 'Update the version of the relevant reports',
+	RefRevisionUpdateWarning: 'To zajmie trochę czasu i istnieje ryzyko, że operacja może spowodować uszkodzenie dokumentu, do którego odnosi się odniesienie.',
+	UpdateFailed: 'Nie udało się zaktualizować wersji zależnej.',
+	UpdateSuccess: 'Uaktualnienie wersji zależnej powiodło się.',
+	DocumentNotFound: 'Obecny dokument nie został znaleziony.',
+	DocumentBeReferencedMessage: 'Do tych dokumentów odnosi się inny dokument.',
+	ReferencedDocuments: 'Dokumenty zaskarżone:',
+
 	// choose dataset type
 	ChooseDatasetTypeTitle: 'Wybierz typ zestawu danych', // Please select dataset type
-	ChooseReportDataset: 'Dla raportu', // For Report
-	ChooseDashboardDataset: 'Dla dashboardu', // For Dashboard
-	IntroduceReport: 'Zestaw danych dla raportu będzie przeliczany za każdym razem, gdy będzie używany.', // The dataset for report will be calculated every time when it is consumed.
-	IntroduceDashboard: 'Zestaw danych dla dashboardu będzie pzeliczany podczas zapisu.', // The dataset for dashboard will be calculated and cached when it is saved.
+	ChooseReportDataset: 'Direct Dataset',
+	ChooseDashboardDataset: 'Cached Dataset',
+	IntroduceReport: 'The direct dataset will be calculated every time when it is consumed.',
+	IntroduceDashboard: 'The cached dataset will be calculated and cached when it is saved.',
 
 	// data type
 	Number: 'Number',
@@ -88,12 +102,12 @@ export const datasetPL = {
 	// Parameters: 'Parametrów', // Parameters
 	Options: 'Opcje', // Options
 	Field: 'Pole', // Field
-	DataType: 'Typ danych', // DataType
+	DataType: 'TypDanych', // DataType
 	Multivalue: 'Multiwartość', // Multivalue
 
 	// relationships tab
-	DataSource: 'Źródło danych', // Data Source
-	DataSources: 'Źródła danych', // Data Sources
+	DataSource: 'Źródło Danych', // Data Source
+	DataSources: 'Źródła Danych', // Data Sources
 	CreateDatasetTip: 'Kliknij "Źródło danych", aby dodać źródło danych', // Click "Data Source" to add data source
 	AddCustomSqlTable: 'Dodaj własną tabelę SQL', // Add Custom SQL Table
 	Preview: 'Podgląd', // Preview
@@ -123,10 +137,10 @@ export const datasetPL = {
 	NameCanNotBeEmpty: 'Nazwa nie może być pusta.', // Name can not be empty.
 	NameAlreadyExist: 'Nazwa {{name}} już istnieje.',  // Name {{name}} already exist.
 	CanNotRemove: '{{datasource}} jest używane i nie może zostać usunięte w tym momencie', // {{datasource}} is being used and cannot be removed at the moment.
-	ConfirmRemoveDataSource: '{{datasource}} is being used in the dataset, are you sure to remove?',
+	ConfirmRemoveDataSource: 'W zbiorze danych używane jest {{datasource}}. Czy na pewno chcesz usunąć?', // {{datasource}} is being used in the dataset, are you sure to remove?
 	CustomTableCanNotRemove: '{{datasource}} jest używane w zestawie danych i nie może zostać usunięte w tym momencie', // {{datasource}} is being used in the dataset and cannot be removed at the moment.
 	CustomTableCanNotEdit: '{{datasource}} jest używane w zestawie danych i nie może zostać zmodyfikowane w tym momencie', // {{datasource}} is being used in the dataset and cannot be modified at the moment.
-	ConfirmEditCustomTable: '{{datasource}} is being used in the dataset, are you sure to edit?',
+	ConfirmEditCustomTable: 'W zbiorze danych używane jest {{datasource}}. Czy na pewno chcesz edytować?', // {{datasource}} is being used in the dataset, are you sure to edit?
 	AddJoinCondition: 'Dodaj warunek JOIN', // Add Join Condition
 	AddUnionCondition: 'Dodaj warunek UNION', // Add Union Condition
 	CustomTables: 'Własne tabele', // Custom Tables
@@ -152,21 +166,21 @@ export const datasetPL = {
 	SQLCommand: 'Zapytanie SQL', // SQL Command
 	SameNameMsg: 'Tabela o nazwie "{{name}}" już istnieje.', // A table named "{{name}}" already exists.
 	UndefinedParameter: 'Sql zawiera niezdefiniowany parametr: {{parameter}}. Kliknij przycisk „Parametry”, aby go wygenerować i skonfigurować.', // The Sql contains undefined parameter: {{parameter}}. Please click the "Parameters" button to generate and configure it.
-	InvalidParameter: 'Sql zawiera nieprawidłowy parametr: {{parametr}}. W przypadku zestawu danych panelu kontrolnego typ parametru powinien być stały w niestandardowej tabeli sql.', // The Sql contains invalid parameter:{{parameter}}. For dashboard dataset, the parameter type should be constant in the custom sql table.
+	InvalidParameter: 'The Sql contains invalid parameter:{{parameter}}. For cached dataset, the parameter type should be constant in the custom sql table.',
 	CaseNotMatchedParameters: 'Sql zawiera niedopasowany parametr: {{parameter}}, wielkość liter musi być odpowiednio dopasowana.', // The Sql contains not matched parameter: {{parameter}}, the case must match sensitively.
 	InvalidSql: 'Błąd SQL, nieprawidłowy parametr {{parameter}}', // Sql Error, invalid parameter: {{parameter}}
 	QueryType: 'Zawartość zapytania', // QueryType
 	QueryType_Text: 'Tekst', // Text
 	QueryType_StoredProcedure: 'Procedura składowana', // Stored procedure
-	QueryType_NativeQuery: 'Zapytanie natywne', // Native Query
+	QueryType_NativeQuery: 'Zapytanie Natywne', // Native Query
 	DeleteCustomSqlTableTitle: 'Usuń własną tabelę SQL', // Delete Custom Sql Table
 	DeleteCustomSqlTableConfirmMsg: 'Usunąć własną tabelę SQL "{{name}}" na zawsze?', // Delete Custom Sql Table "{{name}}" forever?
 
 	Procedures: 'Procedury', // Procedures
-	ProcedureParameterName: 'Nazwa parametru', // Parameter Name
-	ProcedureParameterType: 'Typ danych', // Data Type
-	ProcedureParameterValueType: 'Typ wartości', // Value Type
-	ProcedureParameterDefaultValue: 'Wartość domyślna', // Default Value
+	ProcedureParameterName: 'Nazwa Parametru', // Parameter Name
+	ProcedureParameterType: 'Typ Danych', // Data Type
+	ProcedureParameterValueType: 'Typ Wartości', // Value Type
+	ProcedureParameterDefaultValue: 'Wartość Domyślna', // Default Value
 	InParam: 'Parametr W',
 	ResultSet: 'Zestaw wynikowy', // Result Set
 	CustomTableBindedParameterNotFound: 'Bieżąca niestandardowa tabela Sql jest uszkodzona. Nie znaleziono następujących powiązanych parametrów: {{invalidParametersName}}.', // The current custom Sql table is corrupted, the following bound parameters are not found:
@@ -231,6 +245,7 @@ export const datasetPL = {
 	FieldGroupTitle: 'W tym trybie możesz grupować pola i jednocześnie wykonywać agregacje', // In this mode, you could group some field and do the aggregation same time
 	FieldColumnLabel: 'Pole', // Field
 	FieldDisplayLabel: 'Wyjście', // Output
+	DataVizAIHintsLabel: 'Data Category', // Data Category
 	FieldDatatypeLabel: 'Typ', // Type
 	FieldTargetDataTypeLabel: 'Docelowy typ', // Target Type
 	FieldAliasLabel: 'Alias', // Alias
@@ -238,7 +253,7 @@ export const datasetPL = {
 	FieldExpression: 'Wyrażenie', // Expression
 	ExpressionIsEmptyMsg: 'Wyrażenie nie może być puste', // Expression could not be empty
 	ExpressionContainUndefinedParameter: 'The expression contains undefined parameter: {{parameter}}. Please click the "Parameters" button to generate and configure it.',
-	ExpressionContainInvalidParameter: 'The expression contains invalid parameter: {{parameter}}. For dashboard dataset, the parameter type should be constant in the expression.',
+	ExpressionContainInvalidParameter: 'The expression contains invalid parameter: {{parameter}}. For cached dataset, the parameter type should be constant in the expression.',
 	CustomFieldAliasCanNotBeEmpty: 'Alias własnego pola nie może być pusty', // Custom field \'s alias could not be empty
 	FieldIsReferByOther: 'Nie można zmienić obecnego pola, inne pole odnosi się do niego', // Could not change current field, it is referred by other field
 	NameContainsNonWord: 'Określona nazwa jest nieprawidłowa. Nie używaj ograniczonego znaku "{{word}}', // The specified name is not valid. Please do not use restricted character "{{word}}"
@@ -255,41 +270,49 @@ export const datasetPL = {
 	SearchForFields: 'Szukaj pól', // Search for fields
 	CreateFieldSuccessfully: 'Field \'{{fieldName}}\' created successfully',
 
+	// Dataset Data Viz AI Hint types
+	Currency: 'Waluta',
+	ImageURL: 'Obrazu URL',
+	ImageBinary: 'Obraz Binarny',
+	GeoRegion: 'Geografia (Region)',
+	GeoLatitude: 'Geografia (Szerokość)',
+	GeoLongitude: 'Geografia (Długość geograficzna)',
+
 	// filters tab
 	MoveUp: 'W górę', // Move Up
 	MoveDown: 'W dół', // Move Down
-	ValueType: 'Typ wartości', // Value Type
+	ValueType: 'Typ parametru', // Parameter Type
 	Value: 'Wartość', // Value
 	And: 'Oraz', // And
 	Constant: 'Stała', // Constant
 	AddFilter: 'Dodaj filtr', // Add Filter
 	URIParameters: 'Parametr URI', // URI Parameter
 	FieldType: 'Typ pola', // Field Type
-	StartsWith: 'Rozpoczyna się od', // StartsWith
-	NotStartsWith: 'Nie rozpoczyna się od', // NotStartsWith
-	EndsWith: 'Kończy się', // EndsWith
-	NotEndsWith: 'Nie kończy się', // NotEndsWith
+	StartsWith: 'RozpoczynaSięOd', // StartsWith
+	NotStartsWith: 'NieRozpoczynaSięOd', // NotStartsWith
+	EndsWith: 'KończySię', // EndsWith
+	NotEndsWith: 'NieKończySię', // NotEndsWith
 	Contains: 'Zawiera', // Contains
-	NotContains: 'Nie zawiera', // NotContains
+	NotContains: 'NieZawiera', // NotContains
 	Is: 'Jest', // Is
-	NotIs: 'Nie jest', // NotIs
+	NotIs: 'NieJest', // NotIs
 	In: 'W', // In
-	NotIn: 'Nie w', // NotIn
+	NotIn: 'NieW', // NotIn
 	Between: 'Pomiędzy', // Between
 	tableFilter: 'Tabele', // Tables
 	andFilter: 'Oraz', // And
 	orFilter: 'Lub', // Or
 	addRule: 'Dodaj regułę', // Add rule
 	addGroup: 'Dodaj grupę', // Add group
-	UserContextParameter: 'Parametr kontekstu użytkownika', // User Context Parameter
-	OrganizationContextParameter: 'Parametr kontekstu organizacji', // Organization Context Parameter
-	ConstantParameter: 'Stały parametr', // Constant Parameter
+	UserContextParameter: 'Parametr Kontekstu Użytkownika', // User Context Parameter
+	OrganizationContextParameter: 'Parametr Kontekstu Organizacji', // Organization Context Parameter
+	ConstantParameter: 'Stały Parametr', // Constant Parameter
 
 	// parameters tab
 	ConnectDbType: 'Podłącz typ bazy danych', // Connect Database Type
 	ConnectMode: 'Typ bazy danych:', // Dataset Type:
-	DirectConnection: 'Dla raportu', // For Report
-	UseCache: 'Dla dashboardu', // For Dashboard
+	DirectConnection: 'Direct Dataset',
+	UseCache: 'Cached Dataset',
 	Parameter: 'Parametr', // Parameter
 	DataModelParameter: 'Parametr', // Parameter
 	DatasourceParameter: 'Parametr źródła danych', // Datasource Parameter
@@ -297,12 +320,12 @@ export const datasetPL = {
 	DefaultValue: 'Domyślna wartość', // DefaultValue
 	UserContext: 'Kontekst użytkownika', // User Context
 	OrganizationContext: 'Dane preferencji organizacji', // Organization Context
-	Source: 'Źródło danych', // Data Source
+	Source: 'źródło danych', // Data Source
 	SetPreviewValue: 'Ustaw parametr podglądu', // Set Preview Parameter
 	ParameterType: 'Typ parametru', // Parameter Type
 	UserInput: 'Dane wejściowe użytkownika', // User Input
-	UseCacheTip: 'Zestaw danych dla dashboardu będzie przeliczany i cache\'owany przy zapisie', // The dataset for dashboard will be calculated and cached when it is saved.
-	DirectConnectionTip: 'Zestaw danych dla raportu będzie przeliczany za każdym razem, gdy będzie używany.', // The dataset for report will be calculated every time when it is consumed.
+	UseCacheTip: 'The cached dataset will be calculated and cached when it is saved.',
+	DirectConnectionTip: 'The direct dataset will be calculated every time when it is consumed.',
 	AddParameter: 'Dodaj parametr', // Add Parameter
 	CanNotSaveAlertAboutUseCache: 'Nie można używać trybu \'$t(UseCache)\', gdy zestaw danych ma parametr typu \'$t(UserInput)\'.', // Can not use \'$t(UseCache)\' mode when dataset has \'$t(UserInput)\' type parameter.
 	InvalidParameterNameError: 'nazwa parametru może zawierać tylko litery, liczby oraz _. Pierwszy znak nie może być liczbą, a długość powinna znajdować się w przedziale 1-32.', // Parameter name can only contains letter, number and _, the first character can not be a number, and the length should be between 1-32.
@@ -331,7 +354,7 @@ export const datasetPL = {
 	ConnectSuccess: 'Poprawnie połączono', // Connect successfully.
 	Create: 'Utwórz', // Create
 	EditDatasource: 'Edytuj źródło danych', // Edit Data Source
-	ReconfigDatasource: 'Konfiguruj źródło danych', // Reconfigure Data Source
+	ReconfigDatasource: 'Konfiguruj Źródło Danych', // Reconfigure Data Source
 	Update: 'Zaktualizuj', // Update
 	Local: 'Lokalnie', // Local
 	Embed: 'Osadź', // Embed
@@ -340,10 +363,10 @@ export const datasetPL = {
 	Name: 'Nazwa', // Name
 	User: 'Użytkownik', // User
 	SecurityToken: 'Token zabezpieczeń', // Security Token
-	CacheExpiration: 'Wygaśnięcie cache', // Cache Expiration
-	CacheExpirationMode: 'Tryb wygaśnięcia cache', // Cache Expiration Mode
+	CacheExpiration: 'Wygaśnięcie Cache', // Cache Expiration
+	CacheExpirationMode: 'Tryb wygaśnięcia Cache', // Cache Expiration Mode
 	Password: 'Hasło', // Password
-	FilePassword: 'Hasło pliku', // FilePassword
+	FilePassword: 'Hasło Pliku', // FilePassword
 	Server: 'Serwer', // Server
 	Host: 'Host', // Host
 	Port: 'Port', // Port
@@ -352,7 +375,7 @@ export const datasetPL = {
 	Database: 'Baza danych', // Database
 	Service_Name: 'Nazwa usługi', // Service Name
 	Encrypt: 'Szyfruj', // Encrypt
-	SIP: 'Zasady wnioskowania schematu', // Schema Infer Policy
+	SIP: 'Zasady wnioskowania Schematu', // Schema Infer Policy
 	AllowHiddenSheets: 'Załaduj ukryte arkusze', // Load Hidden Sheets
 	AllowDBNull: 'Skonwertuj puste komórki na DBNull', // Convert empty cell to DBNull
 	UseAuth: 'Użyj autentykacji', // Use Auth
@@ -400,7 +423,7 @@ export const datasetPL = {
 	OAuth2: 'OAuth2', // OAuth2
 	Basic: 'Podstawowe', // Basic
 	None: 'Brak', // None
-	ExtractingData: 'Pozyskiwanie danych', // ExtractingData
+	ExtractingData: 'PozyskiwanieDanych', // ExtractingData
 	ExtractingDataMsg: 'Pozyskiwanie danych z pliku do bazy danych', // Extracting file data to database
 	DataExtractionFailed: 'Nie udało się pozyskać danych', // Data extraction failed
 	DataSourceCategory_All: 'Wszystko', // All
@@ -417,7 +440,7 @@ export const datasetPL = {
 	next: 'Następny', // Next
 	back: 'Poprzedni', // Previous
 	cancel: 'Anuluj', // Cancel
-	workSheet: 'Arkusz roboczy', // WorkSheet
+	workSheet: 'Arkusz Roboczy', // WorkSheet
 	renameWorkSheet: 'Nazwa nowego arkusza', // New Sheet Name
 	renameColumnName: 'Zmień nazwę', // Rename
 	textType: 'Tekst', // Text
@@ -435,10 +458,10 @@ export const datasetPL = {
 
 	// Document List
 	dlDatasetType: 'Typ zestawu danych', // Dataset Type
-	dlDashboardDataset: 'Dla dashboardu', // For Dashboard
-	dlReportDataset: 'Dla raportu', // For Report
+	dlDashboardDataset: 'Cached Dataset',
+	dlReportDataset: 'Direct Dataset',
 	dlDataProvider: 'Dostawca danych', // Data Provider
-	dlDataSource: 'Źródło danych', // Data Source
+	dlDataSource: 'Źródło Danych', // Data Source
 
 	// Errors
 	err_10008: 'Pole obliczeniowe "{calculatedField}" odnosi się do nieokreślonego pola "{referredField}".', // Calculated field "{calculatedField}" is referencing an undefined field "{referredField}".
@@ -451,9 +474,9 @@ export const datasetPL = {
 	err_10015: 'Filtr "{filter}" odnosi się do nieokreślonego parametru "{referredParameter}".', // Filter "{filter}" is referencing an undefined parameter "{referredParameter}".
 	err_10016: 'Wystąpił błąd podczas działania: {message}', // Runtime error occurred: {message}
 	err_10017: 'Filtrowanie z użycium operatora BETWEEN wymaga dwóch parametrów.', // Filter with BETWEEN operator requires 2 parameters.
-	err_10018: 'W trybie \'For Dashboard\' CustomSql nie może odnosić się do parametru "{referredParameter}" kontekstu użytkownika.', // In \'For Dashboard\' mode,CustomSql cannot reference a User Context parameter "{referredParameter}".
-	err_10019: 'W trybie \'For Dashboard\' pole obliczeniowe "{calculatedField}" nie może odnosić się do parametru "{referredParameter}" kontekstu użytkownika.', // In \'For Dashboard\' mode,Calculated field "{calculatedField}" cannot reference a User Context parameter "{referredParameter}".
-	err_10020: 'W trybie \'For Dashboard\' wyrażenie SQL "{sqlExpression}" do tabeli "{table}" nie może odnosić się do parametru "{referredParameter}" kontekstu użytkownika.', // In \'For Dashboard\' mode,Sql expression "{sqlExpression}" on table "{table}" can\'t reference an User Context parameter "{referredParameter}".
+	err_10018: 'In \'Cached Dataset\' mode,CustomSql cannot reference a User Context parameter "{referredParameter}".',
+	err_10019: 'In \'Cached Dataset\' mode,Calculated field "{calculatedField}" cannot reference a User Context parameter "{referredParameter}".',
+	err_10020: 'In \'Cached Dataset\' mode,Sql expression "{sqlExpression}" on table "{table}" can\'t reference an User Context parameter "{referredParameter}".',
 	err_10021: 'Przekroczono maksymalny limit kolumn. Wartość limitu: 512.\nAktualna liczba: {currentCount}.', // Exceeded max column\'s count, limit count: 512.\nCurrent count: {currentCount}.
 	err_10022: 'Pole obliczeniowe "{calculatedField}" nie może odnosić się do samego siebie', // Calculated field "{calculatedField}" cannot reference itself.
 	err_10023: 'Pole obliczeniowe zawiera odwołanie cykliczne', // Calculated field contains cycle reference.
@@ -465,7 +488,7 @@ export const datasetPL = {
 	err_10029: 'Filtr "W" nie może zawierać pustej grupy oraz/lub.', // In filter cannot contain empty and/or group.
 	err_10030: 'The model fields duplicated',
 	err_10034: 'Wyrażenie SQL odnosi się do niezdefiniowanego parametru "{{referredParameter}}".', // Sql expression is referencing an undefined parameter "{{referredParameter}}".
-	err_10035: 'W trybie \'Dla dashboardu\' wyrażenie Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".', // In \'For Dashboard\' mode,Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".
+	err_10035: 'In \'Cached Dataset\' mode,Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".',
 	err_10036: 'Następujące powiązane parametry nie zostały znalezione w niestandardowej tabeli SQL: "{{referredParameters}}".', // The following bound parameters are not found in custom Sql table: "{{referredParameters}}".
 	err_10037: '{{option}} option cannot be empty.',
 
@@ -482,10 +505,11 @@ export const datasetPL = {
 	err_20003: 'Nie udało się wyodrębnić źródła danych.', // Datasource extraction failed.
 	err_20004: 'Nie masz uprawnień, aby zaktualizować źródło danych.', // You don\'t have permission to update datasource.
 	err_20005: 'Dokument źródła danych nie został znaleziony.', // Datasource document not found.
-	err_20006: 'Nieprawidłowe ID dokumentu źródła danych.', // Invalid datasource document id
+	err_20006: 'Nie znaleziono dokumentu.', // Document not found.
 	err_20007: 'Nie można dołączyć danych do nielokalnego pliku źródła danych.', // Unable to append data onto non-local-file datasource.
 	err_20008: 'Nie znaleziono prawidłowej definicji schematu w parametrach połączenia źródeł danych.', // No valid schema definition found in datasource connection string.
 	err_20009: 'Błąd parametru: Nie udało się powiązać {{parameterName}}', // Parameter error: Failed to bind {{parameterName}}
+	err_21001: 'Nieprawidłowe ID dokumentu źródła danych.', // Invalid datasource document id
 
 	err_100001: 'Nieprawidłowy parametr: {name}.', // Invalid parameter: {name}.
 	err_100002: 'Błąd wewnętrzny serwera: {message}.', // Internal server error: {message}.
@@ -525,7 +549,7 @@ export const datasetPL = {
 	// data source append data
 	AppendData: 'Dołącz dane', // Append Data
 	AppendSource: 'Źródło', // Source
-	AppendImport: 'Import', // Import
+	AppendImport: 'Dodać', // Import
 	AppendDataSuccess: 'Dołączanie danych powiodło się', // Append Data Success
 
 	// fields format
@@ -566,9 +590,11 @@ export const datasetPL = {
 	'DataSourceDisplayName!TimeScale': 'TimeScale',
 	'DataSourceDisplayName!GreenPlum': 'GreenPlum',
 	'DataSourceDisplayName!TiDB': 'TiDB',
-	'DataSourceDisplayName!ALIAnalyticDBMySql': 'ALIAnalyticDBMySql',
+	'DataSourceDisplayName!ALIAnalyticDBMySql': 'AnalyticDB(MySQL)',
 	'DataSourceDisplayName!Kingbase': 'Kingbase',
 	'DataSourceDisplayName!Hana': 'Hana',
+	'DataSourceDisplayName!BigQuery': 'BigQuery',
+	'DataSourceDisplayName!Db2': 'DB2',
 
 	// keys used in descriptors
 	'UID': 'Użytkownik', // User
@@ -576,6 +602,12 @@ export const datasetPL = {
 	'User ID': 'Użytkownik', // User,
 	'Server:Port(e.g. localhost:39013))': 'Serwer:Port(e.g. localhost:39013))', // Server:Port(e.g. localhost:39013))
 	'ALIAnalyticDBMySql': 'AnalyticDB for MySQL',
+	'ProjectId': 'Project Id',
+	'OAuthPvtKeyPath': 'Key Path',
+	'OAuthAccessToken': 'Access Token',
+	'OAuthRefreshToken': 'Refresh Token',
+	'BigQuery-OAuthClientId': 'Client Id',
+	'BigQuery-OAuthClientSecret': 'Client Secret',
 
 	// dataset manager error message
 	'err_3000': 'Obliczenie nie powiodło się z powodu wyjątków lub obliczenia zostały anulowane przez administratora.', // The calculation failed due to exceptions or the calculation was canceled by administrator.
