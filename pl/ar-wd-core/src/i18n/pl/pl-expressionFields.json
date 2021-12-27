@@ -1341,10 +1341,10 @@
   "multipleValues": {
     "info": {
       "current": {
-        "description": "This variable will be replaced with the current value of the expression for each of the multiple values when saved.",
+        "description": "Ta zmienna zostanie zastąpiona bieżącą wartością wyrażenia dla każdej z wielu wartości podczas zapisywania.",
         "example": "=Sum($$)",
         "example_i11n": "{Sum($$$)}",
-        "label": "Current Value of Expression"
+        "label": "Aktualna wartość wyrażenia"
       }
     },
     "titles": {

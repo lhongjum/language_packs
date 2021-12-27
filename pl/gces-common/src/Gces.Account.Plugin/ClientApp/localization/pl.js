@@ -59,15 +59,15 @@ export const accountPL = {
 	gtRevokeTokenConfirmMessage: "Czy chcesz unieważnić token '{{title}}'?", // o you want to revoke token '{{title}}'?
 	gtCopyUrl: 'Kopiuj link', // Copy URL
 	// gtCopyOfflineLicenseString: 'Skopiuj ciąg licencji offline', // Copy Offline license string
-	gtCopyOfflineLicenseString: 'Copy string',
-	gtGenerateQRCode: 'Generate QR code',
-	gtQRCodeGetOfflineLicenseString: 'Scan the QR code to get the offline authorization text',
+	gtCopyOfflineLicenseString: 'Skopiuj ciąg', // Copy string
+	gtGenerateQRCode: 'Wygeneruj kod QR', // Generate QR code
+	gtQRCodeGetOfflineLicenseString: 'Zeskanuj kod QR, aby uzyskać tekst autoryzacji offline', // Scan the QR code to get the offline authorization text
 	gtExpiryTime: 'Czas wygaśnięcia', // Expiry Time
 	error_100001: 'Niepoprawny parametr: {{name}}', // Invalid parameter: {{name}}
 	error_100002: 'Nieznany błąd: {{message}}', // Unknown error: {{message}}
 	error_100003: 'Nie znaleziono tokena integracji {{id}}', // Integration token not found {{id}}
 	error_100004: 'Błąd unieważnienia tokena: {{message}}', // Revoke token error: {{message}}
-	error_100005: 'Please confirm that the "Portal URI" in "UI Settings" is already provided before you generate the Integration URL.', // Please confirm that the "Portal URI" in "UI Settings" is already provided before you generate the Integration URL.
+	error_100005: 'Przed wygenerowaniem adresu URL integracji upewnij się, że „Portal URI” w „Ustawieniach interfejsu użytkownika” jest już podany.', // Please confirm that the "Portal URI" in "UI Settings" is already provided before you generate the Integration URL.
 	error_100006: 'Żądanie uwierzytelnienia nie powiodło się dla identyfikatora URI portalu „{{url}}”. Nie udało się zażądać roszczeń użytkowników.', // Request authentication failed on Portal URI "{{url}}". Could not request user claims.
 	gtExpireTimeInvalid: 'Czas wygaśnięcia jest nieprawidłowy', // The expiry time is invalid
 	gtExpireTimeLessThanNow: 'Czas wygaśnięcia nie może być wcześniejszy od lub równy aktualnemu czasowi', // The expiry time cannot be less than or equal current time
@@ -77,7 +77,7 @@ export const accountPL = {
 
 	// Customize properties
 	AddProperty: 'Dodaj atrybut', // Add Property
-	EditProperty: 'Eydtuj atrybut', // Edit Property
+	EditProperty: 'Edytuj atrybut', // Edit Property
 	DeleteProperty: 'Usuń atrybut', // Delete Property
 	PropertyName: 'Nazwa atrybutu', // Property Name
 	AvailableValues: 'Dostępne wartości', // Available Values
@@ -107,16 +107,16 @@ export const accountPL = {
 
 	// License
 	RegistrationDate: 'Data rejestracji', // Registration Date
-	LicenseKey: 'KluczLicencji', // LicenseKey
-	ServerGeneratedInfo: 'Informacje Wygenerowane Przez Serwer', // ServerGeneratedInfo
-	ExpiryDate: 'Data Wygaśnięcia', // Expiry Date
-	LicenseInfo: 'Informacja o Licencji', // License Info
+	LicenseKey: 'Klucz licencji', // LicenseKey
+	ServerGeneratedInfo: 'Informacje wygenerowane przez serwer', // ServerGeneratedInfo
+	ExpiryDate: 'Data wygaśnięcia', // Expiry Date
+	LicenseInfo: 'Informacja o licencji', // License Info
 	Register: 'Zarejestruj', // Register
 	Deregister: 'Wyrejestruj', // Deregister
 	Refresh: 'Odśwież', // Refresh
-	ForceOfflineRegister: 'Rejestracja Offline', // Offline Register
-	ForceOfflineDeregister: 'Wyrejestrowanie Offline', // Offline Deregister
-	ForceOfflineRefresh: 'Odświeżenie Offline', // Offline Refresh
+	ForceOfflineRegister: 'Rejestracja offline', // Offline Register
+	ForceOfflineDeregister: 'Wyrejestrowanie offline', // Offline Deregister
+	ForceOfflineRefresh: 'Odświeżenie offline', // Offline Refresh
 	Summary: 'Podsumowanie', // Summary
 	DeregisterConfirm: 'Potwierdź wyrejestrowanie licencji', // Confirm Licence Deregister
 	DeregisterConfirmMessage: 'Czy jesteś pewien, że chcesz wyrejestrować licencję "{{license}}"?', // Are you sure you want to deregister license "{{license}}"?
@@ -160,7 +160,7 @@ export const accountPL = {
 	NoLicenseTipTrialInfoSuffix: 'aby aktywować pełną licencję', // to activate a full license.
 	CouldNotRegisterTip: 'Klucz licencji jest już zarejestrowany. Wyrejestruj istniejący klucz, aby zarejestrować nowy.', // Licence key is already registered. Please deregister the existing key to register a new key
 	KeyType: 'Typ klucza', // Key Type
-	ServerCount: 'Server Count',
+	ServerCount: 'Licznik serwera', // Server Count
 	KeyTypeTrial: 'Próbny', // Trial
 	KeyTypePerpetual: 'Wieczny', // Perpetual
 	KeyTypeAnnual: 'Roczny', // Annual
@@ -212,7 +212,7 @@ export const accountPL = {
 
 	EnableExternalLoginProviderExplainText: 'Aby włączyć zewnętrznego dostawcę logowania, musisz poprawnie wypełnić obowiązkowe pozycje ustawień (gwiazdką), a następnie możesz zsynchronizować dane od zewnętrznego dostawcy logowania i włączyć inne funkcje (takie jak logowanie jednokrotne, skanowanie kodu QR logowanie i automatyczna synchronizacja danych.', // To enable the external login provider, you need to fill in the mandatory setting items(With an asterisk) correctly, then you can synchronize the data from the external login provider and enable the other functions(such as single sign-on, scan QR code login and automatic data synchronization.
 	DataSyncingExplainText: 'Funkcja synchronizacji danych zsynchronizuje wszystkie autoryzowane organizacje, role i użytkowników w zewnętrznym dostawcy logowania do Wyn, oryginalne dane zostaną nadpisane, a niektóre znaki specjalne („/”, „\\”, „<”, „>” i „$”) w nazwie organizacji i nazwa roli zostaną usunięte po zsynchronizowaniu danych.', // The data syncing function will synchronize all the authorized organizations, roles and users in the external login provider to Wyn, the original data will be overwritten and some special characters('/', '\\', '<', '>' and '$') in the organization name and the role name will be removed after the data synchronized.
-	DataSyncingFailsExplainText: 'Notes: The data syncing will fail if there are duplicated role names, or duplicated organization names at the same level of the organization structure. The duplicate user names will be formatted to something like "username[userid]".',
+	DataSyncingFailsExplainText: 'Uwagi: synchronizacja danych nie powiedzie się, jeśli istnieją zduplikowane nazwy ról lub zduplikowane nazwy organizacji na tym samym poziomie struktury organizacji. Zduplikowane nazwy użytkowników zostaną sformatowane w stylu „nazwa użytkownika[userid]”.', // Notes: The data syncing will fail if there are duplicated role names, or duplicated organization names at the same level of the organization structure. The duplicate user names will be formatted to something like "username[userid]".
 
 	SyncData: 'Synchronizuj dane', // Sync Data
 	SyncingData: 'Synchronizuję dane...', // Syncing Data...
@@ -237,37 +237,37 @@ export const accountPL = {
 	CustomParam: 'Parametr niestandardowy', // Custom Parameter
 	CustomParamDescribe: 'Parametr niestandardowy składa się z kilku par klucz-wartość, jednej pary klucz-wartość na wiersz oraz podziału klucza i wartości przez ":".', // The custom parameter is made up of some key-value pairs, one key-value pair per line, and the key and value split by ":".
 
-	'setting_item_name!ad security provider!server url': 'Server URL',
-	'setting_item_desc!ad security provider!server url': 'Server URL',
-	'setting_item_name!ad security provider!admin user': 'Admin User',
-	'setting_item_desc!ad security provider!admin user': 'Admin User',
-	'setting_item_name!ad security provider!admin password': 'Admin Password',
-	'setting_item_desc!ad security provider!admin password': 'Admin Password',
-	'setting_item_name!ad security provider!admin groups': 'Admin Groups',
-	'setting_item_desc!ad security provider!admin groups': 'Admin Groups',
-	'setting_item_name!ad security provider!use ssl/tls': 'Use SSL/TLS',
-	'setting_item_desc!ad security provider!use ssl/tls': 'Use SSL/TLS',
-	'setting_item_name!ad security provider!user context': 'User Context',
-	'setting_item_desc!ad security provider!user context': 'User Context',
+	'setting_item_name!ad security provider!server url': 'Serwer URL', // Server URL
+	'setting_item_desc!ad security provider!server url': 'Serwer URL', // Server URL
+	'setting_item_name!ad security provider!admin user': 'Administrator', // Admin user
+	'setting_item_desc!ad security provider!admin user': 'Administrator', // Admin user
+	'setting_item_name!ad security provider!admin password': 'Hasło administratora', // Admin Password
+	'setting_item_desc!ad security provider!admin password': 'Hasło administratora', // Admin Password
+	'setting_item_name!ad security provider!admin groups': 'Grupy administracyjne', // Admin Groups
+	'setting_item_desc!ad security provider!admin groups': 'Grupy administracyjne', // Admin Groups
+	'setting_item_name!ad security provider!use ssl/tls': 'Użyj SSL/TLS', // Use SSL/TLS
+	'setting_item_desc!ad security provider!use ssl/tls': 'Użyj SSL/TLS', // Use SSL/TLS
+	'setting_item_name!ad security provider!user context': 'Kontekst użytkownika', // User Context
+	'setting_item_desc!ad security provider!user context': 'Kontekst użytkownika', // User Context
 
-	'setting_item_name!open ldap security provider!server url': 'Server URL',
-	'setting_item_desc!open ldap security provider!server url': 'Server URL',
-	'setting_item_desc!open ldap security provider!admin user': 'Admin User',
-	'setting_item_name!open ldap security provider!admin user': 'Admin User',
-	'setting_item_desc!open ldap security provider!admin password': 'Admin Password',
-	'setting_item_name!open ldap security provider!admin password': 'Admin Password',
-	'setting_item_desc!open ldap security provider!admin groups': 'Admin Groups',
-	'setting_item_name!open ldap security provider!admin groups': 'Admin Groups',
-	'setting_item_desc!open ldap security provider!user name': 'User Name',
-	'setting_item_name!open ldap security provider!user name': 'User Name',
-	'setting_item_desc!open ldap security provider!user display name': 'User Display Name',
-	'setting_item_name!open ldap security provider!user display name': 'User Display Name',
-	'setting_item_desc!open ldap security provider!use member chain rule group search': 'Use member chain rule group search',
-	'setting_item_name!open ldap security provider!use member chain rule group search': 'Use member chain rule group search',
-	'setting_item_desc!open ldap security provider!use ssl/tls': 'Use SSL/TLS',
-	'setting_item_name!open ldap security provider!use ssl/tls': 'Use SSL/TLS',
-	'setting_item_desc!open ldap security provider!user context': 'User Context',
-	'setting_item_name!open ldap security provider!user context': 'User Context',
+	'setting_item_name!open ldap security provider!server url': 'Serwer URL', // Server URL
+	'setting_item_desc!open ldap security provider!server url': 'Serwer URL', // Server URL
+	'setting_item_desc!open ldap security provider!admin user': 'Administrator', // Admin user
+	'setting_item_name!open ldap security provider!admin user': 'Administrator', // Admin user
+	'setting_item_desc!open ldap security provider!admin password': 'Hasło administratora', // Admin Password
+	'setting_item_name!open ldap security provider!admin password': 'Hasło administratora', // Admin Password
+	'setting_item_desc!open ldap security provider!admin groups': 'Grupy administracyjne', // Admin Groups
+	'setting_item_name!open ldap security provider!admin groups': 'Grupy administracyjne', // Admin Groups
+	'setting_item_desc!open ldap security provider!user name': 'Nazwa użytkownika', // User Name
+	'setting_item_name!open ldap security provider!user name': 'Nazwa użytkownika', // User Name
+	'setting_item_desc!open ldap security provider!user display name': 'Wyświetlana nazwa użytkownika', // User Display Name
+	'setting_item_name!open ldap security provider!user display name': 'Wyświetlana nazwa użytkownika', // User Display Name
+	'setting_item_desc!open ldap security provider!use member chain rule group search': 'Użyj wyszukiwania grup reguł łańcucha członków', // Use member chain rule group search
+	'setting_item_name!open ldap security provider!use member chain rule group search': 'Użyj wyszukiwania grup reguł łańcucha członków', // Use member chain rule group search
+	'setting_item_desc!open ldap security provider!use ssl/tls': 'Użyj SSL/TLS', // Use SSL/TLS
+	'setting_item_name!open ldap security provider!use ssl/tls': 'Użyj SSL/TLS', // Use SSL/TLS
+	'setting_item_desc!open ldap security provider!user context': 'Kontekst użytkownika', // User Context
+	'setting_item_name!open ldap security provider!user context': 'Kontekst użytkownika', // User Context
 
 	'setting_item_name!dingtalk!corpid': 'CorpId',
 	'setting_item_desc!dingtalk!corpid': 'CorpId',
@@ -277,20 +277,20 @@ export const accountPL = {
 	'setting_item_desc!dingtalk!appsecret': 'AppSecret',
 	'setting_item_name!dingtalk!agentid': 'AgentId',
 	'setting_item_desc!dingtalk!agentid': 'AgentId',
-	'setting_item_name!dingtalk!maxconcurrentrequests': 'Max Concurrent Requests',
-	'setting_item_desc!dingtalk!maxconcurrentrequests': 'Allowed max number of the concurrent requests when syncing data',
+	'setting_item_name!dingtalk!maxconcurrentrequests': 'Maksymalna liczba jednoczesnych żądań', // Max Concurrent Requests
+	'setting_item_desc!dingtalk!maxconcurrentrequests': 'Dozwolona maksymalna liczba jednoczesnych żądań podczas synchronizacji danych', // Allowed max number of the concurrent requests when syncing data
 	'setting_item_name!dingtalk!qrcodeappid': 'ScanCodeAppId',
-	'setting_item_desc!dingtalk!qrcodeappid': 'The id of the scanning code login application',
+	'setting_item_desc!dingtalk!qrcodeappid': 'Identyfikator aplikacji do logowania kodu skanującego', // The id of the scanning code login application
 	'setting_item_name!dingtalk!qrcodeappsecret': 'ScanCodeAppSecret',
-	'setting_item_desc!dingtalk!qrcodeappsecret': 'The secret of the scanning code login application',
+	'setting_item_desc!dingtalk!qrcodeappsecret': 'Sekret aplikacji do logowania kodu skanującego', // The secret of the scanning code login application
 	'setting_item_name!dingtalk!enableqrcodelogin': 'EnableScanCodeLogin',
-	'setting_item_desc!dingtalk!enableqrcodelogin': 'Enable logging in by scanning QR code',
+	'setting_item_desc!dingtalk!enableqrcodelogin': 'Włącz logowanie poprzez zeskanowanie kodu QR', // Enable logging in by scanning QR code
 	'setting_item_name!dingtalk!enablesendingmessage': 'EnableSendingMessage',
-	'setting_item_desc!dingtalk!enablesendingmessage': 'Enable sending messages to DingDing',
+	'setting_item_desc!dingtalk!enablesendingmessage': 'Włącz wysyłanie wiadomości do DingDing', // Enable sending messages to DingDing
 	'setting_item_name!dingtalk!enableautomaticsynchronization': 'EnableAutomaticSynchronization',
-	'setting_item_desc!dingtalk!enableautomaticsynchronization': 'Enable automatically synchronize the data of DingDing',
+	'setting_item_desc!dingtalk!enableautomaticsynchronization': 'Włącz automatyczną synchronizację danych DingDing', // Enable automatically synchronize the data of DingDing
 	'setting_item_name!dingtalk!automaticsynchronizationinterval': 'AutomaticSynchronizationInterval',
-	'setting_item_desc!dingtalk!automaticsynchronizationinterval': 'The interval of the automatic data synchronization, in hours, the valid minimum value is 1 hour',
+	'setting_item_desc!dingtalk!automaticsynchronizationinterval': 'Interwał automatycznej synchronizacji danych, w godzinach, prawidłowa wartość minimalna to 1 godzina', // The interval of the automatic data synchronization, in hours, the valid minimum value is 1 hour
 
 	'setting_item_name!wechat4work!corpid': 'CorpId',
 	'setting_item_desc!wechat4work!corpid': 'CorpId',
@@ -298,21 +298,21 @@ export const accountPL = {
 	'setting_item_desc!wechat4work!secret': 'Secret',
 	'setting_item_name!wechat4work!agentid': 'AgentId',
 	'setting_item_desc!wechat4work!agentid': 'AgentId',
-	'setting_item_name!wechat4work!maxconcurrentrequests': 'Max Concurrent Requests',
-	'setting_item_desc!wechat4work!maxconcurrentrequests': 'Allowed max number of the concurrent requests when syncing data',
+	'setting_item_name!wechat4work!maxconcurrentrequests': 'Maksymalna liczba jednoczesnych żądań', // Max Concurrent Requests
+	'setting_item_desc!wechat4work!maxconcurrentrequests': 'Dozwolona maksymalna liczba jednoczesnych żądań podczas synchronizacji danych', // Allowed max number of the concurrent requests when syncing data
 	'setting_item_name!wechat4work!enableqrcodelogin': 'EnableScanCodeLogin',
-	'setting_item_desc!wechat4work!enableqrcodelogin': 'Enable logging in by scanning QR code',
+	'setting_item_desc!wechat4work!enableqrcodelogin': 'Włącz logowanie poprzez zeskanowanie kodu QR', // Enable logging in by scanning QR code
 	'setting_item_name!wechat4work!enablesendingmessage': 'EnableSendingMessage',
-	'setting_item_desc!wechat4work!enablesendingmessage': 'Enable sending messages to Enterprise WeChat',
+	'setting_item_desc!wechat4work!enablesendingmessage': 'Włącz wysyłanie wiadomości do Enterprise WeChat', // Enable sending messages to Enterprise WeChat
 	'setting_item_name!wechat4work!enableautomaticsynchronization': 'EnableAutomaticSynchronization',
-	'setting_item_desc!wechat4work!enableautomaticsynchronization': 'Enable automatically synchronize the data of Enterprise WeChat',
+	'setting_item_desc!wechat4work!enableautomaticsynchronization': 'Włącz automatyczną synchronizację danych Enterprise WeChat', // Enable automatically synchronize the data of Enterprise WeChat
 	'setting_item_name!wechat4work!automaticsynchronizationinterval': 'AutomaticSynchronizationInterval',
-	'setting_item_desc!wechat4work!automaticsynchronizationinterval': 'The interval of the automatic data synchronization, in hours, the valid minimum value is 1 hour',
+	'setting_item_desc!wechat4work!automaticsynchronizationinterval': 'Interwał automatycznej synchronizacji danych, w godzinach, prawidłowa wartość minimalna to 1 godzina', // The interval of the automatic data synchronization, in hours, the valid minimum value is 1 hour
 
 	// Security Settings
 	EnableStrongPasswordPolicy: 'Włącz zasadę silnego hasła', // Enable strong password policy
 	EnableStrongPasswordPolicyDescription: 'Hasło musi zawierać: \n    \u2022 1 dużą literę\n    \u2022 1 małą literę\n    \u2022 1 liczbę\n    \u2022 Długość pomiędzy 8-32 znaków\nDomyślne zasady haseł określają jedynie długość, która musi wynosić pomiędzy 1 - 32 znaków i może zawierać dowolny znak.', // The password must contain the following: \n    \u2022 1 uppercase letter\n    \u2022 1 lowercase letter\n    \u2022 1 number\n    \u2022 Length between 8-32 characters\nThe default password policy only requires that the password length be between 1 - 32 characters, and can contain any character.
-	UserLockedTime: 'Czask zablokowania użytkownika (minuty)', // User locked time (minutes)
+	UserLockedTime: 'Czas zablokowania użytkownika (minuty)', // User locked time (minutes)
 	UserLockedTimeDescription: 'Kiedy użytkownik wprowadzi złe hasło więcej niż 5 razy z rzędu, zostanie zablokowany. Gdy użytkownik jest zablokowany, nie może się zalogować - nawet przy użyciu poprawnego hasła. Możesz zmienić czas zablokowania na dowolną liczbę minut, lub ustawić na 0, aby nie korzystać z blokowania.', // When a user enters the wrong password more than 5 times consecutively, that user will be locked out. During the locked time, the user cannot login, even with the correct password. You can change the locked time to a different value, or set it to 0 to disable the lock behavior.
 	AllowUserResetPassword: 'Zezwól użytkownikowi na reset hasła', // Allow user reset password
 	AllowUserResetPasswordDescription: 'Włącz tę opcję, aby zezwolić użytkownikowi na reset hasła', // Enable this option allow user to reset his/her password.
@@ -356,10 +356,10 @@ export const accountPL = {
 	error_1100: "Wiersz [{{rowIndex}}]: ID użytkownika '{{userId}}' już istnieje.", // Row [{{rowIndex}}]: User id '{{userId}}' already exists.
 	error_1101: 'Wiersz [{{rowIndex}}]: Nazwa użytkownika nie może być pusta.', // Row [{{rowIndex}}]: User name can not be empty.
 	error_1102: "Wiersz [{{rowIndex}}]: Nazwa użytkownika '{{userName}}' już istnieje.", // Row [{{rowIndex}}]: User name '{{userName}}' already exists.
-	error_1103: 'Wiersz [{{rowIndex}}]: Email użytkownika nie może być piusty.', // Row [{{rowIndex}}]: User email can not be empty.
+	error_1103: 'Wiersz [{{rowIndex}}]: Email użytkownika nie może być pusty.', // Row [{{rowIndex}}]: User email can not be empty.
 	error_1104: "Wiersz [{{rowIndex}}]: Email użytkownika '{{userEmail}}' już istnieje.", // Row [{{rowIndex}}]: User email '{{userEmail}}' already exists.
 	error_1105: "Wiersz [{{rowIndex}}]: Numer telefonu komórkowego '{{userMobile}}' już istnieje.", // Row [{{rowIndex}}]: User mobile '{{userMobile}}' already exists.
-	error_1106: 'Wiersz [{{rowIndex}}]: Hasło użtykownika nie może być puste.', // Row [{{rowIndex}}]: User password can not be empty.
+	error_1106: 'Wiersz [{{rowIndex}}]: Hasło użytkownika nie może być puste.', // Row [{{rowIndex}}]: User password can not be empty.
 	error_1107: 'Wiersz [{{rowIndex}}]: Nieprawidłowy format hasła. Hasło powinno zawierać co najmniej 1 dużą literę, 1 małą literą, 1 liczbę, a długość powinna wnosić pomiędzy 8 a 32 znaków.', // Row [{{rowIndex}}]: Invalid password format. The password should contain at least 1 uppercase letter, 1 lowercase letter and 1 number, and the length should be between 8 and 32.
 	error_1108: "Wiersz [{{rowIndex}}]: Nieprawidłowy czas utworzenia '{{creationTime}}'.", // Row [{{rowIndex}}]: Invalid creation time '{{creationTime}}'.
 	error_1109: "Wiersz [{{rowIndex}}]: Nieprawidłowa wartość '{{value}}' dla pola 'enabled'.", // Row [{{rowIndex}}]: Invalid value '{{value}}' for field 'enabled'.
@@ -419,7 +419,7 @@ export const accountPL = {
 	LicenseOprateResultCode_2003: 'Maksymalna liczba aktywacji przekroczona.', // Exceeds the maxinum activation count
 	LicenseOprateResultCode_2004: 'licencja jest już aktywowana', // license is already activated
 	LicenseOprateResultCode_2005: 'Wersja klucza nie pasuje do aktualnej wersji.', // Key's version did not match current version.
-	LicenseOprateResultCode_2006: "The node count of the key is inconsistent with the deployment method.",
+	LicenseOprateResultCode_2006: "Liczba węzłów klucza jest niezgodna z metodą wdrażania.", // The node count of the key is inconsistent with the deployment method.
 
 	LicenseOprateResultCode_3000: 'Nie udało się wyrejestrować', // Deactivation Failed
 	LicenseOprateResultCode_3001: 'Nie można wyrejestrować licencji próbnej', // Trial license cannot be deactived
@@ -435,7 +435,7 @@ export const accountPL = {
 export const portalPL = {
 	'shortcut-org!description': '',
 	'shortcut-org!props!text': 'Organizacje', // Organizations
-	'shortcut-org!title': 'Skrót Ogranizacji', // Organizations Shortcut
+	'shortcut-org!title': 'Skrót ogranizacji', // Organizations Shortcut
 	'shortcut-user!description': '',
 	'shortcut-user!props!text': 'Użytkownicy', // Users
 	'shortcut-user!title': 'Skrót do użytkowników', // Users Shortcut

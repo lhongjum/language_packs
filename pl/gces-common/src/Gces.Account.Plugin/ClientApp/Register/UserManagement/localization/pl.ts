@@ -1,6 +1,6 @@
 export const userPL: LanguageKeyValueMap = {
 	// common
-	cmNoMembersInOrg: 'Brak użytkowników w Organizacji', // No members in Organization
+	cmNoMembersInOrg: 'Brak użytkowników w organizacji', // No members in Organization
 
 	UserManagement: 'Zarządzanie użytkownikiem', // User Management
 	Yes: 'Dodaj', // Yes
@@ -9,7 +9,7 @@ export const userPL: LanguageKeyValueMap = {
 	Save: 'Zapisz', // Save
 	Cancel: 'Anuluj', // Cancel
 	Close: 'Zamknij', // Close
-	AddUser: 'Create User', // Add User
+	AddUser: 'Dodaj użytkownika', // Add User
 	SelectMenbers: 'Wybierz członków', // Select Members
 	EditUser: 'Edytuj użytkownika', // Edit User
 	SearchText: 'szukaj tekstu', // search text
@@ -44,7 +44,7 @@ export const userPL: LanguageKeyValueMap = {
 	WeakPasswordRequirement: 'Hasło nie może być puste', // Password can not be null
 	StrongPasswordRequirement: 'Hasło musi mieć co najmniej 8 znaków, zawierać co najmniej 1 małą literę, co najmniej 1 dużą literę i co najmniej jedną liczbę.', // Password must be at least 8 characters in length, contain at least 1 lowercase letter, 1 uppercase letter and 1 number.
 	PasswordNotMatch: 'Hasła nie pasują do siebie.', // Password and confirm password do not match.
-	PasswordIsBlank: 'Password cannot only contain whitespace charaters',
+	PasswordIsBlank: 'Hasło nie może zawierać tylko białych znaków', // Password cannot only contain whitespace charaters
 	DeleteUserConfirmMessage: 'Czy chcesz usunąć użytkownika "{{user}}" na zawsze?', // Do you want to delete user "{{user}}" permanently?
 	RemoveUserConfirmMessage: 'Czy chcesz usunąć użytkownika "{{user}}" z organizacji "{{organization}}"?', // Do you want to remove user "{{user}}" from organization "{{organization}}"?
 	OneRolePerLine: ' (jedna rola na linię)', // (One role per line)
@@ -72,27 +72,27 @@ export const userPL: LanguageKeyValueMap = {
 	ImportUsersFailed: 'Import użytkowników nie powiódł się.', // Import users failed
 
 	// select members
-	smSelectMembers: 'Wybierz Użytkowników', // Select Members
+	smSelectMembers: 'Wybierz użytkowników', // Select Members
 	smEmptyResult: 'pusty wynik', // empty result
 	smMembers: '({{count}} użytkowników)', // ({{count}} members)
 	smAddUser: 'Dodaj', // Add
 
-	UserDetail: 'Szczegóły Użytkownika', // User Details
+	UserDetail: 'Szczegóły użytkownika', // User Details
 	ShowSubOrg: 'Pokaż członków organizacji podrzędnej', // Show the members of Sub-organization
 	NotShowSubOrg: 'Nie pokazuj członków organizacji podrzędnej', // Not show the members of Sub-organization
 	RemoveUser: 'Usuń użytkownika z bieżącej organizacji', // Remove user from the current organization
 
-	udBasicInfo: 'Podstawowe Informacje', // Basic Information
+	udBasicInfo: 'Podstawowe informacje', // Basic Information
 	udEmpty: '[pusty]', // [empty]
-	NoOrganizations: '[Brak Organizacji]', // [No Organization]
-	NoRoles: '[Brak Roli]', // [No Role]
+	NoOrganizations: '[Brak organizacji]', // [No Organization]
+	NoRoles: '[Brak roli]', // [No Role]
 	onlyNoMemberOfSubOrg: 'Usunięcie użytkownika z organizacji może być użyte tylko wtedy, gdy nie pokazujesz członków organizacji podrzędnej', // remove user from organization can only be used when not show the members of sub-organization
 	ecNoMemberTip: 'Brak użytkowników w organizacji. Proszę kliknąć', // No Users in the organization. Please click
 
 	Error: 'Błąd', // Error
 	umError_1024: 'Numer telefonu komórkowego już istnieje', // Mobile Number already exists
 	umError_1028: 'Użytkownik "admin" nie może być usunięty.', // User "admin" can not be deleted.
-	umError_1039: 'The manager of system Administrators should always be Global.',
+	umError_1039: 'Menedżer administratorów systemu powinien zawsze być globalny.', // The manager of system Administrators should always be Global.
 	umError_5010: 'Nie możesz usunąć siebie z bieżącej organizacji.', // You cannot remove yourself from the current organization.
 	rmError_5011: 'Nie możesz usunąć siebie z roli bieżącej organizacji.', // You cannot remove yourself from the current organization role.
 };

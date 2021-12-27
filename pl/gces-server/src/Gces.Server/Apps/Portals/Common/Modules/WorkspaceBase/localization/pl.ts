@@ -49,5 +49,5 @@ export const wsBasePL: LanguageKeyValueMap = {
 	searchInAll: 'Szukaj we wszystkich kategoriach', // Search in all categories
 	'searchInfo!Selected': 'Szukaj w {{category}}', // Search in {{category}}
 	'searchInfo!All': 'Szukaj we wszystkich kategoriach', // Search in all categories
-	all: 'All', // All
+	all: 'Wszystkie', // All
 };

@@ -19,7 +19,7 @@ export default {
 	// Saga
 	sagaErrorConnection: 'Błąd połączenia', //Connection Error
 	sagaErrorConnectionDetails: 'Nie można załadować wymaganych danych', //Unable to load reqired data
-	sagaErrorCannotUncheckSchedulerTarget: 'Scheduler target cannot be unchecked',
-	sagaErrorCannotUncheckSchedulerTargetDetails: 'This export template is used in existing tasks.',
+	sagaErrorCannotUncheckSchedulerTarget: 'Nie można odznaczyć celu harmonogramu', // Scheduler target cannot be unchecked
+	sagaErrorCannotUncheckSchedulerTargetDetails: 'Ten szablon eksportu jest używany w istniejących zadaniach.', // This export template is used in existing tasks.
 
 }

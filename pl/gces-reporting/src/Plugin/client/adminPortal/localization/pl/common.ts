@@ -1,4 +1,4 @@
 export default {
-	'report-export': 'Export Report',
-	'report-printing': 'Print Report',
+	'report-export': 'Eksportuj raport', // Export Report
+	'report-printing': 'Drukuj raport', // Print Report
 }

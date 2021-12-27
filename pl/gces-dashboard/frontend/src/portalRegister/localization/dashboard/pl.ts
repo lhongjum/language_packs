@@ -22,7 +22,7 @@ export const dashboardPL: LanguageKeyValueMap = {
   allowCachingSettingYes: 'tak',
   cachingAgeSetting: 'Częstotliwość pamięci podręcznej',
   cachingIntervalSetting: 'Jednostka odstępu pamięci podręcznej',
-  cachingIntervalSecond: 'drugi',
+  cachingIntervalSecond: 'sekunda',
   cachingIntervalMinute: 'minuta',
   cachingIntervalHour: 'godzina',
   cachingIntervalDay: 'dzień',
@@ -31,6 +31,6 @@ export const dashboardPL: LanguageKeyValueMap = {
   cachingIsDisabledLabel: 'Nie ma modeli, które mogą być buforowane',
   updateTemplateListError: 'Błąd aktualizacji listy ustawień buforowych',
   saveCachingSettingsError: 'Błąd zapisu',
-  'openPublishedDesign!name': 'Open Published Design...',
-  'openPublishedDesign!description': 'Open published design of this dashboard as read-only',
+  'openPublishedDesign!name': 'Otwórz opublikowany projekt...', // Open Published Design...
+  'openPublishedDesign!description': 'Otwórz opublikowany projekt tego dashboardu jako tylko do odczytu', //Open published design of this dashboard as read-only
 };

@@ -34,17 +34,17 @@
     "text": "✘ Tabela '{{name}}' ma niewłaściwą strukturę i została skonwertowana do Tablix"
   },
   "removeLastValidValue": {
-    "caption": "Last valid value for bound parameter can't be removed"
+    "caption": "Nie można usunąć ostatniej prawidłowej wartości powiązanego parametru"
   },
   "pasteFailedDecode": {
-    "caption": "Decode error while pasting: {{reason}}"
+    "caption": "Błąd dekodowania podczas wklejania: {{reason}}"
   },
   "pasteWarningDecode": {
-    "caption": "Decode warning while pasting",
+    "caption": "Ostrzeżenie o dekodowaniu podczas wklejania",
     "text": "{{warning}}"
   },
   "pasteFailed": {
-    "caption": "Not valid item to paste: {{elementName}}",
-    "text": "You can paste Overflow Placeholder in fixed page report only"
+    "caption": "Nieprawidłowy element do wklejenia: {{elementName}}",
+    "text": "Możesz wkleić symbol zastępczy przepełnienia tylko w raporcie o stałej stronie"
   }
 }

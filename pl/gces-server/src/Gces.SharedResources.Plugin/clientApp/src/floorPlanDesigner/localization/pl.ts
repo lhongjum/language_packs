@@ -1,9 +1,9 @@
 ﻿export const portalResourcePL: LanguageKeyValueMap = {
-	'createFloorPlan!name': 'Stwórz Plan Budynku', // Create Floor Plan
-	'createFloorPlan!description': 'Stwórz Plan Budynku', // Create Floor Plan
+	'createFloorPlan!name': 'Stwórz plan budynku', // Create Floor Plan
+	'createFloorPlan!description': 'Stwórz plan budynku', // Create Floor Plan
 	'modifyFloorPlan!name': 'Edytuj...', // Edit...
-	'modifyFloorPlan!description': 'Edytuj Plan Budynku', // Edit this Floor Plan
-	'floorPlan!name': 'Plan Budynku', // Floor Plan
+	'modifyFloorPlan!description': 'Edytuj plan budynku', // Edit this Floor Plan
+	'floorPlan!name': 'Plan budynku', // Floor Plan
 	'other!name': 'Inne', // Other
 };
 
@@ -12,7 +12,7 @@ export const shareResourcePL: LanguageKeyValueMap = {
 
 export const designerResourcePL: LanguageKeyValueMap = {
 	// common
-	FloorPlanDesigner: 'Projektant Planu Budynku', // Floor Plan Designer
+	FloorPlanDesigner: 'Projektant planu budynku', // Floor Plan Designer
 	Save: 'Zapisz', // Save
 	Untitled: 'Bez tytułu', // Untitled
 	Apply: 'Zastosuj', // Apply
@@ -41,7 +41,7 @@ export const designerResourcePL: LanguageKeyValueMap = {
 	menuItem_removeBgImage: 'Usuń obraz', // Remove Image
 	areaNamePattern: 'Kształt{{number}}', // Shape{{number}}
 	areaNameRegex: '^Kształt(\\d+)$', // ^Shape(\\d+)$
-	'preview-floorPlan!title': 'Przeglądaj Plan Budynku', // Floor Plan Preview
+	'preview-floorPlan!title': 'Przeglądaj plan budynku', // Floor Plan Preview
 
 	Confirmation: 'Potwierdzenie', // Confirmation
 	CloseFloorPlanDesignerConfirm: 'Czy chcesz opuścić projektanta Planu Budynku i odrzucić zmiany?', // Do you want to leave floor plan designer and discard the changes?

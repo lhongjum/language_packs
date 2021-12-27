@@ -1,6 +1,6 @@
 export const portalPL: LanguageKeyValueMap = {
-	'DataProviders!title': 'Data Providers',
-	'DataProviders!description': 'Data Providers',
+	'DataProviders!title': 'Dostawcy danych', // Data Providers
+	'DataProviders!description': 'Dostawcy danych', // Data Providers
 };
 
 export const datasetPL: LanguageKeyValueMap = {

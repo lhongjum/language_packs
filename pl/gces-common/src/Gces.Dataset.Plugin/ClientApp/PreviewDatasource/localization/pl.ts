@@ -6,7 +6,7 @@ export const pl = {
 	err_10021: 'Przekroczono maksymalną liczbę kolumn, limit wynosi: 1024.\nAktualna liczba: {{currentCount}}.', // Exceeded max column\'s count, limit count: 1024.\nCurrent count: {{currentCount}}.
 	FetchDataFailed: 'Pozyskanie danych nie powiodło się.', // Fetch data failed.
 	EmptySchemaTip: 'Nie można pobrać schematu źródła danych', // Can not get the datasource schema
-	InputParameterAtFirst: 'Please set the parameters at first and click the preview button',
+	InputParameterAtFirst: 'Najpierw ustaw parametry i kliknij przycisk podglądu', // Please set the parameters at first and click the preview button
 
 	err_100001: 'Nieprawidłowy parametr: {name}.', // Invalid parameter: {name}.
 	err_100002: 'Błąd wewnętrzny serwera: {message}.', // Internal server error: {message}.
@@ -71,7 +71,7 @@ export const pl = {
 	E_80026: 'Przekroczono maksymalny limit kolumn. Wartość limitu: 512.', // Exceeded max column\'s count, limit count: 512.,
 	E_80028: 'Nie można znaleźć określonej tabeli.', // Cannot find the specified table.
 	E_80048: 'Kontekst niezarejestrowany.', // Context not registered.
-	E_80055: 'Cannot find the specified table in the execution result',
+	E_80055: 'Nie można znaleźć określonej tabeli w wyniku wykonania', // Cannot find the specified table in the execution result
 	E_80059: 'Nie odnaleziono właściwych konwerterów typów danych pomiędzy tymi typami.', // No proper data type converters found between types.
 	E_80062: 'Nie można skonwertować wartości null do typu wartości', // Cannot convert null value to a value type.
 	E_110001: 'Serwer proxy JDBC nie działa.', // JDBC proxy is not alive.

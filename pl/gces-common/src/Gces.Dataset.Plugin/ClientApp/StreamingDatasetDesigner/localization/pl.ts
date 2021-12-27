@@ -24,7 +24,7 @@ export const datasetPL = {
 	DatasetDesigner: 'Kreator zestawu danych', // Dataset Designer
 	Untitled: 'Brak tytułu', // Untitled
 	Categories: 'Kategorie', // Categories
-	ResidenceTime: 'Retention Time', // Retention Time (minute)
+	ResidenceTime: 'Czas retencji', // Retention Time (minute)
 	PushDataToken: 'Wypchnij token danych', // Push Data Token
 	Comment: 'Komentarz', // Comment
 	Yes: 'Tak', // Yes
@@ -47,27 +47,27 @@ export const datasetPL = {
 	datasourceUnknown: 'Usunięty', // Deleted
 	Parameters: 'Parametry', // Parameters
 	Validating: 'Weryfikuję ...', // Validating...
-	StreamingDatasetInvalidError: 'strumieniowy zbiór danych jest nielegalny.',
+	StreamingDatasetInvalidError: 'strumieniowy zbiór danych jest niepoprawny.',
 	StreamingDatasetFieldNameRepeatError: 'Powtarzanie nazwy pola zestawu danych strumieniowych.', // Streaming data set field name repeat
-	StreamingDatasetFieldNameInvalidError: 'The Field name is invalid. Field name can only contains letter, number and _, the first character can not be a number.', // The field name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the field name.
+	StreamingDatasetFieldNameInvalidError: 'Nazwa pola jest nieprawidłowa. Nazwa pola może zawierać tylko literę, cyfrę i _, pierwszy znak nie może być liczbą.', // The field name is invalid. Please do not use restricted symbols < > \ : ? * / | " and do not use . (dot) as the first symbol in the field name.
 	StreamingDatasetFieldNameEmptyError: 'Nazwa lub typ pola zestawu danych przesyłania strumieniowego jest pusta.', // Streaming data set field name or type is empty.
 	StreamingDatasetAddError: 'Błąd dodawania strumieniowego zbioru danych', // Add StreamingDataset error
 	StreamingDatasetEditError: 'Błąd aktualizacji strumieniowego zbioru danych', // Update StreamingDataset error
-	ResidenceTimeError: 'The retention time is illegal, it should be a positive integer, and this time is within one hour.',
+	ResidenceTimeError: 'Czas przechowywania jest niepoprawny, powinien być dodatnią liczbą całkowitą, a czas ten wynosi jedną godzinę.', // The retention time is illegal, it should be a positive integer, and this time is within one hour.
 	AddField: 'Dodaj pole', // Add Field
 	StreamingDataset: 'Zbiór danych strumieniowych', // Streaming Dataset
 	StreamingDatasetDesigner: 'Projektant strumieniowego zbioru danych', // Streaming Dataset Designer
 	Preview: 'Podgląd', // Preview
-	RefRevisionUpdateInfo: 'Related reports will reference the latest version of this document.',
-	ReferencedDocuments: 'Relevant Reports:',
-	tableStructureChangedInfo: 'The model of the streaming dataset has changed. If you save it, the data in the current streaming dataset will disappear.',
-	updateSuccess: 'Update dependent version succeeded.',
-	documentNotFound: 'The current document was not found.',
-	updateFailed: 'Failed to update dependent version.',
-	RandomGenerate: 'Random Generate',
-	'fieldName!title': 'Field Name',
-	'fieldType!title': 'Field Type',
-	'description!title': 'Description',
+	RefRevisionUpdateInfo: 'Powiązane raporty będą odnosić się do najnowszej wersji tego dokumentu.', // Related reports will reference the latest version of this document.
+	ReferencedDocuments: 'Odpowiednie raporty:', // Relevant Reports:
+	tableStructureChangedInfo: 'Zmienił się model zestawu danych przesyłania strumieniowego. Jeśli go zapiszesz, dane w bieżącym zestawie danych strumieniowych znikną.', // The model of the streaming dataset has changed. If you save it, the data in the current streaming dataset will disappear.
+	updateSuccess: 'Aktualizacja wersji zależnej powiodła się.', // Update dependent version succeeded.
+	documentNotFound: 'Nie znaleziono bieżącego dokumentu.', // The current document was not found.
+	updateFailed: 'Nie udało się zaktualizować zależnej wersji.', // Failed to update dependent version.
+	RandomGenerate: 'Generuj losowo', // Random Generate
+	'fieldName!title': 'Nazwa pola', // Field Name
+	'fieldType!title': 'Typ pola', // Field Type
+	'description!title': 'Opis', // Description
 	'dataType!String!title': 'Napis', // String
 	'dataType!Number!title': 'Liczba', // Number
 	'dataType!Boolean!title': 'Boolean', // Boolean
@@ -75,12 +75,12 @@ export const datasetPL = {
 	'dataType!DateTime!title': 'DataCzas', // DateTime
 	CloseDatasetDesignerConfirm: 'Czy chcesz opuścić kreator zestawu danych i odrzucić zmiany?',
 	Confirmation: 'Potwierdzenie', // Confirmation
-	seconds: 'seconds',
-	minutes: 'minutes',
+	seconds: 'sekundy', // seconds
+	minutes: 'minuty', // minutes
 
-	err_100001: 'invalid request model.',
-	err_100002: 'Internal server error.',
-	err_100004: 'Document name exist.',
+	err_100001: 'nieprawidłowy model żądania.', // invalid request model.
+	err_100002: 'Wewnętrzny błąd serwera.', // Internal server error.
+	err_100004: 'Nazwa dokumentu istnieje.', // Document name exist.
 };
 
 export const gridDataPL = {

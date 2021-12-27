@@ -176,7 +176,7 @@
     "crossFilter_pattern": "Filtr krzyżowy: {{state}}",
     "togglePageTab": "Pokaż / ukryj zakładkę strony",
     "displayMode": {
-      "default": "Default",
+      "default": "Domyślny",
       "auto": "Auto",
       "custom": "Niestandardowy",
       "fitToScreen": "Dopasuj do ekranu",
@@ -214,8 +214,8 @@
       "singleSource": "Pojedyncze źródło",
       "multiSource": "Wiele źródeł"
     },
-    "resourceInfo": "Dashboard Status",
-    "readonly": "Read-Only"
+    "resourceInfo": "Status Dashboardu",
+    "readonly": "Tylko do odczytu"
   },
   "menuBar": {
     "title": "Dashboard",
@@ -306,8 +306,8 @@
     "pivotSettingHintRunTime": "Kliknij + aby dodać pola tutaj.",
     "aggregationMethod": "Metoda agregacji",
     "editName": "Zmień nazwę…",
-    "editFormat": "Edytuj Format…",
-    "deleteFormat": "Usuń Format",
+    "editFormat": "Edytuj format…",
+    "deleteFormat": "Usuń format",
     "createHierarchy": "Utwórz pole hierarchii…",
     "editHierarchy": "Edytuj pole hierarchii…",
     "deleteHierarchy": "Usuń pole hierarchii",
@@ -402,16 +402,16 @@
     "separateType": "Oddzielny typ",
     "length": "Długość",
     "pivotSettingItemTitlePattern": "{{ itemDisplay }} z `{{ entityName }}`",
-    "displayTimezone": "Display Timezone",
+    "displayTimezone": "Wyświetl strefę czasową",
     "displayUTC": "UTC",
-    "displayLocal": "Local Date Time"
+    "displayLocal": "Czas lokalny"
   },
   "inspector": {
     "searchBoxPlaceholder": "Wpisz tutaj nazwę nieruchomości ...",
     "warning": "Konfiguracja właściwości jest nieprawidłowa, sprawdź capabilities.options",
     "categories": {
       "general": "Ogólne",
-      "groupSetting": "Group Settings",
+      "groupSetting": "Ustawienia grupy",
       "layout": "Układ",
       "appearance": "Wygląd",
       "documentAppearance": "Wygląd dokumentu",
@@ -478,7 +478,7 @@
         "hoverStyle": "Styl zawieszenia",
         "selectedStyle": "Wybrany styl"
       },
-      "noDataContent": "No Data Content" 
+      "noDataContent": "Brak zawartości danych" 
     },
     "properties": {
       "common": {
@@ -567,9 +567,9 @@
           },
           "size": {
             "label": "Rozmiar obramowania",
-            "thin": "Thin",
-            "medium": "Medium",
-            "thick": "Thick"
+            "thin": "Cienki",
+            "medium": "Średni",
+            "thick": "Gruby"
           }
         },
         "internalBorder": {
@@ -649,7 +649,7 @@
           "keep": "Trzymaj",
           "exclude": "Wyklucz",
           "drillTo": "Przejdź niżej",
-          "jumpTo": "Skocz"
+          "jumpTo": "Skocz do"
         },
         "includeAllDimensions": "Uwzględnij wszystkie wymiary",
         "scrollbarThumbBackColor": "Kciuk na pasku przewijania",
@@ -660,13 +660,13 @@
           "lite": "Lite"
         },
         "layout": {
-          "left": "X Position",
-          "top": "Y Position",
-          "width": "Width",
-          "height": "Height"
+          "left": "Pozycja X",
+          "top": "Pozycja Y",
+          "width": "Szerokość",
+          "height": "Wysokość"
         },
-        "content": "Content",
-        "verticalAlign": "Vertical Align"
+        "content": "Zawartość",
+        "verticalAlign": "Wyrównanie w pionie"
       },
       "dashboard": {
         "theme": "Motyw",
@@ -704,7 +704,7 @@
           "show": "Pokaż pasek narzędzi",
           "auto": "Automatyczne ukrywanie paska narzędzi",
           "hide": "Ukryj pasek narzędzi",
-          "default": "Default"
+          "default": "Domyślny"
         }
       },
       "charts": {
@@ -815,10 +815,10 @@
           },
           "axisTextStyle": "Ustawienie czcionki osi",
           "categoryLabelOverflow": {
-            "title": "Label Overflow Setting",
-            "hide": "Hide",
-            "ellipsis": "Ellipsis",
-            "wrap": "Wrap"
+            "title": "Ustawienie przepełnienia etykiety",
+            "hide": "Ukryj",
+            "ellipsis": "Elipsa",
+            "wrap": "Zawijaj"
           }
         },
         "displayUnit": {
@@ -1050,10 +1050,10 @@
           "hidden": "Ukryty"
         },
         "expandStatus": {
-          "title": "Expand/Collapse Indicator",
+          "title": "Wskaźnik rozwijania/zwijania",
           "auto": "Auto",
-          "show": "Show",
-          "hide": "Hide"
+          "show": "Pokaż",
+          "hide": "Ukryj"
         },
         "gridLineColor": "Kolor linii siatki",
         "rowHeight": "Wysokość wiersza",
@@ -1261,7 +1261,7 @@
       "ok": "OK",
       "cancel": "Anuluj",
       "close": "Zamknij",
-      "deleteAll": "Delete All"
+      "deleteAll": "Usuń wszystko"
     },
     "syncChanges": {
       "title": "Synchronizuj zmiany",
@@ -1281,7 +1281,7 @@
       "title": "Zapisz dashboard",
       "name": "Nazwa dashboardu",
       "categories": "Kategorie",
-      "description": "Komentarz",
+      "description": "Opis",
       "loadingServerTagList": "Ładowanie tagów...",
       "loadServerTagListFailed": "Nie udało się załadować tagów!",
       "placeHolder_name": "Wpisz tutaj nazwę dashboardu",
@@ -1297,7 +1297,7 @@
       },
       "actionBarDropdownList": {
         "pngImage": "Eksportuj obraz PNG",
-        "svgImage": "Export SVG Image",
+        "svgImage": "Eksportuj obraz SVG",
         "data": "Eksportuj dane",
         "currentPageData": "Eksportuj dane z obecnej strony",
         "allPageData": "Eksportuj dane ze wszystkich stron"
@@ -1480,33 +1480,33 @@
       "setForEntireRow":"Cały rząd",
       "compareTo":"Porównaj do",
       "text": {
-        "contains": "Contains",
-        "doesNotContain": "Does Not Contain",
-        "beginsWith": "Begins With",
-        "endsWith": "Ends With"
+        "contains": "Zawiera",
+        "doesNotContain": "Nie zawiera",
+        "beginsWith": "Zaczyna się",
+        "endsWith": "Kończy się"
       },
       "date": {
-        "today": "Today",
-        "yesterday": "Yesterday",
-        "tomorrow": "Tomorrow",
-        "last7Days": "In Last 7 Days",
-        "thisMonth": "In This Month",
-        "lastMonth": "In Last Month",
-        "nextMonth": "In Next Month",
-        "thisWeek": "In This Week",
-        "lastWeek": "In Last Week",
-        "nextWeek": "In Next Week",
+        "today": "Dzisiaj",
+        "yesterday": "Wczoraj",
+        "tomorrow": "Jutro",
+        "last7Days": "W ciągu ostatnich 7 dni",
+        "thisMonth": "W tym miesiącu",
+        "lastMonth": "W zeszłym miesiącu",
+        "nextMonth": "W następnym miesiącu",
+        "thisWeek": "W tym tygodniu",
+        "lastWeek": "W zeszłym tygodniu",
+        "nextWeek": "W następnym tygodniu",
         "comparison": {
-          "today": "Is The Same Day Of {{target}}",
-          "yesterday": "Is The Yesterday Of {{target}}",
-          "tomorrow": "Is Tomorrow Of {{target}}",
-          "last7Days": "Is In Last 7 Days Of {{target}}",
-          "thisMonth": "Is In This Month Of {{target}}",
-          "lastMonth": "Is In Last Month Of {{target}}",
-          "nextMonth": "Is In Next Month Of {{target}}",
-          "thisWeek": "Is In This Week Of {{target}}",
-          "lastWeek": "Is In Last Week Of {{target}}",
-          "nextWeek": "Is In Next Week Of {{target}}"
+          "today": "Czy ten sam dzień {{target}}",
+          "yesterday": "Czy wczorajszy {{target}}",
+          "tomorrow": "Czy jutro {{target}}",
+          "last7Days": "Jest w ostatnich 7 dniach {{target}}",
+          "thisMonth": "Jest w tym miesiącu {{target}}",
+          "lastMonth": "Jest w zeszłym miesiącu {{target}}",
+          "nextMonth": "Jest w następnym miesiącu {{target}}",
+          "thisWeek": "Jest w tym tygodniu {{target}}",
+          "lastWeek": "Jest w zeszłym tygodniu {{target}}",
+          "nextWeek": "Jest w następnym tygodniu {{target}}"
         }
       }
     },
@@ -1678,7 +1678,7 @@
           "title": "Wybrane wartości ustawień",
           "scenario": "Scenariusz",
           "chooseFields": "Wybierz pola",
-          "selectionDropDownPlaceholder": "No Chart selected"
+          "selectionDropDownPlaceholder": "Nie wybrano wykresu"
         },
         "filteredValue": {
           "placeholder": "Wybierz pole…",
@@ -1779,7 +1779,7 @@
           "minute": "Minuta",
           "second": "Sekunda"
         },
-        "transformDirection": "Przekształść kierunek",
+        "transformDirection": "Przekształć kierunek",
         "transformDirectionItem": {
           "backward": "Do tyłu",
           "forward": "Do przodu"
@@ -1837,8 +1837,8 @@
         "invalidURL": "Niepoprawny URL obrazu"
       },
       "message": {
-        "title": "Image In Use",
-        "content": "The image is in use, are you sure you would like to remove it from the current dashboard?"
+        "title": "Obraz w użyciu",
+        "content": "Obraz jest w użyciu, czy na pewno chcesz go usunąć z bieżącego pulpitu nawigacyjnego?"
       },
       "largeImageWarning": "Pulpitu nawigacyjnego nie można zapisać z dużymi osadzonymi obrazami. Rozważ użycie współdzielonych obrazów lub mniejszych osadzonych obrazów (<1 MB).",
       "searchPlaceholder": "Szukaj..."
@@ -1876,7 +1876,7 @@
       "copyright": "Prawa autorskie © 2020 GrapeCity"
     },
     "shareResource": {
-      "title": "Unaccessible Resource Information"
+      "title": "Informacje o niedostępnych zasobach"
     },
     "bullet": {
       "title": "Ustawienie wykresu punktowego",
@@ -1887,7 +1887,7 @@
       "forecast": "Prognoza",
       "tickunit": "Zaznacz jednostkę",
       "maxiColor": "Maksymalny kolor",
-      "goodColor": "Dobr kolor",
+      "goodColor": "Dobry kolor",
       "badColor": "Zły kolor",
       "measureColor": "Aktualny kolor",
       "targetColor": "Docelowy kolor",
@@ -2061,25 +2061,25 @@
             "today": "Dzisiaj",
             "tomorrow": "Jutro",
             "last7days": "Ostatnie 7 dni",
-            "lastweek": "Ostatni tydzień",
+            "lastweek": "Poprzedni tydzień",
             "thisweek": "Obecny tydzień",
             "nextweek": "Następny tydzień",
-            "lastmonth": "Ostatni miesiąc",
+            "lastmonth": "Poprzedni miesiąc",
             "thismonth": "Obecny miesiąc",
             "nextmonth": "Następny miesiąc",
-            "nextquarter": "Next Quarter",
-            "thisquarter": "This Quarter",
-            "lastquarter": "Last Quarter",
-            "nextyear": "Next Year",
-            "thisyear": "This Year",
-            "lastyear": "Last Year"
+            "nextquarter": "Następny kwartał",
+            "thisquarter": "Obecny kwartał",
+            "lastquarter": "Poprzedni kwartał",
+            "nextyear": "Następny rok",
+            "thisyear": "Obecny rok",
+            "lastyear": "Poprzedni rok"
           }
         },
         "duplicateValuesFormat": {
           "title": "Zduplikowane wartości",
           "description": "Sformatuj komórki zawierające:",
           "type": {
-            "duplicate": "Dyplikaty",
+            "duplicate": "Duplikaty",
             "unique": "Unikalne"
           },
           "valueswith": "wartości z"
@@ -2779,17 +2779,17 @@
       }
     },
     "smartScenario": {
-      "continue": "Save And Create Another",
-      "finish": "Save",
-      "title": "Create a visualization",
-      "recommendationTitle": "Recommendation",
-      "otherTitle": "Others",
-      "dropColumnHint": "Drag and drop fields to create a visualization."
+      "continue": "Zapisz i stwórz kolejny",
+      "finish": "Zapisz",
+      "title": "Stwórz wizualizację",
+      "recommendationTitle": "Rekomendacje",
+      "otherTitle": "Inne",
+      "dropColumnHint": "Przeciągnij i upuść pola, aby utworzyć wizualizację."
     },
     "customAttribute": {
-      "addMeasure": "Add Measure...",
-      "addCalcColumn": "Add Calculated Column...",
-      "edit": "Edit expression"
+      "addMeasure": "Dodaj miarę...",
+      "addCalcColumn": "Dodaj obliczoną kolumnę...",
+      "edit": "Edytuj wyrażenie"
     }
   },
   "actionBar": {
@@ -3186,8 +3186,8 @@
     "getTokenFailed": "Nie udało się uzyskać tokena.",
     "notSupportChangeChartType": "Komponent wizualizacji nie obsługuje zmiany typu wykresu!",
     "draftIsBeingReviewed": {
-      "title": "Draft Is Being Reviewed",
-      "content": "The draft of document is being reviewed. It can't be modified."
+      "title": "Wersja robocza jest recenzowana",
+      "content": "Projekt dokumentu jest weryfikowany. Nie można go modyfikować."
     },
     "loadVisualFailed": "Nie udało się załadować wizualizacji",
     "docWithoutAccess": {
@@ -3215,22 +3215,22 @@
       "content": " bez dostępu."
     },
     "shareResource": {
-      "ok": "Every resource can be accessed!",
-      "removeScenario": "Remove",
-      "removeResourceInPage": "Reset the broken share resource in page.",
-      "docStatus": "Dashboard Status",
-      "dashboard": "Dashboard ({{id}}) is unavailable.",
-      "report": "Report ({{id}}) is unavailable.",
-      "dataset": "Dataset ({{id}}) is unavailable.",
-      "dataModel": "Data Model ({{id}}) is unavailable.",
-      "image": "Image ({{id}}) is unavailable.",
-      "mapData": "Map Data ({{id}}) is unavailable.",
-      "mapHierarchy": "Map Hierarchy ({{id}}) is unavailable.",
-      "visualization": "Visualization ({{id}}) is unavailable.",
-      "font": "Font ({{id}}) is unavailable.",
-      "floorPlan": "Floor Plan ({{id}}) is unavailable.",
-      "theme": "Theme ({{id}}) is unavailable.",
-      "unknown": "Unknown ({{id}}) is unavailable."
+      "ok": "Każdy zasób jest dostępny!",
+      "removeScenario": "Usuń",
+      "removeResourceInPage": "Zresetuj uszkodzony zasób udziału na stronie.",
+      "docStatus": "Status Dashboardu",
+      "dashboard": "Dashboard ({{id}}) jest niedostępny.",
+      "report": "Raport ({{id}}) jest niedostępny.",
+      "dataset": "Dataset ({{id}}) jest niedostępny.",
+      "dataModel": "Model danych ({{id}}) jest niedostępny.",
+      "image": "Obraz ({{id}}) jest niedostępny.",
+      "mapData": "Mapa danych ({{id}}) jest niedostępna.",
+      "mapHierarchy": "Mapa hierarchii ({{id}}) jest niedostępna.",
+      "visualization": "Wizualizacja ({{id}}) jest niedostępny.",
+      "font": "Czcionka ({{id}}) jest niedostępny.",
+      "floorPlan": "Plan piętra ({{id}}) jest niedostępny.",
+      "theme": "Motyw ({{id}}) jest niedostępny.",
+      "unknown": "Nieznany ({{id}}) jest niedostępny."
     },
     "statusCode": {
       "401": {
@@ -3317,28 +3317,28 @@
         "title": "Zapytanie o dane nie powiodło się"
       },
       "200224": {
-        "title": "Dataset Cache Unavailable",
-        "content": "Please refresh dataset cache '{{datasetName}}'."
+        "title": "Pamięć podręczna zbioru danych niedostępna",
+        "content": "Odśwież pamięć podręczną zbioru danych '{{datasetName}}'."
       },
       "200225": {
-        "title": "Query Data Failed",
-        "content": "Failed to generate SQL statement for analysis database."
+        "title": "Zapytanie o dane nie powiodło się",
+        "content": "Nie udało się wygenerować instrukcji SQL dla bazy danych analizy."
       },
       "200226": {
-        "title": "Query Data Failed",
-        "content": "Failed to open connection against analysis database."
+        "title": "Zapytanie o dane nie powiodło się",
+        "content": "Nie udało się otworzyć połączenia z bazą danych analizy."
       },
       "200227": {
-        "title": "Query Data Failed",
-        "content": "Failed to execute command against analysis database."
+        "title": "Zapytanie o dane nie powiodło się",
+        "content": "Nie udało się wykonać polecenia w bazie danych analizy."
       },
       "200301": {
-        "title": "Generating Cache",
-        "content": "The data is being loaded, try refreshing the list later."
+        "title": "Generowanie pamięci podręcznej",
+        "content": "Trwa ładowanie danych, spróbuj odświeżyć listę później."
       },
       "200302": {
-        "title": "No Available Cache",
-        "content": "Failed to generate dataset cache."
+        "title": "Brak dostępnej pamięci podręcznej",
+        "content": "Nie udało się wygenerować pamięci podręcznej zestawu danych."
       }
     },
     "devTools": {

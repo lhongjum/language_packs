@@ -642,7 +642,7 @@
 			"GetItem(array, index)"
 		],
 		"description": [
-			"Get the object whose index is specified in the given array."
+			"Pobierz obiekt, którego indeks jest określony w podanej tablicy."
 		],
 		"link": ""
 	},
@@ -948,7 +948,7 @@
 			"DateSerial(rok, miesiąc, dzień)"
 		],
 		"description": [
-			"Zwraca Datę reprezentującą określony rok, miesiąc i dzień."
+			"Zwraca datę reprezentującą określony rok, miesiąc i dzień."
 		],
 		"link": ""
 	},

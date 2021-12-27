@@ -24,7 +24,7 @@ export const datasetPL = {
 	DatasetDesigner: 'Kreator zestawu danych', // Dataset Designer
 	Untitled: 'Brak tytułu', // Untitled
 	Categories: 'Kategorie', // Categories
-	ResidenceTime: 'Retention Time', // Retention Time (minute)
+	ResidenceTime: 'Czas retencji', // Retention Time (minute)
 	PushDataToken: 'Wypchnij token danych', // Push Data Token
 	Comment: 'Komentarz', // Comment
 	Yes: 'Tak', // Yes
@@ -47,26 +47,26 @@ export const datasetPL = {
 	datasourceUnknown: 'Usunięty', // Deleted
 	Parameters: 'Parametry', // Parameters
 	Validating: 'Weryfikuję ...', // Validating...
-	PushDatasetInvalidError: 'Push data set is invalid.',
-	PushDatasetFieldNameRepeatError: 'Push data set field name repeat.',
-	PushDatasetFieldNameInvalidError: 'The Field name is invalid. Field name can only contains letter, number and _, the first character can not be a number.',
-	PushDatasetFieldNameEmptyError: 'Push data set field name or type is empty.',
-	PushDatasetAddError: 'Add PushDataset error',
-	PushDatasetEditError: 'Update PushDataset error',
+	PushDatasetInvalidError: 'Przesyłany zestaw danych jest nieprawidłowy.', // Push data set is invalid.
+	PushDatasetFieldNameRepeatError: 'Powtarzanie nazwy pola przesyłanego zestawu danych', // Push data set field name repeat.
+	PushDatasetFieldNameInvalidError: 'Nazwa pola jest nieprawidłowa. Nazwa pola może zawierać tylko literę, cyfrę i _, pierwszy znak nie może być liczbą.', // The Field name is invalid. Field name can only contains letter, number and _, the first character can not be a number.
+	PushDatasetFieldNameEmptyError: 'Nazwa lub typ przesyłanego zestawu danych jest pusta', // Push data set field name or type is empty.
+	PushDatasetAddError: 'Błąd podczas dodawania zestawu danych push', // Add PushDataset error
+	PushDatasetEditError: 'Błąd aktualizacji zestawu danych push', // Update PushDataset error
 	AddField: 'Dodaj pole', // Add Field
-	PushDataset: 'Push Dataset',
-	PushDatasetDesigner: 'Push Dataset Designer',
+	PushDataset: 'Prześlij zbiór danych', // Push Dataset
+	PushDatasetDesigner: 'Designer przesyłu zbioru danych', // Push Dataset Designer
 	Preview: 'Podgląd', // Preview
-	RefRevisionUpdateInfo: 'Related reports will reference the latest version of this document.',
-	ReferencedDocuments: 'Relevant Reports:',
-	tableStructureChangedInfo: 'The model of the streaming dataset has changed. If you save it, the data in the current streaming dataset will disappear.',
-	updateSuccess: 'Update dependent version succeeded.',
-	documentNotFound: 'The current document was not found.',
-	updateFailed: 'Failed to update dependent version.',
-	RandomGenerate: 'Random Generate',
-	'fieldName!title': 'Field Name',
-	'fieldType!title': 'Field Type',
-	'description!title': 'Description',
+	RefRevisionUpdateInfo: 'Powiązane raporty będą odnosić się do najnowszej wersji tego dokumentu.', // Related reports will reference the latest version of this document.
+	ReferencedDocuments: 'Odpowiednie raporty:', // Relevant Reports:
+	tableStructureChangedInfo: 'Zmienił się model zestawu danych przesyłania strumieniowego. Jeśli go zapiszesz, dane w bieżącym zestawie danych strumieniowych znikną.', // The model of the streaming dataset has changed. If you save it, the data in the current streaming dataset will disappear.
+	updateSuccess: 'Aktualizacja wersji zależnej powiodła się.', // Update dependent version succeeded.
+	documentNotFound: 'Nie znaleziono bieżącego dokumentu.', // The current document was not found.
+	updateFailed: 'Nie udało się zaktualizować zależnej wersji.', // Failed to update dependent version.
+	RandomGenerate: 'Generuj losowo', // Random Generate
+	'fieldName!title': 'Nazwa pola', // Field Name
+	'fieldType!title': 'Typ pola', // Field Type
+	'description!title': 'Description', //
 	'dataType!String!title': 'Napis', // String
 	'dataType!Number!title': 'Liczba', // Number
 	'dataType!Boolean!title': 'Boolean', // Boolean
@@ -75,9 +75,9 @@ export const datasetPL = {
 	CloseDatasetDesignerConfirm: 'Czy chcesz opuścić kreator zestawu danych i odrzucić zmiany?',
 	Confirmation: 'Potwierdzenie', // Confirmation
 
-	err_100001: 'invalid request model.',
-	err_100002: 'Internal server error.',
-	err_100004: 'Document name exist.',
+	err_100001: 'Nieprawidłowy model żądania.', // invalid request model.
+	err_100002: 'Wewnętrzny błąd serwera.', // Internal server error.
+	err_100004: 'Nazwa dokumentu istnieje.', // Document name exist.
 };
 
 export const gridDataPL = {

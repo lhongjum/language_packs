@@ -11,12 +11,12 @@
   "dataVisualizer": {
     "title": "Wizualizator danych"
   },
-  "headingInsertRows": "Insert Rows",
-  "headingInsertColumns": "Insert Columns",
-  "btnInsert": "Insert",
+  "headingInsertRows": "Wstaw wiersze",
+  "headingInsertColumns": "Wstaw kolumny",
+  "btnInsert": "Wstaw",
   "btnCancel": "Anuluj",
-  "labelCount": "Count",
-  "labelPosition": "Position",
+  "labelCount": "Liczenie",
+  "labelPosition": "Pozycja",
   "expressionEditor": {
     "subtitle": "Edytor wyrażenia",
     "infoPanel": {
@@ -26,12 +26,12 @@
       "labelName": "Nazwa:",
       "labelConstant": "Stałe:"
     },
-    "headingFunctions": "Functions",
-    "headingInfo": "Info",
+    "headingFunctions": "Funkcje",
+    "headingInfo": "Informacje",
     "search": {
-      "textStartTyping": "start typing to see results",
-      "textNoResults": "no results for \"{{query}}\"",
-      "placeholderSearch": "search..."
+      "textStartTyping": "zacznij pisać, aby zobaczyć wyniki",
+      "textNoResults": "brak wyników dla \"{{query}}\"",
+      "placeholderSearch": "szukaj..."
     },
     "headingValues": "Wartości",
     "placeholderExpression": "wyrażenie",

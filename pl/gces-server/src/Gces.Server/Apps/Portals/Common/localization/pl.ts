@@ -6,7 +6,7 @@ export const portalPL: LanguageKeyValueMap = {
 	Close: 'Zamknij', // Close
 	Logo: 'Logo Wyn', // Wyn Logo
 	Avatar: 'Awatar', // Avatar
-	EmptyPage: 'Pusta Strona', // Empty Page
+	EmptyPage: 'Pusta strona', // Empty Page
 	SearchCategory: 'Wybierz kategorię', // Select category
 	cmEmptyResult: 'pusty wynik', // empty result
 	fakeComponent: 'Fałszywy komponent', // Fake component
@@ -20,17 +20,17 @@ export const portalPL: LanguageKeyValueMap = {
 	naFavorites: 'Ulubione', // Favorites
 	naCreateDoc: 'Utwórz', // Create
 	naCategories: 'Kategorie', // Categories
-	naDocumentTypes: 'Document Types',
+	naDocumentTypes: 'Typy dokumentów', // Document Types
 	naCategorySettingsTitle: 'Zarządzaj własnymi kategoriami', // Manage personal Categories
 	naUpload: 'Załaduj', // Upload
-	naOrganization: 'Zmień Organizację', // Switch Organization
+	naOrganization: 'Zmień organizację', // Switch Organization
 	naOk: 'OK',
 	naCancel: 'Anuluj', // Cancel
 	// Nav Toolbar
 	switchPortal: 'Zmień portal', // Switch Portal
 	globalOrgName: 'Ogólny', // Global
-	switchOrganization: 'Zmień Organizację', // Switch Organization
-	editProfileSetting: 'Edytuj Ustawienia Profilu', // Edit Profile Setting
+	switchOrganization: 'Zmień organizację', // Switch Organization
+	editProfileSetting: 'Edytuj ustawienia profilu', // Edit Profile Setting
 
 	// Document List
 	dlName: 'Nazwa', // Name
@@ -44,14 +44,14 @@ export const portalPL: LanguageKeyValueMap = {
 	dlOpenInNewWindow: 'Obejrzyj {{type}} w nowym oknie', // View {{type}} in new window
 	dlDownload: 'Pobieranie', // Download
 	dlDatasetType: 'Typ zestawu danych', // Dataset Type
-	dlDashboardDataset: 'Cached Dataset',
-	dlStreamingDataset: 'Streaming Dataset',
-	dlPushDataset: 'Push Dataset',
-	dlReportDataset: 'Direct Dataset',
+	dlDashboardDataset: 'Zbiór danych w pamięci podręcznej', // Cached Dataset
+	dlStreamingDataset: 'Zbiór danych strumieniowych', // Streaming Dataset
+	dlPushDataset: 'Prześlij zbiór danych', // Push Dataset
+	dlReportDataset: 'Bezpośredni zbiór danych', // Direct Dataset
 	dlDataProvider: 'Dostawca danych', // Data Provider
 	dlDataSource: 'Źrodło danych', // Data Source
 	dlReferences: 'Wskazany dokument danych', // Referenced Data Document
-	dlSourceType: 'Source Type',
+	dlSourceType: 'Rodzaj źródła', // Source Type
 	dlVersion: 'Wszystkie', // Version
 	dlDataModelType: 'Typ modelu danych', // Data Model Type
 	dlReportDataModel: 'Dla raportu', // For Report
@@ -70,11 +70,11 @@ export const portalPL: LanguageKeyValueMap = {
 	docDownloadDescription: 'Pobierz dokument', // Download document
 	docSetCategory: 'Kategorie...', // Categories...
 	docSetCategoryDescription: 'Edytuj kategorie dokumentu', // Edit document categories
-	hideColumn: 'Hide Column',
+	hideColumn: 'Ukryj kolumnę', // Hide Column
 	docSetDelete: 'Usuń', // Delete
 	docSetDeleteDescription: 'Usuń ten dokument', // Delete this document
 	docBatchDeleteDescription: 'Usuń wybrane dokumenty', // Delete selected documents
-	docBatchDownloadDescription: 'Download selected documents',
+	docBatchDownloadDescription: 'Pobierz wybrane dokumenty', // Download selected documents
 	docsBatchTagDescription: 'Edytuj kategorie dokumentu', // Edit document categories
 	docsBatchPermissionDescription: 'Edytuj uprawnienia dokumentu', // Edit document permissions
 	docEdit: 'Edytuj...', // Edit...
@@ -126,10 +126,10 @@ export const portalPL: LanguageKeyValueMap = {
 	psPermissions: 'Uprawnienia', // Premissions
 	psShare: 'Udostępnij', // Share
 	psNoSharing: 'Nie udostępniaj', // no sharing
-	'psExecute!name': 'Execute', // Execute
+	'psExecute!name': 'Wykonaj', // Execute
 	'psRead!name': 'Odczyt', // Read
 	'psReadWrite!name': 'Odczyt / Zapis', // Read / Write
-	'psFullControl!name': 'Full Control',
+	'psFullControl!name': 'Pełna kontrola', // Full Control
 	psCancel: 'Anuluj', // Cancel
 	psSave: 'Zapisz', // Save
 	psNoRolesTip: 'nie znaleziono pasujących ról', // no matched roles found
@@ -145,12 +145,12 @@ export const portalPL: LanguageKeyValueMap = {
 	roleName_administrator: 'Administrator', // Administrator
 	roleName_orgadmin: 'Administrator Organizacji', // Organization Administrator
 	// custom permissions
-	'Print!name': 'Print',
-	'Export!name': 'Export',
-	'Print!warningRole': 'The role \'{{name}}\' does not have \'Print Report\' permission.',
-	'Print!warningExecute': 'Report cannot be printed with \'Execute\' access permission.',
-	'Export!warningRole': 'The role \'{{name}}\' does not have \'Export Report\' permission.',
-	'Export!warningExecute': 'Report cannot be exported with "Execute" access permission.',
+	'Print!name': 'Druk', // Print
+	'Export!name': 'Eksport', // Export
+	'Print!warningRole': 'Rola \'{{name}}\' nie ma uprawnienia \'Drukuj raport\'.', // The role \'{{name}}\' does not have \'Print Report\' permission.
+	'Print!warningExecute': 'Nie można wydrukować raportu z uprawnieniami dostępu \'Wykonaj\'.', // Report cannot be printed with \'Execute\' access permission.
+	'Export!warningRole': 'Rola \'{{name}}\' nie ma uprawnień \'Eksportuj raport\'.', // The role \'{{name}}\' does not have \'Export Report\' permission.
+	'Export!warningExecute': 'Nie można wyeksportować raportu z uprawnieniem dostępu "Wykonaj".', // Report cannot be exported with "Execute" access permission.
 
 	// Doc Info Tab
 	docInfoProps: 'Właściwości', // Properties
@@ -190,10 +190,10 @@ export const portalPL: LanguageKeyValueMap = {
 	'theme!description': 'Motyw', // Theme
 	'dbd!name': 'Dashboard', // Dashboard
 	'dbd!description': 'Dashboard', // Dashboard
-	'dsc!name': 'Źródło Danych', // Data Source
-	'dsc!description': 'Źródło Danych', // Data Source
-	'dataset!name': 'Zestaw Danych', // Dataset
-	'dataset!description': 'Zestaw Danych', // Dataset
+	'dsc!name': 'Źródło danych', // Data Source
+	'dsc!description': 'Źródło danych', // Data Source
+	'dataset!name': 'Zestaw danych', // Dataset
+	'dataset!description': 'Zestaw danych', // Dataset
 	'smdsc!name': 'Modele danych', // Data Models
 	'smdsc!description': 'Modele danych', // Data Models
 	'wbp!name': 'Strona internetowa',  // Web Page
@@ -247,10 +247,10 @@ export const portalPL: LanguageKeyValueMap = {
 	showCheckbox: 'Pokaż pole wyboru', // Show Check Box
 	hideCheckbox: 'Ukryj pole wyboru', // Hide Check Box
 	search: 'Szukaj', // Search
-	'showDocumentsAs!list': 'Show documents as list',
-	'showDocumentsAs!tile': 'Show documents as tile',
+	'showDocumentsAs!list': 'Pokaż dokumenty jako listę', // Show documents as list
+	'showDocumentsAs!tile': 'Pokaż dokumenty jako kafelek', // Show documents as tile
 	BackBtnTip: 'Kliknij w ikonę, aby powrócić do listy plików.', // Click the icon to back to the file list.
-	GotIt: 'I got it',
+	GotIt: 'Przyjąłem', // I got it
 
 	// System Configurations
 	'systemConfigsEditor!title': 'Konfiguracje systemu', // System Configurations
@@ -308,7 +308,7 @@ export const portalPL: LanguageKeyValueMap = {
 	err_20001: '{{parameter}} jest wymaganym parametrem.', // {{parameter}} is a required parameter.
 	err_20002: 'Dokument "{{newName}}" już istnieje.', // Document "{{newName}}" already exists.
 	err_20003: 'Dokument nie może zostać zduplikowany. Nie masz uprawnień aby edytować niektórych dokumentów powiązanych z tym dokumentem.', // The document can not be duplicated, you do not have permission to edit some of the documents referenced in this document.
-	err_20004: 'Document or referenced document not found.', // 'Nie znaleziono dokumentu.', // Document not found.
+	err_20004: 'Nie znaleziono dokumentu.', // Document not found.
 	err_20005: 'Liczba {{pluginKey}} dokumentów osiągnęła limit, nie możesz zduplikować dokumentu.', // The number of {{pluginKey}} documents has reached the limit,you can not duplicate new document.
 	err_20006: 'Dokument "{{documentProperty}}" nie został znaleziony.', // Document "{{documentProperty}}" is not found.
 	err_20007: 'Dokument "{{documentTitle}}" ma nierozpoznany typ "{{documentType}}.', // The document "{{documentTitle}}" has unknown/unregistered type "{{documentType}}.
@@ -398,43 +398,43 @@ export const portalPL: LanguageKeyValueMap = {
 	updateShowWelcomeFail: 'Błąd aktualizacji ustawień', // Update Settings Error
 
 	// force delete document
-	forceDeleteTitle: 'Wymuś Usunięcie', // Force Delete
+	forceDeleteTitle: 'Wymuś usunięcie', // Force Delete
 	forceDeleteContent: 'Dokument \"{{documentTitle}}\" jest używany przez następujący dokument:\n{{documentRefNames}}.\nJesteś pewny aby wymusić usunięcie?', // The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.\nAre you sure to force delete?
 	forceDeleteContentPrefix: 'Dokument \"{{documentTitle}}\" jest używany przez następujący dokument:\n{{documentRefNames}}.', // The document \"{{documentTitle}}\" is used by the following documents:\n{{documentRefNames}}.
 	forceDeleteContentSuffix: 'Jesteś pewny aby wymusić usunięcie?', // Are you sure to force delete?
-	forceDeleteTip: 'Wymuś Usunięcie', // Force Delete
+	forceDeleteTip: 'Wymuś usunięcie', // Force Delete
 
 	// page title
-	'create-dsc!title': 'Stwórz Źródło Danych', // Create Data Source
-	'edit-dsc!title': 'Edytuj Źródło Danych', // Edit Data Source
-	'preview-dsc!title': 'Podgląd Źródło Danych', // Data Source Preview
-	'create-dataset!title': 'Utwórz Zbiór Danych', // Create Dataset
-	'edit-dataset!title': 'Edytuj Zbiór Danych', // Edit Dataset
-	'preview-dataset!title': 'Przeglądaj Zbiór Danych', // Dataset Preview
+	'create-dsc!title': 'Stwórz źródło danych', // Create Data Source
+	'edit-dsc!title': 'Edytuj źródło danych', // Edit Data Source
+	'preview-dsc!title': 'Podgląd źródło danych', // Data Source Preview
+	'create-dataset!title': 'Utwórz zbiór danych', // Create Dataset
+	'edit-dataset!title': 'Edytuj zbiór danych', // Edit Dataset
+	'preview-dataset!title': 'Przeglądaj zbiór danych', // Dataset Preview
 	'create-sdst!title': 'Utwórz zestaw danych strumieniowych', // Create StreamingDataset
 	'edit-sdst!title': 'Edytuj zbiór danych strumieniowych', // Edit StreamingDataset
 	'preview-sdst!title': 'Podgląd zbioru danych strumieniowych', // StreamingDataset Preview
-	'create-pdst!title': 'Create PushDataset',
-	'edit-pdst!title': 'Edit PushDataset',
-	'preview-pdst!title': 'PushDataset Preview',
+	'create-pdst!title': 'Utwórz zestaw danych Push', // Create PushDataset
+	'edit-pdst!title': 'Edytuj zbiór danych Push', // Edit PushDataset
+	'preview-pdst!title': 'Podgląd zestawu danych Push', // PushDataset Preview
 	'create-smdsc!title': 'Utwórz model danych', // Create Data Model
 	'edit-smdsc!title': 'Edytuj model danych', // Edit Data Model
 	'preview-smdsc!title': 'Podgląd modelu danych', // Data Model Preview
-	'create-floorPlan!title': 'Stwórz Plan Budynku', // Create Floor Plan
-	'edit-floorPlan!title': 'Edytuj Plan Budynku', // Edit this Floor Plan
-	'preview-floorPlan!title': 'Przeglądaj Plan Budynku', // Floor Plan Preview
+	'create-floorPlan!title': 'Stwórz plan budynku', // Create Floor Plan
+	'edit-floorPlan!title': 'Edytuj plan budynku', // Edit this Floor Plan
+	'preview-floorPlan!title': 'Przeglądaj plan budynku', // Floor Plan Preview
 	'create-font!title': 'Prześlij czcionkę', // Upload Font
-	'preview-theme!title': 'Podgląd Motywu', // Theme Preview
-	'preview-rdl!title': 'Podgląd Raportu', // Report Preview
-	'preview-rdlx-template!title': 'Podgląd Szablonu Raportu', // Report Template Preview
-	'preview-image!title': 'Podgląd Obrazu', // Image Preview
-	'preview-image/jpeg!title': 'Podgląd Obrazu', // Image Preview
-	'preview-image/bmp!title': 'Podgląd Obrazu', // Image Preview
-	'preview-image/gif!title': 'Podgląd Obrazu', // Image Preview
-	'preview-image/png!title': 'Podgląd Obrazu', // Image Preview
-	'create-dbd!title': 'Utwórz Pulpit Nawigacyjny', // Create Dashboard
-	'edit-dbd!title': 'Edytuj Pulpit Nawigacyjny', // Edit Dashboard
-	'preview-dbd!title': 'Podgląd Pulpitu Nawigacyjnego', // Dashboard Preview
-	'searchResult!title': 'Wyniki Wyszukiwania', // Search Results
+	'preview-theme!title': 'Podgląd motywu', // Theme Preview
+	'preview-rdl!title': 'Podgląd raportu', // Report Preview
+	'preview-rdlx-template!title': 'Podgląd szablonu raportu', // Report Template Preview
+	'preview-image!title': 'Podgląd obrazu', // Image Preview
+	'preview-image/jpeg!title': 'Podgląd obrazu', // Image Preview
+	'preview-image/bmp!title': 'Podgląd obrazu', // Image Preview
+	'preview-image/gif!title': 'Podgląd obrazu', // Image Preview
+	'preview-image/png!title': 'Podgląd obrazu', // Image Preview
+	'create-dbd!title': 'Utwórz pulpit nawigacyjny', // Create Dashboard
+	'edit-dbd!title': 'Edytuj pulpit nawigacyjny', // Edit Dashboard
+	'preview-dbd!title': 'Podgląd pulpitu nawigacyjnego', // Dashboard Preview
+	'searchResult!title': 'Wyniki wyszukiwania', // Search Results
 	'preview-ipf!title': 'Podgląd formularza wejściowego', // Input Form Preview
 };

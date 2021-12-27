@@ -33,13 +33,13 @@ export default {
 	tpCancel: 'Anuluj', // Cancel
 	tpSelectTemplateText: 'wybierz szablon, aby zobaczyć szczegóły', // select a template to see details 
 	tpSelectCategoryText: 'wybierz kategorię, aby zobaczyć szablony', // select a category to see templates
-	tpNoTemplatesMatchingText: 'no templates matching \'{{name}}\' found',
+	tpNoTemplatesMatchingText: 'nie znaleziono szablonów pasujących do \'{{name}}\'', // no templates matching \'{{name}}\' found
 
 	tpDetailsName: 'Nazwa szablonu', // Template Name
 	tpDetailsDescription: 'Opis', // Description
-	tpDetailsNoDescription: '<No Description>',
-	tpDetailsDescriptionBlankRdlReport: 'RDL reports are data driven reports which grow with the data size. These are ideal for operational reports, transactional tabulations, letters, receipts, and many other types of reports where you do not know the size of data that will be displayed and want to show all the data.',
-	tpDetailsDescriptionBlankPageReport: 'Page reports are layout driven reports where data is truncated or resized to fit the designed report layout. These are ideal for pixel perfect reports such as billing statements, forms, letters (with fixed layout), certificates, portfolios, catalogs, and many more.', 
+	tpDetailsNoDescription: '<Brak opisu>', // <No Description>
+	tpDetailsDescriptionBlankRdlReport: 'Raporty RDL to raporty oparte na danych, które rosną wraz z rozmiarem danych. Są idealne do raportów operacyjnych, zestawień transakcyjnych, listów, pokwitowań i wielu innych typów raportów, w których nie znasz rozmiaru danych, które będą wyświetlane, a chcesz pokazać wszystkie dane.', // RDL reports are data driven reports which grow with the data size. These are ideal for operational reports, transactional tabulations, letters, receipts, and many other types of reports where you do not know the size of data that will be displayed and want to show all the data.
+	tpDetailsDescriptionBlankPageReport: 'Raporty stron to raporty oparte na układzie, w których dane są obcinane lub zmieniane w celu dopasowania do zaprojektowanego układu raportu. Są one idealne do tworzenia raportów pixel perfect, takich jak wyciągi rozliczeniowe, formularze, listy (o stałym układzie), certyfikaty, portfele, katalogi i wiele innych.', // Page reports are layout driven reports where data is truncated or resized to fit the designed report layout. These are ideal for pixel perfect reports such as billing statements, forms, letters (with fixed layout), certificates, portfolios, catalogs, and many more.
 	tpDetailsCreated: 'Utworzony', // Created
 	tpDetailsCreatedBy: 'Utworzony przez', // Created By
 	tpDetailsModified: 'Zmodyfikowany', // Modified
@@ -48,8 +48,8 @@ export default {
 	tpWizardBlankPage: 'Pusty raport', // Blank Page Report
 	tpWizardBlankRDL: 'Pusty raport RDL', // Blank RDL Report
 
-	tpWizardAllTemplates: 'All Templates',
-	tpWizardStandardTemplates: 'Standard Templates',
+	tpWizardAllTemplates: 'Wszystkie szablony', // All Templates
+	tpWizardStandardTemplates: 'Szablony standardowe', // Standard Templates
 
 	sysTagNoCategory: 'Brak kategorii', // No Category 
 	sysTagResources: 'Zasoby', // Resources
@@ -98,8 +98,8 @@ export default {
 	'editReport!name': 'Edytuj...', // Edit...
 	'editReport!description': 'Edytuj ten raport', // Edit this report
 
-	'openPublishedReport!name': 'Open Published Design...',
-	'openPublishedReport!description': 'Open published design of this report as read-only',
+	'openPublishedReport!name': 'Otwórz opublikowany projekt...', // Open Published Design...
+	'openPublishedReport!description': 'Otwórz opublikowany projekt tego raportu jako tylko do odczytu', // Open published design of this report as read-only
 
 	'exportReport!name': 'Eksport...', // Export...
 	'exportReport!description': 'Eksportuj ten raport', // Export this report
@@ -116,8 +116,8 @@ export default {
 	'copyAsTemplate!name': 'Jako szablon...', // As Template...
 	'copyAsTemplate!description': 'Kopiuj raport jako szablon', // Copy report as template 
 	copyDocumentSuffix: '-Szablon', // -Template
-	copyReportAsTemplateSuccessCaption: 'Template was created successfully',
-	copyReportAsTemplateSuccessDetails: 'Template based on the report \'{{documentName}}\' was created successfully.',
+	copyReportAsTemplateSuccessCaption: 'Szablon został pomyślnie utworzony', // Template was created successfully
+	copyReportAsTemplateSuccessDetails: 'Szablon oparty na raporcie \'{{documentName}}\' został pomyślnie utworzony.', // Template based on the report \'{{documentName}}\' was created successfully.
 
 	'editTemplate!name': 'Edytuj szablon...', // Edit Template...
 	'editTemplate!description': 'Edytuj ten szablon', // Edit this template
@@ -132,8 +132,8 @@ export default {
 	'editReportRevision!name': 'Edytuj...', // Edit...
 	'editReportRevision!description': 'Edytuj poprawki tego raportu', // Edit this report revision
 
-	'openPublishedReportRevision!name': 'Open Published Design...',
-	'openPublishedReportRevision!description': 'Open published design of this report revision as read-only',
+	'openPublishedReportRevision!name': 'Otwórz opublikowany projekt...', // Open Published Design...
+	'openPublishedReportRevision!description': 'Otwórz opublikowany projekt tej wersji raportu jako tylko do odczytu', // Open published design of this report revision as read-only
 
 	'editTemplateRevision!name': 'Edytuj szablon...',
 	'editTemplateRevision!description': 'Edytuj tę wersję szablonu',
@@ -149,7 +149,7 @@ export default {
 	'commandsEditorNoAvailableCategories': 'brak dostępnych poleceń',
 	'commands$navigation': 'Nawigacja',
 	'commands$refresh': 'Odśwież',
-	'commands$refreshcache': 'Refresh Cache',
+	'commands$refreshcache': 'Odśwież pamięć podręczną',
 	'commands$history': 'Historia',
 	'commands$mousemode': 'Tryb myszy',
 	'commands$zoom': 'Powiększenie',
@@ -185,21 +185,21 @@ export default {
 	// Document Section
 	referencedDataDocuments: 'Dokument danych referencyjnych', // Referenced Data Document 
 
-	'caching!name': 'Caching',
-	'referencedDataDocuments!name': 'Referenced Data Documents',
-	cachingModePreview: 'Preview',
-	cachingModeFull: 'Full',
-	cachingIntervalHour: 'Hour',
-	cachingIntervalDay: 'Day',
-	cachingIntervalWeek: 'Week',
-	cachingIntervalMonth: 'Month',
-	cachingIsDisabledLabel: 'Report caching is disabled',
-	cachingSetting: 'Caching',
-	allowCachingSetting: 'Allow Caching',
-	cachingAgeSetting: 'Maximum Caching Age',
-	cachingIntervalSetting: 'Caching Interval',
-	allowCachingSettingYes: 'Yes',
-	allowCachingSettingNo: 'No',
+	'caching!name': 'Buforowanie', // Caching
+	'referencedDataDocuments!name': 'Dokumenty referencyjne dotyczące danych', // Referenced Data Documents
+	cachingModePreview: 'Podgląd', // Preview
+	cachingModeFull: 'Pełny', // Full
+	cachingIntervalHour: 'Godzina', // Hour
+	cachingIntervalDay: 'Dzień', // Day
+	cachingIntervalWeek: 'Tydzień', // Week
+	cachingIntervalMonth: 'Miesiąc', // Month
+	cachingIsDisabledLabel: 'Buforowanie raportów jest wyłączone', // Report caching is disabled
+	cachingSetting: 'Buforowanie', // Caching
+	allowCachingSetting: 'Zezwól na buforowanie', // Allow Caching
+	cachingAgeSetting: 'Maksymalny wiek buforowania', // Maximum Caching Age
+	cachingIntervalSetting: 'Interwał buforowania', // Caching Interval
+	allowCachingSettingYes: 'Tak', // Yes
+	allowCachingSettingNo: 'Nie', // No
 
-	saveCachingSettingsError: 'Error occured on saving caching settings',
+	saveCachingSettingsError: 'Wystąpił błąd podczas zapisywania ustawień pamięci podręcznej', // Error occured on saving caching settings
 }

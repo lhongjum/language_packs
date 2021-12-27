@@ -48,7 +48,7 @@ export const schedulePL: LanguageKeyValueMap = {
 
 	// Delete Error
 	delScheduleError: 'Nie udało się usunąć szablonu', // Failed to delete template
-	delScheduleErrorContent: 'The template can not be deleted. It is used by the following tasks:\n{{tasks}}',
+	delScheduleErrorContent: 'Szablonu nie można usunąć. Jest używany przez następujące zadania:\n{{zadania}}', // The template can not be deleted. It is used by the following tasks:\n{{tasks}}
 	delSchRelatedTasks: 'Zadania', // Tasks
 
 	// Recurrence Editor

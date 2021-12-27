@@ -48,13 +48,13 @@
 	"executionErr_13005": "[Błąd wykonania] Włącz eksport PDF, aby wykonać to zadanie.", // "[Execution Error] Please enable PDF Export to execute this task.",
 	"executionErr_13006": "[Błąd wykonania] Zainstaluj przeglądarkę Chrome, aby kontynuować.", // "[Execution Error] Please install a Chrome to continue.",
 	"executionErr_13007": "[Błąd wykonania] Nie udało się uruchomić Chrome, upewnij się, że Chrome jest wykonywalny.", // "[Execution Error] Failed to launch Chrome, make sure the Chrome is executable.",
-	"executionErr_13008": "The task is canceled by administrator or the task is automatically canceled because the task has timed out or the task is aborted.",
+	"executionErr_13008": "Zadanie jest anulowane przez administratora lub zadanie jest automatycznie anulowane, ponieważ upłynął limit czasu zadania lub zadanie zostało przerwane.",
 
 	// refreshTokenException
 	"securityErr_10001": "[Błąd zabezpieczeń] Discovery Client otrzymał błąd dokumentu.",
 	"securityErr_10002": "[Błąd zabezpieczeń] Otrzymano błąd dokumentu.",
 	"securityErr_10003": "[Błąd zabezpieczeń] Błąd przy odświeżaniu tokena..",
-	"securityErr_10004": "[Błąd zabezpieczeń] Get access token error: \n1, The organization in which the task is created does not exist.\n2, The user who creates the task is not in the specified organization.\n3, The user who creates the task does not exist.",
+	"securityErr_10004": "[Błąd zabezpieczeń] Błąd pobierania tokena dostępu: \n1, Organizacja, w której utworzono zadanie, nie istnieje.\n2, Użytkownik, który tworzy zadanie, nie znajduje się w określonej organizacji.\n3, Użytkownik, który tworzy zadanie, nie istnieje.",
 
 	// deploymentException
 	"deploymentErr_10001": "[Błąd wdrożenia] Błąd domeny: adres odbiorcy spoza organizacji.",

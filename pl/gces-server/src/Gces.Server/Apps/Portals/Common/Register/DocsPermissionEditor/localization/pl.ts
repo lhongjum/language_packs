@@ -11,13 +11,13 @@
 	// permission role display name
 	roleName_Everyone: 'Wszyscy', // Everyone
 	roleName_administrator: 'Administrator',
-	roleName_orgadmin: 'Administrator Organizacji', // Organization Administrator
+	roleName_orgadmin: 'Administrator organizacji', // Organization Administrator
 
 	Read: 'Odczyt', // Read
 	ReadAndWrite: 'Odczyt / Zapis', // Read / Write
 	Execute: 'Wykonaj', // Execute
 	ExecuteAndCreate: 'Wykonaj / Utwórz zestaw danych', // Execute / Create DataSet
-	FullControl: 'Full Control',
+	FullControl: 'Pełna kontrola', // Full Control
 
 	docsPermissionNoRoleTip: 'Brak roli', // No Roles!
 	docsPermissionRemovingTip: 'Ta czynność usunie wszystkie wspólne uprawnienia wybranych dokumentów.', // This action will remove all the existing shared permissions of the selected documents.

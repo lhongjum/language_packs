@@ -18,18 +18,18 @@ export const commonPL: LanguageKeyValueMap = {
 	'management!title': 'MANAGEMENT',
 	'others!title': 'OTHERS',
 
-	'ViewResourcePortalTip': 'To create DataSources, DataSets, and Data Models, you must have access to view Resource Portal.',
-	'ViewDashBoardTip': 'To create Dashboard, you must have access to view Dashboard.',
-	'ViewReportTip': 'To create Report,  you must have access to view Report.',
-	'ManageUserTip': 'Allow organization admin users to create/edit/delete users.',
-	'AssignManageUserTip': 'Allow organization admin users to assign/unassign the manage user permission, And you must have permission to manage user before you can assign/unassign it.',
+	'ViewResourcePortalTip': 'Aby tworzyć DataSources, DataSets i modele danych, musisz mieć dostęp do wyświetlania portalu zasobów.', // To create DataSources, DataSets, and Data Models, you must have access to view Resource Portal.
+	'ViewDashBoardTip': 'Aby utworzyć Dashboard, musisz mieć dostęp do wyświetlania Dashboard.', // To create Dashboard, you must have access to view Dashboard.
+	'ViewReportTip': 'Aby utworzyć raport, musisz mieć dostęp do wyświetlania raportu.', // To create Report,  you must have access to view Report.
+	'ManageUserTip': 'Zezwalaj administratorom organizacji na tworzenie/edycję/usuwanie użytkowników.', // Allow organization admin users to create/edit/delete users.
+	'AssignManageUserTip': 'Zezwalaj administratorom organizacji na przypisywanie/cofanie przypisania uprawnień do zarządzania użytkownikami. Musisz mieć uprawnienia do zarządzania użytkownikami, zanim będziesz mógł je przypisywać/cofać.', // Allow organization admin users to assign/unassign the manage user permission, And you must have permission to manage user before you can assign/unassign it.
 
 	'create-dataset': 'Utwórz zestaw danych', // Create Dataset
 	'create-dataset-description': 'Utwórz, wyświetl, edytuj i usuń zestawy danych', // Create, view, edit and delete datasets.
 	'create-data-source': 'Utwórz źródło danych', // Create Data Source
 	'create-data-source-description': 'Utwórz, wyświetl, edytuj i usuń źródła danych', // Create, view, edit and delete data sources.
 	'create-semantic-model': 'Utwórz model danych', // Create Data Model
-	'create-semantic-model-description': 'Create, view, edit and delete data models.',
+	'create-semantic-model-description': 'Twórz, przeglądaj, edytuj i usuwaj modele danych.', // Create, view, edit and delete data models.
 	'create-dashboard': 'Utwórz dashboard', // Create Dashboard
 	'create-dashboard-description': 'Utwórz, wyświetl, edytuj i usuń dashboardy', // Create, view, edit and delete dashboards.
 	'view-dashboard': 'Wyświetl dashboard', // View Dashboard
@@ -52,8 +52,8 @@ export const commonPL: LanguageKeyValueMap = {
 	'allow-sharing-description': 'Zezwalaj użytkownikowi na udostępnianie dokumentów', // Allow user to share documents to others
 	'create-web-page': 'Utwórz stronę internetową', // Create Webpage
 	'create-web-page-description': 'Zezwalaj użytkownikowi na tworzenie strony internetowej.', // Allow user to Create Webpage.
-	'assign-manage-user': 'Assign Manage User',
-	'assign-manage-user-description': 'Allow organization Administrator to assign Manage User Permission to organization administrator of its sub organization.',
-	'manage-user': 'Manage User',
-	'manage-user-description': 'Allow organization Administrator to create, edit and delete users within its organization.',
+	'assign-manage-user': 'Przypisz użytkownika do zarządzania', // Assign Manage User
+	'assign-manage-user-description': 'Zezwól administratorowi organizacji na przypisywanie uprawnień do zarządzania użytkownikami administratorowi organizacji jej organizacji podrzędnej.', // Allow organization Administrator to assign Manage User Permission to organization administrator of its sub organization.
+	'manage-user': 'Zarządzaj użytkownikiem', // Manage User
+	'manage-user-description': 'Zezwalaj administratorowi organizacji na tworzenie, edytowanie i usuwanie użytkowników w jej organizacji.', // Allow organization Administrator to create, edit and delete users within its organization.
 };

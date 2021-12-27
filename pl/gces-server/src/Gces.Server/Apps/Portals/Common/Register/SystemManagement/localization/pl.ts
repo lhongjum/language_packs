@@ -122,8 +122,8 @@ export const portalPL: LanguageKeyValueMap = {
 	'sys-ctheme!3': 'Nie można odnaleźć zmiennych własnego motywu', // The custom theme variables cannot be found
 	'sys-ctheme!4': 'Plik CSS {{file}} jest pusty', // The css file {{file}} is empty
 	'sys-ctheme!5': '$t(ctError!100012)',
-	'sys-st!1': 'The export template used by the schedule template cannot be found',
-	'sys-et!1': 'Access to export template API response an error: {{message}}',
+	'sys-st!1': 'Nie można znaleźć szablonu eksportu używanego przez szablon harmonogramu', // The export template used by the schedule template cannot be found
+	'sys-et!1': 'Dostęp do eksportowania odpowiedzi interfejsu API szablonu, błąd: {{message}}', // Access to export template API response an error: {{message}}
 	'ctVersion': 'Wersja', // Version
 	refreshToApplyTheme: '(Uwaga: odśwież stronę, aby zatwierdzić motyw)', // (notice: Refresh page to apply the theme)
 	refreshToApplyIcon: '(Uwaga: odśwież stronę, aby zatwierdzić ikony)', // notice: Refresh page to apply the icons
@@ -156,7 +156,7 @@ export const portalPL: LanguageKeyValueMap = {
 	auditLog_ActionType_Update: 'Zaktualizuj', // Update
 	auditLog_ActionType_Delete: 'Usuń', // Delete
 	auditLog_ActionType_Rename: 'Zmień nazwę', // Rename
-	auditLog_ActionType_ChangeThumbnail: 'Change Thumbnail',
+	auditLog_ActionType_ChangeThumbnail: 'Zmień miniaturę', // Change Thumbnail
 	auditLog_ActionType_Refresh: 'Odśwież', // Refresh
 	auditLog_ActionType_Cleanup: 'Sprzątnij', // Cleanup
 	auditLog_ActionType_Preview: 'Podgląd', // Preview
@@ -177,7 +177,7 @@ export const portalPL: LanguageKeyValueMap = {
 	auditLog_DocumentType_All: 'Wszystko', // All
 	auditLog_DocumentType_Datasource: 'Źródło danych', // Data source
 	auditLog_DocumentType_SemanticModel: 'Model semantyczny', // Semantic Model
-	auditLog_DocumentType_DataModel: 'Data Model',
+	auditLog_DocumentType_DataModel: 'Model danych', // Data Model
 	auditLog_DocumentType_Dataset: 'Zestaw danych', // Dataset
 	auditLog_DocumentType_Theme: 'Motyw', // Theme
 	auditLog_DocumentType_Jpeg: 'JPEG',
@@ -300,7 +300,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'ctError!100011': 'Motyw {{displayName}} został zastosowany w $t(portal!title) i nie może zostać usunięty.', // The theme {{displayName}} has been applied in $t(portal!title), cannot be deleted
 	'ctError!100012': 'Język edycji motywu nie pasuje do systemu', // The theme language edition does not match the system
 	submitSuccess: 'Motyw został załadowany', // Custom theme submitted successfully
-	themeDetail: 'Theme Details',
+	themeDetail: 'Szczegóły motywu', // Theme Details
 	Close: 'Zamknij', // Close
 	themeBasicInfo: 'Podstawowe informacje', // Basic Information
 	themeVariables: 'Zmienne kolorów', // Color Variables
@@ -349,7 +349,7 @@ export const portalPL: LanguageKeyValueMap = {
 	taskTypeDatasetCleanup: 'Czyszczenie zbioru danych', // Dataset Cleanup
 	taskTypeRptExport: 'Eksport raportu', // Report Export
 	taskTypeDashboardExport: 'Eksport pulpitu nawigacyjnego', // Dashboard Export
-	taskTypeDataModelRefresh: 'Cached Model Refresh',
+	taskTypeDataModelRefresh: 'Odświeżanie modelu w pamięci podręcznej', // Cached Model Refresh
 	taskEnableStatus: 'Włącz', // Enable
 	taskDisableStatus: 'Wyłącz', // Disable
 	taskEnabledStatus: 'Włączony', // Enabled
@@ -372,8 +372,8 @@ export const portalPL: LanguageKeyValueMap = {
 	err_30026: 'Nie udało się usunąć zadania "{{taskId}}", szczegóły błędu: {{innerMessage}}.', // Failed to remove task "{{taskId}}", error detail:{{innerMessage}}.
 
 	// Schedule Template Document Type
-	datasource: 'Źródło Danych', // Data Source
-	dataset: 'Zestaw Danych', // Dataset
-	dashboard: 'Pulpit Nawigacyjny', // Dashboard
+	datasource: 'Źródło danych', // Data Source
+	dataset: 'Zestaw danych', // Dataset
+	dashboard: 'Pulpit nawigacyjny', // Dashboard
 	report: 'Raport', // Report
 };

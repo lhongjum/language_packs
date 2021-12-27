@@ -258,13 +258,13 @@
   },
   "barcode_micro_pdf417_compaction_mode": {
     "Auto": "Auto",
-    "TextCompactionMode": "TextCompactionMode",
-    "NumericCompactionMode": "NumericCompactionMode",
-    "ByteCompactionMode": "ByteCompactionMode"
+    "Tryb zagęszczania tekstu": "TrybZagęszczaniaTekstu",
+    "NumericCompactionMode": "NumerycznyTrybZagęszczania",
+    "ByteCompactionMode": "BitowyTrybZagęszczania"
   },
   "barcode_micro_pdf417_version": {
-    "ColumnPriorAuto": "ColumnPriorAuto",
-    "RowPriorAuto": "RowPriorAuto",
+    "ColumnPriorAuto": "KolumnaPoprzedniaAuto",
+    "RowPriorAuto": "WierszPoprzedniAuto",
     "Version1X11": "Version1X11",
     "Version1X14": "Version1X14",
     "Version1X17": "Version1X17",
@@ -331,8 +331,8 @@
     "Level8": "Level8"
   },
   "barcode_pdf417_type": {
-    "Normal": "Normal",
-    "Simple": "Simple"
+    "Normal": "Normalny",
+    "Simple": "Prosty"
   },
   "barcode_qrcode_error_level": {
     "M": "M",
@@ -363,8 +363,8 @@
   },
   "barcode_symbology": {
     "None": "Brak",
-    "Ansi39": "ANSI 3 of 9",
-    "Ansi39x": "ANSI Extended 3 of 9",
+    "Ansi39": "ANSI 3 z 9",
+    "Ansi39x": "ANSI Rozszerzony 3 z 9",
     "BC412": "BC412",
     "Codabar": "Codabar",
     "Code_11": "Code 11",

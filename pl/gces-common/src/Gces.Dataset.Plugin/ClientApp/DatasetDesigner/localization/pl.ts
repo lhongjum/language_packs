@@ -43,12 +43,12 @@ export const datasetPL = {
 	datasourceUnknown: 'Usunięty', // Deleted
 	Parameters: 'Parametry', // Parameters
 	Validating: 'Weryfikuję ...', // Validating...
-	reloadDCSParamsComment: 'Adapt datasource parameters',
-	reloadDSCParams: 'Adapt Datasource Parameters',
-	reloadDCSParamsSuccess: 'Success to adapt datasource parameters.',
-	reloadDSCParamsMessage: 'The datasource parameters has changed and been adapted, whether to save the document immediately and refresh the COT?',
-	AutoSaveSuccess: 'The dataset was successfully saved automatically',
-	AutoSaveComment: 'Auto save',
+	reloadDCSParamsComment: 'Dostosuj parametry źródła danych', // Adapt datasource parameters
+	reloadDSCParams: 'Dostosuj parametry źródła danych', // Adapt Datasource Parameters
+	reloadDCSParamsSuccess: 'Sukces dostosowania parametrów źródła danych.', // Success to adapt datasource parameters.
+	reloadDSCParamsMessage: 'Zmieniono i dostosowano parametry źródła danych, czy od razu zapisać dokument i odświeżyć COT?', // The datasource parameters has changed and been adapted, whether to save the document immediately and refresh the COT?
+	AutoSaveSuccess: 'Zbiór danych został pomyślnie zapisany automatycznie', // The dataset was successfully saved automatically
+	AutoSaveComment: 'Automatyczny zapis', // Auto save
 
 	// designer mode modal
 	SelectCreateMode: 'Wybierz tryb towrzenia zestawu danych', // Please select create dataset mode
@@ -76,10 +76,10 @@ export const datasetPL = {
 
 	// choose dataset type
 	ChooseDatasetTypeTitle: 'Wybierz typ zestawu danych', // Please select dataset type
-	ChooseReportDataset: 'Direct Dataset',
-	ChooseDashboardDataset: 'Cached Dataset',
-	IntroduceReport: 'The direct dataset will be calculated every time when it is consumed.',
-	IntroduceDashboard: 'The cached dataset will be calculated and cached when it is saved.',
+	ChooseReportDataset: 'Bezpośredni zbiór danych', // Direct Dataset
+	ChooseDashboardDataset: 'Zbiór danych w pamięci podręcznej', // Cached Dataset
+	IntroduceReport: 'Bezpośredni zbiór danych będzie obliczany za każdym razem, gdy zostanie wykorzystany.', // The direct dataset will be calculated every time when it is consumed.
+	IntroduceDashboard: 'Buforowany zestaw danych zostanie obliczony i zapisany w pamięci podręcznej po zapisaniu.', // The cached dataset will be calculated and cached when it is saved.
 
 	// data type
 	Number: 'Number',
@@ -106,8 +106,8 @@ export const datasetPL = {
 	Multivalue: 'Multiwartość', // Multivalue
 
 	// relationships tab
-	DataSource: 'Źródło Danych', // Data Source
-	DataSources: 'Źródła Danych', // Data Sources
+	DataSource: 'Źródło danych', // Data Source
+	DataSources: 'Źródła danych', // Data Sources
 	CreateDatasetTip: 'Kliknij "Źródło danych", aby dodać źródło danych', // Click "Data Source" to add data source
 	AddCustomSqlTable: 'Dodaj własną tabelę SQL', // Add Custom SQL Table
 	Preview: 'Podgląd', // Preview
@@ -166,7 +166,7 @@ export const datasetPL = {
 	SQLCommand: 'Zapytanie SQL', // SQL Command
 	SameNameMsg: 'Tabela o nazwie "{{name}}" już istnieje.', // A table named "{{name}}" already exists.
 	UndefinedParameter: 'Sql zawiera niezdefiniowany parametr: {{parameter}}. Kliknij przycisk „Parametry”, aby go wygenerować i skonfigurować.', // The Sql contains undefined parameter: {{parameter}}. Please click the "Parameters" button to generate and configure it.
-	InvalidParameter: 'The Sql contains invalid parameter:{{parameter}}. For cached dataset, the parameter type should be constant in the custom sql table.',
+	InvalidParameter: 'Sql zawiera nieprawidłowy parametr: {{parameter}}. W przypadku buforowanego zestawu danych typ parametru powinien być stały w niestandardowej tabeli sql.', // The Sql contains invalid parameter:{{parameter}}. For cached dataset, the parameter type should be constant in the custom sql table.
 	CaseNotMatchedParameters: 'Sql zawiera niedopasowany parametr: {{parameter}}, wielkość liter musi być odpowiednio dopasowana.', // The Sql contains not matched parameter: {{parameter}}, the case must match sensitively.
 	InvalidSql: 'Błąd SQL, nieprawidłowy parametr {{parameter}}', // Sql Error, invalid parameter: {{parameter}}
 	QueryType: 'Zawartość zapytania', // QueryType
@@ -177,10 +177,10 @@ export const datasetPL = {
 	DeleteCustomSqlTableConfirmMsg: 'Usunąć własną tabelę SQL "{{name}}" na zawsze?', // Delete Custom Sql Table "{{name}}" forever?
 
 	Procedures: 'Procedury', // Procedures
-	ProcedureParameterName: 'Nazwa Parametru', // Parameter Name
-	ProcedureParameterType: 'Typ Danych', // Data Type
-	ProcedureParameterValueType: 'Typ Wartości', // Value Type
-	ProcedureParameterDefaultValue: 'Wartość Domyślna', // Default Value
+	ProcedureParameterName: 'Nazwa parametru', // Parameter Name
+	ProcedureParameterType: 'Typ danych', // Data Type
+	ProcedureParameterValueType: 'Typ wartości', // Value Type
+	ProcedureParameterDefaultValue: 'Wartość domyślna', // Default Value
 	InParam: 'Parametr W',
 	ResultSet: 'Zestaw wynikowy', // Result Set
 	CustomTableBindedParameterNotFound: 'Bieżąca niestandardowa tabela Sql jest uszkodzona. Nie znaleziono następujących powiązanych parametrów: {{invalidParametersName}}.', // The current custom Sql table is corrupted, the following bound parameters are not found:
@@ -240,20 +240,20 @@ export const datasetPL = {
 	EmptyFieldsSearchResultTip: 'Nie ma pól pasujących do wyszukiwania', // There is no field match the search.
 	DragColumnToGroup: 'Upuść kolumnę tutaj, aby stworzyć grupę', // Drop Column Here to do group.
 	DragColumnToAggregation: 'Upuść kolumnę tutaj, aby stworzyć agregację', // Drop Column Here to do aggregation.
-	ClickPlugButtonToAdd: 'Click "+" button to add calculated field.',
+	ClickPlugButtonToAdd: 'Kliknij przycisk "+", aby dodać pole obliczeniowe.', // Click "+" button to add calculated field.
 	FieldDetailTitle: 'W tym trybie możesz wybrać i modyfikować pola używane jako wyjście', // In this mode, you could select and modify some fields to used as output
 	FieldGroupTitle: 'W tym trybie możesz grupować pola i jednocześnie wykonywać agregacje', // In this mode, you could group some field and do the aggregation same time
 	FieldColumnLabel: 'Pole', // Field
 	FieldDisplayLabel: 'Wyjście', // Output
-	DataVizAIHintsLabel: 'Data Category', // Data Category
+	DataVizAIHintsLabel: 'Kategoria danych', // Data Category
 	FieldDatatypeLabel: 'Typ', // Type
 	FieldTargetDataTypeLabel: 'Docelowy typ', // Target Type
 	FieldAliasLabel: 'Alias', // Alias
 	FieldDesLabel: 'Opis', // Description
 	FieldExpression: 'Wyrażenie', // Expression
 	ExpressionIsEmptyMsg: 'Wyrażenie nie może być puste', // Expression could not be empty
-	ExpressionContainUndefinedParameter: 'The expression contains undefined parameter: {{parameter}}. Please click the "Parameters" button to generate and configure it.',
-	ExpressionContainInvalidParameter: 'The expression contains invalid parameter: {{parameter}}. For cached dataset, the parameter type should be constant in the expression.',
+	ExpressionContainUndefinedParameter: 'Wyrażenie zawiera niezdefiniowany parametr: {{parameter}}. Kliknij przycisk „Parametry”, aby go wygenerować i skonfigurować.', // The expression contains undefined parameter: {{parameter}}. Please click the "Parameters" button to generate and configure it.
+	ExpressionContainInvalidParameter: 'Wyrażenie zawiera nieprawidłowy parametr: {{parameter}}. W przypadku buforowanego zestawu danych typ parametru powinien być stały w wyrażeniu.', // The expression contains invalid parameter: {{parameter}}. For cached dataset, the parameter type should be constant in the expression.
 	CustomFieldAliasCanNotBeEmpty: 'Alias własnego pola nie może być pusty', // Custom field \'s alias could not be empty
 	FieldIsReferByOther: 'Nie można zmienić obecnego pola, inne pole odnosi się do niego', // Could not change current field, it is referred by other field
 	NameContainsNonWord: 'Określona nazwa jest nieprawidłowa. Nie używaj ograniczonego znaku "{{word}}', // The specified name is not valid. Please do not use restricted character "{{word}}"
@@ -268,7 +268,7 @@ export const datasetPL = {
 	CategoryNameAlreadyExist: 'Nazwa kategorii \'{{name}}\' już istnieje', // Category name \'{{name}}\' already exist
 	CalculateCategoryAll: 'Wszystko', // All
 	SearchForFields: 'Szukaj pól', // Search for fields
-	CreateFieldSuccessfully: 'Field \'{{fieldName}}\' created successfully',
+	CreateFieldSuccessfully: 'Pole \'{{fieldName}}\' zostało utworzone pomyślnie', // Field \'{{fieldName}}\' created successfully
 
 	// Dataset Data Viz AI Hint types
 	Currency: 'Waluta',
@@ -304,15 +304,15 @@ export const datasetPL = {
 	orFilter: 'Lub', // Or
 	addRule: 'Dodaj regułę', // Add rule
 	addGroup: 'Dodaj grupę', // Add group
-	UserContextParameter: 'Parametr Kontekstu Użytkownika', // User Context Parameter
-	OrganizationContextParameter: 'Parametr Kontekstu Organizacji', // Organization Context Parameter
-	ConstantParameter: 'Stały Parametr', // Constant Parameter
+	UserContextParameter: 'Parametr kontekstu użytkownika', // User Context Parameter
+	OrganizationContextParameter: 'Parametr kontekstu organizacji', // Organization Context Parameter
+	ConstantParameter: 'Stały parametr', // Constant Parameter
 
 	// parameters tab
 	ConnectDbType: 'Podłącz typ bazy danych', // Connect Database Type
 	ConnectMode: 'Typ bazy danych:', // Dataset Type:
-	DirectConnection: 'Direct Dataset',
-	UseCache: 'Cached Dataset',
+	DirectConnection: 'Bezpośredni zbiór danych', // Direct Dataset
+	UseCache: 'Zbiór danych w pamięci podręcznej', // Cached Dataset
 	Parameter: 'Parametr', // Parameter
 	DataModelParameter: 'Parametr', // Parameter
 	DatasourceParameter: 'Parametr źródła danych', // Datasource Parameter
@@ -320,12 +320,12 @@ export const datasetPL = {
 	DefaultValue: 'Domyślna wartość', // DefaultValue
 	UserContext: 'Kontekst użytkownika', // User Context
 	OrganizationContext: 'Dane preferencji organizacji', // Organization Context
-	Source: 'źródło danych', // Data Source
+	Source: 'Źródło danych', // Data Source
 	SetPreviewValue: 'Ustaw parametr podglądu', // Set Preview Parameter
 	ParameterType: 'Typ parametru', // Parameter Type
 	UserInput: 'Dane wejściowe użytkownika', // User Input
-	UseCacheTip: 'The cached dataset will be calculated and cached when it is saved.',
-	DirectConnectionTip: 'The direct dataset will be calculated every time when it is consumed.',
+	UseCacheTip: 'Buforowany zestaw danych zostanie obliczony i zapisany w pamięci podręcznej po zapisaniu.', // The cached dataset will be calculated and cached when it is saved.
+	DirectConnectionTip: 'Bezpośredni zbiór danych będzie obliczany za każdym razem, gdy zostanie wykorzystany.', // The direct dataset will be calculated every time when it is consumed.
 	AddParameter: 'Dodaj parametr', // Add Parameter
 	CanNotSaveAlertAboutUseCache: 'Nie można używać trybu \'$t(UseCache)\', gdy zestaw danych ma parametr typu \'$t(UserInput)\'.', // Can not use \'$t(UseCache)\' mode when dataset has \'$t(UserInput)\' type parameter.
 	InvalidParameterNameError: 'nazwa parametru może zawierać tylko litery, liczby oraz _. Pierwszy znak nie może być liczbą, a długość powinna znajdować się w przedziale 1-32.', // Parameter name can only contains letter, number and _, the first character can not be a number, and the length should be between 1-32.
@@ -354,7 +354,7 @@ export const datasetPL = {
 	ConnectSuccess: 'Poprawnie połączono', // Connect successfully.
 	Create: 'Utwórz', // Create
 	EditDatasource: 'Edytuj źródło danych', // Edit Data Source
-	ReconfigDatasource: 'Konfiguruj Źródło Danych', // Reconfigure Data Source
+	ReconfigDatasource: 'Konfiguruj źródło danych', // Reconfigure Data Source
 	Update: 'Zaktualizuj', // Update
 	Local: 'Lokalnie', // Local
 	Embed: 'Osadź', // Embed
@@ -366,7 +366,7 @@ export const datasetPL = {
 	CacheExpiration: 'Wygaśnięcie Cache', // Cache Expiration
 	CacheExpirationMode: 'Tryb wygaśnięcia Cache', // Cache Expiration Mode
 	Password: 'Hasło', // Password
-	FilePassword: 'Hasło Pliku', // FilePassword
+	FilePassword: 'Hasło pliku', // FilePassword
 	Server: 'Serwer', // Server
 	Host: 'Host', // Host
 	Port: 'Port', // Port
@@ -375,12 +375,12 @@ export const datasetPL = {
 	Database: 'Baza danych', // Database
 	Service_Name: 'Nazwa usługi', // Service Name
 	Encrypt: 'Szyfruj', // Encrypt
-	SIP: 'Zasady wnioskowania Schematu', // Schema Infer Policy
+	SIP: 'Zasady wnioskowania schematu', // Schema Infer Policy
 	AllowHiddenSheets: 'Załaduj ukryte arkusze', // Load Hidden Sheets
 	AllowDBNull: 'Skonwertuj puste komórki na DBNull', // Convert empty cell to DBNull
 	UseAuth: 'Użyj autentykacji', // Use Auth
 	XPath: 'XPath', // XPath
-	ConnectionString: 'ParmaetryPołączenia', // ConnectionString
+	ConnectionString: 'ParametryPołączenia', // ConnectionString
 	Url: 'Link', // Url
 	JsonPath: 'Ścieżka JSON', // Json Path
 	JsonHttpMethod: 'Metoda HTTP', // HTTP Method
@@ -440,7 +440,7 @@ export const datasetPL = {
 	next: 'Następny', // Next
 	back: 'Poprzedni', // Previous
 	cancel: 'Anuluj', // Cancel
-	workSheet: 'Arkusz Roboczy', // WorkSheet
+	workSheet: 'Arkusz roboczy', // WorkSheet
 	renameWorkSheet: 'Nazwa nowego arkusza', // New Sheet Name
 	renameColumnName: 'Zmień nazwę', // Rename
 	textType: 'Tekst', // Text
@@ -458,10 +458,10 @@ export const datasetPL = {
 
 	// Document List
 	dlDatasetType: 'Typ zestawu danych', // Dataset Type
-	dlDashboardDataset: 'Cached Dataset',
-	dlReportDataset: 'Direct Dataset',
+	dlDashboardDataset: 'Zbiór danych w pamięci podręcznej', // Cached Dataset
+	dlReportDataset: 'Bezpośredni zbiór danych', // Direct Dataset
 	dlDataProvider: 'Dostawca danych', // Data Provider
-	dlDataSource: 'Źródło Danych', // Data Source
+	dlDataSource: 'Źródło danych', // Data Source
 
 	// Errors
 	err_10008: 'Pole obliczeniowe "{calculatedField}" odnosi się do nieokreślonego pola "{referredField}".', // Calculated field "{calculatedField}" is referencing an undefined field "{referredField}".
@@ -474,9 +474,9 @@ export const datasetPL = {
 	err_10015: 'Filtr "{filter}" odnosi się do nieokreślonego parametru "{referredParameter}".', // Filter "{filter}" is referencing an undefined parameter "{referredParameter}".
 	err_10016: 'Wystąpił błąd podczas działania: {message}', // Runtime error occurred: {message}
 	err_10017: 'Filtrowanie z użycium operatora BETWEEN wymaga dwóch parametrów.', // Filter with BETWEEN operator requires 2 parameters.
-	err_10018: 'In \'Cached Dataset\' mode,CustomSql cannot reference a User Context parameter "{referredParameter}".',
-	err_10019: 'In \'Cached Dataset\' mode,Calculated field "{calculatedField}" cannot reference a User Context parameter "{referredParameter}".',
-	err_10020: 'In \'Cached Dataset\' mode,Sql expression "{sqlExpression}" on table "{table}" can\'t reference an User Context parameter "{referredParameter}".',
+	err_10018: 'W trybie \'Zbuforowanego zestawu danych\' CustomSql nie może odwoływać się do parametru kontekstu użytkownika "{referredParameter}".', // In \'Cached Dataset\' mode,CustomSql cannot reference a User Context parameter "{referredParameter}".
+	err_10019: 'W trybie \'Zbuforowanego zestawu danych\' pole obliczeniowe "{calculatedField}" nie może odwoływać się do parametru kontekstu użytkownika "{referredParameter}".', // In \'Cached Dataset\' mode,Calculated field "{calculatedField}" cannot reference a User Context parameter "{referredParameter}".
+	err_10020: 'W trybie \'Zbuforowanego zestawu danych\' wyrażenie SQL "{sqlExpression}" w tabeli "{table}" nie może odwoływać się do parametru kontekstu użytkownika "{referredParameter}".', // In \'Cached Dataset\' mode,Sql expression "{sqlExpression}" on table "{table}" can\'t reference an User Context parameter "{referredParameter}".
 	err_10021: 'Przekroczono maksymalny limit kolumn. Wartość limitu: 512.\nAktualna liczba: {currentCount}.', // Exceeded max column\'s count, limit count: 512.\nCurrent count: {currentCount}.
 	err_10022: 'Pole obliczeniowe "{calculatedField}" nie może odnosić się do samego siebie', // Calculated field "{calculatedField}" cannot reference itself.
 	err_10023: 'Pole obliczeniowe zawiera odwołanie cykliczne', // Calculated field contains cycle reference.
@@ -486,11 +486,11 @@ export const datasetPL = {
 	err_10027: 'Pobieranie schematu nie powiodło się. Upewnij się, że: \ n1, Twoje ustawienia są prawidłowe. \ N2, Serwer umożliwia połączenia zdalne. \ N3, Źródło danych jest dostępne. \ n4, parametry URI są prawidłowe.', // Get schema failed. Please make sure: \n1, Your settings are valid.\n2, The server allows remote connections.\n3, The data source is available. \n4, The URI parameters are valid.
 	err_10028: 'Niestandardowa tabela SQL nie może zawierać zduplikowanej kolumny: "{{column}}"', // Custom SQL table could not contain duplicate column:"{{column}}".
 	err_10029: 'Filtr "W" nie może zawierać pustej grupy oraz/lub.', // In filter cannot contain empty and/or group.
-	err_10030: 'The model fields duplicated',
+	err_10030: 'Zduplikowane pola modelu', // The model fields duplicated
 	err_10034: 'Wyrażenie SQL odnosi się do niezdefiniowanego parametru "{{referredParameter}}".', // Sql expression is referencing an undefined parameter "{{referredParameter}}".
-	err_10035: 'In \'Cached Dataset\' mode,Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".',
+	err_10035: 'W trybie \'Cached Dataset\' wyrażenie SQL nie może odwoływać się do parametru {{context}} "{{referredParameter}}".', // In \'Cached Dataset\' mode,Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".
 	err_10036: 'Następujące powiązane parametry nie zostały znalezione w niestandardowej tabeli SQL: "{{referredParameters}}".', // The following bound parameters are not found in custom Sql table: "{{referredParameters}}".
-	err_10037: '{{option}} option cannot be empty.',
+	err_10037: 'Opcja {{option}} nie może być pusta.', // {{option}} option cannot be empty.
 
 	err_40001: 'Wiele źródeł danych nie jest obsługiwanych w przypadku aktualizacji przyrostowych.', // MultiDatasource is not supported in incremental update.
 	err_40002: 'Niestandardowa tabela SQL nie jest obsługiwana w przypadku aktualizacji przyrostowej.', // Custom SQL table is not supported in incremental update.
@@ -603,11 +603,11 @@ export const datasetPL = {
 	'Server:Port(e.g. localhost:39013))': 'Serwer:Port(e.g. localhost:39013))', // Server:Port(e.g. localhost:39013))
 	'ALIAnalyticDBMySql': 'AnalyticDB for MySQL',
 	'ProjectId': 'Project Id',
-	'OAuthPvtKeyPath': 'Key Path',
-	'OAuthAccessToken': 'Access Token',
-	'OAuthRefreshToken': 'Refresh Token',
-	'BigQuery-OAuthClientId': 'Client Id',
-	'BigQuery-OAuthClientSecret': 'Client Secret',
+	'OAuthPvtKeyPath': 'Kluczowa ścieżka', // Key Path
+	'OAuthAccessToken': 'Token dostępu', // Access Token
+	'OAuthRefreshToken': 'Odśwież token', // Refresh Token
+	'BigQuery-OAuthClientId': 'Id Klienta', // Client Id
+	'BigQuery-OAuthClientSecret': 'Sekret Klienta', // Client Secret
 
 	// dataset manager error message
 	'err_3000': 'Obliczenie nie powiodło się z powodu wyjątków lub obliczenia zostały anulowane przez administratora.', // The calculation failed due to exceptions or the calculation was canceled by administrator.
