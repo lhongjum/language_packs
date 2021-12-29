@@ -12,23 +12,23 @@ export const dataModelSchedulingPL: LanguageKeyValueMap = {
 	historyTabDescription: 'Historia wykonania zaplanowanych zadań', // Scheduled task execution history
 
 	// Tasks Tab
-	tasksTabHeader: 'Zaplanowane Zadania', // Scheduled Tasks
+	tasksTabHeader: 'Zaplanowane zadania', // Scheduled Tasks
 	tasksTabNoTasks: 'Brak zaplanowanych zadań dla tego dokumentu', // There are no scheduled tasks for this document
-	tasksTabBtnAddTask: 'Dodaj Zadanie', // Add Task
+	tasksTabBtnAddTask: 'Dodaj zadanie', // Add Task
 
 	// Task Item
-	taskItemRunBtnTitle: 'Uruchom Zadanie', // Run Task
+	taskItemRunBtnTitle: 'Uruchom zadanie', // Run Task
 	taskItemMenuBtnTitle: 'Operacje', // Actions
 	taskItemMenuEnableText: 'Włącz', // Enable
-	taskItemMenuEnableTitle: 'Włącz Zadanie', // Enable Task
+	taskItemMenuEnableTitle: 'Włącz zadanie', // Enable Task
 	taskItemMenuDisableText: 'Wyłącz', // Disable
-	taskItemMenuDisableTitle: 'Wyłącz Zadanie', // Disable Task
+	taskItemMenuDisableTitle: 'Wyłącz zadanie', // Disable Task
 	taskItemMenuEditText: 'Edytuj', // Edit
-	taskItemMenuEditTitle: 'Edytuj Zadanie', // Edit Task
+	taskItemMenuEditTitle: 'Edytuj zadanie', // Edit Task
 	taskItemMenuDeleteText: 'Usuń', // Delete
-	taskItemMenuDeleteTitle: 'Usuń Zadanie', // Delete Task
+	taskItemMenuDeleteTitle: 'Usuń zadanie', // Delete Task
 	taskItemMenuDuplicateText: 'Duplikuj', // Duplicate
-	taskItemMenuDuplicateTitle: 'Duplicate Task',
+	taskItemMenuDuplicateTitle: 'Duplikuj zadanie', // Duplicate Task
 	taskItemTextNextRun: 'Następne uruchomienie:', // Next run:
 	taskItemTextManually: 'Ręcznie', // Manually
 	taskItemTextNever: 'Nigdy', // Never
@@ -36,11 +36,11 @@ export const dataModelSchedulingPL: LanguageKeyValueMap = {
 
 	// Task Editor
 	taskNoScheduleTemplateTip: 'brak szablonu harmonogramu', // no schedule template
-	taskEditorCloneFromTemplate: 'Użyj Szablonu', // Use Template
-	taskEditorChooseTemplate: 'Wybierz Szablon', // Choose Template
+	taskEditorCloneFromTemplate: 'Użyj szablonu', // Use Template
+	taskEditorChooseTemplate: 'Wybierz szablon', // Choose Template
 	taskEditorTemplateHasBeenDeleted: 'Szablon został usunięty', // Template has been deleted
 	taskEditorHeaderDetails: 'Szczegóły', // Details
-	taskEditorInputPlaceholderDescription: 'Opis Zadania', // Task description
+	taskEditorInputPlaceholderDescription: 'Opis zadania', // Task description
 	taskEditorLabelTaskType: 'Typ zadania', // Task Type
 	taskEditorRefreshTask: 'Odśwież', // Refresh
 	taskEditorCleanupTask: 'Sprzątnij', // Cleanup
@@ -54,26 +54,26 @@ export const dataModelSchedulingPL: LanguageKeyValueMap = {
 	taskEditorCleanupExpiryPeriod: 'Okres ważności', // Expiry Period
 	taskEditorLabelStart: 'Start', // Start
 	taskEditorBtnCreateText: 'Utwórz Zadanie', // Create Task
-	taskEditorBtnUpdateText: 'Zaktualizuj Zadanie', // Update Task
+	taskEditorBtnUpdateText: 'Zaktualizuj zadanie', // Update Task
 	taskEditorBtnCancelText: 'Anuluj', // Cancel
-	taskEditorLabelMail: 'Powiadomienie Email', // Email Notification
+	taskEditorLabelMail: 'Powiadomienie e-mail', // Email Notification
 	taskEditorLabelMailLabel: 'Wprowadź powiadomienie e-mail', // Please enter email notification
 	taskEditorLabelMailTooltip: 'Wyślij wiadomość na określoną skrzynkę pocztową jeśli zadanie zakończy się niepowodzeniem', // Send the failure message to the specified mailbox when the task execute fail
 	taskEditorMailLabelInvalidDomainTip: 'Nieprawidłowa domena email', // Invalid Email Domain
 	taskEditorEmailFormatError: 'Format e-maila jest nieprawidłowy', // Email format is invalid
 	taskEditorDescriptionError: 'Opis zadania nie powinien być pusty', // Task description should not ben empty
-	searchNoResult: 'no items',
-	checkNoResult: 'no items',
-	entityContainsTaskTip: 'A refresh task already exists for this entity',
-	addEntities: 'Add entities',
-	showEntities: 'Show entities',
-	search: 'search',
-	items: 'items',
-	invalidItems: 'invalid items',
-	entityNotFound: 'Entity can not find in the data Model',
-	taskEditorEntities: 'Entities',
+	searchNoResult: 'brak przedmiotów', // no items
+	checkNoResult: 'brak przedmiotów', // no items
+	entityContainsTaskTip: 'Zadanie odświeżania już istnieje dla tej encji', // A refresh task already exists for this entity
+	addEntities: 'Dodaj encje', // Add entities
+	showEntities: 'Pokaż encje', // Show entities
+	search: 'szukaj', // search
+	items: 'pozycje', // items
+	invalidItems: 'nieprawidłowe pozycje', // invalid items
+	entityNotFound: 'Nie znaleziono encji w modelu danych', // Entity can not find in the data Model
+	taskEditorEntities: 'Encje', // Entities
 	entityEditorButtonOK: 'OK',
-	entityEditorButtonCancel: 'Cancel',
+	entityEditorButtonCancel: 'Anuluj', // Cancel
 	// Expiry Time Unit
 	taskEditorExpiryTimeUnit_Hour: 'Godziny', // Hours
 	taskEditorExpiryTimeUnit_Day: 'Dni', // Days
@@ -85,7 +85,7 @@ export const dataModelSchedulingPL: LanguageKeyValueMap = {
 	recEditorHeaderRepeat: 'Powtarzaj', // Repeat
 	recEditorLabelStart: 'Start', // Start
 	recEditorLabelEnd: 'Koniec', // End
-	recEditorPlaceholderNoEndDate: 'Brak Daty Końcowej', // No End Date
+	recEditorPlaceholderNoEndDate: 'Brak daty końcowej', // No End Date
 	recEditorDailyEditor: 'Dziennie', // Daily
 	recEditorWeeklyEditor: 'Tygodniowo', // Weekly
 	recEditorMonthlyEditor: 'Miesięcznie', // Monthly

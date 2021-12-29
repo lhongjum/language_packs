@@ -40,8 +40,8 @@ export const modelPL: LanguageKeyValueMap = {
 	beHidden: 'Już ukryte', // Already hidden
 	saveTips: 'Kliknij „Zapisz”, aby zakończyć tworzenie modelu', // Please click "Save" to complete the creation of the model
 	untitled: 'Brak tytułu', // Untitled
-	getDataTips: 'Please click "Get Data" to add tables first',
-	Forbidden: 'Access denied',
+	getDataTips: 'Kliknij "Pobierz dane", aby najpierw dodać tabele', // Please click "Get Data" to add tables first
+	Forbidden: 'Brak dostępu', // Access denied
 
 	// cardinality
 	'cardinality!0': '1 To 1',
@@ -89,16 +89,16 @@ export const modelPL: LanguageKeyValueMap = {
 	show: 'Pokaż', // Show
 	empty: 'Pusty', // Empty
 	apply: 'Zastosuj', // Apply
-	textItem: '[{{count}} item]',
-	textItem_plural: '[{{count}} items]',
-	greaterThanMaxLength: 'Must be less than or equal to the maximum length {{ maxLength }}',
-	notMatchPattern: 'Must match the regex {{ pattern }}',
+	textItem: '[{{count}} pozycja/e]', // [{{count}} item]
+	textItem_plural: '[{{count}} pozycji]', // [{{count}} items]
+	greaterThanMaxLength: 'Musi być mniejsza lub równa maksymalnej długości {{ maxLength }}', // Must be less than or equal to the maximum length {{ maxLength }}
+	notMatchPattern: 'Musi pasować do wyrażenia regularnego {{ pattern }}', // Must match the regex {{ pattern }}
 	'multipleValues!label': '<...>',
-	'multipleValues!title': 'multiple values',
-	sourceEntity: 'Source Entity',
-	targetEntity: 'Target Entity',
-	sourceColumns: 'Source Attributes',
-	targetColumns: 'Target Attributes',
+	'multipleValues!title': 'wiele wartości', // multiple values
+	sourceEntity: 'Encja źródłowa', // Source Entity
+	targetEntity: 'Encja docelowa', // Target Entity
+	sourceColumns: 'Atrybuty źródłowe', // Source Attributes
+	targetColumns: 'Atrybuty docelowe', // Target Attributes
 
 	// Security Filter Editor
 	filterExpression: 'Filtruj Wyrażenie', // Filter Expression
@@ -149,7 +149,7 @@ export const modelPL: LanguageKeyValueMap = {
 	PROP_ID: 'ID',
 	PROP_IsNullable: 'Jest nullable', // Is Nullable
 	PROP_IsUnique: 'Jest unikalny', // Is Unique
-	PROP_IsContainTimeZone: 'Contains Time Zone',
+	PROP_IsContainTimeZone: 'Zawiera strefę czasową', // Contains Time Zone
 	PROP_Binding: 'Wiązanie', // Binding
 	PROP_IsHidden: 'Jest ukryty', // Is Hidden
 	PROP_SecurityFilter: 'Filtr bezpieczeństwa', // Security Filter
@@ -167,7 +167,7 @@ export const modelPL: LanguageKeyValueMap = {
 	sqlExpression: 'Wyrażenie SQL', // SQL Expression
 	sqlQuery: 'Zapytanie SQL', // SQL Query
 	logicalDataType: 'Logiczny typ danych', // Logical Data Type
-	dataVizAIHint: 'Data Category', // Data Category
+	dataVizAIHint: 'Kategoria danych', // Data Category
 	CLRDataType: 'Typ danych systemowych', // System Data Type
 	conditionSelectSourceEntity: 'proszę wybrać encję źródłową', // please select source entity
 	conditionSelectTargetEntity: 'proszę wybrać encję docelową', // please select target entity
@@ -195,45 +195,45 @@ export const modelPL: LanguageKeyValueMap = {
 	'preview!attribute': 'Atrybut', // Attribute
 	'preview!operator': 'Operator',
 	'preview!value': 'Wartość', // Value
-	'preview!parameterName': 'Parameter Name',
-	'preview!valueType': 'Value Type',
-	'preview!securityFilter': 'Security Filter',
-	'preview!entityParameter': 'Entity Parameter',
+	'preview!parameterName': 'Nazwa parametru', // Parameter Name
+	'preview!valueType': 'Typ wartości', // Value Type
+	'preview!securityFilter': 'Filtr zabezpieczeń', // Security Filter
+	'preview!entityParameter': 'Parametr encji', // Entity Parameter
 
 	// local table
-	addLocalEntity: 'Add Local Entity',
-	editLocalEntity: 'Edit Local Entity',
-	editEntityData: 'Edit Entity Data',
-	headerName: 'Header Name',
-	addRow: 'Add Row',
-	addColumn: 'Add Column',
+	addLocalEntity: 'Dodaj lokalną encję', // Add Local Entity
+	editLocalEntity: 'Edytuj lokalną encję', // Edit Local Entity
+	editEntityData: 'Edytuj dane encji', // Edit Entity Data
+	headerName: 'Nazwa nagłówka', // Header Name
+	addRow: 'Dodaj wiersz', // Add Row
+	addColumn: 'Dodaj kolumnę', // Add Column
 	textType: 'Tekst', // Text
 	numberType: 'Number', // Number
 	datetimeType: 'DateTime', // DateTime
 	renameColumnName: 'Zmień nazwę', // Rename
-	deleteColumn: 'Delete Column',
-	importExcelFile: 'Import Excel File',
+	deleteColumn: 'Usuń kolumnę', // Delete Column
+	importExcelFile: 'Importuj plik Excel', // Import Excel File
 	selectFile: 'Wybierz plik', // Select File...
 	AutoColumnName: 'Używaj pierwszego wiersza jako nagłówka', // Use First Row as Header
 	AllowHiddenSheets: 'Załaduj ukryte arkusze', // Load Hidden Sheets
 	AllowDBNull: 'Skonwertuj puste komórki na DBNull', // Convert empty cell to DBNull
-	FilePassword: 'Hasło Pliku', // FilePassword
+	FilePassword: 'Hasło pliku', // FilePassword
 	FileUploaded: '{{file}} został wgrany', // {{file}} has been uploaded
 	FileUploadWithEmptyName: 'Plik został przekazany', // File has been uploaded
-	importCSVFile: 'Import CSV File',
+	importCSVFile: 'Importuj plik CSV', // Import CSV File
 	ColumnDelimiter: 'Ogranicznik kolumn', // Column Delimiter
-	workSheet: 'Arkusz Roboczy', // WorkSheet
-	selectSheet: 'Select Sheet',
-	calculateValuePrompt: 'Is-nullable and is-unique value is calculated by data of local entity.',
-	shiftLeft: 'Shift Left',
-	shiftRight: 'Shift Right',
-	nullShowMessage: 'If you input string "NULL", it will be converted to null value automatically',
+	workSheet: 'Arkusz roboczy', // WorkSheet
+	selectSheet: 'Wybierz arkusz', // Select Sheet
+	calculateValuePrompt: 'Wartość dopuszczalna i unikatowa jest obliczana na podstawie danych podmiotu lokalnego.', // Is-nullable and is-unique value is calculated by data of local entity.
+	shiftLeft: 'Przesuń w lewo', // Shift Left
+	shiftRight: 'Przesuń w prawo', // Shift Right
+	nullShowMessage: 'Jeśli wprowadzisz ciąg „NULL”, zostanie on automatycznie przekonwertowany na wartość null', // If you input string "NULL", it will be converted to null value automatically
 
-	fileSizeOverflow: 'File size overflow.',
-	rowOverflow: 'Rows overflow. Maximum number of rows is {{maxRowCount}}.',
-	columnOverflow: 'Columns overflow. Maximum number of columns is {{maxColumnCount}}.',
-	rowColumnOverflow: 'Rows and Columns overflow. Maximum number of rows is {{maxRowCount}} and maximum number of columns is {{maxColumnCount}}.',
-	overflowAlert: 'The sheet can not be selected, because its data is out of range. Maximum number of rows is {{maxRowCount}} and maximum number of columns is {{maxColumnCount}}.',
+	fileSizeOverflow: 'Przepełnienie rozmiaru pliku.', // File size overflow.
+	rowOverflow: 'Przepełnienie wierszy. Maksymalna liczba wierszy to {{maxRowCount}}.', // Rows overflow. Maximum number of rows is {{maxRowCount}}.
+	columnOverflow: 'Przepełnienie kolumn. Maksymalna liczba kolumn to {{maxColumnCount}}.', // Columns overflow. Maximum number of columns is {{maxColumnCount}}.
+	rowColumnOverflow: 'Przepełnienie wierszy i kolumn. Maksymalna liczba wierszy to {{maxRowCount}}, a maksymalna liczba kolumn to {{maxColumnCount}}.', // Rows and Columns overflow. Maximum number of rows is {{maxRowCount}} and maximum number of columns is {{maxColumnCount}}.
+	overflowAlert: 'Nie można wybrać arkusza, ponieważ jego dane są poza zakresem. Maksymalna liczba wierszy to {{maxRowCount}}, a maksymalna liczba kolumn to {{maxColumnCount}}.', // The sheet can not be selected, because its data is out of range. Maximum number of rows is {{maxRowCount}} and maximum number of columns is {{maxColumnCount}}.
 
 	// Notifications
 	ntfDismiss: 'Odrzuć', // Dismiss
@@ -243,16 +243,16 @@ export const modelPL: LanguageKeyValueMap = {
 	ntfError: 'ERROR',
 	ntfWarning: 'WARNING',
 	ntfInfo: 'INFO',
-	notifications: 'Notifications',
+	notifications: 'Powiadomienia', // Notifications
 
-	Unspecified: 'Unspecified',
+	Unspecified: 'Nieokreślony', // Unspecified
 	Contains: 'Zawiera', // Contains
 	NotContains: 'NieZawiera', // NotContains
 
-	dataSourceValidateFailed: 'Data source verification failed.',
-	'dataSourceValidateFailed!missing': 'The target does not exist.',
-	'dataSourceValidateFailed!change': 'The target type has been changed.',
-	validateDataSources: 'Validate data sources',
-	getFileDataFailed: 'Failed to get file data.',
-	emptyFile: 'File is empty.',
+	dataSourceValidateFailed: 'Weryfikacja źródła danych nie powiodła się.', // Data source verification failed.
+	'dataSourceValidateFailed!missing': 'Cel nie istnieje.', // The target does not exist.
+	'dataSourceValidateFailed!change': 'The target type has been changed.', // The target type has been changed.
+	validateDataSources: 'Sprawdź poprawność źródeł danych', // Validate data sources
+	getFileDataFailed: 'Nie udało się pobrać danych pliku.', // Failed to get file data.
+	emptyFile: 'Plik jest pusty.', // File is empty.
 };

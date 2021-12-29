@@ -22,14 +22,14 @@
 	SentMailFailed: 'Błąd połączenia z internetem.', // Net connection failed, please check your network.
 	ServerGeneratedInfo: 'Informacje z serwera', // Server generated info
 	TryNow: 'Zaloguj się teraz', // Log in right now
-	UserName_Text: 'Nazwa Użytkownika', // UserName:
+	UserName_Text: 'Nazwa użytkownika', // UserName:
 	UserName_Value: 'admin',
 	YouAreOffline: 'Nie można połączyć z siecią, lub jesteś w trybie offline. Prosimy o kontakt', // Could not connect to net, you are in offline mode, please contact us.
-	CopyContent: 'Copy Content',
-	CopySucceed: 'Copy succeed.',
-	CopyFailed: 'Copy Failed.',
-	gtGenerateQRCode: 'Generate QRCode',
-	gtQRCodeGetOfflineLicenseString: 'Scan the QR code to get the offline authorization text',
+	CopyContent: 'Kopiuj zawartość', // Copy Content
+	CopySucceed: 'Kopiowanie powiodło się', // Copy succeed.
+	CopyFailed: 'Kopiowanie nie powiodło się', // Copy Failed.
+	gtGenerateQRCode: 'Wygeneruj kod QR', // Generate QRCode
+	gtQRCodeGetOfflineLicenseString: 'Zeskanuj kod QR, aby uzyskać tekst autoryzacji offline', // Scan the QR code to get the offline authorization text
 
 	// Common
 	Add: 'Dodaj', // Add
@@ -58,6 +58,6 @@
 	LicenseActiveResultCode_3012: "Informacje deaktywacji nie pasują do urządzenia", // "Deactive info not match machine",
 	LicenseActiveResultCode_3013: "Informacje deaktywacji nie pasują do ID komputera", // "Deactive info not match computerId",
 	
-	LicenseActiveResultCode_12006: "Empty Key",
-	LicenseActiveResultCode_12007: "License content is not valid.",
+	LicenseActiveResultCode_12006: "Pusty klucz", // Empty Key
+	LicenseActiveResultCode_12007: "Treść licencji jest nieważna.", // License content is not valid.
 }

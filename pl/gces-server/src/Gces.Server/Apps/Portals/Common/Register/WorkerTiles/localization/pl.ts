@@ -18,10 +18,10 @@ export const tilePL: LanguageKeyValueMap = {
 	ttEndTime: 'Czas zakończenia', // End Time
 	ttInitiator: 'Inicjator', // Initiator
 	ttProgress: 'Progres', // Progress
-	ttWorkerLabel: 'Nazwa Usługi', // Worker Name
-	ttOrgPath: 'Organization',
+	ttWorkerLabel: 'Nazwa usługi', // Worker Name
+	ttOrgPath: 'Organizacja', // Organization
 	ttBackToList: 'Wróć do listy', // Back to list
-	ttCancelTask: 'Anuluj Zadanie', // Cancel Task
+	ttCancelTask: 'Anuluj zadanie', // Cancel Task
 	ttAllTask: 'Zadania', // All Tasks
 	ttInProgressTask: 'W trakcie', // In Progress Tasks
 	ttKilledTask: 'Anulowane', // Canceled Tasks

@@ -191,14 +191,14 @@ export const schedulingPL: LanguageKeyValueMap = {
 	securityErr_10001: '[Błąd zabezpieczeń] Discovery Client otrzymał błąd dokumentu.', // [Security Error] Discovery Client Retrieves discovery document error. ### Discovery Document i Client tak zostawiamy?
 	securityErr_10002: '[Błąd zabezpieczeń] Otrzymano błąd dokumentu.', // [Security Error] Get discovery document error. ### jw.
 	securityErr_10003: '[Błąd zabezpieczeń] Błąd przy odświeżaniu tokena.', // [Security Error] Request refresh token error..
-	securityErr_10004: '[Błąd zabezpieczeń] Get access token error: \n1, The organization in which the task is created does not exist.\n2, The user who creates the task is not in the specified organization.\n3, The user who creates the task does not exist.',
+	securityErr_10004: '[Błąd zabezpieczeń] Błąd pobierania tokena dostępu: \n1, Organizacja, w której utworzono zadanie, nie istnieje.\n2, Użytkownik, który tworzy zadanie, nie znajduje się w określonej organizacji.\n3, Użytkownik, który tworzy zadanie, nie istnieje.', // Get access token error: \n1, The organization in which the task is created does not exist.\n2, The user who creates the task is not in the specified organization.\n3, The user who creates the task does not exist.
 
 	// Execution Error Message
 	executionErr_10001: '[Błąd wykonania] Nieznany status zadania', // [Execution Error] Unknown cot task status.
 	executionErr_10002: '[Błąd wykonania] Nie znaleziono zadania', // [Execution Error] Cot task not found.
 	executionErr_10003: '[Błąd wykonania] Zadanie nie zostało utworzone', // [Execution Error] Cot task not created.
 	executionErr_10004: '[Błąd wykonania] Wystąpił błąd IO: {{errorMessage}}.', // [Execution Error] An IO error occured: {{errorMessage}}.
-	executionErr_11001: '[Execution Error] The specified directory is not found or permission deny.', // [Execution Error] The specified directory is not found or permission deny.
+	executionErr_11001: '[Błąd wykonania] Nie znaleziono określonego katalogu lub odmowa uprawnień.', // [Execution Error] The specified directory is not found or permission deny.
 	executionErr_11002: '[Błąd wykonania] Nie masz uprawnień dostępu do źródła danych.', // [Execution Error] You don\"t have permission to access datasource.
 	executionErr_11003: '[Błąd wykonania] Plik: {{ errorUsing }} jest w użyciu a pliku: { { errorDestroy } } nie można wyodrębnić. Sprawdź format pliku.', // File: {{ errorUsing }} is being used and file: { { errorDestroy } } can\"t be extracted,please check the file format.
 	executionErr_11004: '[Błąd wykonania] Plik: {{ errorUsing }} jest w użyciu', // [Execution Error] File: {{ errorUsing }} is being used.',
@@ -238,7 +238,7 @@ export const schedulingPL: LanguageKeyValueMap = {
 	taskErr_30023: 'Identyfikator URI portalu jest wymagany podczas tworzenia zadań dla zestawu danych. Prosimy o kontakt z administratorem.', // Portal URI is required when creating tasks for dataset. Please contact the Administrator.
 	taskErr_30024: 'Nie można utworzyć zadania, bieżący zbiór danych utworzył już zadanie w innej organizacji.', // Failed to create task, the current dataset has already created the task in other organization.
 	taskErr_30025: 'Nie udało się zaktualizować zadania w magazynie DB i trwałości wykonywania: pod warunkiem, że zadanie jest nieaktualne.', // Failed to update task in DB storage and execution persistence: provided task is outdated.
-	taskErr_30027: 'Template used in this task did not exist.',
+	taskErr_30027: 'Szablon użyty w tym zadaniu nie istniał.', // Template used in this task did not exist.
 
 	// SAGA: enable/disable task
 	sagaTextErrorUpdatingTaskList: 'Błąd podczas aktualizowania listy zadań', // Error updating task list

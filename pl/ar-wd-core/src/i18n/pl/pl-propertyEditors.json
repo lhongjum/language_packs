@@ -92,8 +92,8 @@
     "btnColorPicker": "Inne kolory",
     "btnWebColors": "Kolory internetowe",
     "labelHue": "Hue",
-    "labelSaturation": "Saturation",
-    "labelLightness": "Lightness",
+    "labelSaturation": "Saturacja",
+    "labelLightness": "Lekkość",
     "labelHex": "Hex"
   },
   "dataSetQuery": {

@@ -18,7 +18,7 @@
         "preparing-print": "Przygotowywanie wydruku...",
         "preparing-export": "Przygotowuję eksport...",
         "resume-rendering": "Częściowe dane: Uruchom pełny raport",
-        "refresh-cache": "Refresh Cache"
+        "refresh-cache": "Odśwież pamięć podręczną"
       }
     }
   },
@@ -32,14 +32,14 @@
         "dismiss-all": "Odrzuć wszystko"
       },
       "menu": {
-        "toogleText": "Expand menu",
+        "toogleText": "Rozwiń menu",
         "aria-label": "Menu",
-        "pin-button-title": "Pin"
+        "pin-button-title": "Przypnij"
       },
       "sidebar": {
         "expand-btn": "Rozwiń",
         "collapse-btn": "Zwiń",
-        "aria-label": "Sidebar"
+        "aria-label": "Pasek boczny"
       },
       "cancel-btn": "Anuluj",
       "toolbar": {
@@ -52,24 +52,24 @@
         "gotoprevious": "Idź do poprzedniego",
         "gotonext": "Idź do następnego",
         "gotolast": "Idź do ostatniego",
-        "hist-parent": "History: Back To Parent",
-        "hist-back": "History: Go Back",
-        "hist-fwd": "History: Go Forward",
+        "hist-parent": "Historia: Powrót do rodzica",
+        "hist-back": "Historia: Wróć",
+        "hist-fwd": "Historia: Idź naprzód",
         "movetool": "Przesuwanie",
         "fullscreen": "Włącz pełny ekran",
         "refresh": "Odśwież",
         "cancel": "Anuluj",
         "expand": "Rozwiń pasek narzędz",
-        "aria-label": "Toolbar"
+        "aria-label": "Pasek narzędzi"
       },
       "errors": {
         "noHostElement": "Nie można odnaleźć elementu hosta."
       },
       "top-bottom-panel": {
-        "aria-label": "Additional control panel"
+        "aria-label": "Dodatkowy panel sterowania"
       },
       "document-view": {
-        "aria-label": "Document view"
+        "aria-label": "Widok dokumentu"
       },
       "progress": {
         "page": "Strona"
@@ -100,7 +100,7 @@
         "print-report": "Błąd wydruku raportu"
       },
       "details": {
-        "unexpected": "Unexpected error occurred.",
+        "unexpected": "Wystąpił nieoczekiwany błąd.",
         "report-info": "Nie można uzyskać informacji o raporcie.",
         "rendering-info": "Nie można uzyskać informacji o renderowaniu",
         "job-info": "Nie można uzyskać informacji o zadaniu",

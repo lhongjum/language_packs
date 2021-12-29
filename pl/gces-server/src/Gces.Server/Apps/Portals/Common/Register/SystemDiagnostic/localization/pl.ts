@@ -30,10 +30,10 @@
 	CotWorkerLog: 'Logi CotWorkera', // CotWorker Log
 	DashboardWorkerLog: 'Logi dashborad workera', // Dashboard Worker Log
 	JavaDatasourceLog: 'Logi źródła danych Java ', // Java DataSource Log
-	MemoryDBLog: 'Memory Database Log', // Memory Database Log
-	AnalysisDBPrimaryNodeLog: 'Analysis Database Primary Node Log',
-	AnalysisDBServiceLog: 'Analysis Database Log',
-	SchedulerServiceLog: 'Scheduler Log',
+	MemoryDBLog: 'Dziennik bazy danych pamięci', // Memory Database Log
+	AnalysisDBPrimaryNodeLog: 'Dziennik głównego węzła bazy danych analizy', // Analysis Database Primary Node Log
+	AnalysisDBServiceLog: 'Dziennik bazy danych analizy', // Analysis Database Log
+	SchedulerServiceLog: 'Dziennik harmonogramu', // Scheduler Log
 	last1Day: 'Ostatni 1 dzień', // Last 1 Day
 	last7Days: 'Ostatnie 7 dni', // Last 7 Days
 	last30Days: 'Ostatnie 30 dni', // Last 30 Days
@@ -48,5 +48,5 @@
 	'sysConf!description': 'Pobierz swój odczulony plik konfiguracyjny', // Download your desensitized configuration file
 	downloadLog: 'Pobierz', // Download
 	'shortcut-systemDiagnostic!props!text': 'Diagnostyka systemu', // System Diagnostic
-	'shortcut-export!props!text': 'Export',
+	'shortcut-export!props!text': 'Eksport', // Export
 };

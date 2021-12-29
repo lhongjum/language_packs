@@ -67,13 +67,13 @@ export const gcExceptionLocalePL = {
 	E_50004: 'Nie można znaleźć własciwego SourceLoader.', // Can\'t find proper SourceLoader.
 	E_70000: 'Nie udało się zdobyć tokena dostępu.', // Failed to acquire access token
 	E_70001: 'Błąd sieci.', // Network error.
-	E_70002: '401 Unauthorized Error. Żądanie nie zostało zastosowane, ponieważ nie ma ważnych danych uwierzytelniających dla zasobu docelowego.', // 401 Unauthorized Error. The request has not been applied because it lacks valid authentication credentials for the target resource.
+	E_70002: '401 Błąd Autoryzacji. Żądanie nie zostało zastosowane, ponieważ nie ma ważnych danych uwierzytelniających dla zasobu docelowego.', // 401 Unauthorized Error. The request has not been applied because it lacks valid authentication credentials for the target resource.
 	E_70003: '404 Not Found Error. Serwer nie może znaleźć żądanego zasobu.', // 404 Not Found Error. The server can\'t find the requested resource.
 	E_70004: 'Brak danych zwróconych ze zdalnego serwera. Upewnij się, że zdalny serwer zwrócił dane.', // No data returned from the remote server. Please make sure that the remote server has data returned.
 	E_70005: '400 Bad Request Error. Serwer nie może przetworzyć żądania lub nie może go przetworzyć z powodu czegoś, co jest postrzegane jako błąd klienta (np. Zniekształcona składnia żądania, nieprawidłowe ramkowanie komunikatu żądania lub błędne kierowanie żądań).', // 400 Bad Request Error. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).
 	E_70006: '403 Forbidden Error. Serwer zrozumiał żądanie, ale odmawia jego autoryzacji.', // 403 Forbidden Error. The server understood the request but refuses to authorize it.
 	E_70007: '405 Method Not Allowed. Metoda żądania jest znana serwerowi, ale nie jest obsługiwana przez zasób docelowy.', // 405 Method Not Allowed. The request method is known by the server but is not supported by the target resource.
-	E_70008: '500 Internal Server Error. Serwer napotkał nieoczekiwany warunek, który uniemożliwił mu realizację żądania..', // 500 Internal Server Error. The server encountered an unexpected condition that prevented it from fulfilling the request.
+	E_70008: '500 Wewnętrzny błąd serwera. Serwer napotkał nieoczekiwany warunek, który uniemożliwił mu realizację żądania..', // 500 Internal Server Error. The server encountered an unexpected condition that prevented it from fulfilling the request.
 	E_40001: 'SqlOptimizer nie udało się wykonać pierwontej kwerendy SQL do źródła danych.', // SqlOptimizer failed on executing primitive sql on data source.
 	E_40002: 'Nie można odnaleźć określonej tabeli.', // Cannot find the specified table in context.
 	E_40003: 'Nie można odnaleźć określonej kolumny \'{ColumnName}\'.', // Cannot find the specified column \'{ColumnName}\' in context.
@@ -83,7 +83,7 @@ export const gcExceptionLocalePL = {
 	E_90002: 'Niepoprawna składnia obok \'{Token}\'.', // Incorrect syntax near \'{Token}\'.
 	E_90003: 'Niepoprawna składnia w instrukcji SQL.', // Incorrect syntax in the sql statement.
 	E_90004: 'Nieprawidłowa wartość literału.', // Invalid literal value.
-	E_90005: 'EPrzewidywano wyrażenie literału.', // Expecting literal expression.
+	E_90005: 'Oczekiwanie wyrażenia literału.', // Expecting literal expression.
 	E_90006: 'Tylko wyrażenia kolumnowe są dozwolone w klauzuli ORDERBY.', // Only column expressions are allowed in ORDERBY clause.
 	E_90007: 'Znak cytowania jest wymagany w odniesieniu do obiektu z nazwą będącą słowem kluczowym.', // Quotation mark required on object with a keyword-name.
 	E_90008: 'Funkcja nie jest obsługiwana.', // Function not supported.
@@ -159,7 +159,7 @@ export const gcExceptionLocalePL = {
 	E_80063: 'Funkcja wymaga parametru typu Array.', // Function requires an Array parameter.
 	E_80064: 'Nieobsługiwana wartość LIKE/NOTLIKE.', // Unsupported LIKE/NOTLIKE value.
 	E_80065: 'Nie udało się zwolnić wewnętrznych zasobów SourceTable\'s.', // Failed to dispose SourceTable\'s inner resources.
-	E_80066: 'Table-valued function requires an alias table name.',
+	E_80066: 'Funkcja zwracająca tabelę wymaga nazwy tabeli aliasów.', // Table-valued function requires an alias table name.
 	E_80067: 'Definicja kolumny z opcją \'AS JSON\' musi mieć typ danych STRING | TEXT | VARCHAR.', // Column definition with \'AS JSON\' option must have STRING|TEXT|VARCHAR data type.
 	E_80068: 'Klauzula With nie jest obsługiwana przez funkcję zwracającą tabelę.', // With-clause not supported by table-valued function.
 	E_80069: 'Klauzula With jest wymagana przez funkcję zwracającą tabelę.', // With-clause is required by table-valued function.
@@ -183,8 +183,8 @@ export const gcExceptionLocalePL = {
 
 export const documentSectionRegisterLocalePL = {
 	dlDatasetType: 'Typ zestawu danych', // Dataset Type
-	dlDashboardDataset: 'Cached Dataset',
-	dlReportDataset: 'Direct Dataset',
+	dlDashboardDataset: 'Zbiór danych w pamięci podręcznej', // Cached Dataset
+	dlReportDataset: 'Bezpośredni zbiór danych', // Direct Dataset
 	dlDataProvider: 'Dostawca danych', // Data Provider
 	dlDataSource: 'Źrodło danych', // Data Source
 };

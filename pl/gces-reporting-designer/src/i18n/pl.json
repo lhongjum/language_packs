@@ -7,12 +7,12 @@
     "version": "Wersja: {{versionNumber}}"
   },
   "accessDeniedBanner": {
-    "contactAdministrator": "Please contact your Administrator for more information.",
-    "notEnoughPermissionsForDesigner": "You have not enough permissions to access Report Designer.",
-    "notEnoughPermissionsToCreateReport": "You have not enough permissions to create a report.",
-    "reportAwaitingApproval": "The report '{{name}}' is awaiting approval and cannot be edited.",
-    "unavailableReport": "The report '{{name}}' is unavailable.",
-    "unavailableTemplate": "The template '{{name}}' is unavailable."
+    "contactAdministrator": "Aby uzyskać więcej informacji, skontaktuj się z administratorem.",
+    "notEnoughPermissionsForDesigner": "Nie masz wystarczających uprawnień, aby uzyskać dostęp do Projektanta raportów.",
+    "notEnoughPermissionsToCreateReport": "Nie masz wystarczających uprawnień, aby utworzyć raport.",
+    "reportAwaitingApproval": "Raport '{{name}}' czeka na zatwierdzenie i nie można go edytować.",
+    "unavailableReport": "Raport '{{name}}' jest niedostępny.",
+    "unavailableTemplate": "Szablon '{{name}}' jest niedostępny."
   },
   "appActions": {
     "copy": "Kopiuj",
@@ -37,8 +37,8 @@
     "copyright": "Prawa autorskie © 2021 GrapeCity",
     "madeInWebDesigner": "Wykonano w {{applicationTitle}}",
     "untitledReportName": "Brak tytułu",
-    "webDesignerTitle": "Report Designer",
-    "webDesignerTitleCompact": "Report Designer"
+    "webDesignerTitle": "Designer raportów",
+    "webDesignerTitleCompact": "Designer raportów"
   },
   "dataSetPicker": {
     "add": "Dodaj",
@@ -60,28 +60,28 @@
     "searchBoxPlaceholder": "wprowadź nazwę zasobu danych tutaj..."
   },
   "dataSourceEditor": {
-    "cancelLabel": "Cancel",
+    "cancelLabel": "Anuluj",
     "errors": {
-      "dataSourceCannotBeEdited": "Data source '{{name}}' cannot be edited.",
-      "dataSourceHasNoParameters": "Server data source '{{name}}' has no parameters."
+      "dataSourceCannotBeEdited": "Nie można edytować źródła danych '{{name}}'.",
+      "dataSourceHasNoParameters": "Źródło danych serwera '{{name}}' nie ma parametrów."
     },
-    "expressionLabel": "Expression...",
-    "parameterValueTitle": "Parameters - {{parameterName}} - Value",
-    "parametersLabel": "Parameters",
-    "reportParametersLabel": "Report Parameters",
+    "expressionLabel": "Wyrażenie...",
+    "parameterValueTitle": "Parametry - {{parameterName}} - Wartość",
+    "parametersLabel": "Parametry",
+    "reportParametersLabel": "Parametry raportu",
     "resetLabel": "Reset",
-    "saveLabel": "Save",
+    "saveLabel": "Zapisz",
     "validation": {
-      "fieldsCannotBeReferenced": "Data set fields cannot be referenced in a data source parameter value.",
-      "inconsistentValue": "Value is inconsistent.",
-      "invalidExpression": "Invalid expression.",
-      "invalidValue": "Value is not valid.",
-      "multiValueConstantType": "Multi-value constant type is expected to be '{{expectedType}}'.",
-      "multiValueReportParameter": "Report parameter is expected to be multi-value.",
-      "reportParameterDoesNotExist": "Report parameter '{{name}}' does not exist.",
-      "reportParameterType": "Report parameter type is '{{type}}' but expected type is '{{expectedType}}'.",
-      "singleValueConstantType": "Constant type is expected to be '{{expectedType}}'.",
-      "singleValueReportParameter": "Report parameter is expected to be single-value."
+      "fieldsCannotBeReferenced": "Do pól zestawu danych nie można odwoływać się w wartości parametru źródła danych.",
+      "inconsistentValue": "Wartość jest niespójna.",
+      "invalidExpression": "Nieprawidłowe wyrażenie.",
+      "invalidValue": "Wartość jest nieprawidłowa.",
+      "multiValueConstantType": "Oczekiwany typ stałej wielowartościowej to '{{expectedType}}'.",
+      "multiValueReportParameter": "Oczekuje się, że parametr raportu będzie wielowartościowy.",
+      "reportParameterDoesNotExist": "Parametr raportu '{{name}}' nie istnieje.",
+      "reportParameterType": "Typ parametru raportu to '{{type}}', ale oczekiwany typ to '{{expectedType}}'.",
+      "singleValueConstantType": "Oczekiwany typ stałej to '{{expectedType}}'.",
+      "singleValueReportParameter": "Oczekuje się, że parametr raportu będzie jednowartościowy."
     }
   },
   "dataTab": {
@@ -111,28 +111,28 @@
     }
   },
   "error": {
-    "convertReport": "The report '{{name}}' could not be converted for Designer.",
-    "convertTemplate": "The template '{{name}}' could not be converted for Designer.",
-    "createReport": "A new report could not be created.",
-    "createReportPermissions": "You have not enough permissions to create a report.",
-    "editReportAwaitingApproval": "The report '{{name}}' is awaiting approval and cannot be edited.",
+    "convertReport": "Nie można przekonwertować raportu '{{name}}' dla Projektanta.",
+    "convertTemplate": "Nie można przekonwertować szablonu '{{name}}' dla Projektanta.",
+    "createReport": "Nie udało się utworzyć nowego raportu.",
+    "createReportPermissions": "Nie masz wystarczających uprawnień, aby utworzyć raport.",
+    "editReportAwaitingApproval": "Raport '{{name}}' czeka na zatwierdzenie i nie można go edytować.",
     "errorCode": "Kod błędu: {{code}}",
     "internalReportWrapper": "Błąd wewnętrzny: {{errorCaption}}",
-    "openReport": "The report '{{name}}' could not be opened.",
-    "openReportVersion": "The report '{{name}}' (version: {{version}}) could not be opened.",
-    "openTemplate": "The template '{{name}}' could not be opened.",
-    "openTemplateVersion": "The template '{{name}}' (version: {{version}}) could not be opened.",
-    "previewReport": "The report '{{name}}' could not be previewed.",
-    "previewTemplate": "The template '{{name}}' could not be previewed.",
-    "restoreReport": "The report '{{name}}' could not be restored.",
-    "restoreTemplate": "The template '{{name}}' could not be restored.",
-    "saveNewReportPermissions": "You have not enough permissions to save a new report.",
-    "saveNewTemplatePermissions": "You have not enough permissions to save a new template.",
-    "saveReadOnlyReport": "The report '{{name}}' is opened as read-only and cannot be saved.",
-    "saveReadOnlyTemplate": "The template '{{name}}' is opened as read-only and cannot be saved.",
-    "saveReport": "The report '{{name}}' could not be saved.",
-    "saveReportAwaitingApproval": "The report '{{name}}' is awaiting approval and cannot be saved.",
-    "saveTemplate": "The template '{{name}}' could not be saved.",
+    "openReport": "Nie można otworzyć raportu '{{name}}'.",
+    "openReportVersion": "Nie można otworzyć raportu '{{name}}' (wersja: {{version}}).",
+    "openTemplate": "Nie można otworzyć szablonu '{{name}}'.",
+    "openTemplateVersion": "Nie można otworzyć szablonu '{{name}}' (wersja: {{version}}).",
+    "previewReport": "Nie można wyświetlić podglądu raportu '{{name}}'.",
+    "previewTemplate": "Nie można wyświetlić podglądu szablonu '{{name}}'.",
+    "restoreReport": "Nie można przywrócić raportu '{{name}}'.",
+    "restoreTemplate": "Nie można przywrócić szablonu '{{name}}'.",
+    "saveNewReportPermissions": "Nie masz wystarczających uprawnień, aby zapisać nowy raport.",
+    "saveNewTemplatePermissions": "Nie masz wystarczających uprawnień, aby zapisać nowy szablon.",
+    "saveReadOnlyReport": "Raport '{{name}}' jest otwierany jako tylko do odczytu i nie można go zapisać.",
+    "saveReadOnlyTemplate": "Szablon '{{name}}' jest otwierany jako tylko do odczytu i nie można go zapisać.",
+    "saveReport": "Nie można zapisać raportu '{{name}}'.",
+    "saveReportAwaitingApproval": "Raport '{{name}}' czeka na zatwierdzenie i nie można go zapisać.",
+    "saveTemplate": "Nie można zapisać szablonu '{{name}}'.",
     "theme": {
       "cannotLoad": "Nie można wczytać motywu raportu",
       "noThemes": "Brak dostępnych innych motywów. Ten raport nie ma obecnie określonego motywu",
@@ -140,14 +140,14 @@
       "notFoundOrInvalid": "Motyw '{{theme}}' wykorzystany w tym raporcie nie został lub ma niewłaściwą zawartość.",
       "useDefault": "Zostanie wykorzystany motyw domyślny '{{theme}}'."
     },
-    "unavailableReport": "The report '{{name}}' is unavailable.",
-    "unavailableTemplate": "The template '{{name}}' is unavailable.",
+    "unavailableReport": "Raport '{{name}}' jest niedostępny.",
+    "unavailableTemplate": "Szablon '{{name}}' jest niedostępny.",
     "upgradeModelError": "Nie można zaktualizować raportu do najnowszej wersji modelu.",
     "upgradeModelErrorDetails": "Należy naprawić wszystkie błędy walidacji i zapisać raport. Następnie otworzyć go ponownie i zaktualizować do najnowszej wersji modelu."
   },
   "fonts": {
-    "predefinedFonts": "Predefined Fonts",
-    "serverFonts": "Server Fonts"
+    "predefinedFonts": "Predefiniowane czcionki",
+    "serverFonts": "Czcionki serwerowe"
   },
   "helpInfo": {
     "title": "{{applicationTitle}} - pomoc online"
@@ -206,7 +206,7 @@
     "showDetails": "Pokaż szczegóły"
   },
   "overlayMessages": {
-    "checkingReferencedResources": "Checking referenced resources...",
+    "checkingReferencedResources": "Sprawdzanie przywołanych zasobów...",
     "creatingReport": "Tworzenie raportu...",
     "gettingReportDataSources": "Pobieranie źródeł danych raportu...",
     "gettingReportParameters": "Pobieranie parametrów raportu \"{{reportName}}\"...",
@@ -214,8 +214,8 @@
     "gettingSemanticModels": "Pobieranie modeli semantycznych...",
     "openingReport": "Opening report...",
     "preparingReportPreview": "Przygotowywanie poglądu...",
-    "restoringReport": "Restoring report...",
-    "savingReport": "Saving report...",
+    "restoringReport": "Przywracanie raportu...",
+    "savingReport": "Zapisywanie raportu...",
     "updatingSharedDataSets": "Aktualizowanie zbiorów danych...",
     "upgradingReportModel": "Aktualizowanie modelu raportu..."
   },
@@ -226,8 +226,8 @@
     "title": "Właściwości"
   },
   "readOnlyBadge": {
-    "label": "Read-Only",
-    "tooltip": "This report is opened as read-only so changes applied to it cannot be saved."
+    "label": "Tylko do odczytu",
+    "tooltip": "Ten raport jest otwierany w trybie tylko do odczytu, więc nie można zapisać wprowadzonych do niego zmian."
   },
   "saveAsDialog": {
     "cancelLabel": "Anuluj",
@@ -250,7 +250,7 @@
         "pdf": "PDF",
         "print": "Drukuj",
         "refresh": "Odśwież",
-        "refreshcache": "Refresh Cache",
+        "refreshcache": "Odśwież pamięć podręczną",
         "search": "Szukaj",
         "singlepagemode": "Widok pojedynczej strony",
         "txt": "TXT",
@@ -270,13 +270,13 @@
     },
     "okLabel": "OK",
     "permissionsSelector": {
-      "applyMinimumPermissionsLabel": "Apply Minimum Needed Permission",
-      "applyMinimumPermissionsTooltip": "The checked roles/organizations may not have sufficient permissions on the referenced documents to perform the action. \nYou can apply the minimum needed permission to make sure users can preview this document normally.",
+      "applyMinimumPermissionsLabel": "Zastosuj minimalne wymagane pozwolenie",
+      "applyMinimumPermissionsTooltip": "Zaznaczone role/organizacje mogą nie mieć wystarczających uprawnień do przywoływanych dokumentów, aby wykonać akcję. \nMożesz zastosować minimalne wymagane uprawnienia, aby upewnić się, że użytkownicy mogą normalnie przeglądać ten dokument.",
       "permissions": {
         "execute": "Wykonaj",
-        "export": "Export",
-        "fullControl": "Full Control",
-        "print": "Print",
+        "export": "Eksport",
+        "fullControl": "Pełna kontrola",
+        "print": "Druk",
         "read": "Odczyt",
         "readWrite": "Odczyt / Zapis"
       },
@@ -285,13 +285,13 @@
       "roleName_orgadmin": "Administrator organizacji",
       "title": "Uprawnienia",
       "warnings": {
-        "exportByRole": "The role '{{name}}' does not have 'Export Report' permission.",
-        "exportWithExecute": "Report cannot be exported with 'Execute' access permission.",
-        "printByRole": "The role '{{name}}' does not have 'Print Report' permission.",
-        "printWithExecute": "Report cannot be printed with 'Execute' access permission."
+        "exportByRole": "Rola '{{name}}' nie ma uprawnień 'Eksportuj raport'.",
+        "exportWithExecute": "Nie można wyeksportować raportu z uprawnieniem dostępu 'Wykonaj'.",
+        "printByRole": "Rola '{{name}}' nie ma uprawnienia 'Drukuj raport'.",
+        "printWithExecute": "Raportu nie można wydrukować z uprawnieniem dostępu 'Wykonaj'."
       }
     },
-    "publishLabel": "Publish",
+    "publishLabel": "Publikuj",
     "report": {
       "emptyNameTooltip": "Nazwa raportu nie może zawierać samych spacji",
       "errors": {
@@ -326,7 +326,7 @@
   "saveDialog": {
     "cancelLabel": "Anuluj",
     "commentLabel": "Komentarz",
-    "publishLabel": "Publish",
+    "publishLabel": "Publikuj",
     "report": {
       "errors": {
         "saveDocument": "Nie można zapisać raportu."
@@ -346,52 +346,52 @@
   },
   "serverApi": {
     "errors": {
-      "approveReportPublishRequest": "Could not approve a publish request ({{publishRequestId}}) for a report: {{id}}.",
-      "getCategoriesList": "Could not get categories list.",
-      "getDataModelEntities": "Could not get data model entities: {{id}}.",
-      "getDataModelSummary": "Could not get data model summary: {{id}}.",
-      "getDataModelTitle": "Could not get data model title: {{id}}.",
-      "getDataModelsList": "Could not get data models list.",
-      "getDataSetContent": "Could not get data set content: {{id}}.",
-      "getDataSetInfo": "Could not get data set info: {{id}}.",
-      "getDataSetsList": "Could not get data sets list.",
-      "getDataSourceSummary": "Could not get data source summary: {{id}}.",
-      "getDataSourcesList": "Could not get data sources list.",
-      "getDocumentPermissions": "Could not get document ({{documentId}}) permissions.",
-      "getDocumentViewerCommands": "Could not get document ({{documentId}}) viewer commands.",
-      "getFontsList": "Could not get fonts list.",
-      "getImagesList": "Could not get images list.",
-      "getReportContent": "Could not get report content: {{id}}.",
-      "getReportContentVersion": "Could not get report content: {{id}} (version: {{version}}).",
-      "getReportDraftId": "Could not get report draft id: {{id}}.",
-      "getReportInfo": "Could not get report info: {{id}}.",
-      "getReportParameters": "Could not get report parameters: {{id}}.",
-      "getReportingPluginInfo": "Could not get reporting plugin info.",
-      "getReportsList": "Could not get reports list.",
-      "getSharingRolesOrganizationsList": "Could not get sharing roles and organizations list.",
-      "getTemplateContent": "Could not get template content: {{id}}.",
-      "getTemplateContentVersion": "Could not get template content: {{id}} (version: {{version}}).",
-      "getTemplateInfo": "Could not get template info: {{id}}.",
-      "getTemplateParameters": "Could not get template parameters: {{id}}.",
-      "getTemplatesList": "Could not get templates list.",
-      "getThemeContent": "Could not get theme content: {{id}}.",
-      "getThemesList": "Could not get themes list.",
-      "getUserInfo": "Could not get user info.",
-      "getUserRoles": "Could not get user roles.",
-      "getWebFontUrl": "Could not get web font url.",
-      "makeReportPublishRequest": "Could not make a publish request for a report: {{id}}.",
-      "saveExistingReport": "Could not save an existing report: {{id}}.",
-      "saveExistingTemplate": "Could not save an existing template: {{id}}.",
-      "saveNewReport": "Could not save a new report: {{name}}.",
-      "saveNewTemplate": "Could not save a new template: {{name}}.",
-      "saveTemporaryReport": "Could not save a temporary report: {{name}}.",
-      "saveTemporaryTemplate": "Could not save a temporary template: {{name}}.",
-      "setDocumentCategory": "Could not set document ({{documentId}}) category: {{categoryId}}.",
-      "setDocumentRoles": "Could not set document ({{documentId}}) roles.",
-      "setDocumentViewerCommands": "Could not set document ({{documentId}}) viewer commands.",
-      "unsuccessfulStatusCode": "Unsuccessful status code {{status}}."
+      "approveReportPublishRequest": "Nie można zatwierdzić prośby o opublikowanie ({{publishRequestId}}) raportu: {{id}}.",
+      "getCategoriesList": "Nie udało się uzyskać listy kategorii.",
+      "getDataModelEntities": "Nie udało się pobrać jednostek modelu danych: {{id}}.",
+      "getDataModelSummary": "Nie udało się uzyskać podsumowania modelu danych: {{id}}.",
+      "getDataModelTitle": "Nie można pobrać tytułu modelu danych: {{id}}.",
+      "getDataModelsList": "Nie udało się uzyskać listy modeli danych.",
+      "getDataSetContent": "Nie udało się pobrać zawartości zestawu danych: {{id}}.",
+      "getDataSetInfo": "Nie udało się uzyskać informacji o zestawie danych: {{id}}.",
+      "getDataSetsList": "Nie udało się uzyskać listy zbiorów danych.",
+      "getDataSourceSummary": "Nie udało się uzyskać podsumowania źródła danych: {{id}}.",
+      "getDataSourcesList": "Nie udało się uzyskać listy źródeł danych.",
+      "getDocumentPermissions": "Nie udało się uzyskać uprawnień do dokumentu ({{documentId}}).",
+      "getDocumentViewerCommands": "Nie można pobrać poleceń przeglądarki dokumentu ({{documentId}}).",
+      "getFontsList": "Nie udało się pobrać listy czcionek.",
+      "getImagesList": "Nie udało się uzyskać listy obrazów.",
+      "getReportContent": "Nie udało się pobrać treści raportu: {{id}}.",
+      "getReportContentVersion": "Nie można pobrać treści raportu: {{id}} (wersja: {{version}}).",
+      "getReportDraftId": "Nie udało się uzyskać identyfikatora wersji roboczej raportu: {{id}}.",
+      "getReportInfo": "Nie udało się uzyskać informacji o raporcie: {{id}}.",
+      "getReportParameters": "Nie udało się uzyskać parametrów raportu: {{id}}.",
+      "getReportingPluginInfo": "Nie udało się uzyskać informacji o wtyczce raportowania.",
+      "getReportsList": "Nie udało się uzyskać listy raportów.",
+      "getSharingRolesOrganizationsList": "Nie udało się uzyskać listy ról i organizacji udostępniania.",
+      "getTemplateContent": "Nie udało się pobrać treści szablonu: {{id}}.",
+      "getTemplateContentVersion": "Nie udało się pobrać zawartości szablonu: {{id}} (wersja: {{version}}).",
+      "getTemplateInfo": "Nie udało się uzyskać informacji o szablonie: {{id}}.",
+      "getTemplateParameters": "Nie udało się uzyskać parametrów szablonu: {{id}}.",
+      "getTemplatesList": "Nie udało się uzyskać listy szablonów.",
+      "getThemeContent": "Nie udało się pobrać treści motywu: {{id}}.",
+      "getThemesList": "Nie udało się uzyskać listy motywów.",
+      "getUserInfo": "Nie udało się uzyskać informacji o użytkowniku.",
+      "getUserRoles": "Nie udało się uzyskać ról użytkownika.",
+      "getWebFontUrl": "Nie udało się uzyskać adresu URL czcionki internetowej.",
+      "makeReportPublishRequest": "Nie można złożyć prośby o opublikowanie raportu: {{id}}.",
+      "saveExistingReport": "Nie można zapisać istniejącego raportu: {{id}}.",
+      "saveExistingTemplate": "Nie można zapisać istniejącego szablonu: {{id}}.",
+      "saveNewReport": "Nie można zapisać nowego raportu: {{name}}.",
+      "saveNewTemplate": "Nie można zapisać nowego szablonu: {{name}}.",
+      "saveTemporaryReport": "Nie można zapisać tymczasowego raportu: {{name}}.",
+      "saveTemporaryTemplate": "Nie można zapisać szablonu tymczasowego: {{name}}.",
+      "setDocumentCategory": "Nie można ustawić kategorii dokumentu ({{documentId}}): {{categoryId}}.",
+      "setDocumentRoles": "Nie można ustawić ról dokumentu ({{documentId}}).",
+      "setDocumentViewerCommands": "Nie można ustawić poleceń przeglądarki dokumentu ({{documentId}}).",
+      "unsuccessfulStatusCode": "Nieudany kod statusu {{status}}."
     },
-    "publishReportCommitMessage": "Published via Report Designer."
+    "publishReportCommitMessage": "Opublikowano z designera raportów."
   },
   "sideBar": {
     "collapse": "Zwiń",
@@ -419,42 +419,42 @@
     "reportItem": "✔ {{sourceType}} '{{itemName}}' został przekształcony w {{resultType}}."
   },
   "unavailableResources": {
-    "criticalReferencedResources": "Critical referenced resources are unavailable.",
-    "dataModel": "Data model '{{id}}' of version {{version}} is unavailable.",
-    "dataSet": "Server data set '{{id}}' referenced in report data set '{{name}}' is unavailable.",
+    "criticalReferencedResources": "Krytyczne zasoby odniesienia są niedostępne.",
+    "dataModel": "Model danych '{{id}}' w wersji {{version}} jest niedostępny.",
+    "dataSet": "Zestaw danych serwera '{{id}}', do którego odwołuje się zestaw danych raportu '{{name}}' jest niedostępny.",
     "dataSource": "Server data source '{{id}}' referenced in report data source '{{name}}' is unavailable.",
-    "font": "Font '{{id}}' referenced within report item '{{itemName}}' is unavailable.",
-    "fontInSubitem": "Font '{{id}}' referenced within report item '{{itemName}}' in subitem ({{subitemInfo}}) is unavailable.",
-    "image": "Image '{{id}}' referenced within report item '{{itemName}}' is unavailable.",
-    "imageInSubitem": "Image '{{id}}' referenced within report item '{{itemName}}' in subitem ({{subitemInfo}}) is unavailable.",
-    "referencedResources": "Referenced resources are unavailable.",
-    "report": "Report '{{id}}' referenced within report item '{{itemName}}' is unavailable.",
-    "reportInSubitem": "Report '{{id}}' referenced within report item '{{itemName}}' in subitem ({{subitemInfo}}) is unavailable.",
+    "font": "Czcionka '{{id}}', do której odwołuje się element raportu '{{itemName}}' jest niedostępna.",
+    "fontInSubitem": "Czcionka '{{id}}', do której odwołuje się element raportu '{{itemName}}' w elemencie podrzędnym ({{subitemInfo}}) jest niedostępna.",
+    "image": "Obraz '{{id}}', do którego odwołuje się element raportu '{{itemName}}', jest niedostępny.",
+    "imageInSubitem": "Obraz '{{id}}', do którego odwołuje się element raportu '{{itemName}}' w elemencie podrzędnym ({{subitemInfo}}) jest niedostępny.",
+    "referencedResources": "Zasoby, do których istnieją odniesienia, są niedostępne.",
+    "report": "Raport '{{id}}', do którego odwołuje się element raportu '{{itemName}}' jest niedostępny.",
+    "reportInSubitem": "Raport '{{id}}', do którego odwołuje się element raportu '{{itemName}}' w elemencie podrzędnym ({{subitemInfo}}) jest niedostępny.",
     "subitem": {
-      "index": "index: {{index}}",
-      "label": "label: {{label}}",
-      "type": "type: {{type}}",
+      "index": "indeks: {{index}}",
+      "label": "etykieta: {{label}}",
+      "type": "typ: {{type}}",
       "types": {
-        "chartAxis": "Chart Axis",
-        "chartFooter": "Chart Footer",
-        "chartGlobalLegend": "Chart Global Legend",
-        "chartHeader": "Chart Header",
-        "chartLegend": "Chart Legend",
-        "chartPlot": "Chart Plot",
-        "tableOfContentsLevel": "Table of Contents Level",
-        "unknown": "Unknown"
+        "chartAxis": "Oś wykresu",
+        "chartFooter": "Stopka wykresu",
+        "chartGlobalLegend": "Globalna legenda wykresu",
+        "chartHeader": "Nagłówek wykresu",
+        "chartLegend": "Legenda wykresu",
+        "chartPlot": "Wątek wykresu",
+        "tableOfContentsLevel": "Spis treści",
+        "unknown": "Nieznany"
       }
     },
-    "theme": "Theme '{{id}}' is unavailable.",
-    "themeAtIndex": "Theme '{{id}}' at index {{index}} is unavailable.",
+    "theme": "Motyw '{{id}}' jest niedostępny.",
+    "themeAtIndex": "Motyw '{{id}}' w indeksie {{index}} jest niedostępny.",
     "titles": {
-      "dataModel": "Data Model",
-      "dataSets": "Data Sets",
-      "dataSources": "Data Sources",
-      "fonts": "Fonts",
-      "images": "Images",
-      "reports": "Reports",
-      "themes": "Themes"
+      "dataModel": "Model danych",
+      "dataSets": "Zbiory danych",
+      "dataSources": "Źródła danych",
+      "fonts": "Czcionki",
+      "images": "Obrazy",
+      "reports": "Raporty",
+      "themes": "Motywy"
     }
   },
   "unsavedChanges": {

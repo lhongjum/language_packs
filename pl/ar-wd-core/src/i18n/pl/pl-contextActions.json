@@ -97,7 +97,7 @@
       "above": "Powyżej",
       "below": "Poniżej"
     },
-    "more": "More...",
+    "more": "Więcej...",
     "deleteRow": "Usuń wiersz",
     "insertColumn": {
       "left": "Z lewej",
@@ -139,7 +139,7 @@
       "outsideGroupLeft": "Poza grupą - z lewej",
       "outsideGroupRight": "Poza grupą - z prawej"
     },
-    "more": "More...",
+    "more": "Więcej...",
     "addGroup": {
       "parent": "Nadrzędny",
       "child": "Podrzędny",

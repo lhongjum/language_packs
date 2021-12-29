@@ -26,7 +26,7 @@ export const fontPL: LanguageKeyValueMap = {
 	'fontType': 'Typ czcionki', // Font Type
 	'fileLoader': 'Plik czcionki ', // Font File
 	'selectFile': 'Wybierz plik', // Select File...
-	'fontFamilyPreview': 'Font Family Preview',
+	'fontFamilyPreview': 'Podgląd rodziny czcionek', // Font Family Preview
 	'local': 'Lokalne', // Local
 	'web': 'Web', // Web
 

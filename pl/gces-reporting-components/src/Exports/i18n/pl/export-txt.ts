@@ -1,6 +1,6 @@
 export default {
   "friendlyName": "TXT",
-  "tooltipName": "TXT Document",
+  "tooltipName": "Dokument TXT", // TXT Document
   "settings": {
     "CharWidthInTwips": {
       "label": "CharWidthInTwips",
@@ -14,9 +14,9 @@ export default {
       "label": "HorizontalPaddings",
       "category": "Różne",
       "enum": {
-        "Adjust": "Adjust",
-        "Remove": "Remove",
-        "Keep": "Keep",
+        "Adjust": "Dostosuj",
+        "Remove": "Usuń",
+        "Keep": "Pozostaw",
       }
     },
     "LineEnding": {

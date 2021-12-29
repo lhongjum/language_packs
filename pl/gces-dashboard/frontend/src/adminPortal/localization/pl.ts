@@ -27,7 +27,7 @@ export const portalPL: LanguageKeyValueMap = {
   'dashboardsConfiguration!contextMenuActions!drillTo': 'Przejdź do', // Drill To
   'dashboardsConfiguration!contextMenuActions!jumpTo': 'Skocz do', // Jump To
   'dashboardsConfiguration!enablePdfExport': 'Włącz eksport PDF', // Enable PDF Export
-  'dashboardsConfiguration!showWizard': 'Show Visualization Wizard For New Dashboard',
+  'dashboardsConfiguration!showWizard': 'Pokaż kreatora wizualizacji dla nowego pulpitu nawigacyjnego', // Show Visualization Wizard For New Dashboard
   selectAll: '(Wszystko)', // (All)
   selectNone: '(Nic)', // (None)
 };

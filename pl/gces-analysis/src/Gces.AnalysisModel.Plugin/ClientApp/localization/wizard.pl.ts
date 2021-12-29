@@ -53,71 +53,71 @@ export const wizardPL: LanguageKeyValueMap = {
 
 	noDataSource: 'Nie można znaleźć dostępnego źródła danych', // Could not find available data source
 
-	dataSourceType: 'Data Source Type',
-	'dataSourceType!0': 'Embedded Data Source',
-	'dataSourceType!1': 'Shared Data Source',
-	dataProvider: 'Data Provider',
-	loadingDatasources: 'Loading Data Sources...',
-	ProjectId: 'Project Id',
-	OAuthServiceAcctEmail: 'Service Account',
-	OAuthPvtKeyPath: 'Key Path',
-	OAuthAccessToken: 'Access Token',
-	OAuthRefreshToken: 'Refresh Token',
-	'BigQuery-OAuthClientId': 'Client Id',
-	'BigQuery-OAuthClientSecret': 'Client Secret',
-	AuthMode: 'AuthMode',
-
+	dataSourceType: 'Typ źródła danych', // Data Source Type
+	'dataSourceType!0': 'Wbudowane źródło danych', // Embedded Data Source
+	'dataSourceType!1': 'Udostępnione źródło danych', // Shared Data Source
+	dataProvider: 'Dostawca danych', // Data Provider
+	loadingDatasources: 'Ładowanie źródeł danych...', // Loading Data Sources...
+	ProjectId: 'Id Projektu', // Project Id
+	OAuthServiceAcctEmail: 'Konto usługi', // Service Account
+	OAuthPvtKeyPath: 'Kluczowa ścieżka', // Key Path
+	OAuthAccessToken: 'Token dostępu', // Access Token
+	OAuthRefreshToken: 'Odśwież token', // Refresh Token
+	'BigQuery-OAuthClientId': 'Id Klienta', // Client Id
+	'BigQuery-OAuthClientSecret': 'Sekret klienta', // Client Secret
+	AuthMode: 'Tryb uwierzytelniania', // AuthMode
+ 
 	// Cache Mode
-	data: 'Data',
-	getData: 'Get Data',
-	chooseDataSource: 'Choose data source',
-	selectAndEditTables: 'Select and edit tables',
-	selectAndEditColumns: 'Select and edit columns',
-	loadData: 'Load data',
-	addTableBySql: 'Add Table By Sql',
-	editTableBySql: 'Edit Table By Sql',
-	tableName: 'Table Name',
-	type: 'Type',
-	alias: 'Alias',
-	addTable: 'Add Table',
-	editTable: 'Edit Table',
-	editColumn: 'Edit Column',
-	saveAndContinueAdding: 'Save And Continue Adding',
-	addColumnBySql: 'Add Column By Sql Expression',
-	editColumnBySql: 'Edit Column By Sql Expression',
-	columnName: 'Column Name',
-	totalNumberOfRows: 'Total Number Of Rows',
-	progress: 'Progress ',
-	status: 'Status',
-	calculating: 'Calculating',
-	downloadLog: 'Download Log',
-	ok: 'OK',
-	ReadData: 'Read data',
-	FindDatabase: 'Find cache storage',
-	TransportData: 'Transport data',
-	LoadToDatabase: 'Load to cache storage',
-	loading: 'Loading',
-	succeeded: 'Successful',
-	failed: 'Failed',
-	reloadFailedTables: 'Reload Failed Tables',
-	getLockError: 'The lock expires, and the designer will automatically save and close',
-	autoSave: 'Auto Save',
-	modelAdaptation: 'Model Adaptation',
-	cannotDeleteLastEntity : 'Cannot delete the last entity',
-	cannotDeleteLastAttribute : 'Cannot delete the last Attribute',
-	reload: 'Reload',
-	lastLoadTime: 'Last Load Time',
-	retry: 'Retry',
-	exit: 'Exit',
-	reloadData: 'Reload Data',
-	selectTablesToReload: 'Select tables to reload',
-	'unsupportedDatatype!title': 'Unsupported data types',
-	'unsupportedDatatype!content': 'The unsupported columns are: {{column}}',
-	tableWithParameterHint: 'It is not allowed to select tables with parameters.',
-	table: 'Table',
-	view: 'View',
-	sql: 'SQL',
-
+	data: 'Dane', // Data
+	getData: 'Otrzymaj dane', // Get Data
+	chooseDataSource: 'Wybierz źródło danych', // Choose data source
+	selectAndEditTables: 'Wybierz i edytuj tabele', // Select and edit tables
+	selectAndEditColumns: 'Wybierz i edytuj kolumny', // Select and edit columns
+	loadData: 'Załaduj dane', // Load data
+	addTableBySql: 'Dodaj tabelę według sql', // Add Table By Sql
+	editTableBySql: 'Edytuj tabelę według sql', // Edit Table By Sql
+	tableName: 'Nazwa tabeli', // Table Name
+	type: 'Typ', // Type
+	alias: 'Alias', // Alias
+	addTable: 'Dodaj tabelę', // Add Table
+	editTable: 'Edytuj tabelę', // Edit Table
+	editColumn: 'Edytuj kolumnę', // Edit Column
+	saveAndContinueAdding: 'Zapisz i kontynuuj dodawanie', // Save And Continue Adding
+	addColumnBySql: 'Dodaj kolumnę według wyrażenia Sql', // Add Column By Sql Expression
+	editColumnBySql: 'Edytuj kolumnę według wyrażenia Sql', // Edit Column By Sql Expression
+	columnName: 'Nazwa kolumny', // Column Name
+	totalNumberOfRows: 'Całkowita liczba wierszy', // Total Number Of Rows
+	progress: 'Postęp', // Progress
+	status: 'Status', // Status
+	calculating: 'Obliczanie', // Calculating
+	downloadLog: 'Pobierz dziennik', // Download Log
+	ok: 'OK', // OK
+	ReadData: 'Przeczytaj dane', // Read data
+	FindDatabase: 'Znajdź pamięć podręczną', // Find cache storage
+	TransportData: 'Przenieś dane', // Transport data
+	LoadToDatabase: 'Załaduj do pamięci podręcznej', // Load to cache storage
+	loading: 'Ładowanie', // Loading
+	succeeded: 'Udało się', // Successful
+	failed: 'Nie udało się', // Failed
+	reloadFailedTables: 'Ponowne wczytaj nieudane tabele', // Reload Failed Tables
+	getLockError: 'Blokada wygasa, a designer automatycznie zapisze zmiany i zamknie się', // The lock expires, and the designer will automatically save and close
+	autoSave: 'Automatyczny zapis', // Auto Save
+	modelAdaptation: 'Adaptacja modelu', // Model Adaptation
+	cannotDeleteLastEntity : 'Nie można usunąć ostatniej jednostki', // Cannot delete the last entity
+	cannotDeleteLastAttribute : 'Nie można usunąć ostatniego atrybutu', // Cannot delete the last Attribute
+	reload: 'Przeładuj', // Reload
+	lastLoadTime: 'Czas ostatniego ładowania', // Last Load Time
+	retry: 'Ponów', // Retry
+	exit: 'Wyjdź', // Exit
+	reloadData: 'Przeładuj dane', // Reload Data
+	selectTablesToReload: 'Wybierz tabele do przeładowania', // Select tables to reload
+	'unsupportedDatatype!title': 'Nieobsługiwane typy danych', // Unsupported data types
+	'unsupportedDatatype!content': 'Nieobsługiwane kolumny to: {{column}}', // The unsupported columns are: {{column}}
+	tableWithParameterHint: 'Niedozwolone jest wybieranie tabel z parametrami.', // It is not allowed to select tables with parameters.
+	table: 'Tabela', // Table
+	view: 'Widok', // View
+	sql: 'SQL', // SQL
+ 
 	// data type
 	Number: 'Number',
 	Text: 'Text',

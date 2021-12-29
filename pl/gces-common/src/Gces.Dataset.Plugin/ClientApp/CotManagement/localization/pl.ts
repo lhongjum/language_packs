@@ -5,7 +5,7 @@ export const portalPL: LanguageKeyValueMap = {
 
 export const datasetPL: LanguageKeyValueMap = {
 	'OK': 'OK',
-	'Cancel': 'Cancel',
+	'Cancel': 'Anuluj', // Cancel
 	'cot-title': 'Nazwa', // Name
 	'cot-creator': 'Utworzono przez', // Created By
 	'cot-tenant': 'Organizacja', // Organization
@@ -26,11 +26,11 @@ export const datasetPL: LanguageKeyValueMap = {
 	'emptyCot': 'W bieżącym systemie nie ma pamięci podręcznej zestawu danych', // There is no dataset cache in the current system
 	'copy': 'Kopiuj komunikat o błędzie', // Copy Error Message
 
-	'batchRefreshConfirmtitle': 'Batch refresh dataset',
-	'batchRefreshMessage': 'Are you sure to batch refresh the dataset cache?',
-	'batchRefreshCotCache': 'Refresh dataset cache',
-	'invalidParameter': 'Invalid parameter',
-	'refreshError': 'Refresh dataset cache error.',
+	'batchRefreshConfirmtitle': 'Zbiór danych odświeżania partii', // Batch refresh dataset
+	'batchRefreshMessage': 'Czy na pewno chcesz wsadowo odświeżyć pamięć podręczną zestawu danych?', // Are you sure to batch refresh the dataset cache?
+	'batchRefreshCotCache': 'Odśwież pamięć podręczną zbioru danych', // Refresh dataset cache
+	'invalidParameter': 'Niewłaściwy parametr', // Invalid parameter
+	'refreshError': 'Błąd pamięci podręcznej zestawu danych odświeżania.', // Refresh dataset cache error.
 
 	// update error
 	err_100001: 'Nieprawidłowy parametr: {name}.', // Invalid parameter: {name}.
@@ -63,11 +63,11 @@ export const datasetPL: LanguageKeyValueMap = {
 	err_410140: 'Odświeżanie nie powiodło się: nie udało się zapisać danych binarnych w bazie danych analizy.', // Refresh failed: Failed to write binary data to analysis database.
 	err_410141: 'Odświeżanie nie powiodło się: nie udało się usunąć wstawionych wierszy.', // Refresh failed: Failed to delete inserted rows.
 
-	err_DataSourceAccessDenied: 'You do not have permission to access datasource.',
-	err_DataSourceNotFound: 'Specified datasource document is not found.',
-	err_DataSourceIntegrityCheck: 'Data source integrity check error.',
-	err_UserNotInOrgnization: 'Current user is not in any orgnization. Please check parameter with orgnization context.',
-	err_3000: 'The calculation failed due to exceptions or the calculation was canceled by administrator.',
+	err_DataSourceAccessDenied: 'Nie masz uprawnień dostępu do źródła danych.', // You do not have permission to access datasource.
+	err_DataSourceNotFound: 'Nie znaleziono określonego dokumentu źródła danych.', // Specified datasource document is not found.
+	err_DataSourceIntegrityCheck: 'Błąd sprawdzania integralności źródła danych.', // Data source integrity check error.
+	err_UserNotInOrgnization: 'Bieżący użytkownik nie należy do żadnej organizacji. Sprawdź parametr w kontekście organizacyjnym.', // Current user is not in any orgnization. Please check parameter with orgnization context.
+	err_3000: 'Obliczenie nie powiodło się z powodu wyjątków lub obliczenia zostały anulowane przez administratora.', // The calculation failed due to exceptions or the calculation was canceled by administrator.
 
 	gtClipboardError: 'Nie można zapisać danych do schowka', // Cannot write data to clipboard
 	gtClipboardSuccess: 'Poprawnie skopiowano do schowka', // Successfully copied to clipboard

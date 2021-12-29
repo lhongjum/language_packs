@@ -1,5 +1,5 @@
 {
   "btnTextSetDefaultValues": "Ustaw wartości domyślne",
-  "no-hidden-parameter-value": "Hidden report parameters - {{parameters}} - don't have default values. To preview this report successfully, please edit it in Report Designer and either make the mentioned parameters non-hidden, or specify their default values, or do both changes.",
-  "hidden-parameter-invalid-value": "Hidden report parameters - {{parameters}} - have invalid default values. To preview this report successfully, please edit it in Report Designer and correct settings of the mentioned parameters."
+  "no-hidden-parameter-value": "Ukryte parametry raportu - {{parameters}} - nie mają wartości domyślnych. Aby pomyślnie wyświetlić podgląd tego raportu, edytuj go w Projektancie raportów i albo spraw, aby wymienione parametry nie były ukryte, albo określ ich wartości domyślne, albo wprowadź obie zmiany.",
+  "hidden-parameter-invalid-value": "Ukryte parametry raportu — {{parameters}} — mają nieprawidłowe wartości domyślne. Aby pomyślnie wyświetlić podgląd tego raportu, należy go edytować w Report Designer i poprawić ustawienia wymienionych parametrów."
 }

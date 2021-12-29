@@ -53,14 +53,14 @@ export const portalPL: LanguageKeyValueMap = {
 	pcTagsModel: 'Wzór tagów', // Tags Model
 	pcTagsDisplay: 'Wyświetl puste kategorie', // Display Empty System Categories
 	pcAllowCustomSchedule: 'Zezwól użytkownikowi tworzyć własne harmonogramy', // Allow User To Create Custom Schedule
-	pcEnableWebPageDocument: 'Enable webpage documents',
+	pcEnableWebPageDocument: 'Włącz dokumenty na stronie internetowej', // Enable webpage documents
 	pcAllowEditPersonalInformation: 'Zezwól użytkownikowi nad edycję informacji personalnych', // Allow User To Edit Personal Information
 	pcAllowEditPersonalTheme: 'Zezwól użytkownikowi na edycję osobistego motywu', // Allow User To Edit Personal Theme
 	pcHideWelcomeScreen: 'Ukryj ekran powitalny w portalu dokumentów', // Hide Welcome Screen On Document Portal
 	pcShowGlobalOrganization: 'Wyświetl główną organizację', // Show Global Organization
 	pcAllowUrlHideActions: 'Zezwól na \'ukryjAkcje\' w URL', // Allow \'hideActions\' In Url
-	pcAllowRoleControlDocumentColumns: 'Allow to control document columns by roles',
-	pcHideActions: 'Ukryj Akcje', // Hide Actions
+	pcAllowRoleControlDocumentColumns: 'Zezwalaj na kontrolowanie kolumn dokumentów według ról', // Allow to control document columns by roles
+	pcHideActions: 'Ukryj akcje', // Hide Actions
 	pcHideActionsTip: 'Działa tylko, gdy opcja \'ukryjAkcje\' w URL jest wyłączona', // Only works when Allow \'hideActions\' In Url option is off
 	pcHideActionsPlaceHolder: 'Ustaw Ukryte Akcje (oddzielane przecinkami)', // Please Set Hide Actions(Separated by commas)
 	pcHideDocumentListColumns: 'Ukryj kolumny listy dokumentów', // Hide Document List Columns
@@ -68,7 +68,7 @@ export const portalPL: LanguageKeyValueMap = {
 	pcEditPersonalInfo: 'Zarządzaj', // Manage Item
 	pcEditPersonalInfoTooltip: 'Zarządzaj niestandardowym atrybutem', // Manage Custom Property
 	pcLargeLogo: 'Duże logo', // Large Logo
-	pcLargeLogoDescription: 'This logo will be displayed in the upper left corner of Mobile Document Portal', // This logo will be displayed in the upper left corner of Mobile Document Portal
+	pcLargeLogoDescription: 'To logo będzie wyświetlane w lewym górnym rogu portalu dokumentów mobilnych', // This logo will be displayed in the upper left corner of Mobile Document Portal
 	pcLargeLogoRecommended: 'Zalecany rozmiar: 115px * 40px', // Recommended size: 115px * 40px
 	pcSmallLogo: 'Małe logo', // Small Logo
 	'pcSmallLogoDescription!en': 'To logo będzie wyświetlane w lewym górnym rogu portalu dokumentów i portalu zasobów', // This logo will be displayed in the upper left corner of Document Portal and Resource Portal
@@ -95,9 +95,9 @@ export const portalPL: LanguageKeyValueMap = {
 	pcLoginTipDescription: 'Podpowiedź będzie wyświetlana na stronie logowania', // This tip message will be displayed in the login page
 	pcLoginPreview: 'Podgląd Logowania', // Login Preview
 	pcWCAGCompatibility: 'Zgodność z WCAG', // WCAG Compatibility
-	pcAutoDismissNotifications: 'Automatyczne Odrzucanie Powiadomień', // Auto Dismiss Notifications
+	pcAutoDismissNotifications: 'Automatyczne odrzucanie powiadomień', // Auto Dismiss Notifications
 	pcDurationOfNotifications: 'Czas trwania powiadomień', // Duration of Notifications(s)
-	pcEnableDocumentDraft: 'Enable Document Draft',
+	pcEnableDocumentDraft: 'Włącz wersję roboczą dokumentu', // Enable Document Draft
 
 	// SMTP
 	emailSettingsTitle: 'Wiadomości email', // Email Settings
@@ -118,7 +118,7 @@ export const portalPL: LanguageKeyValueMap = {
 	enable: 'Włącz', // Enable
 	disable: 'Wyłącz', // Disable
 	mailProtocol: 'Protokół pocztowy', // 'Mail Protocol
-	googleClientID: 'Client ID', // Client ID
+	googleClientID: 'ID Klienta', // Client ID
 	googleClientSecret: 'Sekret Klienta', // Client Secret
 	senderName: 'Nazwa nadawcy', // Sender Name
 	senderEmail: 'Email nadawcy', // Sender E-Mail
@@ -203,7 +203,7 @@ export const portalPL: LanguageKeyValueMap = {
 	'queue!defaultExecLimit': 'Domyślny limit czasu wykonania (s)', // Default exec time limit (s)
 	'queue!maxExecLimit': 'Maksymalny czas wykonania (s)', // Maximal exec time (s)
 
-	'semanticModeling!alwaysDiscourageDistinct': 'Prevent generating DISTINCT(for Report)',
+	'semanticModeling!alwaysDiscourageDistinct': 'Zapobiegaj generowaniu DISTINCT (dla raportu)', // Prevent generating DISTINCT(for Report)
 
 	'portal!theme': 'Motyw', // Theme
 	'portal!theme!Default': 'Domyślny', // Default
@@ -327,9 +327,9 @@ export const portalPL: LanguageKeyValueMap = {
 	'theme!description': 'Motywy', // Themes
 	'geoJson!title': 'Mapy', // Map Data
 	'geoJson!description': 'Mapy', // Map Data
-	'floorPlan!title': 'Plan Budynku', // Floor Plan
-	'floorPlan!name': 'Plan Budynku', // Floor Plan
-	'floorPlan!description': 'Plan Budynku', // Floor Plan
+	'floorPlan!title': 'Plan budynku', // Floor Plan
+	'floorPlan!name': 'Plan budynku', // Floor Plan
+	'floorPlan!description': 'Plan budynku', // Floor Plan
 	'wbp!title': 'Strona internetowa', // Web Page
 	'wbp!name': 'Strona internetowa', // Web Page
 	'wbp!description': 'Strona internetowa', // Web Page
@@ -339,8 +339,8 @@ export const portalPL: LanguageKeyValueMap = {
 
 	'colorPropertyEditor_tabs_web': 'Kolory internetowe',
 	'colorPropertyEditor_tabs_hex': 'Inne kolory',
-	'colorPropertyEditor_colors_none': 'None',
-	'colorPropertyEditor_colors_theme': 'Theme',
+	'colorPropertyEditor_colors_none': 'Żadne',
+	'colorPropertyEditor_colors_theme': 'Motywu',
 	'colorPropertyEditor_hex': 'Hex',
 	'colorPropertyEditor_hue': 'Hue',
 	'colorPropertyEditor_lightness': 'Lightness',
@@ -353,22 +353,22 @@ export const portalPL: LanguageKeyValueMap = {
 	'reporting!parametersPanelPosition!Top': 'Góra', // Top
 	'reporting!parametersPanelPosition!Right': 'Prawo', // Right
 	'reporting!showParametersPanelByDefault': 'Domyślnie pokazuj panel parametrów', // Show parameter panel by default
-	'reporting!parameterPanelRoundedControls': 'Enable rounded corners for controls in parameter panel',
+	'reporting!parameterPanelRoundedControls': 'Włącz zaokrąglone rogi dla elementów sterujących w panelu parametrów', // Enable rounded corners for controls in parameter panel
 	'previewPagesSettings_limitPreviewPages': 'Limit stron podglądu', // Limit preview pages
 	'previewPagesSettings_previewPages': 'Strony podglądu', // Preview pages
 	'previewPagesSettingsTooltip': 'Ustawienie liczby stron podglądu ogranicza liczbę stron, która zostanie wygenerowana w podglądzie raportu. Pełny raport może zostać wygenerowany poprzez „Uruchom pełny raport.', // Limit preview pages setting limits number of report pages to be rendered in viewer. You can render a full report by clicking \'Run Full Report\'. This won\'t affect scheduling and exporting.
-	'pageViewOptions_horizontalAlignment_label': 'Page horizontal alignment',
-	'pageViewOptions_horizontalAlignment_left': 'Left',
-	'pageViewOptions_horizontalAlignment_right': 'Right',
-	'pageViewOptions_horizontalAlignment_center': 'Center',
-	'pageViewOptions_withoutPaperView_label': 'Page without paper view',
-	'loadChartAnimationOptions_enabled_label': 'Load chart animation',
-	'hoverChartAnimationOptions_enabled_label': 'Hover chart animation',
-	'hoverTableAnimationOptions_enabled_label': 'Hover table animation',
-	'hoverTableAnimationOptions_backgroundColor_label': 'Hover table background color',
-	'hoverTableAnimationOptions_textColor_label': 'Hover table text color',
+	'pageViewOptions_horizontalAlignment_label': 'Wyrównanie strony w poziomie', // Page horizontal alignment
+	'pageViewOptions_horizontalAlignment_left': 'Lewa', // Left
+	'pageViewOptions_horizontalAlignment_right': 'Prawa', // Right
+	'pageViewOptions_horizontalAlignment_center': 'Środek', // Center
+	'pageViewOptions_withoutPaperView_label': 'Strona bez widoku papieru', // Page without paper view
+	'loadChartAnimationOptions_enabled_label': 'Załaduj animację wykresu', // Load chart animation
+	'hoverChartAnimationOptions_enabled_label': 'Animacja wykresu po najechaniu kursorem', // Hover chart animation
+	'hoverTableAnimationOptions_enabled_label': 'Animacja po najechaniu na tablicę', // Hover table animation
+	'hoverTableAnimationOptions_backgroundColor_label': 'Kolor tła tabeli po najechaniu', // Hover table background color
+	'hoverTableAnimationOptions_textColor_label': 'Kolor tekstu w tabeli po najechaniu', // Hover table text color
 	'reporting!disableFocusTimer': 'Wyłącz zegar zaznaczenia', // Focus always visible
-	'reporting!enableChartWizard': 'Enable chart wizard',
+	'reporting!enableChartWizard': 'Włącz kreatora wykresów', // Enable chart wizard
 	'reporting!hideBlankRDLReport': 'Ukryj szablon raportu regularnego', // Hide blank RDL report
 	'hideBlankRDLReportTooltip': 'Ukryj wbudowany szablon raportu regularnego przy tworzeniu raportów.', // Hide the built-in Blank RDL Report template while creating reports.
 	'reporting!hideBlankPageReport': 'Ukryj szablon raportu stronicowego', // Hide blank Page report
@@ -384,8 +384,8 @@ export const portalPL: LanguageKeyValueMap = {
 
 	// Nav Toolbar
 	globalOrgName: 'Ogólny', // Global
-	switchOrganization: 'Zmień Organizację', // Switch Organization
-	editProfileSetting: 'Edytuj Ustawienia Profilu', // Edit Profile Setting
+	switchOrganization: 'Zmień organizację', // Switch Organization
+	editProfileSetting: 'Edytuj ustawienia profilu', // Edit Profile Setting
 
 	// Documents
 	DeleteDocumentError: 'Błąd podczas usuwania dokumentu', // Error deleting document
@@ -396,11 +396,11 @@ export const portalPL: LanguageKeyValueMap = {
 	'serverVersion': 'Serwer', // Server
 	'pluginTitle': 'Pluginy', // Plugins
 	'Portal': 'Plugin portalu', // Portal Plugin
-	'Scheduler': 'Plugin Planera', // Scheduler Plugin
-	'Shared Resources': 'Plugin Wspólnych Zasobów', // Shared Resources Plugin
-	'Server plugin': 'Plugin Serwera', // Server Plugin
-	'Account Management Plugin': 'Plugin Zarządzania Kontem', // Account Management Plugin
-	'Dataset Management Plugin': 'Plugin Zarządzania Zestawem Danych', // Dataset Management Plugin
+	'Scheduler': 'Plugin planera', // Scheduler Plugin
+	'Shared Resources': 'Plugin wspólnych zasobów', // Shared Resources Plugin
+	'Server plugin': 'Plugin serwera', // Server Plugin
+	'Account Management Plugin': 'Plugin zarządzania kontem', // Account Management Plugin
+	'Dataset Management Plugin': 'Plugin zarządzania zestawem danych', // Dataset Management Plugin
 	'GCES Dashboards': 'Plugin WynDashboards', // WynDashboards Plugin
 	'GCES Reporting': 'Plugin WynReports', //  WynReports Plugin
 
@@ -419,9 +419,9 @@ export const portalPL: LanguageKeyValueMap = {
 	'UpdateNotificationSkipVersionError': 'Nie udało się pominąć wersji', // Failed to skip the version
 	'UpdateNotificationSkipVersionSuccess': 'Pomyślnie pominięto wersję', // Skipped version successfully
 	'UpdateNotificationSkipVersionSuccessDetail': 'Pomyślnie pominięto wersję "Version {{version}}"', // Success to skip the version "Version {{version}}"
-	'vsReleaseTime': 'Data Wydania:', // Release Date:
+	'vsReleaseTime': 'Data wydania:', // Release Date:
 	'vsSummary': 'Podsumowanie:', // Summary:
-	'vsViewDetail': 'Pokaż Szczegóły', // View Detail
+	'vsViewDetail': 'Pokaż szczegóły', // View Detail
 
 	// AdminUploadPanel
 	dzDragDrop: 'Przeciągnij i upuść', // Drag & Drop
@@ -457,16 +457,16 @@ export const portalPL: LanguageKeyValueMap = {
 	err_20019: 'Kategoria z liczbą porządkową "{{order}}" już istnieje.', // Category with the order "{{order}}" already exists ### Kontekst do sprawdzenia
 	err_20029: 'Nie można użyć systemowej nazwy "{{ name }}".', // Can not use system reserved tag name "{{ name }}"
 
-	cachingSettingsIntervalHour: 'Hour',
-	cachingSettingsIntervalDay: 'Day',
-	cachingSettingsIntervalWeek: 'Week',
-	cachingSettingsIntervalMonth: 'Month',
-	cachingSettingsTypeFull: 'Full',
-	cachingSettingsTypePreview: 'Preview',
-	cachingSettings_enabled: 'Enable report caching',
-	cachingSettings_type: 'Default cache type',
-	cachingSettings_expiryValue: 'Caching expiry',
-	cachingSettings_interval: 'Caching interval',
-	cachingSettings_allowUserToChangeType: 'Allow user to change cache type',
-	cachingSettings_allowUserToChangeExpiry: 'Allow user to set cache expiry',
+	cachingSettingsIntervalHour: 'Godzina', // Hour
+	cachingSettingsIntervalDay: 'Dzień', // Day
+	cachingSettingsIntervalWeek: 'Tydzień', // Week
+	cachingSettingsIntervalMonth: 'Miesiąc', // Month
+	cachingSettingsTypeFull: 'Pełny', // Full
+	cachingSettingsTypePreview: 'Podgląd', // Preview
+	cachingSettings_enabled: 'Włącz buforowanie raportów', // Enable report caching
+	cachingSettings_type: 'Domyślny typ pamięci podręcznej', // Default cache type
+	cachingSettings_expiryValue: 'Wygaśnięcie pamięci podręcznej', // Caching expiry
+	cachingSettings_interval: 'Interwał buforowania', // Caching interval
+	cachingSettings_allowUserToChangeType: 'Zezwól użytkownikowi na zmianę typu pamięci podręcznej', // Allow user to change cache type
+	cachingSettings_allowUserToChangeExpiry: 'Zezwól użytkownikowi na ustawienie wygaśnięcia pamięci podręcznej', // Allow user to set cache expiry
 };

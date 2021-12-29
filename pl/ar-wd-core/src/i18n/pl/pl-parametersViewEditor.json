@@ -6,8 +6,8 @@
   "parametersPanel": {
     "titleEditParameter": "Edit Parameter...",
     "headingEditParameter": "Edytuj parametr",
-    "headingEditable": "Editable",
-    "headingHidden": "Hidden"
+    "headingEditable": "Edytowany",
+    "headingHidden": "Ukryty"
   },
   "sideBar": {
     "collapse": "Zwiń",
@@ -18,7 +18,7 @@
   "canvas": "Płótno",
   "properties": {
     "labels": {
-      "binding": "Binding",
+      "binding": "Wiązanie",
       "left": "Lewo",
       "top": "Góra",
       "width": "Szerokość",
@@ -37,7 +37,7 @@
       "maxRange": "Maks. zakres",
       "viewMode": "Tryb podglądu",
       "daysHeaderFormat": "Format nagłówka dni",
-      "placeholder": "Placeholder",
+      "placeholder": "Symbol zastępczy",
       "alignment": "Wyrównanie",
       "color": "Kolor",
       "strikeThrough": "Przekreślenie",
@@ -58,7 +58,7 @@
       "fields": "Pola"
     },
     "categories": {
-      "binding": "Binding",
+      "binding": "Wiązanie",
       "locationAndSize": "Lokalizacja i rozmiar",
       "details": "Szczegóły",
       "label": "Etykieta",
@@ -123,7 +123,7 @@
     "labelDateTime": "Parametr DataCzas",
     "labelDropdown": "Parametr rozwijany",
     "labelList": "Parametr listy",
-    "labelMultivalue": "Multivalue Parameter",
+    "labelMultivalue": "Parametr wielowartościowy",
     "labelNumber": "Parmetr liczbowy",
     "labelNumberRange": "Parametr zakres liczbowy",
     "labelSingleLineParameter": "Parametr jednoliniowy",
@@ -138,7 +138,7 @@
     "textHeading": "Tekst nagłówka",
     "nameHeading": "Nagłówek",
     "nameList": "Edytor listy",
-    "nameMultivalue": "Multivalue Editor",
+    "nameMultivalue": "Edytor wielowartościowy",
     "textNull": "Pusty",
     "nameNumber": "Edytor liczb",
     "textCheckRangeType": "Parametry powinny mieć ten sam typ danych",
@@ -227,7 +227,7 @@
   },
   "msgString": {
     "notSupControl": "nie jest wspierany przez ten element sterujący",
-    "controlNotSupportSingle": "This control doesn't support single value parameters",
+    "controlNotSupportSingle": "Ta kontrolka nie obsługuje parametrów o pojedynczej wartości",
     "controlRequires": "Ten element sterujący wymaga listy dostępnych wartości",
     "controlNotSupportParameters": "Ten element sterujący nie obsługuje parametrów ze zdefiniowanymi wartościami"
   }

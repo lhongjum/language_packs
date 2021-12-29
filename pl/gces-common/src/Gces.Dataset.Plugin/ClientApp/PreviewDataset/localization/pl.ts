@@ -21,9 +21,9 @@ export const pl = {
 	err_10015: 'Filtr "{filter}" odnosi się do nieokreślonego parametru "{referredParameter}".', // Filter "{filter}" is referencing an undefined parameter "{referredParameter}".
 	err_10016: 'Wystąpił błąd podczas działania: {message}', // Runtime error occurred: {message}
 	err_10017: 'Filtrowanie z użycium operatora BETWEEN wymaga dwóch parametrów.', // Filter with BETWEEN operator requires 2 parameters.
-	err_10018: 'In \'Cached Dataset\' mode,CustomSql cannot reference a User Context parameter "{referredParameter}".',
-	err_10019: 'In \'Cached Dataset\' mode,Calculated field "{calculatedField}" cannot reference a User Context parameter "{referredParameter}".',
-	err_10020: 'In \'Cached Dataset\' mode,Sql expression "{sqlExpression}" on table "{table}" can\'t reference an User Context parameter "{referredParameter}".',
+	err_10018: 'W trybie \'Zbuforowanego zestawu danych\' CustomSql nie może odwoływać się do parametru kontekstu użytkownika "{referredParameter}".', // In \'Cached Dataset\' mode,CustomSql cannot reference a User Context parameter "{referredParameter}".
+	err_10019: 'W trybie \'Zbuforowanego zestawu danych\' pole obliczeniowe "{calculatedField}" nie może odwoływać się do parametru kontekstu użytkownika "{referredParameter}".', // In \'Cached Dataset\' mode,Calculated field "{calculatedField}" cannot reference a User Context parameter "{referredParameter}".
+	err_10020: 'W trybie \'Zbuforowanego zestawu danycht\' wyrażenie SQL "{sqlExpression}" w tabeli "{table}" nie może odwoływać się do parametru kontekstu użytkownika "{referredParameter}".', // In \'Cached Dataset\' mode,Sql expression "{sqlExpression}" on table "{table}" can\'t reference an User Context parameter "{referredParameter}".
 	err_10022: 'Pole obliczeniowe "{calculatedField}" nie może odnosić się do samego siebie', // Calculated field "{calculatedField}" cannot reference itself.
 	err_10023: 'Pole obliczeniowe zawiera odwołanie cykliczne', // Calculated field contains cycle reference.
 	err_10024: 'Pole w warunku JOIN/UNION jest niespójne i nie może zostać skonwertowane.', // The join/union condition field type is inconsistent and can not be converted.
@@ -33,7 +33,7 @@ export const pl = {
 	err_10028: 'Niestandardowa tabela SQL nie może zawierać zduplikowanej kolumny: "{{column}}"', // Custom SQL table could not contain duplicate column:"{{column}}".
 	err_10029: 'Filtr "W" nie może zawierać pustej grupy oraz/lub.', // In filter cannot contain empty and/or group.
 	err_10034: 'Wyrażenie SQL odnosi się do niezdefiniowanego parametru "{{referredParameter}}".', // Sql expression is referencing an undefined parameter "{{referredParameter}}".
-	err_10035: 'In \'Cached Dataset\' mode,Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".',
+	err_10035: 'W trybie \'Zbuforowanego zestawu danych\' wyrażenie SQL nie może odwoływać się do parametru {{context}} "{{referredParameter}}".', // In \'Cached Dataset\' mode,Sql expression can\'t reference an {{context}} parameter "{{referredParameter}}".
 	err_10036: 'Następujące powiązane parametry nie zostały znalezione w niestandardowej tabeli SQL: "{{referredParameters}}".', // The following bound parameters are not found in custom Sql table: "{{referredParameters}}".
 	err_100002: 'Błąd wewnętrzny serwera: {message}.', // Internal server error: {message}.
 	err_100017: 'Wartość kontekstu użytkownika jest nieprawidłowa i nie można jej przekonwertować.', // The user context value is invalid and can not be converted.

@@ -179,7 +179,7 @@
       "textIndent": "Wcięcie tekstu",
       "textJustify": "Justowanie tekstu",
       "unicodeBiDi": "Unicode BiDi",
-      "uprightInVerticalText": "Upright In Vertical Text",
+      "uprightInVerticalText": "Pionowo w tekście pionowym",
       "verticalAlign": "Wyrównanie pionowe",
       "wrapMode": "Tryb zawijania",
       "writingMode": "Tryb pisania"
@@ -274,7 +274,7 @@
       "newSection": "Nowa sekcja",
       "pageBreak": "Przełamanie strony",
       "pageBreakDisabled": "Przełamanie strony wyłączone",
-      "newPage": "New Page",
+      "newPage": "Nowa strona",
       "parent": "Nadrzędny",
       "printFooterAtBottom": "Drukuj stopkę na dole"
     },
@@ -293,7 +293,7 @@
       "value": "Wartość"
     },
     "layer": {
-      "designerDataFieldVisible": "Field Selector Availability",
+      "designerDataFieldVisible": "Dostępność selektora pól",
       "designerLock": "Blokada projektanta",
       "designerTransparency": "Przezroczystość projektanta",
       "designerVisible": "Widoczność projektanta",
@@ -533,7 +533,7 @@
       "noRowsMessage": "Wiadomość",
       "overflowName": "Nazwa przepływu",
       "pageBreak": "Przełamanie strony",
-      "newPage": "New Page",
+      "newPage": "Nowa strona",
       "repeatToFill": "Powtórz, aby wypełnić",
       "sortExpressions": "Wyrażenia sortowania",
       "throwIfPlaceHoldersEmpty": "Wyrzuć jeśli symbole zastępcze są puste"
